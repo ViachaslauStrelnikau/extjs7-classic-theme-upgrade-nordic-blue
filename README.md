@@ -4,7 +4,7 @@
 
 ## Состояние
 
-Выполнены **TASK-001–015**: аудит SDK/Cmd, theme package, палитра, согласованные значки v3, сравнения геометрии/поведения и начальный визуальный эталон. Реальные testing/development/production сборки лаборатории проходили; окончательная матрица сборок/интеграции и поставка остаются **TASK-016/017**. Это не заявление об окончательной готовности темы.
+Выполнены **TASK-001–016**: аудит SDK/Cmd, theme package, палитра, согласованные значки v3, сравнения геометрии/поведения и начальный визуальный эталон. Реальные testing/development/production сборки лаборатории проходили; матрица сборок/интеграции TASK-016 пройдена; поставка остаётся **TASK-017**. Это не заявление об окончательной готовности темы.
 
 - [Инструкции Codex](AGENTS.md), [требования](docs/nordic-blue-requirements.md), [руководство агента](docs/nordic-blue-agent-guide.md).
 - [Задачи и статусы](docs/plans/nordic-blue/README.md).
@@ -59,3 +59,7 @@ python tools/nordic-blue-visual/run.py --output artifacts/nordic-blue/visual-new
 Сохранены исходники, планы, approved masters/candidates, baseline captures, отчёты/контроли и golden-v1. `.gitattributes` сохраняет точные байты: approval/политики/снимки привязаны к SHA, автоматическая замена LF/CRLF нарушила бы проверки.
 
 Исключены только локальные SDK/зависимости/outputs/caches, архивы evidence.zip и каталоги archived compiled CSS/resources. Архив TASK-009 содержит compiled SDK CSS и остаётся локальным. Исторические artifact manifests описывают полный локальный audit и поэтому могут перечислять исключённые файлы; они не являются inventory Git checkout. Для повторного запуска восстановите SDK/dependencies и сборку. Предыдущая история ChatGPT не переносилась буквально — архитектурный контекст сохранён в документах проекта.
+
+## Build/browser acceptance
+
+TASK-016 passed actual development/testing/production pages in Edge155, Chromium156 and Firefox152 at DPR1/2, including unchanged real TestApp views and app Sass. [Report](artifacts/nordic-blue/TASK-016/acceptance-report.md), [review](artifacts/nordic-blue/TASK-016/review.html), [harness](tools/nordic-blue-acceptance/README.md). Delivery documentation remains TASK-017; SDK7.9 is not tested.

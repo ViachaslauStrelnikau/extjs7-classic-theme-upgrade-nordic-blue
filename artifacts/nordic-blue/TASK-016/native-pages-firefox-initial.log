@@ -1,0 +1,13 @@
+{"browser":"firefox","scope":"lab","mode":"testing","dpr":1,"theme":"classic","status":"PASS"}
+{"browser":"firefox","scope":"real","mode":"testing","dpr":1,"theme":"classic","status":"PASS"}
+{"browser":"firefox","scope":"lab","mode":"testing","dpr":1,"theme":"nordic","status":"PASS"}
+{"browser":"firefox","scope":"real","mode":"testing","dpr":1,"theme":"nordic","status":"PASS"}
+{"browser":"firefox","scope":"lab","mode":"testing","dpr":2,"theme":"classic","status":"PASS"}
+{"browser":"firefox","scope":"real","mode":"testing","dpr":2,"theme":"classic","status":"PASS"}
+{"browser":"firefox","scope":"lab","mode":"testing","dpr":2,"theme":"nordic","status":"PASS"}
+{"browser":"firefox","scope":"real","mode":"testing","dpr":2,"theme":"nordic","status":"PASS"}
+page.waitForFunction: Timeout 30000ms exceeded.
+    at D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\tools\nordic-blue-acceptance\native-pages.cjs:32:60 {
+  log: [],
+  name: 'TimeoutError'
+}

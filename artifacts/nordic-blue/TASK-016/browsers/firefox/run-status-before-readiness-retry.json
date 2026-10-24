@@ -1,0 +1,14 @@
+{
+  "status": "FAIL",
+  "browser": {
+    "name": "firefox",
+    "status": "AVAILABLE",
+    "version": "152.0.4",
+    "executable": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe",
+    "launchOptions": {
+      "headless": true,
+      "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe"
+    }
+  },
+  "error": "capture-nordic-dpr-2 failed"
+}

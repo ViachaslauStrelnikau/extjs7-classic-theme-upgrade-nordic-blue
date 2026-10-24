@@ -1,0 +1,4 @@
+{"browser":"edge","scope":"lab","mode":"testing","dpr":1,"theme":"classic","status":"PASS"}
+{"browser":"edge","scope":"real","mode":"testing","dpr":1,"theme":"classic","status":"PASS"}
+{"browser":"edge","scope":"lab","mode":"testing","dpr":1,"theme":"nordic","status":"PASS"}
+{"browser":"edge","scope":"real","mode":"testing","dpr":1,"theme":"nordic","status":"PASS"}

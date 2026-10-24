@@ -1,0 +1,136 @@
+[
+  {
+    "step": "capture-classic-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\capture.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "capture-nordic-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\capture.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "form-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\form-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "grid-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\grid-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "secondary-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\secondary-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "core-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\core-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "window-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\window-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "capture-classic-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\capture.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "capture-nordic-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\capture.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "form-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\form-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "grid-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\grid-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "secondary-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\secondary-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "core-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\core-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "window-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\window-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "compare",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-016\\browsers\\firefox\\compare-browser.py"
+    ],
+    "exitCode": 0
+  }
+]

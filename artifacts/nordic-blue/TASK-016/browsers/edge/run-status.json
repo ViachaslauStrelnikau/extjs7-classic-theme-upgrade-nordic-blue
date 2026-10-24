@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "browser": {
+    "name": "edge",
+    "status": "AVAILABLE",
+    "version": "155.0.4283.62",
+    "executable": "installed msedge",
+    "launchOptions": {
+      "headless": true,
+      "channel": "msedge",
+      "args": [
+        "--disable-gpu",
+        "--force-color-profile=srgb"
+      ]
+    }
+  }
+}

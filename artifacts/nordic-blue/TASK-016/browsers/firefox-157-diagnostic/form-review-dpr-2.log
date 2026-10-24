@@ -1,0 +1,29 @@
+{"theme":"classic","dpr":2,"action":"text-input","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"textarea-input","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"date-input","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"time-picker-selection","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"number-keyboard-up","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"number-keyboard-down","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"number-max-bound","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"required-invalid","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"readonly-blocks-input","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"disabled-input-state","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"combo-open","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"combo-keyboard-selection","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"spinner-mouse-up","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"spinner-mouse-down","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"clear-trigger","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"date-picker-next-select","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"checkbox-space-on","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"checkbox-space-off","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"radio-arrow-selection","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"checkbox-disabled-state","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"fieldset-collapse","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"fieldset-expand","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"fieldset-checkbox-expand","status":"PASS"}
+{"theme":"classic","dpr":2,"action":"fieldset-checkbox-collapse","status":"PASS"}
+browserContext.close: Protocol error (Browser.removeBrowserContext): can't access property "_maybeDontRestoreTabs", this[#windows][aWindow.__SSi] is undefined
+    at async D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\artifacts\nordic-blue\TASK-016\browsers\firefox\form-review.cjs:82:3 {
+  log: [],
+  name: 'Error'
+}

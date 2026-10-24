@@ -1,0 +1,974 @@
+{
+  "status": "PASS",
+  "protectedFiles": 700,
+  "changedProtectedFiles": [],
+  "builtAssets": [
+    {
+      "scope": "theme-lab",
+      "mode": "testing",
+      "assets": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-lab",
+      "mode": "development",
+      "assets": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-lab",
+      "mode": "production",
+      "assets": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-acceptance",
+      "mode": "testing",
+      "assets": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-acceptance",
+      "mode": "development",
+      "assets": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-acceptance",
+      "mode": "production",
+      "assets": 648,
+      "status": "PASS"
+    }
+  ],
+  "modePairs": [
+    {
+      "label": "development-dpr-1",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "development-dpr-1",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "development-dpr-2",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "development-dpr-2",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "development-dpr-2-fallback",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "development-dpr-2-fallback",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "production-dpr-1",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "production-dpr-1",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "production-dpr-2",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "production-dpr-2",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "production-dpr-2-fallback",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "production-dpr-2-fallback",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "testing-dpr-1",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "testing-dpr-1",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "testing-dpr-2",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "testing-dpr-2",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "testing-dpr-2-fallback",
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    },
+    {
+      "label": "testing-dpr-2-fallback",
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "iconObservations": 254
+    }
+  ],
+  "buildWarnings": [
+    {
+      "label": "lab-classic-testing",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-nordic-testing",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-classic-testing",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-nordic-testing",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-classic-development",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-nordic-development",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-classic-development",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-nordic-development",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-classic-production",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-nordic-production",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-classic-production",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-nordic-production",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "original-app-testing",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-classic-development-output",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "lab-nordic-development-output",
+      "uniqueWarnings": [],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-classic-development-output",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    },
+    {
+      "label": "real-nordic-development-output",
+      "uniqueWarnings": [
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif",
+        "@theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif",
+        "@theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif"
+      ],
+      "newWarningsComparedWithOriginal": []
+    }
+  ],
+  "manifestPairs": [
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "chromium",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "flags": {
+        "theme": {
+          "classic": {},
+          "is": {
+            "Classic": true
+          },
+          "name": "Classic"
+        },
+        "enableFx": true
+      }
+    }
+  ]
+}

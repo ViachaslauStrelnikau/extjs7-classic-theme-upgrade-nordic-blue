@@ -1,0 +1,20 @@
+{"browser":"edge","scope":"lab","mode":"testing","dpr":1,"theme":"classic","status":"PASS"}
+{"browser":"edge","scope":"real","mode":"testing","dpr":1,"theme":"classic","status":"PASS"}
+{"browser":"edge","scope":"lab","mode":"testing","dpr":1,"theme":"nordic","status":"PASS"}
+page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+    - disabled all CSS animations
+  - waiting for fonts to load...
+  - fonts loaded
+
+    at checkpoint (D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\tools\nordic-blue-acceptance\native-pages.cjs:40:88)
+    at async D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\tools\nordic-blue-acceptance\native-pages.cjs:47:225 {
+  log: [
+    '  - taking page screenshot',
+    '    - disabled all CSS animations',
+    '  - waiting for fonts to load...',
+    '  - fonts loaded'
+  ],
+  name: 'TimeoutError'
+}

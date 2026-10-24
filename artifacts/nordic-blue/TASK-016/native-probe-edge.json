@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "browser": {
+    "name": "edge",
+    "status": "AVAILABLE",
+    "version": "155.0.4283.62",
+    "executable": "installed msedge",
+    "launchOptions": {
+      "headless": true,
+      "channel": "msedge",
+      "args": [
+        "--disable-gpu",
+        "--force-color-profile=srgb"
+      ]
+    }
+  },
+  "records": [
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-probe/edge/lab/testing/dpr-1/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-probe/edge/real/testing/dpr-1/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "edge",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-probe/edge/lab/testing/dpr-1/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "edge",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-probe/edge/real/testing/dpr-1/nordic/wide-responsive.json",
+      "elements": 218
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "status": "PASS",
+  "browser": {
+    "name": "firefox",
+    "status": "AVAILABLE",
+    "version": "152.0.4",
+    "executable": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe",
+    "launchOptions": {
+      "headless": true,
+      "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe"
+    }
+  },
+  "records": [
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/testing/dpr-1/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/testing/dpr-1/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/testing/dpr-1/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/testing/dpr-1/nordic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/testing/dpr-2/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/testing/dpr-2/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/testing/dpr-2/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "testing",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/testing/dpr-2/nordic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/development/dpr-1/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/development/dpr-1/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/development/dpr-1/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/development/dpr-1/nordic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/development/dpr-2/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/development/dpr-2/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/development/dpr-2/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "development",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/development/dpr-2/nordic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/production/dpr-1/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/production/dpr-1/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/production/dpr-1/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 1,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/production/dpr-1/nordic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/production/dpr-2/classic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "classic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/production/dpr-2/classic/wide-responsive.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "lab",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "overview",
+      "path": "native-pages/firefox/lab/production/dpr-2/nordic/overview.json",
+      "elements": 841
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "home-tall",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/home-tall.json",
+      "elements": 129
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "selection-confirm",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/selection-confirm.json",
+      "elements": 205
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "confirm-no",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/confirm-no.json",
+      "elements": 203
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-1",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/tab-1.json",
+      "elements": 208
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-2",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/tab-2.json",
+      "elements": 213
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "tab-3",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/tab-3.json",
+      "elements": 218
+    },
+    {
+      "browser": "firefox",
+      "scope": "real",
+      "mode": "production",
+      "dpr": 2,
+      "theme": "nordic",
+      "state": "wide-responsive",
+      "path": "native-pages/firefox/real/production/dpr-2/nordic/wide-responsive.json",
+      "elements": 218
+    }
+  ]
+}

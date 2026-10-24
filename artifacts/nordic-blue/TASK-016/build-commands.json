@@ -1,0 +1,151 @@
+[
+  {
+    "label": "lab-classic-testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-classic",
+      "testing"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "lab-nordic-testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-nordic",
+      "testing"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "real-classic-testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\classic",
+      "app",
+      "build",
+      "testing"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "real-nordic-testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\nordic",
+      "app",
+      "build",
+      "testing"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "lab-classic-development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-classic",
+      "development"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "lab-nordic-development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-nordic",
+      "development"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "real-classic-development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\classic",
+      "app",
+      "build",
+      "development"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "real-nordic-development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\nordic",
+      "app",
+      "build",
+      "development"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "lab-classic-production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-classic",
+      "production"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "lab-nordic-production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-nordic",
+      "production"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "real-classic-production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\classic",
+      "app",
+      "build",
+      "production"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "real-nordic-production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\nordic",
+      "app",
+      "build",
+      "production"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "original-app-testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp",
+      "app",
+      "build",
+      "testing"
+    ],
+    "exitCode": 0
+  }
+]

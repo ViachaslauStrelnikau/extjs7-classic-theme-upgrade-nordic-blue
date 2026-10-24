@@ -1,0 +1,16 @@
+[
+  {
+    "label": "lab-classic-development-output",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "-Dskip.page=0",
+      "-Dskip.js=0",
+      "-cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab",
+      "app",
+      "build",
+      "lab-classic",
+      "development"
+    ],
+    "exitCode": 321
+  }
+]

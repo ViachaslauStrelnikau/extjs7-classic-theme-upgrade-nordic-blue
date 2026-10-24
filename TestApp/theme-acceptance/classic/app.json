@@ -1,0 +1,137 @@
+{
+  "name": "TestApp",
+  "namespace": "TestApp",
+  "version": "1.0.0.0",
+  "framework": "ext",
+  "toolkit": "classic",
+  "theme": "ext-theme-classic",
+  "requires": [
+    "font-awesome"
+  ],
+  "indexHtmlPath": "index.html",
+  "classpath": [
+    "${workspace.dir}/app"
+  ],
+  "overrides": [
+    "${workspace.dir}/overrides"
+  ],
+  "fashion": {
+    "missingParameters": "error",
+    "inliner": {
+      "enable": false
+    }
+  },
+  "sass": {
+    "namespace": "TestApp",
+    "generated": {
+      "var": "${workspace.dir}/sass/save.scss",
+      "src": "${workspace.dir}/sass/save"
+    },
+    "etc": [
+      "${workspace.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${workspace.dir}/sass/var/all.scss",
+      "${workspace.dir}/sass/var"
+    ],
+    "src": [
+      "${workspace.dir}/sass/src"
+    ]
+  },
+  "js": [
+    {
+      "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+    },
+    {
+      "path": "${workspace.dir}/app.js",
+      "bundle": true
+    }
+  ],
+  "css": [
+    {
+      "path": "${build.out.css.path}",
+      "bundle": true,
+      "exclude": [
+        "fashion"
+      ]
+    }
+  ],
+  "loader": {
+    "cache": false,
+    "cacheParam": "_dc"
+  },
+  "production": {
+    "output": {
+      "appCache": {
+        "enable": false,
+        "path": "cache.appcache"
+      }
+    },
+    "loader": {
+      "cache": "${build.timestamp}"
+    },
+    "cache": {
+      "enable": true
+    },
+    "compressor": {
+      "type": "yui"
+    }
+  },
+  "testing": {},
+  "development": {
+    "watch": {
+      "delay": 250
+    }
+  },
+  "bootstrap": {
+    "base": "${app.dir}",
+    "microloader": "bootstrap.js",
+    "css": "bootstrap.css"
+  },
+  "output": {
+    "base": "${workspace.dir}/build/theme-acceptance/classic/${build.environment}",
+    "appCache": {
+      "enable": false
+    }
+  },
+  "cache": {
+    "enable": false,
+    "deltas": true
+  },
+  "appCache": {
+    "cache": [
+      "index.html"
+    ],
+    "network": [
+      "*"
+    ],
+    "fallback": []
+  },
+  "resources": [
+    {
+      "path": "${workspace.dir}/resources",
+      "output": "shared"
+    }
+  ],
+  "archivePath": "archive",
+  "slicer": {
+    "js": [
+      {
+        "path": "sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ],
+    "output": {
+      "appCache": {
+        "enable": false
+      }
+    },
+    "cache": {
+      "enable": false
+    }
+  },
+  "ignore": [
+    "(^|/)CVS(/?$|/.*?$)"
+  ],
+  "id": "e70bfcaa-adb6-4e36-b645-57b6287e2694"
+}

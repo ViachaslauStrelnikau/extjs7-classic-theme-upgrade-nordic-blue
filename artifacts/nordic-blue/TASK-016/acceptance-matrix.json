@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "browsers": [
+    {
+      "status": "PASS",
+      "baselinePolicy": "Fresh Classic/Nordic within the same actual browser and DPR; no cross-browser coordinate/font equivalence claim. Original Edge TASK-006 is immutable. Missing/count/state/duplicate checks remain exact.",
+      "browser": {
+        "name": "edge",
+        "status": "AVAILABLE",
+        "version": "155.0.4283.62",
+        "executable": "installed msedge",
+        "launchOptions": {
+          "headless": true,
+          "channel": "msedge",
+          "args": [
+            "--disable-gpu",
+            "--force-color-profile=srgb"
+          ]
+        }
+      },
+      "coveragePairs": 204,
+      "actionStatePairs": 236,
+      "additionalCoreFlows": 20,
+      "elementComparisons": 21614
+    },
+    {
+      "status": "PASS",
+      "baselinePolicy": "Fresh Classic/Nordic within the same actual browser and DPR; no cross-browser coordinate/font equivalence claim. Original Edge TASK-006 is immutable. Missing/count/state/duplicate checks remain exact.",
+      "browser": {
+        "name": "chromium",
+        "status": "AVAILABLE",
+        "version": "156.0.8078.4",
+        "executable": "C:/Users/Damned/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe",
+        "launchOptions": {
+          "headless": true,
+          "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe",
+          "args": [
+            "--disable-gpu",
+            "--force-color-profile=srgb"
+          ]
+        }
+      },
+      "coveragePairs": 204,
+      "actionStatePairs": 236,
+      "additionalCoreFlows": 20,
+      "elementComparisons": 21614
+    },
+    {
+      "status": "PASS",
+      "baselinePolicy": "Fresh Classic/Nordic within the same actual browser and DPR; no cross-browser coordinate/font equivalence claim. Original Edge TASK-006 is immutable. Missing/count/state/duplicate checks remain exact.",
+      "browser": {
+        "name": "firefox",
+        "status": "AVAILABLE",
+        "version": "152.0.4",
+        "executable": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe",
+        "launchOptions": {
+          "headless": true,
+          "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe"
+        }
+      },
+      "coveragePairs": 204,
+      "actionStatePairs": 236,
+      "additionalCoreFlows": 20,
+      "elementComparisons": 21614
+    }
+  ],
+  "nativePairs": 144,
+  "nativeElements": 40230,
+  "buildInvocations": 17,
+  "standalonePackageBuild": {
+    "status": "NOT_REQUIRED",
+    "reason": "Delivery is source theme package consumed by Sencha Cmd app builds; no precompiled standalone package promised."
+  },
+  "sdk79": {
+    "status": "NOT_RUN",
+    "reason": "Optional TASK-018; not part of target 7.7 acceptance."
+  },
+  "scope": "Windows, installed browsers, DPR1/2. Fresh Classic/Nordic comparisons within each browser. Exact visual goldens remain Edge-only TASK-015."
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "edge",
+    "status": "AVAILABLE",
+    "version": "155.0.4283.62",
+    "executable": "installed msedge",
+    "launchOptions": {
+      "headless": true,
+      "channel": "msedge",
+      "args": [
+        "--disable-gpu",
+        "--force-color-profile=srgb"
+      ]
+    }
+  },
+  {
+    "name": "chromium",
+    "status": "AVAILABLE",
+    "version": "156.0.8078.4",
+    "executable": "C:/Users/Damned/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe",
+    "launchOptions": {
+      "headless": true,
+      "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe",
+      "args": [
+        "--disable-gpu",
+        "--force-color-profile=srgb"
+      ]
+    }
+  },
+  {
+    "name": "firefox",
+    "status": "AVAILABLE",
+    "version": "157.0",
+    "executable": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1555/firefox/firefox.exe",
+    "launchOptions": {
+      "headless": true,
+      "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1555/firefox/firefox.exe"
+    }
+  }
+]

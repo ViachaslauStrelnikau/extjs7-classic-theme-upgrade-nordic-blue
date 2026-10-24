@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:51752/build/testing/TestApp/index.html",
+  "browser": "156.0.4314.42",
+  "state": {
+    "sdk": "7.7.0.31",
+    "tabs": [
+      "Home",
+      "Users",
+      "Groups",
+      "Settings"
+    ],
+    "records": 4,
+    "packages": [
+      "classic",
+      "cmd",
+      "core",
+      "ext",
+      "font-awesome",
+      "theme-base",
+      "theme-classic",
+      "theme-neutral"
+    ]
+  },
+  "errors": [],
+  "bad": []
+}

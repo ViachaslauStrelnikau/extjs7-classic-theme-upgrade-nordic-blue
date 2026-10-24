@@ -1,0 +1,2 @@
+Error: {"name":"chromium","scope":"lab","mode":"testing","dpr":1,"theme":"classic","errors":["console: Failed to load resource: the server responded with a status of 404 (Not Found)"],"bad":[],"unexpected":[]}
+    at D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\tools\nordic-blue-acceptance\native-pages.cjs:55:167

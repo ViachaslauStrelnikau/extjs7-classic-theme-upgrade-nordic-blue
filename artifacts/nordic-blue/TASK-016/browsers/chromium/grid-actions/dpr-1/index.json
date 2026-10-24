@@ -1,0 +1,375 @@
+{
+  "status": "PASS",
+  "dpr": 1,
+  "browser": "156.0.8078.4",
+  "records": [
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-sort-asc",
+      "path": "grid-actions\\dpr-1\\classic\\grid-sort-asc.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-sort-asc.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-sort-desc",
+      "path": "grid-actions\\dpr-1\\classic\\grid-sort-desc.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-sort-desc.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-row-select",
+      "path": "grid-actions\\dpr-1\\classic\\grid-row-select.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-row-select.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-keyboard-next-row",
+      "path": "grid-actions\\dpr-1\\classic\\grid-keyboard-next-row.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-keyboard-next-row.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-checkcolumn-toggle",
+      "path": "grid-actions\\dpr-1\\classic\\grid-checkcolumn-toggle.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-checkcolumn-toggle.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-header-menu-open",
+      "path": "grid-actions\\dpr-1\\classic\\grid-header-menu-open.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-header-menu-open.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-header-menu-escape",
+      "path": "grid-actions\\dpr-1\\classic\\grid-header-menu-escape.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-header-menu-escape.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-column-resize-drag",
+      "path": "grid-actions\\dpr-1\\classic\\grid-column-resize-drag.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-column-resize-drag.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-compact-viewport",
+      "path": "grid-actions\\dpr-1\\classic\\grid-compact-viewport.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-compact-viewport.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "grid-scroll-both-axes",
+      "path": "grid-actions\\dpr-1\\classic\\grid-scroll-both-axes.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\grid-scroll-both-axes.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "tree-mouse-collapse",
+      "path": "grid-actions\\dpr-1\\classic\\tree-mouse-collapse.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\tree-mouse-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "tree-mouse-expand",
+      "path": "grid-actions\\dpr-1\\classic\\tree-mouse-expand.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\tree-mouse-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "tree-leaf-selection",
+      "path": "grid-actions\\dpr-1\\classic\\tree-leaf-selection.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\tree-leaf-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "tree-keyboard-next-leaf",
+      "path": "grid-actions\\dpr-1\\classic\\tree-keyboard-next-leaf.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\tree-keyboard-next-leaf.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "tree-keyboard-collapse",
+      "path": "grid-actions\\dpr-1\\classic\\tree-keyboard-collapse.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\tree-keyboard-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "tree-keyboard-expand",
+      "path": "grid-actions\\dpr-1\\classic\\tree-keyboard-expand.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\tree-keyboard-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-first-boundary",
+      "path": "grid-actions\\dpr-1\\classic\\paging-first-boundary.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-first-boundary.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-next",
+      "path": "grid-actions\\dpr-1\\classic\\paging-next.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-next.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-last-boundary",
+      "path": "grid-actions\\dpr-1\\classic\\paging-last-boundary.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-last-boundary.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-previous",
+      "path": "grid-actions\\dpr-1\\classic\\paging-previous.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-previous.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-first",
+      "path": "grid-actions\\dpr-1\\classic\\paging-first.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-first.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-input-enter",
+      "path": "grid-actions\\dpr-1\\classic\\paging-input-enter.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-input-enter.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "paging-refresh",
+      "path": "grid-actions\\dpr-1\\classic\\paging-refresh.json",
+      "screenshot": "grid-actions\\dpr-1\\classic\\paging-refresh.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-sort-asc",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-sort-asc.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-sort-asc.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-sort-desc",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-sort-desc.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-sort-desc.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-row-select",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-row-select.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-row-select.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-keyboard-next-row",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-keyboard-next-row.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-keyboard-next-row.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-checkcolumn-toggle",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-checkcolumn-toggle.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-checkcolumn-toggle.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-header-menu-open",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-header-menu-open.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-header-menu-open.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-header-menu-escape",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-header-menu-escape.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-header-menu-escape.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-column-resize-drag",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-column-resize-drag.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-column-resize-drag.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-compact-viewport",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-compact-viewport.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-compact-viewport.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "grid-scroll-both-axes",
+      "path": "grid-actions\\dpr-1\\nordic\\grid-scroll-both-axes.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\grid-scroll-both-axes.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "tree-mouse-collapse",
+      "path": "grid-actions\\dpr-1\\nordic\\tree-mouse-collapse.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\tree-mouse-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "tree-mouse-expand",
+      "path": "grid-actions\\dpr-1\\nordic\\tree-mouse-expand.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\tree-mouse-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "tree-leaf-selection",
+      "path": "grid-actions\\dpr-1\\nordic\\tree-leaf-selection.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\tree-leaf-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "tree-keyboard-next-leaf",
+      "path": "grid-actions\\dpr-1\\nordic\\tree-keyboard-next-leaf.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\tree-keyboard-next-leaf.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "tree-keyboard-collapse",
+      "path": "grid-actions\\dpr-1\\nordic\\tree-keyboard-collapse.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\tree-keyboard-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "tree-keyboard-expand",
+      "path": "grid-actions\\dpr-1\\nordic\\tree-keyboard-expand.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\tree-keyboard-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-first-boundary",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-first-boundary.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-first-boundary.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-next",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-next.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-next.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-last-boundary",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-last-boundary.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-last-boundary.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-previous",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-previous.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-previous.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-first",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-first.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-first.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-input-enter",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-input-enter.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-input-enter.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "paging-refresh",
+      "path": "grid-actions\\dpr-1\\nordic\\paging-refresh.json",
+      "screenshot": "grid-actions\\dpr-1\\nordic\\paging-refresh.png",
+      "passed": true
+    }
+  ]
+}

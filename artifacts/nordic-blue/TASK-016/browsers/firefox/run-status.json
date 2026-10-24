@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "browser": {
+    "name": "firefox",
+    "status": "AVAILABLE",
+    "version": "152.0.4",
+    "executable": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe",
+    "launchOptions": {
+      "headless": true,
+      "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe"
+    }
+  },
+  "retry": "Nordic DPR2 capture repeated from a fresh page/process after recorded readiness timeout under concurrent browser runs; no fixture/readiness/metric policy changed."
+}

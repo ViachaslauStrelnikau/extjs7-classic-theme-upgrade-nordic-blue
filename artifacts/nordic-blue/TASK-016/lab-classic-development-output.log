@@ -1,0 +1,31 @@
+Sencha Cmd v7.7.0.36
+[INF] Processing Build Descriptor : lab-classic (development environment)
+[INF] Loading compiler context
+[INF] Loading app json manifest...
+[INF] Appending content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\generated\lab-classic.js
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\generated\lab-classic.json
+[INF] Processing data with ClosureCompressor
+[INF] JavaScript input level is NEXT and output level is ES5
+[INF] Writing concatenated output to file D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\app.js
+[INF] merging 277 input resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\resources
+[INF] merged 0 resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\resources
+[INF] merging 0 input resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development
+[INF] merged 0 resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\slicer-temp\bootstrap.json
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\slicer-temp\bootstrap.js
+[INF] writing sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\sass\NordicThemeLab-all.scss.tmp
+[INF] appending sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\sass\NordicThemeLab-all.scss.tmp
+[INF] appending sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\sass\NordicThemeLab-all.scss.tmp
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\app.json
+[LOG] Fashion build starting for D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\sass\NordicThemeLab-all.scss
+[LOG] Fashion build complete for D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\NordicThemeLab\sass\NordicThemeLab-all.scss
+[LOG] Fashion build completed in 2.001 sec.
+[INF] Appending content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\generated\lab-classic.js
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\generated\lab-classic.json
+[INF] Copying page resources to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\app.json
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\microloader.js
+[INF] Appending content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\microloader.js
+[INF] Building output markup to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp/build/theme-lab/classic/development/index.html
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\classic\development\index.html
+
