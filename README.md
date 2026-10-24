@@ -4,7 +4,7 @@
 
 ## Состояние
 
-Выполнены **TASK-001–016**: аудит SDK/Cmd, theme package, палитра, согласованные значки v3, сравнения геометрии/поведения и начальный визуальный эталон. Реальные testing/development/production сборки лаборатории проходили; матрица сборок/интеграции TASK-016 пройдена; поставка остаётся **TASK-017**. Это не заявление об окончательной готовности темы.
+Выполнены **TASK-001–017** для Ext JS Classic7.7.0.31: отдельный theme package, палитра и одобренные значкиv3, строгие geometry/function/visual gates, реальные development/testing/production builds и матрица3браузеров/DPR1/2, source delivery с установкой/откатом. Это техническая приёмка записанного объёма; она не означает финальное одобрение пользователем всех экранов или поддержку7.9.
 
 - [Инструкции Codex](AGENTS.md), [требования](docs/nordic-blue-requirements.md), [руководство агента](docs/nordic-blue-agent-guide.md).
 - [Задачи и статусы](docs/plans/nordic-blue/README.md).
@@ -62,4 +62,8 @@ python tools/nordic-blue-visual/run.py --output artifacts/nordic-blue/visual-new
 
 ## Build/browser acceptance
 
-TASK-016 passed actual development/testing/production pages in Edge155, Chromium156 and Firefox152 at DPR1/2, including unchanged real TestApp views and app Sass. [Report](artifacts/nordic-blue/TASK-016/acceptance-report.md), [review](artifacts/nordic-blue/TASK-016/review.html), [harness](tools/nordic-blue-acceptance/README.md). Delivery documentation remains TASK-017; SDK7.9 is not tested.
+TASK-016 passed actual development/testing/production pages in Edge155, Chromium156 and Firefox152 at DPR1/2, including unchanged real TestApp views and app Sass. [Report](artifacts/nordic-blue/TASK-016/acceptance-report.md), [review](artifacts/nordic-blue/TASK-016/review.html), [harness](tools/nordic-blue-acceptance/README.md). Delivery documentation is complete in TASK-017; SDK7.9 is not tested.
+
+## Поставка и откат
+
+[Установка/возврат к Classic](docs/nordic-blue-installation.md), [release notes и ограничения](docs/nordic-blue-release-notes.md), [итоговый receipt/контрольные суммы](artifacts/nordic-blue/TASK-017/FINAL-RECEIPT.md). Source-архив включает принятый пакет, SVG masters, notices, manifest/approval, palette/config и report summaries; SDK/compiled apps/Classic reference assets не входят. Новая лицензия artwork владельцем ещё не назначена. Архивы локальные; recipe и manifest сохранены в Git. Для воспроизведения: `python tools/nordic-blue-release.py --output artifacts/nordic-blue/release-new-run` (новая папка).

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "runs": [
+    "source-release",
+    "source-release-repeat"
+  ],
+  "archiveSha256": "907de6f78c401109afb1c0205ad3b480bd7522452e4b4cdfc55201efe349b802",
+  "archiveBytes": 1180161,
+  "payloadFiles": 883,
+  "policy": "Two independently generated archives with fixed timestamps/order/permissions/compression; exact bytes equal and every entry compared with current source."
+}

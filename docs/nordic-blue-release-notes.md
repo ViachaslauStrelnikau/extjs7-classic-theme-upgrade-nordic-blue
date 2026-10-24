@@ -1,0 +1,11 @@
+# Nordic Blue — техническая поставка исходного пакета 1.0.0
+
+Дата2026-10-24. Цель: Ext JS Classic7.7.0.31 / Cmd7.7.0.36. Тема расширяет установленную theme-classic. Палитра:15tokens,177compiled color hooks,31 точно разрешённый flat gradient. Изображения:648одобренных runtime files,1x/2x при прежнем CSS размере; активен v3 folders. Runtime JS/font/behavior overrides отсутствуют.
+
+TASK-001–016 подтверждают аудит, общий Classic baseline, реализацию и сравнения. TASK-014:204fixture pairs+236action/state pairs,21614elements,14negative controls; TASK-015:204visual pairs,0unmasked structural pixels,408golden snapshots,648files/694decoded frames,6real defect controls; TASK-016:17successful build invocations,3browser versions×3modes×DPR1/2,144actual-output pairs/40230elements. Подробные отчёты и условия включены; raw screenshots/goldens остаются в основном репозитории/локальных artifacts.
+
+Поставка — исходный theme package, editable SVG masters, approval/manifests, notices, palette/config и report summaries. SDK, node_modules, compiled приложения, Classic reference screenshots/assets и временные debug patches не включены. Архив детерминированно создаётся `python tools/nordic-blue-release.py --output artifacts/nordic-blue/release-new-run`; существующий output запрещён. Проверяются все ZIP entries/CRC и точное равенство source bytes. Архивы исключены из Git; опубликованы исходники/recipe/manifest для воспроизведения.
+
+Ограничения: Windows и записанные версии браузеров; exact pixel golden только Edge155.0.4283.62; Chromium156.0.8078.4 и Firefox152.0.4 имеют собственные свежие Classic/Nordic geometry/function comparisons. Анимация GIF проверена по исходным bytes/decoded frames, не по плавности. Есть RTL artwork/catalog, но полная RTL application layout matrix не заявляется. Произвольные сторонние custom ui и Ext JS7.9 не проверены. Старые TestApp navigation image warnings сохранены одинаково в Classic/Nordic. Полная визуальная приёмка всего приложения пользователем не подменяется техническим golden. Лицензия нового SVG artwork пока не назначена владельцем; оригинальные Sencha права сохраняются.
+
+Следующий необязательный этап: TASK-018 с отдельно установленным SDK7.9 и новой матрицей. Совместимость с7.9 сейчас не заявляется. Установка и откат: docs/nordic-blue-installation.md.

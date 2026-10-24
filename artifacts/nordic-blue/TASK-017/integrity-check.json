@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "evidence": [
+    {
+      "task": "TASK-014",
+      "status": "PASS",
+      "filesChecked": 1453,
+      "manifestSha256": "a03aa9e95660d656cf416b70d392220375e5f84ebf3c9a3ac136eebb22f95f38",
+      "missing": [],
+      "changed": []
+    },
+    {
+      "task": "TASK-015",
+      "status": "PASS",
+      "filesChecked": 8850,
+      "manifestSha256": "99fa1517bed6ad664e46f0e9b3d2bdb27c28a19714bacc36cb76dea9a14bb94d",
+      "missing": [],
+      "changed": []
+    },
+    {
+      "task": "TASK-016",
+      "status": "PASS",
+      "filesChecked": 9122,
+      "manifestSha256": "24d2d631096a809ac469a9592069fad9c502affddd4ed56c4b61b64bb8edf6cc",
+      "missing": [],
+      "changed": []
+    }
+  ],
+  "protectedSources": 700,
+  "changedProtectedFiles": [],
+  "policy": "Verify actual local retained evidence bytes. No changes to previous baselines, goldens or approvals."
+}

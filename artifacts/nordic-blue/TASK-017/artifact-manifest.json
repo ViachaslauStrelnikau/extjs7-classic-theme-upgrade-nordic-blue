@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "acceptance-report.md",
+      "bytes": 3196,
+      "sha256": "97d6424f2ab3134c0670af525168a5955702abf44d6ae82bde6e313f641eaeee",
+      "localOnly": false
+    },
+    {
+      "path": "before/AGENTS.md",
+      "bytes": 22746,
+      "sha256": "26526fc9878539205426e776d36807ebbb24c5124732b03b80dd6f4f0f1dea2c",
+      "localOnly": false
+    },
+    {
+      "path": "before/coverage.md",
+      "bytes": 4758,
+      "sha256": "287b5c680875dd707b0412ec0cdc81b1268ac2f1d17f446d3c0839384207f774",
+      "localOnly": false
+    },
+    {
+      "path": "before/palette.md",
+      "bytes": 7535,
+      "sha256": "d9037a72b75a17052c5676119ede23739aec85899b85f6eba8969b2a61947cb0",
+      "localOnly": false
+    },
+    {
+      "path": "before/plan-index.md",
+      "bytes": 5120,
+      "sha256": "018a0940b12f363031d0bd312127812d1fe77567d4c6727b70235c98cd385c05",
+      "localOnly": false
+    },
+    {
+      "path": "before/README.md",
+      "bytes": 6847,
+      "sha256": "820374c808ef0e1b7dec6ccc8a693e95dd0b4b1933d803e1e019ee79b40dee63",
+      "localOnly": false
+    },
+    {
+      "path": "before/TASK-017.md",
+      "bytes": 2075,
+      "sha256": "dc50f524835e08de75a5770cb4acee0dc49f4ea4291c3febd112d3a0b2414215",
+      "localOnly": false
+    },
+    {
+      "path": "coverage-traceability.json",
+      "bytes": 9658,
+      "sha256": "fe8384018caae042ad49a34ad40dcd49d1003036fe11a5d17d9eac7f8d75945f",
+      "localOnly": false
+    },
+    {
+      "path": "deviations.md",
+      "bytes": 2558,
+      "sha256": "4bf74f253835728343feec948cfc3edec94ab02427a90fbc21c05c348b7610f6",
+      "localOnly": false
+    },
+    {
+      "path": "execution.json",
+      "bytes": 848,
+      "sha256": "3ffce92fb8911c34c6079e57ac7c7a7518d3c1ca9088f5d2d798a277722b608e",
+      "localOnly": false
+    },
+    {
+      "path": "FINAL-RECEIPT.md",
+      "bytes": 1402,
+      "sha256": "20d6d52f98eca811ac2b929ebaae800aca0ef891bc4c724f0729cb1297653a85",
+      "localOnly": false
+    },
+    {
+      "path": "finish_task017.py",
+      "bytes": 8865,
+      "sha256": "24bd76cb8236cd7cfb792a5212ebf6cedcaac42baf43c3d3188bb0f4f12d4dc5",
+      "localOnly": false
+    },
+    {
+      "path": "integrity-check.json",
+      "bytes": 919,
+      "sha256": "b40bb67a1662c7c92609f720962d47f1a84b25dc9d07671093fe1f5eece3a13f",
+      "localOnly": false
+    },
+    {
+      "path": "integrity_task017.py",
+      "bytes": 1432,
+      "sha256": "2ddd3e73852dac064b8465e4de44a04f56135ea8ac5654f0e0a52c1b62399de1",
+      "localOnly": false
+    },
+    {
+      "path": "lint-report.json",
+      "bytes": 290,
+      "sha256": "267cf2fd71094ba2ef69977fb38f483794050cdfb3068539dda2721c17af2908",
+      "localOnly": false
+    },
+    {
+      "path": "prepare_task017.py",
+      "bytes": 21055,
+      "sha256": "35cf73e61a1f467d66abac0f4562799f2ff0d4566ef705951b866b98544b66f9",
+      "localOnly": false
+    },
+    {
+      "path": "reproducibility-check.json",
+      "bytes": 405,
+      "sha256": "8cab5a578d141f0ee04859a0569cf88aa7243c0b2ad757fcd30add9eaf45228c",
+      "localOnly": false
+    },
+    {
+      "path": "source-release/nordic-blue-extjs-classic-7.7-source.zip",
+      "bytes": 1180161,
+      "sha256": "907de6f78c401109afb1c0205ad3b480bd7522452e4b4cdfc55201efe349b802",
+      "localOnly": true
+    },
+    {
+      "path": "source-release/release-manifest.json",
+      "bytes": 202458,
+      "sha256": "1d583d125670c5fe36b542549f62a43dfb8c5d8594cf61389d624d98a7bb61a9",
+      "localOnly": false
+    },
+    {
+      "path": "source-release-repeat/nordic-blue-extjs-classic-7.7-source.zip",
+      "bytes": 1180161,
+      "sha256": "907de6f78c401109afb1c0205ad3b480bd7522452e4b4cdfc55201efe349b802",
+      "localOnly": true
+    },
+    {
+      "path": "source-release-repeat/release-manifest.json",
+      "bytes": 202458,
+      "sha256": "1d583d125670c5fe36b542549f62a43dfb8c5d8594cf61389d624d98a7bb61a9",
+      "localOnly": false
+    }
+  ]
+}

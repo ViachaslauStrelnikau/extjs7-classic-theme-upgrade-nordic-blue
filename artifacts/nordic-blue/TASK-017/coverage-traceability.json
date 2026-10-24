@@ -1,0 +1,334 @@
+{
+  "status": "PASS",
+  "scope": "20 recorded fixture groups; exact listed scenarios, not all Ext JS configurations.",
+  "fixtures": [
+    {
+      "fixture": "panel",
+      "states": [
+        "normal",
+        "framed",
+        "collapsed",
+        "disabled",
+        "hover",
+        "focus"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "window",
+      "states": [
+        "normal",
+        "focus",
+        "modal",
+        "moved",
+        "resized"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "button",
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled",
+        "open"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "toolbar",
+      "states": [
+        "normal",
+        "overflow",
+        "open",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "form",
+      "states": [
+        "normal",
+        "invalid",
+        "readonly",
+        "disabled",
+        "focus"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "triggers",
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled",
+        "open"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "checks",
+      "states": [
+        "normal",
+        "checked",
+        "unchecked",
+        "disabled",
+        "focus"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "fieldset",
+      "states": [
+        "normal",
+        "collapsed",
+        "checked",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "editor",
+      "states": [
+        "normal",
+        "focus",
+        "readonly",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "grid",
+      "states": [
+        "normal",
+        "hover",
+        "selected",
+        "focus",
+        "sort-asc",
+        "sort-desc",
+        "menu",
+        "resized",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "paging",
+      "states": [
+        "normal",
+        "first",
+        "middle",
+        "last",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "border",
+      "states": [
+        "normal",
+        "collapsed",
+        "expanded"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "tabs",
+      "states": [
+        "normal",
+        "hover",
+        "selected",
+        "focus",
+        "overflow"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "tree",
+      "states": [
+        "normal",
+        "collapsed",
+        "expanded",
+        "selected",
+        "focus",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "datepicker",
+      "states": [
+        "normal",
+        "selected",
+        "prev",
+        "next",
+        "focus",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "progress",
+      "states": [
+        "normal",
+        "partial",
+        "full"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "slider",
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "selected",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "menu",
+      "states": [
+        "normal",
+        "open",
+        "checked",
+        "unchecked",
+        "focus",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "tool",
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    },
+    {
+      "fixture": "mask",
+      "states": [
+        "normal",
+        "loading",
+        "hidden"
+      ],
+      "status": "PASS_IN_RECORDED_MATRIX",
+      "geometryEvidence": "TASK-014/run-1 and TASK-016/browsers/*",
+      "visualEvidence": "TASK-015/run-3 (Edge only)",
+      "browserModeEvidence": "TASK-016/native-pages-*"
+    }
+  ],
+  "invariants": [
+    {
+      "criterion": "theme/classic/extend and no JS overrides",
+      "evidence": "package.json + TASK-016/source-resource-mode-audit.json",
+      "status": "PASS"
+    },
+    {
+      "criterion": "exact geometry/typography/state/data",
+      "evidence": "TASK-014 + TASK-016 native-page-comparison.json",
+      "status": "PASS"
+    },
+    {
+      "criterion": "icon approval/1x/2x/offsets/hit targets",
+      "evidence": "REV-001-folders-v3 approval/manifest + TASK-013/014/016",
+      "status": "PASS"
+    },
+    {
+      "criterion": "normalized structure and unmasked Nordic golden",
+      "evidence": "TASK-015 visual report/golden-v1",
+      "status": "PASS"
+    },
+    {
+      "criterion": "actual development/testing/production and browser matrix",
+      "evidence": "TASK-016 acceptance report/matrix",
+      "status": "PASS"
+    },
+    {
+      "criterion": "real app and existing Sass unchanged",
+      "evidence": "TASK-016 protected-before/source-resource-mode-audit",
+      "status": "PASS"
+    },
+    {
+      "criterion": "source handoff/install/rollback/provenance",
+      "evidence": "TASK-017 release-manifest + docs/nordic-blue-installation.md",
+      "status": "PASS"
+    }
+  ],
+  "notClaimed": [
+    "SDK7.9 optional018",
+    "cross-browser pixel identity",
+    "complete RTL application-layout matrix",
+    "all custom ui/third-party applications",
+    "GIF animation smoothness",
+    "new artwork license grant",
+    "final full-theme user visual approval"
+  ],
+  "pdfTraceability": "docs/plans/nordic-blue/traceability.md (all32pages mapped; user overrides win)"
+}

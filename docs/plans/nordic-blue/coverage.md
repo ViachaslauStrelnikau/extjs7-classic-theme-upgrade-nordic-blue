@@ -44,3 +44,7 @@
 - HiDPI поддержка по возможности: качественные masters, 1x fallback, подтверждённый 2x pipeline. При невозможности — конкретное обоснование.
 - При каждом DPR=1/2 одинаковые Classic/Nordic CSS rects, физический размер в интерфейсе, hit areas и logical offsets; число пикселей bitmap может быть больше. Все state cells корректны, нет blur/clipping.
 - Есть явное одобрение пользователя полного набора: превью всех состояний/натурального размера/1x–2x и записанная одобренная версия/hash. До него нет интеграции TASK-013 и утверждённых Nordic icon golden.
+
+## Фактические результаты 2026-10-24
+
+Все20fixture groups и их явно перечисленные состояния проверены в TASK-014/015/016. 102scenarios/DPR, строгая геометрия/типографика и действия — PASS; visual golden относится только к Edge. Настоящие development/testing/production output pages и реальный TestApp проверены на3browser versions/DPR1/2. Точные counts, источники и границы — artifacts/nordic-blue/TASK-017/coverage-traceability.json и TASK-016/acceptance-report.md. Это не покрытие всех Ext JS configs/custom ui; SDK7.9 NOT_RUN.

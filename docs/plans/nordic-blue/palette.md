@@ -52,3 +52,7 @@
 Завершено 2026-10-24: активны 104 verified color hooks и 14 отдельно проверенных flat-gradient hooks. Политика обновлена без metric overrides. Для default/toolbar buttons: normal control-bg (toolbar transparent), hover control-hover, focus control-bg + accent border/inherited outline, pressed control-pressed, focus-over accent-soft, focus-pressed #C7DCF6, disabled сохраняет Classic opacity. #C7DCF6 — компонентный state color, RGB 90% control-pressed + 10% accent, rounded; это не новый публичный token. Отличающиеся combined-state значения необходимы для реального вывода правил button mixin в SDK 7.7.
 
 Frames/radius/padding и все шрифты наследуются. 14 unused inner-border color assignments удалены по compiler proof. Следующий этап — TASK-010; новые icon assets по-прежнему не интегрированы. Подробности: artifacts/nordic-blue/TASK-009/core-component-report.md.
+
+## Итог реализации 7.7
+
+В TASK-008–012 проверены177compiled color hooks и31узкое reviewed flat-gradient exception;15канонических токенов выше неизменны. Точные имена/значения/доказательства — config/nordic-blue-policy.json и sass/var в пакете. Исторические52hooks TASK-008 не описывают итоговое число. Нельзя расширять allowlist на geometry/fonts/flags или новые artwork без предусмотренной проверки.

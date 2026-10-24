@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "workingDirectory": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue",
+  "python": "3.12.14 (configured bundled runtime)",
+  "completedCommands": [
+    {
+      "command": "python tools/lint-nordic-blue.py --check-icon-candidates",
+      "exitCode": 0
+    },
+    {
+      "command": "python integrity_task017.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python tools/nordic-blue-release.py --output artifacts/nordic-blue/TASK-017/source-release",
+      "exitCode": 0
+    },
+    {
+      "command": "python tools/nordic-blue-release.py --output artifacts/nordic-blue/TASK-017/source-release-repeat",
+      "exitCode": 0
+    }
+  ],
+  "note": "No new SDK/app build claimed for documentation/package-only TASK-017; exact accepted runtime source equals the source built and tested in TASK-016."
+}
