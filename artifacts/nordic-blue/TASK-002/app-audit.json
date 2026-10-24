@@ -1,0 +1,785 @@
+{
+  "files": [
+    "TestApp/app/Application.js",
+    "TestApp/app/Application.scss",
+    "TestApp/app/model/Base.js",
+    "TestApp/app/model/Personnel.js",
+    "TestApp/app/store/Personnel.js",
+    "TestApp/app/view/main/List.js",
+    "TestApp/app/view/main/Main.js",
+    "TestApp/app/view/main/Main.scss",
+    "TestApp/app/view/main/MainController.js",
+    "TestApp/app/view/main/MainModel.js",
+    "TestApp/app.js",
+    "TestApp/app.json",
+    "TestApp/index.html",
+    "TestApp/workspace.json"
+  ],
+  "findings": [
+    {
+      "path": "TestApp/app/Application.js",
+      "line": 13,
+      "text": "desktop: {"
+    },
+    {
+      "path": "TestApp/app/Application.scss",
+      "line": 5,
+      "text": "$enable-font-awesome: dynamic(true);"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.js",
+      "line": 24,
+      "text": "ui: 'navigation',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.js",
+      "line": 40,
+      "text": "iconCls: 'fa-th-list'"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.js",
+      "line": 79,
+      "text": "iconCls: 'fa-home',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.js",
+      "line": 86,
+      "text": "iconCls: 'fa-user',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.js",
+      "line": 92,
+      "text": "iconCls: 'fa-users',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.js",
+      "line": 98,
+      "text": "iconCls: 'fa-cog',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 8,
+      "text": "@include extjs-tab-panel-ui("
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 9,
+      "text": "$ui: 'navigation',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 23,
+      "text": "$ui-tab-border-radius: 0,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 24,
+      "text": "$ui-tab-border-width: 0,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 26,
+      "text": "$ui-tab-padding: 24px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 28,
+      "text": "$ui-tab-font-size: 15px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 29,
+      "text": "$ui-tab-font-size-over: 15px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 30,
+      "text": "$ui-tab-font-size-active: 15px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 31,
+      "text": "$ui-tab-line-height: 19px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 32,
+      "text": "$ui-tab-font-weight: bold,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 33,
+      "text": "$ui-tab-font-weight-over: bold,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 34,
+      "text": "$ui-tab-font-weight-active: bold,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 35,
+      "text": "$ui-tab-icon-width: 24px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 36,
+      "text": "$ui-tab-icon-height: 24px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 37,
+      "text": "$ui-tab-icon-spacing: 5px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 47,
+      "text": "@include extjs-panel-ui("
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 48,
+      "text": "$ui: 'navigation',"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 49,
+      "text": "$ui-header-color: #fff,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 50,
+      "text": "$ui-header-glyph-color: #fff,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 51,
+      "text": "$ui-header-glyph-opacity: 1,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 52,
+      "text": "$ui-header-font-size: 20px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 53,
+      "text": "$ui-header-line-height: 24px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 54,
+      "text": "$ui-header-font-weight: bold,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 55,
+      "text": "$ui-header-icon-height: 24px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 56,
+      "text": "$ui-header-icon-width: 24px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 57,
+      "text": "$ui-header-icon-spacing: 15px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 58,
+      "text": "$ui-header-background-color: $base-color,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 59,
+      "text": "$ui-header-padding: 0,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 60,
+      "text": "$ui-header-text-margin: 36px,"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 61,
+      "text": "$ui-header-noborder-adjust: false"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 64,
+      "text": ".x-title-icon-navigation {"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 65,
+      "text": "font-family: 'Font Awesome 5 Free';"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 67,
+      "text": "font-size: 24px;"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 68,
+      "text": "line-height: 24px;"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 71,
+      "text": ".x-tab-icon-el-navigation {"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 72,
+      "text": "font-family: 'Font Awesome 5 Free';"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 75,
+      "text": ".x-tab-over & {"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 79,
+      "text": ".x-tab-active & {"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 84,
+      "text": ".x-panel-header-title-navigation > .x-title-text-navigation:after {"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 85,
+      "text": "top: 30px;"
+    },
+    {
+      "path": "TestApp/app/view/main/Main.scss",
+      "line": 86,
+      "text": "right: -24px;"
+    }
+  ],
+  "generatedImportEvidence": [
+    {
+      "line": 1015,
+      "text": "@import '../../../../../ext/packages/font-awesome/sass/etc/all';"
+    },
+    {
+      "line": 1045,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/Component';"
+    },
+    {
+      "line": 1046,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/list/TreeItem';"
+    },
+    {
+      "line": 1047,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/LoadMask';"
+    },
+    {
+      "line": 1048,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/ProgressBar';"
+    },
+    {
+      "line": 1049,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/button/Button';"
+    },
+    {
+      "line": 1050,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/panel/Tool';"
+    },
+    {
+      "line": 1051,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/panel/Header';"
+    },
+    {
+      "line": 1052,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/resizer/Splitter';"
+    },
+    {
+      "line": 1053,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/layout/container/Box';"
+    },
+    {
+      "line": 1054,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/toolbar/Toolbar';"
+    },
+    {
+      "line": 1055,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/dd/StatusProxy';"
+    },
+    {
+      "line": 1056,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/panel/Panel';"
+    },
+    {
+      "line": 1057,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/container/ButtonGroup';"
+    },
+    {
+      "line": 1058,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/dashboard/Dashboard';"
+    },
+    {
+      "line": 1059,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/window/Window';"
+    },
+    {
+      "line": 1060,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/Labelable';"
+    },
+    {
+      "line": 1061,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/field/Base';"
+    },
+    {
+      "line": 1062,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/field/Text';"
+    },
+    {
+      "line": 1063,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/window/MessageBox';"
+    },
+    {
+      "line": 1064,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/field/Checkbox';"
+    },
+    {
+      "line": 1065,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/CheckboxGroup';"
+    },
+    {
+      "line": 1066,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/FieldSet';"
+    },
+    {
+      "line": 1067,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/trigger/Spinner';"
+    },
+    {
+      "line": 1068,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/toolbar/Paging';"
+    },
+    {
+      "line": 1069,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/view/BoundList';"
+    },
+    {
+      "line": 1070,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/picker/Date';"
+    },
+    {
+      "line": 1071,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/field/Display';"
+    },
+    {
+      "line": 1072,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/tip/Tip';"
+    },
+    {
+      "line": 1073,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/picker/Color';"
+    },
+    {
+      "line": 1074,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/field/HtmlEditor';"
+    },
+    {
+      "line": 1075,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/form/field/Tag';"
+    },
+    {
+      "line": 1076,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/view/Table';"
+    },
+    {
+      "line": 1077,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/header/DropZone';"
+    },
+    {
+      "line": 1078,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/header/Container';"
+    },
+    {
+      "line": 1079,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/column/Column';"
+    },
+    {
+      "line": 1080,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/column/Action';"
+    },
+    {
+      "line": 1081,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/column/Check';"
+    },
+    {
+      "line": 1082,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/column/RowNumberer';"
+    },
+    {
+      "line": 1083,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/column/Widget';"
+    },
+    {
+      "line": 1084,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/feature/AdvancedGrouping';"
+    },
+    {
+      "line": 1085,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/feature/AdvancedGroupingSummary';"
+    },
+    {
+      "line": 1086,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/feature/Grouping';"
+    },
+    {
+      "line": 1087,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/feature/RowBody';"
+    },
+    {
+      "line": 1088,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/menu/Menu';"
+    },
+    {
+      "line": 1089,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/filters/Filters';"
+    },
+    {
+      "line": 1090,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/locking/Lockable';"
+    },
+    {
+      "line": 1091,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/Editing';"
+    },
+    {
+      "line": 1092,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column';"
+    },
+    {
+      "line": 1093,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Panel';"
+    },
+    {
+      "line": 1094,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/RowEditing';"
+    },
+    {
+      "line": 1095,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/RowExpander';"
+    },
+    {
+      "line": 1096,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/Summaries';"
+    },
+    {
+      "line": 1097,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/Operator';"
+    },
+    {
+      "line": 1098,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/filters/Base';"
+    },
+    {
+      "line": 1099,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/FilterBar';"
+    },
+    {
+      "line": 1100,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/property/Grid';"
+    },
+    {
+      "line": 1101,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/grid/selection/SpreadsheetModel';"
+    },
+    {
+      "line": 1102,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/layout/container/Accordion';"
+    },
+    {
+      "line": 1103,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/layout/container/Border';"
+    },
+    {
+      "line": 1104,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/resizer/Resizer';"
+    },
+    {
+      "line": 1105,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/selection/CheckboxModel';"
+    },
+    {
+      "line": 1106,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/slider/Multi';"
+    },
+    {
+      "line": 1107,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/tab/Tab';"
+    },
+    {
+      "line": 1108,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/tab/Bar';"
+    },
+    {
+      "line": 1109,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb';"
+    },
+    {
+      "line": 1110,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/tree/View';"
+    },
+    {
+      "line": 1111,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/view/MultiSelector';"
+    },
+    {
+      "line": 1112,
+      "text": "@import '../../../../../ext/classic/theme-neutral/sass/var/window/Toast';"
+    },
+    {
+      "line": 1120,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/Component';"
+    },
+    {
+      "line": 1121,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/LoadMask';"
+    },
+    {
+      "line": 1122,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/ProgressBar';"
+    },
+    {
+      "line": 1123,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/button/Button';"
+    },
+    {
+      "line": 1124,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/panel/Tool';"
+    },
+    {
+      "line": 1125,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/resizer/Splitter';"
+    },
+    {
+      "line": 1126,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/toolbar/Toolbar';"
+    },
+    {
+      "line": 1127,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/dd/StatusProxy';"
+    },
+    {
+      "line": 1128,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/panel/Panel';"
+    },
+    {
+      "line": 1129,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/container/ButtonGroup';"
+    },
+    {
+      "line": 1130,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/window/Window';"
+    },
+    {
+      "line": 1131,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/Labelable';"
+    },
+    {
+      "line": 1132,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/Base';"
+    },
+    {
+      "line": 1133,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/Text';"
+    },
+    {
+      "line": 1134,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/window/MessageBox';"
+    },
+    {
+      "line": 1135,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/FieldSet';"
+    },
+    {
+      "line": 1136,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/Spinner';"
+    },
+    {
+      "line": 1137,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/view/BoundList';"
+    },
+    {
+      "line": 1138,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/picker/Date';"
+    },
+    {
+      "line": 1139,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/Display';"
+    },
+    {
+      "line": 1140,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/tip/Tip';"
+    },
+    {
+      "line": 1141,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/picker/Color';"
+    },
+    {
+      "line": 1142,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/HtmlEditor';"
+    },
+    {
+      "line": 1143,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/Tag';"
+    },
+    {
+      "line": 1144,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/form/field/Trigger';"
+    },
+    {
+      "line": 1145,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/view/Table';"
+    },
+    {
+      "line": 1146,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/header/Container';"
+    },
+    {
+      "line": 1147,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/column/Column';"
+    },
+    {
+      "line": 1148,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/column/Widget';"
+    },
+    {
+      "line": 1149,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/feature/AdvancedGrouping';"
+    },
+    {
+      "line": 1150,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/feature/Grouping';"
+    },
+    {
+      "line": 1151,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/menu/Menu';"
+    },
+    {
+      "line": 1152,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/plugin/Editing';"
+    },
+    {
+      "line": 1153,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/plugin/RowEditing';"
+    },
+    {
+      "line": 1154,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/plugin/RowExpander';"
+    },
+    {
+      "line": 1155,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/grid/property/Grid';"
+    },
+    {
+      "line": 1156,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/layout/container/Accordion';"
+    },
+    {
+      "line": 1157,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/layout/container/Border';"
+    },
+    {
+      "line": 1158,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/resizer/Resizer';"
+    },
+    {
+      "line": 1159,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/slider/Multi';"
+    },
+    {
+      "line": 1160,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/tab/Tab';"
+    },
+    {
+      "line": 1161,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/tab/Bar';"
+    },
+    {
+      "line": 1162,
+      "text": "@import '../../../../../ext/classic/theme-classic/sass/var/tree/View';"
+    },
+    {
+      "line": 1272,
+      "text": "@import '../../../../../ext/packages/font-awesome/sass/src/all';"
+    },
+    {
+      "line": 1280,
+      "text": "@import '../../../../../app/Application';"
+    },
+    {
+      "line": 1288,
+      "text": "@import '../../../../../app/view/main/Main';"
+    }
+  ],
+  "navigationAssets": [
+    {
+      "name": "tab/tab-navigation-close.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-more.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-more-left.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-left-top.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-right-top.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-left-bottom.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-right-bottom.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-top-left.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-bottom-left.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-top-right.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    },
+    {
+      "name": "tab-bar/navigation-scroll-bottom-right.gif",
+      "navigationAssetExists": false,
+      "defaultEquivalentExists": true
+    }
+  ],
+  "overridesDirectoryExists": false
+}

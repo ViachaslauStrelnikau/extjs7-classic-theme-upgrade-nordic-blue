@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "task": "TASK-015",
+  "golden": "nordic-blue-visual-v1",
+  "cases": 204,
+  "sourceGuard": "PASS",
+  "calibration": "PASS",
+  "controls": 6
+}

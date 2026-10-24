@@ -1,0 +1,53 @@
+{
+  "completionDate": "2026-10-24",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "java": "1.8.0_501",
+  "buildCommand": "sencha.exe -cwd=D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/theme-lab app build lab-nordic testing",
+  "buildExitCodes": [
+    0,
+    0
+  ],
+  "lintCommand": "python tools/lint-nordic-blue.py --check-icon-candidates",
+  "lintExitCode": 0,
+  "captureCommands": [
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 1 1",
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 2 1"
+  ],
+  "captureExitCodes": [
+    0,
+    0
+  ],
+  "actionCommands": [
+    "modern-node grid-review.cjs 1",
+    "modern-node grid-review.cjs 2"
+  ],
+  "actionExitCodes": [
+    0,
+    0
+  ],
+  "compilerCommand": "bundled-node fashion.js compile artifacts/nordic-blue/TASK-011/compiler-probe/input.scss C-staging/output/task011/consumption-probe.css",
+  "compilerExitCode": 0,
+  "newHooks": [
+    "grid-row-cell-color",
+    "grid-row-cell-over-background-color",
+    "grid-row-cell-over-border-color",
+    "grid-row-cell-selected-background-color",
+    "grid-row-cell-selected-border-color",
+    "grid-row-cell-focus-border-color",
+    "grid-cell-selected-background-color",
+    "grid-empty-color",
+    "grid-resize-marker-background-color",
+    "grid-column-header-color",
+    "grid-column-header-focus-color",
+    "grid-column-header-focus-border-color",
+    "grid-header-open-background-color"
+  ],
+  "changedThemeFiles": [
+    "TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/grid/column/Column.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss"
+  ],
+  "policyControls": 39,
+  "browser": "155.0.4283.62"
+}

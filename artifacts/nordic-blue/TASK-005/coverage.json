@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "fixtureVersion": "theme-lab-v1",
+  "cases": {
+    "panel": [
+      "normal",
+      "framed",
+      "collapsed",
+      "disabled",
+      "hover",
+      "focus"
+    ],
+    "window": [
+      "normal",
+      "focus",
+      "modal",
+      "moved",
+      "resized"
+    ],
+    "button": [
+      "normal",
+      "hover",
+      "focus",
+      "pressed",
+      "disabled",
+      "open"
+    ],
+    "toolbar": [
+      "normal",
+      "overflow",
+      "open",
+      "disabled"
+    ],
+    "form": [
+      "normal",
+      "invalid",
+      "readonly",
+      "disabled",
+      "focus"
+    ],
+    "triggers": [
+      "normal",
+      "hover",
+      "focus",
+      "pressed",
+      "disabled",
+      "open"
+    ],
+    "checks": [
+      "normal",
+      "checked",
+      "unchecked",
+      "disabled",
+      "focus"
+    ],
+    "fieldset": [
+      "normal",
+      "collapsed",
+      "checked",
+      "disabled"
+    ],
+    "editor": [
+      "normal",
+      "focus",
+      "readonly",
+      "disabled"
+    ],
+    "grid": [
+      "normal",
+      "hover",
+      "selected",
+      "focus",
+      "sort-asc",
+      "sort-desc",
+      "menu",
+      "resized",
+      "disabled"
+    ],
+    "paging": [
+      "normal",
+      "first",
+      "middle",
+      "last",
+      "disabled"
+    ],
+    "border": [
+      "normal",
+      "collapsed",
+      "expanded"
+    ],
+    "tabs": [
+      "normal",
+      "hover",
+      "selected",
+      "focus",
+      "overflow"
+    ],
+    "tree": [
+      "normal",
+      "collapsed",
+      "expanded",
+      "selected",
+      "focus",
+      "disabled"
+    ],
+    "datepicker": [
+      "normal",
+      "selected",
+      "prev",
+      "next",
+      "focus",
+      "disabled"
+    ],
+    "progress": [
+      "normal",
+      "partial",
+      "full"
+    ],
+    "slider": [
+      "normal",
+      "hover",
+      "focus",
+      "selected",
+      "disabled"
+    ],
+    "menu": [
+      "normal",
+      "open",
+      "checked",
+      "unchecked",
+      "focus",
+      "disabled"
+    ],
+    "tool": [
+      "normal",
+      "hover",
+      "focus",
+      "pressed",
+      "disabled"
+    ],
+    "mask": [
+      "normal",
+      "loading",
+      "hidden"
+    ]
+  },
+  "caseCount": 20,
+  "stateCount": 101,
+  "classicAvailability": "PASS",
+  "nordicAvailability": "NOT_BUILT_EXPECTED_ERROR",
+  "semanticElementsInOverview": 302,
+  "reproducibleOverview": true,
+  "releaseFunctionalSuite": "NOT_RUN (TASK-014)",
+  "nordicGeometryComparison": "NOT_RUN (TASK-014)",
+  "goldenSnapshots": "NOT_ADOPTED (TASK-006/015)"
+}

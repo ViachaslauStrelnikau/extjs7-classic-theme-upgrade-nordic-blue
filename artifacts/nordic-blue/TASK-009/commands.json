@@ -1,0 +1,32 @@
+{
+  "completionDate": "2026-10-24",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "java": "1.8.0_501",
+  "python": "3.12.14",
+  "buildCommand": "sencha.exe -cwd=D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/theme-lab app build lab-nordic testing",
+  "finalBuildExitCode": 0,
+  "lintCommand": "python tools/lint-nordic-blue.py --check-icon-candidates",
+  "lintExitCode": 0,
+  "controls": 39,
+  "finalCaptureCommands": [
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 1 3",
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 2 3"
+  ],
+  "captureExitCodes": [
+    0,
+    0
+  ],
+  "coreCommands": [
+    "modern-node core-review.cjs 1",
+    "modern-node core-review.cjs 2"
+  ],
+  "coreExitCodes": [
+    0,
+    0
+  ],
+  "finalGeometryExitCode": 0,
+  "finalCoreComparisonExitCode": 0,
+  "compilerConsumerCount": 104,
+  "diagnostics": "Earlier checker syntax/driver corrections and two valid detected state paint failures were resolved. Rejected comparisons and prior captures retained; only final pass-3/core-states-v3 accepted."
+}

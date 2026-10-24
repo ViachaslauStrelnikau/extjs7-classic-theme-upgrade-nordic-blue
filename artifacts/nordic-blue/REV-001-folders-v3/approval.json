@@ -1,0 +1,16 @@
+{
+  "status": "APPROVED",
+  "version": "nordic-icons-v3-folders",
+  "manifest": "approved-icon-manifest.json",
+  "manifestSha256": "05c0e2901c84f6d26c6dc9dccc90024ac9962565da3fe1b78d3f88a502a9aa73",
+  "baseApprovalPath": "artifacts/nordic-blue/TASK-004/approval.json",
+  "baseApprovalSha256": "50cba91d56499fc59cc29cf86e5e80b91a04f6e1b3c0ec64be1cc855272cca1c",
+  "baseManifestSha256": "a7ac4cc21bdac41de0dffc6e5fc1dee3adf72eb01edfe6f0ca4de4bbb8433a20",
+  "reviewedRevision": "revision-manifest.json",
+  "reviewedRevisionSha256": "72e4d34c0d548cf1149e72e946313f6e88c340499382bcb6d6a777f9a735ba87",
+  "approvedOn": "2026-10-24",
+  "timezone": "Europe/Minsk",
+  "source": "Explicit user response to the v3 folder preview in this conversation",
+  "userMessage": "хорошо. продолжай",
+  "scope": "Three revised folder resources (folder-open, folder-rtl, folder-open-rtl) at1x/2x, PNG/GIF. Ordinary folder and all other v2 artwork unchanged. Same CSS size16x16 and existing state/offset contracts."
+}

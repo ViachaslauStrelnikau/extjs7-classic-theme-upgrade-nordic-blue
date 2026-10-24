@@ -1,0 +1,8 @@
+// SDK color hooks and specifically reviewed flat gradients; metrics inherited.
+$toolbar-background-color: dynamic($nb-toolbar-bg);
+$toolbar-border-color: dynamic($nb-border);
+$toolbar-text-color: dynamic($nb-text);
+$toolbar-footer-background-color: dynamic($nb-toolbar-bg);
+$toolbar-separator-color: dynamic($nb-border);
+$toolbar-separator-highlight-color: dynamic($nb-surface);
+$toolbar-background-gradient: dynamic('none');

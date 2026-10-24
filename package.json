@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@sencha/cmd-windows": "^7.7.0"
+  },
+  "devDependencies": {
+    "switchit": "^1.0.8"
+  }
+}

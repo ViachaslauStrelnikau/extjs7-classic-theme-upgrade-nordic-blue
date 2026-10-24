@@ -1,0 +1,1226 @@
+{
+  "status": "PASS",
+  "pairs": 152,
+  "actionExecutions": 304,
+  "elementComparisons": 8186,
+  "mappedImageObservations": 1764,
+  "policy": "Reused TASK-010\u2013012 genuine interaction drivers on identical fixture with approved runtime icons; only exact approved image/density/adapter contracts are mapped before strict non-paint geometry/state/data comparison.",
+  "results": [
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "text-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "textarea-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "date-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "time-picker-selection",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "number-keyboard-up",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "number-keyboard-down",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "number-max-bound",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "required-invalid",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "readonly-blocks-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "disabled-input-state",
+      "elements": 55,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "combo-open",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "combo-keyboard-selection",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "spinner-mouse-up",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "spinner-mouse-down",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "clear-trigger",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "date-picker-next-select",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "checkbox-space-on",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "checkbox-space-off",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "radio-arrow-selection",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "checkbox-disabled-state",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "fieldset-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "fieldset-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "fieldset-checkbox-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 1,
+      "action": "fieldset-checkbox-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "text-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "textarea-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "date-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "time-picker-selection",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "number-keyboard-up",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "number-keyboard-down",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "number-max-bound",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "required-invalid",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "readonly-blocks-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "disabled-input-state",
+      "elements": 55,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "combo-open",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "combo-keyboard-selection",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "spinner-mouse-up",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "spinner-mouse-down",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "clear-trigger",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "date-picker-next-select",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "checkbox-space-on",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "checkbox-space-off",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "radio-arrow-selection",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "checkbox-disabled-state",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "fieldset-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "fieldset-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "fieldset-checkbox-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "form-actions",
+      "dpr": 2,
+      "action": "fieldset-checkbox-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-sort-asc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-sort-desc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-row-select",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-keyboard-next-row",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-checkcolumn-toggle",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-header-menu-open",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-header-menu-escape",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-column-resize-drag",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-compact-viewport",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "grid-scroll-both-axes",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "tree-mouse-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "tree-mouse-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "tree-leaf-selection",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "tree-keyboard-next-leaf",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "tree-keyboard-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "tree-keyboard-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-first-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-next",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-last-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-previous",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-first",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-input-enter",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 1,
+      "action": "paging-refresh",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-sort-asc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-sort-desc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-row-select",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-keyboard-next-row",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-checkcolumn-toggle",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-header-menu-open",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-header-menu-escape",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-column-resize-drag",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-compact-viewport",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "grid-scroll-both-axes",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "tree-mouse-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "tree-mouse-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "tree-leaf-selection",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "tree-keyboard-next-leaf",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "tree-keyboard-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "tree-keyboard-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-first-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-next",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-last-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-previous",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-first",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-input-enter",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "grid-actions",
+      "dpr": 2,
+      "action": "paging-refresh",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "tabs-mouse-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "tabs-disabled-ignored",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "tabs-keyboard-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "tabs-close-active",
+      "elements": 50,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "tabs-overflow-scroll",
+      "elements": 56,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "menu-checkbox-off",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "menu-checkbox-on",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "menu-mouse-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "menu-keyboard-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "menu-keyboard-return",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "menu-disabled-state",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "datepicker-next-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "datepicker-prev-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "datepicker-day-select",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "datepicker-keyboard-day",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "datepicker-today",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "progress-full",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "progress-empty",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "progress-partial",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-horizontal-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-horizontal-max",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-horizontal-min",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-vertical-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-horizontal-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-vertical-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "slider-disabled-ignored",
+      "elements": 21,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "mask-visible",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "mask-hide",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 1,
+      "action": "mask-show",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "tabs-mouse-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "tabs-disabled-ignored",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "tabs-keyboard-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "tabs-close-active",
+      "elements": 50,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "tabs-overflow-scroll",
+      "elements": 56,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "menu-checkbox-off",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "menu-checkbox-on",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "menu-mouse-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "menu-keyboard-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "menu-keyboard-return",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "menu-disabled-state",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "datepicker-next-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "datepicker-prev-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "datepicker-day-select",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "datepicker-keyboard-day",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "datepicker-today",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "progress-full",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "progress-empty",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "progress-partial",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-horizontal-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-horizontal-max",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-horizontal-min",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-vertical-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-horizontal-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-vertical-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "slider-disabled-ignored",
+      "elements": 21,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "mask-visible",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "mask-hide",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "folder": "secondary-actions",
+      "dpr": 2,
+      "action": "mask-show",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "status": "PASS",
+  "groups": 20,
+  "scenariosPerDpr": 102,
+  "secondaryStatesPerDpr": 28,
+  "results": [
+    {
+      "case": "panel",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "framed",
+        "collapsed",
+        "disabled",
+        "hover",
+        "focus"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "panel",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "framed",
+        "collapsed",
+        "disabled",
+        "hover",
+        "focus"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "window",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "focus",
+        "modal",
+        "moved",
+        "resized"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "window",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "focus",
+        "modal",
+        "moved",
+        "resized"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "button",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled",
+        "open"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "button",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled",
+        "open"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "toolbar",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "overflow",
+        "open",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "toolbar",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "overflow",
+        "open",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "form",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "invalid",
+        "readonly",
+        "disabled",
+        "focus"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "form",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "invalid",
+        "readonly",
+        "disabled",
+        "focus"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "triggers",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled",
+        "open"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "triggers",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled",
+        "open"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "checks",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "checked",
+        "unchecked",
+        "disabled",
+        "focus"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "checks",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "checked",
+        "unchecked",
+        "disabled",
+        "focus"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "fieldset",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "collapsed",
+        "checked",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "fieldset",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "collapsed",
+        "checked",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "editor",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "focus",
+        "readonly",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "editor",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "focus",
+        "readonly",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "grid",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "hover",
+        "selected",
+        "focus",
+        "sort-asc",
+        "sort-desc",
+        "menu",
+        "resized",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "grid",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "hover",
+        "selected",
+        "focus",
+        "sort-asc",
+        "sort-desc",
+        "menu",
+        "resized",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "paging",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "first",
+        "middle",
+        "last",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "paging",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "first",
+        "middle",
+        "last",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "border",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "collapsed",
+        "expanded"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "border",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "collapsed",
+        "expanded"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "tabs",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "hover",
+        "selected",
+        "focus",
+        "overflow"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "tabs",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "hover",
+        "selected",
+        "focus",
+        "overflow"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "tree",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "collapsed",
+        "expanded",
+        "selected",
+        "focus",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "tree",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "collapsed",
+        "expanded",
+        "selected",
+        "focus",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "datepicker",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "selected",
+        "prev",
+        "next",
+        "focus",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "datepicker",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "selected",
+        "prev",
+        "next",
+        "focus",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "progress",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "partial",
+        "full"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "progress",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "partial",
+        "full"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "slider",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "selected",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "slider",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "selected",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "menu",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "open",
+        "checked",
+        "unchecked",
+        "focus",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "menu",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "open",
+        "checked",
+        "unchecked",
+        "focus",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "tool",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "tool",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "hover",
+        "focus",
+        "pressed",
+        "disabled"
+      ],
+      "metricStatus": "PASS",
+      "scope": "full fixture regression",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "mask",
+      "dpr": 1,
+      "states": [
+        "normal",
+        "loading",
+        "hidden"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    },
+    {
+      "case": "mask",
+      "dpr": 2,
+      "states": [
+        "normal",
+        "loading",
+        "hidden"
+      ],
+      "metricStatus": "PASS",
+      "scope": "TASK-012 secondary components",
+      "iconStatus": "Classic inherited; approved replacements deferred to TASK-013"
+    }
+  ],
+  "releaseAcceptance": "Pending TASK-013\u2013017; geometry coverage is not final visual golden/production acceptance."
+}

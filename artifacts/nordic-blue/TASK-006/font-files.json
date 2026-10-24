@@ -1,0 +1,42 @@
+{
+  "tahoma.ttf": {
+    "path": "C:\\Windows\\Fonts\\tahoma.ttf",
+    "size": 919260,
+    "sha256": "9af03d4ad44a3b413d92f7de48b94aa7cc8a1471a75d498406eae837f62ee1d1"
+  },
+  "tahomabd.ttf": {
+    "path": "C:\\Windows\\Fonts\\tahomabd.ttf",
+    "size": 849284,
+    "sha256": "b16ed1a15e0cabea8d41d9f8899c253cd61ac466af5e3980d02bd0cf311c2267"
+  },
+  "arial.ttf": {
+    "path": "C:\\Windows\\Fonts\\arial.ttf",
+    "size": 1045720,
+    "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+  },
+  "arialbd.ttf": {
+    "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+    "size": 989780,
+    "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+  },
+  "ariali.ttf": {
+    "path": "C:\\Windows\\Fonts\\ariali.ttf",
+    "size": 721584,
+    "sha256": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288"
+  },
+  "arialbi.ttf": {
+    "path": "C:\\Windows\\Fonts\\arialbi.ttf",
+    "size": 724872,
+    "sha256": "267a411525980d648f10a7222a6ff1ebe4d4feeefbf9b3100cae2b5cfab5594a"
+  },
+  "verdana.ttf": {
+    "path": "C:\\Windows\\Fonts\\verdana.ttf",
+    "size": 243304,
+    "sha256": "6a8481fe107ee547893c018b13dba291c2020bec3de5da6525d9ac09f6bc2105"
+  },
+  "verdanab.ttf": {
+    "path": "C:\\Windows\\Fonts\\verdanab.ttf",
+    "size": 211260,
+    "sha256": "f3245f5f38f61bd1ceefb0f1338a5b88a21e6220832c2f43a38bbc7e1547c36f"
+  }
+}

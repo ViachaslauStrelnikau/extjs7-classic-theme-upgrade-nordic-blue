@@ -1,0 +1,43 @@
+{
+  "generateSources": "prepare_task008.py -> guarded install_task008_sources.py; package explicit token import fix recorded separately",
+  "build": {
+    "cwd": "TestApp/theme-lab",
+    "command": "..\\..\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe app build lab-nordic testing",
+    "equivalentActualInvocation": "sencha.exe -cwd=D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-lab app build lab-nordic testing",
+    "sdk": "7.7.0.31",
+    "cmd": "7.7.0.36",
+    "java": "1.8.0_501",
+    "exitCode": 0,
+    "earlierExitCode": 321,
+    "earlierFailure": "Missing explicit package token import; build-missing-token-import.log"
+  },
+  "lint": {
+    "command": "python tools/lint-nordic-blue.py --check-icon-candidates",
+    "exitCode": 0
+  },
+  "policyControls": {
+    "command": "python policy-controls.py",
+    "controls": 33,
+    "exitCode": 0
+  },
+  "compilerProbe": {
+    "command": "Cmd bundled Node fashion.js compile compiler-probe/consumption-probe.scss compiler-probe/consumption-probe.css",
+    "exitCode": 0,
+    "actualConsumers": 52
+  },
+  "captures": {
+    "commands": [
+      "NORDIC_CPU_RASTER=1 modern-node capture.cjs 1 1",
+      "NORDIC_CPU_RASTER=1 modern-node capture.cjs 2 1"
+    ],
+    "exitCodes": [
+      0,
+      0
+    ],
+    "browser": "155.0.4283.62"
+  },
+  "geometryComparison": {
+    "command": "python compare-geometry.py",
+    "exitCode": 0
+  }
+}

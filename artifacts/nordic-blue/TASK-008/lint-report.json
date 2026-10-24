@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "sdk": "7.7.0.31",
+  "counts": {
+    "scssFiles": 15,
+    "tokens": 15,
+    "colorOverrides": 52,
+    "images": 0,
+    "candidateImages": 648,
+    "sdkFiles": 300
+  },
+  "iconIntegrationEnabled": false,
+  "errors": []
+}

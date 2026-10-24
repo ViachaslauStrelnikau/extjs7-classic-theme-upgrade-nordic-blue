@@ -1,0 +1,1 @@
+{"status": "PASS", "scenariosPerDpr": 29, "imageComparisons": 464, "changedPixels": 0, "threshold": {"maxChannelDelta": 0, "maxChangedPixels": 0, "maskDilation": 0}}

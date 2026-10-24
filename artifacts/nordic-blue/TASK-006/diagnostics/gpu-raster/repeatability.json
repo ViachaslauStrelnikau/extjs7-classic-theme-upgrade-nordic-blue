@@ -1,0 +1,3517 @@
+{
+  "status": "FAIL",
+  "policy": "Exact equality within the same DPR, all pixels and all recorded metrics. No tolerance and no broad masks. GIF first composited frame served unchanged-size by declared route. Original animated live captures separate.",
+  "reports": [
+    {
+      "dpr": 1,
+      "scenarios": 102,
+      "status": "PASS",
+      "elementComparisons": 5640,
+      "iconComparisons": 963,
+      "results": [
+        {
+          "case": "all",
+          "state": "normal",
+          "elements": 841,
+          "icons": 147,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            6215
+          ],
+          "firstSha256": "7a0478e700d639f7727d345e7bc27e11b747defa148064cc74756c6bd2a73f4c",
+          "secondSha256": "7a0478e700d639f7727d345e7bc27e11b747defa148064cc74756c6bd2a73f4c",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "normal",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "62df2b4b5a8dbec23c83673006f098bc601f306fa7fff8edf03024f1ee045dbb",
+          "secondSha256": "62df2b4b5a8dbec23c83673006f098bc601f306fa7fff8edf03024f1ee045dbb",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "framed",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "5b94102f19c7ad36a7d2ef05ca9867aa287262cc875cbc69417c69bd229015a2",
+          "secondSha256": "5b94102f19c7ad36a7d2ef05ca9867aa287262cc875cbc69417c69bd229015a2",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "collapsed",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "98d1ab8931acfa16767dd750bb9b6bd4a6613fcd3fbb28732843d998adf94894",
+          "secondSha256": "98d1ab8931acfa16767dd750bb9b6bd4a6613fcd3fbb28732843d998adf94894",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "disabled",
+          "elements": 17,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "71752118f9cb460619b3ecc344319c36ca2fe6e990c225a02755d936fd50bd49",
+          "secondSha256": "71752118f9cb460619b3ecc344319c36ca2fe6e990c225a02755d936fd50bd49",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "hover",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "62d134e435f3f585f30a7929c52842d1a88378ed1959b6babf2ddd090ff66713",
+          "secondSha256": "62d134e435f3f585f30a7929c52842d1a88378ed1959b6babf2ddd090ff66713",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "focus",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "55d59a4b43ee5696724d5cbf2089c051bab04b80ee5c2a27b68c742b8ce5fab6",
+          "secondSha256": "55d59a4b43ee5696724d5cbf2089c051bab04b80ee5c2a27b68c742b8ce5fab6",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "normal",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "8214f2564791ca83219d81f35786330842183e466c60a743f7e12d036787400a",
+          "secondSha256": "8214f2564791ca83219d81f35786330842183e466c60a743f7e12d036787400a",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "focus",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "93cd848ea7d90e079ba50a67b031219d854432dc6e3468bce66eaa0d2f727823",
+          "secondSha256": "93cd848ea7d90e079ba50a67b031219d854432dc6e3468bce66eaa0d2f727823",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "modal",
+          "elements": 16,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "38c34eac0ac78ceb68e8ea8f97bc836d84c704d05039310f72c3be0ad65d1260",
+          "secondSha256": "38c34eac0ac78ceb68e8ea8f97bc836d84c704d05039310f72c3be0ad65d1260",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "moved",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "af32075f2e9337b1cd524b1f215a88495282a62e976afada4514ef4688602559",
+          "secondSha256": "af32075f2e9337b1cd524b1f215a88495282a62e976afada4514ef4688602559",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "resized",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "d3d63b0aaf9cab1fa7f7b8c9f65e6582f48d8893d6d95470e3d1fa4e2c0fccce",
+          "secondSha256": "d3d63b0aaf9cab1fa7f7b8c9f65e6582f48d8893d6d95470e3d1fa4e2c0fccce",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "normal",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "127c8548c0bf0fa8611fb8976b42121a8b51c0fe28d1aa3de17acf1b08d34a96",
+          "secondSha256": "127c8548c0bf0fa8611fb8976b42121a8b51c0fe28d1aa3de17acf1b08d34a96",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "hover",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "3fc3b334582c13aa5196676714bdc82833c26be06e3332e1ffb262bc1808f50a",
+          "secondSha256": "3fc3b334582c13aa5196676714bdc82833c26be06e3332e1ffb262bc1808f50a",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "focus",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "7a574de42d3202da9f8098f8f913a060ce8cb2a41d145d05ae446ad79d47e878",
+          "secondSha256": "7a574de42d3202da9f8098f8f913a060ce8cb2a41d145d05ae446ad79d47e878",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "pressed",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "87f9c3d9eca2e2cb6318e3aca28d0917473153f0a5a3d1d1d552d4bb28c90b6b",
+          "secondSha256": "87f9c3d9eca2e2cb6318e3aca28d0917473153f0a5a3d1d1d552d4bb28c90b6b",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "disabled",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "9e2921d5dd6d8409b60530a4b10b6c3ffeb4c67c6448f4daeeb39c5e38d35704",
+          "secondSha256": "9e2921d5dd6d8409b60530a4b10b6c3ffeb4c67c6448f4daeeb39c5e38d35704",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "open",
+          "elements": 27,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "21f8767b8ae0ea79652613193f939c212d31fddcc33a46a407e984fb43922e70",
+          "secondSha256": "21f8767b8ae0ea79652613193f939c212d31fddcc33a46a407e984fb43922e70",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "normal",
+          "elements": 54,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "e695f8dae38de5e3ac34b5731d03aaee7745d8f9573b35cdd812052bc208eba3",
+          "secondSha256": "e695f8dae38de5e3ac34b5731d03aaee7745d8f9573b35cdd812052bc208eba3",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "overflow",
+          "elements": 54,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "7aa6a9889ce5bce998aa337c6c7cbe31cc52e812c7560134facb66eb3c6d7da5",
+          "secondSha256": "7aa6a9889ce5bce998aa337c6c7cbe31cc52e812c7560134facb66eb3c6d7da5",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "open",
+          "elements": 67,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "9294aef927a84badcf1840915b8f63b275264844f66cf55ca02571eda0f049bc",
+          "secondSha256": "9294aef927a84badcf1840915b8f63b275264844f66cf55ca02571eda0f049bc",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "disabled",
+          "elements": 58,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "5b075d6065c904d0c68c16347913382aab6f110a51a79c3439c37c3c6f7d4a40",
+          "secondSha256": "5b075d6065c904d0c68c16347913382aab6f110a51a79c3439c37c3c6f7d4a40",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "normal",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "9ca027aef3c9faf40b6334207acf62daaa275888d6d50ce015d869984bde8412",
+          "secondSha256": "9ca027aef3c9faf40b6334207acf62daaa275888d6d50ce015d869984bde8412",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "invalid",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "cafaa074261bd8c47e83af598e9c651dd09b49fcec35c456048a732190de67e8",
+          "secondSha256": "cafaa074261bd8c47e83af598e9c651dd09b49fcec35c456048a732190de67e8",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "readonly",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "9cc85e8b7d1aaa1e7e5d10d9d75d0e96a32ace9ac6fa2e7c876100c5078b599a",
+          "secondSha256": "9cc85e8b7d1aaa1e7e5d10d9d75d0e96a32ace9ac6fa2e7c876100c5078b599a",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "disabled",
+          "elements": 55,
+          "icons": 13,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "4535f483464a16753b14cddb9fa3136555b977de82d22b37fc0f67dc6745ee2d",
+          "secondSha256": "4535f483464a16753b14cddb9fa3136555b977de82d22b37fc0f67dc6745ee2d",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "focus",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "a7a905f0ae2ca41b8bfd5d325d49a599e931d9d22d7ffbf5d3d0639b1064d9f6",
+          "secondSha256": "a7a905f0ae2ca41b8bfd5d325d49a599e931d9d22d7ffbf5d3d0639b1064d9f6",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "normal",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "4a25e1ec9b8588d3ca0e0e6f26ace831e113d9366506eea0e9ca208021549a3e",
+          "secondSha256": "4a25e1ec9b8588d3ca0e0e6f26ace831e113d9366506eea0e9ca208021549a3e",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "hover",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "d355ead216153857b30eefca001ab5c583657bdaf469374718aea7bbc770ba6c",
+          "secondSha256": "d355ead216153857b30eefca001ab5c583657bdaf469374718aea7bbc770ba6c",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "focus",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "abc457f28a16ede7b213cefd0fb4f71e5ed0c8cbf52ef87e69bd532bc0f485fe",
+          "secondSha256": "abc457f28a16ede7b213cefd0fb4f71e5ed0c8cbf52ef87e69bd532bc0f485fe",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "pressed",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "4b88278609222ce89feaec3174e61a2eb730e31c6236292e73de608724ea09fd",
+          "secondSha256": "4b88278609222ce89feaec3174e61a2eb730e31c6236292e73de608724ea09fd",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "disabled",
+          "elements": 47,
+          "icons": 13,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "88253747ca7d3452f8b7452810c9f06b0d9fcf925aef9e25bafa42cdd121932b",
+          "secondSha256": "88253747ca7d3452f8b7452810c9f06b0d9fcf925aef9e25bafa42cdd121932b",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "open",
+          "elements": 47,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "0e440afb73b86be933f45fd892ed1d5c91e5a1525a53d12459075b70f8796d0a",
+          "secondSha256": "0e440afb73b86be933f45fd892ed1d5c91e5a1525a53d12459075b70f8796d0a",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "normal",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "fbeea97f801e1941aead3324a49ea1825615fe88735d0d9c66f96fc081432e20",
+          "secondSha256": "fbeea97f801e1941aead3324a49ea1825615fe88735d0d9c66f96fc081432e20",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "checked",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "9c8f585f404e04c583b7ce94c9f41e9124fea069f5b901a8eb57bef94b49db61",
+          "secondSha256": "9c8f585f404e04c583b7ce94c9f41e9124fea069f5b901a8eb57bef94b49db61",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "unchecked",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "40876436a3729d6dfc2878d1583f5239952fdda6d9f973b935a83cb9ed839ac1",
+          "secondSha256": "40876436a3729d6dfc2878d1583f5239952fdda6d9f973b935a83cb9ed839ac1",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "disabled",
+          "elements": 35,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "475bf36c40053dfb94c90e1b5051e2b86b00d52b1c09c8fa3959e8858828c40c",
+          "secondSha256": "475bf36c40053dfb94c90e1b5051e2b86b00d52b1c09c8fa3959e8858828c40c",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "focus",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "d0581bd55bb1c783ff791b8814ed38dda541797518425cedd1e148ab1589b5fb",
+          "secondSha256": "d0581bd55bb1c783ff791b8814ed38dda541797518425cedd1e148ab1589b5fb",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "normal",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "3876cf2ca4be2ee267802d4110015f68da71750b028969fd02e0409490dd00ff",
+          "secondSha256": "3876cf2ca4be2ee267802d4110015f68da71750b028969fd02e0409490dd00ff",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "collapsed",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "fabc6b0b3e9295c64ed7caf80a7d15da4982e06c99416a36586acaa57a9cfd2c",
+          "secondSha256": "fabc6b0b3e9295c64ed7caf80a7d15da4982e06c99416a36586acaa57a9cfd2c",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "checked",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "5dc5a4c5570eeeebc1fb0895628d244fb347726d33fbef20a5b685ec4a1cc76c",
+          "secondSha256": "5dc5a4c5570eeeebc1fb0895628d244fb347726d33fbef20a5b685ec4a1cc76c",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "disabled",
+          "elements": 23,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "1fa4280fff7cc1f0d60cf9b81c6c4211d5068e106521feb5f79db5019aad309d",
+          "secondSha256": "1fa4280fff7cc1f0d60cf9b81c6c4211d5068e106521feb5f79db5019aad309d",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "normal",
+          "elements": 76,
+          "icons": 17,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "613a770e2159fd89e93845edf67ea4ccee21114855b16235cd84999ce9fe896f",
+          "secondSha256": "613a770e2159fd89e93845edf67ea4ccee21114855b16235cd84999ce9fe896f",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "focus",
+          "elements": 76,
+          "icons": 17,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "89de844b40b9a83eb8b9a3157d401334e541f75138d115adf37f5bec5c843010",
+          "secondSha256": "89de844b40b9a83eb8b9a3157d401334e541f75138d115adf37f5bec5c843010",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "readonly",
+          "elements": 80,
+          "icons": 18,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "4e92cfcb4f6459f69d332918ef8d9af2ab18a9ab7d6d97423926399601fc6d93",
+          "secondSha256": "4e92cfcb4f6459f69d332918ef8d9af2ab18a9ab7d6d97423926399601fc6d93",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "disabled",
+          "elements": 80,
+          "icons": 18,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "aafc1031baf5ff1a733ad9f21cb777a6f9727010724f02a637a2bc1834a1e3f2",
+          "secondSha256": "aafc1031baf5ff1a733ad9f21cb777a6f9727010724f02a637a2bc1834a1e3f2",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "normal",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "8b80bf2f65f196577fc25f79f9e6bff2cfdd0b5c3fbcbefe6b24cf4ff69536c9",
+          "secondSha256": "8b80bf2f65f196577fc25f79f9e6bff2cfdd0b5c3fbcbefe6b24cf4ff69536c9",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "hover",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "32bd6cf78b965fe42fec2e5f2429915d7311044f1f4c03c9142f563a9bd91d20",
+          "secondSha256": "32bd6cf78b965fe42fec2e5f2429915d7311044f1f4c03c9142f563a9bd91d20",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "selected",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "3afeeda8e85b675123f1c94c3f00cfda7f20f2eded3b6fc6b02d2afc76e9c235",
+          "secondSha256": "3afeeda8e85b675123f1c94c3f00cfda7f20f2eded3b6fc6b02d2afc76e9c235",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "focus",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "ef6cf535f39c53397e89c77681a6bfdc5860fd7c0510f50abf5e391f01f90c74",
+          "secondSha256": "ef6cf535f39c53397e89c77681a6bfdc5860fd7c0510f50abf5e391f01f90c74",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-asc",
+          "elements": 101,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "2f1e3c70a637cf86599e125fc39621199b0b29b18a1cee33170f02026392fb29",
+          "secondSha256": "2f1e3c70a637cf86599e125fc39621199b0b29b18a1cee33170f02026392fb29",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-desc",
+          "elements": 101,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "9a818c2c1b2d50d501442728f2b94e9eec7d1c324e78760b1363968963de1db1",
+          "secondSha256": "9a818c2c1b2d50d501442728f2b94e9eec7d1c324e78760b1363968963de1db1",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "menu",
+          "elements": 114,
+          "icons": 15,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "ad888dd91488798056e37aa935c343d4e2ca034b19247611b732ff46c20fb78a",
+          "secondSha256": "ad888dd91488798056e37aa935c343d4e2ca034b19247611b732ff46c20fb78a",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "resized",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "2848985fe01c801bc7a0b69315c10d1ae44d1d45c848b0bf6804c2633fd93a95",
+          "secondSha256": "2848985fe01c801bc7a0b69315c10d1ae44d1d45c848b0bf6804c2633fd93a95",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "disabled",
+          "elements": 104,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "1cf592baa536905c0af187c567b3d9aac16056257e60e9dcc11d020abaaaf07b",
+          "secondSha256": "1cf592baa536905c0af187c567b3d9aac16056257e60e9dcc11d020abaaaf07b",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "normal",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "004b82a1b6c5c72080efc6c65a19afe9e3e69d81758c2cdbba0d40218c22f681",
+          "secondSha256": "004b82a1b6c5c72080efc6c65a19afe9e3e69d81758c2cdbba0d40218c22f681",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "first",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "d663ce37f3c5ca6998fa7e474fd54bcdc1775db59e779a35855be5da4743d4a9",
+          "secondSha256": "d663ce37f3c5ca6998fa7e474fd54bcdc1775db59e779a35855be5da4743d4a9",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "middle",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "0c2310b6b304740dc0810a787e65ec9c1a5216c165ef5696bdd7ec509492bfb2",
+          "secondSha256": "0c2310b6b304740dc0810a787e65ec9c1a5216c165ef5696bdd7ec509492bfb2",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "last",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "b7c751aea678245118eb007ef9b5e95a239d50a4ce0af98adc618e5ef6d16176",
+          "secondSha256": "b7c751aea678245118eb007ef9b5e95a239d50a4ce0af98adc618e5ef6d16176",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "disabled",
+          "elements": 90,
+          "icons": 10,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "f7caa1241f8b86b258da8401639c6989c81373fc1cbab91501c686c2238c0167",
+          "secondSha256": "f7caa1241f8b86b258da8401639c6989c81373fc1cbab91501c686c2238c0167",
+          "issues": []
+        },
+        {
+          "case": "border",
+          "state": "normal",
+          "elements": 35,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "a13d6bc87ca156c8bed71a7c9d30ec4ad3bf78bd6fe0722874ae56d337babf38",
+          "secondSha256": "a13d6bc87ca156c8bed71a7c9d30ec4ad3bf78bd6fe0722874ae56d337babf38",
+          "issues": []
+        },
+        {
+          "case": "border",
+          "state": "collapsed",
+          "elements": 36,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "baebfae09e6b8425247c3b7a0391f6186a4b7bb2f4f04a266e14903fd108c138",
+          "secondSha256": "baebfae09e6b8425247c3b7a0391f6186a4b7bb2f4f04a266e14903fd108c138",
+          "issues": []
+        },
+        {
+          "case": "border",
+          "state": "expanded",
+          "elements": 35,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "5a630c5cd164ed0b0ada3027eeae5039ea71b7e35a0e82f78563e5d1b13704d7",
+          "secondSha256": "5a630c5cd164ed0b0ada3027eeae5039ea71b7e35a0e82f78563e5d1b13704d7",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "normal",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "8ec0d02abd1d8b70a9e6c87391745e77345177144037f011082c37ad7d5175d2",
+          "secondSha256": "8ec0d02abd1d8b70a9e6c87391745e77345177144037f011082c37ad7d5175d2",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "hover",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "59f10e2e8b99e250c61ed0745b901262a51bcc26a7caa3482122fadf62b920c0",
+          "secondSha256": "59f10e2e8b99e250c61ed0745b901262a51bcc26a7caa3482122fadf62b920c0",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "selected",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "dce95680ebd61c9ae277c5cd672c4d05d76fa02d441f123bf69e2728ab53d765",
+          "secondSha256": "dce95680ebd61c9ae277c5cd672c4d05d76fa02d441f123bf69e2728ab53d765",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "focus",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "26393af5b72f369a463c37c968936793c91a174a36ddb3ea777f1f79c68b3c29",
+          "secondSha256": "26393af5b72f369a463c37c968936793c91a174a36ddb3ea777f1f79c68b3c29",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "overflow",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "a425be9413859607d12842c0903839c05af0754732f0a4f51c1d90f357523125",
+          "secondSha256": "a425be9413859607d12842c0903839c05af0754732f0a4f51c1d90f357523125",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "normal",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "e17d3597fe1bb5e2a4548913d906736e1366c86075af1c964fbc8d8b693898a0",
+          "secondSha256": "e17d3597fe1bb5e2a4548913d906736e1366c86075af1c964fbc8d8b693898a0",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "collapsed",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "4758b060413f39a18b596ef329a289a518254fc529dc253a39771d535fa7b332",
+          "secondSha256": "4758b060413f39a18b596ef329a289a518254fc529dc253a39771d535fa7b332",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "expanded",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "b58440ba2f451d8315d9e278cf135121fa14053456aa269f7b6f849fb1a8a2ba",
+          "secondSha256": "b58440ba2f451d8315d9e278cf135121fa14053456aa269f7b6f849fb1a8a2ba",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "selected",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "358ebb26f110414df21b72cdeb903d3478cb76eb6348a48cc982e107a6c25899",
+          "secondSha256": "358ebb26f110414df21b72cdeb903d3478cb76eb6348a48cc982e107a6c25899",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "focus",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "6744275ee6b5ae80846e52d2ac6f429fa4edf08c2b8432c49b58a14a20d07f9a",
+          "secondSha256": "6744275ee6b5ae80846e52d2ac6f429fa4edf08c2b8432c49b58a14a20d07f9a",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "disabled",
+          "elements": 33,
+          "icons": 7,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "a6df7492467a80e30f19ce523c87f47784d8b11c7057c8b6a7335f1e640bfac1",
+          "secondSha256": "a6df7492467a80e30f19ce523c87f47784d8b11c7057c8b6a7335f1e640bfac1",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "normal",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "6f0492fd6c3d7cb30261e382fb36c0cb7908407c2fc71bebd97e1f941c72436f",
+          "secondSha256": "6f0492fd6c3d7cb30261e382fb36c0cb7908407c2fc71bebd97e1f941c72436f",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "selected",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "546d81ba35dcf3e689eac60812c16f5b8b993dacad50d2abc883cdf843d7d906",
+          "secondSha256": "546d81ba35dcf3e689eac60812c16f5b8b993dacad50d2abc883cdf843d7d906",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "prev",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "1eddffbeb7a7821caf59a12c51b61347079fd39fb74b095360cdb407ade28dc7",
+          "secondSha256": "1eddffbeb7a7821caf59a12c51b61347079fd39fb74b095360cdb407ade28dc7",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "next",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "d3202d7daf23f036fb3201d9e48092c55e24e77b18c42638add4a781e749e19e",
+          "secondSha256": "d3202d7daf23f036fb3201d9e48092c55e24e77b18c42638add4a781e749e19e",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "focus",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "1bf00ed312dcf98a9ea081645da673acca437f710b1e9583313d229285f7626d",
+          "secondSha256": "1bf00ed312dcf98a9ea081645da673acca437f710b1e9583313d229285f7626d",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "disabled",
+          "elements": 100,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "5ecae2fb920d8a07c7b747622839797d62c5b181585bf8dbd7aa9eeb5591dd74",
+          "secondSha256": "5ecae2fb920d8a07c7b747622839797d62c5b181585bf8dbd7aa9eeb5591dd74",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "normal",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "bdb87022fbfdd9ac7ac58d5ad6c0f2dee57d89d0592d13fdf82b0d6f1514c94c",
+          "secondSha256": "bdb87022fbfdd9ac7ac58d5ad6c0f2dee57d89d0592d13fdf82b0d6f1514c94c",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "partial",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "f085f7d6ab0bc46cbdfe8a4c1ae7c2ba1c6d75470e3901d12a9eb7a7963a554e",
+          "secondSha256": "f085f7d6ab0bc46cbdfe8a4c1ae7c2ba1c6d75470e3901d12a9eb7a7963a554e",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "full",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "bf383f2f558e59db9fe0c7225b6ff69a844e02c39623fff9fc281fa6728e323e",
+          "secondSha256": "bf383f2f558e59db9fe0c7225b6ff69a844e02c39623fff9fc281fa6728e323e",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "normal",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "88f2e51da7c545fe8ebd84518c9bf69423e970cde516d90fa016127e5b384437",
+          "secondSha256": "88f2e51da7c545fe8ebd84518c9bf69423e970cde516d90fa016127e5b384437",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "hover",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "f9740766d1e0a99a9f0afec5c175cb777dbe835ce1f5871eec07f15fabeffdbe",
+          "secondSha256": "f9740766d1e0a99a9f0afec5c175cb777dbe835ce1f5871eec07f15fabeffdbe",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "focus",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "db405edfe26ef708589b079a35c7010ee6f7fd927f66d98b890b52e234237341",
+          "secondSha256": "db405edfe26ef708589b079a35c7010ee6f7fd927f66d98b890b52e234237341",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "selected",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "55e15e269aeb418a9c34b9d8222acea18b026f6fc8b8f58fd5cbcf5483e8e6f4",
+          "secondSha256": "55e15e269aeb418a9c34b9d8222acea18b026f6fc8b8f58fd5cbcf5483e8e6f4",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "disabled",
+          "elements": 21,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "fa83be6c3968ff9459772747fc2936c00f854f6ed9642ac25dd2bf9f1a51ec27",
+          "secondSha256": "fa83be6c3968ff9459772747fc2936c00f854f6ed9642ac25dd2bf9f1a51ec27",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "normal",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "980dde426c276488dc68403a0ee8d9812dc6bca6acce766b32ab537cb93c2789",
+          "secondSha256": "980dde426c276488dc68403a0ee8d9812dc6bca6acce766b32ab537cb93c2789",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "open",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "3c839565a5d67739b04cacb9d8449fad7895edab2737b251dd60f577ae8d31f6",
+          "secondSha256": "3c839565a5d67739b04cacb9d8449fad7895edab2737b251dd60f577ae8d31f6",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "checked",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "3204251c5f28b16066ff4f5a6a175edb120c647c4cdbab3897171693d3e12cee",
+          "secondSha256": "3204251c5f28b16066ff4f5a6a175edb120c647c4cdbab3897171693d3e12cee",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "unchecked",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "52a5fccf32cab0d3aebb98ef3b26b2510c95f3af6455b289a333dd4aa7b77a47",
+          "secondSha256": "52a5fccf32cab0d3aebb98ef3b26b2510c95f3af6455b289a333dd4aa7b77a47",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "focus",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "5b4dd92ad128e0717bb549be1d173b29a77f27ee0c36be2067761cabeb532ef5",
+          "secondSha256": "5b4dd92ad128e0717bb549be1d173b29a77f27ee0c36be2067761cabeb532ef5",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "disabled",
+          "elements": 24,
+          "icons": 7,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "95094432669c6fcb0cccc385efe45b567969813e6af2fe1131676594eeb39d3a",
+          "secondSha256": "95094432669c6fcb0cccc385efe45b567969813e6af2fe1131676594eeb39d3a",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "normal",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "d06b91fedd788d5d47c7a35106f199eb580a53e862519207d3fb91607af47db3",
+          "secondSha256": "d06b91fedd788d5d47c7a35106f199eb580a53e862519207d3fb91607af47db3",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "hover",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "b28263fba1d4981da67de9b435d91d4437218631e52e5d86e379c5b4a2d7cd96",
+          "secondSha256": "b28263fba1d4981da67de9b435d91d4437218631e52e5d86e379c5b4a2d7cd96",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "focus",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "ce0f939d4a50f033495804cbb108ade5379d2615873978f7149539e3bfdc396f",
+          "secondSha256": "ce0f939d4a50f033495804cbb108ade5379d2615873978f7149539e3bfdc396f",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "pressed",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "58d6de0f69131ff5ce8a7afebb9bb9f87fd9d9270a6281bb4ed2cecf8b4c845c",
+          "secondSha256": "58d6de0f69131ff5ce8a7afebb9bb9f87fd9d9270a6281bb4ed2cecf8b4c845c",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "disabled",
+          "elements": 198,
+          "icons": 66,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "e5d87f6566127a14a0d961f329b52a1a1dcb1b3283c50e38dc1ebcbd76dc6e61",
+          "secondSha256": "e5d87f6566127a14a0d961f329b52a1a1dcb1b3283c50e38dc1ebcbd76dc6e61",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "normal",
+          "elements": 8,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "89aba8bd05f7c77f7e7b59186ef34f57a92b31d97bfcc87d403f3da41163121e",
+          "secondSha256": "89aba8bd05f7c77f7e7b59186ef34f57a92b31d97bfcc87d403f3da41163121e",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "loading",
+          "elements": 8,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "783768515d955b9bdd86e0f468152fa1b9e31a38aa548b904b700a4883e59e8d",
+          "secondSha256": "783768515d955b9bdd86e0f468152fa1b9e31a38aa548b904b700a4883e59e8d",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "hidden",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            1280,
+            1600
+          ],
+          "firstSha256": "252d68beb728f2e681f789c3fd5b9578edcc22a0624593a7f660155aab58ba76",
+          "secondSha256": "252d68beb728f2e681f789c3fd5b9578edcc22a0624593a7f660155aab58ba76",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenarios": 102,
+      "status": "FAIL",
+      "elementComparisons": 5640,
+      "iconComparisons": 963,
+      "results": [
+        {
+          "case": "all",
+          "state": "normal",
+          "elements": 841,
+          "icons": 147,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            12430
+          ],
+          "firstSha256": "0822f8f0055f25e6a5901064e16f04c2603c803807a029a64c3f13c3e206152a",
+          "secondSha256": "0822f8f0055f25e6a5901064e16f04c2603c803807a029a64c3f13c3e206152a",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "normal",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "71f1a8b7f6ec9216a249b65548596789c861f1add98f00ffdf4642beb25fe6ea",
+          "secondSha256": "71f1a8b7f6ec9216a249b65548596789c861f1add98f00ffdf4642beb25fe6ea",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "framed",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "8f5d0894e9821210b187d482b3e9cb94a99584652a209b7d379e0ae1543c0303",
+          "secondSha256": "8f5d0894e9821210b187d482b3e9cb94a99584652a209b7d379e0ae1543c0303",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "collapsed",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "d5f0f9354926ca6830240fb50b576915475cb91d97e9f8726acaa6772005bf19",
+          "secondSha256": "d5f0f9354926ca6830240fb50b576915475cb91d97e9f8726acaa6772005bf19",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "disabled",
+          "elements": 17,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "8df504c520d96aa40c73f7d5752cd524e536b66b65f6a0187faf1648af1a7671",
+          "secondSha256": "8df504c520d96aa40c73f7d5752cd524e536b66b65f6a0187faf1648af1a7671",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "hover",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "f0fadc212d9788e22987b728ff6dc9f0853ec615b9b1f67e5bd9d2f7aea9f805",
+          "secondSha256": "f0fadc212d9788e22987b728ff6dc9f0853ec615b9b1f67e5bd9d2f7aea9f805",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "focus",
+          "elements": 13,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "2f9d4e206bdf10db775269763d1708c7f5427cd0decbaad973995b10c8c679f0",
+          "secondSha256": "2f9d4e206bdf10db775269763d1708c7f5427cd0decbaad973995b10c8c679f0",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "normal",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "73f4a5a51de65d35d88bc6ea83d7fb7e5a333048928d2f49e4d3c6bd03317fb7",
+          "secondSha256": "73f4a5a51de65d35d88bc6ea83d7fb7e5a333048928d2f49e4d3c6bd03317fb7",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "focus",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "7e899079ef5a0f987dd9c3b2c969ee6c2aa00cda391e5d8db54bd7230a544b4c",
+          "secondSha256": "7e899079ef5a0f987dd9c3b2c969ee6c2aa00cda391e5d8db54bd7230a544b4c",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "modal",
+          "elements": 16,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "5d15301345930bb90c45f58bc648a568a7678fb44f092596b7010c2a19ab5746",
+          "secondSha256": "5d15301345930bb90c45f58bc648a568a7678fb44f092596b7010c2a19ab5746",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "moved",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "3405f4017e2ffd31b7df7aa485851966a6443bec3b490aae199e0ea0db05a307",
+          "secondSha256": "3405f4017e2ffd31b7df7aa485851966a6443bec3b490aae199e0ea0db05a307",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "resized",
+          "elements": 15,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "0acc0522f0f6f92ce8616ac0c922b81638961d40144b600a827e334e610ff723",
+          "secondSha256": "0acc0522f0f6f92ce8616ac0c922b81638961d40144b600a827e334e610ff723",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "normal",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "950ffd0e90a306920304a05f7130e4ad4c68a1e9ce4bcab53d0ab0b9b6af8f34",
+          "secondSha256": "950ffd0e90a306920304a05f7130e4ad4c68a1e9ce4bcab53d0ab0b9b6af8f34",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "hover",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "925b250979b3b087662a027886b1855cb9765f1f11a530701b7382da190256fc",
+          "secondSha256": "925b250979b3b087662a027886b1855cb9765f1f11a530701b7382da190256fc",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "focus",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "73485b5fd0d2c2b956bff0af50d9c5bf5f9bc7ab397ed5e5c7afcb09dd053f0e",
+          "secondSha256": "73485b5fd0d2c2b956bff0af50d9c5bf5f9bc7ab397ed5e5c7afcb09dd053f0e",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "pressed",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "0a7ffdbfba6a24c3d12acf7a779688f696e99786712bebadfdc4d1c8ae693fd7",
+          "secondSha256": "0a7ffdbfba6a24c3d12acf7a779688f696e99786712bebadfdc4d1c8ae693fd7",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "disabled",
+          "elements": 22,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "66d1692ef683c0a3e231737cfa3688d115761393c6d71090cf480cf78ce5e67c",
+          "secondSha256": "66d1692ef683c0a3e231737cfa3688d115761393c6d71090cf480cf78ce5e67c",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "open",
+          "elements": 27,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "1dab5fb8dc6d42af98552643ed3f22f58637801cffc18c2b5276bc485bc48a74",
+          "secondSha256": "1dab5fb8dc6d42af98552643ed3f22f58637801cffc18c2b5276bc485bc48a74",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "normal",
+          "elements": 54,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "b268cf7fabc0081751cfb06616620790e956c93e1037e9251f47767b20958b2b",
+          "secondSha256": "b268cf7fabc0081751cfb06616620790e956c93e1037e9251f47767b20958b2b",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "overflow",
+          "elements": 54,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "6e54b68ba82a473903b619ee8230a893d1fd80f2a7f39100908ff7e2360235c9",
+          "secondSha256": "6e54b68ba82a473903b619ee8230a893d1fd80f2a7f39100908ff7e2360235c9",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "open",
+          "elements": 67,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "8f45c01a4c3996c11ff62b7aebb148db1927d1b0190be8dd5b41f94076c9e3e5",
+          "secondSha256": "8f45c01a4c3996c11ff62b7aebb148db1927d1b0190be8dd5b41f94076c9e3e5",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "disabled",
+          "elements": 58,
+          "icons": 2,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "95b223247242100500a1cde1ebb87015a965fee79d8585c17a661eca9e6aa077",
+          "secondSha256": "95b223247242100500a1cde1ebb87015a965fee79d8585c17a661eca9e6aa077",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "normal",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "534cb0ccd7839cd98c7978446828bb93b9b5047b97a1433c9fd646acf763cfae",
+          "secondSha256": "534cb0ccd7839cd98c7978446828bb93b9b5047b97a1433c9fd646acf763cfae",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "invalid",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "c56fc94861715d8eeaa94d6e05f308f1b683753900fe710c16b544a134b6caf4",
+          "secondSha256": "c56fc94861715d8eeaa94d6e05f308f1b683753900fe710c16b544a134b6caf4",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "readonly",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "3a9a63a2644b3b80a279cc211b3ce51a7240eaed65c39cc0173f9ad42ba2389d",
+          "secondSha256": "3a9a63a2644b3b80a279cc211b3ce51a7240eaed65c39cc0173f9ad42ba2389d",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "disabled",
+          "elements": 55,
+          "icons": 13,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "89490b8751f4e5cfdeb31d8cbe7a985af59aa3b5ea383179aa13c8709410c8c0",
+          "secondSha256": "89490b8751f4e5cfdeb31d8cbe7a985af59aa3b5ea383179aa13c8709410c8c0",
+          "issues": []
+        },
+        {
+          "case": "form",
+          "state": "focus",
+          "elements": 51,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "2f38f47ece359ce0724ba488bb0efb473a087555849661e839b4c68e333866c7",
+          "secondSha256": "2f38f47ece359ce0724ba488bb0efb473a087555849661e839b4c68e333866c7",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "normal",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "7832c69c36c3886902229c37ad8bb8dfd4e4aaf04f38317b7495261de33b2af8",
+          "secondSha256": "7832c69c36c3886902229c37ad8bb8dfd4e4aaf04f38317b7495261de33b2af8",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "hover",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "1c3ed95bf48826a31b7ee1bba753a790ecb0e5a0a07cf5d0a55d4af8a9bcadee",
+          "secondSha256": "1c3ed95bf48826a31b7ee1bba753a790ecb0e5a0a07cf5d0a55d4af8a9bcadee",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "focus",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "9832edfcd275a356d00cfff8fda29fc2583d1366f73c9e0244614990a7651845",
+          "secondSha256": "9832edfcd275a356d00cfff8fda29fc2583d1366f73c9e0244614990a7651845",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "pressed",
+          "elements": 43,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "0479088e23c9a7387a25541d8371ff1fb619922d457612f2cbec1d51a3e3d785",
+          "secondSha256": "0479088e23c9a7387a25541d8371ff1fb619922d457612f2cbec1d51a3e3d785",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "disabled",
+          "elements": 47,
+          "icons": 13,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "cbf252d7555a18a855b82757178f8a09b88a7ea3386f0a763858d54cf20fedcb",
+          "secondSha256": "cbf252d7555a18a855b82757178f8a09b88a7ea3386f0a763858d54cf20fedcb",
+          "issues": []
+        },
+        {
+          "case": "triggers",
+          "state": "open",
+          "elements": 47,
+          "icons": 12,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "347c185a656708404e38e15c53c1bf842e7a862fbec35012f625774dfe31f831",
+          "secondSha256": "347c185a656708404e38e15c53c1bf842e7a862fbec35012f625774dfe31f831",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "normal",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "d716932abf62e13f4e9171026dc06b592fd707f1b40e8ea12e47812a1a5c5def",
+          "secondSha256": "d716932abf62e13f4e9171026dc06b592fd707f1b40e8ea12e47812a1a5c5def",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "checked",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "767f18cb8b149ce31884a52b126dab8d0a55fc02f191b6a84305485c41dc8381",
+          "secondSha256": "767f18cb8b149ce31884a52b126dab8d0a55fc02f191b6a84305485c41dc8381",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "unchecked",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "760320fc666ac2ba41eb2d0de3bb9e7f8a855586e8ee4a6fd25ac05ac333a98e",
+          "secondSha256": "760320fc666ac2ba41eb2d0de3bb9e7f8a855586e8ee4a6fd25ac05ac333a98e",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "disabled",
+          "elements": 35,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "d45e8bea82e4c1f0d2b31b6a3c790205fe0dc3d5d7dc138ed5b5587d7e80d4e8",
+          "secondSha256": "d45e8bea82e4c1f0d2b31b6a3c790205fe0dc3d5d7dc138ed5b5587d7e80d4e8",
+          "issues": []
+        },
+        {
+          "case": "checks",
+          "state": "focus",
+          "elements": 31,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "878d823ff55a8eadfa2e4b5771d821056f0afc8603b9cd66c05185f2bf7c6170",
+          "secondSha256": "878d823ff55a8eadfa2e4b5771d821056f0afc8603b9cd66c05185f2bf7c6170",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "normal",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "de47d0643241b40e169d4389b729f2e4c114459dca0e3ccb9df5be0b3b8f527d",
+          "secondSha256": "de47d0643241b40e169d4389b729f2e4c114459dca0e3ccb9df5be0b3b8f527d",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "collapsed",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "e1bac71003ad9698ee2d32f3a7ff3332e74044829adf8f9dacbce03b51a00f67",
+          "secondSha256": "e1bac71003ad9698ee2d32f3a7ff3332e74044829adf8f9dacbce03b51a00f67",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "checked",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "3e92cd2723db5a8bc4b97b14be8dc7317fe5d37010de63dee803b5a0f252f9f4",
+          "secondSha256": "3e92cd2723db5a8bc4b97b14be8dc7317fe5d37010de63dee803b5a0f252f9f4",
+          "issues": []
+        },
+        {
+          "case": "fieldset",
+          "state": "disabled",
+          "elements": 23,
+          "icons": 5,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "79e0262ca0bae92333e256588a9ddefc4cb03d5f2764fec50358bdda625a5e0d",
+          "secondSha256": "79e0262ca0bae92333e256588a9ddefc4cb03d5f2764fec50358bdda625a5e0d",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "normal",
+          "elements": 76,
+          "icons": 17,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "7118b9c79024a3518cdfe455a03b84214950cc4864e52d13d7c796a9062141ed",
+          "secondSha256": "7118b9c79024a3518cdfe455a03b84214950cc4864e52d13d7c796a9062141ed",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "focus",
+          "elements": 76,
+          "icons": 17,
+          "metricsIdentical": true,
+          "screenshotIdentical": false,
+          "differentPixels": 10077,
+          "diffBounds": [
+            671,
+            324,
+            2278,
+            376
+          ],
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "7d7e02f5fac0846c7de5342212b6a8ac70ebe2e16d888e0a83f83f8fda5073f4",
+          "secondSha256": "9e3dfa8b7d85f369f410561c05cf1107f440c955e858d6fe7b5023ab6c1cc936",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "readonly",
+          "elements": 80,
+          "icons": 18,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "4e973eb8a2305a31c1e34208160ccb74e0df88281dd7d1dd784f6c0af30cfb21",
+          "secondSha256": "4e973eb8a2305a31c1e34208160ccb74e0df88281dd7d1dd784f6c0af30cfb21",
+          "issues": []
+        },
+        {
+          "case": "editor",
+          "state": "disabled",
+          "elements": 80,
+          "icons": 18,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "274c5a154a730b2c13db1d099af6f82c96724b5e4aac52909653cf79d1166958",
+          "secondSha256": "274c5a154a730b2c13db1d099af6f82c96724b5e4aac52909653cf79d1166958",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "normal",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "55e8b97f6bdd070c5fe366c393bd1a42c8bd5cc79c99a49fe57635f47e63f5da",
+          "secondSha256": "55e8b97f6bdd070c5fe366c393bd1a42c8bd5cc79c99a49fe57635f47e63f5da",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "hover",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": false,
+          "differentPixels": 8070,
+          "diffBounds": [
+            671,
+            328,
+            2278,
+            366
+          ],
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "ee27b4123652963c8dc8769457b6d86ab0901c285ad2ebd0acd6c10700a38183",
+          "secondSha256": "f89462a7d340cc77e04f2f825505461b097dea40bbfb3aeea467c6f9c14d3ee5",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "selected",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "daf200ed2459b3e1641fb906c338c580265ca0a5f07b75e30c98cdccde3693e2",
+          "secondSha256": "daf200ed2459b3e1641fb906c338c580265ca0a5f07b75e30c98cdccde3693e2",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "focus",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "9c7bf25ddad18a049c9b07a85bc3d9293b7eb77e7d661cde8842ef8976e9837f",
+          "secondSha256": "9c7bf25ddad18a049c9b07a85bc3d9293b7eb77e7d661cde8842ef8976e9837f",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-asc",
+          "elements": 101,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "ac2716523ed98f0bd3f551f3ab88e41495d7b9be91e9f700c730ba18d42b2db0",
+          "secondSha256": "ac2716523ed98f0bd3f551f3ab88e41495d7b9be91e9f700c730ba18d42b2db0",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-desc",
+          "elements": 101,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "88531cee29fb05b7472819cce147fd22041efdf7cedac9e007809cdab147b955",
+          "secondSha256": "88531cee29fb05b7472819cce147fd22041efdf7cedac9e007809cdab147b955",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "menu",
+          "elements": 114,
+          "icons": 15,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "8b67ee6a128dae5c515b1efa0dafdb39de1f36a94ca896089c4c22285389dd0e",
+          "secondSha256": "8b67ee6a128dae5c515b1efa0dafdb39de1f36a94ca896089c4c22285389dd0e",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "resized",
+          "elements": 100,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "a9203dbd2fa5fd65b2dfb07c57bae9b6aa31244de73c78e300837dfde5b93908",
+          "secondSha256": "a9203dbd2fa5fd65b2dfb07c57bae9b6aa31244de73c78e300837dfde5b93908",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "disabled",
+          "elements": 104,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "729829193b32a8d078d817202e1726842ec52ca992195472695d5524a93fbd11",
+          "secondSha256": "729829193b32a8d078d817202e1726842ec52ca992195472695d5524a93fbd11",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "normal",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": false,
+          "differentPixels": 43478,
+          "diffBounds": [
+            42,
+            328,
+            2278,
+            960
+          ],
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "0823abbe206344b649fb5ced343c38cf32175e749726edf11abf390afdb0d53a",
+          "secondSha256": "144bf2b0c7f717408bde7d5e0cf4db9d644db21f5420fbd5138d478931b9768e",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "first",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "9f295a9e2c8aecc55d6e1287e6739f3fb3726b85986612b7220eb06663d89e9f",
+          "secondSha256": "9f295a9e2c8aecc55d6e1287e6739f3fb3726b85986612b7220eb06663d89e9f",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "middle",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "3dc19727fa7454e606cf69df8237086fd98ab0dd1666fc8913307b1109b3c039",
+          "secondSha256": "3dc19727fa7454e606cf69df8237086fd98ab0dd1666fc8913307b1109b3c039",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "last",
+          "elements": 86,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "4af0883399765343a32263710c2fae7f7497b2db5dc040d8dbd73e0e4212bdd8",
+          "secondSha256": "4af0883399765343a32263710c2fae7f7497b2db5dc040d8dbd73e0e4212bdd8",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "disabled",
+          "elements": 90,
+          "icons": 10,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "59662ac533735c11e7c80d10142ef2d30469f6e2e6039be98e9258a6ab522e82",
+          "secondSha256": "59662ac533735c11e7c80d10142ef2d30469f6e2e6039be98e9258a6ab522e82",
+          "issues": []
+        },
+        {
+          "case": "border",
+          "state": "normal",
+          "elements": 35,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "c1127c095bd563987ba5a9011a651c56d17ad08e81d37074d777c51fd25d3d8d",
+          "secondSha256": "c1127c095bd563987ba5a9011a651c56d17ad08e81d37074d777c51fd25d3d8d",
+          "issues": []
+        },
+        {
+          "case": "border",
+          "state": "collapsed",
+          "elements": 36,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "c342e01babc4878d768b171feaa2f746367cbda24eb33a7d260bcb97a44c2bef",
+          "secondSha256": "c342e01babc4878d768b171feaa2f746367cbda24eb33a7d260bcb97a44c2bef",
+          "issues": []
+        },
+        {
+          "case": "border",
+          "state": "expanded",
+          "elements": 35,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "219bdd8d88fd5c76a9b4ef592838c77a6f126bc14852bb8bec7b1434e32bf07a",
+          "secondSha256": "219bdd8d88fd5c76a9b4ef592838c77a6f126bc14852bb8bec7b1434e32bf07a",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "normal",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "2fcc0aed3b5bfa63cd0d35987e4347fe311a8dc78653b648f516329d55932b0a",
+          "secondSha256": "2fcc0aed3b5bfa63cd0d35987e4347fe311a8dc78653b648f516329d55932b0a",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "hover",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "0d0b3e1190d9b5ed8c13dc660ee50c9fc9f5b13a891f911a2c73cb5a1751c470",
+          "secondSha256": "0d0b3e1190d9b5ed8c13dc660ee50c9fc9f5b13a891f911a2c73cb5a1751c470",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "selected",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "9861f6373beeb8f3ffedaa65ca09e4294d5edbc0c725e6d4c5078690671557be",
+          "secondSha256": "9861f6373beeb8f3ffedaa65ca09e4294d5edbc0c725e6d4c5078690671557be",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "focus",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "b311b3382b50454293d6887d3e1ee95c9bba4a33b427c9f373d026c6d088df09",
+          "secondSha256": "b311b3382b50454293d6887d3e1ee95c9bba4a33b427c9f373d026c6d088df09",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "overflow",
+          "elements": 56,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "e5e20b4bba72e591888ea24e6d2ec91efe37876d3443f76328f817201709298c",
+          "secondSha256": "e5e20b4bba72e591888ea24e6d2ec91efe37876d3443f76328f817201709298c",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "normal",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "d57390ee99c6df8bbb05ee50cb18ce963770e41855c499dc41826c2f475e4c8d",
+          "secondSha256": "d57390ee99c6df8bbb05ee50cb18ce963770e41855c499dc41826c2f475e4c8d",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "collapsed",
+          "elements": 19,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "e89cad2bf1c13b354f17e1c5d46c87da59c1a13dc3a70eac1305dd116f60d38e",
+          "secondSha256": "e89cad2bf1c13b354f17e1c5d46c87da59c1a13dc3a70eac1305dd116f60d38e",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "expanded",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "7129f84dbd7032c1a20cce36a38a9bf205016ab4a789e763b19c040747903a4c",
+          "secondSha256": "7129f84dbd7032c1a20cce36a38a9bf205016ab4a789e763b19c040747903a4c",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "selected",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "bf87e4ab3e48c4c45c1eaa39d18cb0bd6e7ddb43c7985e7c75e078a9792ed6b0",
+          "secondSha256": "bf87e4ab3e48c4c45c1eaa39d18cb0bd6e7ddb43c7985e7c75e078a9792ed6b0",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "focus",
+          "elements": 29,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "6e86a0ecaa0ce406577f62c3c3af959096f416ffd2c0dacd5600df90fa956501",
+          "secondSha256": "6e86a0ecaa0ce406577f62c3c3af959096f416ffd2c0dacd5600df90fa956501",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "disabled",
+          "elements": 33,
+          "icons": 7,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "ddd61d050f4557f4fbf0024abcc722698557a3233b963ec196cd3930a4829e70",
+          "secondSha256": "ddd61d050f4557f4fbf0024abcc722698557a3233b963ec196cd3930a4829e70",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "normal",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "8d4f2285a2ec7224dd63b9273cce3e2f8f3995169ddaded6f474d1b9754466cc",
+          "secondSha256": "8d4f2285a2ec7224dd63b9273cce3e2f8f3995169ddaded6f474d1b9754466cc",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "selected",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "d94e0a1f11bc233c6f6f2cf1c36067414b79cbb420ae849b52d771041c2c8584",
+          "secondSha256": "d94e0a1f11bc233c6f6f2cf1c36067414b79cbb420ae849b52d771041c2c8584",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "prev",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": false,
+          "differentPixels": 6072,
+          "diffBounds": [
+            42,
+            658,
+            392,
+            717
+          ],
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "dd18a371cc98ab6f2852a66ba50e4b9ade6c07f9962533201520f75d6d658422",
+          "secondSha256": "c71cd7ef7a3a6a8f94506c18ce57e6e0a6a92c201b60895011811428809ab822",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "next",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "4bf8fe062f49b558f60db76f20ecf5bd091589d9ee5c2616b467d4e68397b346",
+          "secondSha256": "4bf8fe062f49b558f60db76f20ecf5bd091589d9ee5c2616b467d4e68397b346",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "focus",
+          "elements": 96,
+          "icons": 3,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "d7407f4676928b97a34f707bff0156d268b9d4c8e2b4686e97af47a9ae00ce49",
+          "secondSha256": "d7407f4676928b97a34f707bff0156d268b9d4c8e2b4686e97af47a9ae00ce49",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "disabled",
+          "elements": 100,
+          "icons": 4,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "9ec76ccd300b22e94a4133a1c55e27965ecda3f12eec401dd9d09c3c173808ef",
+          "secondSha256": "9ec76ccd300b22e94a4133a1c55e27965ecda3f12eec401dd9d09c3c173808ef",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "normal",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "8a2b5b175ffdd5bfb74e8ac4a4dd29525b781ef02c03ff0282dd0c1c8b41fb74",
+          "secondSha256": "8a2b5b175ffdd5bfb74e8ac4a4dd29525b781ef02c03ff0282dd0c1c8b41fb74",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "partial",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "eb5649bb529646651046c40bdaa132ad78d7c8af135ecda812bc81bf12c92b1e",
+          "secondSha256": "eb5649bb529646651046c40bdaa132ad78d7c8af135ecda812bc81bf12c92b1e",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "full",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "34513ad8a3d86969c49317d39f9c7dc0832578b7d1766724cde1ea4f7d71b427",
+          "secondSha256": "34513ad8a3d86969c49317d39f9c7dc0832578b7d1766724cde1ea4f7d71b427",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "normal",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "df064d1be89d32e54bae2f2b69772981621beb8bda65c9b1265687a9b07519a5",
+          "secondSha256": "df064d1be89d32e54bae2f2b69772981621beb8bda65c9b1265687a9b07519a5",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "hover",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "f0383835799995e2200dcb349d863d91ce92634bd370b9f5bea072d9d33b8343",
+          "secondSha256": "f0383835799995e2200dcb349d863d91ce92634bd370b9f5bea072d9d33b8343",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "focus",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "ee033653bb94347f9d9ccc7667eeda707e399d7c17998228c82aacacafcb9be5",
+          "secondSha256": "ee033653bb94347f9d9ccc7667eeda707e399d7c17998228c82aacacafcb9be5",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "selected",
+          "elements": 17,
+          "icons": 8,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "001937dd1f1e81e89fd97096fd8a1322576cda3842aca5dec6bb8a898299b324",
+          "secondSha256": "001937dd1f1e81e89fd97096fd8a1322576cda3842aca5dec6bb8a898299b324",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "disabled",
+          "elements": 21,
+          "icons": 9,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "5a77116e29219d259cdeec3ff17174ea984cffce6a5dfb8d013f205e28074ef8",
+          "secondSha256": "5a77116e29219d259cdeec3ff17174ea984cffce6a5dfb8d013f205e28074ef8",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "normal",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "1223b37fff26d162b352eff901e88a8ca26d3e707871922a979a1ac2a6c25e29",
+          "secondSha256": "1223b37fff26d162b352eff901e88a8ca26d3e707871922a979a1ac2a6c25e29",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "open",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "ca1554b980e46e646534cd9d44a6f6710ca9fea5558e024578bdb8990ee877ab",
+          "secondSha256": "ca1554b980e46e646534cd9d44a6f6710ca9fea5558e024578bdb8990ee877ab",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "checked",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "a59cfafc6bd008ed84ea2cf3b49425a13879271a6fcbce8612b6fc8944267896",
+          "secondSha256": "a59cfafc6bd008ed84ea2cf3b49425a13879271a6fcbce8612b6fc8944267896",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "unchecked",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "e46a6cd2e40b28b5a19a18493509ba66e508b0c064591fdfe117027a701b3ffc",
+          "secondSha256": "e46a6cd2e40b28b5a19a18493509ba66e508b0c064591fdfe117027a701b3ffc",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "focus",
+          "elements": 20,
+          "icons": 6,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "45f75998aba5f55a72f2000e54cde6aa0f89747901a4a9dece4b805abf704887",
+          "secondSha256": "45f75998aba5f55a72f2000e54cde6aa0f89747901a4a9dece4b805abf704887",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "disabled",
+          "elements": 24,
+          "icons": 7,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "766d2b1c4f041d4c5924cdec2540dc1e471e7f67edd9ecd9177efdde086c4e0e",
+          "secondSha256": "766d2b1c4f041d4c5924cdec2540dc1e471e7f67edd9ecd9177efdde086c4e0e",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "normal",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "fd0c1012521631bf19d88132df284153021b81ac7393ff3d0e3ee639f05565ca",
+          "secondSha256": "fd0c1012521631bf19d88132df284153021b81ac7393ff3d0e3ee639f05565ca",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "hover",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "3d1cb327089c3ca78f86eca9bb554321b4f08da8700f8695f22417eeefbccf64",
+          "secondSha256": "3d1cb327089c3ca78f86eca9bb554321b4f08da8700f8695f22417eeefbccf64",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "focus",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "4b9d1935c6968da5cf89c7cb028b634d4f49c8d2a255bbc8dbbb0bc25ec5af2f",
+          "secondSha256": "4b9d1935c6968da5cf89c7cb028b634d4f49c8d2a255bbc8dbbb0bc25ec5af2f",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "pressed",
+          "elements": 66,
+          "icons": 33,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "1dd6f7c919243456b7694f95e8c442ddfe8e2d4eaf986107f7943abc9fd92809",
+          "secondSha256": "1dd6f7c919243456b7694f95e8c442ddfe8e2d4eaf986107f7943abc9fd92809",
+          "issues": []
+        },
+        {
+          "case": "tool",
+          "state": "disabled",
+          "elements": 198,
+          "icons": 66,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "3427fbe0ab9d21b99d37e7044d68d4dd2f705e9ec868600f37c4aab306435f81",
+          "secondSha256": "3427fbe0ab9d21b99d37e7044d68d4dd2f705e9ec868600f37c4aab306435f81",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "normal",
+          "elements": 8,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "619a465b82d968a472759d5f6ffbaa44e3168c5c00e9b0c4932fc78c7a59caee",
+          "secondSha256": "619a465b82d968a472759d5f6ffbaa44e3168c5c00e9b0c4932fc78c7a59caee",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "loading",
+          "elements": 8,
+          "icons": 1,
+          "metricsIdentical": true,
+          "screenshotIdentical": false,
+          "differentPixels": 2172,
+          "diffBounds": [
+            671,
+            332,
+            1338,
+            368
+          ],
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "9541393b1afe50383a96bca7a7569ce384b80d98affdc1a854e99b45431f8dc6",
+          "secondSha256": "feb0e1067ae4119eaf14ee53996c242a43bf6e49d76affedc4348a2408e12684",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "hidden",
+          "elements": 4,
+          "icons": 0,
+          "metricsIdentical": true,
+          "screenshotIdentical": true,
+          "differentPixels": 0,
+          "diffBounds": null,
+          "pixelDimensions": [
+            2560,
+            3200
+          ],
+          "firstSha256": "60c358c706a28c0562e243fdeb1d93e307c415a7047a406adc8016fb6aca75cf",
+          "secondSha256": "60c358c706a28c0562e243fdeb1d93e307c415a7047a406adc8016fb6aca75cf",
+          "issues": []
+        }
+      ]
+    }
+  ]
+}

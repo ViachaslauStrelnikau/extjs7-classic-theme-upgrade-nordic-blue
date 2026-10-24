@@ -1,0 +1,52 @@
+{
+  "completionDate": "2026-10-24",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "java": "1.8.0_501",
+  "browser": "155.0.4283.62",
+  "buildCommands": [
+    "sencha.exe -cwd=TestApp/theme-lab app build lab-nordic testing",
+    "sencha.exe -cwd=TestApp/theme-lab app build lab-nordic development",
+    "sencha.exe -cwd=TestApp/theme-lab app build lab-nordic production"
+  ],
+  "buildExitCodes": [
+    0,
+    0,
+    0
+  ],
+  "captureCommands": [
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 1 1",
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 2 1"
+  ],
+  "captureExitCodes": [
+    0,
+    0
+  ],
+  "nativeActionDrivers": [
+    "form-review.cjs",
+    "grid-review.cjs",
+    "secondary-review.cjs"
+  ],
+  "actionDprs": [
+    1,
+    2
+  ],
+  "actionExecutions": 304,
+  "actionExitCodes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "buildModesProbe": "modern-node build-modes.cjs",
+  "finalBuildModesExitCode": 0,
+  "runtimeFiles": 648,
+  "approvedSheets": 182,
+  "styleMappings": 294,
+  "policyControls": 45,
+  "contractControls": 7,
+  "iconManifestSha256": "a7ac4cc21bdac41de0dffc6e5fc1dee3adf72eb01edfe6f0ca4de4bbb8433a20",
+  "approvalSha256": "50cba91d56499fc59cc29cf86e5e80b91a04f6e1b3c0ec64be1cc855272cca1c"
+}

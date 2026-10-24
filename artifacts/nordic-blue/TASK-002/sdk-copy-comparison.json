@@ -1,0 +1,20 @@
+[
+  {
+    "theme": "theme-base",
+    "testAppFiles": 108,
+    "rootSdkFiles": 108,
+    "differences": []
+  },
+  {
+    "theme": "theme-neutral",
+    "testAppFiles": 168,
+    "rootSdkFiles": 168,
+    "differences": []
+  },
+  {
+    "theme": "theme-classic",
+    "testAppFiles": 336,
+    "rootSdkFiles": 336,
+    "differences": []
+  }
+]

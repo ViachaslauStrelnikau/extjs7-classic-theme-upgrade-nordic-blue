@@ -1,0 +1,145 @@
+[
+  {
+    "step": "lint",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\tools\\lint-nordic-blue.py",
+      "--check-icon-candidates",
+      "--report",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\lint-report.json"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "capture-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\capture.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "form-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\form-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "grid-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\grid-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "secondary-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\secondary-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "core-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\core-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "window-review-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\window-review.cjs",
+      "1"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "capture-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\capture.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "form-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\form-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "grid-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\grid-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "secondary-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\secondary-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "core-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\core-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "window-review-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\window-review.cjs",
+      "2"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "adapters",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\adapters.cjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "negative-controls",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\negative-controls.cjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "compare",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-014\\run-1\\report.py"
+    ],
+    "exitCode": 0
+  }
+]

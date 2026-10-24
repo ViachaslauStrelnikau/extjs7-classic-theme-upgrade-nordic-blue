@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "sdkSassFiles": 300,
+  "originalApplicationInputs": 18,
+  "baselineInputsCompared": 1474,
+  "baselineDifferences": [
+    "AGENTS.md",
+    "TestApp/theme-lab/build-profiles.json",
+    "TestApp/theme-lab/README.md"
+  ],
+  "inheritedIconBytesCompared": 180,
+  "sourceImages": 0,
+  "sourceOverrides": 0,
+  "note": "Only previously documented instruction/lab profile changes relative to TASK-006. Application, shared fixture, SDK and approved artwork unchanged. All 180 inherited icon resources targeted for TASK-013 equal Classic. Cmd-generated color frame slices are separate and may reflect the palette."
+}

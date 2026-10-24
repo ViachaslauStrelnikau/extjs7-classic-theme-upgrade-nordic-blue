@@ -1,0 +1,19 @@
+{
+  "variables": [
+    "button-default-inner-border-color",
+    "button-default-inner-border-color-over",
+    "button-default-inner-border-color-focus",
+    "button-default-inner-border-color-pressed",
+    "button-default-inner-border-color-focus-over",
+    "button-default-inner-border-color-focus-pressed",
+    "button-default-inner-border-color-disabled",
+    "button-toolbar-inner-border-color",
+    "button-toolbar-inner-border-color-over",
+    "button-toolbar-inner-border-color-focus",
+    "button-toolbar-inner-border-color-pressed",
+    "button-toolbar-inner-border-color-focus-over",
+    "button-toolbar-inner-border-color-focus-pressed",
+    "button-toolbar-inner-border-color-disabled"
+  ],
+  "reason": "No sentinel occurrence in compiled Classic default UI. Remove overrides instead of enabling inner borders or changing their widths."
+}

@@ -1,0 +1,14 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>Classic baseline — TASK-006</title><link rel="icon" href="data:,">
+<style>body{margin:22px;font:14px Arial;background:#f4f7fc;color:#25374d}h1{font-size:22px}label{margin-right:16px}select,button{font:14px Arial;padding:4px}a{color:#3275d6}#canvas{margin-top:18px;overflow:auto;border:1px solid #b7c8dc;background:white}img{display:block}#status{line-height:1.6}details{margin-top:12px}</style>
+<h1>Classic baseline · Ext JS 7.7.0.31</h1><p>101 состояние + обзор, две плотности, два независимых захвата. Точная проверка повторяемости; это исходная Classic, без Nordic-замен.</p>
+<label>Раздел <select id="case"></select></label><label>Состояние <select id="state"></select></label><label>DPR <select id="dpr"><option>1</option><option>2</option></select></label>
+<label>Захват <select id="pass"><option value="1">Первый</option><option value="2">Повторный</option></select></label><label><input id="fit" type="checkbox" checked>Вписать в окно</label>
+<p id="status">Загрузка…</p><p><a id="metrics">Параметры элементов</a> · <a id="raw">Исходный PNG</a> · <a href="repeatability.json">Отчёт повторяемости</a> · <a href="baseline-manifest.json">Manifest</a></p>
+<details><summary>Условия захвата</summary><p>Viewport 1280×1600, en-US, Europe/Minsk, дата 2026-10-23. Raw browser raster без изменения пикселей, цветовой нормализации и широких масок. Для воспроизводимости GIF-загрузчики отданы первым исходным кадром того же размера; SDK не менялся. Живые анимированные снимки сохранены отдельно в live-animated/. Для псевдоэлементов записаны CSS box/offsets и host rect — отдельного DOMRect у них нет.</p></details>
+<div id="canvas"><img id="shot" alt="Classic baseline"></div>
+<script>
+(async()=>{const data=await(await fetch('expected-counts.json')).json(),report=await(await fetch('repeatability.json')).json();const $=id=>document.getElementById(id);for(const name of Object.keys(data.cases))$('case').add(new Option(name,name));
+function states(){const c=$('case').value;$('state').replaceChildren();data.cases[c].forEach(s=>$('state').add(new Option(s,s)));show()}
+function show(){const c=$('case').value,s=$('state').value,d=$('dpr').value,p=$('pass').value,stem=c+'--'+s,path='captures/pass-'+p+'/dpr-'+d+'/'+stem;const r=report.reports.find(x=>x.dpr===+d).results.find(x=>x.case===c&&x.state===s);$('shot').src=path+'.png';$('metrics').href=path+'.json';$('raw').href=path+'.png';$('status').textContent=(r.metricsIdentical&&r.screenshotIdentical?'Повторяемость подтверждена':'Есть различия')+' · '+r.elements+' элементов · '+r.icons+' image observations · '+r.differentPixels+' отличающихся пикселей';$('shot').style.width=(r.pixelDimensions[0]/+d)+'px';$('shot').style.maxWidth=$('fit').checked?'100%':'none'}
+$('case').onchange=states;for(const id of ['state','dpr','pass','fit'])$(id).onchange=show;states()})().catch(e=>document.getElementById('status').textContent=String(e));
+</script></html>

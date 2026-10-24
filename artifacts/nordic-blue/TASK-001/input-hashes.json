@@ -1,0 +1,8 @@
+{
+  "TestApp/app.json": "dd1d995dc01c14609d66f8e3fd7f4b003697bcd17dc17865307a922180c9f4e3",
+  "TestApp/workspace.json": "f781c94d124aade014192cee0d185bea0822c3fc628984d410fd08020548916f",
+  "TestApp/ext/version.properties": "cc2e7bb2d77cc9849d768589e46da49ef0caeac2d11782dd6f29787d4f2ccdfd",
+  "ext-7.7.0.31/version.properties": "cc2e7bb2d77cc9849d768589e46da49ef0caeac2d11782dd6f29787d4f2ccdfd",
+  "package.json": "c123341b02a58b8d05440dbdcf4eaca70ae485149889b81ea213abdde2a97e1f",
+  "package-lock.json": "fe2cb66d5c13752e177efd5cb7e7412e461cfbbb34e4d27fe4c6c8b29ce9c707"
+}

@@ -1,0 +1,93 @@
+{
+  "images/grid/grid-loading.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/grid/grid-loading.gif",
+    "sourceSha256": "1858d2d754c3bdd49d2be161f14b63aac91d50c5b5659caae531cccb193e494e",
+    "frameIndex": 0,
+    "sourceFrameCount": 8,
+    "dimensions": [
+      16,
+      16
+    ],
+    "derivedPng": "frozen-gif-frame0/images/grid/grid-loading.png",
+    "derivedPngSha256": "61c2d58bb2cd55bc39a97c7a5fc0587193639f1793a959662565dcb2bb521c86",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  },
+  "images/grid/loading.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/grid/loading.gif",
+    "sourceSha256": "81a161d5793ac2a33f02ddcd64fb0dc2d028616dac084e4f64e77f4898b0c4e4",
+    "frameIndex": 0,
+    "sourceFrameCount": 7,
+    "dimensions": [
+      16,
+      16
+    ],
+    "derivedPng": "frozen-gif-frame0/images/grid/loading.png",
+    "derivedPngSha256": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  },
+  "images/grid/wait.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/grid/wait.gif",
+    "sourceSha256": "97889e1972deb03c24d3f4f84a6719233efa97730b6fd7ddc718bd6e58e6c700",
+    "frameIndex": 0,
+    "sourceFrameCount": 8,
+    "dimensions": [
+      18,
+      18
+    ],
+    "derivedPng": "frozen-gif-frame0/images/grid/wait.png",
+    "derivedPngSha256": "046e8c7218fe528e5d37222063abdd1446a670401bc61d953db0f8616db9aecf",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  },
+  "images/shared/blue-loading.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/shared/blue-loading.gif",
+    "sourceSha256": "d0e2228ebfacab516c72ae1debd4f0325e0e0b9d63b8c0b61095c6b3e8b1aa53",
+    "frameIndex": 0,
+    "sourceFrameCount": 12,
+    "dimensions": [
+      32,
+      32
+    ],
+    "derivedPng": "frozen-gif-frame0/images/shared/blue-loading.png",
+    "derivedPngSha256": "b01479ce57bede4b5ef28e9a47fd62c50b66332e8151c656cf14be9daedaa567",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  },
+  "images/shared/large-loading.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/shared/large-loading.gif",
+    "sourceSha256": "d0fda45114f799dbc4ccda89f4deb76b442a516e5cede0bde24799b113dca7c2",
+    "frameIndex": 0,
+    "sourceFrameCount": 12,
+    "dimensions": [
+      32,
+      32
+    ],
+    "derivedPng": "frozen-gif-frame0/images/shared/large-loading.png",
+    "derivedPngSha256": "2280badac36f4fcbef615630a68de50de552744a7a068da9e80c438767aaa97b",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  },
+  "images/shared/loading-balls.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/shared/loading-balls.gif",
+    "sourceSha256": "9982451438432279ee711f22d1bdbae5c1c8226c2f1f17a76386696f243032ad",
+    "frameIndex": 0,
+    "sourceFrameCount": 5,
+    "dimensions": [
+      41,
+      9
+    ],
+    "derivedPng": "frozen-gif-frame0/images/shared/loading-balls.png",
+    "derivedPngSha256": "1f1e6be46b2c7fc8f89610745e5d1716cba0db6a669bace9ab453798d4a6b875",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  },
+  "images/tree/loading.gif": {
+    "source": "ext-7.7.0.31/build/classic/theme-classic/resources/images/tree/loading.gif",
+    "sourceSha256": "81a161d5793ac2a33f02ddcd64fb0dc2d028616dac084e4f64e77f4898b0c4e4",
+    "frameIndex": 0,
+    "sourceFrameCount": 7,
+    "dimensions": [
+      16,
+      16
+    ],
+    "derivedPng": "frozen-gif-frame0/images/tree/loading.png",
+    "derivedPngSha256": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7",
+    "policy": "Browser route only; original URL and CSS/layout unchanged, first composited source GIF frame served as same-size PNG. Original source files untouched."
+  }
+}

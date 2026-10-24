@@ -1,0 +1,23 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$tab-base-color: dynamic($nb-header-bg);
+$tab-base-color-active: dynamic($nb-surface);
+$tab-border-color: dynamic($nb-border);
+$tab-color: dynamic($nb-heading);
+$tab-base-color-focus: dynamic($nb-accent-soft);
+$tab-base-color-over: dynamic($nb-control-hover);
+$tab-base-color-focus-over: dynamic($nb-control-pressed);
+$tab-base-color-focus-active: dynamic($nb-control-bg);
+$tab-base-color-disabled: dynamic($nb-header-bg);
+$tab-body-outline-color-focus: dynamic($nb-accent);
+$tab-color-focus: dynamic($nb-heading);
+$tab-border-color-focus: dynamic($nb-accent);
+$tab-color-over: dynamic($nb-heading);
+$tab-border-color-over: dynamic($nb-accent);
+$tab-color-active: dynamic($nb-heading);
+$tab-border-color-active: dynamic($nb-border);
+$tab-color-focus-over: dynamic($nb-heading);
+$tab-border-color-focus-over: dynamic($nb-accent);
+$tab-color-focus-active: dynamic($nb-heading);
+$tab-border-color-focus-active: dynamic($nb-accent);
+$tab-color-disabled: dynamic($nb-muted);
+$tab-border-color-disabled: dynamic($nb-border);

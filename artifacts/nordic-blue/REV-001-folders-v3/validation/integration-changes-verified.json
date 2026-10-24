@@ -1,0 +1,26 @@
+{
+  "status": "INSTALLED_PENDING_VALIDATION",
+  "changedRuntimeFiles": [
+    "images/tree/folder-open-rtl.gif",
+    "images/tree/folder-open-rtl.png",
+    "images/@2x/tree/folder-open-rtl.gif",
+    "images/@2x/tree/folder-open-rtl.png",
+    "images/tree/folder-open.gif",
+    "images/tree/folder-open.png",
+    "images/@2x/tree/folder-open.gif",
+    "images/@2x/tree/folder-open.png",
+    "images/tree/folder-rtl.gif",
+    "images/tree/folder-rtl.png",
+    "images/@2x/tree/folder-rtl.gif",
+    "images/@2x/tree/folder-rtl.png"
+  ],
+  "unmodifiedRuntimeFiles": 636,
+  "styleSha256": "04bc09575b109e96a71ca3bed0534309e00c25f2eca9ae6d2abfdb0ba67f2a57",
+  "baseStyleSha256": "0d30b177d7131d470949073f5bb02fef1d9e9ae0f0af32d1e2068768321b01e7",
+  "newManifestSha256": "05c0e2901c84f6d26c6dc9dccc90024ac9962565da3fe1b78d3f88a502a9aa73",
+  "newApprovalSha256": "0fc43cc52ed88d44bc3d96d2eda018b5b0c0a281e67365ae9f5928f5680c48cf",
+  "lintChange": "Support the exact approved artifact source root; all byte/dimension/approval/metric checks retained.",
+  "baseStyleByteSha256": "04bc09575b109e96a71ca3bed0534309e00c25f2eca9ae6d2abfdb0ba67f2a57",
+  "styleSha256Normalized": "0d30b177d7131d470949073f5bb02fef1d9e9ae0f0af32d1e2068768321b01e7",
+  "styleBytesUnchanged": true
+}

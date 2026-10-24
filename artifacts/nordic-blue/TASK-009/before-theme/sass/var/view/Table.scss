@@ -1,0 +1,4 @@
+// Color assignments only. Geometry and typography are inherited from Classic.
+$grid-row-cell-background-color: dynamic($nb-surface);
+$grid-row-cell-alt-background-color: dynamic($nb-surface-alt);
+$grid-row-cell-border-color: dynamic($nb-grid-line);

@@ -1,0 +1,13 @@
+{
+  "TestApp/theme-lab/build-profiles.json": "59d41caf605442a196cd9b5cd4f4dfc749ba77fb6d12fe39aad3b04424cc2035",
+  "TestApp/theme-lab/build-requires.js": "6dadf42f3a802a681d3a8f9d22aa5182a36bb8de86ff07f0913aebae45e6bf68",
+  "TestApp/theme-lab/classic-reference.json": "dc2bddb4f29693dd1225fe64850e90fdbab6c5798ed61f56ac661fe4d2d7effb",
+  "TestApp/theme-lab/clock.js": "b832296ec0b72248b959848e642bc67e63a9da441c2423057c8d1fa92bb2db2e",
+  "TestApp/theme-lab/fixture.js": "6ff9cf0f0346379941c6a6adbe44b38723c09215717a9d0440a962ad85131142",
+  "TestApp/theme-lab/index.html": "931b9db8ce251bfcff9492c76611583e1b39cc76b3e62771ef765bd36a09d810",
+  "TestApp/theme-lab/lab-shell.css": "97f437b63110aaa2b63b2c20b67b2d23beec71f0ef99117b3d1a4c5efcf6a688",
+  "TestApp/theme-lab/loader.js": "6a82b94524632e3ca27b67778eecc5c759fb2f77a8c2b58c6d15cae4082358a1",
+  "TestApp/theme-lab/profiles.json": "47d66fb2cf9c203ceaa45093a0c97a94d6fe66d4c47af90f577a6a4b5e4cea70",
+  "TestApp/theme-lab/README.md": "ca68d7f93d652b71c4dbdb484ea20a70dffbbcf8ca68fa5cb3b6eb00a3ff12a3",
+  "TestApp/theme-lab/serve.cjs": "d98cad6b6b07d9691101761f438f55951eb6f0da8f418b685fb9de688f777f12"
+}

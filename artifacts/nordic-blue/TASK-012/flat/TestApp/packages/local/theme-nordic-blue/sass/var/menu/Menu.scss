@@ -1,0 +1,11 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$menu-background-color: dynamic($nb-surface);
+$menu-border-color: dynamic($nb-border);
+$menu-item-active-border-color: dynamic($nb-accent);
+$menu-text-color: dynamic($nb-text);
+$menu-item-active-text-color: dynamic($nb-text);
+$menu-item-active-background-color: dynamic($nb-accent-soft);
+$menu-separator-border-color: dynamic($nb-grid-line);
+$menu-separator-background-color: dynamic($nb-surface);
+
+$menu-item-background-gradient: dynamic('none');

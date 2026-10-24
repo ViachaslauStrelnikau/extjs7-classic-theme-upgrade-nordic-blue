@@ -1,0 +1,8 @@
+{
+  "sourceScanner": "global declarations at column zero in sass/var; line-based non-comment references across all Sass; explicit planned-name validation; SHA256 of both parent trees and app inputs",
+  "limitations": [
+    "Does not evaluate Fashion dynamic expressions",
+    "Top-level declaration index is a source inventory, not a promise all classes are included",
+    "Use references include mixin parameters/branches and symbolic dependent expressions; future builds check actual compiled default UI"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "theme": "nordic",
+  "dpr": 1,
+  "pass": 1,
+  "browser": "155.0.4283.62",
+  "rasterArgs": [
+    "--disable-gpu",
+    "--force-color-profile=srgb"
+  ],
+  "viewport": [
+    1280,
+    1600
+  ],
+  "locale": "en-US",
+  "timezone": "Europe/Minsk",
+  "records": [
+    {
+      "case": "all",
+      "state": "normal",
+      "elementCount": 841,
+      "visibleElementCount": 736,
+      "fixtureSemanticCount": 302,
+      "iconCount": 147,
+      "frame0Substitutions": [
+        "images/grid/loading.gif"
+      ],
+      "screenshot": "all--normal.png",
+      "metrics": "all--normal.json",
+      "screenshotSha256": "fb8c4526ed0800b854a616a2c32d2bed74355ca2ed40bc9a747add3d3e6e556b",
+      "metricsSha256": "a427579311fdf1f0804e80551e6550bd22d5bed21490d7b5c881386d4d3ad866"
+    }
+  ],
+  "scenarioCount": 1
+}

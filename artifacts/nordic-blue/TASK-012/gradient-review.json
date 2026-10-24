@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "decision": "Remove only the fourteen enumerated secondary component gradient layers. Keep Classic geometry, column/header/row heights, border widths/styles, fonts, padding, arrow and trigger offsets unchanged.",
+  "variables": [
+    "tab-background-gradient",
+    "tab-background-gradient-over",
+    "tab-background-gradient-active",
+    "tab-background-gradient-focus",
+    "tab-background-gradient-focus-over",
+    "tab-background-gradient-focus-active",
+    "tab-background-gradient-disabled",
+    "tabbar-background-gradient",
+    "menu-item-background-gradient",
+    "datepicker-header-background-gradient",
+    "datepicker-column-header-background-gradient",
+    "datepicker-footer-background-gradient",
+    "progress-bar-background-gradient",
+    "loadmask-msg-background-gradient"
+  ],
+  "geometryReport": "artifacts/nordic-blue/TASK-012/phase-a-geometry.json",
+  "geometrySha256": "27b160a022d268f30e3bf207f4a7000573168f67997618813d4c9d9c688e49f1",
+  "comparison": "28 secondary states at DPR1/2: 2210 element comparisons and 288 icon observations, zero drift before flattening.",
+  "finalAcceptance": "Require new real Cmd build, full fixture geometry and interactions after flattening before DONE."
+}

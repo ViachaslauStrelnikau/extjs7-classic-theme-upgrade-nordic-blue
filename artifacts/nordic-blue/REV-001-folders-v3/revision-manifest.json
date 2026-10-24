@@ -1,0 +1,183 @@
+{
+  "version": "nordic-folders-v3-draft1",
+  "status": "WAITING_USER_APPROVAL",
+  "baseVersion": "nordic-icons-v2",
+  "baseManifestSha256": "a7ac4cc21bdac41de0dffc6e5fc1dee3adf72eb01edfe6f0ca4de4bbb8433a20",
+  "scope": "Three revised tree folder variants; ordinary folder is an unchanged reference. No other artwork changed. Not installed in the working theme.",
+  "changes": "Open folder has a distinct angled front flap and visible rear tab; RTL variants are geometric mirrors with matching line weight. Physical/CSS dimensions remain16x16; independent1x/2x exports.",
+  "entries": [
+    {
+      "resource": "images/tree/folder.gif",
+      "changed": false,
+      "cssDimensions": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "master": "masters/folder.svg",
+      "masterSha256": "9800fd5f05ab6ed2a44e8e1550de6ec46cd81170c19e76b60684c27b925cc49b",
+      "outputs": {
+        "1": {
+          "fallback": "candidate/1x/images/tree/folder.gif",
+          "preferred": "candidate/1x/images/tree/folder.png",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "37c908051dfc98e0162dc1e85d462c6bb3c848cb11f3c9efa5959aef9f065044",
+          "fallbackSha256": "a73b9be49212f61276e09cc327393f402f15c7e3c1869b447ca3e975301990db",
+          "beforeSha256": "37c908051dfc98e0162dc1e85d462c6bb3c848cb11f3c9efa5959aef9f065044"
+        },
+        "2": {
+          "fallback": "candidate/2x/images/tree/folder.gif",
+          "preferred": "candidate/2x/images/tree/folder.png",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "d066b6a2ffbcce05e30f3f14ae8bca2c0b39a2c5780d39350be0445405e52a2d",
+          "fallbackSha256": "1ae2b4006cdec3f42be451d5afdab7ddbd66d3988de9ddd0da8186554d69baf9",
+          "beforeSha256": "d066b6a2ffbcce05e30f3f14ae8bca2c0b39a2c5780d39350be0445405e52a2d"
+        }
+      }
+    },
+    {
+      "resource": "images/tree/folder-open.gif",
+      "changed": true,
+      "cssDimensions": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "master": "masters/folder-open.svg",
+      "masterSha256": "7f47b5931f8a8519e751c580c72e1cedf3859d122d44278144ca0134830ce15a",
+      "outputs": {
+        "1": {
+          "fallback": "candidate/1x/images/tree/folder-open.gif",
+          "preferred": "candidate/1x/images/tree/folder-open.png",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "206f5712fe68ed9f80411c50a8c6d966e3339e95a85e760c282612c141997125",
+          "fallbackSha256": "07403ba41425f9a2f5050288168e0bb7fa34409c3980870cedabadfd337851b8",
+          "beforeSha256": "fa8902c0ed403e24c8cc2b77f1b179f834492336126ed72f0ac9470ee3ddef97"
+        },
+        "2": {
+          "fallback": "candidate/2x/images/tree/folder-open.gif",
+          "preferred": "candidate/2x/images/tree/folder-open.png",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "11efef53ff385f162d186a70e7556958ddc32c4443e8f26599abccfe7de49136",
+          "fallbackSha256": "5efc7556f76be85d9196b8b5b4072f003856cf034981a542bac562c42d8a6f92",
+          "beforeSha256": "33aeb46e0d7f54698453fb9b3d5a479efb321811a934f19fd317025a8cda28ae"
+        }
+      }
+    },
+    {
+      "resource": "images/tree/folder-rtl.gif",
+      "changed": true,
+      "cssDimensions": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "master": "masters/folder-rtl.svg",
+      "masterSha256": "27dc2d28c701caa0587fab4b870622dd332323b3a00aabcf72674cf8989299f1",
+      "outputs": {
+        "1": {
+          "fallback": "candidate/1x/images/tree/folder-rtl.gif",
+          "preferred": "candidate/1x/images/tree/folder-rtl.png",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "502085237c14c6297751c94a45c76ba805b4a481896b2ad45b812ffe8c8a7e0c",
+          "fallbackSha256": "16aaab8cc2d95fd9ad494bf17088312ecbe93c1b77fb1dd553dbf69585a1a3a9",
+          "beforeSha256": "37c908051dfc98e0162dc1e85d462c6bb3c848cb11f3c9efa5959aef9f065044"
+        },
+        "2": {
+          "fallback": "candidate/2x/images/tree/folder-rtl.gif",
+          "preferred": "candidate/2x/images/tree/folder-rtl.png",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "7f559bcfe9628f4da9f898b9f597fcd5b60a4a885675418806efc4856abc2f8a",
+          "fallbackSha256": "ce73e58958649a216db56af537ac946960e5f13c1aca942e168b49027dcfee01",
+          "beforeSha256": "d066b6a2ffbcce05e30f3f14ae8bca2c0b39a2c5780d39350be0445405e52a2d"
+        }
+      }
+    },
+    {
+      "resource": "images/tree/folder-open-rtl.gif",
+      "changed": true,
+      "cssDimensions": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "master": "masters/folder-open-rtl.svg",
+      "masterSha256": "2191c49dd86540dde43f223a5688ba232e7bec1fa37a9c8dc7ecd894dc4ba2fa",
+      "outputs": {
+        "1": {
+          "fallback": "candidate/1x/images/tree/folder-open-rtl.gif",
+          "preferred": "candidate/1x/images/tree/folder-open-rtl.png",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "42261ff67e7cfb1142e0209de6176af65fee700e33701ac162efea7b06472e71",
+          "fallbackSha256": "a2a65acc0e24873ccb66c209d0a1ea4dceb3b040c277eadd4357778fb63a8477",
+          "beforeSha256": "fa8902c0ed403e24c8cc2b77f1b179f834492336126ed72f0ac9470ee3ddef97"
+        },
+        "2": {
+          "fallback": "candidate/2x/images/tree/folder-open-rtl.gif",
+          "preferred": "candidate/2x/images/tree/folder-open-rtl.png",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssBackgroundSize": [
+            16,
+            16
+          ],
+          "sha256": "f7d469aaac23ecfc0b50cbdcba63641cfc5bfcbd77cbf50e1019e626ee22847b",
+          "fallbackSha256": "adb4ff2b5ce66c6b44d744e36f3c6e0974bebf9144eaef041fb6f92c89084e05",
+          "beforeSha256": "33aeb46e0d7f54698453fb9b3d5a479efb321811a934f19fd317025a8cda28ae"
+        }
+      }
+    }
+  ],
+  "approvalRequiredBy": "Project AGENTS.md: changed artwork after approved v2 needs renewed review before integration."
+}

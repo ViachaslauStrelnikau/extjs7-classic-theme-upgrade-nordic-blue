@@ -1,0 +1,7 @@
+// Color assignments only. Geometry and typography are inherited from Classic.
+$button-default-background-color: dynamic($nb-control-bg);
+$button-default-background-color-over: dynamic($nb-control-hover);
+$button-default-background-color-pressed: dynamic($nb-control-pressed);
+$button-default-border-color: dynamic($nb-border);
+$button-default-color: dynamic($nb-text);
+$button-default-border-color-over: dynamic($nb-accent-hover);

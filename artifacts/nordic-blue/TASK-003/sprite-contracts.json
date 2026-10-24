@@ -1,0 +1,174 @@
+{
+  "tool": {
+    "asset": "tools/tool-sprites.gif",
+    "cellCssPx": [
+      15,
+      15
+    ],
+    "normalColumnPx": 0,
+    "hoverColumnPx": -15,
+    "rowOffsets": "0,-15,...,-345 for 24 rows; aliases reuse directional rows",
+    "special": "resize at -360 and move at -375 exceed bitmap height 360; repeat wraps to existing cells. Preserve boxes; resolve artwork mapping explicitly in TASK-004."
+  },
+  "formTrigger": {
+    "assets": [
+      "form/trigger.gif",
+      "form/date-trigger.gif",
+      "form/search-trigger.gif",
+      "form/clear-trigger.gif"
+    ],
+    "cssWidthPx": 17,
+    "normalHeightCssPx": 22,
+    "xOffsets": {
+      "normal": 0,
+      "hover": -17,
+      "pressed": -34,
+      "focus": -51,
+      "hover-focus": -68,
+      "pressed-focus": -34
+    },
+    "disabled": "same cell plus ancestor opacity"
+  },
+  "spinner": {
+    "asset": "form/spinner.gif",
+    "cellCssPx": [
+      17,
+      11
+    ],
+    "upY": 0,
+    "downY": -11,
+    "xOffsets": {
+      "normal": 0,
+      "hover": -17,
+      "pressed": -34,
+      "focus": -51,
+      "hover-focus": -68,
+      "pressed-focus": -34
+    }
+  },
+  "checkboxRadio": {
+    "assets": [
+      "form/checkbox.gif",
+      "form/radio.gif"
+    ],
+    "cellCssPx": [
+      13,
+      13
+    ],
+    "uncheckedPosition": [
+      0,
+      0
+    ],
+    "checkedPosition": [
+      0,
+      -13
+    ],
+    "focusX": -13,
+    "disabled": "same checked state cell plus field opacity",
+    "warning": "radio bitmap width=51: do not derive cell size by dividing width into guessed columns; preserve unused pixels"
+  },
+  "sliderHorizontal": {
+    "asset": "slider/slider-thumb.png",
+    "cellCssPx": [
+      14,
+      15
+    ],
+    "offsets": {
+      "normal": [
+        0,
+        0
+      ],
+      "hover": [
+        -14,
+        -15
+      ],
+      "pressed": [
+        -28,
+        -30
+      ],
+      "focus": [
+        -42,
+        -45
+      ],
+      "hover-focus": [
+        -56,
+        -60
+      ],
+      "pressed-focus": [
+        -70,
+        -75
+      ]
+    }
+  },
+  "sliderVertical": {
+    "asset": "slider/slider-v-thumb.png",
+    "cellCssPx": [
+      15,
+      14
+    ],
+    "offsets": "six diagonal state cells using measured x/y in component states, not a single horizontal strip"
+  },
+  "editor": {
+    "asset": "editor/tb-sprite.gif",
+    "cellCssPx": [
+      16,
+      16
+    ],
+    "xOffsets": "14 cells at 0,-16,...,-208",
+    "namesInSourceOrder": [
+      "bold",
+      "italic",
+      "underline",
+      "increasefontsize",
+      "decreasefontsize",
+      "insertorderedlist",
+      "insertunorderedlist",
+      "justifyleft",
+      "justifycenter",
+      "justifyright",
+      "forecolor",
+      "backcolor",
+      "sourceedit",
+      "createlink"
+    ]
+  },
+  "gridHeaderMenu": {
+    "asset": "grid/hd-pop.gif",
+    "bitmapPx": [
+      10,
+      9
+    ],
+    "cssBoxPx": [
+      14,
+      22
+    ],
+    "position": "0px center; do not resize image box to intrinsic bitmap"
+  },
+  "tree": {
+    "assets": [
+      "tree/arrows.gif",
+      "tree/elbow-plus.gif",
+      "tree/elbow-minus.gif",
+      "tree/folder.gif",
+      "tree/folder-open.gif",
+      "tree/leaf.gif"
+    ],
+    "elbowWidthCssPx": 16,
+    "arrowStateXOffsets": "0,-16,-32,-48 with center Y; folder/leaf are separate files; preserve indent/row height"
+  },
+  "dateMonthArrow": {
+    "asset": "button/s-arrow-light.gif",
+    "note": "Classic overrides neutral datepicker/month-arrow hook. Do not invent a new datepicker/month-arrow replacement path."
+  },
+  "tabClose": {
+    "asset": "tab/tab-default-close.gif",
+    "cssBoxPx": [
+      11,
+      11
+    ],
+    "opacity": "normal .6, disabled .3; source image is shared across state cells, no fabricated separate glyph file"
+  },
+  "loading": {
+    "note": "Animated GIF frames, durations and loop are recorded per asset; retain timing and display box when redesigning."
+  }
+}

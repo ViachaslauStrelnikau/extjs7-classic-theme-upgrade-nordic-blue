@@ -1,0 +1,6583 @@
+{
+  "status": "PASS",
+  "scenarios": 40,
+  "policy": "Visible element scroll/client excess lists match Classic exactly. Existing clipping/nowrap/ellipsis, trigger boxes, sprite offsets and font metrics are unchanged; no corrective positioning or global text clipping was introduced. Actual raw images grid-selected and tree-selected at DPR1 were visually inspected.",
+  "results": [
+    {
+      "dpr": 1,
+      "scenario": "grid--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--menu",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "grid.main/header-menu/item/columnitem",
+          "client": {
+            "width": 119,
+            "height": 22
+          },
+          "scroll": {
+            "width": 120,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        },
+        {
+          "id": "grid.main/header-menu/item/columnitemseparator",
+          "client": {
+            "width": 119,
+            "height": 0
+          },
+          "scroll": {
+            "width": 119,
+            "height": 14
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/ascitem/part/menu-item-icon",
+          "rect": {
+            "x": 28,
+            "y": 192,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/columnitem/part/menu-item-arrow",
+          "rect": {
+            "x": 133,
+            "y": 248,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/columnitem/part/menu-item-icon",
+          "rect": {
+            "x": 28,
+            "y": 246,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/descitem/part/menu-item-icon",
+          "rect": {
+            "x": 28,
+            "y": 216,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.name/ref/triggerEl",
+          "rect": {
+            "x": 266,
+            "y": 162,
+            "width": 14,
+            "height": 22
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "22px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--resized",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--sort-asc",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.name/textEl/graphic/x-column-header-text-inner",
+          "rect": {
+            "x": 27,
+            "y": 166,
+            "width": 40.15625,
+            "height": 13
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "grid--sort-desc",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.name/textEl/graphic/x-column-header-text-inner",
+          "rect": {
+            "x": 27,
+            "y": 166,
+            "width": 40.15625,
+            "height": 13
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tree--collapsed",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tree--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tree--expanded",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tree--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tree--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tree--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "paging--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "paging--first",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "paging--last",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "paging--middle",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "paging--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--menu",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "grid.main/header-menu/item/columnitem",
+          "client": {
+            "width": 119,
+            "height": 22
+          },
+          "scroll": {
+            "width": 120,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        },
+        {
+          "id": "grid.main/header-menu/item/columnitemseparator",
+          "client": {
+            "width": 119,
+            "height": 0
+          },
+          "scroll": {
+            "width": 119,
+            "height": 14
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/ascitem/part/menu-item-icon",
+          "rect": {
+            "x": 28,
+            "y": 192,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/columnitem/part/menu-item-arrow",
+          "rect": {
+            "x": 133,
+            "y": 248,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/columnitem/part/menu-item-icon",
+          "rect": {
+            "x": 28,
+            "y": 246,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/header-menu/item/descitem/part/menu-item-icon",
+          "rect": {
+            "x": 28,
+            "y": 216,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.name/ref/triggerEl",
+          "rect": {
+            "x": 266,
+            "y": 162,
+            "width": 14,
+            "height": 22
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "22px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--resized",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 822,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--sort-asc",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.name/textEl/graphic/x-column-header-text-inner",
+          "rect": {
+            "x": 27,
+            "y": 166,
+            "width": 40.15625,
+            "height": 13
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "grid--sort-desc",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "grid.main/cell/person-01/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 339,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-02/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 297,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-03/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 255,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-04/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 213,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-05/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 318,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-06/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 276,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-07/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 234,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.main/cell/person-08/active/part/cell-inner/graphic/x-grid-checkcolumn::after",
+          "rect": null,
+          "hostRect": {
+            "x": 762,
+            "y": 192,
+            "width": 13,
+            "height": 13
+          },
+          "cssBox": [
+            "13px",
+            "13px"
+          ],
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "grid.name/textEl/graphic/x-column-header-text-inner",
+          "rect": {
+            "x": 27,
+            "y": 166,
+            "width": 40.15625,
+            "height": 13
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tree--collapsed",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tree--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tree--expanded",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tree--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tree--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tree--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "-16px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-alpha/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 162,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-expander",
+          "rect": {
+            "x": 21,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/folder-beta/text/part/tree-icon",
+          "rect": {
+            "x": 37,
+            "y": 222,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-1/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 182,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tree.main/cell/leaf-2/text/part/tree-icon",
+          "rect": {
+            "x": 53,
+            "y": 202,
+            "width": 16,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "paging--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "paging--first",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "paging--last",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "paging--middle",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "paging--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "paging.toolbar/first/btnEl/part/button-icon",
+          "rect": {
+            "x": 26,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/inputEl",
+          "rect": {
+            "x": 112,
+            "y": 456,
+            "width": 28,
+            "height": 20
+          },
+          "hostRect": null,
+          "cssBox": [
+            "28px",
+            "20px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/inputItem/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "17px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/last/btnEl/part/button-icon",
+          "rect": {
+            "x": 203,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/next/btnEl/part/button-icon",
+          "rect": {
+            "x": 179,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/prev/btnEl/part/button-icon",
+          "rect": {
+            "x": 50,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "paging.toolbar/refresh/btnEl/part/button-icon",
+          "rect": {
+            "x": 231,
+            "y": 458,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    }
+  ]
+}

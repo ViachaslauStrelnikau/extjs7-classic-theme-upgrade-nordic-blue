@@ -1,0 +1,9 @@
+{
+  "config/nordic-blue-policy.json": "c583c6b2f3a7cb406603327b58a3dfd10c30a94a74a7e16cff54dbe5dd76f069",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss": "3a0eb10e94d7c365612c36cadaee08d78e529a0b13df69e26635e6b3fd9715c4",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss": "a2050279471400808038398cffee847872fb23d1634646217572f91df723b963",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss": "fdd57ad9db2b08ea9eeed7279196015fd3d6c4629df2e6a365016dbc7f3196cc",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss": "d0e85ba27dceaea34cc019008b549cc73582a391d8c8913b3b920e5ad6d690b1",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Bar.scss": "075b34fa1321cd6fce3e9d472b957aecef57072a1fe774231ef58db076ed9579",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss": "290f9fe39173ba05dca7c597b9c43550f4eb27726c14fabbd79d579dc78f8bdb"
+}

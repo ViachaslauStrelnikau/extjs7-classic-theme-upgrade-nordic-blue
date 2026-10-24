@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "name": "icon-rect-one-pixel",
+      "expected": "REJECT",
+      "passed": true
+    },
+    {
+      "name": "wrong-sheet-size",
+      "expected": "REJECT",
+      "passed": true
+    },
+    {
+      "name": "wrong-sprite-x",
+      "expected": "REJECT",
+      "passed": true
+    },
+    {
+      "name": "wrong-approved-adapter-y",
+      "expected": "REJECT",
+      "passed": true
+    },
+    {
+      "name": "unapproved-image-url",
+      "expected": "REJECT",
+      "passed": true
+    },
+    {
+      "name": "wrong-density-sheet",
+      "expected": "REJECT",
+      "passed": true
+    },
+    {
+      "name": "approved-contract-and-exact-metrics",
+      "expected": "ACCEPT",
+      "passed": true
+    }
+  ],
+  "note": "Only disposable in-memory observations changed; SDK/source/assets untouched. Geometry and resource checks reject wrong sizes, offsets, URL and density."
+}

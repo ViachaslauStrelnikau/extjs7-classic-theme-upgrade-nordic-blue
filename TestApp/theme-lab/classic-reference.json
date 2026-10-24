@@ -1,0 +1,12 @@
+{
+  "kind": "installed-sdk-prebuilt-reference",
+  "toolkit": "classic",
+  "theme": "theme-classic",
+  "packages": {
+    "ext": {"version": "7.7.0.31", "included": true},
+    "theme-classic": {"version": "7.7.0.31", "included": true}
+  },
+  "verify": {"versionProperties": "sdk/version.properties", "themePackage": "sdk/classic/theme-classic/package.json"},
+  "css": [{"path": "sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css"}],
+  "description": "Full unmodified prebuilt SDK Classic CSS. Existing TestApp build prunes classes not used by its Main view; it is not a complete theme-lab CSS source. sdk/ is a read-only server alias, not a new/copied SDK tree."
+}

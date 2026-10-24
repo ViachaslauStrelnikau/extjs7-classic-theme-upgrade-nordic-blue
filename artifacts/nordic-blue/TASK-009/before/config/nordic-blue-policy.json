@@ -1,0 +1,3697 @@
+{
+  "sdk": "7.7.0.31",
+  "package": "TestApp/packages/local/theme-nordic-blue",
+  "defaultAction": "DENY_UNLISTED",
+  "tokens": {
+    "nb-accent": "#3275D6",
+    "nb-accent-hover": "#2868C4",
+    "nb-accent-soft": "#E3EDFC",
+    "nb-header-bg": "#E8EFF8",
+    "nb-toolbar-bg": "#F4F7FC",
+    "nb-control-bg": "#EDF3F9",
+    "nb-control-hover": "#E3EDF9",
+    "nb-control-pressed": "#D8E7FA",
+    "nb-border": "#B7C8DC",
+    "nb-grid-line": "#DCE5EF",
+    "nb-surface": "#FFFFFF",
+    "nb-surface-alt": "#F7F9FC",
+    "nb-text": "#25374D",
+    "nb-heading": "#304A68",
+    "nb-muted": "#687B92"
+  },
+  "allowColorOverrides": {
+    "panel-header-background-color": {
+      "group": "Panel",
+      "target": "nb-header-bg",
+      "path": "sass/var/panel/Panel.scss",
+      "rhs": "$nb-header-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 278,
+          "expression": "dynamic($panel-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 15,
+          "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 6.402%, $lightness: -4.51%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 713,
+          "text": "$ui-header-background-color: $panel-header-background-color,"
+        }
+      ],
+      "sentinel": "#135701"
+    },
+    "panel-header-color": {
+      "group": "Panel",
+      "target": "nb-heading",
+      "path": "sass/var/panel/Panel.scss",
+      "rhs": "$nb-heading",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 272,
+          "expression": "dynamic($color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 8,
+          "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 38.347%, $lightness: -63.725%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Accordion.scss",
+          "line": 9,
+          "text": "$accordion-header-color: dynamic($panel-header-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 308,
+          "text": "$panel-header-glyph-color: dynamic($panel-header-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 699,
+          "text": "$ui-header-color: $panel-header-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 110,
+          "text": "$window-header-color: dynamic($panel-header-color);"
+        }
+      ],
+      "sentinel": "#1357D4"
+    },
+    "panel-header-border-color": {
+      "group": "Panel",
+      "target": "nb-border",
+      "path": "sass/var/panel/Panel.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 254,
+          "expression": "dynamic($panel-border-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 6,
+          "expression": "dynamic($panel-border-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Accordion.scss",
+          "line": 39,
+          "text": "$accordion-header-border-color: dynamic($panel-header-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 704,
+          "text": "$ui-header-border-color: $panel-header-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+          "line": 35,
+          "text": "$tabbar-border-color: dynamic($panel-header-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+          "line": 53,
+          "text": "$tabbar-strip-border-color: dynamic($panel-header-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/layout/container/Accordion.scss",
+          "line": 6,
+          "text": "$accordion-header-border-color: dynamic($panel-header-inner-border-color $panel-header-border-color $panel-header-border-color);"
+        }
+      ],
+      "sentinel": "#1358A7"
+    },
+    "panel-border-color": {
+      "group": "Panel",
+      "target": "nb-border",
+      "path": "sass/var/panel/Panel.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 25,
+          "expression": "dynamic($panel-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 5,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss",
+          "line": 70,
+          "text": "border-right-color: $panel-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/locking/Lockable.scss",
+          "line": 22,
+          "text": "$grid-lockable-separator-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/RowEditing.scss",
+          "line": 15,
+          "text": "$grid-row-editor-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 66,
+          "text": "$panel-body-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 254,
+          "text": "$panel-header-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 369,
+          "text": "$panel-frame-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 448,
+          "text": "$panel-wrap-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 694,
+          "text": "$ui-border-color: $panel-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tip/Tip.scss",
+          "line": 91,
+          "text": "$tip-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 5,
+          "text": "$menu-border-color: dynamic($panel-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 6,
+          "text": "$panel-header-border-color: dynamic($panel-border-color);"
+        }
+      ],
+      "sentinel": "#13597A"
+    },
+    "panel-body-border-color": {
+      "group": "Panel",
+      "target": "nb-border",
+      "path": "sass/var/panel/Panel.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 66,
+          "expression": "dynamic($panel-border-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss",
+          "line": 3,
+          "text": "border-color: $panel-body-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+          "line": 2,
+          "text": "border: $grid-header-border-width $grid-header-border-style $panel-body-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 741,
+          "text": "$ui-body-border-color: $panel-body-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/resizer/Resizer.scss",
+          "line": 20,
+          "text": "$resizer-handle-background-color: dynamic($panel-body-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 255,
+          "text": "$grid-body-border-color: dynamic($panel-body-border-color);"
+        }
+      ],
+      "sentinel": "#135A4D"
+    },
+    "panel-body-background-color": {
+      "group": "Panel",
+      "target": "nb-surface",
+      "path": "sass/var/panel/Panel.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 54,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 744,
+          "text": "$ui-body-background-color: $panel-body-background-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 273,
+          "text": "$grid-body-background-color: dynamic($panel-body-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 292,
+          "text": "$grid-empty-background-color: dynamic($panel-body-background-color);"
+        }
+      ],
+      "sentinel": "#135B20"
+    },
+    "toolbar-background-color": {
+      "group": "Toolbar",
+      "target": "nb-toolbar-bg",
+      "path": "sass/var/toolbar/Toolbar.scss",
+      "rhs": "$nb-toolbar-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 15,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($base-color, $hue: -1.333deg, $saturation: -3.831%, $lightness: 4.51%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 539,
+          "text": "$background-color: $toolbar-background-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+          "line": 7,
+          "text": "$toolbar-background-gradient: dynamic(color_stops(lighten($toolbar-background-color, 3), $toolbar-background-color));"
+        }
+      ],
+      "sentinel": "#135BF3"
+    },
+    "toolbar-border-color": {
+      "group": "Toolbar",
+      "target": "nb-border",
+      "path": "sass/var/toolbar/Toolbar.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 64,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+          "line": 21,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 545,
+          "text": "$border-color: $toolbar-border-color,"
+        }
+      ],
+      "sentinel": "#135CC6"
+    },
+    "button-default-background-color": {
+      "group": "Button",
+      "target": "nb-control-bg",
+      "path": "sass/var/button/Button.scss",
+      "rhs": "$nb-control-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 783,
+          "expression": "dynamic($button-default-base-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 13,
+          "text": "$background-color: $button-default-background-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 83,
+          "text": "$background-color: $button-default-background-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 153,
+          "text": "$background-color: $button-default-background-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 968,
+          "text": "$button-default-inner-border-color: dynamic(button-default-inner-border-color($button-default-background-color, $button-default-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1733,
+          "text": "$button-grid-cell-background-color: dynamic($button-default-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 3770,
+          "text": "$background-color: $button-default-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 4706,
+          "text": "$background-color: $button-default-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 6578,
+          "text": "$background-color: $button-default-background-color;"
+        }
+      ],
+      "sentinel": "#135D99"
+    },
+    "button-default-background-color-over": {
+      "group": "Button",
+      "target": "nb-control-hover",
+      "path": "sass/var/button/Button.scss",
+      "rhs": "$nb-control-hover",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 789,
+          "expression": "dynamic($button-default-base-color-over)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 14,
+          "text": "$background-color-over: $button-default-background-color-over,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 84,
+          "text": "$background-color-over: $button-default-background-color-over,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 154,
+          "text": "$background-color-over: $button-default-background-color-over,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 808,
+          "text": "$button-default-background-color-focus-over: dynamic($button-default-background-color-over);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 974,
+          "text": "$button-default-inner-border-color-over: dynamic(button-default-inner-border-color-over($button-default-background-color-over, $button-default-color-over));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 3773,
+          "text": "$background-color-over: $button-default-background-color-over;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 4709,
+          "text": "$background-color-over: $button-default-background-color-over;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 6581,
+          "text": "$background-color-over: $button-default-background-color-over;"
+        }
+      ],
+      "sentinel": "#135E6C"
+    },
+    "button-default-background-color-pressed": {
+      "group": "Button",
+      "target": "nb-control-pressed",
+      "path": "sass/var/button/Button.scss",
+      "rhs": "$nb-control-pressed",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 801,
+          "expression": "dynamic($button-default-base-color-pressed)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 16,
+          "text": "$background-color-pressed: $button-default-background-color-pressed,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 86,
+          "text": "$background-color-pressed: $button-default-background-color-pressed,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 156,
+          "text": "$background-color-pressed: $button-default-background-color-pressed,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 814,
+          "text": "$button-default-background-color-focus-pressed: dynamic($button-default-background-color-pressed);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 986,
+          "text": "$button-default-inner-border-color-pressed: dynamic(button-default-inner-border-color-pressed($button-default-background-color-pressed, $button-default-color-pressed));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 3781,
+          "text": "$background-color-pressed: $button-default-background-color-pressed;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 4717,
+          "text": "$background-color-pressed: $button-default-background-color-pressed;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 6589,
+          "text": "$background-color-pressed: $button-default-background-color-pressed;"
+        }
+      ],
+      "sentinel": "#135F3F"
+    },
+    "button-default-border-color": {
+      "group": "Button",
+      "target": "nb-border",
+      "path": "sass/var/button/Button.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 740,
+          "expression": "dynamic($button-default-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 14,
+          "expression": "dynamic(adjust-color($button-default-base-color, $hue: 0deg, $saturation: 0%, $lightness: -18.039%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 5,
+          "text": "$border-color: $button-default-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 75,
+          "text": "$border-color: $button-default-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 145,
+          "text": "$border-color: $button-default-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 746,
+          "text": "$button-default-border-color-over: dynamic(button-default-border-color-over($button-default-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 752,
+          "text": "$button-default-border-color-focus: dynamic(button-default-border-color-focus($button-default-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 758,
+          "text": "$button-default-border-color-pressed: dynamic(button-default-border-color-pressed($button-default-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 777,
+          "text": "$button-default-border-color-disabled: dynamic(button-default-border-color-disabled($button-default-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1690,
+          "text": "$button-grid-cell-border-color: dynamic($button-default-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 3718,
+          "text": "$border-color: $button-default-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 4654,
+          "text": "$border-color: $button-default-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 6526,
+          "text": "$border-color: $button-default-border-color;"
+        }
+      ],
+      "sentinel": "#136012"
+    },
+    "button-default-color": {
+      "group": "Button",
+      "target": "nb-text",
+      "path": "sass/var/button/Button.scss",
+      "rhs": "$nb-text",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 882,
+          "expression": "dynamic(#000)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 22,
+          "expression": "dynamic(#333)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 21,
+          "text": "$color: $button-default-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 91,
+          "text": "$color: $button-default-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 161,
+          "text": "$color: $button-default-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 888,
+          "text": "$button-default-color-over: dynamic(button-default-color-over($button-default-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 894,
+          "text": "$button-default-color-focus: dynamic(button-default-color-focus($button-default-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 900,
+          "text": "$button-default-color-pressed: dynamic(button-default-color-pressed($button-default-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 919,
+          "text": "$button-default-color-disabled: dynamic(button-default-color-disabled($button-default-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 968,
+          "text": "$button-default-inner-border-color: dynamic(button-default-inner-border-color($button-default-background-color, $button-default-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1023,
+          "text": "$button-default-body-outline-color-focus: dynamic($button-default-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1029,
+          "text": "$button-default-glyph-color: dynamic($button-default-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1036,
+          "text": "$button-default-arrow-glyph-color: dynamic($button-default-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1832,
+          "text": "$button-grid-cell-color: dynamic($button-default-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 3822,
+          "text": "$color: $button-default-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 4758,
+          "text": "$color: $button-default-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 6630,
+          "text": "$color: $button-default-color;"
+        }
+      ],
+      "sentinel": "#1360E5"
+    },
+    "form-field-background-color": {
+      "group": "Form",
+      "target": "nb-surface",
+      "path": "sass/var/form/field/Base.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 130,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 465,
+          "text": "$form-text-field-background-color: dynamic($form-field-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 636,
+          "text": "$form-trigger-background-color: dynamic($form-field-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss",
+          "line": 21,
+          "text": "$html-editor-background-color: dynamic($form-field-background-color);"
+        }
+      ],
+      "sentinel": "#1361B8"
+    },
+    "form-field-color": {
+      "group": "Form",
+      "target": "nb-text",
+      "path": "sass/var/form/field/Base.scss",
+      "rhs": "$nb-text",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 70,
+          "expression": "dynamic($color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 459,
+          "text": "$form-text-field-color: dynamic($form-field-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 1212,
+          "text": "$form-display-field-color: dynamic($form-field-color);"
+        }
+      ],
+      "sentinel": "#13628B"
+    },
+    "form-field-border-color": {
+      "group": "Form",
+      "target": "nb-border",
+      "path": "sass/var/form/field/Base.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 82,
+          "expression": "dynamic($neutral-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+          "line": 6,
+          "expression": "dynamic(#B5B8C8)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 483,
+          "text": "$form-text-field-border-color: dynamic($form-field-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 600,
+          "text": "$form-trigger-border-color: dynamic($form-field-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 612,
+          "text": "$form-trigger-border-color-over: dynamic($form-field-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 1061,
+          "text": "$form-checkbox-glyph-color: dynamic($form-field-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss",
+          "line": 15,
+          "text": "$html-editor-border-color: dynamic($form-field-border-color);"
+        }
+      ],
+      "sentinel": "#13635E"
+    },
+    "form-trigger-border-color": {
+      "group": "Form",
+      "target": "nb-border",
+      "path": "sass/var/form/field/Base.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 600,
+          "expression": "dynamic($form-field-border-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 838,
+          "text": "$form-toolbar-trigger-border-color: dynamic($form-trigger-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 850,
+          "text": "$form-toolbar-trigger-border-color-over: dynamic($form-trigger-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss",
+          "line": 147,
+          "text": "$ui-trigger-border-color: $form-trigger-border-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+          "line": 240,
+          "text": "$grid-cell-field-trigger-border-color: dynamic($form-trigger-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+          "line": 252,
+          "text": "$grid-cell-field-trigger-border-color-over: dynamic($form-trigger-border-color);"
+        }
+      ],
+      "sentinel": "#136431"
+    },
+    "form-field-focus-border-color": {
+      "group": "Form",
+      "target": "nb-accent",
+      "path": "sass/var/form/field/Base.scss",
+      "rhs": "$nb-accent",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 106,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($base-color, $hue: -4.322deg, $saturation: -1.065%, $lightness: -16.863%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 489,
+          "text": "$form-text-field-focus-border-color: dynamic($form-field-focus-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 618,
+          "text": "$form-trigger-border-color-focus: dynamic($form-field-focus-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 1067,
+          "text": "$form-checkbox-glyph-focus-color: dynamic($form-field-focus-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 1242,
+          "text": "$form-display-field-focus-border-color: dynamic($form-field-focus-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/FieldSet.scss",
+          "line": 374,
+          "text": "outline: 1px solid $form-field-focus-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss",
+          "line": 6,
+          "text": "$form-trigger-border-color-focus: dynamic($form-field-focus-border-color);"
+        }
+      ],
+      "sentinel": "#136504"
+    },
+    "form-trigger-background-color": {
+      "group": "Form",
+      "target": "nb-control-bg",
+      "path": "sass/var/form/field/Trigger.scss",
+      "rhs": "$nb-control-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 636,
+          "expression": "dynamic($form-field-background-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss",
+          "line": 8,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss",
+          "line": 155,
+          "text": "$ui-trigger-background-color: $form-trigger-background-color,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+          "line": 276,
+          "text": "$grid-cell-field-trigger-background-color: dynamic($form-trigger-background-color);"
+        }
+      ],
+      "sentinel": "#1365D7"
+    },
+    "grid-header-background-color": {
+      "group": "Grid header",
+      "target": "#EAF0F8",
+      "path": "sass/var/grid/header/Container.scss",
+      "rhs": "#EAF0F8",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 9,
+          "expression": "dynamic(#ddd)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+          "line": 4,
+          "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 13,
+          "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 16,
+          "text": "background-color: $grid-header-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss",
+          "line": 3,
+          "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss",
+          "line": 6,
+          "text": "background-color: $grid-header-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+          "line": 5,
+          "text": "border-bottom-color: $grid-header-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+          "line": 7,
+          "text": "background-color: $grid-header-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+          "line": 9,
+          "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss",
+          "line": 73,
+          "text": "$grid-group-column-background-color: dynamic($grid-header-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss",
+          "line": 69,
+          "text": "$pivot-grid-config-column-background-color: dynamic($grid-header-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/src/grid/column/Column.scss",
+          "line": 2,
+          "text": "background-color: $grid-header-background-color;"
+        }
+      ],
+      "sentinel": "#1366AA"
+    },
+    "grid-header-over-background-color": {
+      "group": "Grid header",
+      "target": "nb-accent-soft",
+      "path": "sass/var/grid/header/Container.scss",
+      "rhs": "$nb-accent-soft",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 40,
+          "expression": "dynamic(#eee)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 80,
+          "text": "@include background-gradient($grid-header-over-background-color, $grid-header-over-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss",
+          "line": 28,
+          "text": "@include background-gradient($grid-header-over-background-color, $grid-header-over-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 54,
+          "text": "$grid-header-sorted-background-color: dynamic($grid-header-over-background-color);"
+        }
+      ],
+      "sentinel": "#13677D"
+    },
+    "grid-header-sorted-background-color": {
+      "group": "Grid header",
+      "target": "nb-accent-soft",
+      "path": "sass/var/grid/header/Container.scss",
+      "rhs": "$nb-accent-soft",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 54,
+          "expression": "dynamic($grid-header-over-background-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 85,
+          "text": "@include background-gradient($grid-header-sorted-background-color, $grid-header-sorted-background-gradient);"
+        }
+      ],
+      "sentinel": "#136850"
+    },
+    "grid-header-trigger-background-color-open": {
+      "group": "Grid header",
+      "target": "nb-accent-soft",
+      "path": "sass/var/grid/header/Container.scss",
+      "rhs": "$nb-accent-soft",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 146,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 115,
+          "text": "background-color: $grid-header-trigger-background-color-open;"
+        }
+      ],
+      "sentinel": "#136923"
+    },
+    "grid-header-border-color": {
+      "group": "Grid header",
+      "target": "nb-border",
+      "path": "sass/var/grid/header/Container.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 22,
+          "expression": "dynamic(#333)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+          "line": 5,
+          "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Check.scss",
+          "line": 21,
+          "text": "border-color: $grid-header-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 2,
+          "text": "border-right: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 23,
+          "text": "border-left: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 29,
+          "text": "border-top: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+          "line": 32,
+          "text": "border-top-color: $grid-header-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/filters/Base.scss",
+          "line": 5,
+          "text": "$grid-filter-border-color: dynamic($grid-header-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss",
+          "line": 25,
+          "text": "$grid-group-column-border-color: dynamic($grid-header-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/Grid.scss",
+          "line": 6,
+          "text": "$grid-header-border-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss",
+          "line": 27,
+          "text": "$pivot-grid-config-column-border-color: dynamic($grid-header-border-color);"
+        }
+      ],
+      "sentinel": "#1369F6"
+    },
+    "grid-header-trigger-background-color": {
+      "group": "Grid header",
+      "target": "transparent",
+      "path": "sass/var/grid/header/Container.scss",
+      "rhs": "transparent",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 140,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+          "line": 136,
+          "text": "background: $grid-header-trigger-background-color theme-background-image($grid-header-trigger-background-image) no-repeat $grid-header-trigger-background-position;"
+        }
+      ],
+      "sentinel": "#136AC9"
+    },
+    "grid-row-cell-background-color": {
+      "group": "Grid rows",
+      "target": "nb-surface",
+      "path": "sass/var/view/Table.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 41,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss",
+          "line": 33,
+          "text": "background-color: $grid-row-cell-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss",
+          "line": 96,
+          "text": "border-top-color: $grid-row-cell-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 68,
+          "text": "$grid-cell-special-background-color: dynamic($grid-row-cell-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 132,
+          "text": "$grid-row-cell-alt-background-color: dynamic(darken($grid-row-cell-background-color, 2));"
+        }
+      ],
+      "sentinel": "#136B9C"
+    },
+    "grid-row-cell-alt-background-color": {
+      "group": "Grid rows",
+      "target": "nb-surface-alt",
+      "path": "sass/var/view/Table.scss",
+      "rhs": "$nb-surface-alt",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 132,
+          "expression": "dynamic(darken($grid-row-cell-background-color, 2))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss",
+          "line": 37,
+          "text": "background-color: $grid-row-cell-alt-background-color;"
+        }
+      ],
+      "sentinel": "#136C6F"
+    },
+    "grid-row-cell-border-color": {
+      "group": "Grid rows",
+      "target": "nb-grid-line",
+      "path": "sass/var/view/Table.scss",
+      "rhs": "$nb-grid-line",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 48,
+          "expression": "dynamic(#ededed)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/view/Table.scss",
+          "line": 5,
+          "expression": "dynamic(#ededed adjust-color($base-color, $hue: 0deg, $saturation: -55.556%, $lightness: -2.549%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Panel.scss",
+          "line": 55,
+          "text": "$grid-group-panel-body-border-color: dynamic(top($grid-row-cell-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/Grid.scss",
+          "line": 22,
+          "text": "$pivot-grid-group-header-border-color: dynamic($grid-row-cell-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Container.scss",
+          "line": 55,
+          "text": "$pivot-grid-config-container-body-border-color: dynamic(top($grid-row-cell-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 96,
+          "text": "$grid-cell-special-border-color: dynamic(right($grid-row-cell-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 117,
+          "text": "$grid-cell-special-selected-border-color: dynamic(right($grid-row-cell-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 156,
+          "text": "$grid-row-cell-over-border-color: dynamic(top($grid-row-cell-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 180,
+          "text": "$grid-row-cell-selected-border-color: dynamic(top($grid-row-cell-border-color));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 344,
+          "text": "$grid-row-border-color: top($grid-row-cell-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 346,
+          "text": "$grid-col-border-color: right($grid-row-cell-border-color);"
+        }
+      ],
+      "sentinel": "#136D42"
+    },
+    "tab-base-color": {
+      "group": "Tabs",
+      "target": "nb-header-bg",
+      "path": "sass/var/tab/Tab.scss",
+      "rhs": "$nb-header-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 9,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 4,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 33.016%, $lightness: 9.02%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 15,
+          "text": "$tab-base-color-focus: dynamic($tab-base-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 21,
+          "text": "$tab-base-color-over: dynamic($tab-base-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 27,
+          "text": "$tab-base-color-active: dynamic($tab-base-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 45,
+          "text": "$tab-base-color-disabled: dynamic($tab-base-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 1805,
+          "text": "$ui-background-color: $tab-base-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 5,
+          "text": "$tab-base-color-over: dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: 11.429%, $lightness: 2.353%));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 8,
+          "text": "$tab-color: dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -45.589%, $lightness: -48.431%));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 17,
+          "text": "$tab-border-color: dynamic(adjust-color($tab-base-color, $hue:0deg, $saturation: -28.008%, $lightness: -20.98%));"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 20,
+          "text": "$tab-inner-border-color: dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -8.571%, $lightness: 8.941%));"
+        }
+      ],
+      "sentinel": "#136E15"
+    },
+    "tab-base-color-active": {
+      "group": "Tabs",
+      "target": "nb-surface",
+      "path": "sass/var/tab/Tab.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 27,
+          "expression": "dynamic($tab-base-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+          "line": 59,
+          "text": "$tabbar-strip-background-color: dynamic($tab-base-color-active);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 39,
+          "text": "$tab-base-color-focus-active: dynamic($tab-base-color-active);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 1837,
+          "text": "$ui-background-color-active: $tab-base-color-active;"
+        }
+      ],
+      "sentinel": "#136EE8"
+    },
+    "tab-border-color": {
+      "group": "Tabs",
+      "target": "nb-border",
+      "path": "sass/var/tab/Tab.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 593,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 17,
+          "expression": "dynamic(adjust-color($tab-base-color, $hue:0deg, $saturation: -28.008%, $lightness: -20.98%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 599,
+          "text": "$tab-border-color-focus: dynamic($tab-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 605,
+          "text": "$tab-border-color-over: dynamic($tab-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 611,
+          "text": "$tab-border-color-active: dynamic($tab-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 629,
+          "text": "$tab-border-color-disabled: dynamic($tab-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 1893,
+          "text": "$ui-border-color: $tab-border-color;"
+        }
+      ],
+      "sentinel": "#136FBB"
+    },
+    "tab-color": {
+      "group": "Tabs",
+      "target": "nb-heading",
+      "path": "sass/var/tab/Tab.scss",
+      "rhs": "$nb-heading",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 93,
+          "expression": "dynamic($color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 8,
+          "expression": "dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -45.589%, $lightness: -48.431%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 99,
+          "text": "$tab-color-focus: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 105,
+          "text": "$tab-color-over: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 111,
+          "text": "$tab-color-active: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 129,
+          "text": "$tab-color-disabled: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 563,
+          "text": "$tab-outline-color-focus: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 587,
+          "text": "$tab-body-outline-color-focus: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 876,
+          "text": "$tab-glyph-color: dynamic($tab-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 2137,
+          "text": "$ui-color: $tab-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 9,
+          "text": "$tab-color-active: dynamic(adjust-color($tab-color, $hue: 0deg, $saturation: 30.768%, $lightness: -13.333%));"
+        }
+      ],
+      "sentinel": "#13708E"
+    },
+    "datepicker-background-color": {
+      "group": "DatePicker",
+      "target": "nb-surface",
+      "path": "sass/var/picker/Date.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 21,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 15,
+          "text": "background-color: $datepicker-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 192,
+          "text": "@if $datepicker-item-today-background-color != $datepicker-background-color {"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 249,
+          "text": "background-color: $datepicker-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 332,
+          "text": "background-color: $datepicker-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 307,
+          "text": "$datepicker-item-border-color: dynamic($datepicker-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 319,
+          "text": "$datepicker-item-today-background-color: dynamic($datepicker-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 325,
+          "text": "$datepicker-item-hover-background-color: dynamic($datepicker-background-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 337,
+          "text": "$datepicker-item-selected-background-color: dynamic($datepicker-background-color);"
+        }
+      ],
+      "sentinel": "#137161"
+    },
+    "datepicker-header-background-color": {
+      "group": "DatePicker",
+      "target": "nb-accent",
+      "path": "sass/var/picker/Date.scss",
+      "rhs": "$nb-accent",
+      "declarations": [
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss",
+          "line": 19,
+          "expression": "dynamic(adjust-color($datepicker-base-color, $hue: 5.768deg, $saturation: 0.419%, $lightness: -52.941%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 23,
+          "text": "@include background-gradient($datepicker-header-background-color, $datepicker-header-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 25,
+          "text": "background-color: $datepicker-header-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 42,
+          "text": "background-color: $datepicker-header-background-color;"
+        }
+      ],
+      "sentinel": "#137234"
+    },
+    "datepicker-item-selected-background-color": {
+      "group": "DatePicker",
+      "target": "nb-accent-soft",
+      "path": "sass/var/picker/Date.scss",
+      "rhs": "$nb-accent-soft",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 337,
+          "expression": "dynamic($datepicker-background-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss",
+          "line": 34,
+          "expression": "dynamic(adjust-color($datepicker-base-color, $hue: 0.267deg, $saturation: -4.535%, $lightness: 6.275%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+          "line": 182,
+          "text": "background-color: $datepicker-item-selected-background-color;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 519,
+          "text": "$datepicker-monthpicker-item-selected-background-color: dynamic($datepicker-item-selected-background-color);"
+        }
+      ],
+      "sentinel": "#137307"
+    },
+    "progress-background-color": {
+      "group": "Progress",
+      "target": "nb-accent-soft",
+      "path": "sass/var/ProgressBar.scss",
+      "rhs": "$nb-accent-soft",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+          "line": 57,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: -11.37%, $lightness: 7.451%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+          "line": 184,
+          "text": "$ui-background-color: $progress-background-color,"
+        }
+      ],
+      "sentinel": "#1373DA"
+    },
+    "progress-bar-background-color": {
+      "group": "Progress",
+      "target": "nb-accent",
+      "path": "sass/var/ProgressBar.scss",
+      "rhs": "$nb-accent",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+          "line": 63,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: 8.187%, $lightness: -17.647%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+          "line": 186,
+          "text": "$ui-bar-background-color: $progress-bar-background-color,"
+        }
+      ],
+      "sentinel": "#1374AD"
+    },
+    "window-header-background-color": {
+      "group": "Window",
+      "target": "nb-header-bg",
+      "path": "sass/var/window/Window.scss",
+      "rhs": "$nb-header-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 116,
+          "expression": "dynamic($window-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 12,
+          "expression": "dynamic($window-background-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 473,
+          "text": "$ui-header-background-color: $window-header-background-color,"
+        }
+      ],
+      "sentinel": "#137580"
+    },
+    "window-header-color": {
+      "group": "Window",
+      "target": "nb-heading",
+      "path": "sass/var/window/Window.scss",
+      "rhs": "$nb-heading",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 110,
+          "expression": "dynamic($panel-header-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 9,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: -2.451deg, $saturation: 38.889%, $lightness: -55.882%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 206,
+          "text": "$window-header-glyph-color: dynamic($window-header-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 472,
+          "text": "$ui-header-color: $window-header-color,"
+        }
+      ],
+      "sentinel": "#137653"
+    },
+    "window-border-color": {
+      "group": "Window",
+      "target": "#AFC2D9",
+      "path": "sass/var/window/Window.scss",
+      "rhs": "#AFC2D9",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 38,
+          "expression": "dynamic($window-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: 0.952deg, $saturation: -32.377%, $lightness: -13.725%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 257,
+          "text": "$window-wrap-border-color: dynamic($window-border-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 467,
+          "text": "$ui-border-color: $window-border-color,"
+        }
+      ],
+      "sentinel": "#137726"
+    },
+    "menu-background-color": {
+      "group": "Menu",
+      "target": "nb-surface",
+      "path": "sass/var/menu/Menu.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 9,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 4,
+          "expression": "dynamic(#f0f0f0)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 739,
+          "text": "$ui-background-color: $menu-background-color,"
+        }
+      ],
+      "sentinel": "#1377F9"
+    },
+    "menu-border-color": {
+      "group": "Menu",
+      "target": "nb-border",
+      "path": "sass/var/menu/Menu.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 15,
+          "expression": "dynamic($neutral-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 5,
+          "expression": "dynamic($panel-border-color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 740,
+          "text": "$ui-border-color: $menu-border-color,"
+        }
+      ],
+      "sentinel": "#1378CC"
+    },
+    "menu-item-active-border-color": {
+      "group": "Menu",
+      "target": "nb-border",
+      "path": "sass/var/menu/Menu.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 99,
+          "expression": "dynamic(adjust-color($base-color, $saturation: 23%, $lightness: -3%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 754,
+          "text": "$ui-item-active-border-color: $menu-item-active-border-color,"
+        }
+      ],
+      "sentinel": "#13799F"
+    },
+    "menu-text-color": {
+      "group": "Menu",
+      "target": "nb-text",
+      "path": "sass/var/menu/Menu.scss",
+      "rhs": "$nb-text",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 39,
+          "expression": "dynamic(#000)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 11,
+          "expression": "dynamic(#222)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 125,
+          "text": "$menu-glyph-color: dynamic($menu-text-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 176,
+          "text": "$menu-item-checkbox-glyph-color: dynamic($menu-text-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 744,
+          "text": "$ui-text-color: $menu-text-color,"
+        }
+      ],
+      "sentinel": "#137A72"
+    },
+    "menu-item-active-text-color": {
+      "group": "Menu",
+      "target": "nb-text",
+      "path": "sass/var/menu/Menu.scss",
+      "rhs": "$nb-text",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 87,
+          "expression": "dynamic($color)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 183,
+          "text": "$menu-item-active-checkbox-glyph-color: dynamic($menu-item-active-text-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 324,
+          "text": "$menu-item-active-arrow-glyph-color: dynamic($menu-item-active-text-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 752,
+          "text": "$ui-item-active-text-color: $menu-item-active-text-color,"
+        }
+      ],
+      "sentinel": "#137B45"
+    },
+    "menu-item-active-background-color": {
+      "group": "Menu",
+      "target": "nb-accent-soft",
+      "path": "sass/var/menu/Menu.scss",
+      "rhs": "$nb-accent-soft",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 93,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($base-color, $saturation: 25.397%, $lightness: 7.647%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 753,
+          "text": "$ui-item-active-background-color: $menu-item-active-background-color,"
+        }
+      ],
+      "sentinel": "#137C18"
+    },
+    "loadmask-msg-background-color": {
+      "group": "LoadMask",
+      "target": "nb-toolbar-bg",
+      "path": "sass/var/LoadMask.scss",
+      "rhs": "$nb-toolbar-bg",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 83,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss",
+          "line": 11,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 0.542%, $lightness: 7.843%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+          "line": 43,
+          "text": "@include background-gradient($loadmask-msg-background-color, $loadmask-msg-background-gradient);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+          "line": 45,
+          "text": "background: $loadmask-msg-background-color;"
+        }
+      ],
+      "sentinel": "#137CEB"
+    },
+    "loadmask-msg-border-color": {
+      "group": "LoadMask",
+      "target": "nb-border",
+      "path": "sass/var/LoadMask.scss",
+      "rhs": "$nb-border",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 71,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss",
+          "line": 9,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+          "line": 36,
+          "text": "border-color: $loadmask-msg-border-color;"
+        }
+      ],
+      "sentinel": "#137DBE"
+    },
+    "loadmask-msg-inner-background-color": {
+      "group": "LoadMask",
+      "target": "nb-surface",
+      "path": "sass/var/LoadMask.scss",
+      "rhs": "$nb-surface",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 133,
+          "expression": "dynamic(#eee)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+          "line": 56,
+          "text": "background-color: $loadmask-msg-inner-background-color;"
+        }
+      ],
+      "sentinel": "#137E91"
+    },
+    "loadmask-msg-inner-color": {
+      "group": "LoadMask",
+      "target": "nb-text",
+      "path": "sass/var/LoadMask.scss",
+      "rhs": "$nb-text",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 139,
+          "expression": "dynamic(#222)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+          "line": 57,
+          "text": "color: $loadmask-msg-inner-color;"
+        }
+      ],
+      "sentinel": "#137F64"
+    },
+    "button-default-border-color-over": {
+      "group": "Button",
+      "target": "nb-accent-hover",
+      "path": "sass/var/button/Button.scss",
+      "rhs": "$nb-accent-hover",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 746,
+          "expression": "dynamic(button-default-border-color-over($button-default-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 15,
+          "expression": "dynamic(adjust-color($button-default-base-color-over, $hue: 8.177deg, $saturation: -28.283%, $lightness: -12.745%))"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 6,
+          "text": "$border-color-over: $button-default-border-color-over,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 76,
+          "text": "$border-color-over: $button-default-border-color-over,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+          "line": 146,
+          "text": "$border-color-over: $button-default-border-color-over,"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 765,
+          "text": "$button-default-border-color-focus-over: dynamic($button-default-border-color-over);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 3721,
+          "text": "$border-color-over: $button-default-border-color-over;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 4657,
+          "text": "$border-color-over: $button-default-border-color-over;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 6529,
+          "text": "$border-color-over: $button-default-border-color-over;"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 16,
+          "text": "$button-default-border-color-focus: dynamic($button-default-border-color-over);"
+        }
+      ],
+      "sentinel": "#138037"
+    },
+    "form-field-empty-color": {
+      "group": "Form",
+      "target": "nb-muted",
+      "path": "sass/var/form/field/Base.scss",
+      "rhs": "$nb-muted",
+      "declarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 76,
+          "expression": "dynamic(gray)"
+        }
+      ],
+      "consumers": [
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 519,
+          "text": "$form-text-field-empty-color: dynamic($form-field-empty-color);"
+        },
+        {
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 582,
+          "text": "$form-file-field-color: dynamic($form-field-empty-color);"
+        }
+      ],
+      "sentinel": "#13810A"
+    }
+  },
+  "protectedPackageFiles": {
+    "package.json": "0fda631436901f92a3b2efce49d110047a4daa6128ce42076ba934b7a466115e",
+    "build.xml": "7f4602de73579f7fcca99d97c0c03de52d0304afb6aa2c5a45ff9febe4601284",
+    "sass/config.rb": "e340ab3c0fd3dd055a31e71f0f6275d88fe980867096759dbd45dbccce7d0b56"
+  },
+  "sdkSources": {
+    "TestApp/ext/classic/theme-base/sass/etc/all.scss": "4c52a91cd1ef85a1e191415ab3ee7ebf4df02d91f047078d4ac94ba4cd1cbb87",
+    "TestApp/ext/classic/theme-base/sass/etc/functions.scss": "112661a183e8c9e1807ac7349a655a746325499e0508a077dff460dac4280efd",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/background-gradient.scss": "91a23d9b7f3e5db7adaef0de520f49e8df9eb5ba97dec213d788ce71cd1d37a0",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss": "1bf715735b63ffcc1587806e38a3aeb0b978a5cd8c1d725181edbaa00458360f",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/border-management.scss": "f88a31b247adce43d9796648b7225557b5df958d26488336e0740e1d77fccf78",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/border.scss": "6ec783202996de756ff7c8acf4e4378f9cafcfe3d28f3431917b1e868ece2981",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/box.scss": "f4950db3d2fb94a11d58eca2a63e7e5384e1d509cdb6d64a97164dd1053b24e5",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss": "3d22d44ab8456ece8fbfc9b94cab8f634c70bbd0f815e31ff1b98b04eef3216e",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/font.scss": "4decfa272448cbed3c1a4f8aa1a3e631d347a7bb42240300505213d8ba5fc37a",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss": "928283c28284bec66631ee4008e5714dde31c28c46e663da56a1e6ec12ed43b4",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/google-webfont.scss": "b930dacd617b17bea64242b2657f64aeb3b62593c5ce6187e6c5c228e6c06f11",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/inner-border.scss": "1330d7d3c72457b85c27b90696b9c220a5607f7793409bdf7b3557e0143f2e97",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/placeholder-text-color.scss": "1fd68aad6a1543a526cf7ac88bd9ff65fa13dbd7482a5a186a9f3e654300a266",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/rotate-element.scss": "719b2711a476e6aaeb4c9d79fdbd0b24225f8773351cfd506e6ac826500d5ed8",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/selection-color.scss": "be4539691732edb55d763d76e64cfd7ef38969229663e34d3821f654d11c1f55",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss": "5a6b3e829aa5a7644d6cb7b16f73ce130752aab8341f9bcb6d3beb55cc163dba",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/theme-background-image.scss": "79b176ef8d5a939d636b8a95dc1fe289c6524dd254603cc5024840ba5716c019",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins/word-break.scss": "ffb0b857e683cb2ca0d52b2d2ee80a55e91b1c75b3f91e8aa8d1628c3be3e5da",
+    "TestApp/ext/classic/theme-base/sass/etc/mixins.scss": "1a828cb793f696f4003c859cf8f501be6eadcd6ffa090e30d1456500a6fa86c8",
+    "TestApp/ext/classic/theme-base/sass/src/button/Button.scss": "64803e1d94913dfe3545a5e35ca1a4eafcfdc5054d18fa52036f886df4e0e4b9",
+    "TestApp/ext/classic/theme-base/sass/src/button/Segmented.scss": "8a8385f23526f53d0bc07d86e28d051e51e1bffa06371e369de5504470334ccd",
+    "TestApp/ext/classic/theme-base/sass/src/Component.scss": "1ce31b250edffe652187b651978dcc90b098dbd76130b88b170936c191a04850",
+    "TestApp/ext/classic/theme-base/sass/src/container/ButtonGroup.scss": "e94857334613956b50cd597618da4532cd04b65483534728c9e632156f81c1e0",
+    "TestApp/ext/classic/theme-base/sass/src/dd/DD.scss": "4598cd0668129343cef69b30ecb6a8f85ffa1a3ac1791de880f1e8f4ae9a5843",
+    "TestApp/ext/classic/theme-base/sass/src/dd/StatusProxy.scss": "c083ef8c5986d961c5abe254edd6c747f469b47e7af52a5059d8f92561fd9b21",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/Checkbox.scss": "2d5894c90a5678903baf893f5c28729914290496d6b4fa1090e9bc5c583c5ee4",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/Display.scss": "c42a3b31f699ff23e55888da809d6d0bec2fe1ffcd2a5e3f35236a41095d7a03",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/File.scss": "cea0b43d690a898587b6c2b9a97757bf13f5e367768168be2f0a191f75573db4",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/Hidden.scss": "6ae5cb7f61456d903aa73595ba132ec116c0bb336fefa8b2b46eb7857783f57c",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/HtmlEditor.scss": "6656ba2eabb76353426e93b612fec7a397aa4e2e673fa7de6bb80c89f2521ddd",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/Tag.scss": "4303a880634dc2289dd28b6f31feee1974ef9bfa1aced9334e8f41666c8204f6",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/Text.scss": "b45ca9863e19ff268f67efa0253fdd31c56ee9579bc0703b7db53f10af68c239",
+    "TestApp/ext/classic/theme-base/sass/src/form/field/TextArea.scss": "2c577b028b74496c17b409af6311558d44ab7e780c8188ea7150e9fd646b7de7",
+    "TestApp/ext/classic/theme-base/sass/src/form/FieldContainer.scss": "a73ae228331335c88dab3809800c5cc491143e36b08e26b9f39bef69e34737b1",
+    "TestApp/ext/classic/theme-base/sass/src/form/FieldSet.scss": "b06d1ba2cf3fa3772572ef85736e14dae93e277a754d3256116cebefa993880a",
+    "TestApp/ext/classic/theme-base/sass/src/form/Labelable.scss": "d20dfe6138cf75375924583634f2421707e939c081da021d4b1202aa8e69ac8e",
+    "TestApp/ext/classic/theme-base/sass/src/form/trigger/Component.scss": "9ff618a26d8dda3ced011ebb33c83b8c9febd9935df0a362e4a9222df715e478",
+    "TestApp/ext/classic/theme-base/sass/src/grid/column/Action.scss": "027531388ab700833b75c81e8356d57df47dbafc55ad42655359febb4656e069",
+    "TestApp/ext/classic/theme-base/sass/src/grid/column/Check.scss": "4dfac3d387bb0eb253dab5113bb3398bb8fc34a91a96ed30838f5e9d87dcae2b",
+    "TestApp/ext/classic/theme-base/sass/src/grid/column/Column.scss": "d0224aa11a84951ff30cbc6c684d682a64776aacbf2b88e32b6df093a6cd2508",
+    "TestApp/ext/classic/theme-base/sass/src/grid/feature/AdvancedGrouping.scss": "23901990f90f01b15c960eaa3eea6141ac0f0e0e98ef94ef05a6d45c90a8c77e",
+    "TestApp/ext/classic/theme-base/sass/src/grid/feature/Grouping.scss": "058de3572614cc735a33227fccd5fc7f222f1dd952a83c2db47de729e743fb02",
+    "TestApp/ext/classic/theme-base/sass/src/grid/feature/RowBody.scss": "ab74dffb93866754407173415c8cf244379871b7b77e0f9b535f0684e01f58da",
+    "TestApp/ext/classic/theme-base/sass/src/grid/feature/RowWrap.scss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "TestApp/ext/classic/theme-base/sass/src/grid/header/Container.scss": "ca6115dc4ac75092d8ddc8c27a6199b3523c3a930adffbffe5306b3e4a8cd730",
+    "TestApp/ext/classic/theme-base/sass/src/grid/header/DropZone.scss": "8137c6a1c62d7c78a09e2d1dcd6b214712154e56d564cb1f97c30daa75c71dc7",
+    "TestApp/ext/classic/theme-base/sass/src/grid/locking/Lockable.scss": "cf909d92ec899d704724e0285da76f5f810c60eabb81427c91294d8f61cf661c",
+    "TestApp/ext/classic/theme-base/sass/src/grid/plugin/Editing.scss": "6aea46dae3ead32fc63fcf29a3aad50b7b5686ab370643678ab81c44184ff336",
+    "TestApp/ext/classic/theme-base/sass/src/grid/plugin/RowEditing.scss": "9d951fa09515be8f125ec89414453a062b39ba32431d55eb667819988107dae2",
+    "TestApp/ext/classic/theme-base/sass/src/grid/plugin/RowExpander.scss": "f02bf009fe72c6d99afe537c1128a65854f0cc425e0f223fb817da17b0b50d91",
+    "TestApp/ext/classic/theme-base/sass/src/grid/selection/SpreadsheetModel.scss": "6b8b24b7022d53b2689e9e5f5d38f6073fc0583250350b83d4457a35a7bcf9f5",
+    "TestApp/ext/classic/theme-base/sass/src/layout/component/Dock.scss": "9224beebf8718d6c0e36898e5ef333e1e21dd4676ebd74feb5a8185e064ec469",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Absolute.scss": "1cfa6e996af53e4a197644ed70732fc5396cccb22f34273e09fe4b82b2db1fc1",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Auto.scss": "768508511f481131fcb2b0d9b7b222e46708268facfe58b9bac374e43c39eff7",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Border.scss": "0f2614750daee7ba49d00c12e5bc54f349011cf215707cb1d9f98dc3806bb59b",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Box.scss": "76b541b022f919253aa9c9e8474d83136ed8cab2ad923ad0c9472be9423148ad",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Center.scss": "e5ec949e7b4265274b077c62caecd041bc915bdc3e67b636d0e80f5a76fd51e6",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Column.scss": "050d52408d2b3b8345f89fe9898a79e20a93e156dc7684bc43ce5d08881fdcdc",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Container.scss": "e904948c5ed21ad21e90ba924d88c16d22f3e1447db434949f6b84963ad8a222",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Fit.scss": "e434682b473abfff400f41448ca73b022103eb8dcfece0c8a256cd8268973e8d",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Form.scss": "1cbfe7b08128e0df5d2c5d1a5a8cb2b2529e98c89beee10b488435d9288bc45e",
+    "TestApp/ext/classic/theme-base/sass/src/layout/container/Table.scss": "5290ab7dd5d7bf3dd59672a9a222604ae6dc79b3f1a18037eff9eaaa2765e699",
+    "TestApp/ext/classic/theme-base/sass/src/LoadMask.scss": "a434fabdb287a9f17d1ffce9543e3b52b9d16298214870bb3de6f08484201c51",
+    "TestApp/ext/classic/theme-base/sass/src/menu/Menu.scss": "ebf10695f2df1a6463d96649ea6e19445760bbacfac7ca72afa7e15a45c53baa",
+    "TestApp/ext/classic/theme-base/sass/src/panel/Header.scss": "c00a1030ab123c82ce9c28020fd0dce0638cc5eb4ff4a5a7209dfc99561090f5",
+    "TestApp/ext/classic/theme-base/sass/src/panel/Panel.scss": "cf155c7fcd89b808aa1e38997b15d71c65281d8d53835bbdf4ce1d3a011a2356",
+    "TestApp/ext/classic/theme-base/sass/src/panel/Table.scss": "076094dfa7460fe401f2b27ad285c85b0879c1cd17020199491e7d32a68f1bc9",
+    "TestApp/ext/classic/theme-base/sass/src/panel/Title.scss": "0855a312bc560fd8d8b459afc61c6fe8d0ddc5c264690e05b566a8817d258a99",
+    "TestApp/ext/classic/theme-base/sass/src/panel/Tool.scss": "ee4f333f85784b26ca0e15b887642f6aa71ccfbdb41d81f603bad74ef6a28ebb",
+    "TestApp/ext/classic/theme-base/sass/src/picker/Color.scss": "d9af949969dd6b548d63a7ab77cb459d7f9ecfa7b9292ff73505ee198d150721",
+    "TestApp/ext/classic/theme-base/sass/src/picker/Date.scss": "2ac589dd6f4d19352856856c10f6b8641174c9cdba4c769fd3e08107efd30909",
+    "TestApp/ext/classic/theme-base/sass/src/plugin/Viewport.scss": "7166713cd04b890babb77279a054c7886f19c4735571c09f2fdd89abbff9b187",
+    "TestApp/ext/classic/theme-base/sass/src/ProgressBar.scss": "21183dccdafdd05772265a50fae921cb023c2a8b88604455c4ffc061055d94a2",
+    "TestApp/ext/classic/theme-base/sass/src/resizer/Resizer.scss": "82600786456c1f1054f29ac29641c0053d1e8904e83b18ff37098d3202a171a9",
+    "TestApp/ext/classic/theme-base/sass/src/resizer/Splitter.scss": "ccb208ab8350a59f8daf58149f6de32d40b5f1832d17ad1b4a9080ac5c07ac73",
+    "TestApp/ext/classic/theme-base/sass/src/resizer/SplitterTracker.scss": "6e48675de4403b6b8aacedeb3f50b51582b157a38f681e33620c4d4568aaa3cd",
+    "TestApp/ext/classic/theme-base/sass/src/rtl/util/Renderable.scss": "6ac89af071ab7403cbcbc3ccb9100cbd6cbf0018351fadb8bb86b2a5cea343b8",
+    "TestApp/ext/classic/theme-base/sass/src/scroll/Scroller.scss": "f3c82ea121b3cc755f743af8be214aacb5de2df997c95bb3c1c45d3ea46378b3",
+    "TestApp/ext/classic/theme-base/sass/src/selection/FlexModel.scss": "9dca1e95efefd0f0127f9d8d7d59384d1e17ce36e889a2d619a5bfec76674890",
+    "TestApp/ext/classic/theme-base/sass/src/slider/Multi.scss": "6844cd7c239323d5caf1b0200d0f2800675eccbdf13c5edf8642986b82908ec3",
+    "TestApp/ext/classic/theme-base/sass/src/tab/Bar.scss": "58ee267d06560f51cdaf0f2ae63f6c414454b7d0738ccb08894c470a97663e4d",
+    "TestApp/ext/classic/theme-base/sass/src/tab/Tab.scss": "2bb3abf7103c474b791fef9d84e990f970bc09d19d5785f5b683f99ecda82b06",
+    "TestApp/ext/classic/theme-base/sass/src/tip/Tip.scss": "0aa455a0863e0a440814bd6e4c29a3d56c0055b5567b98c282d9ab171a6fede1",
+    "TestApp/ext/classic/theme-base/sass/src/toolbar/Breadcrumb.scss": "127c48d45ac2ad6387a01d90fe959f156f602e9f5f1d5a431903d066bc4df54f",
+    "TestApp/ext/classic/theme-base/sass/src/toolbar/Toolbar.scss": "4ccac0e79129495eb407b5b8628ed578538a2564576c9d92e3454ef6959c48cb",
+    "TestApp/ext/classic/theme-base/sass/src/tree/View.scss": "410fa00fdc48b616a8ed0a1759b1d31070c0806dc03cae8edb6d2505622c74c6",
+    "TestApp/ext/classic/theme-base/sass/src/view/BoundList.scss": "4d8147ca6a111a1d8de1d11c6028a8ce1186d2fa524d7a8b4de98e265492f6ee",
+    "TestApp/ext/classic/theme-base/sass/src/view/Table.scss": "f53341752a2dcafbdb25e7c21a2f801b7774a047d543464d52e7fec460080bd7",
+    "TestApp/ext/classic/theme-base/sass/src/view/View.scss": "1d02245c71ab731ceca377c1ecdaa65344b68c64d47ab81ea950b9b233dd8f29",
+    "TestApp/ext/classic/theme-base/sass/src/window/MessageBox.scss": "aa2db546efdd134b5faa8f17c2529f1f920b661752e6c6c27727de55a49d67f7",
+    "TestApp/ext/classic/theme-base/sass/src/window/Window.scss": "a26db9ee1da05501de932ec15efe2ff92912b2b4ed77990b88fc709d866b7019",
+    "TestApp/ext/classic/theme-base/sass/var/button/Button.scss": "bacdfed3d0b70c992c9c5ca7e81837a015ec35c42ef5d5fbd86bdb1d681953b6",
+    "TestApp/ext/classic/theme-base/sass/var/Component.scss": "990be974747249aba6ed0c70a9d0178f28f4e5f51b388e775199c564f5bc4f15",
+    "TestApp/ext/classic/theme-neutral/sass/etc/all.scss": "9f844eda15824d4bfb8feda6db8eb4c5ccd9ac2c14f915e544398640c8f221e1",
+    "TestApp/ext/classic/theme-neutral/sass/etc/functions/button-colors.scss": "231c3abf31b3e9b3f5d50dffcc56bbbb25c9eb6808198e8ee687072ca0d94abf",
+    "TestApp/ext/classic/theme-neutral/sass/etc/functions.scss": "d54df52292e626e13f80e7da004aea0b9649f42757321e48a9bceb4e196b7286",
+    "TestApp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss": "f3a37b88a74cf9731eaad366416faa630f05707741c1cd44b60e75072d9a7eb0",
+    "TestApp/ext/classic/theme-neutral/sass/etc/mixins.scss": "4b0d21f11ab2842968a1baec00012caebee24eb83c84f7cd11a9fb804a5631f2",
+    "TestApp/ext/classic/theme-neutral/sass/src/app/bindinspector/Inspector.scss": "fd3738c8eb44b2562713bf6ab9f3776714694b599304628c1241289acaa84845",
+    "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss": "064ce172e99e03e21d7d9470975751bf5938ff14da3118a4af47703e19a17910",
+    "TestApp/ext/classic/theme-neutral/sass/src/Component.scss": "72ab4fc49f09e0fb8f54491ecfd9f6e2f4609011ca1cfadb5e7290f7dc1670d9",
+    "TestApp/ext/classic/theme-neutral/sass/src/container/ButtonGroup.scss": "3769f70ce0b243de76a9556bbc67f4a213bdb5a31a9c244a8e54c96513d8c363",
+    "TestApp/ext/classic/theme-neutral/sass/src/dashboard/Dashboard.scss": "27e46a6478258b688103be50900632ae6223f9f018259af65c84fc5e1cd106aa",
+    "TestApp/ext/classic/theme-neutral/sass/src/dd/StatusProxy.scss": "7dec185543a21703b96a13570a5051fa9043e6d7ba80e51cc871385c5a149627",
+    "TestApp/ext/classic/theme-neutral/sass/src/Editor.scss": "94baf392b8cf311917c672632125f7c7567939ff7c7fe0d26f6710cf2aef136f",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/CheckboxGroup.scss": "67960636abf9c8fd528cbb4df93a9de3cb5c0c087cb92da10b0f3eaf9bd41429",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/field/Checkbox.scss": "2810cfb497f1b3d2bd53795e1844b741fe6679bc7f690c0d973ffa9923b346e7",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/field/Date.scss": "dbd61983b7a7e8ec90c12593b4ac3a79313ba44456fd1918b943766d018a21a4",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/field/Display.scss": "48d59bf6e4a99a701f0668a2d9e23fc8e0be7110e94ae2b94ac7041c7857b415",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/field/HtmlEditor.scss": "1922678d2368b1e60c188050643eaaabb51495fe30da8f42c5d66b380fb38c0e",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/field/Tag.scss": "77f702f4f01581de47e65b55d0871e3004440fead6e38d283944ecfc1674b823",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/field/Text.scss": "d39b23d80f469991006a8c293ec223033777f71ff82e8bfe91d2b3c43b790b6f",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/FieldSet.scss": "df07a5b2076d88fea80db9d24ef0878fdcc225895583ea60d2e766ec505b68c4",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/Labelable.scss": "d1a6fd23cea5682482c32d10e10006a599188fd6bccd2ff7f034b3c8657f80b2",
+    "TestApp/ext/classic/theme-neutral/sass/src/form/trigger/Spinner.scss": "cf79e87110a9fec62576e10cf4f3b1b777929e94412a38bda0774b821c6782e9",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Action.scss": "93e6bb7e60b8b48c7f4667892c37bf33b08c0a00af33c6111f992dc04a04bcbb",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Check.scss": "3e533d29cd4ba8e641b225ab76ff7362e3a1ab4f8e8e17d290b6920c3030ab59",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss": "4f946774ace9c2670de4919a5525fdde14b97234e1e7cc81e7a7173cafe73f2c",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss": "0666ead576b9e6df1df01d1190bd710c1d4fb39ec9033e487379799768df84ff",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Widget.scss": "fd9d8f4d7bfbb3874f0bdf4dd450c4d90df21d9fbd2d1a1e504add29b718ad0c",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGrouping.scss": "7593990d04bb0241a99d5b8d0a99e3190038e4ca31bc7362cbd5ca64f593549e",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/AdvancedGroupingSummary.scss": "3da04ca956a88c702ab19554af42e7baaf2dbf8eb30b40f035faf1c56c5e74a4",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/Grouping.scss": "b53cfb7c150bc21d37088b46822c1b83e2494a1b4e54669b6ad0739b0c5a1105",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/RowBody.scss": "c68a076452f9a71de87dd018d898a229f6465ff6f077fd732a7ebf91c03852ff",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/RowWrap.scss": "d0b35af3f7993c4132f592704e5193b33077cd18b2c91be3510f49dab54cd64c",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss": "882ea96cbce4bc03c7b740b636d7d3c4acae3d6aa195a6bcbc2b4ed925a59043",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/filters/Filters.scss": "fea627a0bc310741edd66de17f3b85ed7030ac3177b85a40e0d5493f875bc342",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss": "fde4e03148392f28af030fe1800ca3e31464ba8804111cdf705b61193a5859a0",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/header/DropZone.scss": "733c55c83309819b0017d7b301637db0a65218ab08fb82863ef793ea7cb6bfc6",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss": "ac312bfa4ad3b36e01c149cb653320d14c4537ee582987eee6bcc6e4de4a97fa",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/CellEditing.scss": "fa0011accde28157de2b5643313b81fc0ea2c6bda72f2ab8b01e9552f94e31c3",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/Editing.scss": "0623f470cfc9a9ea3e2e2609371f2a51114361e1587be7dd0580a9690b104511",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/FilterBar.scss": "d7504ab07c0ec0938f4d54fcee5d2e465f7311bd77d85ad4bf94216c05510ee1",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/Base.scss": "7d983b899c6098d63476fdc3a22c47bdc671726ccd76e7c27b348537b903af6d",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/None.scss": "c01fb1e0a97ec66cfd13028aa45329252b7a0bf127db39b3491a1311c341d0d8",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/Operator.scss": "a8f1593ade6d3fd08dbba1fb93c66dc7e21a089f638bd0c5a670fea47a9d2a35",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss": "8c8a999e1c1de309d3a5329887c9be2003c77681257b4dbd686e9413333b906a",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Panel.scss": "a3d05820f48b01c55fd386647c9f8a55f3a20e8e3fba530d20357c08a8f26675",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss": "d86291aeea5253d374ede8d01f08fa4b0b7e89fa50af3d23e88d6be3b002c4af",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/RowExpander.scss": "ac454b2d059ab06d918253eb25faf7c5c6e1415c3bc396e6dd76697968e466ac",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/Summaries.scss": "f033a1b4d5e273537d1f7080ee5858a381a89831f60d8f3bee5cc26e71767150",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/property/Grid.scss": "c514aef03c9bf61825b9cb6baf87b247b9c4be61e526eb4645048cdc47c8e381",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel.scss": "570314016b273072f422ca048d7df3dab32b4b8bca65f6a835620fc449e2d9dc",
+    "TestApp/ext/classic/theme-neutral/sass/src/grid-field.scss": "d35984dbbbf4d0f85674e72dc7712c6ba3a5b182a91d20707daa14db6a944eaa",
+    "TestApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss": "2a5bdfe6a37eeddbe1774592139ed81a4fa07a5d7db9e1b66f07790bb1ad2b27",
+    "TestApp/ext/classic/theme-neutral/sass/src/layout/container/Border.scss": "d77e50745afa0be0e156d82e75990dc366ab2d36c859c33ebc25b85f1aedfb1f",
+    "TestApp/ext/classic/theme-neutral/sass/src/layout/container/Form.scss": "64ae02ae875e0a69935ef76a0758805eae7559347d34ee13086aeed030846264",
+    "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss": "d03ae551ca89b22e49bdec6a5d4d2ccb4f8dbf6fdc027789ec0f6d48c4e73dae",
+    "TestApp/ext/classic/theme-neutral/sass/src/menu/Menu.scss": "8a462093e24347786174f1a4b02c83cb080d2a1dc59b7c064b395259c3b09710",
+    "TestApp/ext/classic/theme-neutral/sass/src/panel/Header.scss": "a69dcc9da83204378ca9373ee536914b1f91f587381578cf96923b98eb36d08c",
+    "TestApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss": "1495548839fb34dab17e15b3e9ad4ac636bb9a86fb76820e572b1613864ae2a2",
+    "TestApp/ext/classic/theme-neutral/sass/src/panel/Tool.scss": "bdaacd8e9987783347e2105ec7d224c189048a29563218092462afbc633f1399",
+    "TestApp/ext/classic/theme-neutral/sass/src/picker/Color.scss": "4bdde7c1380bed074d160ea0a8fc3760870d2e1ba6353c0881356cb0510dc652",
+    "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss": "5325d21e143576a8f108fec7e43a2d1aae50fb91e19781a8fab2bfacff211427",
+    "TestApp/ext/classic/theme-neutral/sass/src/ProgressBar.scss": "0068542d8cb204ed89c2ea24f35751dce75088a7c752a52fca8aad969f5a68dd",
+    "TestApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss": "0b56a7470ee1a8fbd8c5bfa26888402e73e8566107d664ad88f652f929f880f2",
+    "TestApp/ext/classic/theme-neutral/sass/src/resizer/Splitter.scss": "a7f906c184f0eb7493c6cdebd2300b8d9fda50e26ac7e63d30b04c50b00dabc9",
+    "TestApp/ext/classic/theme-neutral/sass/src/slider/Multi.scss": "7008c048bee856e165bc1e6035c5834f0330a2f597a973e4580d583944726518",
+    "TestApp/ext/classic/theme-neutral/sass/src/tab/Bar.scss": "c2f4d77039f2f2d7ea414869a02a3f810bac47b3ffeb077b1cad251ecd0d6ad8",
+    "TestApp/ext/classic/theme-neutral/sass/src/tip/Tip.scss": "bd51822d11d7ab68ef2e5b01c2a85316088547e166f80968903e98edf6268fda",
+    "TestApp/ext/classic/theme-neutral/sass/src/toolbar/Breadcrumb.scss": "9a391d9e281fe0975deb989892cbb34a110d004867530ddc8fb1f003a35253c9",
+    "TestApp/ext/classic/theme-neutral/sass/src/toolbar/Paging.scss": "64548f3e111450acee30538aabcf116652aaa8a21a6283645288b83207cb3477",
+    "TestApp/ext/classic/theme-neutral/sass/src/toolbar/Toolbar.scss": "10705fdf95f8e5a2137f2280ff42a967e9dd699b22a2c799cd60de00c1ec68cd",
+    "TestApp/ext/classic/theme-neutral/sass/src/tree/View.scss": "2e405fc0e90471153088ecc74cbd4188c1147b616d525dae1cd4e9183cb551cd",
+    "TestApp/ext/classic/theme-neutral/sass/src/tree/ViewDropZone.scss": "3465edc4d64a88a59d5429c98c0494b23911d2ecd96c025e2309cc1bad6d2de4",
+    "TestApp/ext/classic/theme-neutral/sass/src/view/BoundList.scss": "160f6630e4575687329d7e4810562131fab4e9bd1ef7fef733f10fd2399eef7d",
+    "TestApp/ext/classic/theme-neutral/sass/src/view/DropZone.scss": "cb94b36b807949554987d47a3465671965d99d2f2809fbb7feb5704310b9f743",
+    "TestApp/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss": "13892f51fe70975e19e970f9b57214bf4b10c3f2b72746b242a3f67451acd155",
+    "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss": "690a4047b645a0c02f8862c132d9aa26c11f6662ac7aba47ec6ccb1334cc71e4",
+    "TestApp/ext/classic/theme-neutral/sass/src/window/MessageBox.scss": "db2e84224ffe47aa3ee0945ca2f9a45797b12f2c1373a839e770e4bbd34432c8",
+    "TestApp/ext/classic/theme-neutral/sass/src/window/Toast.scss": "b178d06c48325b7044c3f62b54d600243a9e999bb83e4986514f32d30b726ef2",
+    "TestApp/ext/classic/theme-neutral/sass/src/window/Window.scss": "a3e8a53b92529d2eba62a8fcbae39e3e622c82250ed373a9c22045b6631f46c2",
+    "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss": "875d33fef172bd9cf33fe051febe2edab809d08d646c93e0611ee536d278d1e8",
+    "TestApp/ext/classic/theme-neutral/sass/var/calendar/List.scss": "88ce8a22724d4144306945d8a72065d235abd5064e647526d6eeadd46b5bc8c5",
+    "TestApp/ext/classic/theme-neutral/sass/var/calendar/panel/Panel.scss": "15e29cbaa183cd37945ce52b124dade0279b91bee8a04e28696392fae70e5ebd",
+    "TestApp/ext/classic/theme-neutral/sass/var/Component.scss": "df283ee889713d5e211da035ce9b22e5c48c695bc2236865927d094343f38974",
+    "TestApp/ext/classic/theme-neutral/sass/var/container/ButtonGroup.scss": "b9117ec41f3982fbd3ac00839bfb9f0114322b771b4540d642799d12e4b85d39",
+    "TestApp/ext/classic/theme-neutral/sass/var/dashboard/Dashboard.scss": "eeb92b607d5db03814c226067e6844c43aa1a31204ddb5056ce36c20d8a4ae8e",
+    "TestApp/ext/classic/theme-neutral/sass/var/dd/StatusProxy.scss": "578a5ffa339e6428ecfb8ca396e903e3513df974cdd1c67da0c6be7a5204911f",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/CheckboxGroup.scss": "13a9b1eacde06f121b302e723365d50625e57a478907955f7170d9b76ea66f67",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss": "812fb87634166fae1b849bba69ff2bd3260949c9efa4251806de36a5e2dc0503",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/field/Checkbox.scss": "2424af09cd9218c7259ae322b3bb9335c62a25681e3c6d86afb215fe1d76afd0",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/field/Display.scss": "82cefd0a2be1050dca0d024e3c431ecef91ee679097a177efbdf38fc0ccfe096",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss": "05ccc5e13a51fd147515e8ff1eacf87c6f8c8df015715957d86e07eb7c53a4da",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/field/Tag.scss": "ae19f9701ea59c55541989cc70576c2f17b2684907157da2dd38e7a644a3069b",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss": "3035ab4f5cb9722337040c9fd6504e277971015c3dafac497772585f4f71fcb2",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/FieldSet.scss": "659f0cbfd8cc1a4aa2992136ceec28d587c898adc32a6d70548f04ddf380265a",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/Labelable.scss": "4e416032f689a5534bf15df5c5059f16a76036512b274cf791e07d45a25bdd9d",
+    "TestApp/ext/classic/theme-neutral/sass/var/form/trigger/Spinner.scss": "1f442a2b81f03324c59c8547b06da334f5433f50597a3203ae0211d44f2f8596",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Action.scss": "248c997935b554ef6aab092e133ba396ed84638c083f69561fb39a86494c4a95",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Check.scss": "9e83342688af607628fefc13e5d5a5ae33591bd9ed19d8f53d39153d6d71d467",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Column.scss": "d6664c14dbac4739a3100b3e9fe3c7fd60c09c263650c11a7eac889d2ee823af",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/column/RowNumberer.scss": "e59a75e24d1cc5940c063532d5bbbb131cc36fc4a7fdad4c9c74d383ef106ea1",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Widget.scss": "c46b9f16b9edcd8e7c770440821c1bb6d6de54dca4a0f5c59d71b97620c0f750",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/feature/AdvancedGrouping.scss": "f3b537dd31dad386845dbf7c80afaa86a6f7874c5ef0682a1cba357d405bc2e5",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/feature/AdvancedGroupingSummary.scss": "6d0def18e78a48f0343dfcd4fbb239ebec46fecd20b391d3b55bf75dac560f70",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/feature/Grouping.scss": "aa2e3ceb5a3c95490e9f0163f7a2efc9545d3678c80bcd1e78c466b9f20f2ce8",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/feature/RowBody.scss": "b603237c4d5c2a281ef9cead8d6e4196033146fa5fc587927abbd09e4944f446",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/filters/Filters.scss": "09d05e2e11165e781f0fa96ede605443bcb3c3de6a36fb492760fb9396a951e1",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss": "856382fe2e31136e3ebeb3d6e922bcfc922977754b0edaff6ef78326bfa01b2c",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/header/DropZone.scss": "b52cf975ae724d5d8d16d648748ce72b307bf9c86775cd4705d36a812d2a3f4e",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/locking/Lockable.scss": "56805464fb19c5512fe1a5212b4efc28b9fc7914dc868a7921e9a4aa38448920",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/Editing.scss": "2f23d97ae2bde324c262182dcb5ad08faebb8e214857abad93da9866c80eefe6",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/FilterBar.scss": "679bf22354d97c0bfdcde87431426e6ec69412b54e5aa9f0734fa8e86d37fb2f",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/filters/Base.scss": "159c06f5e1e0d5e0abd939b37be3962c73a03b2c47c5c9e1e4986ab206add941",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/Operator.scss": "15bd43b3c3fc4e15af999c8fe369bbe06fc13802c7d73fa02548848fd7d96493",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss": "039f11cc87b8def71b9a553956fa6fbe11221993fb595cd11928d260312a8631",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Panel.scss": "dd493a0045f27c7be0b1272584dce4dab959f02e551f4e0fe10233467f467d25",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/RowEditing.scss": "dfb3ad22c406f45f97563b4d0b457e2ea4c83e8732c2ed0d73d1b9aa666e4700",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/RowExpander.scss": "57a00c36469dd41a85055218dd39c77172d636bb66588842221021e6913c5f6d",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/Summaries.scss": "9e2b50ea47a9e06d0e1412e7e1a199611dc0be02b5a615a07f14b29b2abc2a51",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/property/Grid.scss": "7c1c2aa57a2745232fcf7c281b5cf84b289e9cb7182c1cfbe5845ce0bb7fb7b6",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid/selection/SpreadsheetModel.scss": "4f900e1110c051797b46e0d1f7fb746ff9223c104a62eb2de36603d9c7217e41",
+    "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss": "053135be001a31f605ad5d4597666566f48f103798efb9e7b418dd6754b490d7",
+    "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Accordion.scss": "09df955ad975554ee518d5cbfe066830dd7ad4a80f7f9bd3167bbdc4d1270d98",
+    "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Border.scss": "85a5d583c1a01653c6a5f6828c68d780916c68ea8f6da1a3e6849326a98f3f9d",
+    "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Box.scss": "e35e67db310151fe24b15444ee3f8d036cebb0653c0d13a1822ae66cc716e238",
+    "TestApp/ext/classic/theme-neutral/sass/var/list/TreeItem.scss": "c8d6428643716cb800629f0c10ec00449e039c685074382ed346d7630e3b52e1",
+    "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss": "f4d2478028e326b6f521990693032dce96815c2ad4bcc2923e108f8d410e05b4",
+    "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss": "daf5343c7466d8ba37d0dcf9d024391e10a98e349dfe57bfd5defcd5f1e45e90",
+    "TestApp/ext/classic/theme-neutral/sass/var/panel/Header.scss": "cea5184db1d69c6b51f7c073a99960c03aba9f5778071b10d2deed35632f03d9",
+    "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss": "4feefc30727059badc2be04477433b553f1f108502586766aec14702b9e4634e",
+    "TestApp/ext/classic/theme-neutral/sass/var/panel/Tool.scss": "10f1a60fcdc33f1a783d8c29d0d32f9245a47dd24aa878f438797384c434e114",
+    "TestApp/ext/classic/theme-neutral/sass/var/picker/Color.scss": "8a7e26781653b8e0c8b507166b83d1a5d532cfec1118c2b1973053d9a9ea9933",
+    "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss": "679044d9f9c4bd8c13de5038a4558ec10bdcc47b341de4d6f49a4da9e15afd50",
+    "TestApp/ext/classic/theme-neutral/sass/var/pivot/Grid.scss": "6616b8bed268f384af3aadc6212bd6ddd9f3d840bf80ae02498ef3afe41bb5a6",
+    "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss": "927f16eba8a94afe0f81833e8bb18fcc33610be4256d2524993a4b7a7b3da010",
+    "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Container.scss": "3564b3e7e69421846229520fc823f5cf20487839ef80aaa0e67f2b7f78bb6e4b",
+    "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss": "293193209c4d2b3655ea200d9d52a1c045ace21d6cf1a7a920cc93f96790aea0",
+    "TestApp/ext/classic/theme-neutral/sass/var/resizer/Resizer.scss": "f9e68456a007a1e3a18a7b4f6887c6ee4217f4ba5724610832c381cfe1bbe957",
+    "TestApp/ext/classic/theme-neutral/sass/var/resizer/Splitter.scss": "ad4af681b953bc70aced7c30ca9923c8f134e536abe37270314c2926dfc70b06",
+    "TestApp/ext/classic/theme-neutral/sass/var/selection/CheckboxModel.scss": "3b61290e0110462cd05c6c1620d44799d6b8de94b75f226eacd3392f8129e1ff",
+    "TestApp/ext/classic/theme-neutral/sass/var/slider/Multi.scss": "831d316e767fb06d4166e271c065ce1f7ad748469891e1f935fd38040c492b5d",
+    "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss": "66d8e051af7a87c0262c57d57f540b5cdea2a60a24046aa21fdc314cc03b4519",
+    "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss": "e4bd5afad927eb963a90c906786af795bdd607024e3440f40a99005f115657dd",
+    "TestApp/ext/classic/theme-neutral/sass/var/tip/Tip.scss": "8c51ce4b1fb50c85a692935e3e8aca537dcde123c7b61359c75ee396abb39fa3",
+    "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss": "dc9838a7e5c81271f1378ab601e55e3d57b8fed1d55a31a28aa100d4918cb5ac",
+    "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Paging.scss": "7ed0bc552cf2dc0621b3c0b815f8bc34640aa5f00404fd97bac20340819646ec",
+    "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss": "b10985a108fea13f5073d77937b8f214657422bd743a4849a2056b03685228aa",
+    "TestApp/ext/classic/theme-neutral/sass/var/tree/View.scss": "72bfaf038d359bedbb9a883b8ea9419a0201fcc6287f7414712662d4e04a8ffd",
+    "TestApp/ext/classic/theme-neutral/sass/var/view/BoundList.scss": "a9d7138ca768092a1696a2991fb8de0a32e898d3bbf5e6c885a6031468cbac1d",
+    "TestApp/ext/classic/theme-neutral/sass/var/view/MultiSelector.scss": "277d84562718375cd479fc651c73b7b0442a9fd745a34ffe00a98af1c6c7c548",
+    "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss": "ea45d27260e56211566afecd4be09dd494f457e9427358030f5db33ed712a16b",
+    "TestApp/ext/classic/theme-neutral/sass/var/window/MessageBox.scss": "f03ebb1cff868ca52bf90814e7b7087c53a7cae7b3c2d207c56301ab455a4179",
+    "TestApp/ext/classic/theme-neutral/sass/var/window/Toast.scss": "d92beb7670938f5d6a8c54b179800c09a3c7bf909a0576dd9775dd64c707f1dc",
+    "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss": "d9cca3951cea796a0af0a41b577d59359dfb522987290506432ff22f59f97422",
+    "TestApp/ext/classic/theme-classic/sass/etc/all.scss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "TestApp/ext/classic/theme-classic/sass/src/dom/Element.scss": "bc5e71f6131a929306a4fb79fcd8a7ad87d5f10bd6a5a2315997f8cc0b69bee0",
+    "TestApp/ext/classic/theme-classic/sass/src/form/field/HtmlEditor.scss": "6ed4064a2eb74b051a47bc227426734dbdacdc193d1fa1bde5f7355f007e1a8e",
+    "TestApp/ext/classic/theme-classic/sass/src/grid/column/Column.scss": "37c9dbfc89952a2bbf3a3f2fcf5ed6026803809402c2a3182bbf5e286f0edb58",
+    "TestApp/ext/classic/theme-classic/sass/src/grid/column/Widget.scss": "d671c9cde83830dcf6956c780ed9276aab58ef84d74e929d2dbb002e1aa6d137",
+    "TestApp/ext/classic/theme-classic/sass/src/layout/container/Accordion.scss": "8f1baa4c2cd341b933cee8429a8ddeabd5fb4db56655813fb07dcd83f52cd44f",
+    "TestApp/ext/classic/theme-classic/sass/src/resizer/Resizer.scss": "969f11817ebfcd117d603eacd6db8851bc81d1f033f708af20b8e6b8b431b07f",
+    "TestApp/ext/classic/theme-classic/sass/src/slider/Multi.scss": "dac7e03a8abdd7d56b95c671a9d13c4c61b28b6bca9e2225c1faa5f1b77d7c7f",
+    "TestApp/ext/classic/theme-classic/sass/src/window/MessageBox.scss": "8c131ee01a11cdcec11013f59b50d74babbff0c416fec4c6d7ec008edd057b9b",
+    "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss": "cbffbd87916ad78cd2e7eb9e0ff20c9840cbf7849003aecf9a1dff7e29658826",
+    "TestApp/ext/classic/theme-classic/sass/var/calendar/List.scss": "3380b073578f08558fc222d4c9b2e119cec7ffb721cbbdddd8ac28c78756d11c",
+    "TestApp/ext/classic/theme-classic/sass/var/Component.scss": "72d8f1870f2270fc3bf86e5f5cd48bb8f0517ede0f878ce6732fdae81649ca12",
+    "TestApp/ext/classic/theme-classic/sass/var/container/ButtonGroup.scss": "2e6b1613763c79ce4760776b360e714ff9ac3f6dd8d34a86cc6387feb3f70270",
+    "TestApp/ext/classic/theme-classic/sass/var/dd/StatusProxy.scss": "6bc6fff865d36795ebff737b1760a40a4e0f4e542411fddc2e4518f846cbb4a9",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss": "4e29a214953e8ee23b546e03088cef8d8368788b92ede905675fbc27a774bbf3",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/Display.scss": "648c775bc6a6864154abc9e75dab745b564f54c422fac084ea2387addc88d01a",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/HtmlEditor.scss": "322e9c14cafa10fb809100a63d722bd99b94e9e6c49356341f93edb5a298bc19",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/Spinner.scss": "0483f4bfc16b90b5345f988bfff45b1d1285a2aebc7e741a9bf846d8baed5fcb",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/Tag.scss": "6f654a6eac2da83dbdaf662b5dc5e6e448fc3b5605efbee23851b73cfcc6453b",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/Text.scss": "95785f48a9804678abea04c7088ee36b887aba5bdf262a389832406b855f1709",
+    "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss": "0b740e7377fc922a22b2018bafcce5197cd41201eaff943edd3209c1debaf134",
+    "TestApp/ext/classic/theme-classic/sass/var/form/FieldSet.scss": "3062bb68f559092646ab46e7ee52d8b44f22f3a448752be179bc725c4004cd00",
+    "TestApp/ext/classic/theme-classic/sass/var/form/Labelable.scss": "dce7d216a204f193d70bc7d45fe7a8d5b5d9ba16411aeca84aaa91ad431f3021",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/column/Column.scss": "5d16d298e911f2263343b6111205d19e9749098665bc7169db03c68dd7fb6878",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/column/Widget.scss": "2f23d97ae2bde324c262182dcb5ad08faebb8e214857abad93da9866c80eefe6",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/feature/AdvancedGrouping.scss": "5b7b71ae85ee04a23dca711099feee3926eac1d57ea5abe432c156ee87e50d89",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/feature/Grouping.scss": "dbcb2085a2c808ca32fd7d0b3a40553b4a59f520fd7d366f37cec0be442b4d5c",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss": "8cf9fb8c427b7da5c11bf6c123dbe8550fa873d3e2958ae5169f3988cc22e91a",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/plugin/Editing.scss": "2f23d97ae2bde324c262182dcb5ad08faebb8e214857abad93da9866c80eefe6",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/plugin/RowEditing.scss": "b49e884b75db181ba657cbe26efafa21e10c0135e77004bdc271b684ae1cb4a9",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/plugin/RowExpander.scss": "5fa3fb709689f5a3a0a0e26cdc46c2b67b5e6f9ecd96fe68753665ebd5e6fd19",
+    "TestApp/ext/classic/theme-classic/sass/var/grid/property/Grid.scss": "e4a3505072555c88ca1956e34d542c9b57d12b6a8cd8e1f6fb422d86cee7e9d3",
+    "TestApp/ext/classic/theme-classic/sass/var/grid-field.scss": "b26de9062516fcda505a5c20063c381482c3537267a5288b8586c3fcdf423443",
+    "TestApp/ext/classic/theme-classic/sass/var/layout/container/Accordion.scss": "2ce96abb657be2edbb64e276d5633205107bdf898d38b8e3750cf4bce23bcbd3",
+    "TestApp/ext/classic/theme-classic/sass/var/layout/container/Border.scss": "5d7cbf22b22900de0355eaaf56fded272dec81463d4b429386ff735f3a25d820",
+    "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss": "7a41062b89c4524e6ec71164cfd2e89600e51a87fe9a685ca8d8e2b127637f27",
+    "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss": "f5f9ec0ae14181da98185be8c370cbcc9131d52747c2609f82a2d4658988b536",
+    "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss": "0205e570559039188d1366a8bf2cc4a1a05c59c74deb3cf33a3ae0ef84ab8475",
+    "TestApp/ext/classic/theme-classic/sass/var/panel/Tool.scss": "129945de6f92d93a38c8788d7449080439a974d1c4fa3880dbfba0ad251cf58d",
+    "TestApp/ext/classic/theme-classic/sass/var/picker/Color.scss": "dfb78e44dc4541c1c509f3eb5cf14aab458cb9dd898596472c2044c838eaaa9b",
+    "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss": "38fe9f21a9e4c5a320319500b2db8486a6ff38594202f6fb7f1f9646d397311a",
+    "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss": "f665008917dfb3730cf1d45e571b0a27fce7946b1d22d292e42a470b6578706f",
+    "TestApp/ext/classic/theme-classic/sass/var/resizer/Resizer.scss": "b57635235e4b0c9d08683be42522387e4c1bb2f6e4499235aca9ae7b06b6987d",
+    "TestApp/ext/classic/theme-classic/sass/var/resizer/Splitter.scss": "167be6590f3afb8fcb49ff50d7434860f99b5a29baba058eccd79bb1c869996c",
+    "TestApp/ext/classic/theme-classic/sass/var/slider/Multi.scss": "70ed4463fefe68f7c29409bb6532e53b526213b2ce3e3612e674aa3a845c9aa3",
+    "TestApp/ext/classic/theme-classic/sass/var/tab/Bar.scss": "fe5f752c6c50ddd82317150729aa3799127f12485aac1c42a524b84ff0c37be3",
+    "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss": "a260501ad4448e4e2a30f529010a7773ac0ad6c6dc9aab36a19b0095cced21fa",
+    "TestApp/ext/classic/theme-classic/sass/var/tip/Tip.scss": "d725871de96b7bfe936296eadb6dd6820bdec81955e70ceb0b9f356825552d77",
+    "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss": "2fa824c1910230769190cf122095140e5c1101465f36e657e224b4ef24ed027e",
+    "TestApp/ext/classic/theme-classic/sass/var/tree/View.scss": "8fd63f7d124ec115c5d32410318d943ddaee96f359ff35519ea43fb0fc20ac49",
+    "TestApp/ext/classic/theme-classic/sass/var/view/BoundList.scss": "c5bcd91e72248f518480c9cbe96430006dce083ceee59bfbbe9d26cb2dcff5d2",
+    "TestApp/ext/classic/theme-classic/sass/var/view/Table.scss": "53c14cb215c92678ed90ba77c228a858294a840a8ca63ba85072ccd3ea00db91",
+    "TestApp/ext/classic/theme-classic/sass/var/window/MessageBox.scss": "896a3292f9167eef87e55ca1508ff9c7e43c4065535e1f2936d4bdd46ae1a4e7",
+    "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss": "1ba9850e5555bc0062655d084edfc8c2e761f21fca17b9324e2d12b8268fc621"
+  },
+  "denyMetricVariables": [
+    "accordion-body-border-width",
+    "accordion-header-border-width",
+    "accordion-header-focus-outline-offset",
+    "accordion-header-focus-outline-width",
+    "accordion-header-font-family",
+    "accordion-header-font-weight",
+    "accordion-header-padding",
+    "accordion-header-text-transform",
+    "accordion-header-tool-size",
+    "accordion-item-margin",
+    "accordion-padding",
+    "accordion-tool-focus-outline-offset",
+    "accordion-tool-focus-outline-width",
+    "accordion-tool-glyph-font-size",
+    "border-width-threshold",
+    "boundlist-border-width",
+    "boundlist-item-border-width",
+    "boundlist-item-font-family",
+    "boundlist-item-font-size",
+    "boundlist-item-font-weight",
+    "boundlist-item-height",
+    "boundlist-item-padding",
+    "breadcrumb-arrow-width",
+    "breadcrumb-button-spacing",
+    "breadcrumb-glyph-font-size",
+    "breadcrumb-scroller-border-width",
+    "breadcrumb-scroller-bottom-margin",
+    "breadcrumb-scroller-height",
+    "breadcrumb-scroller-left-margin",
+    "breadcrumb-scroller-right-margin",
+    "breadcrumb-scroller-top-margin",
+    "breadcrumb-scroller-width",
+    "breadcrumb-split-width",
+    "btn-group-border-radius",
+    "btn-group-border-spacing",
+    "btn-group-border-width",
+    "btn-group-framed-border-radius",
+    "btn-group-framed-border-width",
+    "btn-group-header-font-family",
+    "btn-group-header-font-size",
+    "btn-group-header-font-weight",
+    "btn-group-header-line-height",
+    "btn-group-header-margin",
+    "btn-group-header-padding",
+    "btn-group-inner-border-width",
+    "btn-group-padding",
+    "button-arrow-height",
+    "button-arrow-width",
+    "button-default-body-outline-width-focus",
+    "button-default-inner-border-width",
+    "button-default-inner-border-width-disabled",
+    "button-default-inner-border-width-focus",
+    "button-default-inner-border-width-focus-over",
+    "button-default-inner-border-width-focus-pressed",
+    "button-default-inner-border-width-over",
+    "button-default-inner-border-width-pressed",
+    "button-grid-cell-arrow-height",
+    "button-grid-cell-arrow-width",
+    "button-grid-cell-body-outline-width-focus",
+    "button-grid-cell-border-radius",
+    "button-grid-cell-border-width",
+    "button-grid-cell-font-family",
+    "button-grid-cell-font-family-disabled",
+    "button-grid-cell-font-family-focus",
+    "button-grid-cell-font-family-focus-over",
+    "button-grid-cell-font-family-focus-pressed",
+    "button-grid-cell-font-family-over",
+    "button-grid-cell-font-family-pressed",
+    "button-grid-cell-font-size",
+    "button-grid-cell-font-size-disabled",
+    "button-grid-cell-font-size-focus",
+    "button-grid-cell-font-size-focus-over",
+    "button-grid-cell-font-size-focus-pressed",
+    "button-grid-cell-font-size-over",
+    "button-grid-cell-font-size-pressed",
+    "button-grid-cell-font-weight",
+    "button-grid-cell-font-weight-disabled",
+    "button-grid-cell-font-weight-focus",
+    "button-grid-cell-font-weight-focus-over",
+    "button-grid-cell-font-weight-focus-pressed",
+    "button-grid-cell-font-weight-over",
+    "button-grid-cell-font-weight-pressed",
+    "button-grid-cell-glyph-font-size",
+    "button-grid-cell-icon-size",
+    "button-grid-cell-icon-spacing",
+    "button-grid-cell-inner-border-width",
+    "button-grid-cell-inner-border-width-disabled",
+    "button-grid-cell-inner-border-width-focus",
+    "button-grid-cell-inner-border-width-focus-over",
+    "button-grid-cell-inner-border-width-focus-pressed",
+    "button-grid-cell-inner-border-width-over",
+    "button-grid-cell-inner-border-width-pressed",
+    "button-grid-cell-line-height",
+    "button-grid-cell-padding",
+    "button-grid-cell-split-height",
+    "button-grid-cell-split-line-width",
+    "button-grid-cell-split-width",
+    "button-grid-cell-text-padding",
+    "button-icon-spacing",
+    "button-large-arrow-height",
+    "button-large-arrow-width",
+    "button-large-border-radius",
+    "button-large-border-width",
+    "button-large-font-family",
+    "button-large-font-family-disabled",
+    "button-large-font-family-focus",
+    "button-large-font-family-focus-over",
+    "button-large-font-family-focus-pressed",
+    "button-large-font-family-over",
+    "button-large-font-family-pressed",
+    "button-large-font-size",
+    "button-large-font-size-disabled",
+    "button-large-font-size-focus",
+    "button-large-font-size-focus-over",
+    "button-large-font-size-focus-pressed",
+    "button-large-font-size-over",
+    "button-large-font-size-pressed",
+    "button-large-font-weight",
+    "button-large-font-weight-disabled",
+    "button-large-font-weight-focus",
+    "button-large-font-weight-focus-over",
+    "button-large-font-weight-focus-pressed",
+    "button-large-font-weight-over",
+    "button-large-font-weight-pressed",
+    "button-large-glyph-font-size",
+    "button-large-icon-size",
+    "button-large-icon-spacing",
+    "button-large-line-height",
+    "button-large-padding",
+    "button-large-split-height",
+    "button-large-split-line-width",
+    "button-large-split-width",
+    "button-large-text-padding",
+    "button-medium-arrow-height",
+    "button-medium-arrow-width",
+    "button-medium-border-radius",
+    "button-medium-border-width",
+    "button-medium-font-family",
+    "button-medium-font-family-disabled",
+    "button-medium-font-family-focus",
+    "button-medium-font-family-focus-over",
+    "button-medium-font-family-focus-pressed",
+    "button-medium-font-family-over",
+    "button-medium-font-family-pressed",
+    "button-medium-font-size",
+    "button-medium-font-size-disabled",
+    "button-medium-font-size-focus",
+    "button-medium-font-size-focus-over",
+    "button-medium-font-size-focus-pressed",
+    "button-medium-font-size-over",
+    "button-medium-font-size-pressed",
+    "button-medium-font-weight",
+    "button-medium-font-weight-disabled",
+    "button-medium-font-weight-focus",
+    "button-medium-font-weight-focus-over",
+    "button-medium-font-weight-focus-pressed",
+    "button-medium-font-weight-over",
+    "button-medium-font-weight-pressed",
+    "button-medium-glyph-font-size",
+    "button-medium-icon-size",
+    "button-medium-icon-spacing",
+    "button-medium-line-height",
+    "button-medium-padding",
+    "button-medium-split-height",
+    "button-medium-split-line-width",
+    "button-medium-split-width",
+    "button-medium-text-padding",
+    "button-small-arrow-height",
+    "button-small-arrow-width",
+    "button-small-border-radius",
+    "button-small-border-width",
+    "button-small-font-family",
+    "button-small-font-family-disabled",
+    "button-small-font-family-focus",
+    "button-small-font-family-focus-over",
+    "button-small-font-family-focus-pressed",
+    "button-small-font-family-over",
+    "button-small-font-family-pressed",
+    "button-small-font-size",
+    "button-small-font-size-disabled",
+    "button-small-font-size-focus",
+    "button-small-font-size-focus-over",
+    "button-small-font-size-focus-pressed",
+    "button-small-font-size-over",
+    "button-small-font-size-pressed",
+    "button-small-font-weight",
+    "button-small-font-weight-disabled",
+    "button-small-font-weight-focus",
+    "button-small-font-weight-focus-over",
+    "button-small-font-weight-focus-pressed",
+    "button-small-font-weight-over",
+    "button-small-font-weight-pressed",
+    "button-small-glyph-font-size",
+    "button-small-icon-size",
+    "button-small-icon-spacing",
+    "button-small-line-height",
+    "button-small-padding",
+    "button-small-split-height",
+    "button-small-split-line-width",
+    "button-small-split-width",
+    "button-small-text-padding",
+    "button-split-height",
+    "button-split-line-width",
+    "button-split-width",
+    "button-toolbar-body-outline-width-focus",
+    "button-toolbar-inner-border-width",
+    "button-toolbar-inner-border-width-disabled",
+    "button-toolbar-inner-border-width-focus",
+    "button-toolbar-inner-border-width-focus-over",
+    "button-toolbar-inner-border-width-focus-pressed",
+    "button-toolbar-inner-border-width-over",
+    "button-toolbar-inner-border-width-pressed",
+    "calendar-list-item-height",
+    "calendar-list-item-icon-spacing",
+    "calendar-list-item-margin",
+    "calendar-panel-create-button-horizontal-padding",
+    "calendar-panel-sidebar-padding",
+    "checkbox-selection-model-cell-padding",
+    "checkbox-selection-model-cell-spacing-after",
+    "checkbox-selection-model-cell-spacing-before",
+    "checkbox-selection-model-column-header-padding",
+    "collapse-tool-size",
+    "colorpicker-border-width",
+    "colorpicker-item-border-width",
+    "colorpicker-item-height",
+    "colorpicker-item-inner-border-width",
+    "colorpicker-item-padding",
+    "colorpicker-item-width",
+    "css-shadow-border-radius",
+    "datepicker-arrow-height",
+    "datepicker-arrow-width",
+    "datepicker-border-width",
+    "datepicker-column-header-border-width",
+    "datepicker-column-header-font-family",
+    "datepicker-column-header-font-size",
+    "datepicker-column-header-font-weight",
+    "datepicker-column-header-height",
+    "datepicker-column-header-item-padding",
+    "datepicker-footer-border-width",
+    "datepicker-footer-button-spacing",
+    "datepicker-footer-padding",
+    "datepicker-header-padding",
+    "datepicker-item-border-width",
+    "datepicker-item-font-family",
+    "datepicker-item-font-size",
+    "datepicker-item-font-weight",
+    "datepicker-item-height",
+    "datepicker-item-padding",
+    "datepicker-item-selected-font-weight",
+    "datepicker-item-width",
+    "datepicker-month-button-arrow-width",
+    "datepicker-month-button-font-size",
+    "datepicker-month-button-padding",
+    "datepicker-monthpicker-border-width",
+    "datepicker-monthpicker-item-border-width",
+    "datepicker-monthpicker-item-font-family",
+    "datepicker-monthpicker-item-font-size",
+    "datepicker-monthpicker-item-font-weight",
+    "datepicker-monthpicker-item-height",
+    "datepicker-monthpicker-item-margin",
+    "datepicker-monthpicker-next-background-position",
+    "datepicker-monthpicker-next-background-position-over",
+    "datepicker-monthpicker-prev-background-position",
+    "datepicker-monthpicker-prev-background-position-over",
+    "datepicker-monthpicker-separator-border-width",
+    "datepicker-monthpicker-small-item-height",
+    "datepicker-monthpicker-small-item-margin",
+    "datepicker-monthpicker-yearnav-button-height",
+    "datepicker-monthpicker-yearnav-button-width",
+    "datepicker-next-background-position",
+    "datepicker-prev-background-position",
+    "ext-dashboard-column-padding",
+    "fieldset-border-radius",
+    "fieldset-border-width",
+    "fieldset-checkbox-margin",
+    "fieldset-collapse-tool-margin",
+    "fieldset-collapse-tool-padding",
+    "fieldset-collapse-tool-size",
+    "fieldset-header-font-family",
+    "fieldset-header-font-size",
+    "fieldset-header-font-weight",
+    "fieldset-header-line-height",
+    "fieldset-header-padding",
+    "fieldset-margin",
+    "fieldset-padding",
+    "fieldset-tool-glyph-font-size",
+    "font-family",
+    "font-icon-font-family",
+    "font-icon-font-family-regular",
+    "font-size",
+    "font-weight",
+    "font-weight-bold",
+    "form-checkbox-label-font-family",
+    "form-checkbox-label-font-size",
+    "form-checkbox-label-font-weight",
+    "form-checkbox-label-line-height",
+    "form-checkbox-label-spacing",
+    "form-checkbox-size",
+    "form-checkboxgroup-body-invalid-background-position",
+    "form-checkboxgroup-body-invalid-border-width",
+    "form-checkboxgroup-body-padding",
+    "form-display-field-focus-border-width",
+    "form-display-field-font-family",
+    "form-display-field-font-size",
+    "form-display-field-font-weight",
+    "form-display-field-line-height",
+    "form-error-icon-height",
+    "form-error-icon-side-margin",
+    "form-error-icon-width",
+    "form-error-msg-font-family",
+    "form-error-msg-font-size",
+    "form-error-msg-font-weight",
+    "form-error-msg-line-height",
+    "form-error-under-icon-spacing",
+    "form-error-under-padding",
+    "form-field-border-width",
+    "form-field-focus-border-width",
+    "form-field-font-family",
+    "form-field-font-size",
+    "form-field-font-weight",
+    "form-field-height",
+    "form-field-invalid-background-position",
+    "form-field-padding",
+    "form-item-margin-bottom",
+    "form-label-font-family",
+    "form-label-font-size",
+    "form-label-font-weight",
+    "form-label-horizontal-spacing",
+    "form-label-line-height",
+    "form-label-vertical-spacing",
+    "form-text-field-body-width",
+    "form-text-field-border-radius",
+    "form-text-field-border-width",
+    "form-text-field-font-family",
+    "form-text-field-font-size",
+    "form-text-field-font-weight",
+    "form-text-field-height",
+    "form-text-field-invalid-background-position",
+    "form-text-field-padding",
+    "form-textarea-body-height",
+    "form-textarea-line-height",
+    "form-toolbar-checkbox-label-font-family",
+    "form-toolbar-checkbox-label-font-size",
+    "form-toolbar-checkbox-label-font-weight",
+    "form-toolbar-checkbox-label-line-height",
+    "form-toolbar-checkbox-label-spacing",
+    "form-toolbar-checkbox-size",
+    "form-toolbar-display-field-focus-border-width",
+    "form-toolbar-display-field-font-family",
+    "form-toolbar-display-field-font-size",
+    "form-toolbar-display-field-font-weight",
+    "form-toolbar-display-field-line-height",
+    "form-toolbar-error-icon-height",
+    "form-toolbar-error-icon-side-margin",
+    "form-toolbar-error-icon-width",
+    "form-toolbar-error-msg-font-family",
+    "form-toolbar-error-msg-font-size",
+    "form-toolbar-error-msg-font-weight",
+    "form-toolbar-error-msg-line-height",
+    "form-toolbar-error-under-icon-spacing",
+    "form-toolbar-error-under-padding",
+    "form-toolbar-field-font-family",
+    "form-toolbar-field-font-size",
+    "form-toolbar-field-font-weight",
+    "form-toolbar-field-height",
+    "form-toolbar-label-font-family",
+    "form-toolbar-label-font-size",
+    "form-toolbar-label-font-weight",
+    "form-toolbar-label-horizontal-spacing",
+    "form-toolbar-label-line-height",
+    "form-toolbar-label-vertical-spacing",
+    "form-toolbar-tag-field-item-margin",
+    "form-toolbar-tag-field-padding",
+    "form-toolbar-text-field-body-width",
+    "form-toolbar-text-field-border-radius",
+    "form-toolbar-text-field-border-width",
+    "form-toolbar-text-field-font-family",
+    "form-toolbar-text-field-font-size",
+    "form-toolbar-text-field-font-weight",
+    "form-toolbar-text-field-height",
+    "form-toolbar-text-field-invalid-background-position",
+    "form-toolbar-text-field-padding",
+    "form-toolbar-textarea-body-height",
+    "form-toolbar-textarea-line-height",
+    "form-toolbar-trigger-border-width",
+    "form-toolbar-trigger-width",
+    "form-trigger-border-width",
+    "form-trigger-width",
+    "grid-actioncolumn-horizontal-padding",
+    "grid-actioncolumn-icon-height",
+    "grid-actioncolumn-icon-width",
+    "grid-advanced-grouped-docked-summary-border-width",
+    "grid-advanced-grouped-header-border-width",
+    "grid-advanced-grouped-header-border-width-rtl",
+    "grid-advanced-grouped-header-padding",
+    "grid-advanced-grouped-icon-padding",
+    "grid-advanced-grouped-summary-border-width",
+    "grid-advanced-grouped-title-font-family",
+    "grid-advanced-grouped-title-font-size",
+    "grid-advanced-grouped-title-font-weight",
+    "grid-advanced-grouped-title-glyph-font-size",
+    "grid-advanced-grouped-title-line-height",
+    "grid-body-border-width",
+    "grid-cell-checkbox-size",
+    "grid-cell-display-field-font-family",
+    "grid-cell-display-field-font-size",
+    "grid-cell-display-field-font-weight",
+    "grid-cell-display-field-line-height",
+    "grid-cell-field-font-family",
+    "grid-cell-field-font-size",
+    "grid-cell-field-font-weight",
+    "grid-cell-field-height",
+    "grid-cell-field-padding",
+    "grid-cell-field-trigger-border-width",
+    "grid-cell-field-trigger-width",
+    "grid-cell-inner-padding",
+    "grid-cell-special-border-width",
+    "grid-cell-tag-field-item-margin",
+    "grid-cell-tag-field-padding",
+    "grid-cell-text-field-body-width",
+    "grid-cell-text-field-border-radius",
+    "grid-cell-text-field-border-width",
+    "grid-cell-text-field-font-family",
+    "grid-cell-text-field-font-size",
+    "grid-cell-text-field-font-weight",
+    "grid-cell-text-field-height",
+    "grid-cell-text-field-invalid-background-position",
+    "grid-cell-text-field-padding",
+    "grid-cell-textarea-body-height",
+    "grid-cell-textarea-line-height",
+    "grid-col-move-icon-size",
+    "grid-column-header-border-width",
+    "grid-column-header-focus-border-width",
+    "grid-column-header-font-family",
+    "grid-column-header-font-size",
+    "grid-column-header-font-weight",
+    "grid-column-header-line-height",
+    "grid-empty-font-family",
+    "grid-empty-font-size",
+    "grid-empty-font-weight",
+    "grid-empty-padding",
+    "grid-filter-border-width",
+    "grid-filter-height",
+    "grid-filterbar-column-filtered-font-weight",
+    "grid-filters-column-filtered-font-weight",
+    "grid-group-column-border-width",
+    "grid-group-column-btn-image-padding",
+    "grid-group-column-font-family",
+    "grid-group-column-font-size",
+    "grid-group-column-font-weight",
+    "grid-group-column-line-height",
+    "grid-group-column-margin",
+    "grid-group-column-outside-margin",
+    "grid-group-column-padding",
+    "grid-group-glyph-font-size",
+    "grid-group-panel-body-border-width",
+    "grid-group-panel-header-font-family",
+    "grid-group-panel-header-font-size",
+    "grid-group-panel-header-font-weight",
+    "grid-group-panel-header-line-height",
+    "grid-group-panel-header-padding",
+    "grid-group-panel-hint-padding",
+    "grid-grouped-header-border-width",
+    "grid-grouped-header-padding",
+    "grid-grouped-icon-padding",
+    "grid-grouped-title-font-family",
+    "grid-grouped-title-font-size",
+    "grid-grouped-title-font-weight",
+    "grid-grouped-title-glyph-font-size",
+    "grid-grouped-title-line-height",
+    "grid-header-border-width",
+    "grid-header-height",
+    "grid-header-menu-glyph-font-size",
+    "grid-header-padding",
+    "grid-header-sort-glyph-font-size",
+    "grid-header-sort-icon-position",
+    "grid-header-sort-icon-spacing",
+    "grid-header-sort-icon-width",
+    "grid-header-trigger-background-position",
+    "grid-header-trigger-glyph-font-size",
+    "grid-header-trigger-height",
+    "grid-header-trigger-spacing",
+    "grid-header-trigger-width",
+    "grid-lockable-body-border-width",
+    "grid-lockable-separator-border-width",
+    "grid-paging-toolbar-glyph-font-size",
+    "grid-property-cell-background-position",
+    "grid-property-cell-before-padding",
+    "grid-row-body-font-family",
+    "grid-row-body-font-size",
+    "grid-row-body-font-weight",
+    "grid-row-body-line-height",
+    "grid-row-body-padding",
+    "grid-row-cell-border-width",
+    "grid-row-cell-focus-border-width",
+    "grid-row-cell-font-family",
+    "grid-row-cell-font-size",
+    "grid-row-cell-font-weight",
+    "grid-row-cell-line-height",
+    "grid-row-editor-border-width",
+    "grid-row-editor-button-container-border-radius",
+    "grid-row-editor-button-container-padding",
+    "grid-row-editor-button-spacing",
+    "grid-row-editor-error-tip-body-padding",
+    "grid-row-editor-error-tip-list-spacing",
+    "grid-row-editor-field-padding",
+    "grid-row-editor-field-spacing",
+    "grid-row-editor-padding",
+    "grid-row-height",
+    "grid-row-numberer-cell-padding",
+    "grid-row-numberer-cell-spacing-after",
+    "grid-row-numberer-cell-spacing-before",
+    "horizontal-slider-end-cap-width",
+    "horizontal-slider-start-cap-width",
+    "horizontal-slider-thumb-height",
+    "horizontal-slider-thumb-width",
+    "html-editor-border-width",
+    "html-editor-font-select-font-family",
+    "html-editor-font-select-font-size",
+    "html-editor-glyph-font-size",
+    "html-editor-toolbar-icon-size",
+    "include-slicer-border-radius",
+    "line-height",
+    "loadmask-border-width-focus",
+    "loadmask-msg-border-radius",
+    "loadmask-msg-border-width",
+    "loadmask-msg-inner-border-width",
+    "loadmask-msg-inner-font-family",
+    "loadmask-msg-inner-font-size",
+    "loadmask-msg-inner-font-weight",
+    "loadmask-msg-inner-icon-position",
+    "loadmask-msg-inner-padding",
+    "loadmask-msg-padding",
+    "loadmask-msg-text-padding",
+    "menu-border-width",
+    "menu-component-margin",
+    "menu-glyph-font-size",
+    "menu-item-active-border-radius",
+    "menu-item-arrow-glyph-font-size",
+    "menu-item-arrow-height",
+    "menu-item-arrow-horizontal-spacing",
+    "menu-item-arrow-margin",
+    "menu-item-arrow-width",
+    "menu-item-border-width",
+    "menu-item-checkbox-glyph-font-size",
+    "menu-item-checkbox-size",
+    "menu-item-font-family",
+    "menu-item-font-size",
+    "menu-item-font-weight",
+    "menu-item-height",
+    "menu-item-icon-background-position",
+    "menu-item-icon-horizontal-spacing",
+    "menu-item-icon-size",
+    "menu-item-icon-vertical-offset",
+    "menu-item-separator-margin",
+    "menu-item-text-horizontal-spacing",
+    "menu-item-text-vertical-offset",
+    "menu-padding",
+    "menu-scroller-border-width",
+    "menu-scroller-bottom-margin",
+    "menu-scroller-glyph-font-size",
+    "menu-scroller-height",
+    "menu-scroller-top-margin",
+    "menu-scroller-width",
+    "menu-separator-size",
+    "menubar-item-arrow-height",
+    "menubar-item-arrow-horizontal-spacing",
+    "menubar-item-arrow-vertical-offset",
+    "menubar-item-arrow-width",
+    "messagebox-body-border-width",
+    "messagebox-glyph-font-size",
+    "messagebox-icon-background-position",
+    "messagebox-icon-size",
+    "messagebox-icon-spacing",
+    "multiselector-remove-font-size",
+    "multiselector-remove-padding",
+    "operator-glyph-font-size",
+    "operator-line-height",
+    "operator-width",
+    "panel-body-border-width",
+    "panel-body-font-family",
+    "panel-body-font-size",
+    "panel-body-font-weight",
+    "panel-border-radius",
+    "panel-border-width",
+    "panel-frame-body-border-width",
+    "panel-frame-border-radius",
+    "panel-frame-border-width",
+    "panel-frame-header-border-width",
+    "panel-frame-header-inner-border-width",
+    "panel-frame-header-padding",
+    "panel-frame-padding",
+    "panel-header-border-width",
+    "panel-header-focus-outline-offset",
+    "panel-header-focus-outline-width",
+    "panel-header-font-family",
+    "panel-header-font-size",
+    "panel-header-font-weight",
+    "panel-header-icon-background-position",
+    "panel-header-icon-height",
+    "panel-header-icon-spacing",
+    "panel-header-icon-width",
+    "panel-header-inner-border-width",
+    "panel-header-line-height",
+    "panel-header-padding",
+    "panel-header-text-margin",
+    "panel-header-text-padding",
+    "panel-header-text-transform",
+    "panel-ignore-frame-padding",
+    "panel-tool-focus-outline-offset",
+    "panel-tool-focus-outline-width",
+    "panel-tool-spacing",
+    "panel-wrap-border-width",
+    "pivot-grid-config-column-border-width",
+    "pivot-grid-config-column-btn-image-padding",
+    "pivot-grid-config-column-font-family",
+    "pivot-grid-config-column-font-size",
+    "pivot-grid-config-column-font-weight",
+    "pivot-grid-config-column-line-height",
+    "pivot-grid-config-column-margin",
+    "pivot-grid-config-column-padding",
+    "pivot-grid-config-container-body-bl-border-width",
+    "pivot-grid-config-container-body-border-width",
+    "pivot-grid-config-container-body-tr-border-width",
+    "pivot-grid-config-container-header-font-family",
+    "pivot-grid-config-container-header-font-size",
+    "pivot-grid-config-container-header-font-weight",
+    "pivot-grid-config-container-header-line-height",
+    "pivot-grid-config-container-header-padding",
+    "pivot-grid-config-container-hint-padding",
+    "pivot-grid-grand-total-font-family",
+    "pivot-grid-grand-total-font-size",
+    "pivot-grid-grand-total-font-weight",
+    "pivot-grid-grand-total-line-height",
+    "pivot-grid-group-header-border-width",
+    "pivot-grid-group-header-compact-border-width",
+    "pivot-grid-group-icon-padding",
+    "pivot-grid-group-title-font-family",
+    "pivot-grid-group-title-font-size",
+    "pivot-grid-group-title-font-weight",
+    "pivot-grid-group-title-line-height",
+    "pivot-grid-group-total-font-family",
+    "pivot-grid-group-total-font-size",
+    "pivot-grid-group-total-font-weight",
+    "pivot-grid-group-total-line-height",
+    "progress-border-radius",
+    "progress-border-width",
+    "progress-focus-border-width",
+    "progress-height",
+    "progress-text-font-family",
+    "progress-text-font-size",
+    "progress-text-font-weight",
+    "resizer-handle-border-radius",
+    "resizer-handle-glyph-font-size",
+    "resizer-handle-size",
+    "row-expander-cell-padding",
+    "row-expander-cell-spacing-after",
+    "row-expander-cell-spacing-before",
+    "row-expander-glyph-font-size",
+    "row-expander-height",
+    "row-expander-width",
+    "slider-outline-width-focus",
+    "slider-thumb-border-radius",
+    "slider-thumb-border-width",
+    "slider-thumb-glyph-font-size",
+    "slider-track-border-radius",
+    "slider-track-border-width",
+    "slider-track-size",
+    "splitter-collapse-tool-border-width",
+    "splitter-collapse-tool-bottom-glyph-padding",
+    "splitter-collapse-tool-glyph-font-size",
+    "splitter-collapse-tool-left-glyph-padding",
+    "splitter-collapse-tool-right-glyph-padding",
+    "splitter-collapse-tool-top-glyph-padding",
+    "splitter-focus-outline-offset",
+    "splitter-focus-outline-width",
+    "splitter-size",
+    "spreadsheet-extender-handle-height",
+    "spreadsheet-extender-handle-width",
+    "spreadsheet-extender-mask-border-width",
+    "statusproxy-border-width",
+    "statusproxy-font-family",
+    "statusproxy-font-size",
+    "statusproxy-font-weight",
+    "statusproxy-glyph-font-size",
+    "statusproxy-icon-size",
+    "statusproxy-line-height",
+    "statusproxy-padding",
+    "tab-body-outline-width-focus",
+    "tab-border-radius",
+    "tab-border-width",
+    "tab-border-width-active",
+    "tab-border-width-disabled",
+    "tab-border-width-focus",
+    "tab-border-width-focus-active",
+    "tab-border-width-focus-over",
+    "tab-border-width-over",
+    "tab-closable-icon-height",
+    "tab-closable-icon-include-hover-background-position",
+    "tab-closable-icon-include-pressed-background-position",
+    "tab-closable-icon-spacing",
+    "tab-closable-icon-width",
+    "tab-font-family",
+    "tab-font-family-active",
+    "tab-font-family-disabled",
+    "tab-font-family-focus",
+    "tab-font-family-focus-active",
+    "tab-font-family-focus-over",
+    "tab-font-family-over",
+    "tab-font-size",
+    "tab-font-size-active",
+    "tab-font-size-disabled",
+    "tab-font-size-focus",
+    "tab-font-size-focus-active",
+    "tab-font-size-focus-over",
+    "tab-font-size-over",
+    "tab-font-weight",
+    "tab-font-weight-active",
+    "tab-font-weight-disabled",
+    "tab-font-weight-focus",
+    "tab-font-weight-focus-active",
+    "tab-font-weight-focus-over",
+    "tab-font-weight-over",
+    "tab-icon-background-position",
+    "tab-icon-height",
+    "tab-icon-spacing",
+    "tab-icon-width",
+    "tab-inner-border-width",
+    "tab-inner-border-width-active",
+    "tab-inner-border-width-disabled",
+    "tab-inner-border-width-focus",
+    "tab-inner-border-width-focus-active",
+    "tab-inner-border-width-focus-over",
+    "tab-inner-border-width-over",
+    "tab-line-height",
+    "tab-margin",
+    "tab-outline-offset-focus",
+    "tab-outline-width-focus",
+    "tab-padding",
+    "tab-text-padding",
+    "tabbar-border-width",
+    "tabbar-padding",
+    "tabbar-plain-padding",
+    "tabbar-scroller-bottom-margin",
+    "tabbar-scroller-glyph-font-size",
+    "tabbar-scroller-height",
+    "tabbar-scroller-left-margin",
+    "tabbar-scroller-right-margin",
+    "tabbar-scroller-top-margin",
+    "tabbar-scroller-width",
+    "tabbar-strip-border-width",
+    "tabbar-strip-height",
+    "tag-field-item-border-radius",
+    "tag-field-item-border-width",
+    "tag-field-item-close-icon-size",
+    "tag-field-item-close-icon-spacing",
+    "tag-field-item-height",
+    "tag-field-item-margin",
+    "tag-field-item-padding",
+    "tag-field-padding",
+    "tip-anchor-height",
+    "tip-anchor-width",
+    "tip-body-font-size",
+    "tip-body-font-weight",
+    "tip-body-padding",
+    "tip-border-radius",
+    "tip-border-width",
+    "tip-error-body-font-size",
+    "tip-error-body-font-weight",
+    "tip-error-body-padding",
+    "tip-error-border-radius",
+    "tip-error-border-width",
+    "tip-error-inner-border-width",
+    "tip-header-body-padding",
+    "tip-header-font-size",
+    "tip-header-font-weight",
+    "tip-header-padding",
+    "tip-tool-spacing",
+    "tool-focus-outline-offset",
+    "tool-focus-outline-width",
+    "tool-glyph-font-size",
+    "tool-size",
+    "toolbar-border-width",
+    "toolbar-font-size",
+    "toolbar-footer-border-width",
+    "toolbar-footer-horizontal-spacing",
+    "toolbar-footer-vertical-spacing",
+    "toolbar-horizontal-spacing",
+    "toolbar-scroller-border-width",
+    "toolbar-scroller-bottom-margin",
+    "toolbar-scroller-glyph-font-size",
+    "toolbar-scroller-height",
+    "toolbar-scroller-left-margin",
+    "toolbar-scroller-right-margin",
+    "toolbar-scroller-top-margin",
+    "toolbar-scroller-vertical-border-width",
+    "toolbar-scroller-vertical-height",
+    "toolbar-scroller-vertical-width",
+    "toolbar-scroller-width",
+    "toolbar-separator-horizontal-border-width",
+    "toolbar-separator-horizontal-height",
+    "toolbar-separator-horizontal-margin",
+    "toolbar-separator-vertical-border-width",
+    "toolbar-separator-vertical-margin",
+    "toolbar-spacer-width",
+    "toolbar-text-font-family",
+    "toolbar-text-font-size",
+    "toolbar-text-font-weight",
+    "toolbar-text-line-height",
+    "toolbar-text-padding",
+    "toolbar-vertical-spacing",
+    "tree-cell-inner-padding",
+    "tree-checkbox-spacing",
+    "tree-elbow-spacing",
+    "tree-elbow-width",
+    "tree-glyph-font-size",
+    "tree-icon-spacing",
+    "tree-icon-width",
+    "treelist-item-expander-width",
+    "treelist-item-icon-font-size",
+    "treelist-item-icon-width",
+    "treelist-item-line-height",
+    "treelist-item-text-font-size",
+    "treelist-left-padding",
+    "treelist-padding",
+    "treelist-right-padding",
+    "vertical-slider-end-cap-height",
+    "vertical-slider-start-cap-height",
+    "vertical-slider-thumb-height",
+    "vertical-slider-thumb-width",
+    "window-body-border-width",
+    "window-body-font-family",
+    "window-body-font-size",
+    "window-body-font-weight",
+    "window-border-radius",
+    "window-border-width",
+    "window-header-border-width",
+    "window-header-font-family",
+    "window-header-font-size",
+    "window-header-font-weight",
+    "window-header-icon-background-position",
+    "window-header-icon-height",
+    "window-header-icon-spacing",
+    "window-header-icon-width",
+    "window-header-inner-border-width",
+    "window-header-line-height",
+    "window-header-padding",
+    "window-header-text-padding",
+    "window-header-text-transform",
+    "window-ignore-frame-padding",
+    "window-inner-border-width",
+    "window-padding",
+    "window-tool-focus-outline-offset",
+    "window-tool-focus-outline-width",
+    "window-tool-spacing",
+    "window-use-classic-header-padding",
+    "window-wrap-border-width"
+  ],
+  "denyGlobalFlags": [
+    "base-color",
+    "color",
+    "enable-font-icons",
+    "enable-font-smoothing",
+    "enable-missing-image-warnings",
+    "font-family",
+    "font-size",
+    "image-extension",
+    "include-breadcrumb-default-ui",
+    "include-btn-group-default-framed-ui",
+    "include-btn-group-default-ui",
+    "include-button-default-large-ui",
+    "include-button-default-medium-ui",
+    "include-button-default-small-ui",
+    "include-button-default-toolbar-large-ui",
+    "include-button-default-toolbar-medium-ui",
+    "include-button-default-toolbar-small-ui",
+    "include-button-default-toolbar-ui",
+    "include-button-default-ui",
+    "include-button-grid-cell-ui",
+    "include-checkbox-default-ui",
+    "include-checkbox-grid-ui",
+    "include-checkbox-toolbar-ui",
+    "include-checkboxgroup-default-ui",
+    "include-chrome",
+    "include-default-uis",
+    "include-display-field-default-ui",
+    "include-display-field-grid-ui",
+    "include-display-field-toolbar-ui",
+    "include-ff",
+    "include-field-default-ui",
+    "include-field-toolbar-ui",
+    "include-fieldset-default-ui",
+    "include-grid-cell-field-ui",
+    "include-ie",
+    "include-label-default-ui",
+    "include-label-toolbar-ui",
+    "include-menu-default-ui",
+    "include-missing-images",
+    "include-opera",
+    "include-panel-default-framed-ui",
+    "include-panel-default-ui",
+    "include-progress-default-ui",
+    "include-rtl",
+    "include-safari",
+    "include-slicer-border-radius",
+    "include-slicer-gradient",
+    "include-spinner-trigger-default-ui",
+    "include-spinner-trigger-grid-ui",
+    "include-spinner-trigger-toolbar-ui",
+    "include-tab-default-ui",
+    "include-tabbar-default-ui",
+    "include-tag-field-default-ui",
+    "include-tag-field-grid-ui",
+    "include-tag-field-toolbar-ui",
+    "include-text-field-default-ui",
+    "include-text-field-grid-ui",
+    "include-text-field-toolbar-ui",
+    "include-tip-default-ui",
+    "include-tip-form-invalid-ui",
+    "include-toolbar-default-ui",
+    "include-toolbar-footer-ui",
+    "include-webkit",
+    "include-window-default-ui",
+    "panel-ignore-frame-padding",
+    "prefix",
+    "slider-imageless"
+  ],
+  "denyImageVariables": [
+    "accordion-tool-background-image",
+    "accordion-tool-collapse-glyph",
+    "accordion-tool-expand-glyph",
+    "accordion-tool-focus-background-image",
+    "breadcrumb-arrow-expanded-glyph",
+    "breadcrumb-arrow-glyph",
+    "breadcrumb-arrow-glyph-rtl",
+    "breadcrumb-folder-glyph",
+    "breadcrumb-folder-open-glyph",
+    "breadcrumb-leaf-glyph",
+    "btn-group-tool-background-image",
+    "button-grid-cell-arrow-glyph",
+    "button-large-arrow-glyph",
+    "button-medium-arrow-glyph",
+    "button-small-arrow-glyph",
+    "checkbox-selection-model-checked-glyph",
+    "checkbox-selection-model-glyph",
+    "datepicker-month-button-arrow-glyph",
+    "datepicker-month-button-arrow-image",
+    "datepicker-monthpicker-next-background-position",
+    "datepicker-monthpicker-next-background-position-over",
+    "datepicker-monthpicker-next-glyph",
+    "datepicker-monthpicker-prev-background-position",
+    "datepicker-monthpicker-prev-background-position-over",
+    "datepicker-monthpicker-prev-glyph",
+    "datepicker-next-background-position",
+    "datepicker-next-glyph",
+    "datepicker-prev-background-position",
+    "datepicker-prev-glyph",
+    "fieldset-collapse-tool-background-image",
+    "fieldset-tool-collapse-glyph",
+    "fieldset-tool-expand-glyph",
+    "fieldset-use-standard-tool-background-positions",
+    "form-checkbox-background-image",
+    "form-checkbox-checked-glyph",
+    "form-checkbox-glyph",
+    "form-checkboxgroup-body-invalid-background-image",
+    "form-checkboxgroup-body-invalid-background-position",
+    "form-clear-trigger-glyph",
+    "form-date-trigger-glyph",
+    "form-error-icon-background-image",
+    "form-field-background-image",
+    "form-field-invalid-background-image",
+    "form-field-invalid-background-position",
+    "form-radio-background-image",
+    "form-radio-checked-glyph",
+    "form-radio-glyph",
+    "form-search-trigger-glyph",
+    "form-text-field-background-image",
+    "form-text-field-invalid-background-image",
+    "form-text-field-invalid-background-position",
+    "form-toolbar-checkbox-background-image",
+    "form-toolbar-error-icon-background-image",
+    "form-toolbar-radio-background-image",
+    "form-toolbar-text-field-background-image",
+    "form-toolbar-text-field-invalid-background-image",
+    "form-toolbar-text-field-invalid-background-position",
+    "form-toolbar-trigger-background-image",
+    "form-toolbar-trigger-glyph",
+    "form-trigger-background-image",
+    "form-trigger-glyph",
+    "grid-advanced-grouped-menu-add-group-glyph",
+    "grid-advanced-grouped-menu-group-by-glyph",
+    "grid-advanced-grouped-menu-groups-glyph",
+    "grid-advanced-grouped-menu-remove-group-glyph",
+    "grid-advanced-grouped-title-collapse-glyph",
+    "grid-advanced-grouped-title-expand-glyph",
+    "grid-cell-checkbox-background-image",
+    "grid-cell-dirty-glyph",
+    "grid-cell-dirty-glyph-rtl",
+    "grid-cell-field-trigger-background-image",
+    "grid-cell-radio-background-image",
+    "grid-cell-spinner-trigger-down-background-image",
+    "grid-cell-spinner-trigger-up-background-image",
+    "grid-cell-spinner-trigger-vertical-background-image",
+    "grid-cell-text-field-background-image",
+    "grid-cell-text-field-invalid-background-image",
+    "grid-cell-text-field-invalid-background-position",
+    "grid-checkcolumn-checked-glyph",
+    "grid-checkcolumn-glyph",
+    "grid-filters-header-menu-equals-glyph",
+    "grid-filters-header-menu-find-glyph",
+    "grid-filters-header-menu-greater-than-glyph",
+    "grid-filters-header-menu-less-than-glyph",
+    "grid-group-column-btn-customize-glyph",
+    "grid-group-column-btn-sort-asc-glyph",
+    "grid-group-column-btn-sort-desc-glyph",
+    "grid-group-column-sort-icon-asc-glyph",
+    "grid-group-column-sort-icon-desc-glyph",
+    "grid-group-panel-clear-icon-glyph",
+    "grid-group-panel-icon-glyph",
+    "grid-grouped-menu-group-by-glyph",
+    "grid-grouped-menu-summary-glyph",
+    "grid-grouped-title-collapse-glyph",
+    "grid-grouped-title-expand-glyph",
+    "grid-header-menu-columns-glyph",
+    "grid-header-menu-sort-asc-glyph",
+    "grid-header-menu-sort-desc-glyph",
+    "grid-header-sort-asc-glyph",
+    "grid-header-sort-desc-glyph",
+    "grid-header-trigger-background-image",
+    "grid-header-trigger-background-position",
+    "grid-header-trigger-glyph",
+    "grid-lockable-header-menu-lock-glyph",
+    "grid-lockable-header-menu-unlock-glyph",
+    "grid-paging-toolbar-first-glyph",
+    "grid-paging-toolbar-last-glyph",
+    "grid-paging-toolbar-next-glyph",
+    "grid-paging-toolbar-prev-glyph",
+    "grid-paging-toolbar-refresh-glyph",
+    "grid-property-cell-background-image",
+    "grid-property-cell-background-position",
+    "horizontal-slider-thumb-glyph",
+    "html-editor-aligncenter-glyph",
+    "html-editor-alignleft-glyph",
+    "html-editor-alignright-glyph",
+    "html-editor-backcolor-glyph",
+    "html-editor-bold-glyph",
+    "html-editor-bulletlist-glyph",
+    "html-editor-forecolor-glyph",
+    "html-editor-growtext-glyph",
+    "html-editor-hyperlink-glyph",
+    "html-editor-italic-glyph",
+    "html-editor-numberedlist-glyph",
+    "html-editor-shrinktext-glyph",
+    "html-editor-sourceedit-glyph",
+    "html-editor-underline-glyph",
+    "image-extension",
+    "menu-item-arrow-glyph",
+    "menu-item-arrow-glyph-rtl",
+    "menu-item-checkbox-checked-glyph",
+    "menu-item-checkbox-glyph",
+    "menu-item-checkbox-group-checked-glyph",
+    "menu-item-checkbox-group-glyph",
+    "menu-item-icon-background-position",
+    "menu-scroller-bottom-glyph",
+    "menu-scroller-top-glyph",
+    "menubar-item-arrow-glyph",
+    "menubar-item-arrow-glyph-rtl",
+    "messagebox-error-glyph",
+    "messagebox-icon-background-position",
+    "messagebox-info-glyph",
+    "messagebox-question-glyph",
+    "messagebox-warning-glyph",
+    "operator-empty-icon-glyph",
+    "operator-eq-icon-glyph",
+    "operator-exists-icon-glyph",
+    "operator-fn-icon-glyph",
+    "operator-gt-icon-glyph",
+    "operator-gte-icon-glyph",
+    "operator-identical-icon-glyph",
+    "operator-in-icon-glyph",
+    "operator-like-icon-glyph",
+    "operator-lt-icon-glyph",
+    "operator-lte-icon-glyph",
+    "operator-neq-icon-glyph",
+    "operator-nidentical-icon-glyph",
+    "operator-nin-icon-glyph",
+    "operator-nlike-icon-glyph",
+    "panel-header-icon-background-position",
+    "panel-tool-background-image",
+    "panel-tool-focus-background-image",
+    "resizer-handle-horizontal-glyph",
+    "resizer-handle-northeast-glyph",
+    "resizer-handle-northwest-glyph",
+    "resizer-handle-southeast-glyph",
+    "resizer-handle-southwest-glyph",
+    "resizer-handle-vertical-glyph",
+    "row-expander-collapse-glyph",
+    "row-expander-expand-glyph",
+    "slicer-image-extension",
+    "spinner-toolbar-trigger-down-background-image",
+    "spinner-toolbar-trigger-down-glyph",
+    "spinner-toolbar-trigger-up-background-image",
+    "spinner-toolbar-trigger-up-glyph",
+    "spinner-toolbar-trigger-vertical-background-image",
+    "spinner-trigger-down-background-image",
+    "spinner-trigger-down-glyph",
+    "spinner-trigger-up-background-image",
+    "spinner-trigger-up-glyph",
+    "spinner-trigger-vertical-background-image",
+    "splitter-collapse-tool-bottom-glyph",
+    "splitter-collapse-tool-left-glyph",
+    "splitter-collapse-tool-right-glyph",
+    "splitter-collapse-tool-top-glyph",
+    "statusproxy-add-glyph",
+    "statusproxy-nodrop-glyph",
+    "statusproxy-ok-glyph",
+    "tab-closable-icon-glyph",
+    "tab-closable-icon-include-hover-background-position",
+    "tab-closable-icon-include-pressed-background-position",
+    "tab-icon-background-position",
+    "tabbar-menu-overflow-glyph",
+    "tabbar-scroller-bottom-glyph",
+    "tabbar-scroller-left-glyph",
+    "tabbar-scroller-right-glyph",
+    "tabbar-scroller-top-glyph",
+    "tag-field-item-close-icon-glyph",
+    "tip-tool-background-image",
+    "tool-background-image",
+    "tool-close-glyph",
+    "tool-collapse-bottom-glyph",
+    "tool-collapse-glyph",
+    "tool-collapse-left-glyph",
+    "tool-collapse-right-glyph",
+    "tool-collapse-top-glyph",
+    "tool-down-glyph",
+    "tool-expand-bottom-glyph",
+    "tool-expand-glyph",
+    "tool-expand-left-glyph",
+    "tool-expand-right-glyph",
+    "tool-expand-top-glyph",
+    "tool-gear-glyph",
+    "tool-help-glyph",
+    "tool-left-glyph",
+    "tool-maximize-glyph",
+    "tool-minimize-glyph",
+    "tool-minus-glyph",
+    "tool-move-glyph",
+    "tool-next-glyph",
+    "tool-pin-glyph",
+    "tool-plus-glyph",
+    "tool-prev-glyph",
+    "tool-print-glyph",
+    "tool-refresh-glyph",
+    "tool-resize-glyph",
+    "tool-restore-glyph",
+    "tool-right-glyph",
+    "tool-save-glyph",
+    "tool-search-glyph",
+    "tool-toggle-down-glyph",
+    "tool-toggle-up-glyph",
+    "tool-unpin-glyph",
+    "tool-up-glyph",
+    "toolbar-menu-overflow-glyph",
+    "toolbar-scroller-bottom-glyph",
+    "toolbar-scroller-left-glyph",
+    "toolbar-scroller-right-glyph",
+    "toolbar-scroller-top-glyph",
+    "toolbar-tool-background-image",
+    "tree-arrow-expanded-glyph",
+    "tree-arrow-glyph",
+    "tree-arrow-glyph-rtl",
+    "tree-checkbox-checked-glyph",
+    "tree-checkbox-glyph",
+    "tree-collapse-glyph",
+    "tree-expand-glyph",
+    "tree-folder-glyph",
+    "tree-folder-open-glyph",
+    "tree-leaf-glyph",
+    "tree-statusproxy-ok-glyph",
+    "treelist-item-expander-expanded-glyph",
+    "treelist-item-expander-glyph",
+    "vertical-slider-thumb-glyph",
+    "window-header-icon-background-position",
+    "window-tool-background-image"
+  ],
+  "reviewRequiredGradients": [
+    "button-default-background-gradient",
+    "button-default-background-gradient-disabled",
+    "button-default-background-gradient-focus",
+    "button-default-background-gradient-focus-over",
+    "button-default-background-gradient-focus-pressed",
+    "button-default-background-gradient-over",
+    "button-default-background-gradient-pressed",
+    "datepicker-column-header-background-gradient",
+    "datepicker-footer-background-gradient",
+    "datepicker-header-background-gradient",
+    "grid-header-background-gradient",
+    "grid-header-over-background-gradient",
+    "grid-header-sorted-background-gradient",
+    "loadmask-msg-background-gradient",
+    "menu-item-background-gradient",
+    "panel-header-background-gradient",
+    "progress-bar-background-gradient",
+    "tab-background-gradient",
+    "tab-background-gradient-active",
+    "tab-background-gradient-disabled",
+    "tab-background-gradient-focus",
+    "tab-background-gradient-focus-active",
+    "tab-background-gradient-focus-over",
+    "tab-background-gradient-over",
+    "toolbar-background-gradient"
+  ],
+  "iconPolicy": "config/nordic-blue-icons.json",
+  "allowedReviewedScss": {},
+  "notes": [
+    "Only dynamic(token/literal) assignments at exact Ext namespace paths. No selectors, imports, functions or UI mixins in theme SCSS yet.",
+    "The 50 TASK-002 color hooks plus button hover border and field placeholder color consume all 15 tokens.",
+    "Gradients, state completeness, frames and component visual acceptance remain TASK-009..012; images remain TASK-013.",
+    "Cmd 7.7 does not automatically include package sass/var/all.scss: explicit first entry in sencha.sass.var is required for app and slicer compilations."
+  ]
+}

@@ -1,0 +1,17 @@
+# Capture protocol — Classic baseline v1
+
+1. SDK 7.7.0.31, installed full prebuilt Classic CSS via TestApp/theme-lab read-only server. Fixture/source hashes must match input-hashes.json; no Nordic artwork/CSS applied.
+2. Edge version and Windows/font files are recorded in environment.json. Launch **--disable-gpu --force-color-profile=srgb**; use the same flags for later Nordic comparisons. Initial default GPU captures differed by 1 RGB level on gradients in five DPR2 cases despite equal metrics; rejected evidence is in diagnostics/gpu-raster. No tolerance was increased.
+3. Context 1280×1600, DPR1 then DPR2, en-US, Europe/Minsk, light, reducedMotion reduce, zoom100%. Date constructor fixed by lab; scheduler Date.now stays monotonic. All 101 states plus overview from expected-counts.json; no empty group PASS.
+4. True hover/mousedown/pointerdown through browser input using pendingActions. Await lab.whenReady (Ext/data/editor/fonts/layout/three stable frames). Focus/selection/open/collapse use the same fixture's APIs/configs.
+5. Before loading resources, route only the seven GIFs in frozen-resources.json to the PNG of first composited original frame, with the same dimensions and URL. No CSS mutation, offset/size change or pixel editing. Retain original hashes and derived hashes. For later Nordic snapshots derive frame0 from the actual approved Nordic GIF; never reuse Classic frame0 to conceal new artwork. Collector routing is restricted to the Classic SDK URL prefix. live-animated/ has unmodified animated captures and is not part of exact pixel gating.
+6. Extract fixture semantic roots, explicit component child refs, record/dataIndex cells, dateValue calendar cells, named editor actions, uniquely owned CSS/image roles. No matching by generated Ext IDs or ambiguous DOM ordinals. Pseudo-element rect is null, hostRect/CSS box are recorded honestly. Frame content coordinates are marked editor-iframe.
+7. Raw screenshots animations=disabled, caret=hide, scale=device; overview fullPage, every individual state viewport. Compare pre/post screenshot metrics to reject movement.
+8. Independent repeat session for each DPR. All recorded elements, typography/box/paint, icon URL/box/offsets, data/stores/active semantic element/scroll and screenshots must match exactly, zero pixel difference. Expected counts are explicit per state/DPR.
+9. Keep immutable baseline manifest/checksums. Never regenerate accepted baseline to make a future Nordic regression pass. For deliberate refresh use a new version folder, repeat captures and review reasons.
+
+## Reproduce in a separate copy
+
+Copy only scripts, extractor and frozen-resource inputs into a fresh directory without captures/; preserve the accepted folder. Start TestApp/theme-lab/serve.cjs and set NORDIC_LAB_URL to its printed /theme-lab/ URL. Python prep requires Pillow; browser collector uses local Playwright and Edge. NORDIC_CPU_RASTER=1 is mandatory for this adopted baseline. Execute capture.cjs 1 1, 1 2, 2 1, 2 2, then compare_task006.py. The capture script rejects an existing full capture index; do not use the override on an accepted baseline. All input hashes are checked before adoption. Fonts are hashed, not redistributed.
+
+TASK-006 provides Classic baseline only. Actual Nordic build, full functional suite, normalized structural comparison and Nordic golden remain later tasks. Classic animated timing is preserved as live evidence; only snapshot phase is controlled for repeatability.

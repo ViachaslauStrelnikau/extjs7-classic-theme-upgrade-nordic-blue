@@ -1,0 +1,99 @@
+{
+  "completionDate": "2026-10-24",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "java": "1.8.0_501",
+  "buildCommand": "sencha.exe -cwd=D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/theme-lab app build lab-nordic testing",
+  "buildLogs": [
+    "build-phase-a.log",
+    "build-pruned.log",
+    "build-flat.log",
+    "build-final.log"
+  ],
+  "buildExitCodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "lintCommand": "python tools/lint-nordic-blue.py --check-icon-candidates",
+  "lintExitCode": 0,
+  "captureCommands": [
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 1 1",
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 2 1"
+  ],
+  "captureExitCodes": [
+    0,
+    0
+  ],
+  "actionCommands": [
+    "modern-node secondary-review.cjs 1",
+    "modern-node secondary-review.cjs 2"
+  ],
+  "actionExitCodes": [
+    0,
+    0
+  ],
+  "compilerCommand": "bundled-node fashion.js compile artifacts/nordic-blue/TASK-012/compiler-probe/input.scss C-staging/output/task012/consumption-probe.css",
+  "compilerExitCode": 0,
+  "newHooks": [
+    "tab-base-color-focus",
+    "tab-base-color-over",
+    "tab-base-color-focus-over",
+    "tab-base-color-focus-active",
+    "tab-base-color-disabled",
+    "tab-body-outline-color-focus",
+    "tabbar-base-color",
+    "tabbar-border-color",
+    "tabbar-strip-border-color",
+    "tabbar-strip-background-color",
+    "menu-separator-border-color",
+    "menu-separator-background-color",
+    "datepicker-border-color",
+    "datepicker-item-color",
+    "datepicker-item-hover-background-color",
+    "datepicker-item-selected-color",
+    "datepicker-item-selected-border-color",
+    "datepicker-item-today-border-color",
+    "datepicker-item-prev-next-color",
+    "datepicker-item-disabled-color",
+    "datepicker-item-disabled-background-color",
+    "datepicker-column-header-background-color",
+    "datepicker-column-header-color",
+    "datepicker-column-header-border-color",
+    "datepicker-footer-background-color",
+    "datepicker-footer-border-color",
+    "datepicker-monthpicker-item-color",
+    "datepicker-monthpicker-separator-border-color",
+    "progress-focus-border-color",
+    "progress-text-front-color",
+    "progress-text-back-color",
+    "loadmask-background-color",
+    "loadmask-page-background-color",
+    "loadmask-border-color-focus",
+    "loadmask-msg-inner-border-color",
+    "tab-color-focus",
+    "tab-border-color-focus",
+    "tab-color-over",
+    "tab-border-color-over",
+    "tab-color-active",
+    "tab-border-color-active",
+    "tab-color-focus-over",
+    "tab-border-color-focus-over",
+    "tab-color-focus-active",
+    "tab-border-color-focus-active",
+    "tab-color-disabled",
+    "tab-border-color-disabled"
+  ],
+  "changedThemeFiles": [
+    "TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Bar.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss"
+  ],
+  "policyControls": 39,
+  "browser": "155.0.4283.62"
+}

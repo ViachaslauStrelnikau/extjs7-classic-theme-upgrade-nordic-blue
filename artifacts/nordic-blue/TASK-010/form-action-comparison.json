@@ -1,0 +1,345 @@
+{
+  "status": "PASS",
+  "pairs": 48,
+  "actions": 96,
+  "elementComparisons": 2490,
+  "results": [
+    {
+      "dpr": 1,
+      "action": "text-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "textarea-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "date-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "time-picker-selection",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "number-keyboard-up",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "number-keyboard-down",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "number-max-bound",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "required-invalid",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "readonly-blocks-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "disabled-input-state",
+      "elements": 55,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "combo-open",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "combo-keyboard-selection",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "spinner-mouse-up",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "spinner-mouse-down",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "clear-trigger",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "date-picker-next-select",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "checkbox-space-on",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "checkbox-space-off",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "radio-arrow-selection",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "checkbox-disabled-state",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "fieldset-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "fieldset-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "fieldset-checkbox-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "fieldset-checkbox-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "text-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "textarea-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "date-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "time-picker-selection",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "number-keyboard-up",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "number-keyboard-down",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "number-max-bound",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "required-invalid",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "readonly-blocks-input",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "disabled-input-state",
+      "elements": 55,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "combo-open",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "combo-keyboard-selection",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "spinner-mouse-up",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "spinner-mouse-down",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "clear-trigger",
+      "elements": 47,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "date-picker-next-select",
+      "elements": 51,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "checkbox-space-on",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "checkbox-space-off",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "radio-arrow-selection",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "checkbox-disabled-state",
+      "elements": 31,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "fieldset-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "fieldset-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "fieldset-checkbox-expand",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "fieldset-checkbox-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "policy": "Same unchanged fixture, genuine keyboard/mouse input, identical component state/value/validity and exact normalized metrics, fonts, image sizes/offsets, client/scroll. Only reviewed paint colors/gradient layers excluded as in full geometry comparison."
+}

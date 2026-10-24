@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "protectedApplicationInputs": 18,
+  "sdkSassFiles": 300,
+  "baselineInputs": 1474,
+  "changesComparedWithTask006": [
+    "AGENTS.md",
+    "TestApp/theme-lab/build-profiles.json",
+    "TestApp/theme-lab/README.md"
+  ],
+  "note": "Only documented TASK-007 instructions/profile/readme differences pre-exist. No additional baseline inputs changed during TASK-008; source SDK and original TestApp config/code/common fixture are intact."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "sdkSassFiles": 300,
+  "originalApplicationInputs": 18,
+  "baselineInputsCompared": 1474,
+  "baselineDifferences": [
+    "AGENTS.md",
+    "TestApp/theme-lab/build-profiles.json",
+    "TestApp/theme-lab/README.md"
+  ],
+  "approvedBitmapFiles": 648,
+  "buildModesVerified": 3,
+  "overridesFiles": 0,
+  "note": "SDK/application/common fixture unchanged; immutable approved manifest, masters/candidates and approval hashes preserved. Source resources now intentionally contain the 648 approved runtime files."
+}

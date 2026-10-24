@@ -1,0 +1,471 @@
+{
+  "status": "PASS",
+  "dpr": 2,
+  "browser": "155.0.4283.62",
+  "records": [
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "tabs-mouse-select",
+      "path": "secondary-actions\\dpr-2\\classic\\tabs-mouse-select.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\tabs-mouse-select.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "tabs-disabled-ignored",
+      "path": "secondary-actions\\dpr-2\\classic\\tabs-disabled-ignored.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\tabs-disabled-ignored.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "tabs-keyboard-select",
+      "path": "secondary-actions\\dpr-2\\classic\\tabs-keyboard-select.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\tabs-keyboard-select.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "tabs-close-active",
+      "path": "secondary-actions\\dpr-2\\classic\\tabs-close-active.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\tabs-close-active.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "tabs-overflow-scroll",
+      "path": "secondary-actions\\dpr-2\\classic\\tabs-overflow-scroll.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\tabs-overflow-scroll.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "menu-checkbox-off",
+      "path": "secondary-actions\\dpr-2\\classic\\menu-checkbox-off.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\menu-checkbox-off.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "menu-checkbox-on",
+      "path": "secondary-actions\\dpr-2\\classic\\menu-checkbox-on.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\menu-checkbox-on.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "menu-mouse-submenu",
+      "path": "secondary-actions\\dpr-2\\classic\\menu-mouse-submenu.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\menu-mouse-submenu.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "menu-keyboard-submenu",
+      "path": "secondary-actions\\dpr-2\\classic\\menu-keyboard-submenu.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\menu-keyboard-submenu.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "menu-keyboard-return",
+      "path": "secondary-actions\\dpr-2\\classic\\menu-keyboard-return.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\menu-keyboard-return.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "menu-disabled-state",
+      "path": "secondary-actions\\dpr-2\\classic\\menu-disabled-state.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\menu-disabled-state.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "datepicker-next-month",
+      "path": "secondary-actions\\dpr-2\\classic\\datepicker-next-month.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\datepicker-next-month.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "datepicker-prev-month",
+      "path": "secondary-actions\\dpr-2\\classic\\datepicker-prev-month.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\datepicker-prev-month.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "datepicker-day-select",
+      "path": "secondary-actions\\dpr-2\\classic\\datepicker-day-select.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\datepicker-day-select.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "datepicker-keyboard-day",
+      "path": "secondary-actions\\dpr-2\\classic\\datepicker-keyboard-day.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\datepicker-keyboard-day.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "datepicker-today",
+      "path": "secondary-actions\\dpr-2\\classic\\datepicker-today.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\datepicker-today.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "progress-full",
+      "path": "secondary-actions\\dpr-2\\classic\\progress-full.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\progress-full.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "progress-empty",
+      "path": "secondary-actions\\dpr-2\\classic\\progress-empty.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\progress-empty.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "progress-partial",
+      "path": "secondary-actions\\dpr-2\\classic\\progress-partial.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\progress-partial.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-horizontal-keyboard",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-horizontal-keyboard.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-horizontal-keyboard.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-horizontal-max",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-horizontal-max.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-horizontal-max.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-horizontal-min",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-horizontal-min.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-horizontal-min.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-vertical-keyboard",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-vertical-keyboard.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-vertical-keyboard.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-horizontal-drag",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-horizontal-drag.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-horizontal-drag.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-vertical-drag",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-vertical-drag.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-vertical-drag.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "slider-disabled-ignored",
+      "path": "secondary-actions\\dpr-2\\classic\\slider-disabled-ignored.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\slider-disabled-ignored.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "mask-visible",
+      "path": "secondary-actions\\dpr-2\\classic\\mask-visible.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\mask-visible.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "mask-hide",
+      "path": "secondary-actions\\dpr-2\\classic\\mask-hide.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\mask-hide.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "mask-show",
+      "path": "secondary-actions\\dpr-2\\classic\\mask-show.json",
+      "screenshot": "secondary-actions\\dpr-2\\classic\\mask-show.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "tabs-mouse-select",
+      "path": "secondary-actions\\dpr-2\\nordic\\tabs-mouse-select.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\tabs-mouse-select.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "tabs-disabled-ignored",
+      "path": "secondary-actions\\dpr-2\\nordic\\tabs-disabled-ignored.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\tabs-disabled-ignored.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "tabs-keyboard-select",
+      "path": "secondary-actions\\dpr-2\\nordic\\tabs-keyboard-select.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\tabs-keyboard-select.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "tabs-close-active",
+      "path": "secondary-actions\\dpr-2\\nordic\\tabs-close-active.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\tabs-close-active.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "tabs-overflow-scroll",
+      "path": "secondary-actions\\dpr-2\\nordic\\tabs-overflow-scroll.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\tabs-overflow-scroll.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "menu-checkbox-off",
+      "path": "secondary-actions\\dpr-2\\nordic\\menu-checkbox-off.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\menu-checkbox-off.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "menu-checkbox-on",
+      "path": "secondary-actions\\dpr-2\\nordic\\menu-checkbox-on.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\menu-checkbox-on.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "menu-mouse-submenu",
+      "path": "secondary-actions\\dpr-2\\nordic\\menu-mouse-submenu.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\menu-mouse-submenu.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "menu-keyboard-submenu",
+      "path": "secondary-actions\\dpr-2\\nordic\\menu-keyboard-submenu.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\menu-keyboard-submenu.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "menu-keyboard-return",
+      "path": "secondary-actions\\dpr-2\\nordic\\menu-keyboard-return.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\menu-keyboard-return.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "menu-disabled-state",
+      "path": "secondary-actions\\dpr-2\\nordic\\menu-disabled-state.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\menu-disabled-state.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "datepicker-next-month",
+      "path": "secondary-actions\\dpr-2\\nordic\\datepicker-next-month.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\datepicker-next-month.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "datepicker-prev-month",
+      "path": "secondary-actions\\dpr-2\\nordic\\datepicker-prev-month.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\datepicker-prev-month.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "datepicker-day-select",
+      "path": "secondary-actions\\dpr-2\\nordic\\datepicker-day-select.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\datepicker-day-select.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "datepicker-keyboard-day",
+      "path": "secondary-actions\\dpr-2\\nordic\\datepicker-keyboard-day.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\datepicker-keyboard-day.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "datepicker-today",
+      "path": "secondary-actions\\dpr-2\\nordic\\datepicker-today.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\datepicker-today.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "progress-full",
+      "path": "secondary-actions\\dpr-2\\nordic\\progress-full.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\progress-full.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "progress-empty",
+      "path": "secondary-actions\\dpr-2\\nordic\\progress-empty.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\progress-empty.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "progress-partial",
+      "path": "secondary-actions\\dpr-2\\nordic\\progress-partial.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\progress-partial.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-horizontal-keyboard",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-keyboard.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-keyboard.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-horizontal-max",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-max.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-max.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-horizontal-min",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-min.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-min.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-vertical-keyboard",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-vertical-keyboard.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-vertical-keyboard.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-horizontal-drag",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-drag.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-horizontal-drag.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-vertical-drag",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-vertical-drag.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-vertical-drag.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "slider-disabled-ignored",
+      "path": "secondary-actions\\dpr-2\\nordic\\slider-disabled-ignored.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\slider-disabled-ignored.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "mask-visible",
+      "path": "secondary-actions\\dpr-2\\nordic\\mask-visible.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\mask-visible.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "mask-hide",
+      "path": "secondary-actions\\dpr-2\\nordic\\mask-hide.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\mask-hide.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "mask-show",
+      "path": "secondary-actions\\dpr-2\\nordic\\mask-show.json",
+      "screenshot": "secondary-actions\\dpr-2\\nordic\\mask-show.png",
+      "passed": true
+    }
+  ]
+}

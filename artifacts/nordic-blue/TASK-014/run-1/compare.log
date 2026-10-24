@@ -1,0 +1,1 @@
+{"status": "PASS", "coveragePairs": 204, "actionAndStatePairs": 236, "coreAdditionalActions": 20, "elementComparisons": 21614, "iconComparisons": 3246, "imageContractObservations": 5400, "adapterChecks": 12}

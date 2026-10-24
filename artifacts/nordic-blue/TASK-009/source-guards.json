@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "sdkSassFiles": 300,
+  "originalApplicationInputs": 18,
+  "baselineInputsCompared": 1474,
+  "baselineDifferences": [
+    "AGENTS.md",
+    "TestApp/theme-lab/build-profiles.json",
+    "TestApp/theme-lab/README.md"
+  ],
+  "note": "Only existing project instruction/readme/profile changes; SDK, application sources/config and common fixture unchanged. Source overrides/images empty."
+}

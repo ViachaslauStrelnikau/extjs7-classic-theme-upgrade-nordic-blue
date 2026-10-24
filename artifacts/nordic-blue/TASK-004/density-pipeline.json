@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "browser": "155.0.4283.62",
+  "compiler": "Fashion shipped with Cmd 7.7.0.36; bundled Node executable; compile exit 0. SCSS standard min-resolution query and background-size passed through.",
+  "runs": [
+    {
+      "dpr": 1,
+      "sheets": 182,
+      "errors": [],
+      "bad": []
+    },
+    {
+      "dpr": 2,
+      "sheets": 182,
+      "errors": [],
+      "bad": []
+    }
+  ],
+  "scope": "All candidate sheets loaded through compiled CSS, real automatic min-resolution selection; same CSS canvas dimensions. Separate real Ext component geometry is in density-validation.json. App/package builds with these assets remain TASK-013/016 after approval."
+}

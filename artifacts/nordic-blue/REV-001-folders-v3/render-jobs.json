@@ -1,0 +1,30 @@
+[
+  {
+    "name": "folder",
+    "source": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\masters\\folder.svg",
+    "target": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\rendered\\folder",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "name": "folder-open",
+    "source": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\masters\\folder-open.svg",
+    "target": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\rendered\\folder-open",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "name": "folder-rtl",
+    "source": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\masters\\folder-rtl.svg",
+    "target": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\rendered\\folder-rtl",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "name": "folder-open-rtl",
+    "source": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\masters\\folder-open-rtl.svg",
+    "target": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\folders-v3\\rendered\\folder-open-rtl",
+    "width": 16,
+    "height": 16
+  }
+]

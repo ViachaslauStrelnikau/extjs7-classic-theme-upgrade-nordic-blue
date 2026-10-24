@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "changedRuntimeFiles": [
+    "images/tree/folder-open-rtl.gif",
+    "images/tree/folder-open-rtl.png",
+    "images/@2x/tree/folder-open-rtl.gif",
+    "images/@2x/tree/folder-open-rtl.png",
+    "images/tree/folder-open.gif",
+    "images/tree/folder-open.png",
+    "images/@2x/tree/folder-open.gif",
+    "images/@2x/tree/folder-open.png",
+    "images/tree/folder-rtl.gif",
+    "images/tree/folder-rtl.png",
+    "images/@2x/tree/folder-rtl.gif",
+    "images/@2x/tree/folder-rtl.png"
+  ],
+  "unchangedRuntimeFiles": 636,
+  "changedMasterIds": [
+    "raster/tree/folder-open-rtl.gif",
+    "raster/tree/folder-open.gif",
+    "raster/tree/folder-rtl.gif"
+  ],
+  "ordinaryFolderUnchanged": true,
+  "sameCssSheetDimensions": true,
+  "styleBytesUnchanged": true,
+  "approvedFilesPerBuildMode": 648,
+  "buildModes": 3,
+  "originalApplicationInputs": 18,
+  "sdkSassFiles": 300,
+  "lintSourceRootControls": {
+    "legacyV2Compatible": true,
+    "activeV3Canonical": true,
+    "unapprovedSourceRootRejected": true
+  },
+  "approvalSha256": "0fc43cc52ed88d44bc3d96d2eda018b5b0c0a281e67365ae9f5928f5680c48cf",
+  "manifestSha256": "05c0e2901c84f6d26c6dc9dccc90024ac9962565da3fe1b78d3f88a502a9aa73"
+}

@@ -1,0 +1,1378 @@
+{
+  "cases": {
+    "all": [
+      "normal"
+    ],
+    "panel": [
+      "normal",
+      "framed",
+      "collapsed",
+      "disabled",
+      "hover",
+      "focus"
+    ],
+    "window": [
+      "normal",
+      "focus",
+      "modal",
+      "moved",
+      "resized"
+    ],
+    "button": [
+      "normal",
+      "hover",
+      "focus",
+      "pressed",
+      "disabled",
+      "open"
+    ],
+    "toolbar": [
+      "normal",
+      "overflow",
+      "open",
+      "disabled"
+    ],
+    "form": [
+      "normal",
+      "invalid",
+      "readonly",
+      "disabled",
+      "focus"
+    ],
+    "triggers": [
+      "normal",
+      "hover",
+      "focus",
+      "pressed",
+      "disabled",
+      "open"
+    ],
+    "checks": [
+      "normal",
+      "checked",
+      "unchecked",
+      "disabled",
+      "focus"
+    ],
+    "fieldset": [
+      "normal",
+      "collapsed",
+      "checked",
+      "disabled"
+    ],
+    "editor": [
+      "normal",
+      "focus",
+      "readonly",
+      "disabled"
+    ],
+    "grid": [
+      "normal",
+      "hover",
+      "selected",
+      "focus",
+      "sort-asc",
+      "sort-desc",
+      "menu",
+      "resized",
+      "disabled"
+    ],
+    "paging": [
+      "normal",
+      "first",
+      "middle",
+      "last",
+      "disabled"
+    ],
+    "border": [
+      "normal",
+      "collapsed",
+      "expanded"
+    ],
+    "tabs": [
+      "normal",
+      "hover",
+      "selected",
+      "focus",
+      "overflow"
+    ],
+    "tree": [
+      "normal",
+      "collapsed",
+      "expanded",
+      "selected",
+      "focus",
+      "disabled"
+    ],
+    "datepicker": [
+      "normal",
+      "selected",
+      "prev",
+      "next",
+      "focus",
+      "disabled"
+    ],
+    "progress": [
+      "normal",
+      "partial",
+      "full"
+    ],
+    "slider": [
+      "normal",
+      "hover",
+      "focus",
+      "selected",
+      "disabled"
+    ],
+    "menu": [
+      "normal",
+      "open",
+      "checked",
+      "unchecked",
+      "focus",
+      "disabled"
+    ],
+    "tool": [
+      "normal",
+      "hover",
+      "focus",
+      "pressed",
+      "disabled"
+    ],
+    "mask": [
+      "normal",
+      "loading",
+      "hidden"
+    ]
+  },
+  "counts": {
+    "1": {
+      "all/normal": {
+        "elementCount": 841,
+        "visibleElementCount": 736,
+        "fixtureSemanticCount": 302,
+        "iconCount": 147
+      },
+      "panel/normal": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/framed": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/collapsed": {
+        "elementCount": 13,
+        "visibleElementCount": 7,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/disabled": {
+        "elementCount": 17,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 7,
+        "iconCount": 3
+      },
+      "panel/hover": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/focus": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "window/normal": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/focus": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/modal": {
+        "elementCount": 16,
+        "visibleElementCount": 14,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/moved": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/resized": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "button/normal": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/hover": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/focus": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/pressed": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/disabled": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/open": {
+        "elementCount": 27,
+        "visibleElementCount": 21,
+        "fixtureSemanticCount": 16,
+        "iconCount": 4
+      },
+      "toolbar/normal": {
+        "elementCount": 54,
+        "visibleElementCount": 41,
+        "fixtureSemanticCount": 31,
+        "iconCount": 1
+      },
+      "toolbar/overflow": {
+        "elementCount": 54,
+        "visibleElementCount": 23,
+        "fixtureSemanticCount": 31,
+        "iconCount": 1
+      },
+      "toolbar/open": {
+        "elementCount": 67,
+        "visibleElementCount": 34,
+        "fixtureSemanticCount": 31,
+        "iconCount": 3
+      },
+      "toolbar/disabled": {
+        "elementCount": 58,
+        "visibleElementCount": 24,
+        "fixtureSemanticCount": 31,
+        "iconCount": 2
+      },
+      "form/normal": {
+        "elementCount": 51,
+        "visibleElementCount": 51,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "form/invalid": {
+        "elementCount": 51,
+        "visibleElementCount": 51,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "form/readonly": {
+        "elementCount": 51,
+        "visibleElementCount": 45,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "form/disabled": {
+        "elementCount": 55,
+        "visibleElementCount": 52,
+        "fixtureSemanticCount": 26,
+        "iconCount": 13
+      },
+      "form/focus": {
+        "elementCount": 51,
+        "visibleElementCount": 51,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "triggers/normal": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 21,
+        "iconCount": 12
+      },
+      "triggers/hover": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 22,
+        "iconCount": 12
+      },
+      "triggers/focus": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 21,
+        "iconCount": 12
+      },
+      "triggers/pressed": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 22,
+        "iconCount": 12
+      },
+      "triggers/disabled": {
+        "elementCount": 47,
+        "visibleElementCount": 44,
+        "fixtureSemanticCount": 21,
+        "iconCount": 13
+      },
+      "triggers/open": {
+        "elementCount": 47,
+        "visibleElementCount": 47,
+        "fixtureSemanticCount": 21,
+        "iconCount": 12
+      },
+      "checks/normal": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "checks/checked": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "checks/unchecked": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "checks/disabled": {
+        "elementCount": 35,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 11,
+        "iconCount": 6
+      },
+      "checks/focus": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "fieldset/normal": {
+        "elementCount": 19,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 4
+      },
+      "fieldset/collapsed": {
+        "elementCount": 19,
+        "visibleElementCount": 5,
+        "fixtureSemanticCount": 9,
+        "iconCount": 4
+      },
+      "fieldset/checked": {
+        "elementCount": 19,
+        "visibleElementCount": 17,
+        "fixtureSemanticCount": 9,
+        "iconCount": 4
+      },
+      "fieldset/disabled": {
+        "elementCount": 23,
+        "visibleElementCount": 14,
+        "fixtureSemanticCount": 9,
+        "iconCount": 5
+      },
+      "editor/normal": {
+        "elementCount": 76,
+        "visibleElementCount": 56,
+        "fixtureSemanticCount": 3,
+        "iconCount": 17
+      },
+      "editor/focus": {
+        "elementCount": 76,
+        "visibleElementCount": 56,
+        "fixtureSemanticCount": 3,
+        "iconCount": 17
+      },
+      "editor/readonly": {
+        "elementCount": 80,
+        "visibleElementCount": 57,
+        "fixtureSemanticCount": 3,
+        "iconCount": 18
+      },
+      "editor/disabled": {
+        "elementCount": 80,
+        "visibleElementCount": 57,
+        "fixtureSemanticCount": 3,
+        "iconCount": 18
+      },
+      "grid/normal": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/hover": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/selected": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/focus": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/sort-asc": {
+        "elementCount": 101,
+        "visibleElementCount": 97,
+        "fixtureSemanticCount": 23,
+        "iconCount": 9
+      },
+      "grid/sort-desc": {
+        "elementCount": 101,
+        "visibleElementCount": 97,
+        "fixtureSemanticCount": 23,
+        "iconCount": 9
+      },
+      "grid/menu": {
+        "elementCount": 114,
+        "visibleElementCount": 109,
+        "fixtureSemanticCount": 23,
+        "iconCount": 15
+      },
+      "grid/resized": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/disabled": {
+        "elementCount": 104,
+        "visibleElementCount": 97,
+        "fixtureSemanticCount": 23,
+        "iconCount": 9
+      },
+      "paging/normal": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/first": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/middle": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/last": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/disabled": {
+        "elementCount": 90,
+        "visibleElementCount": 75,
+        "fixtureSemanticCount": 34,
+        "iconCount": 10
+      },
+      "border/normal": {
+        "elementCount": 35,
+        "visibleElementCount": 35,
+        "fixtureSemanticCount": 17,
+        "iconCount": 8
+      },
+      "border/collapsed": {
+        "elementCount": 36,
+        "visibleElementCount": 30,
+        "fixtureSemanticCount": 17,
+        "iconCount": 9
+      },
+      "border/expanded": {
+        "elementCount": 35,
+        "visibleElementCount": 35,
+        "fixtureSemanticCount": 17,
+        "iconCount": 8
+      },
+      "tabs/normal": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/hover": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/selected": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/focus": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/overflow": {
+        "elementCount": 56,
+        "visibleElementCount": 48,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tree/normal": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/collapsed": {
+        "elementCount": 19,
+        "visibleElementCount": 16,
+        "fixtureSemanticCount": 6,
+        "iconCount": 4
+      },
+      "tree/expanded": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/selected": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/focus": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/disabled": {
+        "elementCount": 33,
+        "visibleElementCount": 27,
+        "fixtureSemanticCount": 8,
+        "iconCount": 7
+      },
+      "datepicker/normal": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/selected": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/prev": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/next": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/focus": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/disabled": {
+        "elementCount": 100,
+        "visibleElementCount": 95,
+        "fixtureSemanticCount": 5,
+        "iconCount": 4
+      },
+      "progress/normal": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 2,
+        "iconCount": 0
+      },
+      "progress/partial": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 2,
+        "iconCount": 0
+      },
+      "progress/full": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 2,
+        "iconCount": 0
+      },
+      "slider/normal": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 5,
+        "iconCount": 8
+      },
+      "slider/hover": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 6,
+        "iconCount": 8
+      },
+      "slider/focus": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 5,
+        "iconCount": 8
+      },
+      "slider/selected": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 5,
+        "iconCount": 8
+      },
+      "slider/disabled": {
+        "elementCount": 21,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 5,
+        "iconCount": 9
+      },
+      "menu/normal": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/open": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/checked": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/unchecked": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/focus": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/disabled": {
+        "elementCount": 24,
+        "visibleElementCount": 19,
+        "fixtureSemanticCount": 13,
+        "iconCount": 7
+      },
+      "tool/normal": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/hover": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/focus": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/pressed": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/disabled": {
+        "elementCount": 198,
+        "visibleElementCount": 99,
+        "fixtureSemanticCount": 33,
+        "iconCount": 66
+      },
+      "mask/normal": {
+        "elementCount": 8,
+        "visibleElementCount": 8,
+        "fixtureSemanticCount": 3,
+        "iconCount": 1
+      },
+      "mask/loading": {
+        "elementCount": 8,
+        "visibleElementCount": 8,
+        "fixtureSemanticCount": 3,
+        "iconCount": 1
+      },
+      "mask/hidden": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 3,
+        "iconCount": 0
+      }
+    },
+    "2": {
+      "all/normal": {
+        "elementCount": 841,
+        "visibleElementCount": 736,
+        "fixtureSemanticCount": 302,
+        "iconCount": 147
+      },
+      "panel/normal": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/framed": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/collapsed": {
+        "elementCount": 13,
+        "visibleElementCount": 7,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/disabled": {
+        "elementCount": 17,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 7,
+        "iconCount": 3
+      },
+      "panel/hover": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "panel/focus": {
+        "elementCount": 13,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 7,
+        "iconCount": 2
+      },
+      "window/normal": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/focus": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/modal": {
+        "elementCount": 16,
+        "visibleElementCount": 14,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/moved": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "window/resized": {
+        "elementCount": 15,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 1
+      },
+      "button/normal": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/hover": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/focus": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/pressed": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/disabled": {
+        "elementCount": 22,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 14,
+        "iconCount": 2
+      },
+      "button/open": {
+        "elementCount": 27,
+        "visibleElementCount": 21,
+        "fixtureSemanticCount": 16,
+        "iconCount": 4
+      },
+      "toolbar/normal": {
+        "elementCount": 54,
+        "visibleElementCount": 41,
+        "fixtureSemanticCount": 31,
+        "iconCount": 1
+      },
+      "toolbar/overflow": {
+        "elementCount": 54,
+        "visibleElementCount": 23,
+        "fixtureSemanticCount": 31,
+        "iconCount": 1
+      },
+      "toolbar/open": {
+        "elementCount": 67,
+        "visibleElementCount": 34,
+        "fixtureSemanticCount": 31,
+        "iconCount": 3
+      },
+      "toolbar/disabled": {
+        "elementCount": 58,
+        "visibleElementCount": 24,
+        "fixtureSemanticCount": 31,
+        "iconCount": 2
+      },
+      "form/normal": {
+        "elementCount": 51,
+        "visibleElementCount": 51,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "form/invalid": {
+        "elementCount": 51,
+        "visibleElementCount": 51,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "form/readonly": {
+        "elementCount": 51,
+        "visibleElementCount": 45,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "form/disabled": {
+        "elementCount": 55,
+        "visibleElementCount": 52,
+        "fixtureSemanticCount": 26,
+        "iconCount": 13
+      },
+      "form/focus": {
+        "elementCount": 51,
+        "visibleElementCount": 51,
+        "fixtureSemanticCount": 26,
+        "iconCount": 12
+      },
+      "triggers/normal": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 21,
+        "iconCount": 12
+      },
+      "triggers/hover": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 22,
+        "iconCount": 12
+      },
+      "triggers/focus": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 21,
+        "iconCount": 12
+      },
+      "triggers/pressed": {
+        "elementCount": 43,
+        "visibleElementCount": 43,
+        "fixtureSemanticCount": 22,
+        "iconCount": 12
+      },
+      "triggers/disabled": {
+        "elementCount": 47,
+        "visibleElementCount": 44,
+        "fixtureSemanticCount": 21,
+        "iconCount": 13
+      },
+      "triggers/open": {
+        "elementCount": 47,
+        "visibleElementCount": 47,
+        "fixtureSemanticCount": 21,
+        "iconCount": 12
+      },
+      "checks/normal": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "checks/checked": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "checks/unchecked": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "checks/disabled": {
+        "elementCount": 35,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 11,
+        "iconCount": 6
+      },
+      "checks/focus": {
+        "elementCount": 31,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 11,
+        "iconCount": 5
+      },
+      "fieldset/normal": {
+        "elementCount": 19,
+        "visibleElementCount": 13,
+        "fixtureSemanticCount": 9,
+        "iconCount": 4
+      },
+      "fieldset/collapsed": {
+        "elementCount": 19,
+        "visibleElementCount": 5,
+        "fixtureSemanticCount": 9,
+        "iconCount": 4
+      },
+      "fieldset/checked": {
+        "elementCount": 19,
+        "visibleElementCount": 17,
+        "fixtureSemanticCount": 9,
+        "iconCount": 4
+      },
+      "fieldset/disabled": {
+        "elementCount": 23,
+        "visibleElementCount": 14,
+        "fixtureSemanticCount": 9,
+        "iconCount": 5
+      },
+      "editor/normal": {
+        "elementCount": 76,
+        "visibleElementCount": 56,
+        "fixtureSemanticCount": 3,
+        "iconCount": 17
+      },
+      "editor/focus": {
+        "elementCount": 76,
+        "visibleElementCount": 56,
+        "fixtureSemanticCount": 3,
+        "iconCount": 17
+      },
+      "editor/readonly": {
+        "elementCount": 80,
+        "visibleElementCount": 57,
+        "fixtureSemanticCount": 3,
+        "iconCount": 18
+      },
+      "editor/disabled": {
+        "elementCount": 80,
+        "visibleElementCount": 57,
+        "fixtureSemanticCount": 3,
+        "iconCount": 18
+      },
+      "grid/normal": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/hover": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/selected": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/focus": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/sort-asc": {
+        "elementCount": 101,
+        "visibleElementCount": 97,
+        "fixtureSemanticCount": 23,
+        "iconCount": 9
+      },
+      "grid/sort-desc": {
+        "elementCount": 101,
+        "visibleElementCount": 97,
+        "fixtureSemanticCount": 23,
+        "iconCount": 9
+      },
+      "grid/menu": {
+        "elementCount": 114,
+        "visibleElementCount": 109,
+        "fixtureSemanticCount": 23,
+        "iconCount": 15
+      },
+      "grid/resized": {
+        "elementCount": 100,
+        "visibleElementCount": 96,
+        "fixtureSemanticCount": 23,
+        "iconCount": 8
+      },
+      "grid/disabled": {
+        "elementCount": 104,
+        "visibleElementCount": 97,
+        "fixtureSemanticCount": 23,
+        "iconCount": 9
+      },
+      "paging/normal": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/first": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/middle": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/last": {
+        "elementCount": 86,
+        "visibleElementCount": 74,
+        "fixtureSemanticCount": 34,
+        "iconCount": 9
+      },
+      "paging/disabled": {
+        "elementCount": 90,
+        "visibleElementCount": 75,
+        "fixtureSemanticCount": 34,
+        "iconCount": 10
+      },
+      "border/normal": {
+        "elementCount": 35,
+        "visibleElementCount": 35,
+        "fixtureSemanticCount": 17,
+        "iconCount": 8
+      },
+      "border/collapsed": {
+        "elementCount": 36,
+        "visibleElementCount": 30,
+        "fixtureSemanticCount": 17,
+        "iconCount": 9
+      },
+      "border/expanded": {
+        "elementCount": 35,
+        "visibleElementCount": 35,
+        "fixtureSemanticCount": 17,
+        "iconCount": 8
+      },
+      "tabs/normal": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/hover": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/selected": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/focus": {
+        "elementCount": 56,
+        "visibleElementCount": 46,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tabs/overflow": {
+        "elementCount": 56,
+        "visibleElementCount": 48,
+        "fixtureSemanticCount": 28,
+        "iconCount": 9
+      },
+      "tree/normal": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/collapsed": {
+        "elementCount": 19,
+        "visibleElementCount": 16,
+        "fixtureSemanticCount": 6,
+        "iconCount": 4
+      },
+      "tree/expanded": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/selected": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/focus": {
+        "elementCount": 29,
+        "visibleElementCount": 26,
+        "fixtureSemanticCount": 8,
+        "iconCount": 6
+      },
+      "tree/disabled": {
+        "elementCount": 33,
+        "visibleElementCount": 27,
+        "fixtureSemanticCount": 8,
+        "iconCount": 7
+      },
+      "datepicker/normal": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/selected": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/prev": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/next": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/focus": {
+        "elementCount": 96,
+        "visibleElementCount": 94,
+        "fixtureSemanticCount": 5,
+        "iconCount": 3
+      },
+      "datepicker/disabled": {
+        "elementCount": 100,
+        "visibleElementCount": 95,
+        "fixtureSemanticCount": 5,
+        "iconCount": 4
+      },
+      "progress/normal": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 2,
+        "iconCount": 0
+      },
+      "progress/partial": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 2,
+        "iconCount": 0
+      },
+      "progress/full": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 2,
+        "iconCount": 0
+      },
+      "slider/normal": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 5,
+        "iconCount": 8
+      },
+      "slider/hover": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 6,
+        "iconCount": 8
+      },
+      "slider/focus": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 5,
+        "iconCount": 8
+      },
+      "slider/selected": {
+        "elementCount": 17,
+        "visibleElementCount": 11,
+        "fixtureSemanticCount": 5,
+        "iconCount": 8
+      },
+      "slider/disabled": {
+        "elementCount": 21,
+        "visibleElementCount": 12,
+        "fixtureSemanticCount": 5,
+        "iconCount": 9
+      },
+      "menu/normal": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/open": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/checked": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/unchecked": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/focus": {
+        "elementCount": 20,
+        "visibleElementCount": 18,
+        "fixtureSemanticCount": 13,
+        "iconCount": 6
+      },
+      "menu/disabled": {
+        "elementCount": 24,
+        "visibleElementCount": 19,
+        "fixtureSemanticCount": 13,
+        "iconCount": 7
+      },
+      "tool/normal": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/hover": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/focus": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/pressed": {
+        "elementCount": 66,
+        "visibleElementCount": 66,
+        "fixtureSemanticCount": 33,
+        "iconCount": 33
+      },
+      "tool/disabled": {
+        "elementCount": 198,
+        "visibleElementCount": 99,
+        "fixtureSemanticCount": 33,
+        "iconCount": 66
+      },
+      "mask/normal": {
+        "elementCount": 8,
+        "visibleElementCount": 8,
+        "fixtureSemanticCount": 3,
+        "iconCount": 1
+      },
+      "mask/loading": {
+        "elementCount": 8,
+        "visibleElementCount": 8,
+        "fixtureSemanticCount": 3,
+        "iconCount": 1
+      },
+      "mask/hidden": {
+        "elementCount": 4,
+        "visibleElementCount": 4,
+        "fixtureSemanticCount": 3,
+        "iconCount": 0
+      }
+    }
+  }
+}

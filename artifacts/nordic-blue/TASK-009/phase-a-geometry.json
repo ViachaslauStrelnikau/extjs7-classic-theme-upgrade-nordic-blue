@@ -1,0 +1,429 @@
+{
+  "status": "PASS",
+  "policy": "Exact geometry, typography, box model, visibility/opacity, state/data/focus/scroll, image names/sizes/offsets and non-color computed values. Only explicit paint-color properties and RGB/hex colors inside background gradients/shadows are omitted; shadow structure is retained; in flat phase the reviewed gradient-only background layers are removed, image URLs remain compared through icon observations. Resource roots mapped explicitly. No pixel equality claim for this palette stage.",
+  "excludedColorProperties": [
+    "backgroundColor",
+    "borderBottomColor",
+    "borderLeftColor",
+    "borderRightColor",
+    "borderTopColor",
+    "color",
+    "outlineColor"
+  ],
+  "reports": [
+    {
+      "dpr": 1,
+      "scenarios": 22,
+      "elementComparisons": 1369,
+      "iconComparisons": 186,
+      "status": "PASS",
+      "results": [
+        {
+          "case": "all",
+          "state": "normal",
+          "elements": 841,
+          "icons": 147,
+          "paintPropertyDifferences": 1485,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "normal",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 35,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "framed",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 37,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "collapsed",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 35,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "disabled",
+          "elements": 17,
+          "icons": 3,
+          "paintPropertyDifferences": 49,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "hover",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 35,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "focus",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "normal",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "focus",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 57,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "modal",
+          "elements": 16,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "moved",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "resized",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "normal",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 72,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "hover",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 72,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "focus",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 73,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "pressed",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 73,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "disabled",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 72,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "open",
+          "elements": 27,
+          "icons": 4,
+          "paintPropertyDifferences": 82,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "normal",
+          "elements": 54,
+          "icons": 1,
+          "paintPropertyDifferences": 138,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "overflow",
+          "elements": 54,
+          "icons": 1,
+          "paintPropertyDifferences": 138,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "open",
+          "elements": 67,
+          "icons": 3,
+          "paintPropertyDifferences": 172,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "disabled",
+          "elements": 58,
+          "icons": 2,
+          "paintPropertyDifferences": 192,
+          "status": "PASS",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenarios": 22,
+      "elementComparisons": 1369,
+      "iconComparisons": 186,
+      "status": "PASS",
+      "results": [
+        {
+          "case": "all",
+          "state": "normal",
+          "elements": 841,
+          "icons": 147,
+          "paintPropertyDifferences": 1485,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "normal",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 35,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "framed",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 37,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "collapsed",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 35,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "disabled",
+          "elements": 17,
+          "icons": 3,
+          "paintPropertyDifferences": 49,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "hover",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 35,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "panel",
+          "state": "focus",
+          "elements": 13,
+          "icons": 2,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "normal",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "focus",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 57,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "modal",
+          "elements": 16,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "moved",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "window",
+          "state": "resized",
+          "elements": 15,
+          "icons": 1,
+          "paintPropertyDifferences": 56,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "normal",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 72,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "hover",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 72,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "focus",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 73,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "pressed",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 73,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "disabled",
+          "elements": 22,
+          "icons": 2,
+          "paintPropertyDifferences": 72,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "button",
+          "state": "open",
+          "elements": 27,
+          "icons": 4,
+          "paintPropertyDifferences": 82,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "normal",
+          "elements": 54,
+          "icons": 1,
+          "paintPropertyDifferences": 138,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "overflow",
+          "elements": 54,
+          "icons": 1,
+          "paintPropertyDifferences": 138,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "open",
+          "elements": 67,
+          "icons": 3,
+          "paintPropertyDifferences": 172,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "toolbar",
+          "state": "disabled",
+          "elements": 58,
+          "icons": 2,
+          "paintPropertyDifferences": 192,
+          "status": "PASS",
+          "issues": []
+        }
+      ]
+    }
+  ]
+}

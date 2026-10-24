@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "protectedApplicationFiles": 18,
+  "sourceImagesEmpty": true,
+  "sourceOverridesEmpty": true,
+  "sourcePolicySha256": "cf02a8eb800e65e275576826c728a18352a0fa13f77e2eedfdaf400c4aad7467",
+  "iconPolicySha256": "8b1a540d0461a77c4bd44883ddd32b72b87c7efb3ee3cf7f5d6ec3e8bc915891",
+  "lintSha256": "f0b80c9e71f86faba4da8d30e710aba7532047e323f1915446c290af2cff1373",
+  "compiledCssSha256": "1cf5fe1dbd1a134947e7921bbc9677d1972631b6f3d2698614c115d15fb543bd"
+}

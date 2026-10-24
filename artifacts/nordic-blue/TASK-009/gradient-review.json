@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "decision": "Remove only these SDK gradient layers; keep inherited frame radius, widths, padding, slicing dimensions and every metric. No new shadow.",
+  "variables": [
+    "panel-header-background-gradient",
+    "toolbar-background-gradient",
+    "button-default-background-gradient",
+    "button-default-background-gradient-over",
+    "button-default-background-gradient-focus",
+    "button-default-background-gradient-pressed",
+    "button-default-background-gradient-focus-over",
+    "button-default-background-gradient-focus-pressed",
+    "button-default-background-gradient-disabled",
+    "button-toolbar-background-gradient-over",
+    "button-toolbar-background-gradient-focus",
+    "button-toolbar-background-gradient-pressed",
+    "button-toolbar-background-gradient-focus-over",
+    "button-toolbar-background-gradient-focus-pressed"
+  ],
+  "geometryReport": "artifacts/nordic-blue/TASK-009/phase-a-geometry.json",
+  "geometrySha256": "110e5f569343e3edb5ff7a5b42e36bc2bef23be48fd7b02de14e9a01025db3cb",
+  "comparison": "22 scenarios including overview at each DPR; 2738 element comparisons, zero geometry/typography/overflow differences before flattening.",
+  "finalAcceptance": "TASK-009 may be DONE only after the flattened build, exact geometry comparison and visual state checks also pass."
+}

@@ -1,0 +1,61 @@
+{
+  "completionDate": "2026-10-24",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "java": "1.8.0_501",
+  "buildCommand": "sencha.exe -cwd=D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/theme-lab app build lab-nordic testing",
+  "buildExitCode": 0,
+  "lintCommand": "python tools/lint-nordic-blue.py --check-icon-candidates",
+  "lintExitCode": 0,
+  "captureCommands": [
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 1 1",
+    "NORDIC_CPU_RASTER=1 modern-node capture.cjs 2 1"
+  ],
+  "captureExitCodes": [
+    0,
+    0
+  ],
+  "actionCommands": [
+    "modern-node form-review.cjs 1",
+    "modern-node form-review.cjs 2"
+  ],
+  "actionExitCodes": [
+    0,
+    0
+  ],
+  "compilerCommand": "bundled-node fashion.js compile artifacts/nordic-blue/TASK-010/compiler-probe/input.scss C-staging/output/task010/consumption-probe.css",
+  "compilerExitCode": 0,
+  "newHooks": [
+    "form-label-font-color",
+    "form-toolbar-label-font-color",
+    "form-checkbox-label-color",
+    "form-toolbar-checkbox-label-color",
+    "form-field-invalid-background-color",
+    "form-trigger-border-color-over",
+    "form-trigger-border-color-focus",
+    "form-trigger-border-color-pressed",
+    "form-toolbar-trigger-border-color-over",
+    "form-toolbar-trigger-border-color-pressed",
+    "form-toolbar-trigger-background-color",
+    "fieldset-header-color",
+    "fieldset-border-color"
+  ],
+  "changedThemeFiles": [
+    "TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/form/FieldSet.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/toolbar/Toolbar.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/window/Window.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Trigger.scss",
+    "TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss"
+  ],
+  "policyControls": 39,
+  "browser": "155.0.4283.62"
+}

@@ -1,0 +1,1520 @@
+{
+  "purpose": "Approved icon-resource stylesheet only; generated from installed Classic LTR/RTL selectors and approved v2 paths/sheet dimensions. Exact file bytes bound by policy.",
+  "approvalSha256": "50cba91d56499fc59cc29cf86e5e80b91a04f6e1b3c0ec64be1cc855272cca1c",
+  "manifestSha256": "a7ac4cc21bdac41de0dffc6e5fc1dee3adf72eb01edfe6f0ca4de4bbb8433a20",
+  "sourceSelectorSha256": "38978f02c69e7163a7a38a27be62bdd7cf60798b7ebad736863b8eb985cd4cd8",
+  "rules": [
+    {
+      "selector": ".x-treelist-item-loading .x-treelist-item-icon",
+      "resource": "images/tree/loading.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-treelist-nav .x-treelist-item-loading .x-treelist-item-icon",
+      "resource": "images/tree/loading.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-mask-msg-text",
+      "resource": "images/grid/loading.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-small.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-small.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-small.x-btn-split-right::after",
+      "resource": "images/button/s-arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-small.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-small.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-small.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-medium.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-medium.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-medium.x-btn-split-right::after",
+      "resource": "images/button/s-arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-medium.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-medium.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-medium.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-large.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-large.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-large.x-btn-split-right::after",
+      "resource": "images/button/s-arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-large.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-large.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-large.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-small.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-small.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-small.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-noline.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-small.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b-noline.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-small.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-small.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-medium.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-medium.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-medium.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-noline.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-medium.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b-noline.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-medium.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-medium.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-large.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-large.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-large.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-noline.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-large.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b-noline.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-large.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-large.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-tool-img",
+      "resource": "images/tools/tool-sprites.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-layout-split-left",
+      "resource": "images/util/splitter/mini-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-layout-split-right",
+      "resource": "images/util/splitter/mini-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-layout-split-top",
+      "resource": "images/util/splitter/mini-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-layout-split-bottom",
+      "resource": "images/util/splitter/mini-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-splitter-collapsed .x-layout-split-left",
+      "resource": "images/util/splitter/mini-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-splitter-collapsed .x-layout-split-right",
+      "resource": "images/util/splitter/mini-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-splitter-collapsed .x-layout-split-top",
+      "resource": "images/util/splitter/mini-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-splitter-collapsed .x-layout-split-bottom",
+      "resource": "images/util/splitter/mini-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-toolbar-default.x-box-scroller-left",
+      "resource": "images/toolbar/default-scroll-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-toolbar-default.x-box-scroller-right",
+      "resource": "images/toolbar/default-scroll-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-toolbar-default.x-box-scroller-top",
+      "resource": "images/toolbar/default-scroll-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-toolbar-default.x-box-scroller-bottom",
+      "resource": "images/toolbar/default-scroll-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-toolbar-more-icon",
+      "resource": "images/toolbar/default-more.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-toolbar-footer.x-box-scroller-left",
+      "resource": "images/toolbar/footer-scroll-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-toolbar-footer.x-box-scroller-right",
+      "resource": "images/toolbar/footer-scroll-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-toolbar-more-icon",
+      "resource": "images/toolbar/footer-more.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-dd-drop-ok .x-dd-drop-icon",
+      "resource": "images/dd/drop-yes.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-dd-drop-ok-add .x-dd-drop-icon",
+      "resource": "images/dd/drop-add.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-dd-drop-nodrop div.x-dd-drop-icon",
+      "resource": "images/dd/drop-no.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-icon-default",
+      "resource": "images/form/exclamation.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-under-default",
+      "resource": "images/form/exclamation.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-icon-toolbar",
+      "resource": "images/form/exclamation.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-under-toolbar",
+      "resource": "images/form/exclamation.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-field-default",
+      "resource": "images/grid/invalid_line.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-trigger-default",
+      "resource": "images/form/trigger.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-field-toolbar",
+      "resource": "images/grid/invalid_line.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-trigger-toolbar",
+      "resource": "images/form/trigger.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-clear-trigger",
+      "resource": "images/form/clear-trigger.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-search-trigger",
+      "resource": "images/form/search-trigger.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-message-box-info",
+      "resource": "images/shared/icon-info.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-message-box-warning",
+      "resource": "images/shared/icon-warning.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-message-box-question",
+      "resource": "images/shared/icon-question.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-message-box-error",
+      "resource": "images/shared/icon-error.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-radio-default",
+      "resource": "images/form/radio.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-checkbox-default",
+      "resource": "images/form/checkbox.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-radio-toolbar",
+      "resource": "images/form/radio.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-checkbox-toolbar",
+      "resource": "images/form/checkbox.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid .x-form-item-body-default.x-form-checkboxgroup-body",
+      "resource": "images/grid/invalid_line.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-spinner-default",
+      "resource": "images/form/spinner.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-spinner-toolbar",
+      "resource": "images/form/spinner-small.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-icon-el.x-tbar-page-first",
+      "resource": "images/grid/page-first.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-icon-el.x-tbar-page-prev",
+      "resource": "images/grid/page-prev.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-icon-el.x-tbar-page-next",
+      "resource": "images/grid/page-next.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-icon-el.x-tbar-page-last",
+      "resource": "images/grid/page-last.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-icon-el.x-tbar-loading",
+      "resource": "images/grid/refresh.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-tbar-page-first",
+      "resource": "images/grid/page-first-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-tbar-page-prev",
+      "resource": "images/grid/page-prev-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-tbar-page-next",
+      "resource": "images/grid/page-next-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-tbar-page-last",
+      "resource": "images/grid/page-last-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-tbar-loading",
+      "resource": "images/grid/refresh-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-datepicker-next",
+      "resource": "images/shared/right-btn.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-datepicker-prev",
+      "resource": "images/shared/left-btn.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-datepicker-month .x-btn-split-right::after, .x-datepicker-month .x-btn-over .x-btn-split-right::after",
+      "resource": "images/button/s-arrow-light.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-monthpicker-yearnav-next",
+      "resource": "images/tools/tool-sprites.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-monthpicker-yearnav-prev",
+      "resource": "images/tools/tool-sprites.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-field-date .x-form-date-trigger",
+      "resource": "images/form/date-trigger.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-tip-body-form-invalid",
+      "resource": "images/form/exclamation.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-bold, .x-menu-item div.x-edit-bold",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-italic, .x-menu-item div.x-edit-italic",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-underline, .x-menu-item div.x-edit-underline",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-forecolor, .x-menu-item div.x-edit-forecolor",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-backcolor, .x-menu-item div.x-edit-backcolor",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-justifyleft, .x-menu-item div.x-edit-justifyleft",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-justifycenter, .x-menu-item div.x-edit-justifycenter",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-justifyright, .x-menu-item div.x-edit-justifyright",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-insertorderedlist, .x-menu-item div.x-edit-insertorderedlist",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-insertunorderedlist, .x-menu-item div.x-edit-insertunorderedlist",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-increasefontsize, .x-menu-item div.x-edit-increasefontsize",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-decreasefontsize, .x-menu-item div.x-edit-decreasefontsize",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-sourceedit, .x-menu-item div.x-edit-sourceedit",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-html-editor-tb .x-edit-createlink, .x-menu-item div.x-edit-createlink",
+      "resource": "images/editor/tb-sprite.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-text-default .x-tagfield-item-close",
+      "resource": "images/form/tag-field-item-close.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-text-toolbar .x-tagfield-item-close",
+      "resource": "images/form/tag-field-item-close.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-dirty-cell",
+      "resource": "images/grid/dirty.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-drop-indicator .x-grid-drop-indicator-left",
+      "resource": "images/grid/dd-insert-arrow-right.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-drop-indicator .x-grid-drop-indicator-right",
+      "resource": "images/grid/dd-insert-arrow-left.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-col-move-top",
+      "resource": "images/grid/col-move-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-col-move-bottom",
+      "resource": "images/grid/col-move-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-hmenu-sort-asc",
+      "resource": "images/grid/hmenu-asc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-hmenu-sort-desc",
+      "resource": "images/grid/hmenu-desc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-cols-icon",
+      "resource": "images/grid/columns.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-column-header-sort-ASC .x-column-header-text-inner",
+      "resource": "images/grid/sort_asc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-column-header-sort-DESC .x-column-header-text-inner",
+      "resource": "images/grid/sort_desc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-column-header-checkbox .x-column-header-checkbox::after, .x-grid-checkcolumn::after",
+      "resource": "images/form/checkbox.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-invalid-field-grid-cell",
+      "resource": "images/grid/invalid_line.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-trigger-grid-cell",
+      "resource": "images/form/trigger.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-text-grid-cell .x-tagfield-item-close",
+      "resource": "images/form/tag-field-item-close.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-spinner-grid-cell",
+      "resource": "images/form/spinner-small.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-radio-grid-cell",
+      "resource": "images/form/radio.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-form-checkbox-grid-cell",
+      "resource": "images/form/checkbox.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-grid-cell-small.x-btn-arrow-right::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-grid-cell-small.x-btn-arrow-bottom::after",
+      "resource": "images/button/arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-grid-cell-small.x-btn-split-right::after",
+      "resource": "images/button/s-arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-grid-cell-small.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-b.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-grid-cell-small.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-grid-cell-small.x-btn-split-bottom::after",
+      "resource": "images/button/s-arrow-bo.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-advanced-group-hd-collapsible .x-grid-advanced-group-title",
+      "resource": "images/grid/group-collapse.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-advanced-group-hd-collapsed .x-grid-advanced-group-title",
+      "resource": "images/grid/group-expand.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-groups-icon",
+      "resource": "images/grid/groups.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-group-by-icon",
+      "resource": "images/grid/group-by.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-add-group-icon",
+      "resource": "images/grid/add.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-remove-group-icon",
+      "resource": "images/grid/remove.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-hd-collapsible .x-grid-group-title",
+      "resource": "images/grid/group-collapse.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-hd-collapsed .x-grid-group-title",
+      "resource": "images/grid/group-expand.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-checked .x-menu-item-icon-default.x-menu-item-checkbox",
+      "resource": "images/menu/default-checked.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox",
+      "resource": "images/menu/default-unchecked.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-checked .x-menu-item-icon-default.x-menu-group-icon",
+      "resource": "images/menu/default-group-checked.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-arrow-default",
+      "resource": "images/menu/default-menu-parent.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-menu-default.x-box-scroller-top",
+      "resource": "images/menu/default-scroll-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-menu-default.x-box-scroller-bottom",
+      "resource": "images/menu/default-scroll-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-item-checkbox",
+      "resource": "images/menu/default-menubar-checked.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-unchecked .x-menu-item-icon-default-menubar.x-menu-item-checkbox",
+      "resource": "images/menu/default-menubar-unchecked.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-group-icon",
+      "resource": "images/menu/default-menubar-group-checked.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-arrow-default-menubar",
+      "resource": "images/menu/default-menubar-menu-parent.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-menu-default-menubar.x-box-scroller-top",
+      "resource": "images/menu/default-menubar-scroll-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-box-scroller-menu-default-menubar.x-box-scroller-bottom",
+      "resource": "images/menu/default-menubar-scroll-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-filters-find",
+      "resource": "images/grid/filters/find.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-filters-gt",
+      "resource": "images/grid/filters/greater_than.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-filters-lt",
+      "resource": "images/grid/filters/less_than.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-filters-eq",
+      "resource": "images/grid/filters/equals.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-hmenu-lock",
+      "resource": "images/grid/hmenu-lock.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-hmenu-unlock",
+      "resource": "images/grid/hmenu-unlock.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-column-btn-customize",
+      "resource": "images/grid/gear-small.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-column-btn-sort-asc",
+      "resource": "images/grid/sort_asc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-column-sort-icon-asc",
+      "resource": "images/grid/hmenu-asc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-column-btn-sort-desc",
+      "resource": "images/grid/sort_desc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-column-sort-icon-desc",
+      "resource": "images/grid/hmenu-desc.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-panel-icon",
+      "resource": "images/grid/group-by.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-group-panel-clear-icon",
+      "resource": "images/grid/group-clear.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-row-expander",
+      "resource": "images/grid/group-collapse.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-grid-row-collapsed .x-grid-row-expander",
+      "resource": "images/grid/group-expand.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-summaries-icon",
+      "resource": "images/grid/summary.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-like",
+      "resource": "images/grid/op-like.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-nlike",
+      "resource": "images/grid/op-nlike.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-eq",
+      "resource": "images/grid/op-eq.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-neq",
+      "resource": "images/grid/op-neq.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-gt",
+      "resource": "images/grid/op-gt.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-gte",
+      "resource": "images/grid/op-gte.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-lt",
+      "resource": "images/grid/op-lt.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-lte",
+      "resource": "images/grid/op-lte.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-in",
+      "resource": "images/grid/op-in.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-nin",
+      "resource": "images/grid/op-nin.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-identical",
+      "resource": "images/grid/op-identical.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-nidentical",
+      "resource": "images/grid/op-nidentical.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-empty",
+      "resource": "images/grid/op-empty.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-exists",
+      "resource": "images/grid/op-exists.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-operator-fn",
+      "resource": "images/grid/op-fn.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-slider-horz .x-slider-thumb",
+      "resource": "images/slider/slider-thumb.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-slider-vert .x-slider-thumb",
+      "resource": "images/slider/slider-v-thumb.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_1.css"
+    },
+    {
+      "selector": ".x-tab-default .x-tab-close-btn",
+      "resource": "images/tab/tab-default-close.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-more-icon",
+      "resource": "images/tab-bar/default-more.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-top .x-box-scroller-left",
+      "resource": "images/tab-bar/default-scroll-left-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-top .x-box-scroller-right",
+      "resource": "images/tab-bar/default-scroll-right-top.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-bottom .x-box-scroller-left",
+      "resource": "images/tab-bar/default-scroll-left-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-bottom .x-box-scroller-right",
+      "resource": "images/tab-bar/default-scroll-right-bottom.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-left .x-box-scroller-top",
+      "resource": "images/tab-bar/default-scroll-top-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-left .x-box-scroller-bottom",
+      "resource": "images/tab-bar/default-scroll-bottom-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-right .x-box-scroller-top",
+      "resource": "images/tab-bar/default-scroll-top-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tab-bar-default-right .x-box-scroller-bottom",
+      "resource": "images/tab-bar/default-scroll-bottom-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-breadcrumb-icon-folder-default",
+      "resource": "images/tree/folder.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-btn-menu-active .x-breadcrumb-icon-folder-default",
+      "resource": "images/tree/folder-open.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-breadcrumb-icon-leaf-default",
+      "resource": "images/tree/leaf.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after",
+      "resource": "images/breadcrumb/default-arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after",
+      "resource": "images/breadcrumb/default-arrow-open.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after",
+      "resource": "images/breadcrumb/default-split-arrow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after",
+      "resource": "images/breadcrumb/default-split-arrow-open.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-box-scroller-breadcrumb-default.x-box-scroller-left",
+      "resource": "images/breadcrumb/default-scroll-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-box-scroller-breadcrumb-default.x-box-scroller-right",
+      "resource": "images/breadcrumb/default-scroll-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-arrows .x-tree-expander",
+      "resource": "images/tree/arrows.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-tree-elbow",
+      "resource": "images/tree/elbow.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-tree-elbow-end",
+      "resource": "images/tree/elbow-end.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-tree-elbow-plus",
+      "resource": "images/tree/elbow-plus.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-tree-elbow-end-plus",
+      "resource": "images/tree/elbow-end-plus.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus",
+      "resource": "images/tree/elbow-minus.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus",
+      "resource": "images/tree/elbow-end-minus.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-tree-elbow-line",
+      "resource": "images/tree/elbow-line.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-no-lines .x-tree-expander",
+      "resource": "images/tree/elbow-plus-nl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-no-lines .x-grid-tree-node-expanded .x-tree-expander",
+      "resource": "images/tree/elbow-minus-nl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-icon-leaf",
+      "resource": "images/tree/leaf.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-icon-parent",
+      "resource": "images/tree/folder.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-icon-parent-expanded",
+      "resource": "images/tree/folder-open.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-checkbox",
+      "resource": "images/form/checkbox.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-grid-tree-loading .x-tree-icon",
+      "resource": "images/tree/loading.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-drop-ok-append .x-dd-drop-icon",
+      "resource": "images/tree/drop-append.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-drop-ok-above .x-dd-drop-icon",
+      "resource": "images/tree/drop-above.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-drop-ok-below .x-dd-drop-icon",
+      "resource": "images/tree/drop-below.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-drop-ok-between .x-dd-drop-icon",
+      "resource": "images/tree/drop-between.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-toast-icon-information",
+      "resource": "images/window/toast/icon16_info.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-toast-icon-error",
+      "resource": "images/window/toast/icon16_error.png",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-message-box .x-msg-box-wait",
+      "resource": "images/shared/blue-loading.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug_2.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-small.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-small.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-small.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-medium.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-medium.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-medium.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-large.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-large.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-large.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-small.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-small.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-noline-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-small.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-noline-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-large.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-default-toolbar-large.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-noline-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-default-toolbar-large.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-layout-split-left",
+      "resource": "images/util/splitter/mini-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-layout-split-right",
+      "resource": "images/util/splitter/mini-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-splitter-collapsed .x-rtl.x-layout-split-left",
+      "resource": "images/util/splitter/mini-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-splitter-collapsed .x-rtl.x-layout-split-right",
+      "resource": "images/util/splitter/mini-right.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-toolbar-more-icon.x-rtl",
+      "resource": "images/toolbar/default-more-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-trigger-default.x-rtl",
+      "resource": "images/form/trigger-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-trigger-toolbar.x-rtl",
+      "resource": "images/form/trigger-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-clear-trigger.x-rtl",
+      "resource": "images/form/clear-trigger-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-search-trigger.x-rtl",
+      "resource": "images/form/search-trigger-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-spinner-default.x-rtl",
+      "resource": "images/form/spinner-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-spinner-toolbar.x-rtl",
+      "resource": "images/form/spinner-small-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-tbar-page-first",
+      "resource": "images/grid/page-last.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-tbar-page-prev",
+      "resource": "images/grid/page-next.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-tbar-page-next",
+      "resource": "images/grid/page-prev.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-tbar-page-last",
+      "resource": "images/grid/page-first.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-rtl.x-tbar-page-first",
+      "resource": "images/grid/page-last-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-rtl.x-tbar-page-prev",
+      "resource": "images/grid/page-next-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-rtl.x-tbar-page-next",
+      "resource": "images/grid/page-prev-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-item-disabled .x-rtl.x-tbar-page-last",
+      "resource": "images/grid/page-first-disabled.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-field-date .x-form-date-trigger.x-rtl",
+      "resource": "images/form/date-trigger-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-rtl.x-grid-dirty-cell",
+      "resource": "images/grid/dirty-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-trigger-grid-cell.x-rtl",
+      "resource": "images/form/trigger-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-form-spinner-grid-cell.x-rtl",
+      "resource": "images/form/spinner-small-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-grid-cell-small.x-rtl.x-btn-arrow-right::after",
+      "resource": "images/button/arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-wrap-grid-cell-small.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-btn-over > .x-btn-wrap-grid-cell-small.x-rtl.x-btn-split-right::after",
+      "resource": "images/button/s-arrow-o-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-menu-item-arrow-default.x-rtl",
+      "resource": "images/menu/default-menu-parent-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_1.css"
+    },
+    {
+      "selector": ".x-tab-bar-more-icon.x-rtl",
+      "resource": "images/tab-bar/default-more-left.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-rtl.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after",
+      "resource": "images/breadcrumb/default-arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after",
+      "resource": "images/breadcrumb/default-arrow-open-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-rtl.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after",
+      "resource": "images/breadcrumb/default-split-arrow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after",
+      "resource": "images/breadcrumb/default-split-arrow-open-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-arrows .x-rtl.x-tree-expander",
+      "resource": "images/tree/arrows-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-rtl.x-tree-elbow",
+      "resource": "images/tree/elbow-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-rtl.x-tree-elbow-end",
+      "resource": "images/tree/elbow-end-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-rtl.x-tree-elbow-plus",
+      "resource": "images/tree/elbow-plus-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-rtl.x-tree-elbow-end-plus",
+      "resource": "images/tree/elbow-end-plus-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-grid-tree-node-expanded .x-rtl.x-tree-elbow-plus",
+      "resource": "images/tree/elbow-minus-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-grid-tree-node-expanded .x-rtl.x-tree-elbow-end-plus",
+      "resource": "images/tree/elbow-end-minus-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-lines .x-rtl.x-tree-elbow-line",
+      "resource": "images/tree/elbow-line-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-no-lines .x-rtl.x-tree-expander",
+      "resource": "images/tree/elbow-plus-nl-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-no-lines .x-grid-tree-node-expanded .x-rtl.x-tree-expander",
+      "resource": "images/tree/elbow-minus-nl-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-icon-leaf.x-rtl",
+      "resource": "images/tree/leaf-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-icon-parent.x-rtl",
+      "resource": "images/tree/folder-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-tree-icon-parent-expanded.x-rtl",
+      "resource": "images/tree/folder-open-rtl.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    },
+    {
+      "selector": ".x-grid-tree-loading .x-rtl.x-tree-icon",
+      "resource": "images/tree/loading.gif",
+      "sheet": "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-rtl-debug_2.css"
+    }
+  ],
+  "sheetCount": 182,
+  "properties": [
+    "background-image",
+    "background-size"
+  ],
+  "specialAdapters": {
+    "resize": {
+      "oldY": -360,
+      "newY": 0,
+      "cssBox": [
+        15,
+        15
+      ],
+      "sheet": [
+        30,
+        15
+      ]
+    },
+    "move": {
+      "oldY": -375,
+      "newY": 0,
+      "cssBox": [
+        15,
+        15
+      ],
+      "sheet": [
+        30,
+        15
+      ]
+    }
+  },
+  "geometryEvidence": "artifacts/nordic-blue/TASK-004/density-validation.json",
+  "geometrySha256": "b1b0f2e752c9554ee0c423e3cae3e45b2dc7b5db61bb435937d25e15b3c99f63",
+  "styleSha256": "0d30b177d7131d470949073f5bb02fef1d9e9ae0f0af32d1e2068768321b01e7",
+  "unreferencedLegacyAliases": [
+    "images/button/s-arrow-light-rtl.gif",
+    "images/grid/dd-insert-arrow-left.gif",
+    "images/grid/dd-insert-arrow-right.gif",
+    "images/grid/group-by.gif",
+    "images/grid/hd-pop.gif"
+  ],
+  "inheritedNonIconSurfaces": "Approved manifest retains Slider tracks and toast fader; no renderer switch."
+}

@@ -1,0 +1,15 @@
+[
+  "form-label-font-color",
+  "form-toolbar-label-font-color",
+  "form-checkbox-label-color",
+  "form-toolbar-checkbox-label-color",
+  "form-field-invalid-background-color",
+  "form-trigger-border-color-over",
+  "form-trigger-border-color-focus",
+  "form-trigger-border-color-pressed",
+  "form-toolbar-trigger-border-color-over",
+  "form-toolbar-trigger-border-color-pressed",
+  "form-toolbar-trigger-background-color",
+  "fieldset-header-color",
+  "fieldset-border-color"
+]

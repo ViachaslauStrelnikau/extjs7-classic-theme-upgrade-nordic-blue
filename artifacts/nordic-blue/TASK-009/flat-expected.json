@@ -1,0 +1,17 @@
+{
+  "config/nordic-blue-policy.json": "898f5f052755398305a7e82b13ec7fa0fb8463ed00a2aa52680bb5278255ec5a",
+  "tools/lint-nordic-blue.py": "5aa6cd8c25570261765b712ebad8a467f07408c714d3d052572a291a190ea4b5",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss": "cafde2656577372437111c4622751cc17053ddd9ca377a941b73c06fc8b6d7ac",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss": "1419404a07048561fe72d96318332dd324d54d1821160367ae4e7050126d27fd",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss": "a04abd97c1098267eaad4767293fa55fdbfaf25d50410123c453ba34e514c090",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss": "27076e510ee568782503f2cf58688b9513571af07ecb36557db195c34d627a78",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss": "774cbf13104dd97cfe43c0902212c1c32e596e825b83acede3838dc2a97f4445",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss": "83d601518c1669869b9b9c2c7e65dc35ce68a47d4ff2ab233a734087ff78ed1b",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss": "4db4a0f0a39296a3267932d13ed05df32f1fe07897c1d457e0a8d02d1ba9a4f2",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/toolbar/Toolbar.scss": "742697139ce2f61273cb346405a92d80b9339f45433a3156a5b169e72180a852",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss": "5da7080b2fc67bc41c4f4ead7e1ff9cb06887bf6a83165a0d2b36b76e37135e5",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/window/Window.scss": "373ef8418d40e9664da5f7d0989063e82df2693249184fd5d455c7c27c341fe6",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss": "aeabbe81960c30b136a5a791f2084cf4cbd1975fd33067d400f6a58705ef813e",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Trigger.scss": "67f2e2d952df2c84a43c84d7b16a10bfc19aadf850bca29150def930652432db",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss": "99d44bb13309bcad43a38a703582c5db53acb178e318fb9299f8f1370061a9e6"
+}

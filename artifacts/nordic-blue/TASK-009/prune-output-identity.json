@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "builtFileCount": 566,
+  "differentFiles": [],
+  "note": "Removing unused 14 hooks produced byte-identical CSS and all resources; prior captures remain of the exact final render bytes."
+}

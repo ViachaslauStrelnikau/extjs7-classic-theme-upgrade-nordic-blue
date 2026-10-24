@@ -1,0 +1,13 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$grid-row-cell-background-color: dynamic($nb-surface);
+$grid-row-cell-alt-background-color: dynamic($nb-surface-alt);
+$grid-row-cell-border-color: dynamic($nb-grid-line);
+$grid-row-cell-color: dynamic($nb-text);
+$grid-row-cell-over-background-color: dynamic($nb-control-hover);
+$grid-row-cell-over-border-color: dynamic($nb-grid-line);
+$grid-row-cell-selected-background-color: dynamic($nb-control-pressed);
+$grid-row-cell-selected-border-color: dynamic($nb-accent);
+$grid-row-cell-focus-border-color: dynamic($nb-accent);
+$grid-cell-selected-background-color: dynamic($nb-control-pressed);
+$grid-empty-color: dynamic($nb-muted);
+$grid-resize-marker-background-color: dynamic($nb-accent);

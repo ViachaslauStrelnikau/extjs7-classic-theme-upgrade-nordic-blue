@@ -1,0 +1,4106 @@
+{
+  "task": "TASK-011",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "analyze-consumption.py",
+      "bytes": 1508,
+      "sha256": "5e65480367053d77584794ee0684262f1004c275d9efd84c237cc99192923175"
+    },
+    {
+      "path": "audit-results.py",
+      "bytes": 3427,
+      "sha256": "8b202807b6e22f1b969bfef5cb5a1160a0197162e63cb1f2fc8b4afeeb5a0e89"
+    },
+    {
+      "path": "build-flat.log",
+      "bytes": 3839,
+      "sha256": "d7b4eebac06c11c403d162f9c4265a4f434d67f5c17bd27314df77aeb823a5c8"
+    },
+    {
+      "path": "build-phase-a.log",
+      "bytes": 3840,
+      "sha256": "cb04c6d24d58502fe09c1d774db76bbf8b6f6fb0aff8ec0de6526b97d44b2209"
+    },
+    {
+      "path": "capture.cjs",
+      "bytes": 6280,
+      "sha256": "97740c2d23cf4e42c25bfb602335b0263023158433715fdef5ae07c7204d596a"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 1774,
+      "sha256": "963e6d700758d6697e95bcabcbe73cc407903983abaf24dbe7070b1a3a0bd180"
+    },
+    {
+      "path": "compare-geometry.py",
+      "bytes": 4223,
+      "sha256": "4509b632942f9705f43603ac16ecb906af031a7e8f12f9d92f40f631b616cadb"
+    },
+    {
+      "path": "compare-grid.py",
+      "bytes": 1590,
+      "sha256": "eda83d9da82bbebfdbfc7aa4fe85ebd5b7dd4d9a6fe3f45d596da02378aaca36"
+    },
+    {
+      "path": "compiler-consumption.json",
+      "bytes": 164318,
+      "sha256": "af32f1b9bc82af24460bf42ab09a370bc2410c21edc4c16693e4c9a0a7d0290a"
+    },
+    {
+      "path": "compiler.log",
+      "bytes": 322,
+      "sha256": "30cfcafb8858566bf4e730d37768e26d4ec1ebf801e4e84e006fc943be11aa64"
+    },
+    {
+      "path": "consumption-probe.css",
+      "bytes": 657528,
+      "sha256": "66a010440fc02c6c56db3625a725572f1cb691f1f447700463eff2d5bfb50fe7"
+    },
+    {
+      "path": "consumption-probe.scss",
+      "bytes": 78249,
+      "sha256": "c5dc1b6bb68310e85137355bd9c6cc4a16f69028c0e9720a24e8690d9440d5de"
+    },
+    {
+      "path": "extract.js",
+      "bytes": 12775,
+      "sha256": "2181aabbe74598768eac85e1ef05e30bb9a66eb4f944312dc7b709d668b4eab9"
+    },
+    {
+      "path": "flat-expected.json",
+      "bytes": 259,
+      "sha256": "c1e17533f54664f6829f5f4ede1156b88b2306528fda6b2579791ac5c491bc8e"
+    },
+    {
+      "path": "frozen-resources.json",
+      "bytes": 4594,
+      "sha256": "87695eb6a049d406841cc0507b5ea78aa465048951179e0cdddcc9534880bb3a"
+    },
+    {
+      "path": "generated-theme.scss",
+      "bytes": 70261,
+      "sha256": "af2696b7456d665a60d3a9c1812824536143785f5848a120867f3f2d84c8195c"
+    },
+    {
+      "path": "geometry-comparison.json",
+      "bytes": 47771,
+      "sha256": "15ed3fa33a890640c2860fccf1d74fb319c80f3db7de1e1a72643ffd456a01c8"
+    },
+    {
+      "path": "gradient-review.json",
+      "bytes": 816,
+      "sha256": "d4f277977cacf1cce962c21cffeab07c9f8608167926ef36c2b7ce16c7ba5667"
+    },
+    {
+      "path": "grid-action-comparison.json",
+      "bytes": 6818,
+      "sha256": "1578dfe41ff29a543c46434179f7b09e66b6ff8cc1bbb95aac52fededa40caf0"
+    },
+    {
+      "path": "grid-component-report.md",
+      "bytes": 8833,
+      "sha256": "ff1561e432278c5bc0a2d47df98819a2011642ae898aca7386e3a0825ded9300"
+    },
+    {
+      "path": "grid-review.cjs",
+      "bytes": 8634,
+      "sha256": "cc56fd6efe580080082dfac7a830d969777f9702175ffa01e31badc1324c4df1"
+    },
+    {
+      "path": "inherited-icons.json",
+      "bytes": 27524,
+      "sha256": "702abe831bf11f9de653cc0b3fb9b736a7a5c8cdaea6dde0c36e0d1b9dce8903"
+    },
+    {
+      "path": "lint-report.json",
+      "bytes": 289,
+      "sha256": "076b2c3243634a649ae8ba94fde5b37c79bf778754a98a18cfde16028789f0fc"
+    },
+    {
+      "path": "new-hooks.json",
+      "bytes": 495,
+      "sha256": "bbea85f4b45d195b39bb2dfa8aa724dde9f6ff2280a0ef5dbae1ecbda1b52bf9"
+    },
+    {
+      "path": "overflow-trigger-audit.json",
+      "bytes": 154425,
+      "sha256": "34b9f3d24a65b59633a46b1c8313c3a91275bbc18ce36581e2ce7e5d5455adc5"
+    },
+    {
+      "path": "phase-a-geometry.json",
+      "bytes": 10235,
+      "sha256": "8226b4b00a556fe179f3e66ebb98569e303041f9fa9b5dcb93d923f42d5d45c0"
+    },
+    {
+      "path": "policy-controls.json",
+      "bytes": 7442,
+      "sha256": "4a7ef13ae0f12d2b6884c66436cd038e4991e807b6c8b17e3d29ba7849003659"
+    },
+    {
+      "path": "policy-controls.py",
+      "bytes": 7910,
+      "sha256": "caf282f538f136dbe0c58a48c4f2744834f0499ca307e39d1dcb40120c8559b7"
+    },
+    {
+      "path": "prepare-compiler.py",
+      "bytes": 1710,
+      "sha256": "457491cfd247872eaa4af7308cde92bb259d935334b76160cae01b7bed76b43d"
+    },
+    {
+      "path": "protected-inputs.json",
+      "bytes": 1912,
+      "sha256": "01c0e93180a9c932b66d9795ca1a4a29ce63307cf6adc4b567fcbbadb25ef6d1"
+    },
+    {
+      "path": "review.html",
+      "bytes": 3360,
+      "sha256": "12cc75878761dae11abc3f03ee8f336cdedd34ec6f7df3b0f59e3096645b2abd"
+    },
+    {
+      "path": "source-guards.json",
+      "bytes": 642,
+      "sha256": "7dfe77b9c623000dbf17d810fdc0a0636a06980401149e0baaac5ed2e3ec046f"
+    },
+    {
+      "path": "before/AGENTS.md",
+      "bytes": 11881,
+      "sha256": "8814536a65c3b5f919a200011c758e7d208b119920f24319c612ac769e030f00"
+    },
+    {
+      "path": "before-final-documents/AGENTS.md",
+      "bytes": 11881,
+      "sha256": "8814536a65c3b5f919a200011c758e7d208b119920f24319c612ac769e030f00"
+    },
+    {
+      "path": "before-theme/build.xml",
+      "bytes": 3584,
+      "sha256": "7f4602de73579f7fcca99d97c0c03de52d0304afb6aa2c5a45ff9febe4601284"
+    },
+    {
+      "path": "before-theme/package.json",
+      "bytes": 10187,
+      "sha256": "0fda631436901f92a3b2efce49d110047a4daa6128ce42076ba934b7a466115e"
+    },
+    {
+      "path": "before-theme/Readme.md",
+      "bytes": 33,
+      "sha256": "cf5b60451b0920f3475cba889c4a4eb3335f72ee3ee6223c9fcaa099d8526bfc"
+    },
+    {
+      "path": "compiled/app.json",
+      "bytes": 1705,
+      "sha256": "719f471b940c7e71044f04d2e952f3497bea0632993946b18677a9355862618c"
+    },
+    {
+      "path": "compiler-probe/input.scss",
+      "bytes": 78249,
+      "sha256": "c5dc1b6bb68310e85137355bd9c6cc4a16f69028c0e9720a24e8690d9440d5de"
+    },
+    {
+      "path": "control-package/build.xml",
+      "bytes": 3584,
+      "sha256": "7f4602de73579f7fcca99d97c0c03de52d0304afb6aa2c5a45ff9febe4601284"
+    },
+    {
+      "path": "control-package/package.json",
+      "bytes": 10187,
+      "sha256": "0fda631436901f92a3b2efce49d110047a4daa6128ce42076ba934b7a466115e"
+    },
+    {
+      "path": "control-package/Readme.md",
+      "bytes": 33,
+      "sha256": "cf5b60451b0920f3475cba889c4a4eb3335f72ee3ee6223c9fcaa099d8526bfc"
+    },
+    {
+      "path": "before/config/nordic-blue-policy.json",
+      "bytes": 305863,
+      "sha256": "048680c913ee4e585850a857fdf8d2c4a2f953727d3ec9501c23b25414decda5"
+    },
+    {
+      "path": "before/docs/plans/nordic-blue/README.md",
+      "bytes": 5742,
+      "sha256": "afba8bb018736a8cc1d2db41ff0d35086caca9e0af5e85963acc5dad4b90c601"
+    },
+    {
+      "path": "before/docs/plans/nordic-blue/tasks/TASK-011.md",
+      "bytes": 1672,
+      "sha256": "89217b1389dc2d8ffc129f0bb38b6a0a20615c83327550bac7b193edeb6d1f3d"
+    },
+    {
+      "path": "before-final-documents/docs/plans/nordic-blue/README.md",
+      "bytes": 5742,
+      "sha256": "afba8bb018736a8cc1d2db41ff0d35086caca9e0af5e85963acc5dad4b90c601"
+    },
+    {
+      "path": "before-final-documents/docs/plans/nordic-blue/tasks/TASK-011.md",
+      "bytes": 1679,
+      "sha256": "f037edbfa320af4725b6f8ca3f99b4917fa8f7b22d8f866c7c72aaaed0bb123c"
+    },
+    {
+      "path": "before-flat/config/nordic-blue-policy.json",
+      "bytes": 323346,
+      "sha256": "da12b61a0a224485674231707567d2a84a466bfcc23f184e27b65593a2a1a21c"
+    },
+    {
+      "path": "before-flat/TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss",
+      "bytes": 519,
+      "sha256": "970158655382664b6234a50993c569e677b6eb411f3f8f0fcb23e24f44697c8e"
+    },
+    {
+      "path": "before-theme/examples/Readme.md",
+      "bytes": 977,
+      "sha256": "1a71f04a3b90eb4664705997cbf8359563de78d1e7c74627d32071d88c6e5b6b"
+    },
+    {
+      "path": "before-theme/licenses/Readme.md",
+      "bytes": 98,
+      "sha256": "76651399d2c2805f9fdd46ce4ece7eb4cc77a47f7e93aefe3b0bc4b21a810dd7"
+    },
+    {
+      "path": "before-theme/resources/Readme.md",
+      "bytes": 114,
+      "sha256": "ad88629a4df0b76bcd45ace80c0646a843d27db5885699bb6967972b6a4ef19c"
+    },
+    {
+      "path": "before-theme/sass/config.rb",
+      "bytes": 58,
+      "sha256": "e340ab3c0fd3dd055a31e71f0f6275d88fe980867096759dbd45dbccce7d0b56"
+    },
+    {
+      "path": "before-theme/sass/Readme.md",
+      "bytes": 203,
+      "sha256": "d5d25fa2faa341885219a4ee0947ab885b74d20aa4b658ec0177b981467fd016"
+    },
+    {
+      "path": "before-theme/src/Readme.md",
+      "bytes": 138,
+      "sha256": "65cd2cfa56987da7cf3acf0dc9d1d00d36e5711f3ac97be5fed8f076dc51b7c5"
+    },
+    {
+      "path": "before-theme/sass/etc/all.scss",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "before-theme/sass/etc/Readme.md",
+      "bytes": 160,
+      "sha256": "109f7f567d35bc4e26cf1020431aa9669ec28ed29d877f2c113f84fd75b08492"
+    },
+    {
+      "path": "before-theme/sass/src/Readme.md",
+      "bytes": 205,
+      "sha256": "0ec86eaf4ec06b8bd155a293821bccd210accb968da27daa8b41254650d8ff54"
+    },
+    {
+      "path": "before-theme/sass/var/all.scss",
+      "bytes": 594,
+      "sha256": "fed761d3ceeb74aded2bc949560fcdb89714cbb945f5ae2bf6a634c4f8d8d6af"
+    },
+    {
+      "path": "before-theme/sass/var/LoadMask.scss",
+      "bytes": 306,
+      "sha256": "e4f61ddd2013d9176d86afda63d63ee67bc3f857ecb51176b24731be82231d17"
+    },
+    {
+      "path": "before-theme/sass/var/ProgressBar.scss",
+      "bytes": 199,
+      "sha256": "16970d44f0414b04d5f6dd606ff26595ac368d920e3b1a709a967d9a88ba9026"
+    },
+    {
+      "path": "before-theme/sass/var/Readme.md",
+      "bytes": 113,
+      "sha256": "064afad7f85a3b6b77adc665f6db4be179ae1bb2825abe179e065eb3bc62af24"
+    },
+    {
+      "path": "before-theme/sass/var/button/Button.scss",
+      "bytes": 3475,
+      "sha256": "5130ba4978e730e66764c13af871f4efb073baa947b53edd6a880715dfe1ed68"
+    },
+    {
+      "path": "before-theme/sass/var/form/FieldSet.scss",
+      "bytes": 183,
+      "sha256": "bd7814fc3be8fff46eb12c01e620c99eac9d0ea9e2d8e592792fe54ab7a93982"
+    },
+    {
+      "path": "before-theme/sass/var/menu/Menu.scss",
+      "bytes": 384,
+      "sha256": "45b380d0439f67fde37173940fd1f9bbfea6eaa2f70df9214e6088d0acb42eb8"
+    },
+    {
+      "path": "before-theme/sass/var/panel/Panel.scss",
+      "bytes": 703,
+      "sha256": "66179c81ef8f120295987449c64a17666abea84dde6367d4062dfc8c3023a0d7"
+    },
+    {
+      "path": "before-theme/sass/var/picker/Date.scss",
+      "bytes": 273,
+      "sha256": "a69877067afa808762c9ed296932c9f4da7b4aa0597c0c7d913803ff12aa64bd"
+    },
+    {
+      "path": "before-theme/sass/var/tab/Tab.scss",
+      "bytes": 255,
+      "sha256": "d73084e67f36c61b48658f998c2b884175cc19919797f38453c422ec7a9e1f3a"
+    },
+    {
+      "path": "before-theme/sass/var/toolbar/Toolbar.scss",
+      "bytes": 444,
+      "sha256": "361aa9e6d4be5e26205849cb3d134ce411576f3bf9b2ecbbfe9749c50fdd51c7"
+    },
+    {
+      "path": "before-theme/sass/var/view/Table.scss",
+      "bytes": 264,
+      "sha256": "3cad95098c22dcc0fba7244eea4a3713540898a5577ab6f3605a6b7d672163b7"
+    },
+    {
+      "path": "before-theme/sass/var/window/Window.scss",
+      "bytes": 480,
+      "sha256": "512942558aa6cb3f9247c6d35faa7148968d739c5aa2e355f960b5df25e0da3e"
+    },
+    {
+      "path": "before-theme/sass/var/form/field/Base.scss",
+      "bytes": 900,
+      "sha256": "cd2e3e0058a473937b2050dcf70bd4d158c6cc8feb3f70705665b4def819f731"
+    },
+    {
+      "path": "before-theme/sass/var/form/field/Trigger.scss",
+      "bytes": 265,
+      "sha256": "61f2a978510a382e659d1a2585036c0f9ed7eefc8cbe1fc5b1e05a8096302e0e"
+    },
+    {
+      "path": "before-theme/sass/var/grid/header/Container.scss",
+      "bytes": 450,
+      "sha256": "a7b6b612af608c7d97dba7ea03c447706a3928b0c9db2a282c9a944eb5741871"
+    },
+    {
+      "path": "compiled/resources/NordicThemeLab-all.css",
+      "bytes": 598092,
+      "sha256": "6ad72fc64b541ef7c99bdc1a256b273baa4518df579d15e09047fdd7cda34220"
+    },
+    {
+      "path": "control-package/examples/Readme.md",
+      "bytes": 977,
+      "sha256": "1a71f04a3b90eb4664705997cbf8359563de78d1e7c74627d32071d88c6e5b6b"
+    },
+    {
+      "path": "control-package/licenses/Readme.md",
+      "bytes": 98,
+      "sha256": "76651399d2c2805f9fdd46ce4ece7eb4cc77a47f7e93aefe3b0bc4b21a810dd7"
+    },
+    {
+      "path": "control-package/resources/Readme.md",
+      "bytes": 114,
+      "sha256": "ad88629a4df0b76bcd45ace80c0646a843d27db5885699bb6967972b6a4ef19c"
+    },
+    {
+      "path": "control-package/sass/config.rb",
+      "bytes": 58,
+      "sha256": "e340ab3c0fd3dd055a31e71f0f6275d88fe980867096759dbd45dbccce7d0b56"
+    },
+    {
+      "path": "control-package/sass/Readme.md",
+      "bytes": 203,
+      "sha256": "d5d25fa2faa341885219a4ee0947ab885b74d20aa4b658ec0177b981467fd016"
+    },
+    {
+      "path": "control-package/src/Readme.md",
+      "bytes": 138,
+      "sha256": "65cd2cfa56987da7cf3acf0dc9d1d00d36e5711f3ac97be5fed8f076dc51b7c5"
+    },
+    {
+      "path": "control-package/sass/etc/all.scss",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "control-package/sass/etc/Readme.md",
+      "bytes": 160,
+      "sha256": "109f7f567d35bc4e26cf1020431aa9669ec28ed29d877f2c113f84fd75b08492"
+    },
+    {
+      "path": "control-package/sass/src/Readme.md",
+      "bytes": 205,
+      "sha256": "0ec86eaf4ec06b8bd155a293821bccd210accb968da27daa8b41254650d8ff54"
+    },
+    {
+      "path": "control-package/sass/var/all.scss",
+      "bytes": 594,
+      "sha256": "fed761d3ceeb74aded2bc949560fcdb89714cbb945f5ae2bf6a634c4f8d8d6af"
+    },
+    {
+      "path": "control-package/sass/var/LoadMask.scss",
+      "bytes": 306,
+      "sha256": "e4f61ddd2013d9176d86afda63d63ee67bc3f857ecb51176b24731be82231d17"
+    },
+    {
+      "path": "control-package/sass/var/ProgressBar.scss",
+      "bytes": 199,
+      "sha256": "16970d44f0414b04d5f6dd606ff26595ac368d920e3b1a709a967d9a88ba9026"
+    },
+    {
+      "path": "control-package/sass/var/Readme.md",
+      "bytes": 113,
+      "sha256": "064afad7f85a3b6b77adc665f6db4be179ae1bb2825abe179e065eb3bc62af24"
+    },
+    {
+      "path": "control-package/sass/var/button/Button.scss",
+      "bytes": 3475,
+      "sha256": "5130ba4978e730e66764c13af871f4efb073baa947b53edd6a880715dfe1ed68"
+    },
+    {
+      "path": "control-package/sass/var/form/FieldSet.scss",
+      "bytes": 183,
+      "sha256": "bd7814fc3be8fff46eb12c01e620c99eac9d0ea9e2d8e592792fe54ab7a93982"
+    },
+    {
+      "path": "control-package/sass/var/menu/Menu.scss",
+      "bytes": 384,
+      "sha256": "45b380d0439f67fde37173940fd1f9bbfea6eaa2f70df9214e6088d0acb42eb8"
+    },
+    {
+      "path": "control-package/sass/var/panel/Panel.scss",
+      "bytes": 703,
+      "sha256": "66179c81ef8f120295987449c64a17666abea84dde6367d4062dfc8c3023a0d7"
+    },
+    {
+      "path": "control-package/sass/var/picker/Date.scss",
+      "bytes": 273,
+      "sha256": "a69877067afa808762c9ed296932c9f4da7b4aa0597c0c7d913803ff12aa64bd"
+    },
+    {
+      "path": "control-package/sass/var/tab/Tab.scss",
+      "bytes": 255,
+      "sha256": "d73084e67f36c61b48658f998c2b884175cc19919797f38453c422ec7a9e1f3a"
+    },
+    {
+      "path": "control-package/sass/var/toolbar/Toolbar.scss",
+      "bytes": 444,
+      "sha256": "361aa9e6d4be5e26205849cb3d134ce411576f3bf9b2ecbbfe9749c50fdd51c7"
+    },
+    {
+      "path": "control-package/sass/var/view/Table.scss",
+      "bytes": 791,
+      "sha256": "207f537af70edc082be20a5d3743a33580c5eb488cb2f5b05b1887b82b0db22c"
+    },
+    {
+      "path": "control-package/sass/var/window/Window.scss",
+      "bytes": 480,
+      "sha256": "512942558aa6cb3f9247c6d35faa7148968d739c5aa2e355f960b5df25e0da3e"
+    },
+    {
+      "path": "control-package/sass/var/form/field/Base.scss",
+      "bytes": 900,
+      "sha256": "cd2e3e0058a473937b2050dcf70bd4d158c6cc8feb3f70705665b4def819f731"
+    },
+    {
+      "path": "control-package/sass/var/form/field/Trigger.scss",
+      "bytes": 265,
+      "sha256": "61f2a978510a382e659d1a2585036c0f9ed7eefc8cbe1fc5b1e05a8096302e0e"
+    },
+    {
+      "path": "control-package/sass/var/grid/column/Column.scss",
+      "bytes": 258,
+      "sha256": "e557e3a65b527af9f866bb95adc907b6d252df05d3fea2f6f1c47980620e7232"
+    },
+    {
+      "path": "control-package/sass/var/grid/header/Container.scss",
+      "bytes": 689,
+      "sha256": "b034cd250207fb63a1deb1d2c0f59ea68885e23ce0cfeb341bc43af850c63f52"
+    },
+    {
+      "path": "flat/config/nordic-blue-policy.json",
+      "bytes": 329372,
+      "sha256": "7e4aaf4474adc9bee9e1d41ac421e4c088cb15de708d3946d9b9b4b061f870d9"
+    },
+    {
+      "path": "flat/TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss",
+      "bytes": 689,
+      "sha256": "b034cd250207fb63a1deb1d2c0f59ea68885e23ce0cfeb341bc43af850c63f52"
+    },
+    {
+      "path": "frozen-gif-frame0/images/grid/grid-loading.png",
+      "bytes": 245,
+      "sha256": "61c2d58bb2cd55bc39a97c7a5fc0587193639f1793a959662565dcb2bb521c86"
+    },
+    {
+      "path": "frozen-gif-frame0/images/grid/loading.png",
+      "bytes": 299,
+      "sha256": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7"
+    },
+    {
+      "path": "frozen-gif-frame0/images/grid/wait.png",
+      "bytes": 364,
+      "sha256": "046e8c7218fe528e5d37222063abdd1446a670401bc61d953db0f8616db9aecf"
+    },
+    {
+      "path": "frozen-gif-frame0/images/shared/blue-loading.png",
+      "bytes": 780,
+      "sha256": "b01479ce57bede4b5ef28e9a47fd62c50b66332e8151c656cf14be9daedaa567"
+    },
+    {
+      "path": "frozen-gif-frame0/images/shared/large-loading.png",
+      "bytes": 752,
+      "sha256": "2280badac36f4fcbef615630a68de50de552744a7a068da9e80c438767aaa97b"
+    },
+    {
+      "path": "frozen-gif-frame0/images/shared/loading-balls.png",
+      "bytes": 388,
+      "sha256": "1f1e6be46b2c7fc8f89610745e5d1716cba0db6a669bace9ab453798d4a6b875"
+    },
+    {
+      "path": "frozen-gif-frame0/images/tree/loading.png",
+      "bytes": 299,
+      "sha256": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7"
+    },
+    {
+      "path": "grid-actions/dpr-1/index.json",
+      "bytes": 12098,
+      "sha256": "e405d56a13a9e12724a10ce0ab40f3937338064397e1008be8107cd14c85076a"
+    },
+    {
+      "path": "grid-actions/dpr-2/index.json",
+      "bytes": 12098,
+      "sha256": "e5fe016b3abe517b58ee08b5bf3f67d0ffdd8f3df8d1cd2fa242953cd302e5bc"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-checkcolumn-toggle.json",
+      "bytes": 218912,
+      "sha256": "505b8622a553b48abd7becbe6c47e11c280285a299d17ef559e04ebf2931a731"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-checkcolumn-toggle.png",
+      "bytes": 31038,
+      "sha256": "6b99a3ca36e19b162646605a5d344b8468a250e6f0582ff2906ca14862c2bbcb"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-column-resize-drag.json",
+      "bytes": 218392,
+      "sha256": "b8bf9c07a1d6b86f29af2a878b9484096748c90c2ba038f22cb6afe716651436"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-column-resize-drag.png",
+      "bytes": 30482,
+      "sha256": "6c4c875a46ee01d94b04485136eee956138a391a0e9567963591128539c62ea3"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-compact-viewport.json",
+      "bytes": 218371,
+      "sha256": "76f15d907d434963f43a0aaeae4d6b694125217431f0eb558f81b0d45bec0e35"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-compact-viewport.png",
+      "bytes": 23853,
+      "sha256": "7f3a855a31b3ab6a629ab2231139e9f6385a8e2726ec1b0eda12edd706edadfd"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-header-menu-escape.json",
+      "bytes": 252126,
+      "sha256": "6e3c2de2f53a93976c6c018e6ffbb46e2943efb94200437dcd2031965c3073a4"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-header-menu-escape.png",
+      "bytes": 31178,
+      "sha256": "3e66e8ee24a5a81b0c30451961d19f4a9e74b54aa3c4a28c8c1613b57649ff7c"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-header-menu-open.json",
+      "bytes": 252120,
+      "sha256": "8a17b99446364c73b41535516bacebe19a31eb3a7370119b7a8e3e1a8307c49c"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-header-menu-open.png",
+      "bytes": 34228,
+      "sha256": "80e5573749ddc7ad0265f9c157e846e867c450f56fe7d1be68e84697bc579819"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-keyboard-next-row.json",
+      "bytes": 220329,
+      "sha256": "66773158a2e93daeabf819b03f4279583deeb2cf436fd4e7bc9370049f5ec8b4"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-keyboard-next-row.png",
+      "bytes": 30957,
+      "sha256": "456746e394b93b4437b21fe817c2fe5404f479d9b546b4be0f7484541e85d9d2"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-row-select.json",
+      "bytes": 220322,
+      "sha256": "daf431666ebe55db99cc8f916ba88ac78119426f7fd75486e32ae1dbc17212ef"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-row-select.png",
+      "bytes": 30836,
+      "sha256": "c560dab7d277b3eff8d046438f1c4846e2fbdf77b709925f9b5757feca5649e8"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-scroll-both-axes.json",
+      "bytes": 218400,
+      "sha256": "23b27b3d64013001653af1aaaf8050bd51fc0bb2ab93e6c6bc0a0bf2a9cce3c3"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-scroll-both-axes.png",
+      "bytes": 21662,
+      "sha256": "5af8dc577959fa903174a0d5f5bc0f2080d900d4bdbc3d049c5c09977467877b"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-sort-asc.json",
+      "bytes": 223350,
+      "sha256": "924d5917abd034d99ea92887aa58cb98d7e226f8efc34b38367965a174c74073"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-sort-asc.png",
+      "bytes": 30774,
+      "sha256": "eaf15816d77f9c930544db7663a1ca8cad6b69430d192f1dc221b7ce033534a8"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-sort-desc.json",
+      "bytes": 223354,
+      "sha256": "db42dbe3dac99f60d6117ef5fb1dc71be2170b5a7112b8d63beb6dd301837c9c"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/grid-sort-desc.png",
+      "bytes": 30786,
+      "sha256": "09526ece84241acc841e30b0d32c5c51d13129c19d8cf312c241040a74a0c551"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-first-boundary.json",
+      "bytes": 176323,
+      "sha256": "8b32219fd022e200bebcb3d4ac4876ff8b1f7a47dbca75cd89724d3d45d54c44"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-first-boundary.png",
+      "bytes": 30963,
+      "sha256": "f92f11c3562d6f73139167ee254b62817f611280321f8d631646d8308a2589e6"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-first.json",
+      "bytes": 176352,
+      "sha256": "91b8811758c5664b3c413115d0b6c441468f3219c402a32c615f04b396078d03"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-first.png",
+      "bytes": 31014,
+      "sha256": "256c838a3d8c0013d0bcf2a15a47f7c18d76c49b835213d58c7c9bd40308bff5"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-input-enter.json",
+      "bytes": 176269,
+      "sha256": "b3f58f08ba1010b91df22addc8ab15f29bbddab66b62a32a5a4228631e45de36"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-input-enter.png",
+      "bytes": 30628,
+      "sha256": "5ab875b9f51a5c90db400b4828cad1a37eb5ca479c7ed9838534be5483a577b1"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-last-boundary.json",
+      "bytes": 176347,
+      "sha256": "454d3e07470ab366a02e4a032bd32b229a4901cecc43f91605527a13763cac1e"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-last-boundary.png",
+      "bytes": 31526,
+      "sha256": "cf010ab691abaf94233e502bb0bf2f0d2b6572f7bb7702fed6b3c0062f3c04b1"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-next.json",
+      "bytes": 176255,
+      "sha256": "290f8f6c3d0079bd693456899db91fa586971c4199ab99573c65f18024a596de"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-next.png",
+      "bytes": 30968,
+      "sha256": "e5e3ce67340e0fc231eb5a9b7c46c7c3b0a163fe3896d668f5c2c04ec237d355"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-previous.json",
+      "bytes": 176258,
+      "sha256": "dc944f66a87e6898ea79aa7e39f542d84149c7b62460de674cdd709d0f022de1"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-previous.png",
+      "bytes": 31198,
+      "sha256": "d24645c8c9071a9e3aa1e1f980b37261d7de2d36f436ae74e6983173e781fae8"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-refresh.json",
+      "bytes": 176265,
+      "sha256": "328efbfde472a5a3c9a817e1547e58c8e23ddac4614cb30b3b1244288505b4d7"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/paging-refresh.png",
+      "bytes": 30703,
+      "sha256": "a538ae8621556c714bf904bd5c478acdeaae0441f8c1eece9c0537fc7d06f040"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-keyboard-collapse.json",
+      "bytes": 44762,
+      "sha256": "e70b98f16051423c58d8900144dad4b10ab0164700b3e9de955547dc9d75e98d"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-keyboard-collapse.png",
+      "bytes": 20338,
+      "sha256": "a7051ba5d6c86663a596ab9114ad1a1c17ac5b253909ee31ebf2e170fea818de"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-keyboard-expand.json",
+      "bytes": 65268,
+      "sha256": "1f191ffc52127412b46c1127d00170db99800b069ed46101c97332b3f9253f7f"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-keyboard-expand.png",
+      "bytes": 21851,
+      "sha256": "236cfb0f8f844d1bb39a4919f8dccb39fb3e5b3ad80c585a2ffe0c05b4b3bf3e"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-keyboard-next-leaf.json",
+      "bytes": 65259,
+      "sha256": "87b934893df0d84e00272ec762b5e4a328623e7eba63232886817b9e0507e245"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-keyboard-next-leaf.png",
+      "bytes": 21871,
+      "sha256": "a1cfdf778530bcf8754b0d9eefbd5b339e9ed8fec8999e4bbf22618cd294f416"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-leaf-selection.json",
+      "bytes": 65255,
+      "sha256": "11cfb3518ef96c59dada6d3c1563db50aa63b172199c2f305dc7821f7e139739"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-leaf-selection.png",
+      "bytes": 21813,
+      "sha256": "a88fd7e7cdc211bd8621dd5fc7eb993ec6051c2858ca0d30b7076193c5eea2e0"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-mouse-collapse.json",
+      "bytes": 44745,
+      "sha256": "7ab748f98f53e34b29b7ee98342636f95c309b58b6a3a784127916ee95550fad"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-mouse-collapse.png",
+      "bytes": 20177,
+      "sha256": "860d695ed48dc99ef53436a9f4bde9db731f9318ff4bdc49feb9ea741b06e963"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-mouse-expand.json",
+      "bytes": 65251,
+      "sha256": "6f8602aed06c2f227136b5603ce827a7f5c77f7717792963be4e47c0e5decc2d"
+    },
+    {
+      "path": "grid-actions/dpr-1/classic/tree-mouse-expand.png",
+      "bytes": 21714,
+      "sha256": "95102d0937e93126ee7f23d61bf49bca558bd06d340b3803cdcfbe0ad5feb494"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-checkcolumn-toggle.json",
+      "bytes": 220325,
+      "sha256": "a8d2edfe9f73dd12655c57d4f0b05311a0e9e884a45ac041a9f8d51a5c3b2db1"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-checkcolumn-toggle.png",
+      "bytes": 31237,
+      "sha256": "9deadfb62e04c00bc4d78d1454ab0542c50caf7e5b95adebb05e0d43590c0eae"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-column-resize-drag.json",
+      "bytes": 219833,
+      "sha256": "c7b0a02a699f70c126f810120d42813ed02a18664133db975f605dbaa357ec8a"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-column-resize-drag.png",
+      "bytes": 30917,
+      "sha256": "25079fce80db1788630eed6c4912bfb8b9e9a3637f79ba95a2c8f0c91626761b"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-compact-viewport.json",
+      "bytes": 219812,
+      "sha256": "d7fc97596fc48ebcb161dd0b7f6129ed24adbf9ab3559b30570b6c95f4636cdd"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-compact-viewport.png",
+      "bytes": 24027,
+      "sha256": "ec990b8f5527829080500c65cef8d527aa468a368514d01c74cdee5848de2cf4"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-header-menu-escape.json",
+      "bytes": 253290,
+      "sha256": "e9c9cb6617f32dc46e6e1e0d1c5aec577de3ee12d2d75613adcb0b1f8d611fa5"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-header-menu-escape.png",
+      "bytes": 31595,
+      "sha256": "0dd20001f4a66cd074b2e0e1a9dd2242f646975f3b3cf4ba41004fa187ab6e89"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-header-menu-open.json",
+      "bytes": 253286,
+      "sha256": "d3dfa0038711bbac71b475a18c990d79b66b0a44b6ee2cefba2202bd22a1ab56"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-header-menu-open.png",
+      "bytes": 34795,
+      "sha256": "018ee677cf92a2f7a26c1796f398609dfef8682cb71a83e6a852371dcfcc3af4"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-keyboard-next-row.json",
+      "bytes": 221779,
+      "sha256": "b0163acf3dd10b6779d68d77e6a67faf138a0f9aa86f5cf8b38554641eadf8d1"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-keyboard-next-row.png",
+      "bytes": 31150,
+      "sha256": "4e7783870da09f9d345c74843ed2e3178fe49390f793741a60aa30e92e30b8e5"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-row-select.json",
+      "bytes": 221772,
+      "sha256": "8b9dcf754ce533f4654e8d5f64d5878074d9e1346bee9c9ea48080d8b4382744"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-row-select.png",
+      "bytes": 31121,
+      "sha256": "a19633225e337271767c531a621f1fb811909a6561e9b45938f7e9572f913729"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-scroll-both-axes.json",
+      "bytes": 219841,
+      "sha256": "020c1574ad307feb92b4e2ebfe692b6fd98cd0bfd3278c12f25603245a8a64ef"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-scroll-both-axes.png",
+      "bytes": 21443,
+      "sha256": "9c3f97db4df680759f452aceb52140cf4e30e895689e0a63ddb58e366301017a"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-sort-asc.json",
+      "bytes": 224627,
+      "sha256": "ea8cbbb37d55327da6527c77c9b9fe80be3e7a91597178f0eec4448eb15a95e9"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-sort-asc.png",
+      "bytes": 31495,
+      "sha256": "4594f99b0b907fc4e07760319865a4268b9dbbf77393690b7a1cbd9b90288625"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-sort-desc.json",
+      "bytes": 224631,
+      "sha256": "827f1c2411e9062f0b78fcc874a96fed282a29e871fa2569d7be4c9d583693de"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/grid-sort-desc.png",
+      "bytes": 31509,
+      "sha256": "c0e1d6304356f97d751657d8a364910ed12bbc98bce6c4cddccfad2dbdf07cc9"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-first-boundary.json",
+      "bytes": 176714,
+      "sha256": "6b2f8e406b3797f8b36ff180f7c7f63fef4c21a14d6d7ea1cd53b0f5b70bd475"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-first-boundary.png",
+      "bytes": 29043,
+      "sha256": "3589359ae0c844587047ca762d21addb404a8d65bcbb2810621279d37f04ddaf"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-first.json",
+      "bytes": 176739,
+      "sha256": "f5ce78a5830ac8a6800e9b5073cd4f48eef4be7496197a28e8d51ac51de4849b"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-first.png",
+      "bytes": 29095,
+      "sha256": "41075ac56002f2aa778c015dcdac75ab79cad1baf65ccf5f44940fbe35c198f0"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-input-enter.json",
+      "bytes": 176708,
+      "sha256": "24719caf32516423f248d970a6c892fbfa42af3217d0a71a1f5db04be406e2da"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-input-enter.png",
+      "bytes": 29139,
+      "sha256": "01be02876ee8b99898ef7a6bd3cbf7c6aa1caa9cb7cbc81dad16caca16e92159"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-last-boundary.json",
+      "bytes": 176746,
+      "sha256": "2f91bd247567cc36c36e58e3095f784753769252344f69e3e71387d229a3339e"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-last-boundary.png",
+      "bytes": 29737,
+      "sha256": "649efa8a89e93ed92e4c31f6c1a65e8ca7cdbe7a0659f7e37da326e277300bc4"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-next.json",
+      "bytes": 176698,
+      "sha256": "e6ce2d1a2d7d44bca036a3fe371e9068a9d6f9f2f61a269620353a58b2da9aed"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-next.png",
+      "bytes": 29201,
+      "sha256": "1f9533fabf880e9d244c126f7c7dafb28eb2d955639db6a3b77a03edcdc379c9"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-previous.json",
+      "bytes": 176701,
+      "sha256": "19435aeabace596d35571a99afdd4438d1c10e181fbf24fc6f21e9b9dfbbfd2a"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-previous.png",
+      "bytes": 29471,
+      "sha256": "69b6fb93b358024093c4a849e738d9113aca4dfd363e10fc22cfba1c7834c557"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-refresh.json",
+      "bytes": 176704,
+      "sha256": "950212ec2713424da97fe26003374144b26a8a2dc5f89cac87cc0d34390728dd"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/paging-refresh.png",
+      "bytes": 29184,
+      "sha256": "c346f4a7044ab69f48dce2da9770006a7b4970af653df24713953809442bdb8c"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-keyboard-collapse.json",
+      "bytes": 44889,
+      "sha256": "a19be8a6982def8237dc7567202e1e27baaff70b16037a377b3881b786c77669"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-keyboard-collapse.png",
+      "bytes": 20290,
+      "sha256": "0742bfcbb3df932cdd729a64ed4d2a759467ad2ca0d96c7c2d61c9daf8cedcbd"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-keyboard-expand.json",
+      "bytes": 65495,
+      "sha256": "70933b0b3d025685a209ded8b1f8708464d7ec7b44232b0fbdefa5c96b25ff40"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-keyboard-expand.png",
+      "bytes": 21895,
+      "sha256": "a8a4e1d33867fee0b9932af19e594127725f10266de487dc2805dc61fc6bd7ba"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-keyboard-next-leaf.json",
+      "bytes": 65486,
+      "sha256": "688cc4f7ba98a379cf4bbfbfe1eb3058d970c102c5f9c2ec75ee3e302cfef55f"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-keyboard-next-leaf.png",
+      "bytes": 21914,
+      "sha256": "7ad195b54c1a8ec74fca71f50342932ef8191b92c37625205f7a4557aa3ab6d7"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-leaf-selection.json",
+      "bytes": 65482,
+      "sha256": "18e8e311e967cda82e990219030cd46c0b8204bfc8f41dd63485f4dd5e5fc3a9"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-leaf-selection.png",
+      "bytes": 21907,
+      "sha256": "38a687ac60910b27d25c526a394312b261b10449c798fbf492c79610b80ceac1"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-mouse-collapse.json",
+      "bytes": 44872,
+      "sha256": "79e46658ea04f1ff5d502d8632bfc9672dc387ac90f02e42469943508e9521c8"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-mouse-collapse.png",
+      "bytes": 20270,
+      "sha256": "05556c0fcc1363d9f7e9e46061c3779755ab9b1338d37b4ebead69986131ea85"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-mouse-expand.json",
+      "bytes": 65478,
+      "sha256": "2a926b687b5c79740a83e9f811625ca981f0a1de1bd655d589b1f69be5db76d3"
+    },
+    {
+      "path": "grid-actions/dpr-1/nordic/tree-mouse-expand.png",
+      "bytes": 21876,
+      "sha256": "e63f016c2b40a85afeca0c7168057f6a436aebc14d5766c3774a69cea51e8ed2"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-checkcolumn-toggle.json",
+      "bytes": 218912,
+      "sha256": "a8b98946886f1251d55d748b09448d9723dfc06136cabbf6204dad38ad6d37f3"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-checkcolumn-toggle.png",
+      "bytes": 105270,
+      "sha256": "9b530cd1445b91150f37566b715d0ba006314638bf61fb2f457c28d018928628"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-column-resize-drag.json",
+      "bytes": 218392,
+      "sha256": "a2634e754c9363d1ea72a13ca0578b1b698c15cb7e5336bfab2c3bcfab8a6322"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-column-resize-drag.png",
+      "bytes": 103756,
+      "sha256": "c7f9048c5175249605175919c4a1bcd4f435280afa26ea176dfa7f5701194c03"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-compact-viewport.json",
+      "bytes": 218371,
+      "sha256": "59e7764d852ad327ed5de4d3f8882046c41fd942761afd39d88e7aac6864379b"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-compact-viewport.png",
+      "bytes": 80805,
+      "sha256": "6037ba57ec649a69e2335c7f4ff3345575df58d82574764b4a16c82bc7c5c766"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-header-menu-escape.json",
+      "bytes": 252126,
+      "sha256": "e95a6b066142d2bc4694834fb0c7cf6a741d2be4dbf4519039bc2787ceba1196"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-header-menu-escape.png",
+      "bytes": 105721,
+      "sha256": "4de43537a73d8f701d71f355382e9b839f03c4ad10da9b3c43698588778c400e"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-header-menu-open.json",
+      "bytes": 252120,
+      "sha256": "3e253f751e9dfbe903d08c6dbf5bfad4c39853a576d007bb9830d9fd535bae9b"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-header-menu-open.png",
+      "bytes": 114963,
+      "sha256": "53def6483443db3aea44525dc8474c0c10816f89eb17a81389d010819683adbf"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-keyboard-next-row.json",
+      "bytes": 220329,
+      "sha256": "63a802d6ccef96e9614928b9a283ec63e1e6ed2b464d4d1071eb7fa9f0b61b82"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-keyboard-next-row.png",
+      "bytes": 104710,
+      "sha256": "7429be1ca9cf28acc0afad73302890fb9a8c9f340eadc42c16e0abdd5ace11b9"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-row-select.json",
+      "bytes": 220322,
+      "sha256": "30bf0505f4c139e1a7c06f975bf00197ed7ff90313e8aad8d54d355e34292ee7"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-row-select.png",
+      "bytes": 104481,
+      "sha256": "d0f4c30d3d65832ce6c1b44231f0109cab241de30e0ab4cd6ff877b786a05881"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-scroll-both-axes.json",
+      "bytes": 218400,
+      "sha256": "a39631cc6f5e97dfdf7a6af49d5614a7092710504762f3597a6c514af564c80e"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-scroll-both-axes.png",
+      "bytes": 72238,
+      "sha256": "ffa6609904d9b6fada3367b30a3dae78d8db7d1a6b780acd87b43d258dc97e67"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-sort-asc.json",
+      "bytes": 223350,
+      "sha256": "c835665a8a96d4ef3567f027d432d11473b81771ce3d25291971d07181a08898"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-sort-asc.png",
+      "bytes": 104708,
+      "sha256": "148e53e50d742d2fc33cde4906b2f293292b40a5c05e2412bdddd3b6c57ff0b0"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-sort-desc.json",
+      "bytes": 223354,
+      "sha256": "54989ed15173c608d54d20d07059b12093d9f3342c03fc759fbe08d24953afe2"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/grid-sort-desc.png",
+      "bytes": 104746,
+      "sha256": "ef564a4cbe64b98f2af9bc3d56333d615a577cf19845c52949348ea69c36762f"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-first-boundary.json",
+      "bytes": 176323,
+      "sha256": "d2a5b062291570efb1ef5b14974fdf75b3be90d5d8bb3a2fb4fa5f5a0fe7354b"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-first-boundary.png",
+      "bytes": 103494,
+      "sha256": "91ba357ceb8c7168292b08d5d23d2eece6fe834a0abd2055fa5b98479deaa8b4"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-first.json",
+      "bytes": 176352,
+      "sha256": "d8dd21b431634794c546a1435b9217c1b681d989aac4e2fa4aaad39449e4f5b7"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-first.png",
+      "bytes": 103586,
+      "sha256": "5df1c0c2e5541c826505c783d5cbd233b518b954921d9d68e317d1f52b0a8b5c"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-input-enter.json",
+      "bytes": 176269,
+      "sha256": "1fa9b946dc7821da0b3b44f43d2daeef7a14ae8071d9b2b9fa0c8e5a0c4daaaf"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-input-enter.png",
+      "bytes": 102086,
+      "sha256": "495c7378696a272ffc670ad1edff436ae5fb415d786e53fa4c6c6fe9f2571d61"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-last-boundary.json",
+      "bytes": 176347,
+      "sha256": "5d18a1b5255f3ea4a8523ba72f25ee15d258df33d4b1ff3ddea7ae0032fa4e7e"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-last-boundary.png",
+      "bytes": 104210,
+      "sha256": "0197cade1a4b53fdd3b4dd10a8ce43588ecedc579922bab6e9f877f472cbd857"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-next.json",
+      "bytes": 176255,
+      "sha256": "872554314423cb4cd8952c1239f43c4437ec75ace6f19760f9bcbbd655a5bc7d"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-next.png",
+      "bytes": 102385,
+      "sha256": "086e4a31ce9221bd8609856daae06c0ef93b3460c3ab7418535ea9c987cf9faf"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-previous.json",
+      "bytes": 176258,
+      "sha256": "ad7bad239b39f13d31e7442dbec63747e780559af5a162eaa83aaa857f25b5e0"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-previous.png",
+      "bytes": 103086,
+      "sha256": "ab9bc64502fb894d020ebde8ba0946e94f4484fd4adf5315ec6fc166c486c21e"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-refresh.json",
+      "bytes": 176265,
+      "sha256": "cd19508f66120aa68e91715c74705e26ee3f398430cc291dbeb1a0233d3464f4"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/paging-refresh.png",
+      "bytes": 102145,
+      "sha256": "7dc9cf2348001286ebbc5d27bd1ee8f7430fe80d1258efddd90ce9bf63ff8f7a"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-keyboard-collapse.json",
+      "bytes": 44762,
+      "sha256": "ddeb3157efa425c405c03de6147cbf90495d68839e44f23181e9d9d4fe4df7f4"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-keyboard-collapse.png",
+      "bytes": 68936,
+      "sha256": "90c7ac611725c1475faae062de80e60955dfe09e4940ed4d9e2a14861bd30fac"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-keyboard-expand.json",
+      "bytes": 65268,
+      "sha256": "a9c8f4630f15307b4a4447f3e3ba6a52bc8971a2e0357734917cd38e1aa7f9ed"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-keyboard-expand.png",
+      "bytes": 74388,
+      "sha256": "593c68c75f664c92a70f80ca2f8356af834846a7f6f9dd5a86ba432557579a91"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-keyboard-next-leaf.json",
+      "bytes": 65259,
+      "sha256": "85edb3374033a3987d819f282034f13cdc89ec025906f2ceda60a5a591dfc391"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-keyboard-next-leaf.png",
+      "bytes": 74553,
+      "sha256": "fe5a6ffb74776ce2b3bea39cd20fc36b11f883d91881f8696a67e3fc81279e08"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-leaf-selection.json",
+      "bytes": 65255,
+      "sha256": "b7726c12f09509945e95302c7e8d614e8155519d8c6a9bbe22f9bbddf0ed677d"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-leaf-selection.png",
+      "bytes": 74553,
+      "sha256": "7bb4bd13db8205ce60fa2a65359a438ace7d142447e871e7cc40a94d9cea0dd2"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-mouse-collapse.json",
+      "bytes": 44745,
+      "sha256": "ebfe2d9503e3ec861e17508ccfebbf97b08813ce75623338e9526ce360ba665b"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-mouse-collapse.png",
+      "bytes": 68600,
+      "sha256": "f88f69f2d2681e4b6b3c711cb5d8849f99fe651e091d30f0ca0d047cd29dcd6e"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-mouse-expand.json",
+      "bytes": 65251,
+      "sha256": "ff0f59b837ebfad117e9ded4066ef75d02da017a804b32b42a4cae93dcc5df88"
+    },
+    {
+      "path": "grid-actions/dpr-2/classic/tree-mouse-expand.png",
+      "bytes": 74117,
+      "sha256": "163099d1b6bd954e3bde4ab30333939df8748f8065c96a2e0d552392f5eaf8d6"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-checkcolumn-toggle.json",
+      "bytes": 220325,
+      "sha256": "51c5de0e9be4347dd0f1817e5e1a6f50e31cfb55d3d55a498a0a0cedc0e66721"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-checkcolumn-toggle.png",
+      "bytes": 106860,
+      "sha256": "71e1ea02ed5e760f2b9027523de717e506df5b5c07480a66f39450218faa3f56"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-column-resize-drag.json",
+      "bytes": 219833,
+      "sha256": "2f3ecaf20d2c4dbc1e641ca07d04f47d54211575b53e9da9b550b640a677d54c"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-column-resize-drag.png",
+      "bytes": 105899,
+      "sha256": "ac0f7a822d498191d82467b1032ab64d32380212959d656cabecdd9eda751a09"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-compact-viewport.json",
+      "bytes": 219812,
+      "sha256": "b5051769018873ec825b6761e25ccba473157e5a2da0c03f84481b055444f948"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-compact-viewport.png",
+      "bytes": 81983,
+      "sha256": "11c6e019c29de8dc506c6a8104a41e32541f44a4376b2052ed2800ee400111d8"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-header-menu-escape.json",
+      "bytes": 253290,
+      "sha256": "1bc6bf0bc7dce5407ddc074d12d640864254c038f9077a18a8413994717a6c49"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-header-menu-escape.png",
+      "bytes": 107835,
+      "sha256": "2c456af4d72f0ab41c3f542096ed734a213d73f9e3d8e66636e783d41d26b39a"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-header-menu-open.json",
+      "bytes": 253286,
+      "sha256": "bc5f8463815b8985e714897d6e43db5d781fa0ce048d8f7f39182c58f5887cb7"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-header-menu-open.png",
+      "bytes": 116941,
+      "sha256": "8c1ca69009fbe3269a725e7efefca2bbb8554acc46714f664732d37d2188ddfd"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-keyboard-next-row.json",
+      "bytes": 221779,
+      "sha256": "6b2a514324e8d0101eb15f97a5cc1395b8d5b12ae4c51e7f64051c009c356193"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-keyboard-next-row.png",
+      "bytes": 106267,
+      "sha256": "ab239df036603bd4d1e173464d4bc49b912886b390f935264df7e07b0b147e21"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-row-select.json",
+      "bytes": 221772,
+      "sha256": "cff8b3406ff696b75895db727eb54ef144733f794b934dfa3163467a6409cfc2"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-row-select.png",
+      "bytes": 106170,
+      "sha256": "7007f443fa663c473398c05da0c34446ee1c134c57bb744da0ae551ba8bac6d2"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-scroll-both-axes.json",
+      "bytes": 219841,
+      "sha256": "d3e79533e657d6232bebfa0d26f78a7f6caf6be37c02c97a9a313d8b0fd85975"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-scroll-both-axes.png",
+      "bytes": 71944,
+      "sha256": "0725ead169510546d572b44596c6656d3816be3aa1d3af35a77ad9ff40f2f690"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-sort-asc.json",
+      "bytes": 224627,
+      "sha256": "1b474085b16f978505135a86dd4a91c3590e9b6404ac86cd46804891e62038bf"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-sort-asc.png",
+      "bytes": 107452,
+      "sha256": "b8b850d628aa34238c55fe90367aaed846dc5d7e67a5aff2c9890af9b1ef433c"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-sort-desc.json",
+      "bytes": 224631,
+      "sha256": "528cf1892e279e9ee4897e309971fcbb54f8707fd70b6502951fa29104a94a83"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/grid-sort-desc.png",
+      "bytes": 107417,
+      "sha256": "acdca6d4901dbf37175b18a730dbb66d5094241598ca7cf7ee2c0a0f4feb0f28"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-first-boundary.json",
+      "bytes": 176714,
+      "sha256": "1cd14f5536746e8166c030447ddf8a7ff3f9a1fd3d4953c2778f8ff27b7b5288"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-first-boundary.png",
+      "bytes": 99558,
+      "sha256": "2d07cfc7c8457146d0c7325dc3da8c85b5051e8380422427ff45e44666ca311e"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-first.json",
+      "bytes": 176739,
+      "sha256": "a8ab100f2f86320b3ebd134c61bd12b8f7ad25baf1e4116476fbaf6dedf82739"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-first.png",
+      "bytes": 99619,
+      "sha256": "116c82b0deaa39def6715c3d5bf8b2bcd806391761db8b9caa38b7006a14acde"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-input-enter.json",
+      "bytes": 176708,
+      "sha256": "f3e72b949014f11ca11ae9b801e0eff8530f0737151bd78b0b3ebbd2faa755c6"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-input-enter.png",
+      "bytes": 98957,
+      "sha256": "58efe98874c58ec4298fa6d95ff136bec1754b8f0bc9dd18fa5a64f58fe4e6ac"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-last-boundary.json",
+      "bytes": 176746,
+      "sha256": "be82ebb3c5088a0224b03832e3f93d9fc06cae73c550500dec9b489b1d87553a"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-last-boundary.png",
+      "bytes": 101026,
+      "sha256": "9e43a7c46afecc155b8a4881533c029f42f33809919af1df0ec990fc0738a4c9"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-next.json",
+      "bytes": 176698,
+      "sha256": "4a65d58c933b8b7f8dd5956b19b1dbffd1a4acf1a0a8915a866e4c2a5f26945d"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-next.png",
+      "bytes": 99264,
+      "sha256": "93f0a9bdcba9b7c419f85864192994aefab70cba4e5c973fa1502607453f70a2"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-previous.json",
+      "bytes": 176701,
+      "sha256": "e11b973af657ff94b4107368028046410edecc94d425ce427313000322c44718"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-previous.png",
+      "bytes": 99856,
+      "sha256": "8c90f76502c7e8aa58b74e236fa91ec20379499938e1adf26d354c438156531a"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-refresh.json",
+      "bytes": 176704,
+      "sha256": "a09eb7683e694f5e6c3498ef19f0826cf41f8b5f42e179e92d4e408b7b233887"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/paging-refresh.png",
+      "bytes": 98995,
+      "sha256": "f25508358e5f5cee0904a2331cb8b3e89f78354f4b890c0e5cdb0a8b1e47e563"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-keyboard-collapse.json",
+      "bytes": 44889,
+      "sha256": "4366844f95d6121fe890a377bc2d9e4473b0a957ddda878297b370404ac1d5b2"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-keyboard-collapse.png",
+      "bytes": 68368,
+      "sha256": "2722145972920518fbdd46548c446e7b991a0d1547e896fbd6f148251b4e7125"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-keyboard-expand.json",
+      "bytes": 65495,
+      "sha256": "b3383da372eb02147be9ce27abcad3ab3ea99b4bbb39cf19ba18c92c5c0e062f"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-keyboard-expand.png",
+      "bytes": 74441,
+      "sha256": "34e7c31ccf2754da7573f1102c8575947710ea281a3b28279ca369a5bb914e8e"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-keyboard-next-leaf.json",
+      "bytes": 65486,
+      "sha256": "97f59e08200f103c2abdd82409db1550803651409a2476bac9ea034f167498da"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-keyboard-next-leaf.png",
+      "bytes": 74609,
+      "sha256": "36510fe685b978cedd8bf9186ee470ba04d97cd95c26a1a3c2ffe4a2a105d078"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-leaf-selection.json",
+      "bytes": 65482,
+      "sha256": "fd7d4f2fdcdfd65da3414363a5188ca8078d01fce5e14ec15f604bda141d3bdf"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-leaf-selection.png",
+      "bytes": 74540,
+      "sha256": "270f9177e461c801ff1087f1f2dade84a5c6411174516cfccf1ea7c9143cfbc2"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-mouse-collapse.json",
+      "bytes": 44872,
+      "sha256": "b4aab1e08d31b1b57248708bea8cc8d89f71047a9c82109c9277e6d2d21f98f2"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-mouse-collapse.png",
+      "bytes": 68369,
+      "sha256": "72414d70e48d648a67c30566bbf6eece9a9a2c542fed75b2fcaf7710fed548cf"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-mouse-expand.json",
+      "bytes": 65478,
+      "sha256": "5aa7582bca3d5fa19d9689a8b4315de74c4bd6ebc59c6129f8cfd302102fd9e9"
+    },
+    {
+      "path": "grid-actions/dpr-2/nordic/tree-mouse-expand.png",
+      "bytes": 74467,
+      "sha256": "f81701bce571ff84c332952ea7907cedcb1b1e87b884b0d7d533253afd871ed8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/all--normal.json",
+      "bytes": 1748775,
+      "sha256": "fe9b2b819a0ddd1a2ca7f40045aee50f0a352aa60ac67c529383e0198344379a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/all--normal.png",
+      "bytes": 180720,
+      "sha256": "42ecd44f4da2a339652ba521b4a6aa53ce667c8f18db7ad9e2bb2f595af1a485"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/border--collapsed.json",
+      "bytes": 80153,
+      "sha256": "55490cfaac61ce0ffd17bb198e21bc0c7ab57a5bf0ef5ee20b332f3612d51adc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/border--collapsed.png",
+      "bytes": 23716,
+      "sha256": "4b7259d203a51e39dd964e04eb97b8e03fa8be2ab26ccdcc674c0bac648ecc31"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/border--expanded.json",
+      "bytes": 77993,
+      "sha256": "29ed8b9726509cbbe7a3a10e73f2b8ea94026c89a45d76f72c01fb53d908a56f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/border--expanded.png",
+      "bytes": 23740,
+      "sha256": "3689200b293992acfda8ebfc730b9c6ae101070facc29a92b8447552b0647132"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/border--normal.json",
+      "bytes": 77987,
+      "sha256": "e69b289a0db36e443d85d8b000f384b91c9fb14da338779e2e9b4578801c245a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/border--normal.png",
+      "bytes": 23163,
+      "sha256": "bcc8a3fec42b67143df1b60353a56d4d2b2621a69eff7d90d6ca44cb240b3370"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--disabled.json",
+      "bytes": 54379,
+      "sha256": "57ba5159389089942e7408fd6fc5c8803f48601a55082facba69c8b126eb6199"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--disabled.png",
+      "bytes": 20625,
+      "sha256": "51eff50132464a9504793e3f30b97f72303a6d79857cc14bca73a069b66579c6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--focus.json",
+      "bytes": 54380,
+      "sha256": "6b53edef73686a28405f01419ade2f56431ded5fc26df904371b3391c03fe0ea"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--focus.png",
+      "bytes": 20304,
+      "sha256": "ff956f4d48bc0352d90ac7e526be3cf4e642107dacf5566485b0747ca9e78802"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--hover.json",
+      "bytes": 54362,
+      "sha256": "b9646da2a864ca38248fb76d4cc39ab6c37daf48a99bdeebc4c32aa8cfbbff28"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--hover.png",
+      "bytes": 20063,
+      "sha256": "b668954c8394eef40f43e7c7bf47784f8c95c68f334a106cea0704186ef62ae7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--normal.json",
+      "bytes": 54369,
+      "sha256": "297b2e84ed314b2b8785fbceeb6fde0cacd049ca7d9ba519ecd0899e6e070582"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--normal.png",
+      "bytes": 19991,
+      "sha256": "8154b64d86dcf3148f7b8e23cd4b9fc764f8df75970a8410a3d096b59ac0103e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--open.json",
+      "bytes": 65397,
+      "sha256": "aef980e73999f4de2a1c30931e3806fa6f5559580b51cd9f970a4aad7fa238cf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--open.png",
+      "bytes": 21367,
+      "sha256": "5053c8d1622a10996eb79edaa8fab208f4cbac2376aa499f26218071f903023e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--pressed.json",
+      "bytes": 54386,
+      "sha256": "429edac9457da5efc4886c6c32f3124d42d736e98f9177106fa81f083e548aa9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/button--pressed.png",
+      "bytes": 20977,
+      "sha256": "e76e28a2ae1b7a962e63669221e5afa7989c512fb3e02805d48441c82febf6d8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--checked.json",
+      "bytes": 67311,
+      "sha256": "9ea1362c1cc7b7a3fe0823e406431384a2f55fd2f17c91ac0bcbcd6b473941e1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--checked.png",
+      "bytes": 25260,
+      "sha256": "e3e2d82f1e24a797396a2380b4c927af435f31ae69677b576f1468944c4c2aff"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--disabled.json",
+      "bytes": 75641,
+      "sha256": "3a84c36b53ad3cb628111343f4f8aa89ea098bfc1027c520034bb483e6cc2dbb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--disabled.png",
+      "bytes": 25009,
+      "sha256": "671f7c5b5ea54e78d31f40a099f334626dba3e69d0e544946b799a8af01ff05d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--focus.json",
+      "bytes": 67328,
+      "sha256": "33fbc896295fafb8a2cb775ec614f92c7b8ad0b6a09ecc1cfcff39388b790f56"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--focus.png",
+      "bytes": 25014,
+      "sha256": "23008bb06f86abc9e6532c3f6665795a25d1520c45b0b14e8610799c1bc0664a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--normal.json",
+      "bytes": 67301,
+      "sha256": "2a376f26b1ed117534227ab29d0ca2a5c6c5e49407f3b0489fb4c9ca6b3c4363"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--normal.png",
+      "bytes": 24971,
+      "sha256": "5d2d7ea7129176f1f733ee52d19ed529cbbf0f533cd817ecb4bfc80373106f8a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--unchecked.json",
+      "bytes": 67303,
+      "sha256": "08cc58f344923d62e703b090a237b0f01fab099922ffaf478b9c4dcbcc53697a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/checks--unchecked.png",
+      "bytes": 25244,
+      "sha256": "7f32f2465b0607f34058105bc9f000b73bc35133f9c0b457e4196d021fd06ef9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--disabled.json",
+      "bytes": 204428,
+      "sha256": "560bbbee52b1ec5673b1569c513b7cd2ceac1c3199b025e0509697ac9716b2d1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--disabled.png",
+      "bytes": 27139,
+      "sha256": "23df481958344cfb5639bd4e87150e031561ffe339fd44368ec6c5d43419fecc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--focus.json",
+      "bytes": 196165,
+      "sha256": "f8a4a54618e8f0916a5bb7d3a8515c7ad7c5db28f43e39b40661ba1bd2b8e8ba"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--focus.png",
+      "bytes": 26974,
+      "sha256": "9ddd0a81f4d56116cb887db3af19fb0bebfbf03ce8a2bcb39dc74f642de1cdad"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--next.json",
+      "bytes": 196199,
+      "sha256": "fb78d7dcc9becb8ccd4667629ffd3e7e18f7bc2fbe0b1418851ea87c3c729450"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--next.png",
+      "bytes": 27018,
+      "sha256": "406ff49429621474976ff42c9be13534f78742b239069c222065d6aa982ca5c2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--normal.json",
+      "bytes": 196143,
+      "sha256": "5340995ac07e3cc8ea84654c21d75a11169cf9c961260e4bab64c8898b88b5a6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--normal.png",
+      "bytes": 26844,
+      "sha256": "ffc6446dce912a88e9cdf1c9f6ae9558519eb35edc738207e92a598f43559f77"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--prev.json",
+      "bytes": 196202,
+      "sha256": "eaa55218c06e2fa701bd76f0a4faacf7a8c1ad3a746eec0ef61c229764aa4c3e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--prev.png",
+      "bytes": 27199,
+      "sha256": "a1d826c8e5f0088e719733ecd430dc84a40424f1aaf205ac3f349368d80ba6a9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--selected.json",
+      "bytes": 196149,
+      "sha256": "3ebcad6cfef161aeb6aa6e8d37513f4605df3c661e9d8a88a5f7f295d8ed55bb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/datepicker--selected.png",
+      "bytes": 27110,
+      "sha256": "833a5cefd1ade545263f61d9209262a92f72be4e061a76e558e10a40bbad306c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--disabled.json",
+      "bytes": 174015,
+      "sha256": "0003cf2fce1ec0604e969a5daf6a252d115f1f22fc83d5c025ab24e73dd113eb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--disabled.png",
+      "bytes": 23822,
+      "sha256": "2aa2db98cff04aae223a3439b91438b8f3552ec92ebe4f47db2d70dee2386779"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--focus.json",
+      "bytes": 165735,
+      "sha256": "7464b8c25dfda57956ad12252fd5aead0de4f0cde2f58714c20ce6bae0a7b560"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--focus.png",
+      "bytes": 23910,
+      "sha256": "87e5a94519ffb8fd065dfe87468e01c8565c6a74a2b30e5c163fd213f29853d7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--normal.json",
+      "bytes": 165721,
+      "sha256": "89f51da42629448b03f57c54256ba356e2ea09415c14621868a2b8c31b7b17fe"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--normal.png",
+      "bytes": 24032,
+      "sha256": "3fea2369a4cefe62d5a3dd3e4b2c7c6c5f9f5341754d365c5893fa0a67d4e168"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--readonly.json",
+      "bytes": 174128,
+      "sha256": "5ef9b4d01f67bbde041d0d071acc46290b16f8734ef8901be0a72ff2df0c84c4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/editor--readonly.png",
+      "bytes": 24469,
+      "sha256": "2dea85d0aee9a88ed60a445a7083165ce2674f48605fe1dd46fb8cda16399ec2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--checked.json",
+      "bytes": 43976,
+      "sha256": "e47c40b099fb60eba5db3a9ae63a4c18acd9e0f977c0229d000882dac0749dc0"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--checked.png",
+      "bytes": 23476,
+      "sha256": "93b143741413cb297b496effb089f661d40c63cbce4c0128be26cc86a27d8456"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--collapsed.json",
+      "bytes": 43678,
+      "sha256": "84735f0916060abb4cbf31dbf9dc5c966d43ff63c760f0d786ee49cabd0c678a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--collapsed.png",
+      "bytes": 21269,
+      "sha256": "af99a9bd4d13623034efe728f999f3430b997b26425367c71ce12fecf39a7c51"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--disabled.json",
+      "bytes": 52169,
+      "sha256": "dbd888c9184be6f1c24da998ac75167183c0b2d640c1ca9258f465613ea7211c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--disabled.png",
+      "bytes": 22278,
+      "sha256": "cb6e79d807d911119f912cacefc6fd55873e4f1939f2aeabf39b44674d120c75"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--normal.json",
+      "bytes": 43901,
+      "sha256": "a2e31621e34d436c9a5d439d4b54b56ffb733a48d07303618d034595419102ad"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/fieldset--normal.png",
+      "bytes": 21995,
+      "sha256": "175364d2f384b388f520db2839b099dba9fb5a16637e8d7a9ee01836d5f69258"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--disabled.json",
+      "bytes": 118270,
+      "sha256": "eda9fef8107ee39afbc435260f8f52154c5ea377363a176487a4c1dff9994546"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--disabled.png",
+      "bytes": 26205,
+      "sha256": "30b99b95751d555c6e30107893a4af86d0d10682545b8948ccab1718d0996e76"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--focus.json",
+      "bytes": 110016,
+      "sha256": "b4794187987c76936de329af3b7ff23d3ed90f16b3a6475a28dfa979d4ba4dd6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--focus.png",
+      "bytes": 27087,
+      "sha256": "97d4beab01d02a9c1eeb7577ca2f771fcbfc91db068839ebcb45ff45181649e3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--invalid.json",
+      "bytes": 110132,
+      "sha256": "4edaa31c6c8adf004f1ba5f185ab2438ce5cc8b2cc581b1b3f1fd28323dea2f1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--invalid.png",
+      "bytes": 26531,
+      "sha256": "4c4f45811508dad58e7520373f351d13cb109587666142b804845d59e5406019"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--normal.json",
+      "bytes": 110008,
+      "sha256": "d1ee266070bd2129a1c89cf5f2c1f433bfb8c39535729587f3eb8941070f99e9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--normal.png",
+      "bytes": 27072,
+      "sha256": "54c743dd32c4da2eddb80fdcecd51d8a1220b601f51c014c1a20af0b60ac4ea7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--readonly.json",
+      "bytes": 109906,
+      "sha256": "239364e9ef5da36704e9d137b1a7224c823ee1c0a36ee695bfc58eb9062f519c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/form--readonly.png",
+      "bytes": 25770,
+      "sha256": "8d5466d4fd210cebd4279b95f79d7748fd3d83cc5049d004c13b7691284f7565"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--disabled.json",
+      "bytes": 228815,
+      "sha256": "17c4560abe8905ae4083abbd17d49563dd57aff07bca502d71c341aceea555b4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--disabled.png",
+      "bytes": 30868,
+      "sha256": "1f8beb6cf1258d02f9bd3794f363617307ad156dac58f3a2c2ab1d17a1b75cd7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--focus.json",
+      "bytes": 222478,
+      "sha256": "12a27f7e75151ff88e86f4a336ba2f9a4713a8f5193b19bce2c2716ddbe4c726"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--focus.png",
+      "bytes": 31014,
+      "sha256": "69e3be228bfbe8029410edd597d48f64a0de36d0deb6ff8d4be6ee2d4cd1491f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--hover.json",
+      "bytes": 220542,
+      "sha256": "26f526bd01d0eeac2b8225a60fd4e883f61e84ab2c39dc86384ce5a5dea7ad61"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--hover.png",
+      "bytes": 30976,
+      "sha256": "b7a64638380c398126e339756d71f5417656b36d976b4b3da7a8b77a4d257423"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--menu.json",
+      "bytes": 252395,
+      "sha256": "3926e5fd13e12ecde1618c67a7e63f250c75c91f0c5c3259fef2c3ebf354f2a9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--menu.png",
+      "bytes": 35115,
+      "sha256": "8c697d19839b2067854bb65674516f5eeb77cdad007433a3ded4ee2912836e71"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--normal.json",
+      "bytes": 220545,
+      "sha256": "4c5a13347ae58e313268f3e5223690263b968e1c69a34f185b027fa1b389723a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--normal.png",
+      "bytes": 30903,
+      "sha256": "5d06f9586ee35f94fb14045ff65e3b80704d39c9c4b0c27210986d8ad36a40ef"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--resized.json",
+      "bytes": 220548,
+      "sha256": "2179f2de04bef3efa8072146e35598cd1586326e747f16fdf42db77f5a0f111c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--resized.png",
+      "bytes": 31152,
+      "sha256": "8e45e2ac72c8647a7f8d111494197814b878028dca042a50d6af7f9e111aa51f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--selected.json",
+      "bytes": 220551,
+      "sha256": "c815c8509b111277d11bf3ffba9a46e9a579e91ead328e2f7566e39226f3ecc3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--selected.png",
+      "bytes": 31550,
+      "sha256": "eefa4e487f8ce1820732171a2c71cc70d1323b80ca227438f148a204030d6f89"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--sort-asc.json",
+      "bytes": 223110,
+      "sha256": "cce8038c876738c0b99886180d407e7c1ec5d4190249fed1b9bc2cf6695ce91c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--sort-asc.png",
+      "bytes": 31420,
+      "sha256": "ba487c82218dba16bf42381cd2937890cb4643cf8bcb0368d1cea2b68c477e50"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--sort-desc.json",
+      "bytes": 223116,
+      "sha256": "5e7c3cf9fb3ff16f70c71b4c19e4743c178b82044cc479e6a08f4d9b87dcb696"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/grid--sort-desc.png",
+      "bytes": 31826,
+      "sha256": "372875fcbe07f2f1281ba0aee73021abebe80a17a03d8d72de41f083f6d2c0d4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/index.json",
+      "bytes": 48980,
+      "sha256": "14e4c2e12ea8ed219f077cd091a1a19893201ed9da9fd62ad79f65e3098d1e46"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/mask--hidden.json",
+      "bytes": 12549,
+      "sha256": "8b6904e226bd07a1ade732ff94caf7c08c98ff337c34a7e5f6d30f00a897d759"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/mask--hidden.png",
+      "bytes": 20501,
+      "sha256": "cca6746a6c21e4bf49fddcf2f252d67eb966ca7abe2dfc8a059e23c7a7ea68e6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/mask--loading.json",
+      "bytes": 21342,
+      "sha256": "990a932981cfec659b084ff4424d332ca16c01a17222d0e064ac06f837530b02"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/mask--loading.png",
+      "bytes": 22159,
+      "sha256": "501cee1d973ec38902ed39e127bbc7546112b9d3e3d3cd19c5c2d6634308d410"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/mask--normal.json",
+      "bytes": 21339,
+      "sha256": "c45fb707f8e64c69d8b8bae085f0c18b217e1905653d99fc2a7b547e1f66e4d8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/mask--normal.png",
+      "bytes": 22073,
+      "sha256": "643e9f4c9d6a392ff401435201966ef1b834e1f738f8c51f73000bff16824ff2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--checked.json",
+      "bytes": 47140,
+      "sha256": "f827bfe7eb2cadaa79365086c4c3295785b25cce973a4c8701d2754f692dec9f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--checked.png",
+      "bytes": 23536,
+      "sha256": "66aadf69848a4e8479dcaaf61af19a2e6baa00ad46567cd1922ddae573dd971e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--disabled.json",
+      "bytes": 55525,
+      "sha256": "dbfd412af31dcd69024785e2d37cee874e6bf3400c3339b13712e58db820575d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--disabled.png",
+      "bytes": 23937,
+      "sha256": "00a2bc844c0949a4d4b759c796945adaf47a4ed89d65933e59d520f789eba03c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--focus.json",
+      "bytes": 47357,
+      "sha256": "e25e4581765d55ffaf79c8f8145933727093e13ed0b800f0452b136323d36d86"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--focus.png",
+      "bytes": 24193,
+      "sha256": "0a8a78ba833633542d1c27620d49d7f5af33b3e7add5c5f19f3ee9bcbcb2e97a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--normal.json",
+      "bytes": 47277,
+      "sha256": "d5278c7141a7c9e4665da08a55b0b5f33d72adc6e2c23686fce73ff68092d731"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--normal.png",
+      "bytes": 23374,
+      "sha256": "acd8c99cfb0eeaca844a6cd8b54f3afa4e447ed9db1e32b1ed15e283ff2b5336"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--open.json",
+      "bytes": 47271,
+      "sha256": "890414b7f6a3dbfd21a6d644d74bbcbd95dd408ef374e7da55dae00f1e0631b0"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--open.png",
+      "bytes": 23187,
+      "sha256": "c2a3b0c6e0f4535c392dc98487b6edabded911c7e09a440d4d66940d9a14c6c9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--unchecked.json",
+      "bytes": 47156,
+      "sha256": "365c0b9024052ce883995055dac0df96bfa1f5f286221fe28234a235b8279d60"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/menu--unchecked.png",
+      "bytes": 23617,
+      "sha256": "8d8975ef1a35f71c7d7730d69875b92c77c5efc919adb1079e87723ef9e9311d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--disabled.json",
+      "bytes": 186748,
+      "sha256": "3b3f92348cb6906c6efadcb208d325a4199353f92998ee8aaff715adfa8047a3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--disabled.png",
+      "bytes": 29515,
+      "sha256": "9646be7668ac572f941b1dea3c681987936660c004e0b59674eeff51e7040238"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--first.json",
+      "bytes": 178010,
+      "sha256": "b4f7eee808bd59244a976b555c1ad904fe8a7b5953216f077de6a26a46b1b6e0"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--first.png",
+      "bytes": 28801,
+      "sha256": "33c2526f880261126954c531b6d4a474cfab0d69b48d2903b36765fb4733a806"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--last.json",
+      "bytes": 178009,
+      "sha256": "af3b3ed7b8ce6aaf8e1c19b7f3393240be7f159dd922b6d037ed651e0988b0cf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--last.png",
+      "bytes": 29241,
+      "sha256": "6beed78ab6ecca659b67908f02a2e67f1905e3fd9131bd4eda8b0cc46c1d13e4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--middle.json",
+      "bytes": 177957,
+      "sha256": "aa96614fced034c8eb1658172fff3b392a9b1940c8f0235ebc1e602c149af151"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--middle.png",
+      "bytes": 28764,
+      "sha256": "273bf11e7ed0e06282a23a233f9a4fae5b4e329b3a250348df144db29b259222"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--normal.json",
+      "bytes": 178013,
+      "sha256": "981daf47441719f1b9380dc0cf9e2d50023d8266d49274b0f58a5071d04e0231"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/paging--normal.png",
+      "bytes": 29043,
+      "sha256": "3589359ae0c844587047ca762d21addb404a8d65bcbb2810621279d37f04ddaf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--collapsed.json",
+      "bytes": 31036,
+      "sha256": "fd9fc9e99196cb3dbd9153b2ac9d942dc6c9103bf269f7d809a0166c83a46141"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--collapsed.png",
+      "bytes": 20252,
+      "sha256": "b017e62daf6eabc72b624a81ebc251c9a619f10edff1079e040b2b779ce003ee"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--disabled.json",
+      "bytes": 39307,
+      "sha256": "b1273ca24fd565be5ad561e22e044b11c4161075474c9489b08f0f3bc94bcca8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--disabled.png",
+      "bytes": 22204,
+      "sha256": "56e510f2e326d034d7d03bbdd4512b213ee977cdebe6ab93805316e77e23a8f6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--focus.json",
+      "bytes": 31056,
+      "sha256": "64581b3e71776f7ec9c85a52baf029584a060f6d58f1402d276e6c6c0759dde7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--focus.png",
+      "bytes": 21969,
+      "sha256": "da236b71e130b6fac6164bcbe1912556251d8b6ef1a27b7f8efa7287c32d1d01"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--framed.json",
+      "bytes": 31142,
+      "sha256": "fc42a0d6db8373ab5de04a84719db06972472971c3caf43cedd3922e48eddb40"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--framed.png",
+      "bytes": 22251,
+      "sha256": "ae1fd60b63c08f5427c4ccb8a3c910e5b5bc5e4479f66745c8024a10e8c909a4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--hover.json",
+      "bytes": 31049,
+      "sha256": "6016d1b81c6d90d193383e07da1865f6106dec1d0be6d37661a76e16488fb0dd"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--hover.png",
+      "bytes": 21863,
+      "sha256": "cab8e38d47d81068f81ba59c3d588055756ee19c63b9e5ac6bd11a7ee59c88da"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--normal.json",
+      "bytes": 31048,
+      "sha256": "22cf8308105d1c5e43c1f24d3dc4c7437023ae721eed5a137d47bb7bc3b914cb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/panel--normal.png",
+      "bytes": 21683,
+      "sha256": "ed16c5df266104caf91aa3f552faa46020f81f6f4358ae822fcbd5fd68fe90b1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/progress--full.json",
+      "bytes": 12652,
+      "sha256": "e4abaa8c69bd510bcea0e94260563e907fb737d75c4e88d7e1bc51f0cd523928"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/progress--full.png",
+      "bytes": 20225,
+      "sha256": "637d52f3ae30db092255572fff0433fb3d344b931ed9db1fef0cb0d67a76bf04"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/progress--normal.json",
+      "bytes": 12668,
+      "sha256": "b9b1609134f5c8d8ef6c7d8040745b333f7299d23f8ac0f2264a2c40750387f4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/progress--normal.png",
+      "bytes": 20076,
+      "sha256": "353dfe60b835d7c30d04460c26707317664467a2f91c0cbe7a99162add8e0c5a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/progress--partial.json",
+      "bytes": 12671,
+      "sha256": "4f2b23ed1f8d0b7b0539abbef7a4c80e6b4389aa62ffed605c87527363d57cd1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/progress--partial.png",
+      "bytes": 20207,
+      "sha256": "92a4ca025ae2f056adf4197446220b4be4303e253ababa26709924d59e64caca"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--disabled.json",
+      "bytes": 49942,
+      "sha256": "f7a822e7a6a638c97bc91d361903914a3c1fea0f4907649f65e71fc95b5415bf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--disabled.png",
+      "bytes": 19519,
+      "sha256": "096ebf9ed532c88b71b6aaccbd47903b6c9bdeee5b19ed72c13f545edc25101c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--focus.json",
+      "bytes": 41711,
+      "sha256": "77c8a037f2dabf4a49c3d990beada3853bf678d19f52772367f970d501fa8306"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--focus.png",
+      "bytes": 19595,
+      "sha256": "93d8562d72c50dfb43d760d9af7c06530aa7e87db9b4c874153c2d72d8e17481"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--hover.json",
+      "bytes": 41637,
+      "sha256": "5cd31b20a7fa0c5de332b82d342e1ace573c0b0b88f04b9608af2053b5077d4c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--hover.png",
+      "bytes": 19389,
+      "sha256": "37f0b6885413f587e394a4f81f6459e6785dbb1aefbaa504eb21688591bfaa2c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--normal.json",
+      "bytes": 41678,
+      "sha256": "6f2f24b2b8d7ec723c0c662461704069016d87d51b2ecd500f1d5cd0ac109f26"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--normal.png",
+      "bytes": 19477,
+      "sha256": "09f5ceab2642b869d18727dd02d3971466c0146a132d6a001c7721f31da6684c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--selected.json",
+      "bytes": 41676,
+      "sha256": "f25f7435fbc79d63811d673280ed46c8023c52f5103154ce6b034bf3569452a6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/slider--selected.png",
+      "bytes": 19749,
+      "sha256": "378beddcbf8ae91433d677eb5fa6a6b6c1e8d352fffce915c0d8cb50938d2656"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--focus.json",
+      "bytes": 121645,
+      "sha256": "1d997756dc223ca46d1118fab660fa985bd8deee011c11a0acb71965ba524fe2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--focus.png",
+      "bytes": 24089,
+      "sha256": "990b4748d8034b2011d68f88b940b677eaf8aa214ccc44642339e002bbed395c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--hover.json",
+      "bytes": 119751,
+      "sha256": "2e9be4f3944db9dc8ffccd09e5bf58d0621e573a44660f6f8eaebfdd36ebf83a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--hover.png",
+      "bytes": 24456,
+      "sha256": "23038525c924d31f6a1da9638ace32ac6b5940fb1d71400d410e9a89c48d59d6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--normal.json",
+      "bytes": 119754,
+      "sha256": "92816b35f0f69607401a14cfcc58c63ad6756a7b556728ab332fc3bfa211a97c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--normal.png",
+      "bytes": 23998,
+      "sha256": "84fb90d2f582342f5a59f677835af252b2f915fdb0bb9bb4fd7e53de6eb71f7d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--overflow.json",
+      "bytes": 120107,
+      "sha256": "35358e43efa690b84d47bc416d2b2e1249552c0093f288745a6ad8bed154c85c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--overflow.png",
+      "bytes": 23831,
+      "sha256": "382edd6ed8d7c749b3cc8b9a20fdaeb98e8b70eabe1cf9884f3304c7f04c9197"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--selected.json",
+      "bytes": 119764,
+      "sha256": "d3d8bc27d4f0a52c3ffe740f26738cecf015bcafcf435f11a7cdfa8040100e91"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tabs--selected.png",
+      "bytes": 24549,
+      "sha256": "7231992023840e2d235375bec400c602ed9e19c379f1ddf246eb13ae0f67356d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--disabled.json",
+      "bytes": 418782,
+      "sha256": "c57041404d01614362dafae652136e83ca1631fa5c71127ef4bc56192cf40bdd"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--disabled.png",
+      "bytes": 31867,
+      "sha256": "264c96fc9f9e0762475e97de3e689f8c8ba63199654df2fa48805728567f72cd"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--focus.json",
+      "bytes": 146553,
+      "sha256": "9ca310da6c0adfd2279140970c5c5e4bb61a0adaf14c20cf0e98b2ffa9f83291"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--focus.png",
+      "bytes": 31473,
+      "sha256": "299a2358ca530d9af7fdff5e4f6a6634403e83e1ee099ac156bef00924d35c9a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--hover.json",
+      "bytes": 146542,
+      "sha256": "a61c42632c7039520027a05a9eb918d1feb8f34dc84bed74d62f67c247b7941b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--hover.png",
+      "bytes": 31339,
+      "sha256": "3d7c6c55006065cd95671468ac2fed4344f034bfcc219a6556879ac281dfd9dc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--normal.json",
+      "bytes": 146541,
+      "sha256": "79a7aa075cd9f63a688b4ef22b15d1e823d5fccc7c30dc8587f3c56e0627f333"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--normal.png",
+      "bytes": 31098,
+      "sha256": "8506acc0c51638feee31d7a8adc7e82fbf9d992ec7e7874db9a6a0009c24b8dc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--pressed.json",
+      "bytes": 146548,
+      "sha256": "5523d8484a8dac01de515d84afbf9303a1a1c579dc468d1672ec2df9a0534d4e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tool--pressed.png",
+      "bytes": 31879,
+      "sha256": "aed24c6d2794dd4d23158940929e719d07b983a2a124f137e735a0f84bb1531f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--disabled.json",
+      "bytes": 118569,
+      "sha256": "b9750e994331d72de2b8dd00964ac4b88f5fa6b65f451f46701d87e940d270fb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--disabled.png",
+      "bytes": 19727,
+      "sha256": "c3da115f342d5c177b7cea3ec637a7948688b717e89b796ec3f768c46070fa25"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--normal.json",
+      "bytes": 110714,
+      "sha256": "54970c8a7082356e1a274de9f285f5d74f09140b7fe3f94b8e0962654e831687"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--normal.png",
+      "bytes": 19582,
+      "sha256": "13a63ffe60e41b7b9a197b027319e88434f7d5568cb2cd48af0c7f95e1bf0e29"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--open.json",
+      "bytes": 137342,
+      "sha256": "e03dea8b144b1a69c7c5a4ba6389cdd1e00a96381ef61b8bc22fe7d94f368d81"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--open.png",
+      "bytes": 22892,
+      "sha256": "0ee30b637af4fe6472fbec02c0b37391c53d24756e2ee1ade253eb66a013f785"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--overflow.json",
+      "bytes": 110296,
+      "sha256": "a2170cebd1726305b76c5a4b5c43f142a63793341e855febfc4fc841f42cfb5c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/toolbar--overflow.png",
+      "bytes": 19732,
+      "sha256": "216a72736c18091e52ec5edd9cb467ebc3cb7f5bc2e411079c473e6488e2fb74"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--collapsed.json",
+      "bytes": 44082,
+      "sha256": "a781aad5dd6dbc28650d6f85c39abb2d728f10df89903fc79c237a2e0da71269"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--collapsed.png",
+      "bytes": 20682,
+      "sha256": "0b9a0a8da0ff6b1a5d9af0e4b5adfeffe239d39a8e0ecdf970b6a450177065a5"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--disabled.json",
+      "bytes": 73101,
+      "sha256": "d0c406bba6d397aed9d8a8b517ba0ec0fb2a38e9bfd01f0e48d0e51434d38ffa"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--disabled.png",
+      "bytes": 22008,
+      "sha256": "5eb2d0a8ccf5dfb2689de49682cd3acc55d63d64ac57ab774728120a41d88e10"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--expanded.json",
+      "bytes": 64857,
+      "sha256": "f80472d146518c0551eed3aecb5bb53519d5a1bb3d6be879d0a45b8b7ba82a78"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--expanded.png",
+      "bytes": 22617,
+      "sha256": "dc55cf9146173db6b2d66dcfe7a17b4dc902dcd2288c25b5695db26497ab5346"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--focus.json",
+      "bytes": 66787,
+      "sha256": "58eb0b5b4b20d270db7c40bbb2ec2c55be8942ce4313f146a8badf13e262568c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--focus.png",
+      "bytes": 21806,
+      "sha256": "b3ccadf1690cd6e8835fc0cab6b5d9a4f17a4bba57524024706aada498544a0e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--normal.json",
+      "bytes": 64851,
+      "sha256": "9beeeeb8767017aa9883fefd245415ca8dc81a1d8e5870916ea1800f626afb42"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--normal.png",
+      "bytes": 21693,
+      "sha256": "c7eb567ecf14bf4027efd20eb5f92493b17a974d4eb3a55601ef7ed9aa40f622"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--selected.json",
+      "bytes": 64857,
+      "sha256": "4b7a4d7850c705a98c9e625dd281f58093df30fd4b94c11ba7d92d074ea0cf8e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/tree--selected.png",
+      "bytes": 22122,
+      "sha256": "93dae37cbe18f588e1b2dc2e6b6fae2506489eaffb57aa5a694286222f7ebfdf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--disabled.json",
+      "bytes": 102915,
+      "sha256": "838ed001e8e92635b90c4fd2be2284aa0d2d65a29173ff51c65335200e1981ff"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--disabled.png",
+      "bytes": 25610,
+      "sha256": "6332517cc8103c2c7ad9215bf415f4c0d62174289eaf03e2d02fbb42975baeb9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--focus.json",
+      "bytes": 94648,
+      "sha256": "9d04902c9df3cd0dc5261aa7ad2170a102427093b1aae3f79ff92183258fea4b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--focus.png",
+      "bytes": 26099,
+      "sha256": "5606ff1bafa81532b58e570884116368f91f444c932723d3201b8552c2b4bfb1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--hover.json",
+      "bytes": 94584,
+      "sha256": "c65d5e1a1608b69093df954a1c30e0119157080cee52b35e04bc80f5c9b7d710"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--hover.png",
+      "bytes": 26204,
+      "sha256": "74c89cc03a5580c7a84af753a7911fd215bcb69c538caff99c6d9b4e70989c25"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--normal.json",
+      "bytes": 94635,
+      "sha256": "35be56a1499e4d6d748b2115cce6a4465b453073096e3b5c5d911283ddf0a35f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--normal.png",
+      "bytes": 26228,
+      "sha256": "802f901a06938008dfb25d9efb6fead61904fc94223564ab3c146440f8aa5a93"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--open.json",
+      "bytes": 102547,
+      "sha256": "bc7a8677c4e3b31fe78739db3b2536a77bf3352ea078e28d952c5ba01aeeea11"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--open.png",
+      "bytes": 26385,
+      "sha256": "0ef21d558c74fab03d7a35c51cc673540092928b53a3c0c6d9cedea19cbcfdbd"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--pressed.json",
+      "bytes": 94606,
+      "sha256": "d7cde95369aa6a232fe35c19ba684f46968746546a54a04e2f93eea88473c3ce"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/triggers--pressed.png",
+      "bytes": 26464,
+      "sha256": "461d43883cb82654104af519dad5442cc4aac39c9b7eca0784642aa86bcf6267"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--focus.json",
+      "bytes": 34785,
+      "sha256": "b291a2ccd52c512973396af8f8a53cb7338390f133c1219f338a7fa13fcf4611"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--focus.png",
+      "bytes": 24898,
+      "sha256": "44daf6f017727d30e34dfa50c56362160a05aac4fbb62c919108ae16ce60d25e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--modal.json",
+      "bytes": 36763,
+      "sha256": "e300053726cec8aa7c6ce9dc3dc11503fdbff1bd49eef5adea69275cc958ab0c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--modal.png",
+      "bytes": 24484,
+      "sha256": "bd47fa0c2fb95bfbd88c63bfb46778ea297796c065ce403d5a44a7082d634024"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--moved.json",
+      "bytes": 34788,
+      "sha256": "8475de046ec7b00800f2a0bb8451d5b3a36ec09e75c464d07a88989e0b2a41f3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--moved.png",
+      "bytes": 24800,
+      "sha256": "b889df3e7c4b402c19f4bc8bb83398b87c76f44a8b519ea0f171f3717cfded30"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--normal.json",
+      "bytes": 34787,
+      "sha256": "6bd886db9ae938d9bed25cbe9afe93f4d8b958dce1bb7f6045943c8b9068319b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--normal.png",
+      "bytes": 24630,
+      "sha256": "8bc0a8a2f63e64dbc92f8f48a37bea9663d79c40b3f9d575816748b193814c3f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--resized.json",
+      "bytes": 34789,
+      "sha256": "5a76ac60d5c514d79c6802be87353e170192548e9479862ecd8c9d7ed1c80227"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-1/window--resized.png",
+      "bytes": 25001,
+      "sha256": "f073e5c614b66f8c0c8aa1a58bb578754f1eb9cd9a633bea2f0352bf82afed5d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/all--normal.json",
+      "bytes": 1748775,
+      "sha256": "153a0136a6d67603ebc040591c75a7358f79a2f00d36bfd04e557d84354f0022"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/all--normal.png",
+      "bytes": 613041,
+      "sha256": "f0fe879e4c5bf0233b4f6dd237492d100fcda0a62709a7f9fdf8c2a9ccbf125f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/border--collapsed.json",
+      "bytes": 80153,
+      "sha256": "08cd6d689280172b782e124fc00920a391bf3786c8ff31c2a79b248c5ff30e49"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/border--collapsed.png",
+      "bytes": 80328,
+      "sha256": "d53f17a52eb8dc683d0f3a51b47ca04c4aabd0c3e3f455379b583b30ae6fc9f2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/border--expanded.json",
+      "bytes": 77993,
+      "sha256": "7d3a27c41748ba64b4f200bfbc4f9fa2bfd52b8bea16ba88fd97eee1a78fdd18"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/border--expanded.png",
+      "bytes": 82236,
+      "sha256": "cbf91bbc4bf5a50e30b3baf86ee194fe2d598e5ec384e45408d8933904e74600"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/border--normal.json",
+      "bytes": 77987,
+      "sha256": "310bae2e1c1b8b3d1305c6a12ad50c77c1ecd09f07797ef9acf1893108ed9892"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/border--normal.png",
+      "bytes": 79199,
+      "sha256": "a12572e2b5c052b22034127caffcac9fa314a0064f4827008a4bdaf9143cb097"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--disabled.json",
+      "bytes": 54379,
+      "sha256": "a982c59ace3d46e9aada9a63fa04e0e9781f6622408624f5737e300b97c580de"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--disabled.png",
+      "bytes": 69597,
+      "sha256": "74fe2c75574c419c77b98dee1fe26170b9963ba0369f73ee15f3c1735e9e65ac"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--focus.json",
+      "bytes": 54380,
+      "sha256": "ce77bec53f626db2b518ca665cec037e1e4524a35e512268ab48394a4e0c7f2f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--focus.png",
+      "bytes": 68114,
+      "sha256": "f3b1dda7191bec57a1a732ae8580c8ee6fe81dc805d940d8fe8f46d84be77ef8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--hover.json",
+      "bytes": 54362,
+      "sha256": "1f3a1e58e0bff908c6d9c45d11a4cd30231e823a48ac4d645780ed2718b5557d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--hover.png",
+      "bytes": 67235,
+      "sha256": "2ca7be7cf6367c11934c64782bd271584615ace9068caccbce26f4dbaa97a3f3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--normal.json",
+      "bytes": 54369,
+      "sha256": "5d666d21cf16aca47cd39495c80c4b4f42a120cf376cb3994a94f658e2f57489"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--normal.png",
+      "bytes": 66675,
+      "sha256": "1121d3179f6008c9549f2dd427d100e54a8df6ab64255577cc48b1b5dc009f53"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--open.json",
+      "bytes": 65397,
+      "sha256": "3aef2e7ec072a17aa932d502ca008714ff3eb34cd79a462603b0389644cbdade"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--open.png",
+      "bytes": 70296,
+      "sha256": "aa6e724630a8e5d55d4ff1a192e0991ac97bf0c6debf189a0b3eb7bcd09c2752"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--pressed.json",
+      "bytes": 54386,
+      "sha256": "0d1ae4c58597ee6fd0bc241e9acf850d6eee4c6a9f9569aa9c4bcccfd582e417"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/button--pressed.png",
+      "bytes": 69664,
+      "sha256": "fc2c1ead28ffac3ebda720c319ea848d022a9cb41bdd10e0df054bdd68324715"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--checked.json",
+      "bytes": 67311,
+      "sha256": "5b622776e0b3bf5470f28f17b46c29e6f5a0cd22681663410838df6baa1d5e19"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--checked.png",
+      "bytes": 85019,
+      "sha256": "66baf7e209b9b70514445cc5d8e9bd9075347fe1e30f0e40debb89d701116bbf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--disabled.json",
+      "bytes": 75641,
+      "sha256": "60aeeecb9c6afbd2e036da5c2483fd602ff8e093c87094b19105cad91e57117f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--disabled.png",
+      "bytes": 81746,
+      "sha256": "ee1739905bb050f40a706c5f8303f61ee59b4e5a55deae63a55e5b2de625234c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--focus.json",
+      "bytes": 67328,
+      "sha256": "2dbe1cb431726facf3c907d85950d758dd74247c6c724c9a87c2765959ea53cc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--focus.png",
+      "bytes": 85076,
+      "sha256": "afd15062dc5d4fc69e44ff50873d438d3de91e6daaf8baa39adeb4af4cce1c89"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--normal.json",
+      "bytes": 67301,
+      "sha256": "27a87d761248f6d11ac138206caf6f13609fe14bdfbf7c7354c581df91d771d7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--normal.png",
+      "bytes": 85045,
+      "sha256": "37a764c4b244608d6d78bfa61c1b26a95054b75269ea4259816bec358b2ad286"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--unchecked.json",
+      "bytes": 67303,
+      "sha256": "5d06a45dd7ea518f1dfa59a6de35c336f8dbb847919edb8833fad5f153021431"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/checks--unchecked.png",
+      "bytes": 84631,
+      "sha256": "91d6d45f81a139ac369e66dbe52e3a6998331d76f1b0bd109e426f3c0785655b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--disabled.json",
+      "bytes": 204428,
+      "sha256": "9efc2131033319c744e5993d72af8e003c5a6e03e02d37740310ed050ec097f2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--disabled.png",
+      "bytes": 89461,
+      "sha256": "59706fe109d11878382c542de68e06ddcb372808396d44077add2ae0e9ca370b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--focus.json",
+      "bytes": 196165,
+      "sha256": "a0e7d4659362ed2a65f8025add82965501a4c87d08aa81a2184bf5c02658a66c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--focus.png",
+      "bytes": 90208,
+      "sha256": "ab19f256b99fe5e33945fe875296a2b9737b669a8494239ba051c197b0bfe526"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--next.json",
+      "bytes": 196199,
+      "sha256": "4bf3552b55d7f26ac333bd2c92de1306eec477e791b65b7a46a5e7449ad1d250"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--next.png",
+      "bytes": 89014,
+      "sha256": "35742faa8d55ad61d2b37d7e3aa50f9e520799ee548b41e08c64ce41ab3aa5ef"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--normal.json",
+      "bytes": 196143,
+      "sha256": "cbf58f5448855e68ba420210b4f19aa3fdec4086ba8b1f6facc33fe8604889a4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--normal.png",
+      "bytes": 89550,
+      "sha256": "66d41a0ea165f954bc3cbde7a3e7e4570e746e496d57fd1e97b115549212f58d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--prev.json",
+      "bytes": 196202,
+      "sha256": "32d036e75892850c3c2607e9edce652b9599b9fa6e8843ef783a35d621afcd5b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--prev.png",
+      "bytes": 90065,
+      "sha256": "285974d0ce306efe57fd8538f08afa015f0153a5fa9e527eba4014de7b946d66"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--selected.json",
+      "bytes": 196149,
+      "sha256": "134f059f3d68d2a56e9006218b68caec6506450b4ad0a6e72edcf6ad31eb6db7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/datepicker--selected.png",
+      "bytes": 89879,
+      "sha256": "8debb3cdba707b4c4eba269a72b7fa4304c49e2f039ecc44e2b802fad8a077a8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--disabled.json",
+      "bytes": 174015,
+      "sha256": "e61f388049531b1435a64b0bdde5b40bf98ebee5b963622edfd8b7da0707a056"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--disabled.png",
+      "bytes": 78017,
+      "sha256": "0f47dda4257494ab2bf33f4a420bff7f9dea345c2ca45cea5882fe1ddb86b923"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--focus.json",
+      "bytes": 165735,
+      "sha256": "e615ac1d61c6f59fcf9d54ed8436fefcf1d907cfcb1bb62f5642144b853a104b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--focus.png",
+      "bytes": 82747,
+      "sha256": "c828162049b0e89effa6ad713719d979a9faf3017cb74151840a1b028bf15bcd"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--normal.json",
+      "bytes": 165721,
+      "sha256": "cb4c7e92bcb76771cadc218a1ee8c2c2e8eb2e2a66c57bad355bef6d7e48d8f2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--normal.png",
+      "bytes": 82077,
+      "sha256": "95adb253d096588f0baa3e76f94f34c043ca0f188308980fb81c299679101760"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--readonly.json",
+      "bytes": 174128,
+      "sha256": "3ac9b6366153ce9eede291be32990ccda2df8227e18278a60c08ddb6533fd129"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/editor--readonly.png",
+      "bytes": 82136,
+      "sha256": "49191d9d7a5e26cf60214533c8c6956d4e21f594c8869e416effd18be2d32cd6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--checked.json",
+      "bytes": 43976,
+      "sha256": "6c2b93ec94cff8356a0f46d797132e3d43c22ce4e4f4953ecce532fb245d4bd1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--checked.png",
+      "bytes": 78302,
+      "sha256": "f79d669e4b30cb520d1de5940b23b7df43a6f965570394e7b069cc08d76a4851"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--collapsed.json",
+      "bytes": 43678,
+      "sha256": "750bfb70433198c5681b50fd5f137a1e4f4069f98978eca4c8cc679f149db16f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--collapsed.png",
+      "bytes": 72988,
+      "sha256": "c624c1ec533ac437d8d8e0488368831ca6efe285b1ca0363b5f4882fc298f891"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--disabled.json",
+      "bytes": 52169,
+      "sha256": "597d63140552fc542c8c8f8a7284e3ba55d0bf32c6505bae9a178bf590d10655"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--disabled.png",
+      "bytes": 73891,
+      "sha256": "5ad44ad47a47521d7035adaeebd9491477619b12b9a0dd27b5138f8606634926"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--normal.json",
+      "bytes": 43901,
+      "sha256": "1771d841a0dd0875be68caab12eb5adf194006a8c4962cba4bc2002aa67047cf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/fieldset--normal.png",
+      "bytes": 74270,
+      "sha256": "8b375a281f3009ed0835113195793fe6b715a07ec420fda440233d060ec9ccf1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--disabled.json",
+      "bytes": 118270,
+      "sha256": "4b575e06b82c0fbf91483e86618026c1cc302e4a1481865cde61c5ae5b7992f3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--disabled.png",
+      "bytes": 84829,
+      "sha256": "851824944e4392a97eb48e4e26fdb22de5261e98486400493ed98dd051a38f54"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--focus.json",
+      "bytes": 110016,
+      "sha256": "bc95dc769b5a424d05c20cdd6fe1a91636e802951f61a4b7c31f6b5c9604daaa"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--focus.png",
+      "bytes": 88863,
+      "sha256": "fae2792e881155602135c7b25838e24230ef8fe80bc08c2d2957cb48ef3fc458"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--invalid.json",
+      "bytes": 110132,
+      "sha256": "234a7b6aa6a6a3ceabfd8af7555f28fa070cefd19ac849b4bd4b96e95790db3e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--invalid.png",
+      "bytes": 86209,
+      "sha256": "6ffa163fbb75c162ac4079c6c3f8c088073b62412252d08d30f0ad00b1aace13"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--normal.json",
+      "bytes": 110008,
+      "sha256": "dbba31305af912f4c20349c11c1a1532e3493763bac21bad38be4190ce042cf8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--normal.png",
+      "bytes": 88789,
+      "sha256": "b9f968b9866abb601e98d552bc10298ea16d03d536f208b937888a050dfeabad"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--readonly.json",
+      "bytes": 109906,
+      "sha256": "3ebee5056c5212cab27a0d4e67a73c913f9970b2fb9681b5b203432492740e74"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/form--readonly.png",
+      "bytes": 83696,
+      "sha256": "54f97ce8ae4b8b9d84dd5cc490216d87083e8a5f73f8e99f0b54e5f46f0663d4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--disabled.json",
+      "bytes": 228815,
+      "sha256": "dd82c891172ffe4995ff3818675d6750a8ce2ad6511992c76dc69627086d968a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--disabled.png",
+      "bytes": 103825,
+      "sha256": "90689da7ac19c13aa3a8b0ca5684cbee48f5d7e1ff02ea81938bd5d8e2d944cf"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--focus.json",
+      "bytes": 222478,
+      "sha256": "add856f3ff9e4032cd7f657493e5ad54ba6a4520e5d480d8bb853a01dafbe6f1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--focus.png",
+      "bytes": 106478,
+      "sha256": "9173e490830a83b8762a5f70b33ae95a3fff345ddd3c4fc3c929661de2d42379"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--hover.json",
+      "bytes": 220542,
+      "sha256": "0baede5d2892db8d459aba3f77ee95c75dd96e3bd921e788ddda81c745ebfd91"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--hover.png",
+      "bytes": 105575,
+      "sha256": "90ed48119b0d2913c5398ae0f12b981674436426f71b267ce20a11ab73cef644"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--menu.json",
+      "bytes": 252395,
+      "sha256": "7c0d14a9ef2bf44914a495ea672c3acae5344a26e015fe259f3de5755edbd65f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--menu.png",
+      "bytes": 116271,
+      "sha256": "2e42a4d331aa1ecaac26eff26cd48b17440bbf5a0c77df70713d3003612fa2fb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--normal.json",
+      "bytes": 220545,
+      "sha256": "9a810f46fbe2d8ad26e2aa52ef8c975475275032dff504b0b6833bbe76357696"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--normal.png",
+      "bytes": 105886,
+      "sha256": "ce07ac1453bcfcf02102d9e2a3ce2c992b476443aa18866e96595e07a42b756a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--resized.json",
+      "bytes": 220548,
+      "sha256": "502ed052c0a17b2d1501d52515096196b14f91f3fa9e7cce8f449b6e28a6f2a9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--resized.png",
+      "bytes": 107151,
+      "sha256": "48a1ae79b9b597a99ba72e412f97bf7735f854925756e27ba5bbd8d75bd6d5af"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--selected.json",
+      "bytes": 220551,
+      "sha256": "0cb475a2fcc2525a13b9d5657443fa97a2b705b5c3ce565b0feccbc67ae6188a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--selected.png",
+      "bytes": 108207,
+      "sha256": "f2cebb26b3d96e8e8e1394a66750f6cb8f6c73960c99cc44fa70fbf5f279e4a5"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--sort-asc.json",
+      "bytes": 223110,
+      "sha256": "c58d1ab2df37528b9219c7a860edfcc004ef141dc9cf376dd04d56bc7b633d49"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--sort-asc.png",
+      "bytes": 109212,
+      "sha256": "b0193aa7f09eb5deb31bcf325f73160d38751a491ceafa09def0e11326c5605b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--sort-desc.json",
+      "bytes": 223116,
+      "sha256": "72791f6d661c11203e1f22b7ec646405e62e9050c9a8633143bc9c69dd2a210d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/grid--sort-desc.png",
+      "bytes": 108726,
+      "sha256": "2875dcab82d3ec5dac8748548b1492833b51dc98b8162e776a4ebebf9bcfce98"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/index.json",
+      "bytes": 48980,
+      "sha256": "7877e258b1baf6f0fc9a5ecb1a16a238e6ecd7a04ca8db95854c2ec3ce05af9e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/mask--hidden.json",
+      "bytes": 12549,
+      "sha256": "211bd2a060b55c6dce9b2629579ec7d9be903e88dd46cfd86ea64eb44b7f06f0"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/mask--hidden.png",
+      "bytes": 69213,
+      "sha256": "8f9c3d622b8d8cbce4f0265364b62641f05b786aab1f699963ce8d33192a131f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/mask--loading.json",
+      "bytes": 21342,
+      "sha256": "566dcf0038a9d5a41aed787353a920ce14a225f77868ab68be88a4d5fe39a0c3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/mask--loading.png",
+      "bytes": 75531,
+      "sha256": "0f6ba19c78f5d030f9ecab0e7c166002b02a8d36ac0604cc5fba14ca68041b49"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/mask--normal.json",
+      "bytes": 21339,
+      "sha256": "7a3ced49d21e1f12adb8abf97b7e32988b7b1a56b0e8d68c52816b4cd2354724"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/mask--normal.png",
+      "bytes": 73996,
+      "sha256": "9a98a30386df464207062108d8be8aed8d0699bc5cc72cd9e1d7bd45bad1eaa8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--checked.json",
+      "bytes": 47140,
+      "sha256": "6be9a5c60c59ae87de5d500626e0389118aeb8a676bce01c2da50ed9ee9ced1c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--checked.png",
+      "bytes": 80226,
+      "sha256": "ff9d7ef172b5334f65103d694e0f0c8d8300c44d3a3e67633e4d3d3cf43c7120"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--disabled.json",
+      "bytes": 55525,
+      "sha256": "7a12dff421187270a5c949a186ffa0c1c3bc5ae34124141d9bf3190f0318ed26"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--disabled.png",
+      "bytes": 79777,
+      "sha256": "4eda58fe40a19b574d50b278e5582e2c31abfd7162cf000626a09adcdb2667d2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--focus.json",
+      "bytes": 47357,
+      "sha256": "08cc12d1439c0c2ab721307ef7c432e900153dac18d22a44f45746a0e8f1db3a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--focus.png",
+      "bytes": 80918,
+      "sha256": "e4353a9c1de1e7437b0d0dc7c3b10a470951fe92857d4af89d10781bd5b45aee"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--normal.json",
+      "bytes": 47277,
+      "sha256": "e524d3c98ac4561680c33ada6995da889a8879ecddddc9124bbd415e5b6ba84e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--normal.png",
+      "bytes": 78481,
+      "sha256": "aaa826ca09f5d4dabc3300f01620e9eadd5b0062f8d365564da447161537286b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--open.json",
+      "bytes": 47271,
+      "sha256": "920192d648fae4ca536fc4aa5a5505a340e4ceeab472c4bdbef6313d511e027e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--open.png",
+      "bytes": 78444,
+      "sha256": "3a60e9e92acddd09c8726b6ab139cc1fd5098f67611bbfa79932e70fa15fb8ef"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--unchecked.json",
+      "bytes": 47156,
+      "sha256": "ec0fae564bc95013a64b55d48ecf600c71df7817565c76d696f8c2068515a983"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/menu--unchecked.png",
+      "bytes": 79341,
+      "sha256": "b34358430d217d7e0ac90fade954a6aab68431c4a27f3d0b7646c98f9ff8cf1b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--disabled.json",
+      "bytes": 186748,
+      "sha256": "e0644b96addc5fd3deed786323b6078cda16922018c5b2cdf7567ed62df55773"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--disabled.png",
+      "bytes": 99545,
+      "sha256": "64a39abee328e99aa8c48087078d63d06f31fc07a321012187242a00d0073857"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--first.json",
+      "bytes": 178010,
+      "sha256": "652e453a00a59258d624d639b45b7a16c17ef4603bd1450ff5429bad473b4cf1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--first.png",
+      "bytes": 99804,
+      "sha256": "8c3ac5f023f6136ccc491b8acd006add4175e614de95cf5b1e8ba0cd2dbf355d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--last.json",
+      "bytes": 178009,
+      "sha256": "3fa996259b8f7a717f8b1e366e3935decaf091461fff2a9090f28e2f4a7deba8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--last.png",
+      "bytes": 100559,
+      "sha256": "f492c709339d37052ec6df49f0f1fd52b7a04a9324c1bdb26921d87d9a5da584"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--middle.json",
+      "bytes": 177957,
+      "sha256": "a6cd6019fdbd6edb8e5b8ec339670d2d42f169ae8d4b9320d42ee91eba5ea431"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--middle.png",
+      "bytes": 98832,
+      "sha256": "f9dacfda4a13d43aa936ce0a4139bc455fe3a00757adce4fa7df43b8d588561d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--normal.json",
+      "bytes": 178013,
+      "sha256": "c07dba7edced628321700e842827c4ac7cac92bbc4cbbee07c64e4bb5b3fc47f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/paging--normal.png",
+      "bytes": 99558,
+      "sha256": "2d07cfc7c8457146d0c7325dc3da8c85b5051e8380422427ff45e44666ca311e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--collapsed.json",
+      "bytes": 31036,
+      "sha256": "5cb6399c6d10bec02e63d67d21b1d01c872b5e6c435692a5b176ed4e5205424e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--collapsed.png",
+      "bytes": 70121,
+      "sha256": "2112dd2c64d7d11ea24dd39938aa4a02c7be5a1a90f6b5e80524d5e864f50713"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--disabled.json",
+      "bytes": 39307,
+      "sha256": "03aa24b900fe4dd49ece049f7df4028a29738b66dbe613c0ee251d160960c39a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--disabled.png",
+      "bytes": 75336,
+      "sha256": "6fd365eb91051e67027bdcb034bb0d6be0090b808c285a901a50e02fe7dd88d0"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--focus.json",
+      "bytes": 31056,
+      "sha256": "047dba5b93dd6a44379408589c4d2fe16900e190fea25e767b44e5cf4a5e2af8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--focus.png",
+      "bytes": 74260,
+      "sha256": "74bfef3faf65f043fa0c13b69f08b453cab165b9216a42cc92cd150a6bc6f5bc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--framed.json",
+      "bytes": 31142,
+      "sha256": "98e99536457b626588e4815ea7ee69b9074ffd0ee49c6b3c71bfc2f427f353fe"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--framed.png",
+      "bytes": 75492,
+      "sha256": "da9885cd46cb2dc0c97e06f0966f31616040f951d0811f391146388c158f8408"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--hover.json",
+      "bytes": 31049,
+      "sha256": "bc874e649215ed8a34b36a3f59a0d81a209bafa9729b6080cb4004acc44a9227"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--hover.png",
+      "bytes": 74552,
+      "sha256": "eb3dc6e807d80df91cfa90fa843889f91b799e9aef4a849b5729382c200cfc4a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--normal.json",
+      "bytes": 31048,
+      "sha256": "2bac5c3837965aedae3e3ce65d2631b788bb67eacc07e18d744dd48a42154947"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/panel--normal.png",
+      "bytes": 73676,
+      "sha256": "4c6de03e816ca687cef4688ae7774bfb627bdb7695c8c40a641a2a3d25c01c19"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/progress--full.json",
+      "bytes": 12652,
+      "sha256": "d973decf2f1932d0d26de789d6d863a52fa058b3c9bc73f446ade93050f5ef7c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/progress--full.png",
+      "bytes": 66999,
+      "sha256": "8595bebf1ae87c31a852c31efb69ab63256893351f073284e3932d853696aa39"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/progress--normal.json",
+      "bytes": 12668,
+      "sha256": "a312b43215cf800301c51eb7f0a939221cf308a0fe9a43d2cb131d89aba99608"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/progress--normal.png",
+      "bytes": 67822,
+      "sha256": "635ce4bd55e0b75d55c15b12556ccdb6a6057c6536d9d031a9a922c00179bef8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/progress--partial.json",
+      "bytes": 12671,
+      "sha256": "546a1eb5c164473789471856bdc3a900b90dffdc32f94b2dc31e80ac5ac241fc"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/progress--partial.png",
+      "bytes": 68298,
+      "sha256": "aa5328970dff8835175b9cd0c2dc88620eda6f26606fe9365c6053ebae1c7c1c"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--disabled.json",
+      "bytes": 49942,
+      "sha256": "7272df59d68235e242dbfae12b096953d916fce682b2bf24efdf9063e6b4ea31"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--disabled.png",
+      "bytes": 66003,
+      "sha256": "fb535af7ac1cec118f417a3cf7ce565c49af0b699b1cf858059a24ec7c37e4bb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--focus.json",
+      "bytes": 41711,
+      "sha256": "ff5337b8551b2d4093983f0c764ccf5aa1e2bc24c313c53c0d2e06ab8c924725"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--focus.png",
+      "bytes": 67161,
+      "sha256": "4a7de442a7495657ecf080274e5345b4614749d7e45903da27029338742cecb6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--hover.json",
+      "bytes": 41637,
+      "sha256": "5661348f60eb78d5e3e2e7e4bf07224656f8150341ad4a7516602607f287f46b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--hover.png",
+      "bytes": 67002,
+      "sha256": "671a3374160328a1ef1e175a75106b8987388f0af7c1597e181bcfe2510f5dc0"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--normal.json",
+      "bytes": 41678,
+      "sha256": "3f6bc95544c8c49796240a494276876151fdb3d4395c6867e7f6493eaee299ff"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--normal.png",
+      "bytes": 66794,
+      "sha256": "6851f67a317a3d6ff3feac47a167f4e5eaf303d3cc454c1645ca7efb2fb98ee9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--selected.json",
+      "bytes": 41676,
+      "sha256": "2714ceaa7f2dae2a94473437e8a64219dd362c905e0599cb64571e9014133e74"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/slider--selected.png",
+      "bytes": 67744,
+      "sha256": "9e8925e8238e54fc55413bf05dafb2777a4fde5162332398c37c63c436f8ad72"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--focus.json",
+      "bytes": 121645,
+      "sha256": "14587c1cfe8aa5a43e3de8c8899478a5d30e572dd62f30a4827603016fdbd29d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--focus.png",
+      "bytes": 77183,
+      "sha256": "f8eb586b315306e45de1e6a992102bdefe094100fa3ce4fcb83c79e728e77628"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--hover.json",
+      "bytes": 119751,
+      "sha256": "cff8d057c8c06a0fb97fe2fc6372dad9db930f937ad13ceedb2e1a106c2bc4b8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--hover.png",
+      "bytes": 78439,
+      "sha256": "227997d742ac7694acb389b164dec1c343ef805f13ec4ec90a2218ddd9388fd9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--normal.json",
+      "bytes": 119754,
+      "sha256": "6960f3d6583e7b03ad4fb058bff78fa21b9196da3d58f0a3b9f42c1659cb5ea1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--normal.png",
+      "bytes": 76667,
+      "sha256": "8430b836f05cab9663ef23b4b273e15196a129dfcf0cf76bc7c40ec58aaac381"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--overflow.json",
+      "bytes": 120107,
+      "sha256": "df883211408e56a8871a1bd666aee6249ce84725307b03f2099578bf03fda9e2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--overflow.png",
+      "bytes": 78434,
+      "sha256": "67e8d0daf9d459e875e317b092b7f731d824825f5bfc680d4bae9b25ddeb73bd"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--selected.json",
+      "bytes": 119764,
+      "sha256": "ac1b8f40bd87f213a57dd6e51801eb598fc7bdc890fc694c3dc374ecea6af3d1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tabs--selected.png",
+      "bytes": 78064,
+      "sha256": "8d2006525d8a7a40b6aa873d3881574b07ca26e7c0f027b1556dbb09fa58d793"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--disabled.json",
+      "bytes": 418782,
+      "sha256": "e2dc7252601d31690ed73a428b1a045027bf345810be0c5197cd9b322f0d3a7e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--disabled.png",
+      "bytes": 112340,
+      "sha256": "24016d582604714ddbe62f8d57e1111164c853e3fd4d21d8f65c772fa7050d0d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--focus.json",
+      "bytes": 146553,
+      "sha256": "bff056bdb58637356baa5d86db0aa1cd8de6c6cfb48f004593f39577ed63f478"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--focus.png",
+      "bytes": 112648,
+      "sha256": "3e279aabe86e35713ecade42d3b0c0f583d05dcb97d7ee62b5f275338e39c3f7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--hover.json",
+      "bytes": 146542,
+      "sha256": "dfc40776b9a726f6a8eb11a3d70042666ff3180a09fe68ffa123cc7930f36292"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--hover.png",
+      "bytes": 112846,
+      "sha256": "2ab7b565478ea39b7e78bd243b64d3c1bb6e6e14824b35b1d3639060a81207fb"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--normal.json",
+      "bytes": 146541,
+      "sha256": "6496443c313ec37f744249f1d26d50a52d1023ffba18b78bea34c9102f47df26"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--normal.png",
+      "bytes": 112402,
+      "sha256": "ddc27fa0bc140c2967d9d51d172edaccd08b70a3a3e68d43d155cc9a9d02d8c1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--pressed.json",
+      "bytes": 146548,
+      "sha256": "a0e7d7c74c4e55a0f4f168e46daaf4f65525c47b9614f8c34985e0a8fa44effa"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tool--pressed.png",
+      "bytes": 114475,
+      "sha256": "65e9462f5391fc22d77141eb54aebcb7e0c7569137598d4dea99e86f576ac606"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--disabled.json",
+      "bytes": 118569,
+      "sha256": "c310c22563a714cdf2d231dda2e6852eee64fb68b1f0b7bd5fe7c566229ca424"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--disabled.png",
+      "bytes": 67150,
+      "sha256": "d7eba9f8d001a626bff7d164476f79fce5abd233a0f5b96735c21f154159bf60"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--normal.json",
+      "bytes": 110714,
+      "sha256": "27c337e4a769ab2cfc83470c9ef825d9343f04f49f6f371be11c4b6d105bb999"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--normal.png",
+      "bytes": 66500,
+      "sha256": "657e7c08254e65451e1318eb4241cd9e99fdf1cba37be78f55e420377946e799"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--open.json",
+      "bytes": 137342,
+      "sha256": "aa73ca7ba565f9b4807e12015fbbbeb2002921151c3843e7eea4a3b0f367dc00"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--open.png",
+      "bytes": 75554,
+      "sha256": "9e1f07390911a795335f194aef95281f66ef4d8990f0ae34a99e6aa9912efc1e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--overflow.json",
+      "bytes": 110296,
+      "sha256": "fe01702763618602bf38f63c617b728bb047af443dc36b321c91f11d15be15c7"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/toolbar--overflow.png",
+      "bytes": 67038,
+      "sha256": "6cc84b90e876276933a56c55024248f57ea1f122222dc7c0fc2a4e3fcfec632d"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--collapsed.json",
+      "bytes": 44082,
+      "sha256": "41847f1faf00fcb20b9113cdce65e9365b62d3adb681ab2da6b14822f7873ab8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--collapsed.png",
+      "bytes": 70868,
+      "sha256": "150561fc5a3ae9589f70709070b5af762a88d7b3cd910bd9f8e63c00a539ffea"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--disabled.json",
+      "bytes": 73101,
+      "sha256": "7c317ddb044cb25e84c03288b5c13d2eee9a7bf383453893374b598eead1b87f"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--disabled.png",
+      "bytes": 75252,
+      "sha256": "5813027a9c7bf9b81a9e6a9bc6ba5b033c871d12d76c34622d3d6a12e69e75de"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--expanded.json",
+      "bytes": 64857,
+      "sha256": "25f7a852de4e2fcefbf1e804a7c47b665da35e5226b6c43d923945b47528e1a5"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--expanded.png",
+      "bytes": 76469,
+      "sha256": "a5cef1adea1df044f733d99b6b5d04b8cbd62f3e0257eb80cfa62382144509a6"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--focus.json",
+      "bytes": 66787,
+      "sha256": "8e3b4d8d44cc31871fe1b4352f49fa8de85ab20f043c06ee6d66a7756ebe2a07"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--focus.png",
+      "bytes": 74887,
+      "sha256": "a7a580689778d5977d1f4180c930878296228606d20f2cd3db7c2a6613959f69"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--normal.json",
+      "bytes": 64851,
+      "sha256": "78e304e8f54da7eee307adbfdc59b869cfc09254447954acfb0f0662862d81ed"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--normal.png",
+      "bytes": 74238,
+      "sha256": "83ab336f29d21cd77eb6bb2db6d0b5fb23ca101e87ab9286e244159daec7fa74"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--selected.json",
+      "bytes": 64857,
+      "sha256": "b4e981b68869e6e5896a3118b5d0091d8c12a064ea5673b1262646cf2ee28e95"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/tree--selected.png",
+      "bytes": 75196,
+      "sha256": "6eab06a086f554d0257503f4cf26dc204ff38fac0868ad1bab12b637c575bbe4"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--disabled.json",
+      "bytes": 102915,
+      "sha256": "678163598a04f88e21067398730bbecbea01f603a09949bb136c810367e9637b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--disabled.png",
+      "bytes": 83184,
+      "sha256": "efd95d0f8076c4ec8ab796bafc3f6e7012dfaf7057b17871f6eee42ef7e15ea3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--focus.json",
+      "bytes": 94648,
+      "sha256": "4cc2fa351ed4f711010cfcd2b113872b71d2ca6c976f9afaf795252412c56012"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--focus.png",
+      "bytes": 86984,
+      "sha256": "9e98ce489ffc6db18009d84d842386ccc11eda6e7324707506c07bbf2b9ac550"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--hover.json",
+      "bytes": 94584,
+      "sha256": "feaeb31b75f7cc324e3677dbce413a3fa9fe23b184ca989376d8f566d9c1cc2b"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--hover.png",
+      "bytes": 87240,
+      "sha256": "e89077a5cb6014595ce4bfe931d65501bb4584552fbabba3322c04d1028a53e9"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--normal.json",
+      "bytes": 94635,
+      "sha256": "99e466a24624c1035edb17ed939c02721dd6037574870836af7d980293d78c99"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--normal.png",
+      "bytes": 87378,
+      "sha256": "8fb1ed8c1b2914563de7bb31d906d18865c587ae42a8b4355d612af25fccef89"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--open.json",
+      "bytes": 102547,
+      "sha256": "1bb4e8dcb76e44d54f3b1e7f664facbfa09872ef65fc4854dd60ae5ab3ca551e"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--open.png",
+      "bytes": 86442,
+      "sha256": "7fad8cc8deefe8f9a75082b05fc312bd22a1fede29939bee5f6fa66f7fdc044a"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--pressed.json",
+      "bytes": 94606,
+      "sha256": "c984246ffcbc5eaa9f27e3ffd8af3d81b7f92039b16c811e7abe3df8219de1e3"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/triggers--pressed.png",
+      "bytes": 88196,
+      "sha256": "57de07092ad02b0a36508aa5e03490e3572a24642afa04e2f4255acdb7e86e38"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--focus.json",
+      "bytes": 34785,
+      "sha256": "8f7b148092ec7905cca72e9ddc2806fbdf0eb4e20b2dd59bcf1a891ebf4bff84"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--focus.png",
+      "bytes": 82825,
+      "sha256": "2af7b0acde175bcaab6b4e6061de9f082311f3d62d482d01ae62f16b924e36b1"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--modal.json",
+      "bytes": 36763,
+      "sha256": "2cccb3a220324b82c5001d04e6174bb1a4895ab9d5ce73cd0174a7d9f0cb7e37"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--modal.png",
+      "bytes": 81851,
+      "sha256": "9f6201f5d349ba8f193a5cc123df2ac2bea0a1e3da38883ea28ee9bf5172ed44"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--moved.json",
+      "bytes": 34788,
+      "sha256": "853660efb4db171ccffc7de6012d746cb1f492f07577a9b1d65c68ff386265d2"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--moved.png",
+      "bytes": 82598,
+      "sha256": "478682f49694457a2bfce9221e54ec3cabfc985d93929ac9c19d4b912275f8ec"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--normal.json",
+      "bytes": 34787,
+      "sha256": "1dc1d8f3f249b005b04dbd27594c34d36da0930406561590d9389ad756e16948"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--normal.png",
+      "bytes": 82409,
+      "sha256": "3441ecb6b3af16a3c4406d8c564f450e824b4c5dbb695acfb5b1d5171cca1ba8"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--resized.json",
+      "bytes": 34789,
+      "sha256": "6c23813e329f7e7f6bb54f16733e71601fdfb04b4bd6de6d7b456a684c093048"
+    },
+    {
+      "path": "nordic/captures/pass-1/dpr-2/window--resized.png",
+      "bytes": 82927,
+      "sha256": "767abf5826ffe53621d8a68c573c09f1ff4968518272ac1b15b6ae17d160cf56"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--disabled.json",
+      "bytes": 229071,
+      "sha256": "c649c35ba190684022cacf19350751ed96787e2bee9f157dca58e92383e96c37"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--disabled.png",
+      "bytes": 30872,
+      "sha256": "d27758942ea4ccf38539f0d91957c20038134feaef5d2d6cd349dbfd78dc83e4"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--focus.json",
+      "bytes": 222734,
+      "sha256": "10b9a5acf98adee0d7b7664c6c468c67de2df9bd6b18499205a9b3b48fb45d0f"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--focus.png",
+      "bytes": 30968,
+      "sha256": "1252bfbe51545648bc2ce6d16fe3e04e1ce386719ff232439b84d70afe837fa0"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--hover.json",
+      "bytes": 220798,
+      "sha256": "76b466dfb77e0411fce69dcc8ef967dfa07bd025b6b2771af961386232363f97"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--hover.png",
+      "bytes": 30931,
+      "sha256": "ec6b31bdb254fb9b991b63dfc6b577d4de08d20747f1d8aba3ed7817efa0285d"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--menu.json",
+      "bytes": 252651,
+      "sha256": "80b934c563420aa2798a349ea1f8a08480c61c6fa879d0777bd429f237d2905e"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--menu.png",
+      "bytes": 35081,
+      "sha256": "c4f0073c42a4ae1953a4675d5a6d83d04eebcd6ec399e5605dd750a712936857"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--normal.json",
+      "bytes": 220801,
+      "sha256": "a305b75b6bc13e59d7e62eefeee3bdcecbdbd435c8aec2c3ea8e4b70feb3de8f"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--normal.png",
+      "bytes": 30856,
+      "sha256": "c5cb3e3a89fc1b27504ec2975cdba7fff7f0afe78e2443a8f7b863440a2c2bb3"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--resized.json",
+      "bytes": 220804,
+      "sha256": "3cf02ddd220d432ff49fc43db2579dc4552eee29e1d3f90ce7cadb524e03e9dc"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--resized.png",
+      "bytes": 31110,
+      "sha256": "afc3385c7078f5708a7ec5caeb637e723931ef00615e146982e0693619488388"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--selected.json",
+      "bytes": 220807,
+      "sha256": "0ef12f55caa0f92cf42e6266102a49f9dea227927d60ae1c98284b4a943c5f4c"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--selected.png",
+      "bytes": 31508,
+      "sha256": "14747920480f4b86564656d26c507ab66ddc7a838b4b36a5f30a12c9cfcfebd4"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--sort-asc.json",
+      "bytes": 223414,
+      "sha256": "bd8f4b570c251692f547be28649a8ab6a51e24521e20ae24f7573f8b13630ee3"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--sort-asc.png",
+      "bytes": 31213,
+      "sha256": "d7c689cbd9430e347043911775b1fd670056f067fb6ac2ba443fd7387c0179e2"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--sort-desc.json",
+      "bytes": 223420,
+      "sha256": "2f9f06c30c48b95d4c8a9caa1fcde4adc56938aec5f9e979a33175595dd13382"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/grid--sort-desc.png",
+      "bytes": 31613,
+      "sha256": "a5b9f3334079ad9ec27e1f617260a110daa7afa7f08190e2305f81a486167961"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/index.json",
+      "bytes": 9763,
+      "sha256": "073c4c85a64c4d6e5cdea9fca31be10cb9e753c9c86006801b6d4ae11ed5e170"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--disabled.json",
+      "bytes": 186876,
+      "sha256": "96b05ade7ebb2525e744efb50c2e46d16831d6367699c51c334170acfb8b8faf"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--disabled.png",
+      "bytes": 29514,
+      "sha256": "8c11fdcf1aa7175d5155d3cb3939e5decf30816ab24849a79b6ebe54770d6245"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--first.json",
+      "bytes": 178138,
+      "sha256": "6cdc8fabc151a3ede73506d2aa9ef49735b2bf01bee5ec04996458eabf0f48d1"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--first.png",
+      "bytes": 28757,
+      "sha256": "4980f569d6e7884bebff5787fbfb38a95a1327e139527a91e244cb301d6bd7c2"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--last.json",
+      "bytes": 178137,
+      "sha256": "4f11b7e13f420d15ba5737c2915a9e6b7910b2fce049ee82b85f70c44b1d4a4e"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--last.png",
+      "bytes": 29196,
+      "sha256": "a71616df23712ef8d68a4ab93c3ef1cd36b9dd8cda217efe46ae57f600acfafb"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--middle.json",
+      "bytes": 178085,
+      "sha256": "40bb988b77d1b638a68bb4920fd0ac962516687c50fded800a7549fb677f23c7"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--middle.png",
+      "bytes": 28718,
+      "sha256": "cc2835909f834bc6448b7e425515e3d523df28a62eac1596878cd75b30c279aa"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--normal.json",
+      "bytes": 178141,
+      "sha256": "db918e6d541c08bd5bb81d5b1f2214c04be5dfedb5f7fc3b6aa1a16d4975aa2b"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/paging--normal.png",
+      "bytes": 28997,
+      "sha256": "4530b4ec424cce44c6941bafa30eb7f5b72142c345c02f8d19816a0b8122f748"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--collapsed.json",
+      "bytes": 44146,
+      "sha256": "988de0f65734c8b1d3b4d840e92fd35f9229a77d5583efa5c6210c7cb0acf698"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--collapsed.png",
+      "bytes": 20682,
+      "sha256": "0b9a0a8da0ff6b1a5d9af0e4b5adfeffe239d39a8e0ecdf970b6a450177065a5"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--disabled.json",
+      "bytes": 73165,
+      "sha256": "8c85945530679b4c97058c8b65ae8c2524ac736f70cff57e79c7f197219f47b5"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--disabled.png",
+      "bytes": 22008,
+      "sha256": "5eb2d0a8ccf5dfb2689de49682cd3acc55d63d64ac57ab774728120a41d88e10"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--expanded.json",
+      "bytes": 64921,
+      "sha256": "1b935c44eb3eeb0f8399cb13e0f0ce049c997feb04877f3e53632ebafe659e13"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--expanded.png",
+      "bytes": 22617,
+      "sha256": "dc55cf9146173db6b2d66dcfe7a17b4dc902dcd2288c25b5695db26497ab5346"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--focus.json",
+      "bytes": 66851,
+      "sha256": "bf5565358a81780102e510eed4798511991251269836806b94bba954ab936e72"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--focus.png",
+      "bytes": 21806,
+      "sha256": "b3ccadf1690cd6e8835fc0cab6b5d9a4f17a4bba57524024706aada498544a0e"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--normal.json",
+      "bytes": 64915,
+      "sha256": "2054b3ecd91e9057a1640bbb5f65396ed19014b79984409aa01da77ad7bb7609"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--normal.png",
+      "bytes": 21693,
+      "sha256": "c7eb567ecf14bf4027efd20eb5f92493b17a974d4eb3a55601ef7ed9aa40f622"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--selected.json",
+      "bytes": 64921,
+      "sha256": "916e103ba3000143da0bfc726f22c36f39264e84af542bcc04fe03a1b3ebedeb"
+    },
+    {
+      "path": "nordic/probe/dpr-1/pass-1/tree--selected.png",
+      "bytes": 22122,
+      "sha256": "93dae37cbe18f588e1b2dc2e6b6fae2506489eaffb57aa5a694286222f7ebfdf"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--disabled.json",
+      "bytes": 229071,
+      "sha256": "744da015961153136a4a8cc468a499f935278867664f69d5c9f6945e9a9294c2"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--disabled.png",
+      "bytes": 103852,
+      "sha256": "bd03cf5bf379ccc5f7d5a015772ec07a4e7a56ead5ea7213dc63b340cf2d80a2"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--focus.json",
+      "bytes": 222734,
+      "sha256": "fd7cc7bfd1d8db002156c73312e9b59c37ee79c804a72c83dfe7b1dc7c085d8b"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--focus.png",
+      "bytes": 106435,
+      "sha256": "3ec199ec624255252790e0784bec7038b389894db3a367180c2c4266a8a22a29"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--hover.json",
+      "bytes": 220798,
+      "sha256": "37f8649e01659d777c1c189f4560d6d4eec8ed5466017ae9bba2284e42a073cf"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--hover.png",
+      "bytes": 105516,
+      "sha256": "87d8add1b6115637a47d607175881a57bfdbb961f48878125b516f313520bc1f"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--menu.json",
+      "bytes": 252651,
+      "sha256": "1f0656e7eb7334af19b2130dab7df3659d2189c9c0120787a10e171ba026aa4a"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--menu.png",
+      "bytes": 116207,
+      "sha256": "4987e612b2e95dea7d4057e295a2b83bb65fb01f759e2314252c0e0da9b3690a"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--normal.json",
+      "bytes": 220801,
+      "sha256": "4d03a612f4973a0305a302b522475090f1eac39e6458f3ec303b39744b86aac0"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--normal.png",
+      "bytes": 105842,
+      "sha256": "c7d383ca33600b70e80f73bf3c9477323261777175d3c7e445411b743e1ec4d8"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--resized.json",
+      "bytes": 220804,
+      "sha256": "f25590b11401dd3d7d23db75df5382f69a464605b0e24eba43e744a4bb995c26"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--resized.png",
+      "bytes": 107124,
+      "sha256": "16fda5eb9d44c72d262149c6fde4760baf6d236e0b323d783df3b35de6f6de71"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--selected.json",
+      "bytes": 220807,
+      "sha256": "491dc41eb6eb81a90b7c193b7577d3505ecd3776c011956ee7d07298727a7729"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--selected.png",
+      "bytes": 108181,
+      "sha256": "3a6e916fa0e47c66b6a76ab6521633893db2e38f77fcd09a25cf3e095a322d1c"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--sort-asc.json",
+      "bytes": 223414,
+      "sha256": "010a1bd92db8d6d999ab2fa67f7314878ca26157ca8d65e17dc644ba1cdcb075"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--sort-asc.png",
+      "bytes": 108993,
+      "sha256": "baa15af282816373f3cc70b58f9425548d9e2d7d8e66e7a27823ae26ee0e1178"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--sort-desc.json",
+      "bytes": 223420,
+      "sha256": "3b5a128e2f72500d25f0c10fcc828d7eb1982f0ae53b78219052b4c3598565ea"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/grid--sort-desc.png",
+      "bytes": 108500,
+      "sha256": "ec34cf0a4ba0ddaf6aa57b59e899ecaa10523a6eead263b311a6469fe8bacfa1"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/index.json",
+      "bytes": 9763,
+      "sha256": "14e3e4e5e2fa46c2e328c7f31b00e7c1e617b766b70eb5e005edcd2d24062b0a"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--disabled.json",
+      "bytes": 186876,
+      "sha256": "8135adfa7e5e6907d11f081f3a803bbcefbe48d7c56198ba8230c74e4671c35c"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--disabled.png",
+      "bytes": 99584,
+      "sha256": "19e93c1c0770f7f5b2f4cb68028816527d36dd5b4cc7218f18e96bb6723c3039"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--first.json",
+      "bytes": 178138,
+      "sha256": "c7d4e6b7856a65a7d4774f0fd40da03c1d44fba7828606d20d25620a54cc0adc"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--first.png",
+      "bytes": 99776,
+      "sha256": "b863a4723572810d975a6e46fef2c720ca24b69312f712e1a1148b4a771bbb2d"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--last.json",
+      "bytes": 178137,
+      "sha256": "02a5413b0fb89bf199fb4c264f8b45ce63a7bd8440f2c38f9408f7a3e16dd52c"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--last.png",
+      "bytes": 100534,
+      "sha256": "87a93750f78c562c37a39864826e1bb14e4aa87be4c26545531abd9605cac025"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--middle.json",
+      "bytes": 178085,
+      "sha256": "9870b96d5db9cad2e03ba46cfd8ab464e834fae2d3c10d9089a525ff636a014e"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--middle.png",
+      "bytes": 98808,
+      "sha256": "c55fdcb01eb94636045918e52c9e24631f8538c36213b22768c9472330560132"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--normal.json",
+      "bytes": 178141,
+      "sha256": "bdc9d4cdf9830e53d710ec501956b1c53efde8dc6f280d763f74f784e49fc322"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/paging--normal.png",
+      "bytes": 99522,
+      "sha256": "bee529a1a5f686871b0f6b80d5706edab2f0ffb78487f027a83ed57a92c18df6"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--collapsed.json",
+      "bytes": 44146,
+      "sha256": "ae93e7914f3fa507a10249ec0b3dbb480be7fa66bac38860e547b61c28db249c"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--collapsed.png",
+      "bytes": 70868,
+      "sha256": "150561fc5a3ae9589f70709070b5af762a88d7b3cd910bd9f8e63c00a539ffea"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--disabled.json",
+      "bytes": 73165,
+      "sha256": "24a26dd6446eea69830033b139e6c63e73e86b2c200b0463c5756092ec37989d"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--disabled.png",
+      "bytes": 75252,
+      "sha256": "5813027a9c7bf9b81a9e6a9bc6ba5b033c871d12d76c34622d3d6a12e69e75de"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--expanded.json",
+      "bytes": 64921,
+      "sha256": "933cb56e710715f1f9ef348c6d5e627c28d443e2278e4b1346082e3c5b87eb10"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--expanded.png",
+      "bytes": 76469,
+      "sha256": "a5cef1adea1df044f733d99b6b5d04b8cbd62f3e0257eb80cfa62382144509a6"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--focus.json",
+      "bytes": 66851,
+      "sha256": "74dfce23d919cb40ba8347dd9abed944bd7af29ea44b1bcf9845a03137788b85"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--focus.png",
+      "bytes": 74887,
+      "sha256": "a7a580689778d5977d1f4180c930878296228606d20f2cd3db7c2a6613959f69"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--normal.json",
+      "bytes": 64915,
+      "sha256": "a241ae92bcab6619cc0af2ab46e75b793facd579d207083382d0c4088fd5450c"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--normal.png",
+      "bytes": 74238,
+      "sha256": "83ab336f29d21cd77eb6bb2db6d0b5fb23ca101e87ab9286e244159daec7fa74"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--selected.json",
+      "bytes": 64921,
+      "sha256": "21253ac6f3706522b78a7a20910902421328b87d9963c5ce977e42b23d4a3d8a"
+    },
+    {
+      "path": "nordic/probe/dpr-2/pass-1/tree--selected.png",
+      "bytes": 75196,
+      "sha256": "6eab06a086f554d0257503f4cf26dc204ff38fac0868ad1bab12b637c575bbe4"
+    },
+    {
+      "path": "source-snapshot/config/nordic-blue-icons.json",
+      "bytes": 341372,
+      "sha256": "8b1a540d0461a77c4bd44883ddd32b72b87c7efb3ee3cf7f5d6ec3e8bc915891"
+    },
+    {
+      "path": "source-snapshot/config/nordic-blue-policy.json",
+      "bytes": 329372,
+      "sha256": "7e4aaf4474adc9bee9e1d41ac421e4c088cb15de708d3946d9b9b4b061f870d9"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/build.xml",
+      "bytes": 3584,
+      "sha256": "7f4602de73579f7fcca99d97c0c03de52d0304afb6aa2c5a45ff9febe4601284"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/package.json",
+      "bytes": 10187,
+      "sha256": "0fda631436901f92a3b2efce49d110047a4daa6128ce42076ba934b7a466115e"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/Readme.md",
+      "bytes": 33,
+      "sha256": "cf5b60451b0920f3475cba889c4a4eb3335f72ee3ee6223c9fcaa099d8526bfc"
+    },
+    {
+      "path": "source-snapshot/tools/lint-nordic-blue.py",
+      "bytes": 12993,
+      "sha256": "9197b36a3f40f6a7c9c3aa2003a8bebde608294b51129aad414632428bb13f93"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/examples/Readme.md",
+      "bytes": 977,
+      "sha256": "1a71f04a3b90eb4664705997cbf8359563de78d1e7c74627d32071d88c6e5b6b"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/licenses/Readme.md",
+      "bytes": 98,
+      "sha256": "76651399d2c2805f9fdd46ce4ece7eb4cc77a47f7e93aefe3b0bc4b21a810dd7"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/resources/Readme.md",
+      "bytes": 114,
+      "sha256": "ad88629a4df0b76bcd45ace80c0646a843d27db5885699bb6967972b6a4ef19c"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/config.rb",
+      "bytes": 58,
+      "sha256": "e340ab3c0fd3dd055a31e71f0f6275d88fe980867096759dbd45dbccce7d0b56"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/Readme.md",
+      "bytes": 203,
+      "sha256": "d5d25fa2faa341885219a4ee0947ab885b74d20aa4b658ec0177b981467fd016"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/src/Readme.md",
+      "bytes": 138,
+      "sha256": "65cd2cfa56987da7cf3acf0dc9d1d00d36e5711f3ac97be5fed8f076dc51b7c5"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/etc/all.scss",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/etc/Readme.md",
+      "bytes": 160,
+      "sha256": "109f7f567d35bc4e26cf1020431aa9669ec28ed29d877f2c113f84fd75b08492"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/src/Readme.md",
+      "bytes": 205,
+      "sha256": "0ec86eaf4ec06b8bd155a293821bccd210accb968da27daa8b41254650d8ff54"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/all.scss",
+      "bytes": 594,
+      "sha256": "fed761d3ceeb74aded2bc949560fcdb89714cbb945f5ae2bf6a634c4f8d8d6af"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/LoadMask.scss",
+      "bytes": 306,
+      "sha256": "e4f61ddd2013d9176d86afda63d63ee67bc3f857ecb51176b24731be82231d17"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/ProgressBar.scss",
+      "bytes": 199,
+      "sha256": "16970d44f0414b04d5f6dd606ff26595ac368d920e3b1a709a967d9a88ba9026"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/Readme.md",
+      "bytes": 113,
+      "sha256": "064afad7f85a3b6b77adc665f6db4be179ae1bb2825abe179e065eb3bc62af24"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/button/Button.scss",
+      "bytes": 3475,
+      "sha256": "5130ba4978e730e66764c13af871f4efb073baa947b53edd6a880715dfe1ed68"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/form/FieldSet.scss",
+      "bytes": 183,
+      "sha256": "bd7814fc3be8fff46eb12c01e620c99eac9d0ea9e2d8e592792fe54ab7a93982"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/menu/Menu.scss",
+      "bytes": 384,
+      "sha256": "45b380d0439f67fde37173940fd1f9bbfea6eaa2f70df9214e6088d0acb42eb8"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/panel/Panel.scss",
+      "bytes": 703,
+      "sha256": "66179c81ef8f120295987449c64a17666abea84dde6367d4062dfc8c3023a0d7"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/picker/Date.scss",
+      "bytes": 273,
+      "sha256": "a69877067afa808762c9ed296932c9f4da7b4aa0597c0c7d913803ff12aa64bd"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/tab/Tab.scss",
+      "bytes": 255,
+      "sha256": "d73084e67f36c61b48658f998c2b884175cc19919797f38453c422ec7a9e1f3a"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/toolbar/Toolbar.scss",
+      "bytes": 444,
+      "sha256": "361aa9e6d4be5e26205849cb3d134ce411576f3bf9b2ecbbfe9749c50fdd51c7"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/view/Table.scss",
+      "bytes": 791,
+      "sha256": "207f537af70edc082be20a5d3743a33580c5eb488cb2f5b05b1887b82b0db22c"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/window/Window.scss",
+      "bytes": 480,
+      "sha256": "512942558aa6cb3f9247c6d35faa7148968d739c5aa2e355f960b5df25e0da3e"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/form/field/Base.scss",
+      "bytes": 900,
+      "sha256": "cd2e3e0058a473937b2050dcf70bd4d158c6cc8feb3f70705665b4def819f731"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/form/field/Trigger.scss",
+      "bytes": 265,
+      "sha256": "61f2a978510a382e659d1a2585036c0f9ed7eefc8cbe1fc5b1e05a8096302e0e"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/grid/column/Column.scss",
+      "bytes": 258,
+      "sha256": "e557e3a65b527af9f866bb95adc907b6d252df05d3fea2f6f1c47980620e7232"
+    },
+    {
+      "path": "source-snapshot/theme-nordic-blue/sass/var/grid/header/Container.scss",
+      "bytes": 689,
+      "sha256": "b034cd250207fb63a1deb1d2c0f59ea68885e23ce0cfeb341bc43af850c63f52"
+    }
+  ]
+}

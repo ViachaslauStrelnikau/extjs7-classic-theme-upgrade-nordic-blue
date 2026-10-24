@@ -1,0 +1,7 @@
+// SDK color hooks and specifically reviewed flat gradients; metrics inherited.
+$form-field-background-color: dynamic($nb-surface);
+$form-field-color: dynamic($nb-text);
+$form-field-border-color: dynamic($nb-border);
+$form-trigger-border-color: dynamic($nb-border);
+$form-field-focus-border-color: dynamic($nb-accent);
+$form-field-empty-color: dynamic($nb-muted);

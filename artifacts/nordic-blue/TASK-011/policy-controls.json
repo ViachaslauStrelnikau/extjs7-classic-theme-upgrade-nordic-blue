@@ -1,0 +1,336 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "name": "metric-padding",
+      "expected": "REJECT",
+      "actualCodes": [
+        "METRIC_OR_GLOBAL"
+      ],
+      "passed": true
+    },
+    {
+      "name": "metric-font-size",
+      "expected": "REJECT",
+      "actualCodes": [
+        "METRIC_OR_GLOBAL"
+      ],
+      "passed": true
+    },
+    {
+      "name": "metric-radius",
+      "expected": "REJECT",
+      "actualCodes": [
+        "METRIC_OR_GLOBAL"
+      ],
+      "passed": true
+    },
+    {
+      "name": "realistic-font-size",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "realistic-header-padding",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "global-base-color",
+      "expected": "REJECT",
+      "actualCodes": [
+        "METRIC_OR_GLOBAL"
+      ],
+      "passed": true
+    },
+    {
+      "name": "image-variable",
+      "expected": "REJECT",
+      "actualCodes": [
+        "IMAGE_OR_GRADIENT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "gradient-variable",
+      "expected": "REJECT",
+      "actualCodes": [
+        "GRADIENT_CONTRACT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "unknown-sdk-variable",
+      "expected": "REJECT",
+      "actualCodes": [
+        "UNLISTED_VARIABLE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "short-token-alias",
+      "expected": "REJECT",
+      "actualCodes": [
+        "UNLISTED_VARIABLE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "wrong-namespace",
+      "expected": "REJECT",
+      "actualCodes": [
+        "COLOR_CONTRACT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "unlisted-color-expression",
+      "expected": "REJECT",
+      "actualCodes": [
+        "COLOR_CONTRACT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "literal-css-width",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "literal-css-image-position",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "literal-css-hidpi-size",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "ui-mixin",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "hidden-import",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "function-call",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "unterminated-comment",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SYNTAX"
+      ],
+      "passed": true
+    },
+    {
+      "name": "allow-listed-color",
+      "expected": "ACCEPT",
+      "actualCodes": [],
+      "passed": true
+    },
+    {
+      "name": "approved-icon-1x-contract",
+      "expected": "ACCEPT_CONTRACT_ONLY",
+      "actualCodes": [],
+      "passed": true
+    },
+    {
+      "name": "approved-icon-2x-unchanged-css-size",
+      "expected": "ACCEPT_CONTRACT_ONLY",
+      "actualCodes": [],
+      "passed": true
+    },
+    {
+      "name": "resized-runtime-icon",
+      "expected": "REJECT",
+      "actualCodes": [
+        "IMAGE_DIMENSIONS",
+        "UNAPPROVED_IMAGE_BYTES"
+      ],
+      "passed": true
+    },
+    {
+      "name": "doubled-physical-css-size",
+      "expected": "REJECT",
+      "actualCodes": [
+        "CSS_IMAGE_SIZE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "sprite-contract-changed",
+      "expected": "REJECT",
+      "actualCodes": [
+        "ICON_GEOMETRY_POLICY"
+      ],
+      "passed": true
+    },
+    {
+      "name": "new-js-override",
+      "expected": "REJECT",
+      "actualCodes": [
+        "JS_OVERRIDES"
+      ],
+      "passed": true
+    },
+    {
+      "name": "new-icon-font",
+      "expected": "REJECT",
+      "actualCodes": [
+        "RUNTIME_FILE_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "unlisted-image",
+      "expected": "REJECT",
+      "actualCodes": [
+        "UNLISTED_IMAGE",
+        "ICON_INTEGRATION_PENDING"
+      ],
+      "passed": true
+    },
+    {
+      "name": "integration-before-task-013",
+      "expected": "REJECT",
+      "actualCodes": [
+        "ICON_INTEGRATION_PENDING"
+      ],
+      "passed": true
+    },
+    {
+      "name": "duplicate-sdk-assignment",
+      "expected": "REJECT",
+      "actualCodes": [
+        "MISSING_OR_DUPLICATE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "missing-sdk-assignment",
+      "expected": "REJECT",
+      "actualCodes": [
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE",
+        "MISSING_OR_DUPLICATE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "changed-generated-package-config",
+      "expected": "REJECT",
+      "actualCodes": [
+        "PACKAGE_CONFIG_CHANGED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "real-package-and-complete-approved-candidates",
+      "expected": "ACCEPT",
+      "actualCodes": [],
+      "passed": true
+    },
+    {
+      "name": "exact-reviewed-flat-gradient",
+      "expected": "ACCEPT",
+      "actualCodes": [],
+      "passed": true
+    },
+    {
+      "name": "non-reviewed-gradient",
+      "expected": "REJECT",
+      "actualCodes": [
+        "IMAGE_OR_GRADIENT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "wrong-gradient-namespace",
+      "expected": "REJECT",
+      "actualCodes": [
+        "GRADIENT_CONTRACT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "different-gradient-enum",
+      "expected": "REJECT",
+      "actualCodes": [
+        "SCSS_NOT_ALLOWED"
+      ],
+      "passed": true
+    },
+    {
+      "name": "none-is-not-a-color",
+      "expected": "REJECT",
+      "actualCodes": [
+        "COLOR_CONTRACT"
+      ],
+      "passed": true
+    },
+    {
+      "name": "altered-gradient-review",
+      "expected": "REJECT",
+      "actualCodes": [
+        "GRADIENT_REVIEW"
+      ],
+      "passed": true
+    }
+  ],
+  "realPackage": {
+    "status": "PASS",
+    "sdk": "7.7.0.31",
+    "counts": {
+      "scssFiles": 17,
+      "tokens": 15,
+      "colorOverrides": 130,
+      "gradientOverrides": 17,
+      "images": 0,
+      "candidateImages": 648,
+      "sdkFiles": 300
+    },
+    "iconIntegrationEnabled": false,
+    "errors": []
+  },
+  "note": "All mutations are in strings or a disposable copy of the child package; application/SDK/approved artwork are untouched. Positive image controls recognize contracts; integration remains disabled until TASK-013."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "task": "TASK-004",
+  "taskStatus": "DONE",
+  "version": "nordic-icons-v2",
+  "manifest": "icon-manifest.json",
+  "manifestSha256": "a7ac4cc21bdac41de0dffc6e5fc1dee3adf72eb01edfe6f0ca4de4bbb8433a20",
+  "reviewedManifest": "reviewed-manifest-v2.json",
+  "reviewedManifestSha256": "f3f1d0d22f8994c130243d5dee7052815c000f4703f557e5d137bb1467f7a8bd",
+  "metadataCorrection": "Generator retained v1 version label in the reviewed v2 manifest. Corrected version to v2 and approval status only. All masters and runtime asset hashes remain unchanged.",
+  "approvedOn": "2026-10-23",
+  "timezone": "Europe/Minsk",
+  "source": "Explicit user message in this conversation, after review of v2",
+  "userMessage": "Отлично одобряю",
+  "scope": "Reviewed icon artwork, related states, 1x/2x runtime candidates and the documented resize/move resource adapters.",
+  "integrationStatus": "Not integrated; TASK-013 remains subject to its other dependencies.",
+  "changesAfterApproval": "Substantial artwork/state/density changes require renewed user approval."
+}

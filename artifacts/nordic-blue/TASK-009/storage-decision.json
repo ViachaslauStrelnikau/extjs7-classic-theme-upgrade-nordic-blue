@@ -1,0 +1,13 @@
+{
+  "reason": "D volume ran out of space during copy of redundant diagnostic captures",
+  "removedOnlyTask009PartialDuplicates": [
+    "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-009\\core-states",
+    "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-009\\core-states-v2",
+    "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-009\\consumption-probe.css",
+    "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-009\\consumption-probe.scss"
+  ],
+  "finalEvidence": "evidence.zip in project artifact folder; gallery serves entries in memory",
+  "diagnosticArchive": "C:\\Users\\Damned\\.codex\\.chatgpt-projects\\g-p-6909aeed3f508191801b816a6bd2b338\\output\\task009\\diagnostics.zip",
+  "diagnosticArchiveSha256": "ae921842c0a15e7272dfc731b655f61197d7ec5cdb3d78ab76df03d2776722eb",
+  "sourceSDKApplicationApprovedIconsTouched": false
+}

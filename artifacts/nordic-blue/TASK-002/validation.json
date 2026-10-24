@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "plannedColorVariables": 50,
+  "sourceScssFiles": 300,
+  "globalDeclarationNames": 2077,
+  "appOwnedFiles": 14,
+  "allRecordedDeclarationAndUsageLinesChecked": true,
+  "sdkCopiesIdenticalForAuditedTrees": true,
+  "navigationMissingAssets": 11,
+  "sdkAndAppSourceWrites": 0,
+  "newBuildsRun": 0
+}

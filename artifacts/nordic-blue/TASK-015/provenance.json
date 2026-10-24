@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "node": "v24.22.1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "Pillow": "12.3.0",
+  "NumPy": "2.3.5",
+  "browser": "155.0.4283.62",
+  "goldenManifestSha256": "8b5daf7cff3ae6b99170959a818f0dd6c34de3e18ce67456a74554d7aad0b360",
+  "visualConfigSha256": "aea008b967f36976a604e467dbc4e74186df1e1d89930363043407d54de7cda0",
+  "guardSourceHashes": {
+    "paint.js": "39e68665aa0dca8c6bfa5ae088ab8d994eaa8d3d2e72dc3d7f72b328766b48ec",
+    "capture.cjs": "ed941dc98aa2be769c5596723758fad91c4c839366b4deeffa86fa322113e137",
+    "compare.py": "4ca57308670bc986e382841145253516fca612faad30d5d1090c6d8f252f6daf",
+    "verify.py": "1102cb6110795b28b747e4837c00608505252fcad5721eb5cd85313d299e4eed",
+    "controls.cjs": "af8c474296c9f67138429b10823d91d8ed54b75227bbe6c1e56bb0aa9d60d2f6",
+    "tools/nordic-blue-regression/metrics.py": "088008dbe4a289fbdd6e7aca93d969c622674a363b0386405c50f7fe733769ef",
+    "tools/nordic-blue-regression/icon-contracts.py": "a765b04fed3d178b24a34a3212aa4188d0ad36674ddac15e4737a3e2aec8e4a2"
+  },
+  "noThemeChanges": true,
+  "noBuildRequired": "Theme/SDK/fixture/built assets unchanged after successful v3 testing/development/production builds.",
+  "diagnostics": [
+    "run-1 alpha rounding measurement",
+    "run-2 iframe caret and bounding guard diagnosis",
+    "calibration old method; accepted calibration-final only"
+  ]
+}

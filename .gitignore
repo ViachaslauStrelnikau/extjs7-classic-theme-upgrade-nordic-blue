@@ -1,0 +1,29 @@
+# Installed dependencies and locally supplied Sencha SDKs
+/node_modules/
+/ext-*/
+/TestApp/ext/
+
+# Regenerated application output and caches
+/TestApp/build/
+/TestApp/theme-lab/generated/
+**/.sencha/
+**/__pycache__/
+*.py[cod]
+/sencha-error-*.log
+/TestApp/**/sencha-error-*.log
+
+# Archived compiled SDK output is kept locally, not redistributed.
+# Audit manifests intentionally retain hashes of the complete local evidence.
+/artifacts/**/compiled/
+/artifacts/**/compiler-probe/*.css
+/artifacts/**/*.zip
+
+# Local credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+.DS_Store
+Thumbs.db

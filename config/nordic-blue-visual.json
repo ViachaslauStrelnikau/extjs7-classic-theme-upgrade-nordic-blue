@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "version": "nordic-blue-visual-v1",
+  "goldenManifestPath": "artifacts/nordic-blue/TASK-015/golden-v1/manifest.json",
+  "goldenManifestSha256": "8b5daf7cff3ae6b99170959a818f0dd6c34de3e18ce67456a74554d7aad0b360",
+  "status": "INITIAL_TECHNICAL_BASELINE",
+  "threshold": {
+    "maxChannelDelta": 0,
+    "maxChangedPixels": 0,
+    "maskDilation": 0
+  },
+  "guardSourceHashes": {
+    "paint.js": "39e68665aa0dca8c6bfa5ae088ab8d994eaa8d3d2e72dc3d7f72b328766b48ec",
+    "capture.cjs": "ed941dc98aa2be769c5596723758fad91c4c839366b4deeffa86fa322113e137",
+    "compare.py": "4ca57308670bc986e382841145253516fca612faad30d5d1090c6d8f252f6daf",
+    "verify.py": "1102cb6110795b28b747e4837c00608505252fcad5721eb5cd85313d299e4eed",
+    "controls.cjs": "af8c474296c9f67138429b10823d91d8ed54b75227bbe6c1e56bb0aa9d60d2f6",
+    "tools/nordic-blue-regression/metrics.py": "088008dbe4a289fbdd6e7aca93d969c622674a363b0386405c50f7fe733769ef",
+    "tools/nordic-blue-regression/icon-contracts.py": "a765b04fed3d178b24a34a3212aa4188d0ad36674ddac15e4737a3e2aec8e4a2"
+  },
+  "reviewProcedure": "tools/nordic-blue-visual/README.md",
+  "releaseAcceptance": "TASK-016/017 still pending"
+}

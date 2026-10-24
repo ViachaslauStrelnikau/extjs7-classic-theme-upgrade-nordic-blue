@@ -1,0 +1,306 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "dpr": 1,
+      "name": "resize",
+      "state": "normal",
+      "rect": {
+        "x": 1098,
+        "y": 331,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 1098,
+        "y": 331,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/tools/nordic-resize.png\")",
+      "clicks": 0,
+      "disabled": false,
+      "clicksAfter": 1,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "name": "resize",
+      "state": "hover",
+      "rect": {
+        "x": 1098,
+        "y": 331,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 1098,
+        "y": 331,
+        "width": 15,
+        "height": 15
+      },
+      "x": "-15px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/tools/nordic-resize.png\")",
+      "clicks": 1,
+      "disabled": false,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "name": "resize",
+      "state": "disabled",
+      "rect": {
+        "x": 1098,
+        "y": 331,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 1098,
+        "y": 331,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/tools/nordic-resize.png\")",
+      "clicks": 2,
+      "disabled": true,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "name": "move",
+      "state": "normal",
+      "rect": {
+        "x": 20,
+        "y": 405,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 20,
+        "y": 405,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/tools/nordic-move.png\")",
+      "clicks": 0,
+      "disabled": false,
+      "clicksAfter": 1,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "name": "move",
+      "state": "hover",
+      "rect": {
+        "x": 20,
+        "y": 405,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 20,
+        "y": 405,
+        "width": 15,
+        "height": 15
+      },
+      "x": "-15px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/tools/nordic-move.png\")",
+      "clicks": 1,
+      "disabled": false,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "name": "move",
+      "state": "disabled",
+      "rect": {
+        "x": 20,
+        "y": 405,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 20,
+        "y": 405,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/tools/nordic-move.png\")",
+      "clicks": 2,
+      "disabled": true,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "name": "resize",
+      "state": "normal",
+      "rect": {
+        "x": 1098,
+        "y": 331,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 1098,
+        "y": 331,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/@2x/tools/nordic-resize.png\")",
+      "clicks": 0,
+      "disabled": false,
+      "clicksAfter": 1,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "name": "resize",
+      "state": "hover",
+      "rect": {
+        "x": 1098,
+        "y": 331,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 1098,
+        "y": 331,
+        "width": 15,
+        "height": 15
+      },
+      "x": "-15px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/@2x/tools/nordic-resize.png\")",
+      "clicks": 1,
+      "disabled": false,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "name": "resize",
+      "state": "disabled",
+      "rect": {
+        "x": 1098,
+        "y": 331,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 1098,
+        "y": 331,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/@2x/tools/nordic-resize.png\")",
+      "clicks": 2,
+      "disabled": true,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "name": "move",
+      "state": "normal",
+      "rect": {
+        "x": 20,
+        "y": 405,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 20,
+        "y": 405,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/@2x/tools/nordic-move.png\")",
+      "clicks": 0,
+      "disabled": false,
+      "clicksAfter": 1,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "name": "move",
+      "state": "hover",
+      "rect": {
+        "x": 20,
+        "y": 405,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 20,
+        "y": 405,
+        "width": 15,
+        "height": 15
+      },
+      "x": "-15px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/@2x/tools/nordic-move.png\")",
+      "clicks": 1,
+      "disabled": false,
+      "clicksAfter": 2,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "name": "move",
+      "state": "disabled",
+      "rect": {
+        "x": 20,
+        "y": 405,
+        "width": 140,
+        "height": 15
+      },
+      "iconRect": {
+        "x": 20,
+        "y": 405,
+        "width": 15,
+        "height": 15
+      },
+      "x": "0px",
+      "y": "0px",
+      "size": "30px 15px",
+      "image": "url(\"http://127.0.0.1:51752/build/theme-lab/nordic/testing/resources/images/@2x/tools/nordic-move.png\")",
+      "clicks": 2,
+      "disabled": true,
+      "clicksAfter": 2,
+      "status": "PASS"
+    }
+  ],
+  "policy": "Only approved image/y mapping changes. Graphic remains 15x15; its component click box remains exactly Classic (the standalone lab stretches the component to 140x15). Click dispatch checked, disabled dispatch remains blocked."
+}

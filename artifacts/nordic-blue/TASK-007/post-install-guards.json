@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "unchangedApplicationFiles": 18,
+  "baselineSourceChanges": [
+    "AGENTS.md",
+    "TestApp/theme-lab/build-profiles.json",
+    "TestApp/theme-lab/README.md"
+  ],
+  "expectedDocumentChanges": [
+    "AGENTS.md",
+    "artifacts/nordic-blue/TASK-007/inheritance-report.md",
+    "docs/plans/nordic-blue/README.md",
+    "docs/plans/nordic-blue/tasks/TASK-007.md",
+    "TestApp/theme-lab/build-profiles.json",
+    "TestApp/theme-lab/README.md"
+  ],
+  "note": "Source changes are limited to documented build-profile mirror/readme/plan instructions; common fixture and original TestApp application/config and SDK remain unchanged."
+}

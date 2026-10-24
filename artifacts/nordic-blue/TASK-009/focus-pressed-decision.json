@@ -1,0 +1,18 @@
+{
+  "changes": [
+    {
+      "variable": "button-default-background-color-focus-pressed",
+      "old": "$nb-control-pressed",
+      "new": "#C7DCF6"
+    },
+    {
+      "variable": "button-toolbar-background-color-focus-pressed",
+      "old": "$nb-control-pressed",
+      "new": "#C7DCF6"
+    }
+  ],
+  "formula": "round(0.9 * RGB(#D8E7FA) + 0.1 * RGB(#3275D6)) = RGB(199,220,246) = #C7DCF6",
+  "sdkReason": "Combined focus-pressed background is emitted only if distinct from pressed. This specific color removes the inherited focus-over cascade ambiguity. No geometry, glyph or metric change.",
+  "status": "PASS",
+  "validation": "Final core-state-comparison.json: all 168 state paint pairs distinct, all 56 Classic/Nordic geometry pairs match."
+}

@@ -1,0 +1,7 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$grid-header-background-color: dynamic(#EAF0F8);
+$grid-header-over-background-color: dynamic($nb-accent-soft);
+$grid-header-sorted-background-color: dynamic($nb-accent-soft);
+$grid-header-trigger-background-color-open: dynamic($nb-accent-soft);
+$grid-header-border-color: dynamic($nb-border);
+$grid-header-trigger-background-color: dynamic(transparent);

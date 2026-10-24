@@ -1,0 +1,3091 @@
+{
+  "status": "PASS",
+  "variables": 104,
+  "tokens": 15,
+  "proof": "Every color variable received a distinct temporary sentinel in an isolated copy of the real Cmd-generated stylesheet before its RULE section. All 118 sentinels occur inside actual compiled CSS declarations. No marker CSS was added. Production theme files/build CSS never received sentinels.",
+  "cssSha256": "746f22bf9378a7fc0b46bc9d227211de71da4348953bfd4047f3385919d7f6cc",
+  "results": [
+    {
+      "variable": "panel-header-background-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 278,
+          "expression": "dynamic($panel-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 15,
+          "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 6.402%, $lightness: -4.51%))"
+        }
+      ],
+      "sentinel": "#245701",
+      "compiledOccurrences": 20,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:836 */\n.x-panel-header-default .x-tool-tool-el",
+          "declaration": "background-color: #245701"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1226 */\n.x-panel-header-default",
+          "declaration": "background-color: #245701"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1230 */\n.x-panel-header-default-vertical",
+          "declaration": "background-color: #245701"
+        }
+      ]
+    },
+    {
+      "variable": "panel-header-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 272,
+          "expression": "dynamic($color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 8,
+          "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 38.347%, $lightness: -63.725%))"
+        }
+      ],
+      "sentinel": "#2457D4",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:916 */\n.x-panel-header-title-default",
+          "declaration": "color: #2457d4"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1031 */\n.x-panel-header-title-default > .x-title-icon-wrap-default > .x-title-icon-default",
+          "declaration": "color: #2457d4"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:916 */\n.x-panel-header-title-default-framed",
+          "declaration": "color: #2457d4"
+        }
+      ]
+    },
+    {
+      "variable": "panel-header-border-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 254,
+          "expression": "dynamic($panel-border-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 6,
+          "expression": "dynamic($panel-border-color)"
+        }
+      ],
+      "sentinel": "#2458A7",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */\n.x-panel-header-default",
+          "declaration": "border: 1px solid #2458a7"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */\n.x-tab-bar-default",
+          "declaration": "border-color: #2458a7"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss:540 */\n.x-tab-bar-strip-default",
+          "declaration": "border-color: #2458a7"
+        }
+      ]
+    },
+    {
+      "variable": "panel-border-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 25,
+          "expression": "dynamic($panel-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 5,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "sentinel": "#24597A",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */\n.x-panel-default",
+          "declaration": "border-color: #24597a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */\n.x-panel-default-framed",
+          "declaration": "border-color: #24597a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */\n.x-panel-header-default-framed",
+          "declaration": "border: 1px solid #24597a"
+        }
+      ]
+    },
+    {
+      "variable": "panel-body-border-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 66,
+          "expression": "dynamic($panel-border-color)"
+        }
+      ],
+      "sentinel": "#245A4D",
+      "compiledOccurrences": 5,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */\n.x-panel-body-default",
+          "declaration": "border-color: #245a4d"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */\n.x-panel-body-default-framed",
+          "declaration": "border-color: #245a4d"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:15 */\n.x-grid-body",
+          "declaration": "border-color: #245a4d"
+        }
+      ]
+    },
+    {
+      "variable": "panel-body-background-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 54,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "sentinel": "#245B20",
+      "compiledOccurrences": 5,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */\n.x-panel-body-default",
+          "declaration": "background: #245b20"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:15 */\n.x-grid-body",
+          "declaration": "background: #245b20"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:22 */\n.x-grid-empty",
+          "declaration": "background-color: #245b20"
+        }
+      ]
+    },
+    {
+      "variable": "toolbar-background-color",
+      "sourcePath": "sass/var/toolbar/Toolbar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 15,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($base-color, $hue: -1.333deg, $saturation: -3.831%, $lightness: 4.51%))"
+        }
+      ],
+      "sentinel": "#245BF3",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:598 */\n.x-toolbar-default",
+          "declaration": "background-color: #245bf3"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:614 */\n.x-toolbar-default .x-tool-img",
+          "declaration": "background-color: #245bf3"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:742 */\n.x-ie8 .x-box-scroller-toolbar-default",
+          "declaration": "background-color: #245bf3"
+        }
+      ]
+    },
+    {
+      "variable": "toolbar-border-color",
+      "sourcePath": "sass/var/toolbar/Toolbar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 64,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+          "line": 21,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "sentinel": "#245CC6",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:598 */\n.x-toolbar-default",
+          "declaration": "border-color: #245cc6"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:598 */\n.x-toolbar-footer",
+          "declaration": "border-color: #245cc6"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 783,
+          "expression": "dynamic($button-default-base-color)"
+        }
+      ],
+      "sentinel": "#245D99",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-btn-default-small",
+          "declaration": "background-color: #245d99"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */\n.x-btn-default-small-mc",
+          "declaration": "background-color: #245d99"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-btn-default-medium",
+          "declaration": "background-color: #245d99"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 789,
+          "expression": "dynamic($button-default-base-color-over)"
+        }
+      ],
+      "sentinel": "#245E6C",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-small",
+          "declaration": "background-color: #245e6c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */\n.x-btn-over .x-btn-default-small-mc",
+          "declaration": "background-color: #245e6c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-medium",
+          "declaration": "background-color: #245e6c"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 801,
+          "expression": "dynamic($button-default-base-color-pressed)"
+        }
+      ],
+      "sentinel": "#245F3F",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-small,\n.x-btn.x-btn-pressed.x-btn-default-small",
+          "declaration": "background-color: #245f3f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */\n.x-btn.x-btn-menu-active .x-btn-default-small-mc,\n.x-btn.x-btn-pressed .x-btn-default-small-mc",
+          "declaration": "background-color: #245f3f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-medium,\n.x-btn.x-btn-pressed.x-btn-default-medium",
+          "declaration": "background-color: #245f3f"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 740,
+          "expression": "dynamic($button-default-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 14,
+          "expression": "dynamic(adjust-color($button-default-base-color, $hue: 0deg, $saturation: 0%, $lightness: -18.039%))"
+        }
+      ],
+      "sentinel": "#246012",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */\n.x-btn-default-small",
+          "declaration": "border-color: #246012"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */\n.x-btn-default-medium",
+          "declaration": "border-color: #246012"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */\n.x-btn-default-large",
+          "declaration": "border-color: #246012"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 882,
+          "expression": "dynamic(#000)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 22,
+          "expression": "dynamic(#333)"
+        }
+      ],
+      "sentinel": "#2460E5",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */\n.x-btn-inner-default-small",
+          "declaration": "color: #2460e5"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */\n.x-btn-icon-el-default-small",
+          "declaration": "color: #2460e5"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */\n.x-btn-inner-default-medium",
+          "declaration": "color: #2460e5"
+        }
+      ]
+    },
+    {
+      "variable": "form-field-background-color",
+      "sourcePath": "sass/var/form/field/Base.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 130,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "sentinel": "#2461B8",
+      "compiledOccurrences": 7,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:258 */\n.x-form-text-default",
+          "declaration": "background-color: #2461b8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:258 */\n.x-form-text-toolbar",
+          "declaration": "background-color: #2461b8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:332 */\n.x-form-trigger-toolbar",
+          "declaration": "background: 0 0 #2461b8 url(images/form/trigger.gif) no-repeat"
+        }
+      ]
+    },
+    {
+      "variable": "form-field-color",
+      "sourcePath": "sass/var/form/field/Base.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 70,
+          "expression": "dynamic($color)"
+        }
+      ],
+      "sentinel": "#24628B",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:258 */\n.x-form-text-default",
+          "declaration": "color: #24628b"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:258 */\n.x-form-text-toolbar",
+          "declaration": "color: #24628b"
+        }
+      ]
+    },
+    {
+      "variable": "form-field-border-color",
+      "sourcePath": "sass/var/form/field/Base.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 82,
+          "expression": "dynamic($neutral-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+          "line": 6,
+          "expression": "dynamic(#B5B8C8)"
+        }
+      ],
+      "sentinel": "#24635E",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:240 */\n.x-form-text-wrap-default",
+          "declaration": "border-color: #24635e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:240 */\n.x-form-text-wrap-toolbar",
+          "declaration": "border-color: #24635e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-classic/sass/src/form/field/HtmlEditor.scss:2 */\n.x-html-editor-wrap .x-toolbar",
+          "declaration": "border-left-color: #24635e"
+        }
+      ]
+    },
+    {
+      "variable": "form-trigger-border-color",
+      "sourcePath": "sass/var/form/field/Base.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 600,
+          "expression": "dynamic($form-field-border-color)"
+        }
+      ],
+      "sentinel": "#246431",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:332 */\n.x-form-trigger-default",
+          "declaration": "border-color: #246431"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:332 */\n.x-form-trigger-toolbar",
+          "declaration": "border-color: #246431"
+        }
+      ]
+    },
+    {
+      "variable": "form-field-focus-border-color",
+      "sourcePath": "sass/var/form/field/Base.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 106,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($base-color, $hue: -4.322deg, $saturation: -1.065%, $lightness: -16.863%))"
+        }
+      ],
+      "sentinel": "#246504",
+      "compiledOccurrences": 5,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:247 */\n.x-form-text-wrap-default.x-form-text-wrap-focus",
+          "declaration": "border-color: #246504"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:355 */\n.x-form-trigger-default.x-form-trigger-over",
+          "declaration": "border-color: #246504"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:366 */\n.x-form-trigger-default.x-form-trigger-focus",
+          "declaration": "border-color: #246504"
+        }
+      ]
+    },
+    {
+      "variable": "form-trigger-background-color",
+      "sourcePath": "sass/var/form/field/Trigger.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 636,
+          "expression": "dynamic($form-field-background-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss",
+          "line": 8,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#2465D7",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:332 */\n.x-form-trigger-default",
+          "declaration": "background: 0 0 #2465d7 url(images/form/trigger.gif) no-repeat"
+        }
+      ]
+    },
+    {
+      "variable": "grid-header-background-color",
+      "sourcePath": "sass/var/grid/header/Container.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 9,
+          "expression": "dynamic(#ddd)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+          "line": 4,
+          "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+        }
+      ],
+      "sentinel": "#2466AA",
+      "compiledOccurrences": 5,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:1 */\n.x-grid-header-ct",
+          "declaration": "border-bottom-color: #2466aa"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:1 */\n.x-grid-header-ct",
+          "declaration": "background-color: #2466aa"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:1 */\n.x-grid-header-ct",
+          "declaration": "background-color: #2466aa"
+        }
+      ]
+    },
+    {
+      "variable": "grid-header-over-background-color",
+      "sourcePath": "sass/var/grid/header/Container.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 40,
+          "expression": "dynamic(#eee)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%))"
+        }
+      ],
+      "sentinel": "#24677D",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:79 */\n.x-column-header-over",
+          "declaration": "background-color: #24677d"
+        }
+      ]
+    },
+    {
+      "variable": "grid-header-sorted-background-color",
+      "sourcePath": "sass/var/grid/header/Container.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 54,
+          "expression": "dynamic($grid-header-over-background-color)"
+        }
+      ],
+      "sentinel": "#246850",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:83 */\n.x-column-header-sort-ASC,\n.x-column-header-sort-DESC",
+          "declaration": "background-color: #246850"
+        }
+      ]
+    },
+    {
+      "variable": "grid-header-trigger-background-color-open",
+      "sourcePath": "sass/var/grid/header/Container.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 146,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#246923",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:114 */\n.x-column-header-open .x-column-header-trigger",
+          "declaration": "background-color: #246923"
+        }
+      ]
+    },
+    {
+      "variable": "grid-header-border-color",
+      "sourcePath": "sass/var/grid/header/Container.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 22,
+          "expression": "dynamic(#333)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+          "line": 5,
+          "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+        }
+      ],
+      "sentinel": "#2469F6",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss:31 */\n.x-grid-body",
+          "declaration": "border-top-color: #2469f6"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:1 */\n.x-column-header",
+          "declaration": "border-right: 1px solid #2469f6"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:27 */\n.x-group-sub-header",
+          "declaration": "border-top: 1px solid #2469f6"
+        }
+      ]
+    },
+    {
+      "variable": "grid-header-trigger-background-color",
+      "sourcePath": "sass/var/grid/header/Container.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+          "line": 140,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#246AC9",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss:119 */\n.x-column-header-over .x-column-header-trigger,\n.x-column-header-open .x-column-header-trigger",
+          "declaration": "background: #246ac9 url(images/grid/grid3-hd-btn.gif) no-repeat 0 center"
+        }
+      ]
+    },
+    {
+      "variable": "grid-row-cell-background-color",
+      "sourcePath": "sass/var/view/Table.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 41,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "sentinel": "#246B9C",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:30 */\n.x-grid-item",
+          "declaration": "background-color: #246b9c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:95 */\n.x-grid-with-row-lines .x-grid-item:first-child",
+          "declaration": "border-top-color: #246b9c"
+        }
+      ]
+    },
+    {
+      "variable": "grid-row-cell-alt-background-color",
+      "sourcePath": "sass/var/view/Table.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 132,
+          "expression": "dynamic(darken($grid-row-cell-background-color, 2))"
+        }
+      ],
+      "sentinel": "#246C6F",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:36 */\n.x-grid-item-alt",
+          "declaration": "background-color: #246c6f"
+        }
+      ]
+    },
+    {
+      "variable": "grid-row-cell-border-color",
+      "sourcePath": "sass/var/view/Table.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+          "line": 48,
+          "expression": "dynamic(#ededed)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/view/Table.scss",
+          "line": 5,
+          "expression": "dynamic(#ededed adjust-color($base-color, $hue: 0deg, $saturation: -55.556%, $lightness: -2.549%))"
+        }
+      ],
+      "sentinel": "#246D42",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:89 */\n.x-grid-with-row-lines .x-grid-item",
+          "declaration": "border-color: #246d42"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:162 */\n.x-grid-cell-special",
+          "declaration": "border-color: #246d42"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss:249 */\n.x-grid-with-col-lines .x-grid-cell",
+          "declaration": "border-color: #246d42"
+        }
+      ]
+    },
+    {
+      "variable": "tab-base-color",
+      "sourcePath": "sass/var/tab/Tab.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 9,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 4,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 33.016%, $lightness: 9.02%))"
+        }
+      ],
+      "sentinel": "#246E15",
+      "compiledOccurrences": 33,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-tab-default-top",
+          "declaration": "background-color: #246e15"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-tab-default-top",
+          "declaration": "background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #224f1b), color-stop(25%, #255f19), color-stop(45%, #246e15))"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-tab-default-top",
+          "declaration": "background-image: -webkit-linear-gradient(top, #224f1b, #255f19 25%, #246e15 45%)"
+        }
+      ]
+    },
+    {
+      "variable": "tab-base-color-active",
+      "sourcePath": "sass/var/tab/Tab.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 27,
+          "expression": "dynamic($tab-base-color)"
+        }
+      ],
+      "sentinel": "#246EE8",
+      "compiledOccurrences": 17,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3685 */\n.x-tab.x-tab-active.x-tab-default",
+          "declaration": "background-color: #246ee8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3783 */\n.x-tab.x-tab-active.x-tab-default-top,\n.x-tab.x-tab-active.x-tab-default-left,\n.x-tab.x-tab-active.x-tab-default-right",
+          "declaration": "background-color: #246ee8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3783 */\n.x-tab.x-tab-active.x-tab-default-top,\n.x-tab.x-tab-active.x-tab-default-left,\n.x-tab.x-tab-active.x-tab-default-right",
+          "declaration": "background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #989898), color-stop(25%, #417de3), color-stop(45%, #246ee8))"
+        }
+      ]
+    },
+    {
+      "variable": "tab-border-color",
+      "sourcePath": "sass/var/tab/Tab.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 593,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 17,
+          "expression": "dynamic(adjust-color($tab-base-color, $hue:0deg, $saturation: -28.008%, $lightness: -20.98%))"
+        }
+      ],
+      "sentinel": "#246FBB",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2672 */\n.x-tab-default",
+          "declaration": "border-color: #246fbb"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3318 */\n.x-keyboard-mode .x-tab-focus.x-tab-default",
+          "declaration": "border-color: #246fbb"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3454 */\n.x-tab-over.x-tab-default",
+          "declaration": "border-color: #246fbb"
+        }
+      ]
+    },
+    {
+      "variable": "tab-color",
+      "sourcePath": "sass/var/tab/Tab.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+          "line": 93,
+          "expression": "dynamic($color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+          "line": 8,
+          "expression": "dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -45.589%, $lightness: -48.431%))"
+        }
+      ],
+      "sentinel": "#24708E",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3220 */\n.x-tab-inner-default",
+          "declaration": "color: #24708e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3244 */\n.x-tab-icon-el-default",
+          "declaration": "color: #24708e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3341 */\n.x-keyboard-mode .x-tab-focus.x-tab-default .x-tab-button:before",
+          "declaration": "outline: 1px dotted #24708e"
+        }
+      ]
+    },
+    {
+      "variable": "datepicker-background-color",
+      "sourcePath": "sass/var/picker/Date.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 21,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "sentinel": "#247161",
+      "compiledOccurrences": 5,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:9 */\n.x-datepicker",
+          "declaration": "background-color: #247161"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:154 */\n.x-datepicker-cell",
+          "declaration": "border: 1px solid #247161"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:242 */\n.x-monthpicker",
+          "declaration": "background-color: #247161"
+        }
+      ]
+    },
+    {
+      "variable": "datepicker-header-background-color",
+      "sourcePath": "sass/var/picker/Date.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss",
+          "line": 19,
+          "expression": "dynamic(adjust-color($datepicker-base-color, $hue: 5.768deg, $saturation: 0.419%, $lightness: -52.941%))"
+        }
+      ],
+      "sentinel": "#247234",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:19 */\n.x-datepicker-header",
+          "declaration": "background-color: #247234"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:29 */\n.x-datepicker-arrow",
+          "declaration": "background-color: #247234"
+        }
+      ]
+    },
+    {
+      "variable": "datepicker-item-selected-background-color",
+      "sourcePath": "sass/var/picker/Date.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+          "line": 337,
+          "expression": "dynamic($datepicker-background-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss",
+          "line": 34,
+          "expression": "dynamic(adjust-color($datepicker-base-color, $hue: 0.267deg, $saturation: -4.535%, $lightness: 6.275%))"
+        }
+      ],
+      "sentinel": "#247307",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:181 */\n.x-datepicker-selected div.x-datepicker-date",
+          "declaration": "background-color: #247307"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss:301 */\n.x-monthpicker-item a.x-monthpicker-selected",
+          "declaration": "background-color: #247307"
+        }
+      ]
+    },
+    {
+      "variable": "progress-background-color",
+      "sourcePath": "sass/var/ProgressBar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+          "line": 57,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: -11.37%, $lightness: 7.451%))"
+        }
+      ],
+      "sentinel": "#2473DA",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss:219 */\n.x-progress-default",
+          "declaration": "background-color: #2473da"
+        }
+      ]
+    },
+    {
+      "variable": "progress-bar-background-color",
+      "sourcePath": "sass/var/ProgressBar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+          "line": 63,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: 8.187%, $lightness: -17.647%))"
+        }
+      ],
+      "sentinel": "#2474AD",
+      "compiledOccurrences": 7,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss:234 */\n.x-progress-default .x-progress-bar-default",
+          "declaration": "background-color: #2474ad"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss:234 */\n.x-progress-default .x-progress-bar-default",
+          "declaration": "background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #459bd8), color-stop(50%, #2882c2), color-stop(51%, #2474ad), color-stop(0%, #206698))"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss:234 */\n.x-progress-default .x-progress-bar-default",
+          "declaration": "background-image: -webkit-linear-gradient(top, #459bd8, #2882c2 50%, #2474ad 51%, #206698)"
+        }
+      ]
+    },
+    {
+      "variable": "window-header-background-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 116,
+          "expression": "dynamic($window-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 12,
+          "expression": "dynamic($window-background-color)"
+        }
+      ],
+      "sentinel": "#247580",
+      "compiledOccurrences": 18,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:581 */\n.x-window-header-default",
+          "declaration": "background-color: #247580"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:586 */\n.x-window-header-default .x-tool-img",
+          "declaration": "background-color: #247580"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-window-header-default-top",
+          "declaration": "background-color: #247580"
+        }
+      ]
+    },
+    {
+      "variable": "window-header-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 110,
+          "expression": "dynamic($panel-header-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 9,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: -2.451deg, $saturation: 38.889%, $lightness: -55.882%))"
+        }
+      ],
+      "sentinel": "#247653",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:622 */\n.x-window-header-title-default",
+          "declaration": "color: #247653"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:712 */\n.x-window-header-title-default > .x-title-icon-wrap-default > .x-title-icon-default",
+          "declaration": "color: #247653"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:857 */\n.x-window-header-default .x-window-header-icon",
+          "declaration": "color: #247653"
+        }
+      ]
+    },
+    {
+      "variable": "window-border-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 38,
+          "expression": "dynamic($window-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 6,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: 0.952deg, $saturation: -32.377%, $lightness: -13.725%))"
+        }
+      ],
+      "sentinel": "#247726",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:545 */\n.x-window-default",
+          "declaration": "border-color: #247726"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:581 */\n.x-window-header-default",
+          "declaration": "border-color: #247726"
+        }
+      ]
+    },
+    {
+      "variable": "menu-background-color",
+      "sourcePath": "sass/var/menu/Menu.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 9,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 4,
+          "expression": "dynamic(#f0f0f0)"
+        }
+      ],
+      "sentinel": "#2477F9",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:824 */\n.x-menu-body-default",
+          "declaration": "background: #2477f9"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:1217 */\n.x-ie8 .x-box-scroller-menu-default",
+          "declaration": "background-color: #2477f9"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:824 */\n.x-menu-body-default-menubar",
+          "declaration": "background: #2477f9"
+        }
+      ]
+    },
+    {
+      "variable": "menu-border-color",
+      "sourcePath": "sass/var/menu/Menu.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 15,
+          "expression": "dynamic($neutral-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 5,
+          "expression": "dynamic($panel-border-color)"
+        }
+      ],
+      "sentinel": "#2478CC",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:818 */\n.x-menu-default",
+          "declaration": "border-color: #2478cc"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:818 */\n.x-menu-default-menubar",
+          "declaration": "border-color: #2478cc"
+        }
+      ]
+    },
+    {
+      "variable": "menu-item-active-border-color",
+      "sourcePath": "sass/var/menu/Menu.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 99,
+          "expression": "dynamic(adjust-color($base-color, $saturation: 23%, $lightness: -3%))"
+        }
+      ],
+      "sentinel": "#24799F",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:849 */\n.x-menu-item-default.x-menu-item-focus,\n.x-menu-item-default.x-menu-item-active",
+          "declaration": "border-color: #24799f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:849 */\n.x-menu-item-default-menubar.x-menu-item-focus,\n.x-menu-item-default-menubar.x-menu-item-active",
+          "declaration": "border-color: #24799f"
+        }
+      ]
+    },
+    {
+      "variable": "menu-text-color",
+      "sourcePath": "sass/var/menu/Menu.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 39,
+          "expression": "dynamic(#000)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 11,
+          "expression": "dynamic(#222)"
+        }
+      ],
+      "sentinel": "#247A72",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:904 */\n.x-menu-item-default .x-form-item-label",
+          "declaration": "color: #247a72"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:916 */\n.x-menu-item-text-default",
+          "declaration": "color: #247a72"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:992 */\n.x-menu-item-icon-default",
+          "declaration": "color: #247a72"
+        }
+      ]
+    },
+    {
+      "variable": "menu-item-active-text-color",
+      "sourcePath": "sass/var/menu/Menu.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 87,
+          "expression": "dynamic($color)"
+        }
+      ],
+      "sentinel": "#247B45",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:928 */\n.x-menu-item-focus .x-menu-item-text-default,\n.x-menu-item-active .x-menu-item-text-default",
+          "declaration": "color: #247b45"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:928 */\n.x-menu-item-focus .x-menu-item-text-default-menubar,\n.x-menu-item-active .x-menu-item-text-default-menubar",
+          "declaration": "color: #247b45"
+        }
+      ]
+    },
+    {
+      "variable": "menu-item-active-background-color",
+      "sourcePath": "sass/var/menu/Menu.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+          "line": 93,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($base-color, $saturation: 25.397%, $lightness: 7.647%))"
+        }
+      ],
+      "sentinel": "#247C18",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:849 */\n.x-menu-item-default.x-menu-item-focus,\n.x-menu-item-default.x-menu-item-active",
+          "declaration": "background-color: #247c18"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:862 */\n.x-nlg .x-menu-item-default.x-menu-item-focus,\n.x-nlg .x-menu-item-default.x-menu-item-active",
+          "declaration": "background: #247c18 repeat-x left top"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss:849 */\n.x-menu-item-default-menubar.x-menu-item-focus,\n.x-menu-item-default-menubar.x-menu-item-active",
+          "declaration": "background-color: #247c18"
+        }
+      ]
+    },
+    {
+      "variable": "loadmask-msg-background-color",
+      "sourcePath": "sass/var/LoadMask.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 83,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss",
+          "line": 11,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 0.542%, $lightness: 7.843%))"
+        }
+      ],
+      "sentinel": "#247CEB",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss:31 */\n.x-mask-msg",
+          "declaration": "background: #247ceb"
+        }
+      ]
+    },
+    {
+      "variable": "loadmask-msg-border-color",
+      "sourcePath": "sass/var/LoadMask.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 71,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss",
+          "line": 9,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "sentinel": "#247DBE",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss:31 */\n.x-mask-msg",
+          "declaration": "border-color: #247dbe"
+        }
+      ]
+    },
+    {
+      "variable": "loadmask-msg-inner-background-color",
+      "sourcePath": "sass/var/LoadMask.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 133,
+          "expression": "dynamic(#eee)"
+        }
+      ],
+      "sentinel": "#247E91",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss:49 */\n.x-mask-msg-inner",
+          "declaration": "background-color: #247e91"
+        }
+      ]
+    },
+    {
+      "variable": "loadmask-msg-inner-color",
+      "sourcePath": "sass/var/LoadMask.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+          "line": 139,
+          "expression": "dynamic(#222)"
+        }
+      ],
+      "sentinel": "#247F64",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss:49 */\n.x-mask-msg-inner",
+          "declaration": "color: #247f64"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 746,
+          "expression": "dynamic(button-default-border-color-over($button-default-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 15,
+          "expression": "dynamic(adjust-color($button-default-base-color-over, $hue: 8.177deg, $saturation: -28.283%, $lightness: -12.745%))"
+        }
+      ],
+      "sentinel": "#248037",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-small",
+          "declaration": "border-color: #248037"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-medium",
+          "declaration": "border-color: #248037"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-large",
+          "declaration": "border-color: #248037"
+        }
+      ]
+    },
+    {
+      "variable": "form-field-empty-color",
+      "sourcePath": "sass/var/form/field/Base.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+          "line": 76,
+          "expression": "dynamic(gray)"
+        }
+      ],
+      "sentinel": "#24810A",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:298 */\n.x-form-text-default.x-form-text-file",
+          "declaration": "color: #24810a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:312 */\n.x-form-empty-field-default + .x-placeholder-label-default",
+          "declaration": "color: #24810a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss:317 */\n.x-form-text-default:-ms-input-placeholder",
+          "declaration": "color: #24810a"
+        }
+      ]
+    },
+    {
+      "variable": "panel-body-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 60,
+          "expression": "dynamic($color)"
+        }
+      ],
+      "sentinel": "#2481DD",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */\n.x-panel-body-default",
+          "declaration": "color: #2481dd"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */\n.x-panel-body-default-framed",
+          "declaration": "color: #2481dd"
+        }
+      ]
+    },
+    {
+      "variable": "panel-frame-background-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 363,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 20,
+          "expression": "dynamic($panel-frame-base-color)"
+        }
+      ],
+      "sentinel": "#2482B0",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */\n.x-panel-body-default-framed",
+          "declaration": "background: #2482b0"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-panel-default-framed",
+          "declaration": "background-color: #2482b0"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */\n.x-panel-default-framed-mc",
+          "declaration": "background-color: #2482b0"
+        }
+      ]
+    },
+    {
+      "variable": "panel-header-inner-border-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 260,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 13,
+          "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: -6.098%, $lightness: 4.902%))"
+        }
+      ],
+      "sentinel": "#248383",
+      "compiledOccurrences": 24,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1317 */\n.x-panel-header-default-top",
+          "declaration": "-webkit-box-shadow: #248383 0 1px 0px 0 inset"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1317 */\n.x-panel-header-default-top",
+          "declaration": "-moz-box-shadow: #248383 0 1px 0px 0 inset"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1317 */\n.x-panel-header-default-top",
+          "declaration": "box-shadow: #248383 0 1px 0px 0 inset"
+        }
+      ]
+    },
+    {
+      "variable": "panel-header-focus-outline-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 162,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 25,
+          "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -66%))"
+        }
+      ],
+      "sentinel": "#248456",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:929 */\n.x-keyboard-mode .x-panel-header-title-default.x-title-focus",
+          "declaration": "outline: 1px dotted #248456"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */\n.x-ie .x-keyboard-mode .x-panel-header-title-default.x-title-focus:after,\n.x-ie10p .x-keyboard-mode .x-panel-header-title-default.x-title-focus:after,\n.x-edge .x-keyboard-mode .x-panel-header-title-default.x-title-focus:after",
+          "declaration": "border: 1px dotted #248456"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:929 */\n.x-keyboard-mode .x-panel-header-title-default-framed.x-title-focus",
+          "declaration": "outline: 1px dotted #248456"
+        }
+      ]
+    },
+    {
+      "variable": "panel-tool-focus-outline-color",
+      "sourcePath": "sass/var/panel/Panel.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+          "line": 108,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+          "line": 26,
+          "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -66%))"
+        }
+      ],
+      "sentinel": "#248529",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1381 */\n.x-keyboard-mode .x-panel-header-default .x-tool-focus",
+          "declaration": "outline: 1px dotted #248529"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */\n.x-ie8 .x-keyboard-mode .x-panel-header-default .x-tool-focus:after",
+          "declaration": "border: 1px dotted #248529"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1381 */\n.x-keyboard-mode .x-panel-header-default-framed .x-tool-focus",
+          "declaration": "outline: 1px dotted #248529"
+        }
+      ]
+    },
+    {
+      "variable": "window-background-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 56,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 11,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: 0.267deg, $saturation: -21.309%, $lightness: 1.569%))"
+        }
+      ],
+      "sentinel": "#2485FC",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-window-default",
+          "declaration": "background-color: #2485fc"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */\n.x-window-default-mc",
+          "declaration": "background-color: #2485fc"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/src/window/MessageBox.scss:1 */\n.x-message-box .x-window-body",
+          "declaration": "background-color: #2485fc"
+        }
+      ]
+    },
+    {
+      "variable": "window-inner-border-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 44,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 7,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: 2.667deg, $saturation: 9.662%, $lightness: 11.373%))"
+        }
+      ],
+      "sentinel": "#2486CF",
+      "compiledOccurrences": 15,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:545 */\n.x-window-default",
+          "declaration": "-webkit-box-shadow: #2486cf 0 1px 0px 0 inset, #2486cf 0 -1px 0px 0 inset, #2486cf -1px 0 0px 0 inset, #2486cf 1px 0 0px 0 inset"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:545 */\n.x-window-default",
+          "declaration": "-moz-box-shadow: #2486cf 0 1px 0px 0 inset, #2486cf 0 -1px 0px 0 inset, #2486cf -1px 0 0px 0 inset, #2486cf 1px 0 0px 0 inset"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:545 */\n.x-window-default",
+          "declaration": "box-shadow: #2486cf 0 1px 0px 0 inset, #2486cf 0 -1px 0px 0 inset, #2486cf -1px 0 0px 0 inset, #2486cf 1px 0 0px 0 inset"
+        }
+      ]
+    },
+    {
+      "variable": "window-body-background-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 80,
+          "expression": "dynamic(#fff)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 13,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: 3.188deg, $saturation: 0.542%, $lightness: 7.843%))"
+        }
+      ],
+      "sentinel": "#2487A2",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:567 */\n.x-window-body-default",
+          "declaration": "background: #2487a2"
+        }
+      ]
+    },
+    {
+      "variable": "window-body-border-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 74,
+          "expression": "dynamic($window-base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+          "line": 14,
+          "expression": "dynamic(adjust-color($window-base-color, $hue: 0.844deg, $saturation: 7.644%, $lightness: -8.627%))"
+        }
+      ],
+      "sentinel": "#248875",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:567 */\n.x-window-body-default",
+          "declaration": "border-color: #248875"
+        }
+      ]
+    },
+    {
+      "variable": "window-body-color",
+      "sourcePath": "sass/var/window/Window.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+          "line": 86,
+          "expression": "dynamic(#000)"
+        }
+      ],
+      "sentinel": "#248948",
+      "compiledOccurrences": 1,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss:567 */\n.x-window-body-default",
+          "declaration": "color: #248948"
+        }
+      ]
+    },
+    {
+      "variable": "toolbar-text-color",
+      "sourcePath": "sass/var/toolbar/Toolbar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 160,
+          "expression": "dynamic(mix(desaturate(lighten($base-color, 37), 5), #000, 30))"
+        }
+      ],
+      "sentinel": "#248A1B",
+      "compiledOccurrences": 2,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:694 */\n.x-toolbar-text-default",
+          "declaration": "color: #248a1b"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:694 */\n.x-toolbar-text-footer",
+          "declaration": "color: #248a1b"
+        }
+      ]
+    },
+    {
+      "variable": "toolbar-footer-background-color",
+      "sourcePath": "sass/var/toolbar/Toolbar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 52,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#248AEE",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:598 */\n.x-toolbar-footer",
+          "declaration": "background-color: #248aee"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:614 */\n.x-toolbar-footer .x-tool-img",
+          "declaration": "background-color: #248aee"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:742 */\n.x-ie8 .x-box-scroller-toolbar-footer",
+          "declaration": "background-color: #248aee"
+        }
+      ]
+    },
+    {
+      "variable": "toolbar-separator-color",
+      "sourcePath": "sass/var/toolbar/Toolbar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 88,
+          "expression": "dynamic(adjust-color($base-color, $hue: -1deg, $saturation: 100%, $lightness: -4.3%))"
+        }
+      ],
+      "sentinel": "#248BC1",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:639 */\n.x-toolbar-default .x-toolbar-separator-horizontal",
+          "declaration": "border-left-color: #248bc1"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:671 */\n.x-toolbar-default-vertical .x-toolbar-separator-vertical",
+          "declaration": "border-top-color: #248bc1"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:639 */\n.x-toolbar-footer .x-toolbar-separator-horizontal",
+          "declaration": "border-left-color: #248bc1"
+        }
+      ]
+    },
+    {
+      "variable": "toolbar-separator-highlight-color",
+      "sourcePath": "sass/var/toolbar/Toolbar.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+          "line": 94,
+          "expression": "dynamic(#fff)"
+        }
+      ],
+      "sentinel": "#248C94",
+      "compiledOccurrences": 4,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:639 */\n.x-toolbar-default .x-toolbar-separator-horizontal",
+          "declaration": "border-right-color: #248c94"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:671 */\n.x-toolbar-default-vertical .x-toolbar-separator-vertical",
+          "declaration": "border-bottom-color: #248c94"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss:639 */\n.x-toolbar-footer .x-toolbar-separator-horizontal",
+          "declaration": "border-right-color: #248c94"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 888,
+          "expression": "dynamic(button-default-color-over($button-default-color))"
+        }
+      ],
+      "sentinel": "#248E3A",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */\n.x-btn-over.x-btn-default-small .x-btn-inner",
+          "declaration": "color: #248e3a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */\n.x-btn-over.x-btn-default-medium .x-btn-inner",
+          "declaration": "color: #248e3a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */\n.x-btn-over.x-btn-default-large .x-btn-inner",
+          "declaration": "color: #248e3a"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 795,
+          "expression": "dynamic($button-default-base-color-focus)"
+        }
+      ],
+      "sentinel": "#248FE0",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-small",
+          "declaration": "background-color: #248fe0"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */\n.x-keyboard-mode .x-btn-focus .x-btn-default-small-mc",
+          "declaration": "background-color: #248fe0"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-medium",
+          "declaration": "background-color: #248fe0"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 752,
+          "expression": "dynamic(button-default-border-color-focus($button-default-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 16,
+          "expression": "dynamic($button-default-border-color-over)"
+        }
+      ],
+      "sentinel": "#2490B3",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-small",
+          "declaration": "border-color: #2490b3"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-medium",
+          "declaration": "border-color: #2490b3"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-large",
+          "declaration": "border-color: #2490b3"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 894,
+          "expression": "dynamic(button-default-color-focus($button-default-color))"
+        }
+      ],
+      "sentinel": "#249186",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-small .x-btn-inner",
+          "declaration": "color: #249186"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-medium .x-btn-inner",
+          "declaration": "color: #249186"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-large .x-btn-inner",
+          "declaration": "color: #249186"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 758,
+          "expression": "dynamic(button-default-border-color-pressed($button-default-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 17,
+          "expression": "dynamic(adjust-color($button-default-base-color-pressed, $hue: 2.317deg, $saturation: 6.756%, $lightness: -5.294%))"
+        }
+      ],
+      "sentinel": "#24932C",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-small,\n.x-btn.x-btn-pressed.x-btn-default-small",
+          "declaration": "border-color: #24932c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-medium,\n.x-btn.x-btn-pressed.x-btn-default-medium",
+          "declaration": "border-color: #24932c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-large,\n.x-btn.x-btn-pressed.x-btn-default-large",
+          "declaration": "border-color: #24932c"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 900,
+          "expression": "dynamic(button-default-color-pressed($button-default-color))"
+        }
+      ],
+      "sentinel": "#2493FF",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */\n.x-btn.x-btn-menu-active.x-btn-default-small .x-btn-inner,\n.x-btn.x-btn-pressed.x-btn-default-small .x-btn-inner",
+          "declaration": "color: #2493ff"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */\n.x-btn.x-btn-menu-active.x-btn-default-medium .x-btn-inner,\n.x-btn.x-btn-pressed.x-btn-default-medium .x-btn-inner",
+          "declaration": "color: #2493ff"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */\n.x-btn.x-btn-menu-active.x-btn-default-large .x-btn-inner,\n.x-btn.x-btn-pressed.x-btn-default-large .x-btn-inner",
+          "declaration": "color: #2493ff"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color-focus-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 808,
+          "expression": "dynamic($button-default-background-color-over)"
+        }
+      ],
+      "sentinel": "#2495A5",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-small",
+          "declaration": "background-color: #2495a5"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */\n.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-default-small-mc",
+          "declaration": "background-color: #2495a5"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-medium",
+          "declaration": "background-color: #2495a5"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color-focus-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 765,
+          "expression": "dynamic($button-default-border-color-over)"
+        }
+      ],
+      "sentinel": "#249678",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-small",
+          "declaration": "border-color: #249678"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-medium",
+          "declaration": "border-color: #249678"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-large",
+          "declaration": "border-color: #249678"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color-focus-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 907,
+          "expression": "dynamic($button-default-color-over)"
+        }
+      ],
+      "sentinel": "#24974B",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2856 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-small .x-btn-inner",
+          "declaration": "color: #24974b"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2856 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-medium .x-btn-inner",
+          "declaration": "color: #24974b"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2856 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-large .x-btn-inner",
+          "declaration": "color: #24974b"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color-focus-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 814,
+          "expression": "dynamic($button-default-background-color-pressed)"
+        }
+      ],
+      "sentinel": "#2498F1",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-small,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-small",
+          "declaration": "background-color: #2498f1"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-default-small-mc,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-default-small-mc",
+          "declaration": "background-color: #2498f1"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-medium,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-medium",
+          "declaration": "background-color: #2498f1"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color-focus-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 771,
+          "expression": "dynamic($button-default-border-color-pressed)"
+        }
+      ],
+      "sentinel": "#2499C4",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-small,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-small",
+          "declaration": "border-color: #2499c4"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-medium,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-medium",
+          "declaration": "border-color: #2499c4"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-large,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-large",
+          "declaration": "border-color: #2499c4"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color-focus-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 913,
+          "expression": "dynamic($button-default-color-pressed)"
+        }
+      ],
+      "sentinel": "#249A97",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2915 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-small .x-btn-inner,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-small .x-btn-inner",
+          "declaration": "color: #249a97"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2915 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-medium .x-btn-inner,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-medium .x-btn-inner",
+          "declaration": "color: #249a97"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2915 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-large .x-btn-inner,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-large .x-btn-inner",
+          "declaration": "color: #249a97"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-background-color-disabled",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 820,
+          "expression": "dynamic($button-default-base-color-disabled)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 23,
+          "expression": "dynamic($button-default-base-color-disabled)"
+        }
+      ],
+      "sentinel": "#249C3D",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-small",
+          "declaration": "background-color: #249c3d"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */\n.x-btn.x-btn-disabled .x-btn-default-small-mc",
+          "declaration": "background-color: #249c3d"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-medium",
+          "declaration": "background-color: #249c3d"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-border-color-disabled",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 777,
+          "expression": "dynamic(button-default-border-color-disabled($button-default-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 18,
+          "expression": "dynamic(adjust-color($button-default-base-color-disabled, $hue: 0deg, $saturation: 0%, $lightness: -8.627%))"
+        }
+      ],
+      "sentinel": "#249D10",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-small",
+          "declaration": "border-color: #249d10"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-medium",
+          "declaration": "border-color: #249d10"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-large",
+          "declaration": "border-color: #249d10"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-color-disabled",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 919,
+          "expression": "dynamic(button-default-color-disabled($button-default-color))"
+        }
+      ],
+      "sentinel": "#249DE3",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */\n.x-btn.x-btn-disabled.x-btn-default-small .x-btn-inner",
+          "declaration": "color: #249de3"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */\n.x-btn.x-btn-disabled.x-btn-default-medium .x-btn-inner",
+          "declaration": "color: #249de3"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */\n.x-btn.x-btn-disabled.x-btn-default-large .x-btn-inner",
+          "declaration": "color: #249de3"
+        }
+      ]
+    },
+    {
+      "variable": "button-default-body-outline-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1023,
+          "expression": "dynamic($button-default-color)"
+        }
+      ],
+      "sentinel": "#249F89",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2769 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-small .x-btn-wrap",
+          "declaration": "outline: 1px dotted #249f89"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2769 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-medium .x-btn-wrap",
+          "declaration": "outline: 1px dotted #249f89"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2769 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-large .x-btn-wrap",
+          "declaration": "outline: 1px dotted #249f89"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1099,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 31,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#24A05C",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24a05c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */\n.x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24a05c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */\n.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24a05c"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1055,
+          "expression": "dynamic($base-color)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 25,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#24A12F",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */\n.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24a12f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */\n.x-ie8 .x-btn-icon-el-default-toolbar-small.x-btn-glyph",
+          "declaration": "color: #24a12f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */\n.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24a12f"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1199,
+          "expression": "dynamic(#000)"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 40,
+          "expression": "dynamic(#333)"
+        }
+      ],
+      "sentinel": "#24A202",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */\n.x-btn-inner-default-toolbar-small",
+          "declaration": "color: #24a202"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */\n.x-btn-icon-el-default-toolbar-small",
+          "declaration": "color: #24a202"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */\n.x-btn-inner-default-toolbar-medium",
+          "declaration": "color: #24a202"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1105,
+          "expression": "dynamic(button-toolbar-background-color-over($button-toolbar-background-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 32,
+          "expression": "dynamic(adjust-color($base-color, $hue: -5deg, $saturation: 44.444%, $lightness: 8.824%))"
+        }
+      ],
+      "sentinel": "#24A3A8",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24a3a8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */\n.x-btn-over .x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24a3a8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24a3a8"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1061,
+          "expression": "dynamic(button-toolbar-border-color-over($button-toolbar-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 26,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0.084deg, $saturation: -9.891%, $lightness: -18.039%))"
+        }
+      ],
+      "sentinel": "#24A47B",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24a47b"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24a47b"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */\n.x-btn-over.x-btn-default-toolbar-large",
+          "declaration": "border-color: #24a47b"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1205,
+          "expression": "dynamic(button-toolbar-color-over($button-toolbar-color))"
+        }
+      ],
+      "sentinel": "#24A54E",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */\n.x-btn-over.x-btn-default-toolbar-small .x-btn-inner",
+          "declaration": "color: #24a54e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */\n.x-btn-over.x-btn-default-toolbar-medium .x-btn-inner",
+          "declaration": "color: #24a54e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */\n.x-btn-over.x-btn-default-toolbar-large .x-btn-inner",
+          "declaration": "color: #24a54e"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1111,
+          "expression": "dynamic(button-toolbar-background-color-focus($button-toolbar-background-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 33,
+          "expression": "dynamic($button-toolbar-background-color)"
+        }
+      ],
+      "sentinel": "#24A6F4",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24a6f4"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */\n.x-keyboard-mode .x-btn-focus .x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24a6f4"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24a6f4"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1067,
+          "expression": "dynamic(button-toolbar-border-color-focus($button-toolbar-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 27,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#24A7C7",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24a7c7"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24a7c7"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-large",
+          "declaration": "border-color: #24a7c7"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1211,
+          "expression": "dynamic(button-toolbar-color-focus($button-toolbar-color))"
+        }
+      ],
+      "sentinel": "#24A89A",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-small .x-btn-inner",
+          "declaration": "color: #24a89a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-medium .x-btn-inner",
+          "declaration": "color: #24a89a"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-large .x-btn-inner",
+          "declaration": "color: #24a89a"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1117,
+          "expression": "dynamic(button-toolbar-background-color-pressed($button-toolbar-background-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 34,
+          "expression": "dynamic(adjust-color($base-color, $hue: -1.138deg, $saturation: -11.47%, $lightness: -2.353%))"
+        }
+      ],
+      "sentinel": "#24AA40",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-small,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24aa40"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */\n.x-btn.x-btn-menu-active .x-btn-default-toolbar-small-mc,\n.x-btn.x-btn-pressed .x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24aa40"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-medium,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24aa40"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1073,
+          "expression": "dynamic(button-toolbar-border-color-pressed($button-toolbar-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 28,
+          "expression": "dynamic(adjust-color($base-color, $hue: 0.721deg, $saturation: -17.014%, $lightness: -21.765%))"
+        }
+      ],
+      "sentinel": "#24AB13",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-small,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24ab13"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-medium,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24ab13"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-large,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-large",
+          "declaration": "border-color: #24ab13"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1217,
+          "expression": "dynamic(button-toolbar-color-pressed($button-toolbar-color))"
+        }
+      ],
+      "sentinel": "#24ABE6",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-small .x-btn-inner,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-small .x-btn-inner",
+          "declaration": "color: #24abe6"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-medium .x-btn-inner,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-medium .x-btn-inner",
+          "declaration": "color: #24abe6"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */\n.x-btn.x-btn-menu-active.x-btn-default-toolbar-large .x-btn-inner,\n.x-btn.x-btn-pressed.x-btn-default-toolbar-large .x-btn-inner",
+          "declaration": "color: #24abe6"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color-focus-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1124,
+          "expression": "dynamic($button-toolbar-background-color-over)"
+        }
+      ],
+      "sentinel": "#24AD8C",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24ad8c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */\n.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24ad8c"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24ad8c"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color-focus-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1080,
+          "expression": "dynamic($button-toolbar-border-color-over)"
+        }
+      ],
+      "sentinel": "#24AE5F",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24ae5f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24ae5f"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-large",
+          "declaration": "border-color: #24ae5f"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color-focus-over",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1224,
+          "expression": "dynamic($button-toolbar-color-over)"
+        }
+      ],
+      "sentinel": "#24AF32",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2856 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-small .x-btn-inner",
+          "declaration": "color: #24af32"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2856 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-medium .x-btn-inner",
+          "declaration": "color: #24af32"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2856 */\n.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-toolbar-large .x-btn-inner",
+          "declaration": "color: #24af32"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color-focus-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1131,
+          "expression": "dynamic($button-toolbar-background-color-pressed)"
+        }
+      ],
+      "sentinel": "#24B0D8",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-small,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24b0d8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-default-toolbar-small-mc,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24b0d8"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-medium,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24b0d8"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color-focus-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1087,
+          "expression": "dynamic($button-toolbar-border-color-pressed)"
+        }
+      ],
+      "sentinel": "#24B1AB",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-small,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24b1ab"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-medium,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24b1ab"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-large,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-large",
+          "declaration": "border-color: #24b1ab"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color-focus-pressed",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1230,
+          "expression": "dynamic($button-toolbar-color-pressed)"
+        }
+      ],
+      "sentinel": "#24B27E",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2915 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-small .x-btn-inner,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-small .x-btn-inner",
+          "declaration": "color: #24b27e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2915 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-medium .x-btn-inner,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-medium .x-btn-inner",
+          "declaration": "color: #24b27e"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2915 */\n.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-default-toolbar-large .x-btn-inner,\n.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-default-toolbar-large .x-btn-inner",
+          "declaration": "color: #24b27e"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-background-color-disabled",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1137,
+          "expression": "dynamic(button-toolbar-background-color-disabled($button-toolbar-background-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 35,
+          "expression": "dynamic(transparent)"
+        }
+      ],
+      "sentinel": "#24B424",
+      "compiledOccurrences": 6,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-small",
+          "declaration": "background-color: #24b424"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */\n.x-btn.x-btn-disabled .x-btn-default-toolbar-small-mc",
+          "declaration": "background-color: #24b424"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-medium",
+          "declaration": "background-color: #24b424"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-border-color-disabled",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1093,
+          "expression": "dynamic(button-toolbar-border-color-disabled($button-toolbar-border-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 29,
+          "expression": "dynamic($button-default-border-color-disabled)"
+        }
+      ],
+      "sentinel": "#24B4F7",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-small",
+          "declaration": "border-color: #24b4f7"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-medium",
+          "declaration": "border-color: #24b4f7"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-large",
+          "declaration": "border-color: #24b4f7"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-color-disabled",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1236,
+          "expression": "dynamic(button-toolbar-color-disabled($button-toolbar-color))"
+        },
+        {
+          "theme": "theme-classic",
+          "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+          "line": 41,
+          "expression": "dynamic(lighten($button-toolbar-color, 35))"
+        }
+      ],
+      "sentinel": "#24B5CA",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-small .x-btn-inner",
+          "declaration": "color: #24b5ca"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-medium .x-btn-inner",
+          "declaration": "color: #24b5ca"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */\n.x-btn.x-btn-disabled.x-btn-default-toolbar-large .x-btn-inner",
+          "declaration": "color: #24b5ca"
+        }
+      ]
+    },
+    {
+      "variable": "button-toolbar-body-outline-color-focus",
+      "sourcePath": "sass/var/button/Button.scss",
+      "sdkDeclarations": [
+        {
+          "theme": "theme-neutral",
+          "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+          "line": 1342,
+          "expression": "dynamic($button-default-body-outline-color-focus)"
+        }
+      ],
+      "sentinel": "#24B770",
+      "compiledOccurrences": 3,
+      "examples": [
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2769 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-small .x-btn-wrap",
+          "declaration": "outline: 1px dotted #24b770"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2769 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-medium .x-btn-wrap",
+          "declaration": "outline: 1px dotted #24b770"
+        },
+        {
+          "selector": "/* D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2769 */\n.x-keyboard-mode .x-btn-focus.x-btn-default-toolbar-large .x-btn-wrap",
+          "declaration": "outline: 1px dotted #24b770"
+        }
+      ]
+    }
+  ]
+}

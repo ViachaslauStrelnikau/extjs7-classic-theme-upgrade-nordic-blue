@@ -1,0 +1,49 @@
+{
+  "cwdGenerate": "TestApp",
+  "generate": "..\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe generate theme --extend=theme-classic --toolkit=classic theme-nordic-blue",
+  "generateExitCode": 0,
+  "cwdBuild": "TestApp/theme-lab",
+  "builds": [
+    {
+      "command": "..\\..\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe app build lab-classic testing",
+      "exitCode": 0
+    },
+    {
+      "command": "..\\..\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe app build lab-nordic testing",
+      "exitCode": 0
+    }
+  ],
+  "environment": {
+    "JAVA_HOME": "C:/Program Files/Java/jdk1.8.0_501",
+    "PATHprepend": "JAVA_HOME/bin;project/node_modules/@sencha/cmd-windows/dist/bin/windows/node"
+  },
+  "capture": {
+    "node": "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+    "commands": [
+      "NORDIC_CPU_RASTER=1 node capture.cjs 1 1",
+      "NORDIC_CPU_RASTER=1 node capture.cjs 2 1"
+    ],
+    "exitCodes": [
+      0,
+      0
+    ],
+    "browser": "155.0.4283.62",
+    "args": [
+      "--disable-gpu",
+      "--force-color-profile=srgb"
+    ]
+  },
+  "rejectedAttempts": [
+    {
+      "command": "generate theme --extend theme-classic --toolkit classic theme-nordic-blue",
+      "exitCode": 1,
+      "reason": "Cmd consumes spaced option values incorrectly; use equals syntax."
+    },
+    {
+      "command": "app build lab-classic testing (initial new lab descriptor)",
+      "exitCode": 321,
+      "reason": "New laboratory id was not a UUID; corrected before both successful builds. Original TestApp id untouched.",
+      "log": "build-lab-classic-invalid-uuid.log"
+    }
+  ]
+}

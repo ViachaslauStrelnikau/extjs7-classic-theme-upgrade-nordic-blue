@@ -1,0 +1,35 @@
+[
+  {
+    "step": "lint",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\tools\\lint-nordic-blue.py",
+      "--check-icon-candidates"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "create-initial-golden",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\goldens.py"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "verify-golden",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\verify.py"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "render",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\render.py"
+    ],
+    "exitCode": 0
+  }
+]

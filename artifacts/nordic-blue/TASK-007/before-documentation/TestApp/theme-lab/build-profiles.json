@@ -1,0 +1,15 @@
+{
+  "description": "Sencha app.json build-profile fragments for later activation in TASK-007. No Nordic package/build exists in TASK-005. Merge only after validating output paths with installed Cmd. Do not replace TestApp app.json with this fragment.",
+  "builds": {
+    "lab-classic": {
+      "toolkit": "classic",
+      "theme": "ext-theme-classic",
+      "output": {"base": "${workspace.dir}/build/theme-lab/classic/${build.environment}"}
+    },
+    "lab-nordic": {
+      "toolkit": "classic",
+      "theme": "theme-nordic-blue",
+      "output": {"base": "${workspace.dir}/build/theme-lab/nordic/${build.environment}"}
+    }
+  }
+}

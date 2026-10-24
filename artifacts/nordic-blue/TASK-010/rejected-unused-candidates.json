@@ -1,0 +1,6 @@
+[
+  {
+    "variable": "form-toolbar-trigger-border-color-focus",
+    "reason": "No audited SDK consumer; retain inherited value and do not add an unused override."
+  }
+]

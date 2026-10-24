@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-23",
+  "os": {
+    "ProductName": "Windows 10 Pro",
+    "DisplayVersion": "26H2",
+    "CurrentBuildNumber": "26300",
+    "UBR": 9711,
+    "EditionID": "Professional"
+  },
+  "fontFiles": {
+    "tahoma.ttf": {
+      "path": "C:\\Windows\\Fonts\\tahoma.ttf",
+      "size": 919260,
+      "sha256": "9af03d4ad44a3b413d92f7de48b94aa7cc8a1471a75d498406eae837f62ee1d1"
+    },
+    "tahomabd.ttf": {
+      "path": "C:\\Windows\\Fonts\\tahomabd.ttf",
+      "size": 849284,
+      "sha256": "b16ed1a15e0cabea8d41d9f8899c253cd61ac466af5e3980d02bd0cf311c2267"
+    },
+    "arial.ttf": {
+      "path": "C:\\Windows\\Fonts\\arial.ttf",
+      "size": 1045720,
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    "arialbd.ttf": {
+      "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "size": 989780,
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    },
+    "ariali.ttf": {
+      "path": "C:\\Windows\\Fonts\\ariali.ttf",
+      "size": 721584,
+      "sha256": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288"
+    },
+    "arialbi.ttf": {
+      "path": "C:\\Windows\\Fonts\\arialbi.ttf",
+      "size": 724872,
+      "sha256": "267a411525980d648f10a7222a6ff1ebe4d4feeefbf9b3100cae2b5cfab5594a"
+    },
+    "verdana.ttf": {
+      "path": "C:\\Windows\\Fonts\\verdana.ttf",
+      "size": 243304,
+      "sha256": "6a8481fe107ee547893c018b13dba291c2020bec3de5da6525d9ac09f6bc2105"
+    },
+    "verdanab.ttf": {
+      "path": "C:\\Windows\\Fonts\\verdanab.ttf",
+      "size": 211260,
+      "sha256": "f3245f5f38f61bd1ceefb0f1338a5b88a21e6220832c2f43a38bbc7e1547c36f"
+    }
+  },
+  "browser": "155.0.4283.62",
+  "rasterArgs": [
+    "--disable-gpu",
+    "--force-color-profile=srgb"
+  ],
+  "context": {
+    "viewport": [
+      1280,
+      1600
+    ],
+    "dprs": [
+      1,
+      2
+    ],
+    "locale": "en-US",
+    "timezone": "Europe/Minsk",
+    "colorScheme": "light",
+    "reducedMotion": "reduce",
+    "zoom": "fresh non-persistent browser context, default 100%; no zoom command; no device emulation beyond DPR"
+  },
+  "fixtureEnvironment": {
+    "sdk": "7.7.0.31",
+    "profile": {
+      "theme": "classic",
+      "manifestUrl": "http://127.0.0.1:51752/theme-lab/classic-reference.json",
+      "package": "theme-classic",
+      "sdk": "7.7.0.31",
+      "css": [
+        "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css"
+      ]
+    },
+    "date": "2026-10-23T06:00:00.000Z",
+    "timezone": "Europe/Minsk",
+    "uiLocale": "en-US",
+    "browserLocale": "en-US",
+    "viewport": [
+      1280,
+      1600
+    ],
+    "dpr": 1,
+    "fonts": {
+      "Tahoma": true,
+      "Arial": true
+    },
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+  },
+  "data": [
+    {
+      "id": "person-01",
+      "name": "Ada 01",
+      "team": "Design",
+      "salary": 3000,
+      "active": false
+    },
+    {
+      "id": "person-02",
+      "name": "Boris 02",
+      "team": "Engineering",
+      "salary": 3125,
+      "active": true
+    },
+    {
+      "id": "person-03",
+      "name": "Clara 03",
+      "team": "Support",
+      "salary": 3250,
+      "active": true
+    },
+    {
+      "id": "person-04",
+      "name": "David 04",
+      "team": "Sales",
+      "salary": 3375,
+      "active": false
+    },
+    {
+      "id": "person-05",
+      "name": "Ada 05",
+      "team": "Design",
+      "salary": 3500,
+      "active": true
+    },
+    {
+      "id": "person-06",
+      "name": "Boris 06",
+      "team": "Engineering",
+      "salary": 3625,
+      "active": true
+    },
+    {
+      "id": "person-07",
+      "name": "Clara 07",
+      "team": "Support",
+      "salary": 3750,
+      "active": false
+    },
+    {
+      "id": "person-08",
+      "name": "David 08",
+      "team": "Sales",
+      "salary": 3875,
+      "active": true
+    },
+    {
+      "id": "person-09",
+      "name": "Ada 09",
+      "team": "Design",
+      "salary": 4000,
+      "active": true
+    },
+    {
+      "id": "person-10",
+      "name": "Boris 10",
+      "team": "Engineering",
+      "salary": 4125,
+      "active": false
+    },
+    {
+      "id": "person-11",
+      "name": "Clara 11",
+      "team": "Support",
+      "salary": 4250,
+      "active": true
+    },
+    {
+      "id": "person-12",
+      "name": "David 12",
+      "team": "Sales",
+      "salary": 4375,
+      "active": true
+    },
+    {
+      "id": "person-13",
+      "name": "Ada 13",
+      "team": "Design",
+      "salary": 4500,
+      "active": false
+    },
+    {
+      "id": "person-14",
+      "name": "Boris 14",
+      "team": "Engineering",
+      "salary": 4625,
+      "active": true
+    },
+    {
+      "id": "person-15",
+      "name": "Clara 15",
+      "team": "Support",
+      "salary": 4750,
+      "active": true
+    },
+    {
+      "id": "person-16",
+      "name": "David 16",
+      "team": "Sales",
+      "salary": 4875,
+      "active": false
+    },
+    {
+      "id": "person-17",
+      "name": "Ada 17",
+      "team": "Design",
+      "salary": 5000,
+      "active": true
+    },
+    {
+      "id": "person-18",
+      "name": "Boris 18",
+      "team": "Engineering",
+      "salary": 5125,
+      "active": true
+    },
+    {
+      "id": "person-19",
+      "name": "Clara 19",
+      "team": "Support",
+      "salary": 5250,
+      "active": false
+    },
+    {
+      "id": "person-20",
+      "name": "David 20",
+      "team": "Sales",
+      "salary": 5375,
+      "active": true
+    },
+    {
+      "id": "person-21",
+      "name": "Ada 21",
+      "team": "Design",
+      "salary": 5500,
+      "active": true
+    },
+    {
+      "id": "person-22",
+      "name": "Boris 22",
+      "team": "Engineering",
+      "salary": 5625,
+      "active": false
+    },
+    {
+      "id": "person-23",
+      "name": "Clara 23",
+      "team": "Support",
+      "salary": 5750,
+      "active": true
+    },
+    {
+      "id": "person-24",
+      "name": "David 24",
+      "team": "Sales",
+      "salary": 5875,
+      "active": true
+    },
+    {
+      "id": "person-25",
+      "name": "Ada 25",
+      "team": "Design",
+      "salary": 6000,
+      "active": false
+    },
+    {
+      "id": "person-26",
+      "name": "Boris 26",
+      "team": "Engineering",
+      "salary": 6125,
+      "active": true
+    },
+    {
+      "id": "person-27",
+      "name": "Clara 27",
+      "team": "Support",
+      "salary": 6250,
+      "active": true
+    },
+    {
+      "id": "person-28",
+      "name": "David 28",
+      "team": "Sales",
+      "salary": 6375,
+      "active": false
+    },
+    {
+      "id": "person-29",
+      "name": "Ada 29",
+      "team": "Design",
+      "salary": 6500,
+      "active": true
+    },
+    {
+      "id": "person-30",
+      "name": "Boris 30",
+      "team": "Engineering",
+      "salary": 6625,
+      "active": true
+    },
+    {
+      "id": "person-31",
+      "name": "Clara 31",
+      "team": "Support",
+      "salary": 6750,
+      "active": false
+    },
+    {
+      "id": "person-32",
+      "name": "David 32",
+      "team": "Sales",
+      "salary": 6875,
+      "active": true
+    }
+  ],
+  "fixtureSemanticElementsInOverview": 302,
+  "baselineSemanticElementsInOverview": 841,
+  "gifPolicy": "Frame0 PNG routing for seven known animated SDK assets, exact original dimensions; source bytes untouched. Live-original GIF captures are separately retained.",
+  "screenshotPolicy": "Raw browser raster; no pixel editing, no normalized colors, no broad masks. Playwright screenshot animations=disabled, caret=hide.",
+  "pseudoElementPolicy": "Record exact computed CSS dimensions/offsets and host rect; pseudo rect=null because no native DOMRect API. Do not infer pixel coordinates."
+}

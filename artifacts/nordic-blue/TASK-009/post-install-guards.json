@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "protectedApplicationFiles": 18,
+  "sourceImagesEmpty": true,
+  "sourceOverridesEmpty": true,
+  "sourcePolicySha256": "2c432733fd8b753f61963d8303917e5967a6a69d27c6cbb49813abfa7a4e775b",
+  "lintSha256": "9197b36a3f40f6a7c9c3aa2003a8bebde608294b51129aad414632428bb13f93",
+  "compiledCssSha256": "4b035e7934362bf70237f9ead07014b06fed98d98b681a59e43a2eb6f1dca54d",
+  "finalFullCapturePass": 3,
+  "finalCoreStates": "core-states-v3"
+}

@@ -1,0 +1,20 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$datepicker-background-color: dynamic($nb-surface);
+$datepicker-header-background-color: dynamic($nb-accent);
+$datepicker-item-selected-background-color: dynamic($nb-accent-soft);
+$datepicker-border-color: dynamic($nb-border);
+$datepicker-item-color: dynamic($nb-text);
+$datepicker-item-hover-background-color: dynamic($nb-control-hover);
+$datepicker-item-selected-color: dynamic($nb-text);
+$datepicker-item-selected-border-color: dynamic($nb-accent);
+$datepicker-item-today-border-color: dynamic($nb-accent);
+$datepicker-item-prev-next-color: dynamic($nb-muted);
+$datepicker-item-disabled-color: dynamic($nb-muted);
+$datepicker-item-disabled-background-color: dynamic($nb-surface-alt);
+$datepicker-column-header-background-color: dynamic($nb-toolbar-bg);
+$datepicker-column-header-color: dynamic($nb-heading);
+$datepicker-column-header-border-color: dynamic($nb-border);
+$datepicker-footer-background-color: dynamic($nb-toolbar-bg);
+$datepicker-footer-border-color: dynamic($nb-border);
+$datepicker-monthpicker-item-color: dynamic($nb-text);
+$datepicker-monthpicker-separator-border-color: dynamic($nb-border);

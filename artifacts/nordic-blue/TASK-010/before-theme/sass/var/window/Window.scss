@@ -1,0 +1,9 @@
+// SDK color hooks and specifically reviewed flat gradients; metrics inherited.
+$window-header-background-color: dynamic($nb-header-bg);
+$window-header-color: dynamic($nb-heading);
+$window-border-color: dynamic(#AFC2D9);
+$window-background-color: dynamic($nb-toolbar-bg);
+$window-inner-border-color: dynamic($nb-surface);
+$window-body-background-color: dynamic($nb-surface);
+$window-body-border-color: dynamic($nb-border);
+$window-body-color: dynamic($nb-text);

@@ -1,0 +1,27 @@
+{
+  "changes": [
+    {
+      "variable": "button-default-background-color-focus",
+      "old": "$nb-accent-soft",
+      "new": "$nb-control-bg"
+    },
+    {
+      "variable": "button-default-background-color-focus-over",
+      "old": "$nb-control-hover",
+      "new": "$nb-accent-soft"
+    },
+    {
+      "variable": "button-toolbar-background-color-focus",
+      "old": "$nb-accent-soft",
+      "new": "$nb-control-bg"
+    },
+    {
+      "variable": "button-toolbar-background-color-focus-over",
+      "old": "$nb-control-hover",
+      "new": "$nb-accent-soft"
+    }
+  ],
+  "sdkReason": "theme-neutral/sass/var/button/Button.scss emits focus-over background only when it differs from over. Keyboard-mode focus has higher specificity. Fix through existing color hooks only.",
+  "status": "PASS",
+  "validation": "Final core-state-comparison.json: all 168 state paint pairs distinct, all 56 Classic/Nordic geometry pairs match."
+}

@@ -1,0 +1,15 @@
+Sencha Cmd v7.7.0.36
+[INF] Processing Build Descriptor : lab-classic (testing environment)
+[INF] Loading compiler context
+[WRN] Failed loading file D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\app.json : Invalid UUID string: nordic-theme-lab-77
+[WRN] Failed loading file D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\app.json : Invalid UUID string: nordic-theme-lab-77
+[ERR] 
+[ERR] BUILD FAILED
+[ERR] com.sencha.exceptions.BasicException: java.lang.NullPointerException
+[ERR] 
+[ERR] Total time: 0 seconds
+
+[ERR] D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\plugin.xml:333: The following error occurred while executing this line:
+D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\ant\build\app\build-impl.xml:387: The following error occurred while executing this line:
+D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\ant\build\app\init-impl.xml:436: com.sencha.exceptions.BasicException: java.lang.NullPointerException
+[ERR] A log is available in the file "D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\sencha-error-20261023.log"

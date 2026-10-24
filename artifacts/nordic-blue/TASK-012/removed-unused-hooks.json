@@ -1,0 +1,7 @@
+{
+  "variables": [
+    "tab-outline-color-focus",
+    "menu-scroller-border-color"
+  ],
+  "reason": "No actual compiled consumer with inherited outline/scroller widths; do not enable widths or rendering flags to make them active."
+}

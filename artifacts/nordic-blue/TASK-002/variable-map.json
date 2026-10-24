@@ -1,0 +1,2442 @@
+{
+  "panel-header-background-color": {
+    "group": "Panel",
+    "target": "nb-header-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 278,
+        "expression": "dynamic($panel-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 15,
+        "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 6.402%, $lightness: -4.51%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 6.402%, $lightness: -4.51%))",
+    "dependencies": [
+      "panel-base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 713,
+        "text": "$ui-header-background-color: $panel-header-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "panel-header-color": {
+    "group": "Panel",
+    "target": "nb-heading",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 272,
+        "expression": "dynamic($color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 8,
+        "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 38.347%, $lightness: -63.725%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 38.347%, $lightness: -63.725%))",
+    "dependencies": [
+      "panel-base-color"
+    ],
+    "derivedVariables": [
+      "accordion-header-color",
+      "panel-header-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 699,
+        "text": "$ui-header-color: $panel-header-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Accordion.scss",
+        "line": 9,
+        "text": "$accordion-header-color: dynamic($panel-header-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 308,
+        "text": "$panel-header-glyph-color: dynamic($panel-header-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 110,
+        "text": "$window-header-color: dynamic($panel-header-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "panel-header-border-color": {
+    "group": "Panel",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 254,
+        "expression": "dynamic($panel-border-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 6,
+        "expression": "dynamic($panel-border-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($panel-border-color)",
+    "dependencies": [
+      "panel-border-color"
+    ],
+    "derivedVariables": [
+      "accordion-header-border-color",
+      "tabbar-border-color",
+      "tabbar-strip-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 704,
+        "text": "$ui-header-border-color: $panel-header-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/layout/container/Accordion.scss",
+        "line": 6,
+        "text": "$accordion-header-border-color: dynamic($panel-header-inner-border-color $panel-header-border-color $panel-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Accordion.scss",
+        "line": 39,
+        "text": "$accordion-header-border-color: dynamic($panel-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+        "line": 35,
+        "text": "$tabbar-border-color: dynamic($panel-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+        "line": 53,
+        "text": "$tabbar-strip-border-color: dynamic($panel-header-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "panel-border-color": {
+    "group": "Panel",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 25,
+        "expression": "dynamic($panel-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 5,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [
+      "accordion-header-border-color",
+      "grid-body-border-color",
+      "grid-lockable-separator-border-color",
+      "grid-row-editor-border",
+      "grid-row-editor-border-color",
+      "menu-border-color",
+      "panel-body-border-color",
+      "panel-frame-border-color",
+      "panel-header-border-color",
+      "panel-wrap-border-color",
+      "resizer-handle-background-color",
+      "tabbar-border-color",
+      "tabbar-strip-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss",
+        "line": 70,
+        "text": "border-right-color: $panel-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 694,
+        "text": "$ui-border-color: $panel-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+        "line": 5,
+        "text": "$menu-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 6,
+        "text": "$panel-header-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/locking/Lockable.scss",
+        "line": 22,
+        "text": "$grid-lockable-separator-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/RowEditing.scss",
+        "line": 15,
+        "text": "$grid-row-editor-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 66,
+        "text": "$panel-body-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 254,
+        "text": "$panel-header-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 369,
+        "text": "$panel-frame-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 448,
+        "text": "$panel-wrap-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tip/Tip.scss",
+        "line": 91,
+        "text": "$tip-border-color: dynamic($panel-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "panel-body-border-color": {
+    "group": "Panel",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 66,
+        "expression": "dynamic($panel-border-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($panel-border-color)",
+    "dependencies": [
+      "panel-border-color"
+    ],
+    "derivedVariables": [
+      "grid-body-border-color",
+      "resizer-handle-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss",
+        "line": 3,
+        "text": "border-color: $panel-body-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 2,
+        "text": "border: $grid-header-border-width $grid-header-border-style $panel-body-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 741,
+        "text": "$ui-body-border-color: $panel-body-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/resizer/Resizer.scss",
+        "line": 20,
+        "text": "$resizer-handle-background-color: dynamic($panel-body-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 255,
+        "text": "$grid-body-border-color: dynamic($panel-body-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "panel-body-background-color": {
+    "group": "Panel",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 54,
+        "expression": "dynamic(#fff)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#fff)",
+    "dependencies": [],
+    "derivedVariables": [
+      "grid-advanced-grouped-docked-summary-background-color",
+      "grid-advanced-grouped-summary-background-color",
+      "grid-body-background-color",
+      "grid-empty-background-color",
+      "treelist-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 744,
+        "text": "$ui-body-background-color: $panel-body-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 273,
+        "text": "$grid-body-background-color: dynamic($panel-body-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 292,
+        "text": "$grid-empty-background-color: dynamic($panel-body-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "toolbar-background-color": {
+    "group": "Toolbar",
+    "target": "nb-toolbar-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 15,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($base-color, $hue: -1.333deg, $saturation: -3.831%, $lightness: 4.51%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: -1.333deg, $saturation: -3.831%, $lightness: 4.51%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [
+      "toolbar-background-gradient"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+        "line": 7,
+        "text": "$toolbar-background-gradient: dynamic(color_stops(lighten($toolbar-background-color, 3), $toolbar-background-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 539,
+        "text": "$background-color: $toolbar-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "toolbar-border-color": {
+    "group": "Toolbar",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 64,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+        "line": 21,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 545,
+        "text": "$border-color: $toolbar-border-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "button-default-background-color": {
+    "group": "Button",
+    "target": "nb-control-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 783,
+        "expression": "dynamic($button-default-base-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($button-default-base-color)",
+    "dependencies": [
+      "button-default-base-color"
+    ],
+    "derivedVariables": [
+      "button-default-inner-border-color",
+      "button-grid-cell-background-color",
+      "button-grid-cell-background-color-disabled",
+      "button-grid-cell-background-color-focus",
+      "button-grid-cell-background-color-focus-over",
+      "button-grid-cell-background-color-focus-pressed",
+      "button-grid-cell-background-color-over",
+      "button-grid-cell-background-color-pressed",
+      "button-grid-cell-inner-border-color",
+      "button-grid-cell-inner-border-color-disabled",
+      "button-grid-cell-inner-border-color-focus",
+      "button-grid-cell-inner-border-color-focus-over",
+      "button-grid-cell-inner-border-color-focus-pressed",
+      "button-grid-cell-inner-border-color-over",
+      "button-grid-cell-inner-border-color-pressed"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 13,
+        "text": "$background-color: $button-default-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 83,
+        "text": "$background-color: $button-default-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 153,
+        "text": "$background-color: $button-default-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 968,
+        "text": "$button-default-inner-border-color: dynamic(button-default-inner-border-color($button-default-background-color, $button-default-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 1733,
+        "text": "$button-grid-cell-background-color: dynamic($button-default-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 3770,
+        "text": "$background-color: $button-default-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 4706,
+        "text": "$background-color: $button-default-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 6578,
+        "text": "$background-color: $button-default-background-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "button-default-background-color-over": {
+    "group": "Button",
+    "target": "nb-control-hover",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 789,
+        "expression": "dynamic($button-default-base-color-over)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($button-default-base-color-over)",
+    "dependencies": [
+      "button-default-base-color-over"
+    ],
+    "derivedVariables": [
+      "button-default-background-color-focus-over",
+      "button-default-inner-border-color-focus-over",
+      "button-default-inner-border-color-over"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 14,
+        "text": "$background-color-over: $button-default-background-color-over,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 84,
+        "text": "$background-color-over: $button-default-background-color-over,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 154,
+        "text": "$background-color-over: $button-default-background-color-over,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 808,
+        "text": "$button-default-background-color-focus-over: dynamic($button-default-background-color-over);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 974,
+        "text": "$button-default-inner-border-color-over: dynamic(button-default-inner-border-color-over($button-default-background-color-over, $button-default-color-over));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 3773,
+        "text": "$background-color-over: $button-default-background-color-over;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 4709,
+        "text": "$background-color-over: $button-default-background-color-over;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 6581,
+        "text": "$background-color-over: $button-default-background-color-over;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "button-default-background-color-pressed": {
+    "group": "Button",
+    "target": "nb-control-pressed",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 801,
+        "expression": "dynamic($button-default-base-color-pressed)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($button-default-base-color-pressed)",
+    "dependencies": [
+      "button-default-base-color-pressed"
+    ],
+    "derivedVariables": [
+      "button-default-background-color-focus-pressed",
+      "button-default-inner-border-color-focus-pressed",
+      "button-default-inner-border-color-pressed"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 16,
+        "text": "$background-color-pressed: $button-default-background-color-pressed,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 86,
+        "text": "$background-color-pressed: $button-default-background-color-pressed,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 156,
+        "text": "$background-color-pressed: $button-default-background-color-pressed,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 814,
+        "text": "$button-default-background-color-focus-pressed: dynamic($button-default-background-color-pressed);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 986,
+        "text": "$button-default-inner-border-color-pressed: dynamic(button-default-inner-border-color-pressed($button-default-background-color-pressed, $button-default-color-pressed));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 3781,
+        "text": "$background-color-pressed: $button-default-background-color-pressed;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 4717,
+        "text": "$background-color-pressed: $button-default-background-color-pressed;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 6589,
+        "text": "$background-color-pressed: $button-default-background-color-pressed;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "button-default-border-color": {
+    "group": "Button",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 740,
+        "expression": "dynamic($button-default-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+        "line": 14,
+        "expression": "dynamic(adjust-color($button-default-base-color, $hue: 0deg, $saturation: 0%, $lightness: -18.039%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($button-default-base-color, $hue: 0deg, $saturation: 0%, $lightness: -18.039%))",
+    "dependencies": [
+      "button-default-base-color"
+    ],
+    "derivedVariables": [
+      "button-grid-cell-border-color",
+      "button-grid-cell-border-color-disabled",
+      "button-grid-cell-border-color-focus",
+      "button-grid-cell-border-color-focus-over",
+      "button-grid-cell-border-color-focus-pressed",
+      "button-grid-cell-border-color-over",
+      "button-grid-cell-border-color-pressed"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 5,
+        "text": "$border-color: $button-default-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 75,
+        "text": "$border-color: $button-default-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 145,
+        "text": "$border-color: $button-default-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 746,
+        "text": "$button-default-border-color-over: dynamic(button-default-border-color-over($button-default-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 752,
+        "text": "$button-default-border-color-focus: dynamic(button-default-border-color-focus($button-default-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 758,
+        "text": "$button-default-border-color-pressed: dynamic(button-default-border-color-pressed($button-default-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 777,
+        "text": "$button-default-border-color-disabled: dynamic(button-default-border-color-disabled($button-default-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 1690,
+        "text": "$button-grid-cell-border-color: dynamic($button-default-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 3718,
+        "text": "$border-color: $button-default-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 4654,
+        "text": "$border-color: $button-default-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 6526,
+        "text": "$border-color: $button-default-border-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "button-default-color": {
+    "group": "Button",
+    "target": "nb-text",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 882,
+        "expression": "dynamic(#000)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/button/Button.scss",
+        "line": 22,
+        "expression": "dynamic(#333)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#333)",
+    "dependencies": [],
+    "derivedVariables": [
+      "button-default-arrow-glyph-color",
+      "button-default-body-outline-color-focus",
+      "button-default-color-disabled",
+      "button-default-color-focus",
+      "button-default-color-focus-over",
+      "button-default-color-focus-pressed",
+      "button-default-color-over",
+      "button-default-color-pressed",
+      "button-default-glyph-color",
+      "button-default-inner-border-color",
+      "button-default-inner-border-color-disabled",
+      "button-default-inner-border-color-focus",
+      "button-default-inner-border-color-focus-over",
+      "button-default-inner-border-color-focus-pressed",
+      "button-default-inner-border-color-over",
+      "button-default-inner-border-color-pressed",
+      "button-default-split-line-color",
+      "button-grid-cell-arrow-glyph-color",
+      "button-grid-cell-body-outline-color-focus",
+      "button-grid-cell-color",
+      "button-grid-cell-color-disabled",
+      "button-grid-cell-color-focus",
+      "button-grid-cell-color-focus-over",
+      "button-grid-cell-color-focus-pressed",
+      "button-grid-cell-color-over",
+      "button-grid-cell-color-pressed",
+      "button-grid-cell-glyph-color",
+      "button-grid-cell-inner-border-color",
+      "button-grid-cell-inner-border-color-disabled",
+      "button-grid-cell-inner-border-color-focus",
+      "button-grid-cell-inner-border-color-focus-over",
+      "button-grid-cell-inner-border-color-focus-pressed",
+      "button-grid-cell-inner-border-color-over",
+      "button-grid-cell-inner-border-color-pressed",
+      "button-grid-cell-split-line-color",
+      "button-toolbar-body-outline-color-focus",
+      "tabbar-menu-overflow-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 21,
+        "text": "$color: $button-default-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 91,
+        "text": "$color: $button-default-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/button/Button.scss",
+        "line": 161,
+        "text": "$color: $button-default-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 888,
+        "text": "$button-default-color-over: dynamic(button-default-color-over($button-default-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 894,
+        "text": "$button-default-color-focus: dynamic(button-default-color-focus($button-default-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 900,
+        "text": "$button-default-color-pressed: dynamic(button-default-color-pressed($button-default-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 919,
+        "text": "$button-default-color-disabled: dynamic(button-default-color-disabled($button-default-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 968,
+        "text": "$button-default-inner-border-color: dynamic(button-default-inner-border-color($button-default-background-color, $button-default-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 1023,
+        "text": "$button-default-body-outline-color-focus: dynamic($button-default-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 1029,
+        "text": "$button-default-glyph-color: dynamic($button-default-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 1036,
+        "text": "$button-default-arrow-glyph-color: dynamic($button-default-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 1832,
+        "text": "$button-grid-cell-color: dynamic($button-default-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 3822,
+        "text": "$color: $button-default-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 4758,
+        "text": "$color: $button-default-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/button/Button.scss",
+        "line": 6630,
+        "text": "$color: $button-default-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "form-field-background-color": {
+    "group": "Form",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 130,
+        "expression": "dynamic(#fff)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#fff)",
+    "dependencies": [],
+    "derivedVariables": [
+      "form-text-field-background-color",
+      "form-toolbar-text-field-background-color",
+      "form-toolbar-trigger-background-color",
+      "grid-cell-text-field-background-color",
+      "html-editor-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 465,
+        "text": "$form-text-field-background-color: dynamic($form-field-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 636,
+        "text": "$form-trigger-background-color: dynamic($form-field-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss",
+        "line": 21,
+        "text": "$html-editor-background-color: dynamic($form-field-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "form-field-color": {
+    "group": "Form",
+    "target": "nb-text",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 70,
+        "expression": "dynamic($color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($color)",
+    "dependencies": [
+      "color"
+    ],
+    "derivedVariables": [
+      "form-clear-trigger-glyph-color",
+      "form-date-trigger-glyph-color",
+      "form-display-field-color",
+      "form-search-trigger-glyph-color",
+      "form-text-field-color",
+      "form-toolbar-display-field-color",
+      "form-toolbar-text-field-color",
+      "form-toolbar-trigger-glyph-color",
+      "form-trigger-glyph-color",
+      "spinner-toolbar-trigger-glyph-color",
+      "spinner-trigger-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 459,
+        "text": "$form-text-field-color: dynamic($form-field-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1212,
+        "text": "$form-display-field-color: dynamic($form-field-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "form-field-border-color": {
+    "group": "Form",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 82,
+        "expression": "dynamic($neutral-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+        "line": 6,
+        "expression": "dynamic(#B5B8C8)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#B5B8C8)",
+    "dependencies": [],
+    "derivedVariables": [
+      "checkbox-selection-model-glyph-color",
+      "form-checkbox-glyph-color",
+      "form-radio-glyph-color",
+      "form-text-field-border-color",
+      "form-toolbar-text-field-border-color",
+      "form-toolbar-trigger-border-color",
+      "form-toolbar-trigger-border-color-over",
+      "form-toolbar-trigger-border-color-pressed",
+      "form-trigger-border-color",
+      "grid-cell-field-trigger-border-color",
+      "grid-cell-field-trigger-border-color-over",
+      "grid-cell-field-trigger-border-color-pressed",
+      "grid-cell-text-field-border-color",
+      "grid-checkcolumn-glyph-color",
+      "html-editor-border-color",
+      "tree-checkbox-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 483,
+        "text": "$form-text-field-border-color: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 600,
+        "text": "$form-trigger-border-color: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 612,
+        "text": "$form-trigger-border-color-over: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1061,
+        "text": "$form-checkbox-glyph-color: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss",
+        "line": 15,
+        "text": "$html-editor-border-color: dynamic($form-field-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "form-trigger-border-color": {
+    "group": "Form",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 600,
+        "expression": "dynamic($form-field-border-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($form-field-border-color)",
+    "dependencies": [
+      "form-field-border-color"
+    ],
+    "derivedVariables": [
+      "form-toolbar-trigger-border-color",
+      "form-toolbar-trigger-border-color-over",
+      "form-toolbar-trigger-border-color-pressed",
+      "grid-cell-field-trigger-border-color",
+      "grid-cell-field-trigger-border-color-over",
+      "grid-cell-field-trigger-border-color-pressed"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss",
+        "line": 147,
+        "text": "$ui-trigger-border-color: $form-trigger-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 838,
+        "text": "$form-toolbar-trigger-border-color: dynamic($form-trigger-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 850,
+        "text": "$form-toolbar-trigger-border-color-over: dynamic($form-trigger-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+        "line": 240,
+        "text": "$grid-cell-field-trigger-border-color: dynamic($form-trigger-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+        "line": 252,
+        "text": "$grid-cell-field-trigger-border-color-over: dynamic($form-trigger-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "form-field-focus-border-color": {
+    "group": "Form",
+    "target": "nb-accent",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 106,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+        "line": 7,
+        "expression": "dynamic(adjust-color($base-color, $hue: -4.322deg, $saturation: -1.065%, $lightness: -16.863%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: -4.322deg, $saturation: -1.065%, $lightness: -16.863%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [
+      "form-checkbox-glyph-focus-color",
+      "form-display-field-focus-border-color",
+      "form-radio-glyph-focus-color",
+      "form-text-field-focus-border-color",
+      "form-toolbar-display-field-focus-border-color",
+      "form-toolbar-text-field-focus-border-color",
+      "form-toolbar-trigger-border-color-focus",
+      "form-trigger-border-color-focus",
+      "form-trigger-border-color-over",
+      "form-trigger-border-color-pressed",
+      "grid-cell-field-trigger-border-color-focus",
+      "grid-cell-text-field-focus-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss",
+        "line": 6,
+        "text": "$form-trigger-border-color-focus: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/FieldSet.scss",
+        "line": 374,
+        "text": "outline: 1px solid $form-field-focus-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 489,
+        "text": "$form-text-field-focus-border-color: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 618,
+        "text": "$form-trigger-border-color-focus: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1067,
+        "text": "$form-checkbox-glyph-focus-color: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1242,
+        "text": "$form-display-field-focus-border-color: dynamic($form-field-focus-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "form-trigger-background-color": {
+    "group": "Form",
+    "target": "nb-control-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 636,
+        "expression": "dynamic($form-field-background-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss",
+        "line": 8,
+        "expression": "dynamic(transparent)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(transparent)",
+    "dependencies": [],
+    "derivedVariables": [
+      "grid-cell-field-trigger-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss",
+        "line": 155,
+        "text": "$ui-trigger-background-color: $form-trigger-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+        "line": 276,
+        "text": "$grid-cell-field-trigger-background-color: dynamic($form-trigger-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-header-background-color": {
+    "group": "Grid header",
+    "target": "#EAF0F8",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 9,
+        "expression": "dynamic(#ddd)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+        "line": 4,
+        "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))",
+    "dependencies": [
+      "neutral-color"
+    ],
+    "derivedVariables": [
+      "grid-group-column-background-color",
+      "pivot-grid-config-column-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/src/grid/column/Column.scss",
+        "line": 2,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 13,
+        "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 16,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss",
+        "line": 3,
+        "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss",
+        "line": 6,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 5,
+        "text": "border-bottom-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 7,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 9,
+        "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss",
+        "line": 73,
+        "text": "$grid-group-column-background-color: dynamic($grid-header-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss",
+        "line": 69,
+        "text": "$pivot-grid-config-column-background-color: dynamic($grid-header-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-header-over-background-color": {
+    "group": "Grid header",
+    "target": "nb-accent-soft",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 40,
+        "expression": "dynamic(#eee)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [
+      "grid-header-sorted-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 80,
+        "text": "@include background-gradient($grid-header-over-background-color, $grid-header-over-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss",
+        "line": 28,
+        "text": "@include background-gradient($grid-header-over-background-color, $grid-header-over-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 54,
+        "text": "$grid-header-sorted-background-color: dynamic($grid-header-over-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-header-sorted-background-color": {
+    "group": "Grid header",
+    "target": "nb-accent-soft",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 54,
+        "expression": "dynamic($grid-header-over-background-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($grid-header-over-background-color)",
+    "dependencies": [
+      "grid-header-over-background-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 85,
+        "text": "@include background-gradient($grid-header-sorted-background-color, $grid-header-sorted-background-gradient);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-header-trigger-background-color-open": {
+    "group": "Grid header",
+    "target": "nb-accent-soft",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 146,
+        "expression": "dynamic(transparent)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(transparent)",
+    "dependencies": [],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 115,
+        "text": "background-color: $grid-header-trigger-background-color-open;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-header-border-color": {
+    "group": "Grid header",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 22,
+        "expression": "dynamic(#333)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+        "line": 5,
+        "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))",
+    "dependencies": [
+      "neutral-color"
+    ],
+    "derivedVariables": [
+      "grid-filter-border-color",
+      "grid-group-column-border",
+      "grid-group-column-border-color",
+      "grid-header-trigger-border",
+      "pivot-grid-config-column-border",
+      "pivot-grid-config-column-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Check.scss",
+        "line": 21,
+        "text": "border-color: $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 2,
+        "text": "border-right: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 23,
+        "text": "border-left: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 29,
+        "text": "border-top: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 32,
+        "text": "border-top-color: $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/filters/Base.scss",
+        "line": 5,
+        "text": "$grid-filter-border-color: dynamic($grid-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss",
+        "line": 25,
+        "text": "$grid-group-column-border-color: dynamic($grid-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/Grid.scss",
+        "line": 6,
+        "text": "$grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss",
+        "line": 27,
+        "text": "$pivot-grid-config-column-border-color: dynamic($grid-header-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-header-trigger-background-color": {
+    "group": "Grid header",
+    "target": "transparent",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 140,
+        "expression": "dynamic(transparent)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(transparent)",
+    "dependencies": [],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 136,
+        "text": "background: $grid-header-trigger-background-color theme-background-image($grid-header-trigger-background-image) no-repeat $grid-header-trigger-background-position;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-row-cell-background-color": {
+    "group": "Grid rows",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 41,
+        "expression": "dynamic(#fff)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#fff)",
+    "dependencies": [],
+    "derivedVariables": [
+      "grid-row-cell-alt-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss",
+        "line": 33,
+        "text": "background-color: $grid-row-cell-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss",
+        "line": 96,
+        "text": "border-top-color: $grid-row-cell-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 68,
+        "text": "$grid-cell-special-background-color: dynamic($grid-row-cell-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 132,
+        "text": "$grid-row-cell-alt-background-color: dynamic(darken($grid-row-cell-background-color, 2));"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-row-cell-alt-background-color": {
+    "group": "Grid rows",
+    "target": "nb-surface-alt",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 132,
+        "expression": "dynamic(darken($grid-row-cell-background-color, 2))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(darken($grid-row-cell-background-color, 2))",
+    "dependencies": [
+      "grid-row-cell-background-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/view/Table.scss",
+        "line": 37,
+        "text": "background-color: $grid-row-cell-alt-background-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "grid-row-cell-border-color": {
+    "group": "Grid rows",
+    "target": "nb-grid-line",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 48,
+        "expression": "dynamic(#ededed)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/view/Table.scss",
+        "line": 5,
+        "expression": "dynamic(#ededed adjust-color($base-color, $hue: 0deg, $saturation: -55.556%, $lightness: -2.549%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#ededed adjust-color($base-color, $hue: 0deg, $saturation: -55.556%, $lightness: -2.549%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [
+      "grid-advanced-grouped-docked-summary-border-color",
+      "grid-advanced-grouped-header-border-color",
+      "grid-advanced-grouped-summary-border-color",
+      "grid-cell-special-border-color",
+      "grid-col-border-color",
+      "grid-group-panel-body-border-color",
+      "grid-row-border-color",
+      "pivot-grid-config-container-body-border-color",
+      "pivot-grid-group-header-border-color",
+      "pivot-grid-group-header-compact-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Panel.scss",
+        "line": 55,
+        "text": "$grid-group-panel-body-border-color: dynamic(top($grid-row-cell-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/Grid.scss",
+        "line": 22,
+        "text": "$pivot-grid-group-header-border-color: dynamic($grid-row-cell-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Container.scss",
+        "line": 55,
+        "text": "$pivot-grid-config-container-body-border-color: dynamic(top($grid-row-cell-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 96,
+        "text": "$grid-cell-special-border-color: dynamic(right($grid-row-cell-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 117,
+        "text": "$grid-cell-special-selected-border-color: dynamic(right($grid-row-cell-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 156,
+        "text": "$grid-row-cell-over-border-color: dynamic(top($grid-row-cell-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 180,
+        "text": "$grid-row-cell-selected-border-color: dynamic(top($grid-row-cell-border-color));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 344,
+        "text": "$grid-row-border-color: top($grid-row-cell-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 346,
+        "text": "$grid-col-border-color: right($grid-row-cell-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "tab-base-color": {
+    "group": "Tabs",
+    "target": "nb-header-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 9,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 4,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 33.016%, $lightness: 9.02%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 33.016%, $lightness: 9.02%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [
+      "tab-base-color-active",
+      "tab-base-color-focus",
+      "tab-base-color-focus-active",
+      "tab-base-color-focus-over",
+      "tab-base-color-over",
+      "tab-body-outline-color-focus",
+      "tab-border-color",
+      "tab-border-color-active",
+      "tab-border-color-focus",
+      "tab-border-color-focus-active",
+      "tab-border-color-focus-over",
+      "tab-border-color-over",
+      "tab-color",
+      "tab-color-active",
+      "tab-color-focus",
+      "tab-color-focus-active",
+      "tab-color-focus-over",
+      "tab-color-over",
+      "tab-glyph-color",
+      "tab-glyph-color-active",
+      "tab-glyph-color-focus",
+      "tab-glyph-color-focus-active",
+      "tab-glyph-color-focus-over",
+      "tab-glyph-color-over",
+      "tab-inner-border-color",
+      "tab-inner-border-color-active",
+      "tab-inner-border-color-disabled",
+      "tab-inner-border-color-focus",
+      "tab-inner-border-color-focus-active",
+      "tab-inner-border-color-focus-over",
+      "tab-inner-border-color-over",
+      "tab-outline-color-focus",
+      "tabbar-strip-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 1805,
+        "text": "$ui-background-color: $tab-base-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 5,
+        "text": "$tab-base-color-over: dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: 11.429%, $lightness: 2.353%));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 8,
+        "text": "$tab-color: dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -45.589%, $lightness: -48.431%));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 17,
+        "text": "$tab-border-color: dynamic(adjust-color($tab-base-color, $hue:0deg, $saturation: -28.008%, $lightness: -20.98%));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 20,
+        "text": "$tab-inner-border-color: dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -8.571%, $lightness: 8.941%));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 15,
+        "text": "$tab-base-color-focus: dynamic($tab-base-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 21,
+        "text": "$tab-base-color-over: dynamic($tab-base-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 27,
+        "text": "$tab-base-color-active: dynamic($tab-base-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 45,
+        "text": "$tab-base-color-disabled: dynamic($tab-base-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "tab-base-color-active": {
+    "group": "Tabs",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 27,
+        "expression": "dynamic($tab-base-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($tab-base-color)",
+    "dependencies": [
+      "tab-base-color"
+    ],
+    "derivedVariables": [
+      "tab-base-color-focus-active",
+      "tabbar-strip-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 1837,
+        "text": "$ui-background-color-active: $tab-base-color-active;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+        "line": 59,
+        "text": "$tabbar-strip-background-color: dynamic($tab-base-color-active);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 39,
+        "text": "$tab-base-color-focus-active: dynamic($tab-base-color-active);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "tab-border-color": {
+    "group": "Tabs",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 593,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 17,
+        "expression": "dynamic(adjust-color($tab-base-color, $hue:0deg, $saturation: -28.008%, $lightness: -20.98%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($tab-base-color, $hue:0deg, $saturation: -28.008%, $lightness: -20.98%))",
+    "dependencies": [
+      "tab-base-color"
+    ],
+    "derivedVariables": [
+      "tab-border-color-active",
+      "tab-border-color-focus",
+      "tab-border-color-focus-active",
+      "tab-border-color-focus-over",
+      "tab-border-color-over"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 1893,
+        "text": "$ui-border-color: $tab-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 599,
+        "text": "$tab-border-color-focus: dynamic($tab-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 605,
+        "text": "$tab-border-color-over: dynamic($tab-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 611,
+        "text": "$tab-border-color-active: dynamic($tab-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 629,
+        "text": "$tab-border-color-disabled: dynamic($tab-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "tab-color": {
+    "group": "Tabs",
+    "target": "nb-heading",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 93,
+        "expression": "dynamic($color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 8,
+        "expression": "dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -45.589%, $lightness: -48.431%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($tab-base-color, $hue: 0deg, $saturation: -45.589%, $lightness: -48.431%))",
+    "dependencies": [
+      "tab-base-color"
+    ],
+    "derivedVariables": [
+      "tab-body-outline-color-focus",
+      "tab-color-active",
+      "tab-color-focus",
+      "tab-color-focus-active",
+      "tab-color-focus-over",
+      "tab-color-over",
+      "tab-glyph-color",
+      "tab-glyph-color-active",
+      "tab-glyph-color-focus",
+      "tab-glyph-color-focus-active",
+      "tab-glyph-color-focus-over",
+      "tab-glyph-color-over",
+      "tab-outline-color-focus"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 2137,
+        "text": "$ui-color: $tab-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/tab/Tab.scss",
+        "line": 9,
+        "text": "$tab-color-active: dynamic(adjust-color($tab-color, $hue: 0deg, $saturation: 30.768%, $lightness: -13.333%));"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 99,
+        "text": "$tab-color-focus: dynamic($tab-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 105,
+        "text": "$tab-color-over: dynamic($tab-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 111,
+        "text": "$tab-color-active: dynamic($tab-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 129,
+        "text": "$tab-color-disabled: dynamic($tab-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 563,
+        "text": "$tab-outline-color-focus: dynamic($tab-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 587,
+        "text": "$tab-body-outline-color-focus: dynamic($tab-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss",
+        "line": 876,
+        "text": "$tab-glyph-color: dynamic($tab-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "datepicker-background-color": {
+    "group": "DatePicker",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 21,
+        "expression": "dynamic(#fff)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#fff)",
+    "dependencies": [],
+    "derivedVariables": [
+      "datepicker-item-border-color",
+      "datepicker-item-today-background-color",
+      "datepicker-monthpicker-item-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 15,
+        "text": "background-color: $datepicker-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 192,
+        "text": "@if $datepicker-item-today-background-color != $datepicker-background-color {"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 249,
+        "text": "background-color: $datepicker-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 332,
+        "text": "background-color: $datepicker-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 307,
+        "text": "$datepicker-item-border-color: dynamic($datepicker-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 319,
+        "text": "$datepicker-item-today-background-color: dynamic($datepicker-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 325,
+        "text": "$datepicker-item-hover-background-color: dynamic($datepicker-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 337,
+        "text": "$datepicker-item-selected-background-color: dynamic($datepicker-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "datepicker-header-background-color": {
+    "group": "DatePicker",
+    "target": "nb-accent",
+    "declarations": [
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss",
+        "line": 19,
+        "expression": "dynamic(adjust-color($datepicker-base-color, $hue: 5.768deg, $saturation: 0.419%, $lightness: -52.941%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($datepicker-base-color, $hue: 5.768deg, $saturation: 0.419%, $lightness: -52.941%))",
+    "dependencies": [
+      "datepicker-base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 23,
+        "text": "@include background-gradient($datepicker-header-background-color, $datepicker-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 25,
+        "text": "background-color: $datepicker-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 42,
+        "text": "background-color: $datepicker-header-background-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "datepicker-item-selected-background-color": {
+    "group": "DatePicker",
+    "target": "nb-accent-soft",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 337,
+        "expression": "dynamic($datepicker-background-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/picker/Date.scss",
+        "line": 34,
+        "expression": "dynamic(adjust-color($datepicker-base-color, $hue: 0.267deg, $saturation: -4.535%, $lightness: 6.275%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($datepicker-base-color, $hue: 0.267deg, $saturation: -4.535%, $lightness: 6.275%))",
+    "dependencies": [
+      "datepicker-base-color"
+    ],
+    "derivedVariables": [
+      "datepicker-monthpicker-item-selected-background-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/picker/Date.scss",
+        "line": 182,
+        "text": "background-color: $datepicker-item-selected-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/picker/Date.scss",
+        "line": 519,
+        "text": "$datepicker-monthpicker-item-selected-background-color: dynamic($datepicker-item-selected-background-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "progress-background-color": {
+    "group": "Progress",
+    "target": "nb-accent-soft",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+        "line": 57,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: -11.37%, $lightness: 7.451%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: -11.37%, $lightness: 7.451%))",
+    "dependencies": [
+      "progress-bar-base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+        "line": 184,
+        "text": "$ui-background-color: $progress-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "progress-bar-background-color": {
+    "group": "Progress",
+    "target": "nb-accent",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+        "line": 63,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/ProgressBar.scss",
+        "line": 7,
+        "expression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: 8.187%, $lightness: -17.647%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($progress-bar-base-color, $hue: 0deg, $saturation: 8.187%, $lightness: -17.647%))",
+    "dependencies": [
+      "progress-bar-base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/ProgressBar.scss",
+        "line": 186,
+        "text": "$ui-bar-background-color: $progress-bar-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "window-header-background-color": {
+    "group": "Window",
+    "target": "nb-header-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 116,
+        "expression": "dynamic($window-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 12,
+        "expression": "dynamic($window-background-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($window-background-color)",
+    "dependencies": [
+      "window-background-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 473,
+        "text": "$ui-header-background-color: $window-header-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "window-header-color": {
+    "group": "Window",
+    "target": "nb-heading",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 110,
+        "expression": "dynamic($panel-header-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 9,
+        "expression": "dynamic(adjust-color($window-base-color, $hue: -2.451deg, $saturation: 38.889%, $lightness: -55.882%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($window-base-color, $hue: -2.451deg, $saturation: 38.889%, $lightness: -55.882%))",
+    "dependencies": [
+      "window-base-color"
+    ],
+    "derivedVariables": [
+      "window-header-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 472,
+        "text": "$ui-header-color: $window-header-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 206,
+        "text": "$window-header-glyph-color: dynamic($window-header-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "window-border-color": {
+    "group": "Window",
+    "target": "#AFC2D9",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 38,
+        "expression": "dynamic($window-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($window-base-color, $hue: 0.952deg, $saturation: -32.377%, $lightness: -13.725%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($window-base-color, $hue: 0.952deg, $saturation: -32.377%, $lightness: -13.725%))",
+    "dependencies": [
+      "window-base-color"
+    ],
+    "derivedVariables": [
+      "window-wrap-border-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 467,
+        "text": "$ui-border-color: $window-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 257,
+        "text": "$window-wrap-border-color: dynamic($window-border-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "menu-background-color": {
+    "group": "Menu",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 9,
+        "expression": "dynamic(#fff)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+        "line": 4,
+        "expression": "dynamic(#f0f0f0)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#f0f0f0)",
+    "dependencies": [],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 739,
+        "text": "$ui-background-color: $menu-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "menu-border-color": {
+    "group": "Menu",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 15,
+        "expression": "dynamic($neutral-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+        "line": 5,
+        "expression": "dynamic($panel-border-color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($panel-border-color)",
+    "dependencies": [
+      "panel-border-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 740,
+        "text": "$ui-border-color: $menu-border-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "menu-item-active-border-color": {
+    "group": "Menu",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 99,
+        "expression": "dynamic(adjust-color($base-color, $saturation: 23%, $lightness: -3%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $saturation: 23%, $lightness: -3%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 754,
+        "text": "$ui-item-active-border-color: $menu-item-active-border-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "menu-text-color": {
+    "group": "Menu",
+    "target": "nb-text",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 39,
+        "expression": "dynamic(#000)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+        "line": 11,
+        "expression": "dynamic(#222)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#222)",
+    "dependencies": [],
+    "derivedVariables": [
+      "grid-header-menu-glyph-color",
+      "menu-glyph-color",
+      "menu-item-active-glyph-color",
+      "menu-item-checkbox-glyph-color",
+      "menu-item-checkbox-group-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 744,
+        "text": "$ui-text-color: $menu-text-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 125,
+        "text": "$menu-glyph-color: dynamic($menu-text-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 176,
+        "text": "$menu-item-checkbox-glyph-color: dynamic($menu-text-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "menu-item-active-text-color": {
+    "group": "Menu",
+    "target": "nb-text",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 87,
+        "expression": "dynamic($color)"
+      }
+    ],
+    "nearestParentExpression": "dynamic($color)",
+    "dependencies": [
+      "color"
+    ],
+    "derivedVariables": [
+      "menu-item-active-arrow-glyph-color",
+      "menu-item-active-checkbox-glyph-color",
+      "menu-item-active-checkbox-group-glyph-color"
+    ],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 752,
+        "text": "$ui-item-active-text-color: $menu-item-active-text-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 183,
+        "text": "$menu-item-active-checkbox-glyph-color: dynamic($menu-item-active-text-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 324,
+        "text": "$menu-item-active-arrow-glyph-color: dynamic($menu-item-active-text-color);"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "menu-item-active-background-color": {
+    "group": "Menu",
+    "target": "nb-accent-soft",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 93,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+        "line": 7,
+        "expression": "dynamic(adjust-color($base-color, $saturation: 25.397%, $lightness: 7.647%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $saturation: 25.397%, $lightness: 7.647%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/menu/Menu.scss",
+        "line": 753,
+        "text": "$ui-item-active-background-color: $menu-item-active-background-color,"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "loadmask-msg-background-color": {
+    "group": "LoadMask",
+    "target": "nb-toolbar-bg",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+        "line": 83,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss",
+        "line": 11,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 0.542%, $lightness: 7.843%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 0.542%, $lightness: 7.843%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+        "line": 43,
+        "text": "@include background-gradient($loadmask-msg-background-color, $loadmask-msg-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+        "line": 45,
+        "text": "background: $loadmask-msg-background-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "loadmask-msg-border-color": {
+    "group": "LoadMask",
+    "target": "nb-border",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+        "line": 71,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/LoadMask.scss",
+        "line": 9,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+      }
+    ],
+    "nearestParentExpression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))",
+    "dependencies": [
+      "base-color"
+    ],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+        "line": 36,
+        "text": "border-color: $loadmask-msg-border-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "loadmask-msg-inner-background-color": {
+    "group": "LoadMask",
+    "target": "nb-surface",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+        "line": 133,
+        "expression": "dynamic(#eee)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#eee)",
+    "dependencies": [],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+        "line": 56,
+        "text": "background-color: $loadmask-msg-inner-background-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  },
+  "loadmask-msg-inner-color": {
+    "group": "LoadMask",
+    "target": "nb-text",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/LoadMask.scss",
+        "line": 139,
+        "expression": "dynamic(#222)"
+      }
+    ],
+    "nearestParentExpression": "dynamic(#222)",
+    "dependencies": [],
+    "derivedVariables": [],
+    "usage": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/LoadMask.scss",
+        "line": 57,
+        "text": "color: $loadmask-msg-inner-color;"
+      }
+    ],
+    "risk": "Color/state only; preserve metrics; verify compiled default UI. Image-backed parts may hide surface colors."
+  }
+}

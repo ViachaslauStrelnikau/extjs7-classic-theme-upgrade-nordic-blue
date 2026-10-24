@@ -1,0 +1,137 @@
+{
+  "browser": "155.0.4283.62",
+  "records": [
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "file": "mask--normal--dpr-1.png",
+      "environment": {
+        "sdk": "7.7.0.31",
+        "profile": {
+          "theme": "classic",
+          "manifestUrl": "http://127.0.0.1:51752/theme-lab/classic-reference.json",
+          "package": "theme-classic",
+          "sdk": "7.7.0.31",
+          "css": [
+            "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css"
+          ]
+        },
+        "date": "2026-10-23T06:00:00.000Z",
+        "timezone": "Europe/Minsk",
+        "uiLocale": "en-US",
+        "browserLocale": "en-US",
+        "viewport": [
+          1280,
+          1600
+        ],
+        "dpr": 1,
+        "fonts": {
+          "Tahoma": true,
+          "Arial": true
+        },
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+      },
+      "policy": "Unmodified original animated SDK GIF. Timing/frame intentionally uncontrolled; not used for exact repeat screenshot comparison."
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "loading",
+      "file": "mask--loading--dpr-1.png",
+      "environment": {
+        "sdk": "7.7.0.31",
+        "profile": {
+          "theme": "classic",
+          "manifestUrl": "http://127.0.0.1:51752/theme-lab/classic-reference.json",
+          "package": "theme-classic",
+          "sdk": "7.7.0.31",
+          "css": [
+            "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css"
+          ]
+        },
+        "date": "2026-10-23T06:00:00.000Z",
+        "timezone": "Europe/Minsk",
+        "uiLocale": "en-US",
+        "browserLocale": "en-US",
+        "viewport": [
+          1280,
+          1600
+        ],
+        "dpr": 1,
+        "fonts": {
+          "Tahoma": true,
+          "Arial": true
+        },
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+      },
+      "policy": "Unmodified original animated SDK GIF. Timing/frame intentionally uncontrolled; not used for exact repeat screenshot comparison."
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "file": "mask--normal--dpr-2.png",
+      "environment": {
+        "sdk": "7.7.0.31",
+        "profile": {
+          "theme": "classic",
+          "manifestUrl": "http://127.0.0.1:51752/theme-lab/classic-reference.json",
+          "package": "theme-classic",
+          "sdk": "7.7.0.31",
+          "css": [
+            "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css"
+          ]
+        },
+        "date": "2026-10-23T06:00:00.000Z",
+        "timezone": "Europe/Minsk",
+        "uiLocale": "en-US",
+        "browserLocale": "en-US",
+        "viewport": [
+          1280,
+          1600
+        ],
+        "dpr": 2,
+        "fonts": {
+          "Tahoma": true,
+          "Arial": true
+        },
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+      },
+      "policy": "Unmodified original animated SDK GIF. Timing/frame intentionally uncontrolled; not used for exact repeat screenshot comparison."
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "loading",
+      "file": "mask--loading--dpr-2.png",
+      "environment": {
+        "sdk": "7.7.0.31",
+        "profile": {
+          "theme": "classic",
+          "manifestUrl": "http://127.0.0.1:51752/theme-lab/classic-reference.json",
+          "package": "theme-classic",
+          "sdk": "7.7.0.31",
+          "css": [
+            "http://127.0.0.1:51752/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css"
+          ]
+        },
+        "date": "2026-10-23T06:00:00.000Z",
+        "timezone": "Europe/Minsk",
+        "uiLocale": "en-US",
+        "browserLocale": "en-US",
+        "viewport": [
+          1280,
+          1600
+        ],
+        "dpr": 2,
+        "fonts": {
+          "Tahoma": true,
+          "Arial": true
+        },
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+      },
+      "policy": "Unmodified original animated SDK GIF. Timing/frame intentionally uncontrolled; not used for exact repeat screenshot comparison."
+    }
+  ]
+}

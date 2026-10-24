@@ -1,0 +1,9 @@
+# Approval, source-policy and golden hashes bind exact file bytes.
+# Preserve existing mixed line endings on checkout on every platform.
+* -text
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary

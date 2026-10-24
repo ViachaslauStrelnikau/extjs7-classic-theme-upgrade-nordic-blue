@@ -1,0 +1,18 @@
+{
+  "config/nordic-blue-icons.json": null,
+  "config/nordic-blue-policy.json": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/all.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/toolbar/Toolbar.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/window/Window.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Trigger.scss": null,
+  "TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss": null
+}

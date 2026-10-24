@@ -1,0 +1,6 @@
+const fs=require('node:fs'),path=require('node:path');
+const plan=JSON.parse(fs.readFileSync(path.join(__dirname,'icon-manifest.json')));let normal=[],dense=[];
+for(let i=0;i<plan.entries.length;i++){const e=plan.entries[i],[w,h]=e.classicDimensions;normal.push(`.density-${i}{width:${w}px;height:${h}px;background-image:url('${e.outputs[1].fallback}');background-size:${w}px ${h}px;background-repeat:no-repeat}`);dense.push(`.density-${i}{background-image:url('${e.outputs[2].preferred}');background-size:${w}px ${h}px}`)}
+fs.writeFileSync(path.join(__dirname,'density-probe.scss'),normal.join('\n')+'\n@media (min-resolution: 192dpi){\n'+dense.join('\n')+'\n}\n');
+fs.writeFileSync(path.join(__dirname,'density-probe.html'),'<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="density-probe.css"><style>body{font:12px Arial;background:#F4F7FC;color:#25374D}section{display:inline-flex;vertical-align:top;flex-direction:column;padding:12px;margin:4px;border:1px solid #DCE5EF;min-width:130px}span{margin-top:10px;max-width:180px}</style><h1>Full catalog density probe — same CSS size</h1>'+plan.entries.map((e,i)=>`<section><span>${e.resource}</span><div class="density-${i}" data-index="${i}"></div></section>`).join(''));
+console.log('Generated media-query probe for all '+plan.entries.length+' sheets/adapters');

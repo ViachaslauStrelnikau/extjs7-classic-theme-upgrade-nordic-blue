@@ -1,0 +1,2938 @@
+{
+  "archive": "evidence.zip",
+  "archiveSha256": "9faab42aeab5b6854f140f87242813a41e68047297600750095d3b71a90bf36b",
+  "entries": {
+    "nordic/probe/dpr-1/pass-1/all--normal.json": {
+      "sha256": "1535329303a69e1c0a6d2180f6e8380ad9a9d639c0009ea4eeb49d9da484c9db",
+      "bytes": 1747223
+    },
+    "nordic/probe/dpr-1/pass-1/all--normal.png": {
+      "sha256": "09a2b9c76e7bed6122dc686629262f27616a95a32aaca63f957483a1de6392d3",
+      "bytes": 190922
+    },
+    "nordic/probe/dpr-1/pass-1/button--disabled.json": {
+      "sha256": "3aca569baafc13a9802777dcd3a451b746e6575d585b46387fceaba69c1c4fab",
+      "bytes": 54827
+    },
+    "nordic/probe/dpr-1/pass-1/button--disabled.png": {
+      "sha256": "af284774101f3ea2ed85c45868212b3d6dfcfa908948e8a93894e6ccea2e23e8",
+      "bytes": 22203
+    },
+    "nordic/probe/dpr-1/pass-1/button--focus.json": {
+      "sha256": "77960b1f3a6f684600047922d946a8377f061171a224ae9cfc14ea28d0d082df",
+      "bytes": 54828
+    },
+    "nordic/probe/dpr-1/pass-1/button--focus.png": {
+      "sha256": "98003f391b8a6fd5b29bf1b8ba293e843e08698c31f3d44b0f1f7a500dc456f3",
+      "bytes": 22057
+    },
+    "nordic/probe/dpr-1/pass-1/button--hover.json": {
+      "sha256": "547a2434d4d2be3c6dcf912b613493cd576ad3e1a8086a3a33693a2b4f0feeb1",
+      "bytes": 54810
+    },
+    "nordic/probe/dpr-1/pass-1/button--hover.png": {
+      "sha256": "aacd688910de61e4b29fe6213619db237dcfa90e87593065b61b8063066d6268",
+      "bytes": 21673
+    },
+    "nordic/probe/dpr-1/pass-1/button--normal.json": {
+      "sha256": "edab441f3943a5b9941436c2d6bfc96fd0a1cf6fbf932904644f04aa3eaeb578",
+      "bytes": 54817
+    },
+    "nordic/probe/dpr-1/pass-1/button--normal.png": {
+      "sha256": "fb5898292fe6382ad0dd1e55037b7bd521ed4ba4082b237ec45afa04145e13c7",
+      "bytes": 21575
+    },
+    "nordic/probe/dpr-1/pass-1/button--open.json": {
+      "sha256": "1cba9255a33518ec7182472d7665b170d44b7045443c2fef537af3e57381de08",
+      "bytes": 65845
+    },
+    "nordic/probe/dpr-1/pass-1/button--open.png": {
+      "sha256": "afa5d043303f0d6ac26518cd9d513c7c3637a02e0d40eb4a6734cf2034397a4a",
+      "bytes": 22971
+    },
+    "nordic/probe/dpr-1/pass-1/button--pressed.json": {
+      "sha256": "c863db042ac96e4b07ae4bc3a0b6d36a2a9808cbab95f82f267339a6e87281b6",
+      "bytes": 54834
+    },
+    "nordic/probe/dpr-1/pass-1/button--pressed.png": {
+      "sha256": "4af18aa4a1c8be0d00252e3dd1b55fa1f27247a27d310b89723d288c0bf39907",
+      "bytes": 22583
+    },
+    "nordic/probe/dpr-1/pass-1/index.json": {
+      "sha256": "fefd7cff8d79e66cad0e2ea1c9e663443afcdbaa1c65ce55958de178f1e2f6b4",
+      "bytes": 10785
+    },
+    "nordic/probe/dpr-1/pass-1/panel--collapsed.json": {
+      "sha256": "a72a6a8e15c76b836e9dd139d0d08af5ecd9a9b66a6211c7584577df3e4d3ba0",
+      "bytes": 31304
+    },
+    "nordic/probe/dpr-1/pass-1/panel--collapsed.png": {
+      "sha256": "1ec4e3e7cc7e5c7f8ee34e6a30344aeba511fe4851109bf7c9f4918f9bc15605",
+      "bytes": 21537
+    },
+    "nordic/probe/dpr-1/pass-1/panel--disabled.json": {
+      "sha256": "fa5fee55394bb77c034010e794167af0051867e0a403627c9fdf39648994ef4d",
+      "bytes": 39575
+    },
+    "nordic/probe/dpr-1/pass-1/panel--disabled.png": {
+      "sha256": "7230d1d80582614bb725c7d9ac6820ea8a2892aac29f1f35412c6215f07ca8b9",
+      "bytes": 23765
+    },
+    "nordic/probe/dpr-1/pass-1/panel--focus.json": {
+      "sha256": "fbfb2397a52c44712457719db67380d04d23328d280b870bab7196caf6d8debf",
+      "bytes": 31324
+    },
+    "nordic/probe/dpr-1/pass-1/panel--focus.png": {
+      "sha256": "c28f461327b008a1ebd611f566c425e818369a4546b1f1359e497048202ac503",
+      "bytes": 24172
+    },
+    "nordic/probe/dpr-1/pass-1/panel--framed.json": {
+      "sha256": "5949633752ec8ed85b6040918c59b420a389d2ea3de8705592ea6e78fb8ca0e7",
+      "bytes": 31410
+    },
+    "nordic/probe/dpr-1/pass-1/panel--framed.png": {
+      "sha256": "d44af5b9d16d60b2aca5ae102453ab72f8b3f5d3ccc1411b3ee7e7a23d079cc8",
+      "bytes": 24381
+    },
+    "nordic/probe/dpr-1/pass-1/panel--hover.json": {
+      "sha256": "99c577607789c06e715bc653370f59d2028136ccf970e2364b46d14ce5554dcc",
+      "bytes": 31317
+    },
+    "nordic/probe/dpr-1/pass-1/panel--hover.png": {
+      "sha256": "80c5b6f3da66d22c095b3fe76c3246b80b6cab517841bbc9de75b9f0e7a44971",
+      "bytes": 24100
+    },
+    "nordic/probe/dpr-1/pass-1/panel--normal.json": {
+      "sha256": "adeeaf9b5ee8ec85515911f700d43c6d925f674f7b665ffb330e52433754562d",
+      "bytes": 31316
+    },
+    "nordic/probe/dpr-1/pass-1/panel--normal.png": {
+      "sha256": "94c86a93cbad6104cbaff14c7e98b237cc82fbc48491797212bbfabb4005b7a3",
+      "bytes": 23931
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--disabled.json": {
+      "sha256": "cbcd9f380b95b35bda42e6dcdfbdf10a1d8018e71cc92e3667d57494b80726a7",
+      "bytes": 118633
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--disabled.png": {
+      "sha256": "0e133ce54320425790722e193f34f68cbde155d5bcef48cb16f4f0f4e86966c4",
+      "bytes": 20545
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--normal.json": {
+      "sha256": "512db2b3dca3b84fad2b5c4871627792e7ef8ecf1b79ed697cf6e279a08e2f96",
+      "bytes": 110778
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--normal.png": {
+      "sha256": "e2c83c43c9897ee3b0ff16ab7dc0345c40119b829af0de8260f72716855a9cf9",
+      "bytes": 21121
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--open.json": {
+      "sha256": "7d87759c3e0e0ebc7b5142e59bc91a75dbadb9859902941f68ea93a225c2df8e",
+      "bytes": 137406
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--open.png": {
+      "sha256": "bd14c4af4860afca743125c0bfcc3bf6bc91c7e6292ba1a8af9e0e635b6120ad",
+      "bytes": 24224
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--overflow.json": {
+      "sha256": "add303fc38b2f79f6aa7f213c9eabe70ece6d10763688c8f87b2ad7333e24ff7",
+      "bytes": 110360
+    },
+    "nordic/probe/dpr-1/pass-1/toolbar--overflow.png": {
+      "sha256": "bc4a60cbd222a860f90394fb45c9cb4c7e1b92f8edeeac8817322b4f91714cd8",
+      "bytes": 20848
+    },
+    "nordic/probe/dpr-1/pass-1/window--focus.json": {
+      "sha256": "8ccbaf6781d5055e8224f2311b6a519e66742a4321fdf2abeef77db59756c376",
+      "bytes": 35009
+    },
+    "nordic/probe/dpr-1/pass-1/window--focus.png": {
+      "sha256": "1d29c5547eba930b5be9b25acc79c473bb2b70da7682a44995a4b14bc96400a9",
+      "bytes": 26263
+    },
+    "nordic/probe/dpr-1/pass-1/window--modal.json": {
+      "sha256": "5958defddd65b3926f6d531e77bf60a19ea33176791c6b5a3e04e4e736cf40bb",
+      "bytes": 36987
+    },
+    "nordic/probe/dpr-1/pass-1/window--modal.png": {
+      "sha256": "919beed829490c9e604a827d4da2385b1e2a735b96a73fcf00995547713b0cdf",
+      "bytes": 25796
+    },
+    "nordic/probe/dpr-1/pass-1/window--moved.json": {
+      "sha256": "af46cdd46ac9f5c9c18ea054391e8bb0dda6558f41ad9608bb2c4299146e0c98",
+      "bytes": 35012
+    },
+    "nordic/probe/dpr-1/pass-1/window--moved.png": {
+      "sha256": "26722a8c5c273167a684ae7c7fab41b25f14a5aa48c07b206e48d44338e6fabb",
+      "bytes": 26068
+    },
+    "nordic/probe/dpr-1/pass-1/window--normal.json": {
+      "sha256": "9fab59264b0500c4e044a151dc8e24fb7672b37b6fd0238d2ec44a0e90ff84fa",
+      "bytes": 35011
+    },
+    "nordic/probe/dpr-1/pass-1/window--normal.png": {
+      "sha256": "355caeaa573e7cc65eff3a76b96c09b3c004b9e06d3fba4189d993bd5a9a7469",
+      "bytes": 25933
+    },
+    "nordic/probe/dpr-1/pass-1/window--resized.json": {
+      "sha256": "afc4f2f560ef8925b8118bbb26499484422e658aecf902b96b9a96c991a72daa",
+      "bytes": 35013
+    },
+    "nordic/probe/dpr-1/pass-1/window--resized.png": {
+      "sha256": "dc2dc645835f9ad79a9c188270f5bfd3d8eaeeba1876439c221eae1bdfa79309",
+      "bytes": 26223
+    },
+    "nordic/probe/dpr-2/pass-1/all--normal.json": {
+      "sha256": "bc487dc1693b1c3eaa7ff774f2d6557e0bcd2481624c96e4d3fbbbc655558412",
+      "bytes": 1747223
+    },
+    "nordic/probe/dpr-2/pass-1/all--normal.png": {
+      "sha256": "dd8e9aea4a8b9c59c8b0ef9d440a2890be7a4e05c4714ace91a7612130b7a9ed",
+      "bytes": 635276
+    },
+    "nordic/probe/dpr-2/pass-1/button--disabled.json": {
+      "sha256": "924472bcf1474a4fdb75864a76067bcb672afb50b734eec47ba1b11f09a5d24c",
+      "bytes": 54827
+    },
+    "nordic/probe/dpr-2/pass-1/button--disabled.png": {
+      "sha256": "5eb47da661ab1dfa0b4ea3d69954ddb5e7e0b5529428cfcbd8cfd434b8c98eab",
+      "bytes": 72655
+    },
+    "nordic/probe/dpr-2/pass-1/button--focus.json": {
+      "sha256": "8412f6c5380158da00d43ecf1838f1ac0a7761a39eda45c12ab6d071572a19ea",
+      "bytes": 54828
+    },
+    "nordic/probe/dpr-2/pass-1/button--focus.png": {
+      "sha256": "7f2ac6e51c6b40e565b512eaf6b93c89342af77c1b6979efd4993dfb11a80fe1",
+      "bytes": 71421
+    },
+    "nordic/probe/dpr-2/pass-1/button--hover.json": {
+      "sha256": "3a64015d139978d84c3e2d72b6b0ad7d48a74fc3354e4e33789174f467aa957c",
+      "bytes": 54810
+    },
+    "nordic/probe/dpr-2/pass-1/button--hover.png": {
+      "sha256": "d082829cfef3c684fa5e1fe5ff4cf11dc90d7b8bb97956e48e9b97afbd072ee7",
+      "bytes": 70485
+    },
+    "nordic/probe/dpr-2/pass-1/button--normal.json": {
+      "sha256": "5239a39f85a3148aa5b9babc68c4c4ea8d62042ec73b7fce454d835ef10b2428",
+      "bytes": 54817
+    },
+    "nordic/probe/dpr-2/pass-1/button--normal.png": {
+      "sha256": "57eae31208f333d2acb0ac6b47d00219a9f07f350998aaad01f61607a059a9d2",
+      "bytes": 69658
+    },
+    "nordic/probe/dpr-2/pass-1/button--open.json": {
+      "sha256": "c1e7a210f9b6e2c67b76a28fbb620b269a250a213668d71b2c2a45d0563d5c1f",
+      "bytes": 65845
+    },
+    "nordic/probe/dpr-2/pass-1/button--open.png": {
+      "sha256": "03f3facd79d25bb0b19c6330a99f3da407927b4687e9c1aec39d86abb6ab64b7",
+      "bytes": 73593
+    },
+    "nordic/probe/dpr-2/pass-1/button--pressed.json": {
+      "sha256": "052944d38661518ce9dc6fb99df32fa177c3974a9054b6ad93d5b84644337b18",
+      "bytes": 54834
+    },
+    "nordic/probe/dpr-2/pass-1/button--pressed.png": {
+      "sha256": "ac98fd9c6c835e455eef26bcb3128e67fe12578a1a8fadd9592700850dda6e4b",
+      "bytes": 73012
+    },
+    "nordic/probe/dpr-2/pass-1/index.json": {
+      "sha256": "75ca73b35aff004b46c1af49571785bb7758d76928c5b3e3f4ffa200b21eb414",
+      "bytes": 10785
+    },
+    "nordic/probe/dpr-2/pass-1/panel--collapsed.json": {
+      "sha256": "a604e26c475883d558a4b995523e3a2b35ee437492e63f04a2ae2de850a3fe0a",
+      "bytes": 31304
+    },
+    "nordic/probe/dpr-2/pass-1/panel--collapsed.png": {
+      "sha256": "e87fab812380d0965069120be08640d5dd4413bbe11dcd19e7ecd5d00870b5de",
+      "bytes": 72877
+    },
+    "nordic/probe/dpr-2/pass-1/panel--disabled.json": {
+      "sha256": "d0deea36923f4b7e46df5f31d69613ac5bb900c96967b7e1bd6691eb29acd3db",
+      "bytes": 39575
+    },
+    "nordic/probe/dpr-2/pass-1/panel--disabled.png": {
+      "sha256": "39ee9eb4cac1aa438c9c0d7624cbaa0713606a1b78070b4fb782ed23093ece01",
+      "bytes": 78724
+    },
+    "nordic/probe/dpr-2/pass-1/panel--focus.json": {
+      "sha256": "bdca1dfa617593acf87c47bd5e033bb1d7d9c1b8a63ee2c4206ea2fff5dac517",
+      "bytes": 31324
+    },
+    "nordic/probe/dpr-2/pass-1/panel--focus.png": {
+      "sha256": "9958a66af61e8ae5ba4073ef0e889bd28ea25a139fa6d391faad73911aff45c1",
+      "bytes": 79356
+    },
+    "nordic/probe/dpr-2/pass-1/panel--framed.json": {
+      "sha256": "6f3c74cc4aaff7e4b227281e4476fc017d79559ca563d80567f9efedca2995cd",
+      "bytes": 31410
+    },
+    "nordic/probe/dpr-2/pass-1/panel--framed.png": {
+      "sha256": "a2f8ab9b1ef7cf7692571a687ab6d727d385fe295572d8e02810c5cbff6e16a1",
+      "bytes": 80727
+    },
+    "nordic/probe/dpr-2/pass-1/panel--hover.json": {
+      "sha256": "4e15c5ac9795e4ba67d735f81584ba8e3f50396d4b92e2683f53262b4617d905",
+      "bytes": 31317
+    },
+    "nordic/probe/dpr-2/pass-1/panel--hover.png": {
+      "sha256": "46d1978720230276bd306383bc336b16f4db90992fb84756b3ed3ecae313bfa4",
+      "bytes": 79572
+    },
+    "nordic/probe/dpr-2/pass-1/panel--normal.json": {
+      "sha256": "bd65c61924cb6286a435c31277bf17c0d2ec1496bd877c3d1a619b798068ef1e",
+      "bytes": 31316
+    },
+    "nordic/probe/dpr-2/pass-1/panel--normal.png": {
+      "sha256": "65a596f3a6722aa3975065012e27d898d5b1e8d6968a3f031c3e68d434b4884b",
+      "bytes": 78805
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--disabled.json": {
+      "sha256": "80804e11a000bc0055fa0fed9127fe5425bb33a658c65c7905b2e0facc3f0aae",
+      "bytes": 118633
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--disabled.png": {
+      "sha256": "cb6933738ce7222a58d6a4c92c8f362ba2ba1c7b0461238721e92fa2ac3f092d",
+      "bytes": 68955
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--normal.json": {
+      "sha256": "0d5c1915b182a17a95bff7617dbe6390e712f6f947bf3037b06370f6f7b6c358",
+      "bytes": 110778
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--normal.png": {
+      "sha256": "63aeef58b92048ca1706164fe088e9c30f8cc1f9caefe0fc3968ddfbaaaee839",
+      "bytes": 69858
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--open.json": {
+      "sha256": "0c984c3d7dfb7c7eca2d1f24e8f87b67bcc530b3913cf1844bea18722acd1769",
+      "bytes": 137406
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--open.png": {
+      "sha256": "aa73b8b343020e0ede5603c4944e09401af8250ab1f4f1af7bd05adcad3a0f4b",
+      "bytes": 78359
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--overflow.json": {
+      "sha256": "182ead423f571a8f3e208ec870c88fa1dc3cb1cf74d5bf5f59e86747041b827a",
+      "bytes": 110360
+    },
+    "nordic/probe/dpr-2/pass-1/toolbar--overflow.png": {
+      "sha256": "7e28c6fae21bbafa7a0a35a6f8e22e87e2b39ab9e1f1150760a37935caee88d1",
+      "bytes": 69313
+    },
+    "nordic/probe/dpr-2/pass-1/window--focus.json": {
+      "sha256": "dca026270e228472d774b7ff0d1d4a1c993b6cc247a9d0dcf0c639948843394e",
+      "bytes": 35009
+    },
+    "nordic/probe/dpr-2/pass-1/window--focus.png": {
+      "sha256": "a2870a228f1eac6793ae6c97aaec884f65a882ad0ff68e9ff37eae7061f49220",
+      "bytes": 85897
+    },
+    "nordic/probe/dpr-2/pass-1/window--modal.json": {
+      "sha256": "d4ce86d84650dab8484ee3a49091802cfb5c3e64f533fe36e4e2c447597df35d",
+      "bytes": 36987
+    },
+    "nordic/probe/dpr-2/pass-1/window--modal.png": {
+      "sha256": "fde9ab916773c9e9ce6c4fbe47d652bd3f9bb311cdc0aceb980549181b4b7765",
+      "bytes": 84658
+    },
+    "nordic/probe/dpr-2/pass-1/window--moved.json": {
+      "sha256": "d3279f88abb2ba04d0d40ec9a41508d2251613bde616327664d6fb63da4ff29a",
+      "bytes": 35012
+    },
+    "nordic/probe/dpr-2/pass-1/window--moved.png": {
+      "sha256": "a5dcdc733cec484d05a6ddfac84934047873d78e9d0ff3a190effec82b20956d",
+      "bytes": 85341
+    },
+    "nordic/probe/dpr-2/pass-1/window--normal.json": {
+      "sha256": "c56a1f437c714a49eb984ca9cb465cbc51fedd7c19c9d6401fb6a20096027178",
+      "bytes": 35011
+    },
+    "nordic/probe/dpr-2/pass-1/window--normal.png": {
+      "sha256": "9d8f188aafb8757ec0c49b113e94e12e4cd7afbb662e82de386c291db69f2939",
+      "bytes": 85181
+    },
+    "nordic/probe/dpr-2/pass-1/window--resized.json": {
+      "sha256": "8aecfbce12a242ea1ac72c2677293e338289e9068c8a3e667adeac410cac8635",
+      "bytes": 35013
+    },
+    "nordic/probe/dpr-2/pass-1/window--resized.png": {
+      "sha256": "d01f16f596e95a46860ba73de5de945eeb24f8ca766b9c1a484bc8b4f1b02624",
+      "bytes": 85969
+    },
+    "nordic/captures/pass-3/dpr-1/all--normal.json": {
+      "sha256": "470bca1a1de537806e55eb63c0e7f74f57f13b8793ff0e0dfaa478f8a5adcb3b",
+      "bytes": 1745027
+    },
+    "nordic/captures/pass-3/dpr-1/all--normal.png": {
+      "sha256": "cd219c22902d9cafd15c704d2afece5420aad18e59ede756e9b0e3061e43aab8",
+      "bytes": 176943
+    },
+    "nordic/captures/pass-3/dpr-1/border--collapsed.json": {
+      "sha256": "0d577125a5375c302da6aac76f58b5ba0b4c4feface9f2124b911ce8146c85ef",
+      "bytes": 80153
+    },
+    "nordic/captures/pass-3/dpr-1/border--collapsed.png": {
+      "sha256": "4b7259d203a51e39dd964e04eb97b8e03fa8be2ab26ccdcc674c0bac648ecc31",
+      "bytes": 23716
+    },
+    "nordic/captures/pass-3/dpr-1/border--expanded.json": {
+      "sha256": "05cb4c7b561cc588214f2c3b6116ee5d158a4990b08e3acc10ae4fa159d4d11a",
+      "bytes": 77993
+    },
+    "nordic/captures/pass-3/dpr-1/border--expanded.png": {
+      "sha256": "3689200b293992acfda8ebfc730b9c6ae101070facc29a92b8447552b0647132",
+      "bytes": 23740
+    },
+    "nordic/captures/pass-3/dpr-1/border--normal.json": {
+      "sha256": "5a1113cc3a8b1c5ac6279a78b624ad26de16bc34591031587e286263c24a5bfc",
+      "bytes": 77987
+    },
+    "nordic/captures/pass-3/dpr-1/border--normal.png": {
+      "sha256": "bcc8a3fec42b67143df1b60353a56d4d2b2621a69eff7d90d6ca44cb240b3370",
+      "bytes": 23163
+    },
+    "nordic/captures/pass-3/dpr-1/button--disabled.json": {
+      "sha256": "9d26867efb42272b40a060a09609b3a08d4e3cdfe94937b14368357f209fd45d",
+      "bytes": 54379
+    },
+    "nordic/captures/pass-3/dpr-1/button--disabled.png": {
+      "sha256": "51eff50132464a9504793e3f30b97f72303a6d79857cc14bca73a069b66579c6",
+      "bytes": 20625
+    },
+    "nordic/captures/pass-3/dpr-1/button--focus.json": {
+      "sha256": "18fd2d1bbe00d866b891156c70a3dfe0f39a0b6444cc2aa5c73e87e9545876b3",
+      "bytes": 54380
+    },
+    "nordic/captures/pass-3/dpr-1/button--focus.png": {
+      "sha256": "ff956f4d48bc0352d90ac7e526be3cf4e642107dacf5566485b0747ca9e78802",
+      "bytes": 20304
+    },
+    "nordic/captures/pass-3/dpr-1/button--hover.json": {
+      "sha256": "903770ae9b7bd362f864d5add48e98aea3bf46398b5dde2203b515da38ee0019",
+      "bytes": 54362
+    },
+    "nordic/captures/pass-3/dpr-1/button--hover.png": {
+      "sha256": "b668954c8394eef40f43e7c7bf47784f8c95c68f334a106cea0704186ef62ae7",
+      "bytes": 20063
+    },
+    "nordic/captures/pass-3/dpr-1/button--normal.json": {
+      "sha256": "052911275f89f77331a7a1744c9f617a07c5b2b3de0fb6cb7d2680ca0514734c",
+      "bytes": 54369
+    },
+    "nordic/captures/pass-3/dpr-1/button--normal.png": {
+      "sha256": "8154b64d86dcf3148f7b8e23cd4b9fc764f8df75970a8410a3d096b59ac0103e",
+      "bytes": 19991
+    },
+    "nordic/captures/pass-3/dpr-1/button--open.json": {
+      "sha256": "2eee9cf83d636e8caa96522fd64204d173c636710643d7ac66da1a36e86fb5b0",
+      "bytes": 65397
+    },
+    "nordic/captures/pass-3/dpr-1/button--open.png": {
+      "sha256": "5053c8d1622a10996eb79edaa8fab208f4cbac2376aa499f26218071f903023e",
+      "bytes": 21367
+    },
+    "nordic/captures/pass-3/dpr-1/button--pressed.json": {
+      "sha256": "d389fe57e658f313b0c7141f617df3c003fc3233d48f0e05020f19ef2055a558",
+      "bytes": 54386
+    },
+    "nordic/captures/pass-3/dpr-1/button--pressed.png": {
+      "sha256": "e76e28a2ae1b7a962e63669221e5afa7989c512fb3e02805d48441c82febf6d8",
+      "bytes": 20977
+    },
+    "nordic/captures/pass-3/dpr-1/checks--checked.json": {
+      "sha256": "07f400281e4c4c6dc15ee1e3b4428fdc0d452feda5ae41bce535ec6fa5afecc5",
+      "bytes": 67041
+    },
+    "nordic/captures/pass-3/dpr-1/checks--checked.png": {
+      "sha256": "904f0b5d9c61b7cf2ae9442ab5ca01fd57ded4ca76f61d88175aeacc2f944e05",
+      "bytes": 24314
+    },
+    "nordic/captures/pass-3/dpr-1/checks--disabled.json": {
+      "sha256": "a0f5446e932338a6bdf40e0fdb8257164608048ee0dc4fecbc1e9d09c6b7ffa5",
+      "bytes": 75371
+    },
+    "nordic/captures/pass-3/dpr-1/checks--disabled.png": {
+      "sha256": "c354247b63f0d828848d09dbf2ed590f637b5a0cc553f31061fa3d26961bae43",
+      "bytes": 24335
+    },
+    "nordic/captures/pass-3/dpr-1/checks--focus.json": {
+      "sha256": "dee057c2835da12cf71a324a80cf4c6d8d45ae19560721d47271f9dfe28f3782",
+      "bytes": 67058
+    },
+    "nordic/captures/pass-3/dpr-1/checks--focus.png": {
+      "sha256": "dcec97e061fb129214113ac0c3dd05bb01a0931636379007fd9f0f0fd5318c3a",
+      "bytes": 24074
+    },
+    "nordic/captures/pass-3/dpr-1/checks--normal.json": {
+      "sha256": "61f7979dd192bf44d2844e625e463ab1a8b38feed20443a9a0044a875ca24c53",
+      "bytes": 67031
+    },
+    "nordic/captures/pass-3/dpr-1/checks--normal.png": {
+      "sha256": "61e36e59b1be06c29ff3965ab56d38d2834374c2ae9ba5117b13e9220b999036",
+      "bytes": 24031
+    },
+    "nordic/captures/pass-3/dpr-1/checks--unchecked.json": {
+      "sha256": "3391055866f9c493a5e3deed89982ba33895fcf722cee2c40641d4069385d0b7",
+      "bytes": 67033
+    },
+    "nordic/captures/pass-3/dpr-1/checks--unchecked.png": {
+      "sha256": "dc1a8c518e3d481fec7e0821d231bc7a46cbfc2d4b1017c1081d0829e5364f39",
+      "bytes": 24299
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--disabled.json": {
+      "sha256": "95fa936978c4a310cec073a63fd838faf1b607802fbb33ee95b955eca7abb729",
+      "bytes": 204428
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--disabled.png": {
+      "sha256": "23df481958344cfb5639bd4e87150e031561ffe339fd44368ec6c5d43419fecc",
+      "bytes": 27139
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--focus.json": {
+      "sha256": "dc45fc4c6888765091dc965bc08ed513169427b5cb3a58bf4278cef03782d671",
+      "bytes": 196165
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--focus.png": {
+      "sha256": "9ddd0a81f4d56116cb887db3af19fb0bebfbf03ce8a2bcb39dc74f642de1cdad",
+      "bytes": 26974
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--next.json": {
+      "sha256": "259425b1e75e54a88b3811b5f89c679eb72f1b0d15fc093eff2f0218fce64212",
+      "bytes": 196199
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--next.png": {
+      "sha256": "406ff49429621474976ff42c9be13534f78742b239069c222065d6aa982ca5c2",
+      "bytes": 27018
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--normal.json": {
+      "sha256": "9a0420ad8511de95618708f39b00556040e25313d46986652bba02331f1ffeb1",
+      "bytes": 196143
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--normal.png": {
+      "sha256": "ffc6446dce912a88e9cdf1c9f6ae9558519eb35edc738207e92a598f43559f77",
+      "bytes": 26844
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--prev.json": {
+      "sha256": "39d38e296330ca023558d76bd9d29b45534a0357ef5451442802d12f60a7860d",
+      "bytes": 196202
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--prev.png": {
+      "sha256": "a1d826c8e5f0088e719733ecd430dc84a40424f1aaf205ac3f349368d80ba6a9",
+      "bytes": 27199
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--selected.json": {
+      "sha256": "134c50b5f43be3a6a293e4dcee116bf52545d03d08592d810fbf0453fe4e3209",
+      "bytes": 196149
+    },
+    "nordic/captures/pass-3/dpr-1/datepicker--selected.png": {
+      "sha256": "833a5cefd1ade545263f61d9209262a92f72be4e061a76e558e10a40bbad306c",
+      "bytes": 27110
+    },
+    "nordic/captures/pass-3/dpr-1/editor--disabled.json": {
+      "sha256": "b2d8fb857ba41cedccd6415e2aa0ba1908295a5a289bdfcb1002c8b05d44e285",
+      "bytes": 173961
+    },
+    "nordic/captures/pass-3/dpr-1/editor--disabled.png": {
+      "sha256": "2aa2db98cff04aae223a3439b91438b8f3552ec92ebe4f47db2d70dee2386779",
+      "bytes": 23822
+    },
+    "nordic/captures/pass-3/dpr-1/editor--focus.json": {
+      "sha256": "e6515d9398e70a01e3c71329b94697013f2e716e57ea7117f7a7beaa6c2622f6",
+      "bytes": 165681
+    },
+    "nordic/captures/pass-3/dpr-1/editor--focus.png": {
+      "sha256": "87e5a94519ffb8fd065dfe87468e01c8565c6a74a2b30e5c163fd213f29853d7",
+      "bytes": 23910
+    },
+    "nordic/captures/pass-3/dpr-1/editor--normal.json": {
+      "sha256": "cb78c2f2af41068fa659d1d4e52a568e943733b43a5b7a0866fe65100d881ad7",
+      "bytes": 165667
+    },
+    "nordic/captures/pass-3/dpr-1/editor--normal.png": {
+      "sha256": "3fea2369a4cefe62d5a3dd3e4b2c7c6c5f9f5341754d365c5893fa0a67d4e168",
+      "bytes": 24032
+    },
+    "nordic/captures/pass-3/dpr-1/editor--readonly.json": {
+      "sha256": "2e2669e0bcbc71aa41d3df6e8e6aba1ebc63a6402dd913adeedfccc872bf4f42",
+      "bytes": 174074
+    },
+    "nordic/captures/pass-3/dpr-1/editor--readonly.png": {
+      "sha256": "2dea85d0aee9a88ed60a445a7083165ce2674f48605fe1dd46fb8cda16399ec2",
+      "bytes": 24469
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--checked.json": {
+      "sha256": "6622982e424ea46b44eced840a710dccc81f0b45bffd483133a7389d6bc8ea17",
+      "bytes": 43850
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--checked.png": {
+      "sha256": "525557f6a0620c2b196241fcc45cdeed28c383fb3791904fddc07f98e2790f16",
+      "bytes": 23421
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--collapsed.json": {
+      "sha256": "d5697c852ca8eb4282a38433beed61e2436700b9fba07b5aac8289a863b14a3b",
+      "bytes": 43552
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--collapsed.png": {
+      "sha256": "d16ec0e57d556e5a53cb54ebb23d327a62cd5f3ce05e3c66912b6be97482b9d9",
+      "bytes": 21357
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--disabled.json": {
+      "sha256": "620276b2d45bfd0dc56c88bc4fc4555b48ffe3877619d7ac2014316cda9cb198",
+      "bytes": 52043
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--disabled.png": {
+      "sha256": "8de1f97e615df7f5d97881d5653f8f336c9416a92e04dffe687f1e47f053b50d",
+      "bytes": 22289
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--normal.json": {
+      "sha256": "3b3637fc922bae88de8b94d01040f35a1b79af0a028b17168b7229df6e9e6f70",
+      "bytes": 43775
+    },
+    "nordic/captures/pass-3/dpr-1/fieldset--normal.png": {
+      "sha256": "ab03837a3f2ef08c902b607cf1db09750781044507249bd624772666195eabb8",
+      "bytes": 21997
+    },
+    "nordic/captures/pass-3/dpr-1/form--disabled.json": {
+      "sha256": "e3e39e243287d42444c69fcc9242bf4aa17d5c16daa7c106ac52ce62252ce122",
+      "bytes": 117946
+    },
+    "nordic/captures/pass-3/dpr-1/form--disabled.png": {
+      "sha256": "d769d0e1e34fd425cc8633b50035a2d4931ca694058d35da37e82d438e6309bb",
+      "bytes": 26283
+    },
+    "nordic/captures/pass-3/dpr-1/form--focus.json": {
+      "sha256": "35b86836cb84a9a23c45b6c1a181adf3fa3da116cc7772ba3f25f89b8cf43446",
+      "bytes": 109692
+    },
+    "nordic/captures/pass-3/dpr-1/form--focus.png": {
+      "sha256": "a06c85f9f13c8246f97b300bf4bd78afd450bca4d82339fd81f63403ee93e41d",
+      "bytes": 26907
+    },
+    "nordic/captures/pass-3/dpr-1/form--invalid.json": {
+      "sha256": "209f88cc1918875d630b241b2c4a800ae0ba8e4a444230991685700be2d320ee",
+      "bytes": 109808
+    },
+    "nordic/captures/pass-3/dpr-1/form--invalid.png": {
+      "sha256": "7367846a4302a1ffee673fb495f1382c864224bbaa41de23d94c6e0565c051a6",
+      "bytes": 26260
+    },
+    "nordic/captures/pass-3/dpr-1/form--normal.json": {
+      "sha256": "2a7cc0654369f94b1a99a1a083a389708d2942ec83814b0b09c086f132e0196b",
+      "bytes": 109684
+    },
+    "nordic/captures/pass-3/dpr-1/form--normal.png": {
+      "sha256": "08178008a41de14b11f3d65a5c5948bb235e32c36dd1dee531d6c0963d55507e",
+      "bytes": 26891
+    },
+    "nordic/captures/pass-3/dpr-1/form--readonly.json": {
+      "sha256": "a69c3b0d631c990a0572afcb18f319c96783c38173f65744e3389d2eeb4fc7b3",
+      "bytes": 109582
+    },
+    "nordic/captures/pass-3/dpr-1/form--readonly.png": {
+      "sha256": "c606aba248d30f64f40506d19eb8f93a8643c0ffdb90563d5043dd5769e88f30",
+      "bytes": 25578
+    },
+    "nordic/captures/pass-3/dpr-1/grid--disabled.json": {
+      "sha256": "e7734599d2c74e8f27b18655c00a06dd3425f91b83db756f7c0459b0494e0bfd",
+      "bytes": 227215
+    },
+    "nordic/captures/pass-3/dpr-1/grid--disabled.png": {
+      "sha256": "ee0d5cc8083a57030a54cc818e5d74693754bbd8cb9194068f3b641045dc0df9",
+      "bytes": 29968
+    },
+    "nordic/captures/pass-3/dpr-1/grid--focus.json": {
+      "sha256": "2aea6794d7ba0da77a99dc7857331ed62cc307beb695e3dfaab23290cd75fa64",
+      "bytes": 220864
+    },
+    "nordic/captures/pass-3/dpr-1/grid--focus.png": {
+      "sha256": "958841f91058035cd19007801360e254dabecaaf0079e48e7da63494b86093cd",
+      "bytes": 29536
+    },
+    "nordic/captures/pass-3/dpr-1/grid--hover.json": {
+      "sha256": "415de74ffbcc478a4f734a2a31f15cb6518a231633f2a1bb9ae51ab3fabef266",
+      "bytes": 218942
+    },
+    "nordic/captures/pass-3/dpr-1/grid--hover.png": {
+      "sha256": "98dc06fc34e24bc85eff93c99eecc86d51ffee81574015bccee8f177440abc5d",
+      "bytes": 29263
+    },
+    "nordic/captures/pass-3/dpr-1/grid--menu.json": {
+      "sha256": "8622521b6a0cbffc09056b87921b5436c9e6ca7c6e89841f9dc9426d9e1035b5",
+      "bytes": 250793
+    },
+    "nordic/captures/pass-3/dpr-1/grid--menu.png": {
+      "sha256": "0a1cbe2b209030ecb1b8fe72ecd8f9bb77f62aa85a364b555ab39e10c0398868",
+      "bytes": 33613
+    },
+    "nordic/captures/pass-3/dpr-1/grid--normal.json": {
+      "sha256": "29841b74151030328f3121307bc0f802143f777e0015a6b9c30603835b48caec",
+      "bytes": 218945
+    },
+    "nordic/captures/pass-3/dpr-1/grid--normal.png": {
+      "sha256": "baee4c01890c491b7883b42addbca804f7af05d0a04fddf10e43e39bf22f0141",
+      "bytes": 29398
+    },
+    "nordic/captures/pass-3/dpr-1/grid--resized.json": {
+      "sha256": "61daca9f6e7b87a4690ece8556c8d32361249fbc390a245c9df72887a47a12e6",
+      "bytes": 218948
+    },
+    "nordic/captures/pass-3/dpr-1/grid--resized.png": {
+      "sha256": "7026343ac5165ea6dece54a0744e5a7a6a1faf1fc5057bab8bcec8e400b321f4",
+      "bytes": 29649
+    },
+    "nordic/captures/pass-3/dpr-1/grid--selected.json": {
+      "sha256": "de09effe5f2453fdbbe2de7179eccc0ec2139b90c28bde6006a12b4d56aa0a97",
+      "bytes": 218956
+    },
+    "nordic/captures/pass-3/dpr-1/grid--selected.png": {
+      "sha256": "8c48ebdfc7f4bbdc7e89068e4fa14d70db4944f94c459396d53c8da2d2f9d6df",
+      "bytes": 30217
+    },
+    "nordic/captures/pass-3/dpr-1/grid--sort-asc.json": {
+      "sha256": "8f631dd2a78397ecf97080811a459abeebc62c62a659b89e0940d8d366556bc5",
+      "bytes": 221534
+    },
+    "nordic/captures/pass-3/dpr-1/grid--sort-asc.png": {
+      "sha256": "4e84c1b04928606d9c9f9209773acbb11ac52f90f67bbde9134ec3b45dc5e526",
+      "bytes": 29681
+    },
+    "nordic/captures/pass-3/dpr-1/grid--sort-desc.json": {
+      "sha256": "854157b8af20d9327b2f595deebaff6e8258ea37316da0ed195a888de96a4770",
+      "bytes": 221540
+    },
+    "nordic/captures/pass-3/dpr-1/grid--sort-desc.png": {
+      "sha256": "23f6ef73cd9bf1714ec27e88b708689370dbd7c07cbb9e9c1bd462980aaf461d",
+      "bytes": 30009
+    },
+    "nordic/captures/pass-3/dpr-1/index.json": {
+      "sha256": "92cc871557ff0777ee130ffd6a2ea37e6e195adb34b7f328e789a64a41aea4b1",
+      "bytes": 48980
+    },
+    "nordic/captures/pass-3/dpr-1/mask--hidden.json": {
+      "sha256": "486ac991f175f9562131efb8020f5d577b21b1698d04f42994c872caad8d630a",
+      "bytes": 12549
+    },
+    "nordic/captures/pass-3/dpr-1/mask--hidden.png": {
+      "sha256": "cca6746a6c21e4bf49fddcf2f252d67eb966ca7abe2dfc8a059e23c7a7ea68e6",
+      "bytes": 20501
+    },
+    "nordic/captures/pass-3/dpr-1/mask--loading.json": {
+      "sha256": "303918939c5c1ec50150b9e39c2829ad363e8fe3388c437c1b7db2eeab6bbf9d",
+      "bytes": 21342
+    },
+    "nordic/captures/pass-3/dpr-1/mask--loading.png": {
+      "sha256": "501cee1d973ec38902ed39e127bbc7546112b9d3e3d3cd19c5c2d6634308d410",
+      "bytes": 22159
+    },
+    "nordic/captures/pass-3/dpr-1/mask--normal.json": {
+      "sha256": "ef6a46a375c93649800b6a403ba8c63358dd21c683a31c1279da896bd6be54b2",
+      "bytes": 21339
+    },
+    "nordic/captures/pass-3/dpr-1/mask--normal.png": {
+      "sha256": "643e9f4c9d6a392ff401435201966ef1b834e1f738f8c51f73000bff16824ff2",
+      "bytes": 22073
+    },
+    "nordic/captures/pass-3/dpr-1/menu--checked.json": {
+      "sha256": "c7c6ddb40540c439531ead0ba78869ebb3acda058d96ff43252626aaf3c046e4",
+      "bytes": 47140
+    },
+    "nordic/captures/pass-3/dpr-1/menu--checked.png": {
+      "sha256": "66aadf69848a4e8479dcaaf61af19a2e6baa00ad46567cd1922ddae573dd971e",
+      "bytes": 23536
+    },
+    "nordic/captures/pass-3/dpr-1/menu--disabled.json": {
+      "sha256": "c6b6a444a7838dc3f8222c13b67980660d092e16f445b4a3c76b7d77cc772bea",
+      "bytes": 55525
+    },
+    "nordic/captures/pass-3/dpr-1/menu--disabled.png": {
+      "sha256": "00a2bc844c0949a4d4b759c796945adaf47a4ed89d65933e59d520f789eba03c",
+      "bytes": 23937
+    },
+    "nordic/captures/pass-3/dpr-1/menu--focus.json": {
+      "sha256": "50ecb302e42fe90785255bb2c432e84c309e4390975b0c94525a2d0e8e0082e7",
+      "bytes": 47357
+    },
+    "nordic/captures/pass-3/dpr-1/menu--focus.png": {
+      "sha256": "0a8a78ba833633542d1c27620d49d7f5af33b3e7add5c5f19f3ee9bcbcb2e97a",
+      "bytes": 24193
+    },
+    "nordic/captures/pass-3/dpr-1/menu--normal.json": {
+      "sha256": "515e89605b5eb6a864ee8b7fefbf45beea27f58ffa02fdccd3f6b63fd9e4661a",
+      "bytes": 47277
+    },
+    "nordic/captures/pass-3/dpr-1/menu--normal.png": {
+      "sha256": "acd8c99cfb0eeaca844a6cd8b54f3afa4e447ed9db1e32b1ed15e283ff2b5336",
+      "bytes": 23374
+    },
+    "nordic/captures/pass-3/dpr-1/menu--open.json": {
+      "sha256": "4dbe1b497a5387e76b16b08377fb86f16dee694ebadf9219954e190361a81e4b",
+      "bytes": 47271
+    },
+    "nordic/captures/pass-3/dpr-1/menu--open.png": {
+      "sha256": "c2a3b0c6e0f4535c392dc98487b6edabded911c7e09a440d4d66940d9a14c6c9",
+      "bytes": 23187
+    },
+    "nordic/captures/pass-3/dpr-1/menu--unchecked.json": {
+      "sha256": "0c33214dd2c7402e1da61e5cd6b5c9d17cd5294e0b844931abb2f267f56656b7",
+      "bytes": 47156
+    },
+    "nordic/captures/pass-3/dpr-1/menu--unchecked.png": {
+      "sha256": "8d8975ef1a35f71c7d7730d69875b92c77c5efc919adb1079e87723ef9e9311d",
+      "bytes": 23617
+    },
+    "nordic/captures/pass-3/dpr-1/paging--disabled.json": {
+      "sha256": "fcec2957a623d5719ba428be522861b640732e627a86b5bf02a8f47b2feed1c8",
+      "bytes": 186080
+    },
+    "nordic/captures/pass-3/dpr-1/paging--disabled.png": {
+      "sha256": "268555b185cd242bec6973d12de2ec4d9dd296d3ef502f4d5325ddfcd101660f",
+      "bytes": 28850
+    },
+    "nordic/captures/pass-3/dpr-1/paging--first.json": {
+      "sha256": "65a630757c95ef5c260cca557022c4325e3606eea179d4f8c72611e44563a5f6",
+      "bytes": 177342
+    },
+    "nordic/captures/pass-3/dpr-1/paging--first.png": {
+      "sha256": "12114018c0261f8286d5501b5df9d889ee228b95c060d9b62b09eed8f31b38a8",
+      "bytes": 27866
+    },
+    "nordic/captures/pass-3/dpr-1/paging--last.json": {
+      "sha256": "ab2d4dcdc05d76cf650678f3fbb09dc87b918286520df5ece046dc1ea3e2afbc",
+      "bytes": 177341
+    },
+    "nordic/captures/pass-3/dpr-1/paging--last.png": {
+      "sha256": "8fee67358b12df5c0658add87bb87a443d778db4578577217eecf91de3f1df75",
+      "bytes": 28213
+    },
+    "nordic/captures/pass-3/dpr-1/paging--middle.json": {
+      "sha256": "4b9308ec17520593ae4e8412bdbf50e28605208245385f190bde632b2c5441eb",
+      "bytes": 177289
+    },
+    "nordic/captures/pass-3/dpr-1/paging--middle.png": {
+      "sha256": "20b8c1080371ceb4bb7524182b62b42891d21334e084f58ce766b2c85b14ed7f",
+      "bytes": 27888
+    },
+    "nordic/captures/pass-3/dpr-1/paging--normal.json": {
+      "sha256": "ad726b0124312248784effadd3c3b27e8c199380cbdba56f98ffd7529cfac488",
+      "bytes": 177345
+    },
+    "nordic/captures/pass-3/dpr-1/paging--normal.png": {
+      "sha256": "0c00961ed67f4c63114044ea437a324c2ad5663af6e617d44df0c31edf75c63f",
+      "bytes": 28096
+    },
+    "nordic/captures/pass-3/dpr-1/panel--collapsed.json": {
+      "sha256": "ff9389e6f7472378cd945ceaac491f80b83861381f1b371cb45af63046d04ffd",
+      "bytes": 31036
+    },
+    "nordic/captures/pass-3/dpr-1/panel--collapsed.png": {
+      "sha256": "b017e62daf6eabc72b624a81ebc251c9a619f10edff1079e040b2b779ce003ee",
+      "bytes": 20252
+    },
+    "nordic/captures/pass-3/dpr-1/panel--disabled.json": {
+      "sha256": "f5cb74c09659cca9d1af67888fda9829800f3b1d131146e94841adf3ce35db41",
+      "bytes": 39307
+    },
+    "nordic/captures/pass-3/dpr-1/panel--disabled.png": {
+      "sha256": "56e510f2e326d034d7d03bbdd4512b213ee977cdebe6ab93805316e77e23a8f6",
+      "bytes": 22204
+    },
+    "nordic/captures/pass-3/dpr-1/panel--focus.json": {
+      "sha256": "45a5ed9e49146821dfa608d1dffc1818f43eef604b1f59f21d3d89ef287da025",
+      "bytes": 31056
+    },
+    "nordic/captures/pass-3/dpr-1/panel--focus.png": {
+      "sha256": "da236b71e130b6fac6164bcbe1912556251d8b6ef1a27b7f8efa7287c32d1d01",
+      "bytes": 21969
+    },
+    "nordic/captures/pass-3/dpr-1/panel--framed.json": {
+      "sha256": "ce03090f2ca35f35f4c02776e78f09dd9182b0f4666f6bdb11eaa68da6eee364",
+      "bytes": 31142
+    },
+    "nordic/captures/pass-3/dpr-1/panel--framed.png": {
+      "sha256": "ae1fd60b63c08f5427c4ccb8a3c910e5b5bc5e4479f66745c8024a10e8c909a4",
+      "bytes": 22251
+    },
+    "nordic/captures/pass-3/dpr-1/panel--hover.json": {
+      "sha256": "78ccfc135744cdbba6852e56add25bb9ff2c182a59afb60e7066ca8595bb0327",
+      "bytes": 31049
+    },
+    "nordic/captures/pass-3/dpr-1/panel--hover.png": {
+      "sha256": "cab8e38d47d81068f81ba59c3d588055756ee19c63b9e5ac6bd11a7ee59c88da",
+      "bytes": 21863
+    },
+    "nordic/captures/pass-3/dpr-1/panel--normal.json": {
+      "sha256": "59584a64f6c5a51f4c5cc7f733600b39e466db05df385d406393e82b7a25b1b0",
+      "bytes": 31048
+    },
+    "nordic/captures/pass-3/dpr-1/panel--normal.png": {
+      "sha256": "ed16c5df266104caf91aa3f552faa46020f81f6f4358ae822fcbd5fd68fe90b1",
+      "bytes": 21683
+    },
+    "nordic/captures/pass-3/dpr-1/progress--full.json": {
+      "sha256": "423ceff4f10c7c62081c2ad7046e1154a04f4fbf8d1fa8857ff2d36737e7d0d3",
+      "bytes": 12652
+    },
+    "nordic/captures/pass-3/dpr-1/progress--full.png": {
+      "sha256": "637d52f3ae30db092255572fff0433fb3d344b931ed9db1fef0cb0d67a76bf04",
+      "bytes": 20225
+    },
+    "nordic/captures/pass-3/dpr-1/progress--normal.json": {
+      "sha256": "e2a5baeffefea520f71756de0b0f8fc3216f0472463223ff9f25684386befd54",
+      "bytes": 12668
+    },
+    "nordic/captures/pass-3/dpr-1/progress--normal.png": {
+      "sha256": "353dfe60b835d7c30d04460c26707317664467a2f91c0cbe7a99162add8e0c5a",
+      "bytes": 20076
+    },
+    "nordic/captures/pass-3/dpr-1/progress--partial.json": {
+      "sha256": "2bb9610863fdf7277f299d3e4389d4669d76ae0e4b1204e630c59ab52706e01c",
+      "bytes": 12671
+    },
+    "nordic/captures/pass-3/dpr-1/progress--partial.png": {
+      "sha256": "92a4ca025ae2f056adf4197446220b4be4303e253ababa26709924d59e64caca",
+      "bytes": 20207
+    },
+    "nordic/captures/pass-3/dpr-1/slider--disabled.json": {
+      "sha256": "8befc221ebd41b71b1708383d3931845a43e33040bf54c5a949463b3b1f13378",
+      "bytes": 49834
+    },
+    "nordic/captures/pass-3/dpr-1/slider--disabled.png": {
+      "sha256": "096ebf9ed532c88b71b6aaccbd47903b6c9bdeee5b19ed72c13f545edc25101c",
+      "bytes": 19519
+    },
+    "nordic/captures/pass-3/dpr-1/slider--focus.json": {
+      "sha256": "0f3db71621998a4c746b87ce4eee2cc6ea67e63705bfdef1a3a3b7dc5df64e10",
+      "bytes": 41603
+    },
+    "nordic/captures/pass-3/dpr-1/slider--focus.png": {
+      "sha256": "93d8562d72c50dfb43d760d9af7c06530aa7e87db9b4c874153c2d72d8e17481",
+      "bytes": 19595
+    },
+    "nordic/captures/pass-3/dpr-1/slider--hover.json": {
+      "sha256": "7a63715af045853d83f4c5ea410c5c58feda0ab7bc95737f0e5a2d1717dc015f",
+      "bytes": 41529
+    },
+    "nordic/captures/pass-3/dpr-1/slider--hover.png": {
+      "sha256": "37f0b6885413f587e394a4f81f6459e6785dbb1aefbaa504eb21688591bfaa2c",
+      "bytes": 19389
+    },
+    "nordic/captures/pass-3/dpr-1/slider--normal.json": {
+      "sha256": "78ed4c12254e644470672b3951fd08eb54070e5da977a5dcca51e0856954e230",
+      "bytes": 41570
+    },
+    "nordic/captures/pass-3/dpr-1/slider--normal.png": {
+      "sha256": "09f5ceab2642b869d18727dd02d3971466c0146a132d6a001c7721f31da6684c",
+      "bytes": 19477
+    },
+    "nordic/captures/pass-3/dpr-1/slider--selected.json": {
+      "sha256": "d174f986e5e9454646ba1b43b5b4669277758f4d30b2a0741e72c0c1af2f982e",
+      "bytes": 41568
+    },
+    "nordic/captures/pass-3/dpr-1/slider--selected.png": {
+      "sha256": "378beddcbf8ae91433d677eb5fa6a6b6c1e8d352fffce915c0d8cb50938d2656",
+      "bytes": 19749
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--focus.json": {
+      "sha256": "72cbb4f81c12a7cec9f55d2b19c42bff1daaff03ac30dff6f16d9f0621398ce6",
+      "bytes": 121645
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--focus.png": {
+      "sha256": "990b4748d8034b2011d68f88b940b677eaf8aa214ccc44642339e002bbed395c",
+      "bytes": 24089
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--hover.json": {
+      "sha256": "4869d569014cef8a552b770c432b925030230a59077ba6f351fa1f222c0964dd",
+      "bytes": 119751
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--hover.png": {
+      "sha256": "23038525c924d31f6a1da9638ace32ac6b5940fb1d71400d410e9a89c48d59d6",
+      "bytes": 24456
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--normal.json": {
+      "sha256": "7f10fc1592abff650cc92a7e1f90880d1234702beafa893bc9dceb6b0c4ac511",
+      "bytes": 119754
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--normal.png": {
+      "sha256": "84fb90d2f582342f5a59f677835af252b2f915fdb0bb9bb4fd7e53de6eb71f7d",
+      "bytes": 23998
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--overflow.json": {
+      "sha256": "884ae785868421148c9f9affc056f3cc3899974f8fe95da13e099688624420cf",
+      "bytes": 120107
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--overflow.png": {
+      "sha256": "382edd6ed8d7c749b3cc8b9a20fdaeb98e8b70eabe1cf9884f3304c7f04c9197",
+      "bytes": 23831
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--selected.json": {
+      "sha256": "af77c05b5388b0fbabcf647ee025aacd159da97569fea4538ea851398a5f037f",
+      "bytes": 119764
+    },
+    "nordic/captures/pass-3/dpr-1/tabs--selected.png": {
+      "sha256": "7231992023840e2d235375bec400c602ed9e19c379f1ddf246eb13ae0f67356d",
+      "bytes": 24549
+    },
+    "nordic/captures/pass-3/dpr-1/tool--disabled.json": {
+      "sha256": "e95db7b89654394d071c372fbe7ebb84dbaae1eee6e1a14a544d346ad6d0513f",
+      "bytes": 418782
+    },
+    "nordic/captures/pass-3/dpr-1/tool--disabled.png": {
+      "sha256": "264c96fc9f9e0762475e97de3e689f8c8ba63199654df2fa48805728567f72cd",
+      "bytes": 31867
+    },
+    "nordic/captures/pass-3/dpr-1/tool--focus.json": {
+      "sha256": "6b29c5af9cceac316a206a29d8790118d3f5a424af28da4bb01b4909450d1cbb",
+      "bytes": 146553
+    },
+    "nordic/captures/pass-3/dpr-1/tool--focus.png": {
+      "sha256": "299a2358ca530d9af7fdff5e4f6a6634403e83e1ee099ac156bef00924d35c9a",
+      "bytes": 31473
+    },
+    "nordic/captures/pass-3/dpr-1/tool--hover.json": {
+      "sha256": "6615e2e0d7bb9a726c7c963a496d986365783adebc72154ca94196bfa93960b4",
+      "bytes": 146542
+    },
+    "nordic/captures/pass-3/dpr-1/tool--hover.png": {
+      "sha256": "3d7c6c55006065cd95671468ac2fed4344f034bfcc219a6556879ac281dfd9dc",
+      "bytes": 31339
+    },
+    "nordic/captures/pass-3/dpr-1/tool--normal.json": {
+      "sha256": "4bedd91818cb11f3f657d6969c3f2e1e286ca2a0d2e91a932b8078bc318a4533",
+      "bytes": 146541
+    },
+    "nordic/captures/pass-3/dpr-1/tool--normal.png": {
+      "sha256": "8506acc0c51638feee31d7a8adc7e82fbf9d992ec7e7874db9a6a0009c24b8dc",
+      "bytes": 31098
+    },
+    "nordic/captures/pass-3/dpr-1/tool--pressed.json": {
+      "sha256": "a1ebbc284596b5dce98258035ca5ed3e620d63174b86b7b1b2afd70a2a37fcb6",
+      "bytes": 146548
+    },
+    "nordic/captures/pass-3/dpr-1/tool--pressed.png": {
+      "sha256": "aed24c6d2794dd4d23158940929e719d07b983a2a124f137e735a0f84bb1531f",
+      "bytes": 31879
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--disabled.json": {
+      "sha256": "2c16bea47ad348d85e2ed03a8bd942fd2b18b34217223f3f3b4b5202d797340d",
+      "bytes": 118569
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--disabled.png": {
+      "sha256": "c3da115f342d5c177b7cea3ec637a7948688b717e89b796ec3f768c46070fa25",
+      "bytes": 19727
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--normal.json": {
+      "sha256": "1a39bc393ca7fbd99647272ce97e60d92dbf200adbf37572a4463930cfe8c19b",
+      "bytes": 110714
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--normal.png": {
+      "sha256": "13a63ffe60e41b7b9a197b027319e88434f7d5568cb2cd48af0c7f95e1bf0e29",
+      "bytes": 19582
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--open.json": {
+      "sha256": "91cd392f581dd01688aaa5644b283c9067ad911fb52a12b71f8ed69f9b1e023e",
+      "bytes": 137342
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--open.png": {
+      "sha256": "0ee30b637af4fe6472fbec02c0b37391c53d24756e2ee1ade253eb66a013f785",
+      "bytes": 22892
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--overflow.json": {
+      "sha256": "e8341749bfb7389610f08ad665ba2cc814fdf4017277b489339e925769b5ae32",
+      "bytes": 110296
+    },
+    "nordic/captures/pass-3/dpr-1/toolbar--overflow.png": {
+      "sha256": "216a72736c18091e52ec5edd9cb467ebc3cb7f5bc2e411079c473e6488e2fb74",
+      "bytes": 19732
+    },
+    "nordic/captures/pass-3/dpr-1/tree--collapsed.json": {
+      "sha256": "e59a341a6e5ed80dc71a19f81a5fe372d689d5e1bf1fcedca389bce56d0dfb34",
+      "bytes": 43898
+    },
+    "nordic/captures/pass-3/dpr-1/tree--collapsed.png": {
+      "sha256": "bda5fca96a544da4ce6e6891d5e260682403ca75a4e3ebb144287120d8e13954",
+      "bytes": 20384
+    },
+    "nordic/captures/pass-3/dpr-1/tree--disabled.json": {
+      "sha256": "01288f1bb6bc75dbb4b0cb954718184f7afa640d52f17b32964a574340bf66d2",
+      "bytes": 72773
+    },
+    "nordic/captures/pass-3/dpr-1/tree--disabled.png": {
+      "sha256": "2fdaa67c787f5029cacbbab87b635bd79479c05fb6c394ac3f48ca9d6554898c",
+      "bytes": 21662
+    },
+    "nordic/captures/pass-3/dpr-1/tree--expanded.json": {
+      "sha256": "09358b5e7a206f7cdbfd4562598cc1cfd9cae789ad5286f09ebc2d1e37a8648a",
+      "bytes": 64529
+    },
+    "nordic/captures/pass-3/dpr-1/tree--expanded.png": {
+      "sha256": "22441d116f1df3a1e8d50c85d2fc507a45fefe5db3abb25d84cca24e2fc9b0bb",
+      "bytes": 22229
+    },
+    "nordic/captures/pass-3/dpr-1/tree--focus.json": {
+      "sha256": "5adf5a28850e52250e08e699115707f45056224aba03638dcef95166c1beacdf",
+      "bytes": 66445
+    },
+    "nordic/captures/pass-3/dpr-1/tree--focus.png": {
+      "sha256": "ef00742e165fade42179c216266e320926f4d11f459d9a1e2e4fdf265b7988e9",
+      "bytes": 21345
+    },
+    "nordic/captures/pass-3/dpr-1/tree--normal.json": {
+      "sha256": "f0166c1f530e10a963d65e822a0afb828b31f4e8ff8453e0f2ad207f66fd2484",
+      "bytes": 64523
+    },
+    "nordic/captures/pass-3/dpr-1/tree--normal.png": {
+      "sha256": "6e8cbc51752d4e8f94367b39e6dcfcadcb36513ab69939ea15c8794c02d57243",
+      "bytes": 21313
+    },
+    "nordic/captures/pass-3/dpr-1/tree--selected.json": {
+      "sha256": "128cf2052194f96301d99bea59fd48f94c3ea40aec55e2ce1df668360f4ba983",
+      "bytes": 64529
+    },
+    "nordic/captures/pass-3/dpr-1/tree--selected.png": {
+      "sha256": "9f77ee4af0539f81ea7dabd1adeeb4f2cc23972e54aaaf5a1339ab7d4a67c094",
+      "bytes": 21815
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--disabled.json": {
+      "sha256": "501cb8b5d946cea7503bb0403f3693cb58d0ba12b400bc95de16ce68aa6e7e1f",
+      "bytes": 102645
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--disabled.png": {
+      "sha256": "3ca8876444a20d623a2fc4f8cb12a33181276679ef4bf70fff1b5992b8dd9427",
+      "bytes": 25674
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--focus.json": {
+      "sha256": "d1bbe48139c744a06c381e83ac6a0ee0f366e817eed62f74fbc803393ac4191e",
+      "bytes": 94378
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--focus.png": {
+      "sha256": "df46fcd32cf955934ff7ed1056651e5f1c5e9202036878a9d0e9ea012d8d8c26",
+      "bytes": 25945
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--hover.json": {
+      "sha256": "d84d1d637d82e59c6d2f5b340ef91864b38473e7ef0cd02f31e2ec8a528ee589",
+      "bytes": 94314
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--hover.png": {
+      "sha256": "63d292259f38af1e21537c849e67b2c9e0c67d743d200bd291fa1a34807270bd",
+      "bytes": 26049
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--normal.json": {
+      "sha256": "a85ee757ea38750840ee6b067cea04d894648763e6d57c5d5309e60ca48e23b9",
+      "bytes": 94365
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--normal.png": {
+      "sha256": "0264f6c6e2f734a567fe1a054467f4d1dfea907a277e0d6220b9409d2cb1cbb7",
+      "bytes": 26073
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--open.json": {
+      "sha256": "a06847a45ccff43119d8e51a61052ddffa33d819e2aa083e4bc327da6a60a30d",
+      "bytes": 102277
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--open.png": {
+      "sha256": "c15cd6b92c2f5ede401872b6261dcab8377a4f88900cb248ff03a7a08461c28e",
+      "bytes": 25967
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--pressed.json": {
+      "sha256": "58528f740cb39d79ba1477bd521ee4f391ffa1f1bc581e95f5c076a0c67d382c",
+      "bytes": 94336
+    },
+    "nordic/captures/pass-3/dpr-1/triggers--pressed.png": {
+      "sha256": "cdfc6600135a8fb7133c31bb35bb6dc8b17c4a3a1594b44fe327ec78729aef17",
+      "bytes": 26298
+    },
+    "nordic/captures/pass-3/dpr-1/window--focus.json": {
+      "sha256": "8999b8c49effabdf244655c2296646775885f84f3163f589d0e6f95ad13b1916",
+      "bytes": 34785
+    },
+    "nordic/captures/pass-3/dpr-1/window--focus.png": {
+      "sha256": "44daf6f017727d30e34dfa50c56362160a05aac4fbb62c919108ae16ce60d25e",
+      "bytes": 24898
+    },
+    "nordic/captures/pass-3/dpr-1/window--modal.json": {
+      "sha256": "ed8bea27a2e72f59b5bb767c2d07363a586be388ba09158f2c1c7732119e9790",
+      "bytes": 36763
+    },
+    "nordic/captures/pass-3/dpr-1/window--modal.png": {
+      "sha256": "bd47fa0c2fb95bfbd88c63bfb46778ea297796c065ce403d5a44a7082d634024",
+      "bytes": 24484
+    },
+    "nordic/captures/pass-3/dpr-1/window--moved.json": {
+      "sha256": "ce354eda73e0b94b8594e5e990ca93e3652393314c1353486c27f7b5c752371d",
+      "bytes": 34788
+    },
+    "nordic/captures/pass-3/dpr-1/window--moved.png": {
+      "sha256": "b889df3e7c4b402c19f4bc8bb83398b87c76f44a8b519ea0f171f3717cfded30",
+      "bytes": 24800
+    },
+    "nordic/captures/pass-3/dpr-1/window--normal.json": {
+      "sha256": "03e5c58b196f5c866afecd8f42aaff797b1797fe62969691846067aa0e015cfa",
+      "bytes": 34787
+    },
+    "nordic/captures/pass-3/dpr-1/window--normal.png": {
+      "sha256": "8bc0a8a2f63e64dbc92f8f48a37bea9663d79c40b3f9d575816748b193814c3f",
+      "bytes": 24630
+    },
+    "nordic/captures/pass-3/dpr-1/window--resized.json": {
+      "sha256": "11b8868f4ff1d6bdff712c166d4163a56bdfefc867c1d9c46245232e8e3a7731",
+      "bytes": 34789
+    },
+    "nordic/captures/pass-3/dpr-1/window--resized.png": {
+      "sha256": "f073e5c614b66f8c0c8aa1a58bb578754f1eb9cd9a633bea2f0352bf82afed5d",
+      "bytes": 25001
+    },
+    "nordic/captures/pass-3/dpr-2/all--normal.json": {
+      "sha256": "ef0f3d90f6311d4ac2a646e6adb7c99c82d1e4399da6b9af58d3940fafc31b94",
+      "bytes": 1745027
+    },
+    "nordic/captures/pass-3/dpr-2/all--normal.png": {
+      "sha256": "031a1a831bba15331aab08f09c521a68df17541974dc10ce8cf07e0b62ed0886",
+      "bytes": 600965
+    },
+    "nordic/captures/pass-3/dpr-2/border--collapsed.json": {
+      "sha256": "a4887b5f788c66e4cf8df0e50e4ea2c6b855b7683f47d5adfc5cab36ce3e4d53",
+      "bytes": 80153
+    },
+    "nordic/captures/pass-3/dpr-2/border--collapsed.png": {
+      "sha256": "d53f17a52eb8dc683d0f3a51b47ca04c4aabd0c3e3f455379b583b30ae6fc9f2",
+      "bytes": 80328
+    },
+    "nordic/captures/pass-3/dpr-2/border--expanded.json": {
+      "sha256": "d1af2d4441e99dd8cc556ae76a55d743cb849101f2a82e0c601672f0193cf130",
+      "bytes": 77993
+    },
+    "nordic/captures/pass-3/dpr-2/border--expanded.png": {
+      "sha256": "cbf91bbc4bf5a50e30b3baf86ee194fe2d598e5ec384e45408d8933904e74600",
+      "bytes": 82236
+    },
+    "nordic/captures/pass-3/dpr-2/border--normal.json": {
+      "sha256": "930f8b91b1b7689a637f141b8f267df8ff0b6bfaa13f58ca053c019bc31032c2",
+      "bytes": 77987
+    },
+    "nordic/captures/pass-3/dpr-2/border--normal.png": {
+      "sha256": "a12572e2b5c052b22034127caffcac9fa314a0064f4827008a4bdaf9143cb097",
+      "bytes": 79199
+    },
+    "nordic/captures/pass-3/dpr-2/button--disabled.json": {
+      "sha256": "cf9f0010389ea88288926179fc252e6273f569940c3a9d698a8f5f66d39e181c",
+      "bytes": 54379
+    },
+    "nordic/captures/pass-3/dpr-2/button--disabled.png": {
+      "sha256": "74fe2c75574c419c77b98dee1fe26170b9963ba0369f73ee15f3c1735e9e65ac",
+      "bytes": 69597
+    },
+    "nordic/captures/pass-3/dpr-2/button--focus.json": {
+      "sha256": "deddb44d61ebb2aff323f3ce92dcc895af5877473e7430257af9c50211268de2",
+      "bytes": 54380
+    },
+    "nordic/captures/pass-3/dpr-2/button--focus.png": {
+      "sha256": "f3b1dda7191bec57a1a732ae8580c8ee6fe81dc805d940d8fe8f46d84be77ef8",
+      "bytes": 68114
+    },
+    "nordic/captures/pass-3/dpr-2/button--hover.json": {
+      "sha256": "fe86d373fbf0ab2ecae6286bdd7f7a0554b5a78987890ef21160bf01d46943e7",
+      "bytes": 54362
+    },
+    "nordic/captures/pass-3/dpr-2/button--hover.png": {
+      "sha256": "2ca7be7cf6367c11934c64782bd271584615ace9068caccbce26f4dbaa97a3f3",
+      "bytes": 67235
+    },
+    "nordic/captures/pass-3/dpr-2/button--normal.json": {
+      "sha256": "4a4c99b7ab62c89e5746c95963b514218fba11d377160c2c475f137e414a86cf",
+      "bytes": 54369
+    },
+    "nordic/captures/pass-3/dpr-2/button--normal.png": {
+      "sha256": "1121d3179f6008c9549f2dd427d100e54a8df6ab64255577cc48b1b5dc009f53",
+      "bytes": 66675
+    },
+    "nordic/captures/pass-3/dpr-2/button--open.json": {
+      "sha256": "a88bfb9e6db7192c3a7193c83117e35d787f92c6399132215fa51d772e1770d0",
+      "bytes": 65397
+    },
+    "nordic/captures/pass-3/dpr-2/button--open.png": {
+      "sha256": "aa6e724630a8e5d55d4ff1a192e0991ac97bf0c6debf189a0b3eb7bcd09c2752",
+      "bytes": 70296
+    },
+    "nordic/captures/pass-3/dpr-2/button--pressed.json": {
+      "sha256": "33504d43e022b6d75f7c30e9591afa2fa26bf03b9943274943f387f2868be534",
+      "bytes": 54386
+    },
+    "nordic/captures/pass-3/dpr-2/button--pressed.png": {
+      "sha256": "fc2c1ead28ffac3ebda720c319ea848d022a9cb41bdd10e0df054bdd68324715",
+      "bytes": 69664
+    },
+    "nordic/captures/pass-3/dpr-2/checks--checked.json": {
+      "sha256": "a37bce572d615ca8ec5436f194b2b8bb3d9c077968b3d95f6df1629c3ccd0b78",
+      "bytes": 67041
+    },
+    "nordic/captures/pass-3/dpr-2/checks--checked.png": {
+      "sha256": "1886e9e0ebd06ff98bbec4980b24e459f1e23eccf0ef746ba056d1c168d7d925",
+      "bytes": 82955
+    },
+    "nordic/captures/pass-3/dpr-2/checks--disabled.json": {
+      "sha256": "9b38c297f0dad95ed68a65e228464454d26264267a3be926deba9fb7b5426d66",
+      "bytes": 75371
+    },
+    "nordic/captures/pass-3/dpr-2/checks--disabled.png": {
+      "sha256": "d9d52d0fecce0ebe86a660600a0cdc7939f06382c049b148999a34f7fb63eea8",
+      "bytes": 81053
+    },
+    "nordic/captures/pass-3/dpr-2/checks--focus.json": {
+      "sha256": "8490a25428ff07715e1a753fe199166bcfcce4aee47c2ec1ff8a10e92d795f75",
+      "bytes": 67058
+    },
+    "nordic/captures/pass-3/dpr-2/checks--focus.png": {
+      "sha256": "cbaef43ef560ce7477a4d06a004ff27c77e679dfbb23f206b1366cd67bb45eb0",
+      "bytes": 83015
+    },
+    "nordic/captures/pass-3/dpr-2/checks--normal.json": {
+      "sha256": "39304cff7da8bcb0bb8ab33f79c8d6be5242b11b1858566e481a35096f42fff6",
+      "bytes": 67031
+    },
+    "nordic/captures/pass-3/dpr-2/checks--normal.png": {
+      "sha256": "e9f1f023e11e914a22f3dbe07a033ff21fd55d9377d61a4f73932104d462d83c",
+      "bytes": 82971
+    },
+    "nordic/captures/pass-3/dpr-2/checks--unchecked.json": {
+      "sha256": "63a0b762bd047d18d81fac12a35f783e09ff054a27efc7618c976465771b8b27",
+      "bytes": 67033
+    },
+    "nordic/captures/pass-3/dpr-2/checks--unchecked.png": {
+      "sha256": "651875a41318082a88b679191468ed5c37e2341871b620605c4df70792ed9972",
+      "bytes": 82544
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--disabled.json": {
+      "sha256": "b834277eb9828021992c75a1062b7980312746194d1e4ce895b8c1f9f352b5b6",
+      "bytes": 204428
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--disabled.png": {
+      "sha256": "59706fe109d11878382c542de68e06ddcb372808396d44077add2ae0e9ca370b",
+      "bytes": 89461
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--focus.json": {
+      "sha256": "43993eb1c2cd9b0fd485fc290ed1d4a09fcd46780123a7db4be603f58d5762c6",
+      "bytes": 196165
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--focus.png": {
+      "sha256": "ab19f256b99fe5e33945fe875296a2b9737b669a8494239ba051c197b0bfe526",
+      "bytes": 90208
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--next.json": {
+      "sha256": "d91649435166158bf9a50246d34d951dfa7ce347e636ee5bc5b0c61c059d5a91",
+      "bytes": 196199
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--next.png": {
+      "sha256": "35742faa8d55ad61d2b37d7e3aa50f9e520799ee548b41e08c64ce41ab3aa5ef",
+      "bytes": 89014
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--normal.json": {
+      "sha256": "7388bc6101820013cc97be859a17f3c80f98ed0235c362f6273a813d1f7342f2",
+      "bytes": 196143
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--normal.png": {
+      "sha256": "66d41a0ea165f954bc3cbde7a3e7e4570e746e496d57fd1e97b115549212f58d",
+      "bytes": 89550
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--prev.json": {
+      "sha256": "44afaa0976dafab400c0abee10dd00951b9d329aee80e4f757151b9a696a18c7",
+      "bytes": 196202
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--prev.png": {
+      "sha256": "285974d0ce306efe57fd8538f08afa015f0153a5fa9e527eba4014de7b946d66",
+      "bytes": 90065
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--selected.json": {
+      "sha256": "2424280e71e58627dcb82e375ef46130eb453986ccb28d67bfc3158dcf5e1da8",
+      "bytes": 196149
+    },
+    "nordic/captures/pass-3/dpr-2/datepicker--selected.png": {
+      "sha256": "8debb3cdba707b4c4eba269a72b7fa4304c49e2f039ecc44e2b802fad8a077a8",
+      "bytes": 89879
+    },
+    "nordic/captures/pass-3/dpr-2/editor--disabled.json": {
+      "sha256": "b0bd7fb6a5d3dfac00a7215533b6c1624e13d2e676a0bae9d3d3c0fac418ea49",
+      "bytes": 173961
+    },
+    "nordic/captures/pass-3/dpr-2/editor--disabled.png": {
+      "sha256": "0f47dda4257494ab2bf33f4a420bff7f9dea345c2ca45cea5882fe1ddb86b923",
+      "bytes": 78017
+    },
+    "nordic/captures/pass-3/dpr-2/editor--focus.json": {
+      "sha256": "7488210d5ac4320d04572c0819f96a2f9d85a6fc25c146e3a6a6e6d45a0f9824",
+      "bytes": 165681
+    },
+    "nordic/captures/pass-3/dpr-2/editor--focus.png": {
+      "sha256": "c828162049b0e89effa6ad713719d979a9faf3017cb74151840a1b028bf15bcd",
+      "bytes": 82747
+    },
+    "nordic/captures/pass-3/dpr-2/editor--normal.json": {
+      "sha256": "d872bd3c68f200600b06b535643b2ade51f61e9a67d7b37099beddd30391c0e9",
+      "bytes": 165667
+    },
+    "nordic/captures/pass-3/dpr-2/editor--normal.png": {
+      "sha256": "95adb253d096588f0baa3e76f94f34c043ca0f188308980fb81c299679101760",
+      "bytes": 82077
+    },
+    "nordic/captures/pass-3/dpr-2/editor--readonly.json": {
+      "sha256": "38547b28e90853fc963fd945bfa672d9a406a92a5e438f661d05008326f9d011",
+      "bytes": 174074
+    },
+    "nordic/captures/pass-3/dpr-2/editor--readonly.png": {
+      "sha256": "49191d9d7a5e26cf60214533c8c6956d4e21f594c8869e416effd18be2d32cd6",
+      "bytes": 82136
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--checked.json": {
+      "sha256": "cd8093bade826f884c5740dfc0ece62057226760268dbdddbaaae68e9375bfdd",
+      "bytes": 43850
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--checked.png": {
+      "sha256": "a040993710a8609327c370077b7aaad93f6d08ca4641b14841b7688c992fda30",
+      "bytes": 78039
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--collapsed.json": {
+      "sha256": "fc45dca5d3be424696c559de74a207a97682784318f5620e323ae4a0c5f54782",
+      "bytes": 43552
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--collapsed.png": {
+      "sha256": "6f69036df1a1b9e52ee0eb84f4b80a7b860734bea4676da664181a3446be1147",
+      "bytes": 72893
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--disabled.json": {
+      "sha256": "fcbdcf04fad8269cfc89cbb09ad8bbf94a3a12f8a47d30720399b24a5ee7cacf",
+      "bytes": 52043
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--disabled.png": {
+      "sha256": "23a2fd13c349992095a4161c873a2e9eb68a09c7ef2fb841daf044cd0aa3b603",
+      "bytes": 73868
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--normal.json": {
+      "sha256": "afce7b38e326b377a0b34660bd932b17d5173f0f888527b58be30476722cb882",
+      "bytes": 43775
+    },
+    "nordic/captures/pass-3/dpr-2/fieldset--normal.png": {
+      "sha256": "e6d7cd4c7849e03ed1b0889ba81393a707348c2a066408ae2f8c167136c9ccad",
+      "bytes": 74148
+    },
+    "nordic/captures/pass-3/dpr-2/form--disabled.json": {
+      "sha256": "9c90e5e784b263eb46c57bfd7efa4dbd87522033de8d248e8cd6ca3c073c2deb",
+      "bytes": 117946
+    },
+    "nordic/captures/pass-3/dpr-2/form--disabled.png": {
+      "sha256": "ba4636af39bf11784b945719171eb54eba988169f7b00472b2fb2ffc7f962965",
+      "bytes": 85087
+    },
+    "nordic/captures/pass-3/dpr-2/form--focus.json": {
+      "sha256": "d2fef4ddddfc4e265dc5072e7d0d6c0d122a648b476b3a30f5f43bb1f83a5d29",
+      "bytes": 109692
+    },
+    "nordic/captures/pass-3/dpr-2/form--focus.png": {
+      "sha256": "81d75e8fc02b3daed537a1aa435ec1242acd2903ab18b4b0276c2bebd527edd1",
+      "bytes": 88571
+    },
+    "nordic/captures/pass-3/dpr-2/form--invalid.json": {
+      "sha256": "fd63b80c2407fe8c5f0912888b88629f411c3db1321fc960102f0ef8e8a07e03",
+      "bytes": 109808
+    },
+    "nordic/captures/pass-3/dpr-2/form--invalid.png": {
+      "sha256": "f5d1dd1220624da8870dc02cef3baa9b309b2e51819edbd1b8961a76b182b829",
+      "bytes": 85852
+    },
+    "nordic/captures/pass-3/dpr-2/form--normal.json": {
+      "sha256": "f8907bdfae09fadfb594f7fd559be20f3e0512a70d6aeb45dbe08d178f193993",
+      "bytes": 109684
+    },
+    "nordic/captures/pass-3/dpr-2/form--normal.png": {
+      "sha256": "44b71f26976ac5a8da860edc379424275f49ba26c09504bf0e17800fe54efda7",
+      "bytes": 88499
+    },
+    "nordic/captures/pass-3/dpr-2/form--readonly.json": {
+      "sha256": "af021666fc1fc575bdf0dd6dd928df8eb889cc810568cda0e9fa1eb5b35db649",
+      "bytes": 109582
+    },
+    "nordic/captures/pass-3/dpr-2/form--readonly.png": {
+      "sha256": "53624950e765685ded78bb5516b9aae4e0d94e785db62467b8c35486f9023914",
+      "bytes": 83376
+    },
+    "nordic/captures/pass-3/dpr-2/grid--disabled.json": {
+      "sha256": "b1a97607877a46feb69a24e2810786c85882259a88cb8baa08bc57da8b96337d",
+      "bytes": 227215
+    },
+    "nordic/captures/pass-3/dpr-2/grid--disabled.png": {
+      "sha256": "e5f656bb59296dfc2a5fe476a82efa282a629a17f9289f1d50efdeee34e23913",
+      "bytes": 101939
+    },
+    "nordic/captures/pass-3/dpr-2/grid--focus.json": {
+      "sha256": "a803577775b7595d9e6d1bfa9076af3432e7790f9605eb53cf44ff4c7e59fea9",
+      "bytes": 220864
+    },
+    "nordic/captures/pass-3/dpr-2/grid--focus.png": {
+      "sha256": "1caf045594ac9a21aa5f584010f439bc035ef7db438559c4654efebcec7afb4c",
+      "bytes": 101800
+    },
+    "nordic/captures/pass-3/dpr-2/grid--hover.json": {
+      "sha256": "e67378f28f98560c4204a60da27781fd86dbdf58c1e9ec75d51799ac5a8a157b",
+      "bytes": 218942
+    },
+    "nordic/captures/pass-3/dpr-2/grid--hover.png": {
+      "sha256": "98228bf4e8e4feeb7328b36a4e09a8636ca17f83458ab703acabb72264121043",
+      "bytes": 100771
+    },
+    "nordic/captures/pass-3/dpr-2/grid--menu.json": {
+      "sha256": "b776bc69c999e60aaecd1b2255605f32ea05d8c992f23ed6528d1263598ca7d3",
+      "bytes": 250793
+    },
+    "nordic/captures/pass-3/dpr-2/grid--menu.png": {
+      "sha256": "baf90a39fda0f73a981f0caeb1f3a0c80d7b6a9c0adc8d641dd1097270997427",
+      "bytes": 112207
+    },
+    "nordic/captures/pass-3/dpr-2/grid--normal.json": {
+      "sha256": "28d9afe841279cf9244d1d334cdde1cbee4c82ac7748ff1531233b2b4adf7e0f",
+      "bytes": 218945
+    },
+    "nordic/captures/pass-3/dpr-2/grid--normal.png": {
+      "sha256": "f76d5f3d5af182f1c7eec1f00b35b63bce8a49fca72f73a0769a51dee2c25ee0",
+      "bytes": 101228
+    },
+    "nordic/captures/pass-3/dpr-2/grid--resized.json": {
+      "sha256": "0e3799967ce583bdeacea33a2a240f9f60c7267df249ae2e48328ca6000d4585",
+      "bytes": 218948
+    },
+    "nordic/captures/pass-3/dpr-2/grid--resized.png": {
+      "sha256": "4f3e1831d1d5538873d18b1fbf7a766966d475e54676d78e8226706ae2f3e97f",
+      "bytes": 102366
+    },
+    "nordic/captures/pass-3/dpr-2/grid--selected.json": {
+      "sha256": "a057ebad9d68b5b3a3fdd95e0f461606c41d9206414884554e6401d039a9fdb4",
+      "bytes": 218956
+    },
+    "nordic/captures/pass-3/dpr-2/grid--selected.png": {
+      "sha256": "608b59d99bc49926f9b48d1dd10a90d01cc7d629b2d36a7c71aea4484296868d",
+      "bytes": 104109
+    },
+    "nordic/captures/pass-3/dpr-2/grid--sort-asc.json": {
+      "sha256": "89491806165e57d902be399dbda5403a3a78ad4a3b71c6068a6984e2ec459076",
+      "bytes": 221534
+    },
+    "nordic/captures/pass-3/dpr-2/grid--sort-asc.png": {
+      "sha256": "22c622ccf60ca59d94d06c5b7014a7dbaf3938a5b3cc43f463c7aafe7fc8c04c",
+      "bytes": 103946
+    },
+    "nordic/captures/pass-3/dpr-2/grid--sort-desc.json": {
+      "sha256": "61cff9d521acaf267aa3107df5b13f99938a7ee95799b0ba890395d8574dcaf9",
+      "bytes": 221540
+    },
+    "nordic/captures/pass-3/dpr-2/grid--sort-desc.png": {
+      "sha256": "acfac35e7611dc232c7b3688bbb0857917c6f60179f4dc520fb7e6c5d95820fe",
+      "bytes": 103092
+    },
+    "nordic/captures/pass-3/dpr-2/index.json": {
+      "sha256": "045c79de42ead3e67963ab2e29e06bc98d10a90e7eaa3a415a24f7b4da2df672",
+      "bytes": 48980
+    },
+    "nordic/captures/pass-3/dpr-2/mask--hidden.json": {
+      "sha256": "6dbd1d13bd955a7a3f02d34955ccf7bb51c51e5219bef54a59f97c733a7ff16f",
+      "bytes": 12549
+    },
+    "nordic/captures/pass-3/dpr-2/mask--hidden.png": {
+      "sha256": "8f9c3d622b8d8cbce4f0265364b62641f05b786aab1f699963ce8d33192a131f",
+      "bytes": 69213
+    },
+    "nordic/captures/pass-3/dpr-2/mask--loading.json": {
+      "sha256": "8d34c71c72db04e9c5ccc630446e1776b68479036acea07f7534f921d5da1aeb",
+      "bytes": 21342
+    },
+    "nordic/captures/pass-3/dpr-2/mask--loading.png": {
+      "sha256": "0f6ba19c78f5d030f9ecab0e7c166002b02a8d36ac0604cc5fba14ca68041b49",
+      "bytes": 75531
+    },
+    "nordic/captures/pass-3/dpr-2/mask--normal.json": {
+      "sha256": "1a7e14874d7565b3024e74a8971e8188c81af85d801a15ac3a2f31d0137c3f19",
+      "bytes": 21339
+    },
+    "nordic/captures/pass-3/dpr-2/mask--normal.png": {
+      "sha256": "9a98a30386df464207062108d8be8aed8d0699bc5cc72cd9e1d7bd45bad1eaa8",
+      "bytes": 73996
+    },
+    "nordic/captures/pass-3/dpr-2/menu--checked.json": {
+      "sha256": "4b941b7c3b5d99842b7e67a9fa905a6bded489b55c7e5890baa40fe2e9cb7de8",
+      "bytes": 47140
+    },
+    "nordic/captures/pass-3/dpr-2/menu--checked.png": {
+      "sha256": "ff9d7ef172b5334f65103d694e0f0c8d8300c44d3a3e67633e4d3d3cf43c7120",
+      "bytes": 80226
+    },
+    "nordic/captures/pass-3/dpr-2/menu--disabled.json": {
+      "sha256": "2abd9d8daea7483eae3887f2d449499018f732071b694a4837d36ed9ce6668b4",
+      "bytes": 55525
+    },
+    "nordic/captures/pass-3/dpr-2/menu--disabled.png": {
+      "sha256": "4eda58fe40a19b574d50b278e5582e2c31abfd7162cf000626a09adcdb2667d2",
+      "bytes": 79777
+    },
+    "nordic/captures/pass-3/dpr-2/menu--focus.json": {
+      "sha256": "fcfdfb27c8b51d68cd3854d83625cfaaeed8adbe7d3ab9c6957a48154fca0222",
+      "bytes": 47357
+    },
+    "nordic/captures/pass-3/dpr-2/menu--focus.png": {
+      "sha256": "e4353a9c1de1e7437b0d0dc7c3b10a470951fe92857d4af89d10781bd5b45aee",
+      "bytes": 80918
+    },
+    "nordic/captures/pass-3/dpr-2/menu--normal.json": {
+      "sha256": "8f01936ff76e125882726b7904da60f6f4fb74ef18b9627bca9ffbd00c0ccd4f",
+      "bytes": 47277
+    },
+    "nordic/captures/pass-3/dpr-2/menu--normal.png": {
+      "sha256": "aaa826ca09f5d4dabc3300f01620e9eadd5b0062f8d365564da447161537286b",
+      "bytes": 78481
+    },
+    "nordic/captures/pass-3/dpr-2/menu--open.json": {
+      "sha256": "48a95d3dbebbd99a227897adc1e7f65d9932ec954e1e761e7ee5ab95c51d4128",
+      "bytes": 47271
+    },
+    "nordic/captures/pass-3/dpr-2/menu--open.png": {
+      "sha256": "3a60e9e92acddd09c8726b6ab139cc1fd5098f67611bbfa79932e70fa15fb8ef",
+      "bytes": 78444
+    },
+    "nordic/captures/pass-3/dpr-2/menu--unchecked.json": {
+      "sha256": "9f5980b4ae92ad3eca601d886b4b9a8c428d109b8367bb46d8e1a8fea8faf100",
+      "bytes": 47156
+    },
+    "nordic/captures/pass-3/dpr-2/menu--unchecked.png": {
+      "sha256": "b34358430d217d7e0ac90fade954a6aab68431c4a27f3d0b7646c98f9ff8cf1b",
+      "bytes": 79341
+    },
+    "nordic/captures/pass-3/dpr-2/paging--disabled.json": {
+      "sha256": "df4fb59807ea7bfe6db72ad9eb11e46def170079a19e1edac04f350c9b0b5ce8",
+      "bytes": 186080
+    },
+    "nordic/captures/pass-3/dpr-2/paging--disabled.png": {
+      "sha256": "6b84e859da0d961a16ec5386ab6bede743b3c01ff9c87e817f675b135eb68c6d",
+      "bytes": 97902
+    },
+    "nordic/captures/pass-3/dpr-2/paging--first.json": {
+      "sha256": "2acc8aa429e6593c4ba3852cd20f900689f4f42a5813d64c8ca688ac627178e5",
+      "bytes": 177342
+    },
+    "nordic/captures/pass-3/dpr-2/paging--first.png": {
+      "sha256": "6a9f50c58f92770fff64c68c04163cbad79290653469fe1b5b1c66c9e95edf48",
+      "bytes": 96127
+    },
+    "nordic/captures/pass-3/dpr-2/paging--last.json": {
+      "sha256": "7186fee000b8dd3bb9b2b17da244f19d0dec4622473c06d55b4b2044ccbca9d3",
+      "bytes": 177341
+    },
+    "nordic/captures/pass-3/dpr-2/paging--last.png": {
+      "sha256": "144254584f278b9a3ebb9c107cb4d4656486b04387dd1844e80c90638a79aba0",
+      "bytes": 96800
+    },
+    "nordic/captures/pass-3/dpr-2/paging--middle.json": {
+      "sha256": "573f2aba2ce6be7c2e5129fee2add59f0e75204d1379b6a2122dfdfe23e52bd3",
+      "bytes": 177289
+    },
+    "nordic/captures/pass-3/dpr-2/paging--middle.png": {
+      "sha256": "52c2a212e6a2b094ac67b40b7b3165be8e28830a76579a0e885ac6cddb454cde",
+      "bytes": 95246
+    },
+    "nordic/captures/pass-3/dpr-2/paging--normal.json": {
+      "sha256": "21dc3e7f47f7c21acdb0257f352a0f1e451dfe51d812555fb625228754688766",
+      "bytes": 177345
+    },
+    "nordic/captures/pass-3/dpr-2/paging--normal.png": {
+      "sha256": "0fc5ab3b625f76a51f12cde66329e48822e1c26574d65e2cc7753ce84012a077",
+      "bytes": 95896
+    },
+    "nordic/captures/pass-3/dpr-2/panel--collapsed.json": {
+      "sha256": "e334e936303624663710870bbc03791ab16abe8c4527507574ba2a38b099c28f",
+      "bytes": 31036
+    },
+    "nordic/captures/pass-3/dpr-2/panel--collapsed.png": {
+      "sha256": "2112dd2c64d7d11ea24dd39938aa4a02c7be5a1a90f6b5e80524d5e864f50713",
+      "bytes": 70121
+    },
+    "nordic/captures/pass-3/dpr-2/panel--disabled.json": {
+      "sha256": "493d7b1cf28c9ab0d1b21b3ab382d6818cf489da874cf846f8be96b0b9037319",
+      "bytes": 39307
+    },
+    "nordic/captures/pass-3/dpr-2/panel--disabled.png": {
+      "sha256": "6fd365eb91051e67027bdcb034bb0d6be0090b808c285a901a50e02fe7dd88d0",
+      "bytes": 75336
+    },
+    "nordic/captures/pass-3/dpr-2/panel--focus.json": {
+      "sha256": "78f3614cd8feb3bb3b583337c4f496207931126e2d90a347a1eb258d962d003e",
+      "bytes": 31056
+    },
+    "nordic/captures/pass-3/dpr-2/panel--focus.png": {
+      "sha256": "74bfef3faf65f043fa0c13b69f08b453cab165b9216a42cc92cd150a6bc6f5bc",
+      "bytes": 74260
+    },
+    "nordic/captures/pass-3/dpr-2/panel--framed.json": {
+      "sha256": "b70881c085ebf32926385dc7133f47203ba75d4ef9c4d31dc0592310664175c2",
+      "bytes": 31142
+    },
+    "nordic/captures/pass-3/dpr-2/panel--framed.png": {
+      "sha256": "da9885cd46cb2dc0c97e06f0966f31616040f951d0811f391146388c158f8408",
+      "bytes": 75492
+    },
+    "nordic/captures/pass-3/dpr-2/panel--hover.json": {
+      "sha256": "6453a6886f6e4c4ad478bfdf55caa38de59bd8c211e49a7f5ebfcc00d14c0228",
+      "bytes": 31049
+    },
+    "nordic/captures/pass-3/dpr-2/panel--hover.png": {
+      "sha256": "eb3dc6e807d80df91cfa90fa843889f91b799e9aef4a849b5729382c200cfc4a",
+      "bytes": 74552
+    },
+    "nordic/captures/pass-3/dpr-2/panel--normal.json": {
+      "sha256": "c24ed048dd2ecd72610b8fad55b87f97cafd3b3804bbee56bee201f1ce523014",
+      "bytes": 31048
+    },
+    "nordic/captures/pass-3/dpr-2/panel--normal.png": {
+      "sha256": "4c6de03e816ca687cef4688ae7774bfb627bdb7695c8c40a641a2a3d25c01c19",
+      "bytes": 73676
+    },
+    "nordic/captures/pass-3/dpr-2/progress--full.json": {
+      "sha256": "098ead0a4a74d9b0556e27cac74544943d33d6e8db685c138481d4cf2d9e8510",
+      "bytes": 12652
+    },
+    "nordic/captures/pass-3/dpr-2/progress--full.png": {
+      "sha256": "8595bebf1ae87c31a852c31efb69ab63256893351f073284e3932d853696aa39",
+      "bytes": 66999
+    },
+    "nordic/captures/pass-3/dpr-2/progress--normal.json": {
+      "sha256": "66cbe7258f4dff4ea8f9ca4ca511d6e629eef09a9d045d6ce45a57251111563c",
+      "bytes": 12668
+    },
+    "nordic/captures/pass-3/dpr-2/progress--normal.png": {
+      "sha256": "635ce4bd55e0b75d55c15b12556ccdb6a6057c6536d9d031a9a922c00179bef8",
+      "bytes": 67822
+    },
+    "nordic/captures/pass-3/dpr-2/progress--partial.json": {
+      "sha256": "213ec53f8bf845146104508a9f75935d7889e2ace992880a2d636d2c8461b7e2",
+      "bytes": 12671
+    },
+    "nordic/captures/pass-3/dpr-2/progress--partial.png": {
+      "sha256": "aa5328970dff8835175b9cd0c2dc88620eda6f26606fe9365c6053ebae1c7c1c",
+      "bytes": 68298
+    },
+    "nordic/captures/pass-3/dpr-2/slider--disabled.json": {
+      "sha256": "42a9c0dfdc3a274264414601b493592fa7c3eea239980c0ad2b7703803548df7",
+      "bytes": 49834
+    },
+    "nordic/captures/pass-3/dpr-2/slider--disabled.png": {
+      "sha256": "fb535af7ac1cec118f417a3cf7ce565c49af0b699b1cf858059a24ec7c37e4bb",
+      "bytes": 66003
+    },
+    "nordic/captures/pass-3/dpr-2/slider--focus.json": {
+      "sha256": "6dae6ea34822147d4cb90ddb09742930c294a1ab91c11dd9c0a65d4864cad2c7",
+      "bytes": 41603
+    },
+    "nordic/captures/pass-3/dpr-2/slider--focus.png": {
+      "sha256": "4a7de442a7495657ecf080274e5345b4614749d7e45903da27029338742cecb6",
+      "bytes": 67161
+    },
+    "nordic/captures/pass-3/dpr-2/slider--hover.json": {
+      "sha256": "30849aa458461e02195e3a1c03048142db5c057255bf4457210899f3df1d5b92",
+      "bytes": 41529
+    },
+    "nordic/captures/pass-3/dpr-2/slider--hover.png": {
+      "sha256": "671a3374160328a1ef1e175a75106b8987388f0af7c1597e181bcfe2510f5dc0",
+      "bytes": 67002
+    },
+    "nordic/captures/pass-3/dpr-2/slider--normal.json": {
+      "sha256": "e753be3147f99ea14792ff40f2bad29ae3c744b4b7473bf587a987dc178b14a7",
+      "bytes": 41570
+    },
+    "nordic/captures/pass-3/dpr-2/slider--normal.png": {
+      "sha256": "6851f67a317a3d6ff3feac47a167f4e5eaf303d3cc454c1645ca7efb2fb98ee9",
+      "bytes": 66794
+    },
+    "nordic/captures/pass-3/dpr-2/slider--selected.json": {
+      "sha256": "9cb4b880b3392bc2c1e94fd3cd83bf2e6cc23aa78682b140e248339e9cedee9d",
+      "bytes": 41568
+    },
+    "nordic/captures/pass-3/dpr-2/slider--selected.png": {
+      "sha256": "9e8925e8238e54fc55413bf05dafb2777a4fde5162332398c37c63c436f8ad72",
+      "bytes": 67744
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--focus.json": {
+      "sha256": "3f87d8f3078b831c636970ca7c6b985484bb8d22293c6ec67ef88e4ba3d322cf",
+      "bytes": 121645
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--focus.png": {
+      "sha256": "f8eb586b315306e45de1e6a992102bdefe094100fa3ce4fcb83c79e728e77628",
+      "bytes": 77183
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--hover.json": {
+      "sha256": "ae649cf642184c702e166f4b2c9b4aca0ec345fe8251925bc6dc7137a6767d4c",
+      "bytes": 119751
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--hover.png": {
+      "sha256": "227997d742ac7694acb389b164dec1c343ef805f13ec4ec90a2218ddd9388fd9",
+      "bytes": 78439
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--normal.json": {
+      "sha256": "9cc2f4d86d40d8e45fdeee5fdc063f455e834bf61636ec502cd0f1d0bd2d78e2",
+      "bytes": 119754
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--normal.png": {
+      "sha256": "8430b836f05cab9663ef23b4b273e15196a129dfcf0cf76bc7c40ec58aaac381",
+      "bytes": 76667
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--overflow.json": {
+      "sha256": "9216a421009209f472c7fcb3440d4b130f4933bc95bacce48c722dc02a8f4afe",
+      "bytes": 120107
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--overflow.png": {
+      "sha256": "67e8d0daf9d459e875e317b092b7f731d824825f5bfc680d4bae9b25ddeb73bd",
+      "bytes": 78434
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--selected.json": {
+      "sha256": "3b0a4c2f9727d6251f9d449306c87448c4a808e0281de393356671558873b382",
+      "bytes": 119764
+    },
+    "nordic/captures/pass-3/dpr-2/tabs--selected.png": {
+      "sha256": "8d2006525d8a7a40b6aa873d3881574b07ca26e7c0f027b1556dbb09fa58d793",
+      "bytes": 78064
+    },
+    "nordic/captures/pass-3/dpr-2/tool--disabled.json": {
+      "sha256": "f673ae7c64e721dd27f857d53e7222c5b528f11d353672f1a1e7cbc35ba21bd6",
+      "bytes": 418782
+    },
+    "nordic/captures/pass-3/dpr-2/tool--disabled.png": {
+      "sha256": "24016d582604714ddbe62f8d57e1111164c853e3fd4d21d8f65c772fa7050d0d",
+      "bytes": 112340
+    },
+    "nordic/captures/pass-3/dpr-2/tool--focus.json": {
+      "sha256": "d9543023872ac19eccc042451362280e9fae6447c541af7b9c9e0108123b54c6",
+      "bytes": 146553
+    },
+    "nordic/captures/pass-3/dpr-2/tool--focus.png": {
+      "sha256": "3e279aabe86e35713ecade42d3b0c0f583d05dcb97d7ee62b5f275338e39c3f7",
+      "bytes": 112648
+    },
+    "nordic/captures/pass-3/dpr-2/tool--hover.json": {
+      "sha256": "cbc71f315bda1b83469e3b8873ecdcc4cdb8f4720083c5fde53ae35d61bd9446",
+      "bytes": 146542
+    },
+    "nordic/captures/pass-3/dpr-2/tool--hover.png": {
+      "sha256": "2ab7b565478ea39b7e78bd243b64d3c1bb6e6e14824b35b1d3639060a81207fb",
+      "bytes": 112846
+    },
+    "nordic/captures/pass-3/dpr-2/tool--normal.json": {
+      "sha256": "23e6d275693611ccddf6528bbe95072b15b2f620b8fca9b85eb64327deb627c2",
+      "bytes": 146541
+    },
+    "nordic/captures/pass-3/dpr-2/tool--normal.png": {
+      "sha256": "ddc27fa0bc140c2967d9d51d172edaccd08b70a3a3e68d43d155cc9a9d02d8c1",
+      "bytes": 112402
+    },
+    "nordic/captures/pass-3/dpr-2/tool--pressed.json": {
+      "sha256": "4fc0b06cb5aac3ec40427597620dbe9817858d467c77181f80bab997d83646d6",
+      "bytes": 146548
+    },
+    "nordic/captures/pass-3/dpr-2/tool--pressed.png": {
+      "sha256": "65e9462f5391fc22d77141eb54aebcb7e0c7569137598d4dea99e86f576ac606",
+      "bytes": 114475
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--disabled.json": {
+      "sha256": "7be6326949cafb1088052f1e6cac31640e6dddbf5c0a0a28ceef3e1bdac7fe6a",
+      "bytes": 118569
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--disabled.png": {
+      "sha256": "d7eba9f8d001a626bff7d164476f79fce5abd233a0f5b96735c21f154159bf60",
+      "bytes": 67150
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--normal.json": {
+      "sha256": "d7f1f5c953ae1a6e5e0d40cda34d35de8e23ffbb4b6e5bbae4a774b57a25c404",
+      "bytes": 110714
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--normal.png": {
+      "sha256": "657e7c08254e65451e1318eb4241cd9e99fdf1cba37be78f55e420377946e799",
+      "bytes": 66500
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--open.json": {
+      "sha256": "5821f08daea61ea262b8bfd21194034a544cadec37b26b43d495780af38a7354",
+      "bytes": 137342
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--open.png": {
+      "sha256": "9e1f07390911a795335f194aef95281f66ef4d8990f0ae34a99e6aa9912efc1e",
+      "bytes": 75554
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--overflow.json": {
+      "sha256": "3f6e7d7e62594853164db2a37d34cb4baa2187be8f2f7e72391971737882960c",
+      "bytes": 110296
+    },
+    "nordic/captures/pass-3/dpr-2/toolbar--overflow.png": {
+      "sha256": "6cc84b90e876276933a56c55024248f57ea1f122222dc7c0fc2a4e3fcfec632d",
+      "bytes": 67038
+    },
+    "nordic/captures/pass-3/dpr-2/tree--collapsed.json": {
+      "sha256": "e0bf3effc2dd4a2b0e9f4b450c7e3a39d7788919791b52ba64d8b492b9ed8a6a",
+      "bytes": 43898
+    },
+    "nordic/captures/pass-3/dpr-2/tree--collapsed.png": {
+      "sha256": "acbb88a31d9e270eeb838f2f2ddba4a7cba88b9b73938b9a4ecd87068f93f15b",
+      "bytes": 70256
+    },
+    "nordic/captures/pass-3/dpr-2/tree--disabled.json": {
+      "sha256": "f7319948b75909dc090ba3546c348c15edaa04c5db4a7b90740dc589bf087f15",
+      "bytes": 72773
+    },
+    "nordic/captures/pass-3/dpr-2/tree--disabled.png": {
+      "sha256": "f2aeb897c15a4fb9e09e309262206f48dd13e989f2b6ed9855cc4b8e5880b55e",
+      "bytes": 74527
+    },
+    "nordic/captures/pass-3/dpr-2/tree--expanded.json": {
+      "sha256": "107257e39e30472067ad0c78d810bff20a54bc13dbd8a04a5f102218d78b3785",
+      "bytes": 64529
+    },
+    "nordic/captures/pass-3/dpr-2/tree--expanded.png": {
+      "sha256": "58db389beee74abe024911c179f8dc78d8066aae54e1cd19b30e95e3b9ba73c0",
+      "bytes": 75199
+    },
+    "nordic/captures/pass-3/dpr-2/tree--focus.json": {
+      "sha256": "b380d77f29f930a15530344e297449578e4f56d909b632f0fab183454c44f877",
+      "bytes": 66445
+    },
+    "nordic/captures/pass-3/dpr-2/tree--focus.png": {
+      "sha256": "d350c82019501ff584138c9dd6572c4790c0d0f463c238b788a22367d11c5368",
+      "bytes": 73672
+    },
+    "nordic/captures/pass-3/dpr-2/tree--normal.json": {
+      "sha256": "13f5849bca49c1e66b94dcb100c43633d4829556cb911d78c4a10e3b836f511a",
+      "bytes": 64523
+    },
+    "nordic/captures/pass-3/dpr-2/tree--normal.png": {
+      "sha256": "4eb9c55303435305876be794380d2f30037aba8d71834dcf905a6418e5e888ce",
+      "bytes": 72900
+    },
+    "nordic/captures/pass-3/dpr-2/tree--selected.json": {
+      "sha256": "b713596c97e08733458375511865d3a633f282ca5d03fdd1dd0fc182e5cf3345",
+      "bytes": 64529
+    },
+    "nordic/captures/pass-3/dpr-2/tree--selected.png": {
+      "sha256": "31cb8537cfd4c96c887c789eac18c21584c08daba376027b3ae2e12daafde779",
+      "bytes": 74467
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--disabled.json": {
+      "sha256": "8136ab9aa9f053972c5aec3375de534ee1efd30e64f0725016f39bc51703209f",
+      "bytes": 102645
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--disabled.png": {
+      "sha256": "c8a6a222147893eb61420d2ef79c3280d45361f0bdfc9929ec11b0edd5bcdf9b",
+      "bytes": 83629
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--focus.json": {
+      "sha256": "48fc1f136b65d9c851ffcf13e58be264ba8156932de10da0d826bc9020b444c9",
+      "bytes": 94378
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--focus.png": {
+      "sha256": "8f0e30ddef6fd224b8a97ab97be610dc1dd92331b3b013f5f131c498295630b4",
+      "bytes": 86510
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--hover.json": {
+      "sha256": "f234f246ae0b4e11948f8683f820ca5ab1ca874a5eee049b360f5fac2aeaf58d",
+      "bytes": 94314
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--hover.png": {
+      "sha256": "50427f8cd66ea783e8e32f197873727f51a008b4878e4c1bbb83fe37ac12b292",
+      "bytes": 86769
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--normal.json": {
+      "sha256": "d5fc395bc0cc3b63ac25d9ff15728994fa959a0a61e4482cad2cc2d7e4e00a66",
+      "bytes": 94365
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--normal.png": {
+      "sha256": "49b833100fd86d0cb1dea33737047c23ea119bce737382fd08f68426f95bae58",
+      "bytes": 86905
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--open.json": {
+      "sha256": "1392ce4d6c3dbc64a98943b5e8a4eb42b1fc910d0ed9fdcf40ceee89698f490d",
+      "bytes": 102277
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--open.png": {
+      "sha256": "66f2da56111b335950c3698b79269af3211a225557c7669e44e592f4729436b5",
+      "bytes": 85629
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--pressed.json": {
+      "sha256": "33efbf95f093bdcea1ec62d9069e576ba3aaed74797a15bb09d38cf9f05e0af1",
+      "bytes": 94336
+    },
+    "nordic/captures/pass-3/dpr-2/triggers--pressed.png": {
+      "sha256": "2cc150af74880c7e7d8bdce18ac0e417f29687754dc7bc01a71646e5fa3d36eb",
+      "bytes": 87692
+    },
+    "nordic/captures/pass-3/dpr-2/window--focus.json": {
+      "sha256": "fbe3fd704079beda546341f73b3dfe4a385ec3549fc5e876984b578699c6414f",
+      "bytes": 34785
+    },
+    "nordic/captures/pass-3/dpr-2/window--focus.png": {
+      "sha256": "2af7b0acde175bcaab6b4e6061de9f082311f3d62d482d01ae62f16b924e36b1",
+      "bytes": 82825
+    },
+    "nordic/captures/pass-3/dpr-2/window--modal.json": {
+      "sha256": "7ce2698cd85b1a09cb5058c5cab365856754c8a21902aae07c9c5764cac5e9db",
+      "bytes": 36763
+    },
+    "nordic/captures/pass-3/dpr-2/window--modal.png": {
+      "sha256": "9f6201f5d349ba8f193a5cc123df2ac2bea0a1e3da38883ea28ee9bf5172ed44",
+      "bytes": 81851
+    },
+    "nordic/captures/pass-3/dpr-2/window--moved.json": {
+      "sha256": "c511c5bdd3b4204c32d11f262347b4ad0ff422b4f30f66634f2e908cd392741f",
+      "bytes": 34788
+    },
+    "nordic/captures/pass-3/dpr-2/window--moved.png": {
+      "sha256": "478682f49694457a2bfce9221e54ec3cabfc985d93929ac9c19d4b912275f8ec",
+      "bytes": 82598
+    },
+    "nordic/captures/pass-3/dpr-2/window--normal.json": {
+      "sha256": "3cd00534ef491b89cc72e07ae48051da3921322bd664b1b66a6e97890a72dd3d",
+      "bytes": 34787
+    },
+    "nordic/captures/pass-3/dpr-2/window--normal.png": {
+      "sha256": "3441ecb6b3af16a3c4406d8c564f450e824b4c5dbb695acfb5b1d5171cca1ba8",
+      "bytes": 82409
+    },
+    "nordic/captures/pass-3/dpr-2/window--resized.json": {
+      "sha256": "0583e3dcbbfc84a66cdd824bf8b4aa98722c9cf5225ca5ef88a72c91dfa0e2de",
+      "bytes": 34789
+    },
+    "nordic/captures/pass-3/dpr-2/window--resized.png": {
+      "sha256": "767abf5826ffe53621d8a68c573c09f1ff4968518272ac1b15b6ae17d160cf56",
+      "bytes": 82927
+    },
+    "core-states-v3/dpr-1/index.json": {
+      "sha256": "44603a77b1fcf57e47377acd3b6ae658a4372a0807f9db2acc7a6518d99404ba",
+      "bytes": 16629
+    },
+    "core-states-v3/dpr-2/index.json": {
+      "sha256": "7070a8ba554645e624fb02827a6847de630bd7a4c647dc2612299ae2a32e4797",
+      "bytes": 16629
+    },
+    "core-states-v3/dpr-1/classic/button.menu--disabled.json": {
+      "sha256": "e637c1665215224c44516aaa8cf51e8a78dc15cc96cc1dfbdb609c3b62107abf",
+      "bytes": 64720
+    },
+    "core-states-v3/dpr-1/classic/button.menu--disabled.png": {
+      "sha256": "8c13961677c23f82077ee2ab0f409d42684030d78c1e5b93a2d85edc38577915",
+      "bytes": 21455
+    },
+    "core-states-v3/dpr-1/classic/button.menu--focus-over.json": {
+      "sha256": "33eb99eb3653d4ad17c56a3709c48fc719050fb906b43bb41c78046e4a09d4dd",
+      "bytes": 64758
+    },
+    "core-states-v3/dpr-1/classic/button.menu--focus-over.png": {
+      "sha256": "b802e4d707766a389e60972337e81594faefb01eee8fcf7309008618ddfda772",
+      "bytes": 21677
+    },
+    "core-states-v3/dpr-1/classic/button.menu--focus-pressed.json": {
+      "sha256": "296298b72f4ba1be93cfa748bf05bbc6b9f863a5f473f123bf76af4b5ce7fb15",
+      "bytes": 64774
+    },
+    "core-states-v3/dpr-1/classic/button.menu--focus-pressed.png": {
+      "sha256": "079c651d9019d05ee048e0eaf2dc0ca62281426f48ee3f1d9b68c73ffcc83e76",
+      "bytes": 22018
+    },
+    "core-states-v3/dpr-1/classic/button.menu--focus.json": {
+      "sha256": "7e8a8bb26d39e8bf6ba8bfbbccd6da42371c9b78052b2807d705ac1aa3c00fee",
+      "bytes": 53662
+    },
+    "core-states-v3/dpr-1/classic/button.menu--focus.png": {
+      "sha256": "b802e4d707766a389e60972337e81594faefb01eee8fcf7309008618ddfda772",
+      "bytes": 21677
+    },
+    "core-states-v3/dpr-1/classic/button.menu--hover.json": {
+      "sha256": "aa163f1637b650c8cd2294db28ccc6e5debd531b1eefabd933a54577a860b9ca",
+      "bytes": 53614
+    },
+    "core-states-v3/dpr-1/classic/button.menu--hover.png": {
+      "sha256": "f08b299fca9dd749cb4329a4fb83cd06b56384e7047014077b83c09981a19273",
+      "bytes": 21734
+    },
+    "core-states-v3/dpr-1/classic/button.menu--normal.json": {
+      "sha256": "999883934b4fa1cd174301f1fdb001b955448b9c7ee34a5848777ff0007dc6ae",
+      "bytes": 53604
+    },
+    "core-states-v3/dpr-1/classic/button.menu--normal.png": {
+      "sha256": "622902716cca24f21b9e7ae047db2bc206d61d08600aa767e1bdf79bb2cdc6a6",
+      "bytes": 21455
+    },
+    "core-states-v3/dpr-1/classic/button.menu--pressed.json": {
+      "sha256": "b7b3b12f01462d750c8f040b7ebae107dd64969a1974afd6fae9e14538e442a6",
+      "bytes": 53629
+    },
+    "core-states-v3/dpr-1/classic/button.menu--pressed.png": {
+      "sha256": "c770ed718bc3fc37dfd9b8285fec8a4e530ab0a779b05a32fb7617a13a389aa7",
+      "bytes": 21837
+    },
+    "core-states-v3/dpr-1/classic/button.normal--disabled.json": {
+      "sha256": "efe985213ad014de5bd08b77a3d4dc87b099d9892505dd79eb6d78a8831d247f",
+      "bytes": 53642
+    },
+    "core-states-v3/dpr-1/classic/button.normal--disabled.png": {
+      "sha256": "c939e1c8ce61a5885bd5fcf79818d62ed149397b71f42a24dd0a3ab0fbd547cf",
+      "bytes": 21537
+    },
+    "core-states-v3/dpr-1/classic/button.normal--focus-over.json": {
+      "sha256": "f8f3a1092adac6289bafa315a01341f40200e40fb4fe1ffba022207fc5c8f9ef",
+      "bytes": 53682
+    },
+    "core-states-v3/dpr-1/classic/button.normal--focus-over.png": {
+      "sha256": "eb1145b6db997e38efe1a3df71b4fbadc76d706f421ff987a8d77c53f08cb9ef",
+      "bytes": 21709
+    },
+    "core-states-v3/dpr-1/classic/button.normal--focus-pressed.json": {
+      "sha256": "93238824f0459602f0c9922b68761a49c71bc3fc0621c06a2a9e31fe71b6b329",
+      "bytes": 53698
+    },
+    "core-states-v3/dpr-1/classic/button.normal--focus-pressed.png": {
+      "sha256": "79ccf69698d4f176682fbf58e71305f2379cdb36b6cc2ddee868cd19355ddb8a",
+      "bytes": 22026
+    },
+    "core-states-v3/dpr-1/classic/button.normal--focus.json": {
+      "sha256": "4c60d85734c5dec7be3c340662e8ac9ac66878523525d8819aa06a32eddcf71b",
+      "bytes": 53666
+    },
+    "core-states-v3/dpr-1/classic/button.normal--focus.png": {
+      "sha256": "eb1145b6db997e38efe1a3df71b4fbadc76d706f421ff987a8d77c53f08cb9ef",
+      "bytes": 21709
+    },
+    "core-states-v3/dpr-1/classic/button.normal--hover.json": {
+      "sha256": "13bf5ab3a879f19137d186830012bc7a360f68bd682c932faa2a4417c7dbcc25",
+      "bytes": 53616
+    },
+    "core-states-v3/dpr-1/classic/button.normal--hover.png": {
+      "sha256": "e713a91a6e3c696a27c39106e4d2e9de6672e27b36d51d521a7c4eeabc1cccf9",
+      "bytes": 21760
+    },
+    "core-states-v3/dpr-1/classic/button.normal--normal.json": {
+      "sha256": "a7eec52cca052756d5952e470571cd68d0d32c57c24e67b8d42a9dfa0e3b7d14",
+      "bytes": 53606
+    },
+    "core-states-v3/dpr-1/classic/button.normal--normal.png": {
+      "sha256": "622902716cca24f21b9e7ae047db2bc206d61d08600aa767e1bdf79bb2cdc6a6",
+      "bytes": 21455
+    },
+    "core-states-v3/dpr-1/classic/button.normal--pressed.json": {
+      "sha256": "c21826b372968828ea470254f32031c97d593131ddf93fbaa8020614e0306daf",
+      "bytes": 53631
+    },
+    "core-states-v3/dpr-1/classic/button.normal--pressed.png": {
+      "sha256": "eaf6a9c7984dbd32ef9298a9b46b6facc8d83a44d3fc43c14aae618e4a0f88b8",
+      "bytes": 21874
+    },
+    "core-states-v3/dpr-1/classic/button.split--disabled.json": {
+      "sha256": "45064aa3b65488408abe213fb45c3193282c52eefe1b3537dee8ace480e5c886",
+      "bytes": 53656
+    },
+    "core-states-v3/dpr-1/classic/button.split--disabled.png": {
+      "sha256": "132d4dfb255deb69f72f3b4e9a21b64cc04dc776d1624b237ab819a8dcb19b45",
+      "bytes": 21512
+    },
+    "core-states-v3/dpr-1/classic/button.split--focus-over.json": {
+      "sha256": "8f9c30c72ccb2959b7c33a55087c8c008356ca7a3adbdc69df97cd8a76b21f4b",
+      "bytes": 53665
+    },
+    "core-states-v3/dpr-1/classic/button.split--focus-over.png": {
+      "sha256": "e0b8d3d04814aa2657abf692a0d1db1b3d1aa6db80e654f1f37a3d8e0c23b9ed",
+      "bytes": 21674
+    },
+    "core-states-v3/dpr-1/classic/button.split--focus-pressed.json": {
+      "sha256": "6b1dc307ba92f0625751d08ced2b2dbd0ff53026f92d23dfabb023b6fe560ebe",
+      "bytes": 53681
+    },
+    "core-states-v3/dpr-1/classic/button.split--focus-pressed.png": {
+      "sha256": "e51934934f4104527eb1178bcc35f94a912f25efb9199f03e0d8f4ebfe069617",
+      "bytes": 22098
+    },
+    "core-states-v3/dpr-1/classic/button.split--focus.json": {
+      "sha256": "8eda91c905bf5613ecc2cfcefc55c5b62720eb59b09a2683b0545c97762681ed",
+      "bytes": 53645
+    },
+    "core-states-v3/dpr-1/classic/button.split--focus.png": {
+      "sha256": "8dcb55cb713b8a1e47c3085b7f40741d7f68b6e1ffd01ce00769f371fc322b67",
+      "bytes": 21672
+    },
+    "core-states-v3/dpr-1/classic/button.split--hover.json": {
+      "sha256": "5846f24050dda5fa2c9266d7f5e5f75bc45758da4b1e395e278ac7921bbabc0b",
+      "bytes": 53634
+    },
+    "core-states-v3/dpr-1/classic/button.split--hover.png": {
+      "sha256": "822e95a28f19e73589be218e307bab569fca390f2cf96b871e738ac432e1e7d5",
+      "bytes": 21774
+    },
+    "core-states-v3/dpr-1/classic/button.split--normal.json": {
+      "sha256": "609c934e980d1f82bc8312b961634dde76d8935c9e2e6eaf92f8cf635c184546",
+      "bytes": 53620
+    },
+    "core-states-v3/dpr-1/classic/button.split--normal.png": {
+      "sha256": "622902716cca24f21b9e7ae047db2bc206d61d08600aa767e1bdf79bb2cdc6a6",
+      "bytes": 21455
+    },
+    "core-states-v3/dpr-1/classic/button.split--pressed.json": {
+      "sha256": "e69a3dfee0f53947c0f596b00dd645119e077a3aeb9fe90653051631edbd3d6b",
+      "bytes": 53649
+    },
+    "core-states-v3/dpr-1/classic/button.split--pressed.png": {
+      "sha256": "791b2ce47fb8fb60799781c6d102f816c22f3df0089c3c0eeb03feb0a3e2f5fe",
+      "bytes": 21910
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--disabled.json": {
+      "sha256": "327dc5e3f6cbbe24b0d914b0176daa41ffffe4d23883926f9b4032cb17d066d3",
+      "bytes": 109747
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--disabled.png": {
+      "sha256": "1f4badd479145531ef97226a3d1ceceeda5c62546b3e6efe1c423a981af7663a",
+      "bytes": 22211
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--focus-over.json": {
+      "sha256": "f425e2cb128bae154f56b8a11a71187527e86113052e163a45b93e033524d6b4",
+      "bytes": 109779
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--focus-over.png": {
+      "sha256": "d75c818f69a897e97e9a87552498c3eec6c9ead0ce265ad076cea0134d46bcbe",
+      "bytes": 21779
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--focus-pressed.json": {
+      "sha256": "3909aaaf730c8a57ba0c6b53c9ba4e97676622fa98c396733bd7804c4c95e5ed",
+      "bytes": 109909
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--focus-pressed.png": {
+      "sha256": "f510e7d76008fde4ab82a07d1e5a94a6e988582bac6c2e654e9cbee2753f0e71",
+      "bytes": 22503
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--focus.json": {
+      "sha256": "a480ee7e72e805367ecc833d0ba544adb05df6e0c1826ae92fdd2c6f9f1290c1",
+      "bytes": 109755
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--focus.png": {
+      "sha256": "bc7d86c6f6dd19b43281cc775e072712d8a878bfe5d790547e4959c57f1e62b6",
+      "bytes": 21535
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--hover.json": {
+      "sha256": "398fad59d016d759e3b86dc3b84e8ce9092173f433ea09986d2f5ed932f480d1",
+      "bytes": 109819
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--hover.png": {
+      "sha256": "09a5c1b711e363e2bb8127e2ef22dfb612fbfee76dff5c0d461174b7c64c452b",
+      "bytes": 22383
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--normal.json": {
+      "sha256": "68dbaf072565867bcdfafcdb46858271e55f948290e44dcb7b756d6fbec75d00",
+      "bytes": 109687
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--normal.png": {
+      "sha256": "3cf99d794523e66db8c221e65f3989dd80279f8749fcb1e03c13beb1e80b19d0",
+      "bytes": 21383
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--pressed.json": {
+      "sha256": "0464840811325c25d4605f43c7d532877c2806aafcb083a25e47a30c5c722155",
+      "bytes": 109834
+    },
+    "core-states-v3/dpr-1/classic/toolbar.first--pressed.png": {
+      "sha256": "3e2a9d027a5bbe49eedecaf12eb8fae48451ceb08875727e5b9ae0c810a39106",
+      "bytes": 22426
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--disabled.json": {
+      "sha256": "d98c138f1d7e00b699216780795ba7df5e7b845a17f8e1e6db9313d49fe77262",
+      "bytes": 64177
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--disabled.png": {
+      "sha256": "c1fdbe77f7967440b69dea72ab9f7cd12c0581c7e560738a80dc59cc0b24f62c",
+      "bytes": 20024
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--focus-over.json": {
+      "sha256": "3fa07c0dd8a43cac3d8462e1822728e0270918207af8b6400581455173da2f74",
+      "bytes": 64213
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--focus-over.png": {
+      "sha256": "e7d13c1487c92163b5ea8bf07770bad411f2bdcbdac886c53724455fd5ece8d4",
+      "bytes": 20403
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--focus-pressed.json": {
+      "sha256": "4547d127ae9fe36736dba0f7110971e99c55f2eef7f961fd90c1f2ea195aa1a2",
+      "bytes": 64229
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--focus-pressed.png": {
+      "sha256": "84b0a7f8dce3e1554e936e448b02c767de889ad4fb92fc11b9add591da452577",
+      "bytes": 20431
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--focus.json": {
+      "sha256": "595450af06a29594b8084f28de526922393dbcf8eaf6656bc4a620909ce75cd3",
+      "bytes": 53161
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--focus.png": {
+      "sha256": "cf0406761a5702495ad3f20ab5ca2111fabc25f87584a00556224ad1d8ce8b3e",
+      "bytes": 20317
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--hover.json": {
+      "sha256": "eae438983a07879efa375fc7ab1e41d308f62c975ff4cdd5e842c670cfe28764",
+      "bytes": 53111
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--hover.png": {
+      "sha256": "3210c22290129a0216087a908fe84fad5b13b8a42bdb500c380fa20f38279ab0",
+      "bytes": 20247
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--normal.json": {
+      "sha256": "b8b7aa8baf44942ab738ecaa140316eed9169cd09afe9e00b59f8327ad11d850",
+      "bytes": 53105
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--normal.png": {
+      "sha256": "8154b64d86dcf3148f7b8e23cd4b9fc764f8df75970a8410a3d096b59ac0103e",
+      "bytes": 19991
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--pressed.json": {
+      "sha256": "4f44617b70b19a6b3d60c36e33f908789740891dc45b9a6621bc9c2faf99a800",
+      "bytes": 53126
+    },
+    "core-states-v3/dpr-1/nordic/button.menu--pressed.png": {
+      "sha256": "634ad628d284089d368d62eac9bf3e4e78b07a0dde11784a7fd21d550485f811",
+      "bytes": 20260
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--disabled.json": {
+      "sha256": "30877bf64b1b708a8aae1373696b7762cc2002f735ca5f8a6a12c78e3b95b1bb",
+      "bytes": 53143
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--disabled.png": {
+      "sha256": "2060834461790d15549065b41f95a535c624450fcea4db252f8b6909f9f05619",
+      "bytes": 20024
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--focus-over.json": {
+      "sha256": "10b7ffbb029355228239668f9b939f42666a2b24aebfaeb6fa44616e5079ea5e",
+      "bytes": 53181
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--focus-over.png": {
+      "sha256": "1c981e21965ba5d065ab4c02863f70d5eb30cb52909f1ebad77b5ad66786276f",
+      "bytes": 20330
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--focus-pressed.json": {
+      "sha256": "f622494d4da44df8ea00d562e2f137f92884cf7d5878b4fd29a284972e5225b1",
+      "bytes": 53197
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--focus-pressed.png": {
+      "sha256": "e0d508fa753d44465047ac125958208645989c675851624a51e74cdb8c34338e",
+      "bytes": 20354
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--focus.json": {
+      "sha256": "999e97c5e5573554580e8014e9f13f5130a62c6f5d7b0757cc1dc484399d055b",
+      "bytes": 53165
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--focus.png": {
+      "sha256": "5bc4856c2501631e9226835580cad6b06e9fe594475a583677e164dd8a9e5011",
+      "bytes": 20237
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--hover.json": {
+      "sha256": "5e621a9eb4d216a425d5296880448bbc850ce5ef19ee8000d0daaea610f1a671",
+      "bytes": 53113
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--hover.png": {
+      "sha256": "39c86b79ee3b63afddd1d88e504cec95676f745950315a1314e0dd543981af27",
+      "bytes": 20208
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--normal.json": {
+      "sha256": "a46255023206e2bed1c95d86d6606120eb1f0d5109212637fb6324d2fea66d95",
+      "bytes": 53107
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--normal.png": {
+      "sha256": "8154b64d86dcf3148f7b8e23cd4b9fc764f8df75970a8410a3d096b59ac0103e",
+      "bytes": 19991
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--pressed.json": {
+      "sha256": "e6de0b9a20eaf580a6557ac568d882e8db36a02148e39714b8a32f8cb876a4d7",
+      "bytes": 53128
+    },
+    "core-states-v3/dpr-1/nordic/button.normal--pressed.png": {
+      "sha256": "ba833979677584b5677d7a1e8cb6efe9a4cba21f65eb5750be871b64e0255c74",
+      "bytes": 20226
+    },
+    "core-states-v3/dpr-1/nordic/button.split--disabled.json": {
+      "sha256": "611cc09750e229877f96c9312de30b578462874af07d3241d06ca1c25e854035",
+      "bytes": 53157
+    },
+    "core-states-v3/dpr-1/nordic/button.split--disabled.png": {
+      "sha256": "696d2186fee3d7bd5da301b32ebc055254b733863eeea30ea08623633b8067e5",
+      "bytes": 19997
+    },
+    "core-states-v3/dpr-1/nordic/button.split--focus-over.json": {
+      "sha256": "5155be72a6a32b9c7ef09f28d728ace41ef069cf23048964793af0120e22b645",
+      "bytes": 53164
+    },
+    "core-states-v3/dpr-1/nordic/button.split--focus-over.png": {
+      "sha256": "8ed6e4f13428cabdfd65f011b0ffab39378d9c148755b6369f7daa4556669010",
+      "bytes": 20361
+    },
+    "core-states-v3/dpr-1/nordic/button.split--focus-pressed.json": {
+      "sha256": "504b7f88ea50c8ae3e4bb1168d829ef9735527372fa84fe0c7b78fc0d15c0192",
+      "bytes": 53180
+    },
+    "core-states-v3/dpr-1/nordic/button.split--focus-pressed.png": {
+      "sha256": "076f5e160cf4a090cc92ba424a5926e7904dbe989b5aaf0b75e6b557627bb524",
+      "bytes": 20380
+    },
+    "core-states-v3/dpr-1/nordic/button.split--focus.json": {
+      "sha256": "0a617d7ee9ba3acd84321e35f85f13dfad0ef7fce790ad77f5cd3fcb63f6d45b",
+      "bytes": 53144
+    },
+    "core-states-v3/dpr-1/nordic/button.split--focus.png": {
+      "sha256": "5b76f68f0a5fdf2dfe2f08190c3ffb55d1ad152136c070f63bb77f866e742453",
+      "bytes": 20281
+    },
+    "core-states-v3/dpr-1/nordic/button.split--hover.json": {
+      "sha256": "51d7cf9f6012dccdd3f013d128cf51f40f95ce98bb02a4319db0edfe703c9893",
+      "bytes": 53131
+    },
+    "core-states-v3/dpr-1/nordic/button.split--hover.png": {
+      "sha256": "cb672f21da7e735a9d2b2229915d4b46d6bad1f8159694ae388ac34c0c45011f",
+      "bytes": 20209
+    },
+    "core-states-v3/dpr-1/nordic/button.split--normal.json": {
+      "sha256": "7b9380a75e0e8f268223c2c9cefc05a984c925949edbf4d23ab2857a62f6ca3f",
+      "bytes": 53121
+    },
+    "core-states-v3/dpr-1/nordic/button.split--normal.png": {
+      "sha256": "8154b64d86dcf3148f7b8e23cd4b9fc764f8df75970a8410a3d096b59ac0103e",
+      "bytes": 19991
+    },
+    "core-states-v3/dpr-1/nordic/button.split--pressed.json": {
+      "sha256": "dcdf08437ba354abda9b5c3ea58f635862786d6d4d8d5df887865edb796febad",
+      "bytes": 53146
+    },
+    "core-states-v3/dpr-1/nordic/button.split--pressed.png": {
+      "sha256": "f258447f2b3476628558b5628d50361feefb5543d52a93cfa896de70f21dfc53",
+      "bytes": 20226
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--disabled.json": {
+      "sha256": "ffa31b737b0b58e175f79067d3cff3f526b74640c9d4385ccbc3be194f057fee",
+      "bytes": 109628
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--disabled.png": {
+      "sha256": "5c0dbf46f742f3b1aed932c2490692f70e9251e14c46a794e941feeb18866a5f",
+      "bytes": 20048
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--focus-over.json": {
+      "sha256": "f428770d1b1d44437f57a18c176f742b0f1781557711a4335be492e0c7d02a18",
+      "bytes": 109686
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--focus-over.png": {
+      "sha256": "ffc0d4723108c42d86702c109c41ffdb6f4b5752445fc2d2881e7befb9d74f8f",
+      "bytes": 20277
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--focus-pressed.json": {
+      "sha256": "ae78ba5588ce3b95e301561e1639dd2a60f6f9e4ff12154c71171639a0865a90",
+      "bytes": 109702
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--focus-pressed.png": {
+      "sha256": "d90b9582feec773f9f8772ab5dd96183c46b141ab8fcc15c11b398a377af5748",
+      "bytes": 20299
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--focus.json": {
+      "sha256": "027b006831a7dbe45fa9f315352b69493d0776e112f461312995d04ddfb21215",
+      "bytes": 109670
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--focus.png": {
+      "sha256": "cc189e684c2ce69176005d40782df7294d1d832f3e7af7e89f20f5c62725a303",
+      "bytes": 20286
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--hover.json": {
+      "sha256": "4a7242a4ac333426172d3e1d27171200d458394772658e8f60e9e0c459aca712",
+      "bytes": 109610
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--hover.png": {
+      "sha256": "8efaacc0a46a8aa63f19c900c3f690b81c5040042bb5941ba0916c27f8fac767",
+      "bytes": 20169
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--normal.json": {
+      "sha256": "b54abd3a7bfc906cfbb9969b6501ed7d2dd729a1049bec4172d357a246410a0c",
+      "bytes": 109594
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--normal.png": {
+      "sha256": "13a63ffe60e41b7b9a197b027319e88434f7d5568cb2cd48af0c7f95e1bf0e29",
+      "bytes": 19582
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--pressed.json": {
+      "sha256": "ba42c866e3fb61ca2a7f2e932f32f19bc6aaba5e180cb6ea2dc93a93a2e2d72b",
+      "bytes": 109625
+    },
+    "core-states-v3/dpr-1/nordic/toolbar.first--pressed.png": {
+      "sha256": "5151172623c3bcff49eee7e3a416709acb318a889e3d946284f4bdb9a53c5047",
+      "bytes": 20186
+    },
+    "core-states-v3/dpr-2/classic/button.menu--disabled.json": {
+      "sha256": "896f482de4158294b835fc8dd57935efc5a1b467e38cab0e6f5935a311ddab03",
+      "bytes": 64720
+    },
+    "core-states-v3/dpr-2/classic/button.menu--disabled.png": {
+      "sha256": "6268f23c456829a1e23aea8d2aa6c4df472ded8a173e142606fa8b4d912fd3fe",
+      "bytes": 70098
+    },
+    "core-states-v3/dpr-2/classic/button.menu--focus-over.json": {
+      "sha256": "2fb27a78290b118d6e4e505aa78f749d227c3b92a725112367cae4a9ce452f0d",
+      "bytes": 64758
+    },
+    "core-states-v3/dpr-2/classic/button.menu--focus-over.png": {
+      "sha256": "ce983d53a513c138152b105411187adc82731eab4ea5f4d9844cf18dfeec1766",
+      "bytes": 70662
+    },
+    "core-states-v3/dpr-2/classic/button.menu--focus-pressed.json": {
+      "sha256": "1d69fc9a318a7b3086398201a60d7dfb4216912afe1c626b294181c1329c62da",
+      "bytes": 64774
+    },
+    "core-states-v3/dpr-2/classic/button.menu--focus-pressed.png": {
+      "sha256": "c71ed1ed7dcfda1f5f267f1b0683b3111ab56bc8f705fd7a0fe9d556a194db0d",
+      "bytes": 71100
+    },
+    "core-states-v3/dpr-2/classic/button.menu--focus.json": {
+      "sha256": "24f5e6ed42dfbc7e13d2cf6a684f9b4d1606b325039d6cd05aaa41186fa8c6d8",
+      "bytes": 53662
+    },
+    "core-states-v3/dpr-2/classic/button.menu--focus.png": {
+      "sha256": "ce983d53a513c138152b105411187adc82731eab4ea5f4d9844cf18dfeec1766",
+      "bytes": 70662
+    },
+    "core-states-v3/dpr-2/classic/button.menu--hover.json": {
+      "sha256": "0254c85d81011529081dc45d14283e3b8fde555660bfe964d80bc5190b582a24",
+      "bytes": 53614
+    },
+    "core-states-v3/dpr-2/classic/button.menu--hover.png": {
+      "sha256": "fae559231e3238faf8d5b2fb0643aae814ab32bc99cf7c22bcf9477c99d0239b",
+      "bytes": 70711
+    },
+    "core-states-v3/dpr-2/classic/button.menu--normal.json": {
+      "sha256": "68aac6fe654e0c0ed265e858e17d889d536f198d766293b71bc369e2e627cb43",
+      "bytes": 53604
+    },
+    "core-states-v3/dpr-2/classic/button.menu--normal.png": {
+      "sha256": "bdc844320e82a0c7c5aadba0fcb18d1db19b087896f71fad9d0c37dd84075869",
+      "bytes": 69943
+    },
+    "core-states-v3/dpr-2/classic/button.menu--pressed.json": {
+      "sha256": "324bf260eda80182b7a015cd96be1c0a9a3a1e51510b9bb0bc8900b4ac1bfe90",
+      "bytes": 53629
+    },
+    "core-states-v3/dpr-2/classic/button.menu--pressed.png": {
+      "sha256": "8168c548fedb4f846bae073f4207d21ba6cfe186f7ba1d1957523d7876fafe01",
+      "bytes": 70825
+    },
+    "core-states-v3/dpr-2/classic/button.normal--disabled.json": {
+      "sha256": "023716624fff53f1669c66ecb41d2562cafc9e6f35112998baa6278008a1a3b9",
+      "bytes": 53642
+    },
+    "core-states-v3/dpr-2/classic/button.normal--disabled.png": {
+      "sha256": "bf6fbac0b25de6307735094c1cef4f01f9885ca51665a273d39a6fa7b70d0242",
+      "bytes": 70011
+    },
+    "core-states-v3/dpr-2/classic/button.normal--focus-over.json": {
+      "sha256": "2abd3c6e06b231594a0ed48b8e766b8deb69c745394a826f9646a3f0c1113f80",
+      "bytes": 53682
+    },
+    "core-states-v3/dpr-2/classic/button.normal--focus-over.png": {
+      "sha256": "5ad3f3bc86ed5b52f544b8de194423660c19065d4a179c2c18c7572d8ccba69b",
+      "bytes": 70646
+    },
+    "core-states-v3/dpr-2/classic/button.normal--focus-pressed.json": {
+      "sha256": "09afaf0d537adbe23e7ff214ee9212f2d00a6c500915a3ec924802a4f540bc67",
+      "bytes": 53698
+    },
+    "core-states-v3/dpr-2/classic/button.normal--focus-pressed.png": {
+      "sha256": "71a1cbb34331ab7481dfe24d4ee146bc09f073a04cbed83f0c7daad437f7d217",
+      "bytes": 71017
+    },
+    "core-states-v3/dpr-2/classic/button.normal--focus.json": {
+      "sha256": "e6fc688a7f248599ab3565ed785a15833febbd25f377995721eceb997a5ed287",
+      "bytes": 53666
+    },
+    "core-states-v3/dpr-2/classic/button.normal--focus.png": {
+      "sha256": "5ad3f3bc86ed5b52f544b8de194423660c19065d4a179c2c18c7572d8ccba69b",
+      "bytes": 70646
+    },
+    "core-states-v3/dpr-2/classic/button.normal--hover.json": {
+      "sha256": "fd19e527ace7332b9a52b4a20d35b1411e676cd3b1ab8e2648dfaed4e322769a",
+      "bytes": 53616
+    },
+    "core-states-v3/dpr-2/classic/button.normal--hover.png": {
+      "sha256": "1b144854f0c26fe47b4a9231a82e53cd613aff70f485c6f7fc3a5ae633ca3579",
+      "bytes": 70623
+    },
+    "core-states-v3/dpr-2/classic/button.normal--normal.json": {
+      "sha256": "203de11708829167fbc9973c70b7a598be8aa6ebbe084568bff5dbe42a2e2d34",
+      "bytes": 53606
+    },
+    "core-states-v3/dpr-2/classic/button.normal--normal.png": {
+      "sha256": "bdc844320e82a0c7c5aadba0fcb18d1db19b087896f71fad9d0c37dd84075869",
+      "bytes": 69943
+    },
+    "core-states-v3/dpr-2/classic/button.normal--pressed.json": {
+      "sha256": "cd2733d2a50f8ab77a32edf50acf0fd29417c95b12b47b0d819e7b0940674c30",
+      "bytes": 53631
+    },
+    "core-states-v3/dpr-2/classic/button.normal--pressed.png": {
+      "sha256": "c29c033ab706dee58949dd6d38ea10da0dd82c9d6d414fba468067926965cac7",
+      "bytes": 70736
+    },
+    "core-states-v3/dpr-2/classic/button.split--disabled.json": {
+      "sha256": "b58b4ca81a6a16f0f7364f555a5de089fa0b71d06bd2d016cc9bf37d17bcfb9c",
+      "bytes": 53656
+    },
+    "core-states-v3/dpr-2/classic/button.split--disabled.png": {
+      "sha256": "c3f940a7c1b9652493f54d82de37e0e1e55101abbcb8d6ff17dd586ec6cec89b",
+      "bytes": 70062
+    },
+    "core-states-v3/dpr-2/classic/button.split--focus-over.json": {
+      "sha256": "40c5995708d274e911295ebe7dd08e5f7e3676027dbc795948b4f4dd992160ab",
+      "bytes": 53665
+    },
+    "core-states-v3/dpr-2/classic/button.split--focus-over.png": {
+      "sha256": "6eb1dbdd68693f678760a4a64d7499b941e8619216bcb81e668b3edc6e64b9fd",
+      "bytes": 70657
+    },
+    "core-states-v3/dpr-2/classic/button.split--focus-pressed.json": {
+      "sha256": "1e029abd4cbcacd4b927e9ba89fda55582379aca91d693d68bd9360097ac7b44",
+      "bytes": 53681
+    },
+    "core-states-v3/dpr-2/classic/button.split--focus-pressed.png": {
+      "sha256": "7e7757c366a2df114ba7abace6acdf1bd5c60a300a631d2599cbe2d9277cf8e1",
+      "bytes": 71237
+    },
+    "core-states-v3/dpr-2/classic/button.split--focus.json": {
+      "sha256": "1e599333b20413bb5560b8e8503263f8214b8391574dcfeb69226c39de8ef301",
+      "bytes": 53645
+    },
+    "core-states-v3/dpr-2/classic/button.split--focus.png": {
+      "sha256": "0761774bd4557fb0af8f320a3d7fba596ba83819cda1a65fa9c6219e7d88aebb",
+      "bytes": 70644
+    },
+    "core-states-v3/dpr-2/classic/button.split--hover.json": {
+      "sha256": "6ea86e22c54275c906ba654638b6ca1db3555c4a5898fd22e84d3c9e05392147",
+      "bytes": 53634
+    },
+    "core-states-v3/dpr-2/classic/button.split--hover.png": {
+      "sha256": "9748f2e81f9ac4e9a5168bb9faa6e3aefab3bf5296de18047506f181e9adb2a4",
+      "bytes": 70781
+    },
+    "core-states-v3/dpr-2/classic/button.split--normal.json": {
+      "sha256": "76ba79f07abefc03e41d90d576ef562e58c7ca876d3603653b3a05b00f50a6ea",
+      "bytes": 53620
+    },
+    "core-states-v3/dpr-2/classic/button.split--normal.png": {
+      "sha256": "bdc844320e82a0c7c5aadba0fcb18d1db19b087896f71fad9d0c37dd84075869",
+      "bytes": 69943
+    },
+    "core-states-v3/dpr-2/classic/button.split--pressed.json": {
+      "sha256": "97e0cb3915c3d5fb9b709b693d765c860988428c45acd59cf78ba37284bace9a",
+      "bytes": 53649
+    },
+    "core-states-v3/dpr-2/classic/button.split--pressed.png": {
+      "sha256": "20be28318382f974af8de40acc586acf0c356e21305ad5e89ffc84a3f7f83206",
+      "bytes": 70942
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--disabled.json": {
+      "sha256": "a4ec7975d1507fd6d4c4dc6601f7608df98b22c9d500d505a712b27ff8907548",
+      "bytes": 109747
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--disabled.png": {
+      "sha256": "70a245559255896f1c2651810208f701dd7fc2533859838f78e98ec4979ac86b",
+      "bytes": 73369
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--focus-over.json": {
+      "sha256": "6e004b6c4cd1eb6e7df37538fd41f57322fd92197a9e6ebfe1cd8f42690da661",
+      "bytes": 109779
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--focus-over.png": {
+      "sha256": "90c47a38cc4fdd07c83c8a5390745a17ed5f6b2ca98b292e865bc0be51b9ac64",
+      "bytes": 72217
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--focus-pressed.json": {
+      "sha256": "f08c6c4741d73c312512283def0d5c87ef8ba4e965a35e8f402ec0366e4007ad",
+      "bytes": 109909
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--focus-pressed.png": {
+      "sha256": "f664626955a80d6adda542b404b40a5fd6b487d9e5ea3f939236c0f84f5af28c",
+      "bytes": 74297
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--focus.json": {
+      "sha256": "8e5ef9272ab1cf485453de70e2105065604e79b976aa77fbebba97b97aeb9757",
+      "bytes": 109755
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--focus.png": {
+      "sha256": "5a2c4e3005156c50dcd2c9bf7ea27e920eaedc8775325274f53625a01dca3d8d",
+      "bytes": 71614
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--hover.json": {
+      "sha256": "894a914fb668427645d7d35d9cb3e771ed170355f6ebe195ee9559da69bb2f17",
+      "bytes": 109819
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--hover.png": {
+      "sha256": "199920bfa5b2ab6efe2573d54745ad6d9d52efd1a107e0235620a3b83d51d167",
+      "bytes": 73837
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--normal.json": {
+      "sha256": "90522211dd0724d8507d83d05fb31bf838d036ff4b9606f3fb2c1801686612af",
+      "bytes": 109687
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--normal.png": {
+      "sha256": "1e5746bbc5e656e1af884260d7cb523202147861c9ad4928d42f46c1a4afbc60",
+      "bytes": 71220
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--pressed.json": {
+      "sha256": "0e409b3b0153f492d9e90e76d54c6ebb593c3c282edd22b2a360679a5a81ee7f",
+      "bytes": 109834
+    },
+    "core-states-v3/dpr-2/classic/toolbar.first--pressed.png": {
+      "sha256": "0de24d2a59974cd224ff9b53fc7c5132da22458c85f806ec7ef851ac4901e2d7",
+      "bytes": 74033
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--disabled.json": {
+      "sha256": "0d35c705a45912bff3e07a021fa8289498aee39330f95abd4e38edc223ca1e06",
+      "bytes": 64177
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--disabled.png": {
+      "sha256": "46c61e97f08e65fe5fcca671e5c21ec848538c92735e138b331a65690aa82e07",
+      "bytes": 66696
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--focus-over.json": {
+      "sha256": "af301eb74df4a3a7fbfb286225621a6bfc8c60d90179bb203b8685bcdaa7f66c",
+      "bytes": 64213
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--focus-over.png": {
+      "sha256": "efecaf07be5e3facb8e67aabc766442f5b51be6edde3aa1efbd9493697b69e4e",
+      "bytes": 67381
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--focus-pressed.json": {
+      "sha256": "ff705d1d9086357e7d45d6eda81b37c4178f66e3af0ea2b679859a0fd1b6af9c",
+      "bytes": 64229
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--focus-pressed.png": {
+      "sha256": "39a572ae8e16a1a3dec40c9ae9a1f5d67c1125d07d6506142b57a244f6c01a96",
+      "bytes": 67386
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--focus.json": {
+      "sha256": "57330cb05a7a42fb767edbde8f6c2c3ccb891429b983deb1476b25868b1f1831",
+      "bytes": 53161
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--focus.png": {
+      "sha256": "68151a30e07d1e17bf3e4ce41ba99891393c276c90dfc1d0d7fa85ddf0247052",
+      "bytes": 67210
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--hover.json": {
+      "sha256": "c8e6625d82363bcd6c850cc67748ee3ed9e8a4ee6fb0502184587911bc49763e",
+      "bytes": 53111
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--hover.png": {
+      "sha256": "8e37d76732b9563cd9dda109363e1e63daf40cbd6f6088192f2f1c16dc044b35",
+      "bytes": 67221
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--normal.json": {
+      "sha256": "11be7e9459befcd33e25272e88691867173fcd49e004b50c82a2b011e846e5ed",
+      "bytes": 53105
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--normal.png": {
+      "sha256": "1121d3179f6008c9549f2dd427d100e54a8df6ab64255577cc48b1b5dc009f53",
+      "bytes": 66675
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--pressed.json": {
+      "sha256": "e14ecda784de740f2928871ef9b77e7b1df1742687cc7fddd5f33d4d3ec49bd0",
+      "bytes": 53126
+    },
+    "core-states-v3/dpr-2/nordic/button.menu--pressed.png": {
+      "sha256": "8f483cb0a822ade200b144798a3e3e87df31979c51f0fb2858baa2070285a600",
+      "bytes": 67194
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--disabled.json": {
+      "sha256": "eb2a35959121059fd00671d7fd428ecf191d5d5bd6089126a54e507d8e26d4e6",
+      "bytes": 53143
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--disabled.png": {
+      "sha256": "969f46ff294b3ec747ec0d763352ec4651fffb97214fa539d1a71fa92f4875c1",
+      "bytes": 66637
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--focus-over.json": {
+      "sha256": "b5adaf3d7651c50f868cf07da651f8860631cc73640a9efb741127305f00c3ea",
+      "bytes": 53181
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--focus-over.png": {
+      "sha256": "4c48049d8db0b94aee113205b0ef2aa15f6031096c3d62ea9a7697a3f9c7250e",
+      "bytes": 67201
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--focus-pressed.json": {
+      "sha256": "089e57134e00761b732809614b7c9be12c443bfe62a65a862a4f150350f7d68e",
+      "bytes": 53197
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--focus-pressed.png": {
+      "sha256": "e5df8f73169bfc0af1eca2ff3eec2aadea4733b37ba042a2b9bc5ae78b3b328e",
+      "bytes": 67217
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--focus.json": {
+      "sha256": "d72874c312cf10575d0d735bc6d125ccdd4b025684bf6a54875efd8947e87172",
+      "bytes": 53165
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--focus.png": {
+      "sha256": "142c63515ff4960a2a9558c481ae66e7f42acec76fe2076c6dab0013c7b3de2c",
+      "bytes": 67165
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--hover.json": {
+      "sha256": "9ab97b276ef15a00b1ce7ad5e1a1d4a39477fec5d7c4b28759ddf8339ab148c8",
+      "bytes": 53113
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--hover.png": {
+      "sha256": "26912e8750cb6e4d5e4e46c38bdefba1298847bbc10bf63dcdc5c4017387cfcf",
+      "bytes": 67066
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--normal.json": {
+      "sha256": "6b455715cfbcc16bfd7a645ae537ef8e3e0c562b5079f997a30defb10318eae0",
+      "bytes": 53107
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--normal.png": {
+      "sha256": "1121d3179f6008c9549f2dd427d100e54a8df6ab64255577cc48b1b5dc009f53",
+      "bytes": 66675
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--pressed.json": {
+      "sha256": "2768fe25e649d2a2d7cdfd330c8f19aab54fd864daf4b22b08197d28ee16094e",
+      "bytes": 53128
+    },
+    "core-states-v3/dpr-2/nordic/button.normal--pressed.png": {
+      "sha256": "7dc641e060840e85ac551a2bfd5ab2e26272b820bc77777a2e4f9d89d0b2dfb8",
+      "bytes": 67068
+    },
+    "core-states-v3/dpr-2/nordic/button.split--disabled.json": {
+      "sha256": "00a454cb235ec28ec3cf28a453fe0e6a309e14b09a84633f6ae6effeecca3226",
+      "bytes": 53157
+    },
+    "core-states-v3/dpr-2/nordic/button.split--disabled.png": {
+      "sha256": "f2f4dcd09c83686c794ea913b301c6bda2a3c56804a5b268d16c78348be863d0",
+      "bytes": 66553
+    },
+    "core-states-v3/dpr-2/nordic/button.split--focus-over.json": {
+      "sha256": "661cb4db9b5fb7d9e319618814858357e6bce0b39b274bf5ade7d177d684c10d",
+      "bytes": 53164
+    },
+    "core-states-v3/dpr-2/nordic/button.split--focus-over.png": {
+      "sha256": "dc5eabd00292e072dee17f907ebd1a9bc73ae47b93d42f9d56f34f7bc6c99f7c",
+      "bytes": 67360
+    },
+    "core-states-v3/dpr-2/nordic/button.split--focus-pressed.json": {
+      "sha256": "25d7e59b92e193eddcce8d95561cfff43b6a569d93518836c30a9b8e2a2454f0",
+      "bytes": 53180
+    },
+    "core-states-v3/dpr-2/nordic/button.split--focus-pressed.png": {
+      "sha256": "e817d2f08d3b60ecbbca6cabb52b5d578260f0eb04395c374e5db890d484b3fe",
+      "bytes": 67389
+    },
+    "core-states-v3/dpr-2/nordic/button.split--focus.json": {
+      "sha256": "2ad0376b96588979364f3c09bb7fa84783a941d5b8c4963f845f4ae007afd202",
+      "bytes": 53144
+    },
+    "core-states-v3/dpr-2/nordic/button.split--focus.png": {
+      "sha256": "f1be42ee38e0b872fa9422fb261e262da6b28b1d4b9df4522210800c77130391",
+      "bytes": 67188
+    },
+    "core-states-v3/dpr-2/nordic/button.split--hover.json": {
+      "sha256": "93f6081a083e6fc8f4e50b2e6f23de3f411ed28f610c58825afeff79b0538ee9",
+      "bytes": 53131
+    },
+    "core-states-v3/dpr-2/nordic/button.split--hover.png": {
+      "sha256": "58ff726cca6064523aad4a94cf951e5a7dcb8ebdfdd7d17651fa5717b4cf7b81",
+      "bytes": 67209
+    },
+    "core-states-v3/dpr-2/nordic/button.split--normal.json": {
+      "sha256": "d6126266898f1f82a223236695906e0422e9844b1ae173b17710fd5e72b2e49c",
+      "bytes": 53121
+    },
+    "core-states-v3/dpr-2/nordic/button.split--normal.png": {
+      "sha256": "1121d3179f6008c9549f2dd427d100e54a8df6ab64255577cc48b1b5dc009f53",
+      "bytes": 66675
+    },
+    "core-states-v3/dpr-2/nordic/button.split--pressed.json": {
+      "sha256": "42f3c6319aa5822cd91bdd05266bccb08404e0cbe7803127271e254261c2f6ab",
+      "bytes": 53146
+    },
+    "core-states-v3/dpr-2/nordic/button.split--pressed.png": {
+      "sha256": "e07b93ad48114fe97e8540783f0384ca0b048b2a44bc9c166977b649793edfc2",
+      "bytes": 67207
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--disabled.json": {
+      "sha256": "286bcd2a2484badc75ed209837722c8877e1ec35ec2d3ef74bdb9c5e078e9c09",
+      "bytes": 109628
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--disabled.png": {
+      "sha256": "f2141b695a3251a525f6e77d7a59081e7ce815a435e84e392d95dd169f6d9856",
+      "bytes": 67849
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--focus-over.json": {
+      "sha256": "d338b3ce315bfac80e94d551b7e644a0df5b53b6b99cc581c5984c3bf33a7e4e",
+      "bytes": 109686
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--focus-over.png": {
+      "sha256": "c48f7e50cada96bd7b2d55c61ca0ad0c2c7069353ba5b7398c110a8a9a986d25",
+      "bytes": 68392
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--focus-pressed.json": {
+      "sha256": "226c904b080146e7c9d605802a28f2589c45d549fc2d0c45dfc67a2c08c659b2",
+      "bytes": 109702
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--focus-pressed.png": {
+      "sha256": "21510a875361abcd0adc88e9d2f0b9aefbfa0b3bea6fdbba036b841efdd6cef0",
+      "bytes": 68474
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--focus.json": {
+      "sha256": "771af6eabe951c8ea12fba1ccc3deedf289fe367ee5a9730bb25f1e2d3a97dce",
+      "bytes": 109670
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--focus.png": {
+      "sha256": "037816beb40c6d5101409b00092c12c5e16774bf7ba46ec9f78f2e8c32272120",
+      "bytes": 68360
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--hover.json": {
+      "sha256": "9cc64fa48b9c3e09db77602e95bcad557371bcb0ca5fecf47dc81d6e421f7c99",
+      "bytes": 109610
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--hover.png": {
+      "sha256": "fc9cfef03debbda9c08b1686df46946a648c6232f51fe9d00b2bfe25d446fbbf",
+      "bytes": 68276
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--normal.json": {
+      "sha256": "1baa7561fc17eb7d23eb75796948bd75f7b65710a0bd8cbe50fb3ef65f638a5d",
+      "bytes": 109594
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--normal.png": {
+      "sha256": "657e7c08254e65451e1318eb4241cd9e99fdf1cba37be78f55e420377946e799",
+      "bytes": 66500
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--pressed.json": {
+      "sha256": "62e6cb4f3dec2d8451b2a1e401549c2e3990579b78163fb3b4b9be25a20a3bea",
+      "bytes": 109625
+    },
+    "core-states-v3/dpr-2/nordic/toolbar.first--pressed.png": {
+      "sha256": "baf1d93899d3475ef9aabf6ce1a9ca9a5a183b10a92d4ec8a086ce0da9d14139",
+      "bytes": 68251
+    },
+    "frozen-gif-frame0/images/grid/grid-loading.png": {
+      "sha256": "61c2d58bb2cd55bc39a97c7a5fc0587193639f1793a959662565dcb2bb521c86",
+      "bytes": 245
+    },
+    "frozen-gif-frame0/images/grid/loading.png": {
+      "sha256": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7",
+      "bytes": 299
+    },
+    "frozen-gif-frame0/images/grid/wait.png": {
+      "sha256": "046e8c7218fe528e5d37222063abdd1446a670401bc61d953db0f8616db9aecf",
+      "bytes": 364
+    },
+    "frozen-gif-frame0/images/shared/blue-loading.png": {
+      "sha256": "b01479ce57bede4b5ef28e9a47fd62c50b66332e8151c656cf14be9daedaa567",
+      "bytes": 780
+    },
+    "frozen-gif-frame0/images/shared/large-loading.png": {
+      "sha256": "2280badac36f4fcbef615630a68de50de552744a7a068da9e80c438767aaa97b",
+      "bytes": 752
+    },
+    "frozen-gif-frame0/images/shared/loading-balls.png": {
+      "sha256": "1f1e6be46b2c7fc8f89610745e5d1716cba0db6a669bace9ab453798d4a6b875",
+      "bytes": 388
+    },
+    "frozen-gif-frame0/images/tree/loading.png": {
+      "sha256": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7",
+      "bytes": 299
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "decision": "Remove only the three header normal/hover/sorted gradient layers. Keep Classic geometry, column/header/row heights, border widths/styles, fonts, padding, arrow and trigger offsets unchanged.",
+  "variables": [
+    "grid-header-background-gradient",
+    "grid-header-over-background-gradient",
+    "grid-header-sorted-background-gradient"
+  ],
+  "geometryReport": "artifacts/nordic-blue/TASK-011/phase-a-geometry.json",
+  "geometrySha256": "8226b4b00a556fe179f3e66ebb98569e303041f9fa9b5dcb93d923f42d5d45c0",
+  "comparison": "20 Grid/Tree/paging states at DPR1/2: 3044 element comparisons and 326 icon observations, zero drift before flattening.",
+  "finalAcceptance": "Require new real Cmd build, full fixture geometry and interactions after flattening before DONE."
+}

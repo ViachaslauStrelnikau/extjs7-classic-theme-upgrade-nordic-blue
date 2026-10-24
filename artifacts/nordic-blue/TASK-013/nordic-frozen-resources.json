@@ -1,0 +1,80 @@
+{
+  "images/grid/loading.gif": {
+    "source": "TestApp/build/theme-lab/nordic/testing/resources/images/grid/loading.gif",
+    "sourceSha256": "2be0d607617e218a05869ebae3408a51cd5c1af036d3cabcd6ce07d7164ff1be",
+    "frameIndex": 0,
+    "sourceFrameCount": 7,
+    "dimensions": [
+      16,
+      16
+    ],
+    "derivedPng": "nordic-gif-frame0/images/grid/loading.png",
+    "derivedPngSha256": "4621cb39453b0ce09e55f43935c3a8ab23d31b47495ecee3583dc81802166454",
+    "policy": "First composited frame of the actual approved/built Nordic GIF, never a Classic substitution."
+  },
+  "images/@2x/grid/loading.gif": {
+    "source": "TestApp/build/theme-lab/nordic/testing/resources/images/@2x/grid/loading.gif",
+    "sourceSha256": "4bc698df9f3ae5c4aace910fe6ff5985a918f53ac83ce6b7801f67de34c933df",
+    "frameIndex": 0,
+    "sourceFrameCount": 7,
+    "dimensions": [
+      32,
+      32
+    ],
+    "derivedPng": "nordic-gif-frame0/images/@2x/grid/loading.png",
+    "derivedPngSha256": "3c3b919f9fe5aab159a3e37f21a599ddcb7a62a7de4310c10a7861d37c3478db",
+    "policy": "First composited frame of the actual approved/built Nordic GIF, never a Classic substitution."
+  },
+  "images/shared/blue-loading.gif": {
+    "source": "TestApp/build/theme-lab/nordic/testing/resources/images/shared/blue-loading.gif",
+    "sourceSha256": "c3b914a67e1b136dc6aeccca78535a736fa379fd131b8f3aa3c281f8a487d0a7",
+    "frameIndex": 0,
+    "sourceFrameCount": 12,
+    "dimensions": [
+      32,
+      32
+    ],
+    "derivedPng": "nordic-gif-frame0/images/shared/blue-loading.png",
+    "derivedPngSha256": "fe7615919ce61cfb0291b5299b5450b51a56359d8ab02a7062ca4d586d187146",
+    "policy": "First composited frame of the actual approved/built Nordic GIF, never a Classic substitution."
+  },
+  "images/@2x/shared/blue-loading.gif": {
+    "source": "TestApp/build/theme-lab/nordic/testing/resources/images/@2x/shared/blue-loading.gif",
+    "sourceSha256": "ed474f0bb1d7b0c551d4f68d946a074c02f3281cd36166eb5775d4ff52aa736c",
+    "frameIndex": 0,
+    "sourceFrameCount": 12,
+    "dimensions": [
+      64,
+      64
+    ],
+    "derivedPng": "nordic-gif-frame0/images/@2x/shared/blue-loading.png",
+    "derivedPngSha256": "ccb34402107afa8fa2934f0a5178f50f6ac25312845b3c0b1dcba1015c94ef2d",
+    "policy": "First composited frame of the actual approved/built Nordic GIF, never a Classic substitution."
+  },
+  "images/tree/loading.gif": {
+    "source": "TestApp/build/theme-lab/nordic/testing/resources/images/tree/loading.gif",
+    "sourceSha256": "2be0d607617e218a05869ebae3408a51cd5c1af036d3cabcd6ce07d7164ff1be",
+    "frameIndex": 0,
+    "sourceFrameCount": 7,
+    "dimensions": [
+      16,
+      16
+    ],
+    "derivedPng": "nordic-gif-frame0/images/tree/loading.png",
+    "derivedPngSha256": "4621cb39453b0ce09e55f43935c3a8ab23d31b47495ecee3583dc81802166454",
+    "policy": "First composited frame of the actual approved/built Nordic GIF, never a Classic substitution."
+  },
+  "images/@2x/tree/loading.gif": {
+    "source": "TestApp/build/theme-lab/nordic/testing/resources/images/@2x/tree/loading.gif",
+    "sourceSha256": "4bc698df9f3ae5c4aace910fe6ff5985a918f53ac83ce6b7801f67de34c933df",
+    "frameIndex": 0,
+    "sourceFrameCount": 7,
+    "dimensions": [
+      32,
+      32
+    ],
+    "derivedPng": "nordic-gif-frame0/images/@2x/tree/loading.png",
+    "derivedPngSha256": "3c3b919f9fe5aab159a3e37f21a599ddcb7a62a7de4310c10a7861d37c3478db",
+    "policy": "First composited frame of the actual approved/built Nordic GIF, never a Classic substitution."
+  }
+}

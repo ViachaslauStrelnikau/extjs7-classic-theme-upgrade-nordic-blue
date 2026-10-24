@@ -1,0 +1,6367 @@
+{
+  "status": "PASS",
+  "scenarios": 56,
+  "policy": "Visible element scroll/client excess lists match Classic exactly. Existing clipping/nowrap/ellipsis, trigger boxes, sprite offsets and font metrics are unchanged; no corrective positioning or global text clipping was introduced. Actual raw images tabs-normal, datepicker-selected and progress-partial at DPR1 were visually inspected.",
+  "results": [
+    {
+      "dpr": 1,
+      "scenario": "tabs--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tabs--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tabs--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tabs--overflow",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-disabled.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 18,
+            "height": 26
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "26px"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 411,
+            "y": 162,
+            "width": 18,
+            "height": 26
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "26px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 144.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 211.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 278.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 345.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 412.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 479.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 546.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "tabs--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "menu--checked",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "menu--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "menu--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "menu--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "menu--open",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "menu--unchecked",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "datepicker--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "datepicker--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "datepicker--next",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 62.015625,
+            "y": 167,
+            "width": 92.96875,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "datepicker--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "datepicker--prev",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 60.484375,
+            "y": 167,
+            "width": 96.03125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "datepicker--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "progress--full",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 1,
+      "scenario": "progress--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "progress.main/bar",
+          "client": {
+            "width": 272,
+            "height": 18
+          },
+          "scroll": {
+            "width": 648,
+            "height": 18
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 1,
+      "scenario": "progress--partial",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "progress.main/bar",
+          "client": {
+            "width": 272,
+            "height": 18
+          },
+          "scroll": {
+            "width": 648,
+            "height": 18
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 1,
+      "scenario": "slider--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "slider--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "-42px",
+            "-45px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "slider--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "-14px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "slider--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "slider--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 325.1875,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 216.8125,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "mask--hidden",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 1,
+      "scenario": "mask--loading",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "mask.main/load-mask/msgEl/part/loadmask-text",
+          "rect": {
+            "x": 283,
+            "y": 269,
+            "width": 123.40625,
+            "height": 23
+          },
+          "hostRect": null,
+          "cssBox": [
+            "123.406px",
+            "23px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "mask--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "mask.main/load-mask/msgEl/part/loadmask-text",
+          "rect": {
+            "x": 283,
+            "y": 269,
+            "width": 123.40625,
+            "height": 23
+          },
+          "hostRect": null,
+          "cssBox": [
+            "123.406px",
+            "23px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tabs--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tabs--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tabs--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tabs--overflow",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-disabled.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 21,
+            "y": 162,
+            "width": 18,
+            "height": 26
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "26px"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 411,
+            "y": 162,
+            "width": 18,
+            "height": 26
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "26px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 144.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 211.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 278.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 345.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 412.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 479.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 546.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "tabs--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-left.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "-18px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.main/tab-bar/graphic/x-box-scroller.x-box-scroller-right.x-box-scroller-tab-bar.x-box-scroller-tab-bar-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "18px",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-1/part/tab-close",
+          "rect": {
+            "x": 126.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-2/part/tab-close",
+          "rect": {
+            "x": 193.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-3/part/tab-close",
+          "rect": {
+            "x": 260.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-4/part/tab-close",
+          "rect": {
+            "x": 327.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-5/part/tab-close",
+          "rect": {
+            "x": 394.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-6/part/tab-close",
+          "rect": {
+            "x": 461.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "tabs.tab-7/part/tab-close",
+          "rect": {
+            "x": 528.5,
+            "y": 166,
+            "width": 11,
+            "height": 11
+          },
+          "hostRect": null,
+          "cssBox": [
+            "11px",
+            "11px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "menu--checked",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "menu--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "menu--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "menu--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "menu--open",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "menu--unchecked",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "menu.parent",
+          "client": {
+            "width": 322,
+            "height": 22
+          },
+          "scroll": {
+            "width": 323,
+            "height": 22
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "menu.checked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 193,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-bottom.x-box-scroller-menu.x-box-scroller-menu-default.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/graphic/x-box-scroller.x-box-scroller-menu.x-box-scroller-menu-default.x-box-scroller-top.x-unselectable",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "35px",
+            "5px"
+          ],
+          "offset": [
+            "0px",
+            "-5px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.main/body/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 241,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.parent/arrowEl",
+          "rect": {
+            "x": 335,
+            "y": 171,
+            "width": 12,
+            "height": 9
+          },
+          "hostRect": null,
+          "cssBox": [
+            "12px",
+            "9px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "menu.unchecked/part/menu-item-icon",
+          "rect": {
+            "x": 27,
+            "y": 217,
+            "width": 16,
+            "height": 16
+          },
+          "hostRect": null,
+          "cssBox": [
+            "16px",
+            "16px"
+          ],
+          "offset": [
+            "50%",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "datepicker--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "datepicker--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "datepicker--next",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 62.015625,
+            "y": 167,
+            "width": 92.96875,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "datepicker--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "datepicker--prev",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 60.484375,
+            "y": 167,
+            "width": 96.03125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "datepicker--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "datepicker.main",
+          "client": {
+            "width": 175,
+            "height": 197
+          },
+          "scroll": {
+            "width": 175,
+            "height": 225
+          },
+          "overflow": [
+            "visible",
+            "visible"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": [
+        {
+          "id": "datepicker.main/monthBtn/part/button-wrap::after",
+          "rect": null,
+          "hostRect": {
+            "x": 67.59375,
+            "y": 167,
+            "width": 81.8125,
+            "height": 16
+          },
+          "cssBox": [
+            "8px",
+            "16px"
+          ],
+          "offset": [
+            "100%",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/nextEl",
+          "rect": {
+            "x": 175,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "datepicker.main/prevEl",
+          "rect": {
+            "x": 27,
+            "y": 168,
+            "width": 15,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "progress--full",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 2,
+      "scenario": "progress--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "progress.main/bar",
+          "client": {
+            "width": 272,
+            "height": 18
+          },
+          "scroll": {
+            "width": 648,
+            "height": 18
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 2,
+      "scenario": "progress--partial",
+      "status": "PASS",
+      "unchangedScrollExcess": [
+        {
+          "id": "progress.main/bar",
+          "client": {
+            "width": 272,
+            "height": 18
+          },
+          "scroll": {
+            "width": 648,
+            "height": 18
+          },
+          "overflow": [
+            "hidden",
+            "hidden"
+          ]
+        }
+      ],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 2,
+      "scenario": "slider--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "hostRect": null,
+          "cssBox": [
+            "auto",
+            "auto"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "slider--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "-42px",
+            "-45px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "slider--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "-14px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "slider--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 203.109375,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 268.890625,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "slider--selected",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "slider.horizontal/inputEl",
+          "rect": {
+            "x": 20,
+            "y": 165,
+            "width": 450,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "450px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "-15px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/endEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 443,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "443px",
+            "15px"
+          ],
+          "offset": [
+            "100%",
+            "-30px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl",
+          "rect": {
+            "x": 27,
+            "y": 165,
+            "width": 436,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "436px",
+            "15px"
+          ],
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.horizontal/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 325.1875,
+            "y": 165,
+            "width": 14,
+            "height": 15
+          },
+          "hostRect": null,
+          "cssBox": [
+            "14px",
+            "15px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/inputEl",
+          "rect": {
+            "x": 520,
+            "y": 161,
+            "width": 30,
+            "height": 200
+          },
+          "hostRect": null,
+          "cssBox": [
+            "30px",
+            "200px"
+          ],
+          "offset": [
+            "-30px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/endEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 193
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "193px"
+          ],
+          "offset": [
+            "-15px",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl",
+          "rect": {
+            "x": 520,
+            "y": 168,
+            "width": 15,
+            "height": 186
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "186px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "slider.vertical/ref/innerEl/part/slider-thumb",
+          "rect": {
+            "x": 520,
+            "y": 216.8125,
+            "width": 15,
+            "height": 14
+          },
+          "hostRect": null,
+          "cssBox": [
+            "15px",
+            "14px"
+          ],
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "mask--hidden",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": []
+    },
+    {
+      "dpr": 2,
+      "scenario": "mask--loading",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "mask.main/load-mask/msgEl/part/loadmask-text",
+          "rect": {
+            "x": 283,
+            "y": 269,
+            "width": 123.40625,
+            "height": 23
+          },
+          "hostRect": null,
+          "cssBox": [
+            "123.406px",
+            "23px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "mask--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "mask.main/load-mask/msgEl/part/loadmask-text",
+          "rect": {
+            "x": 283,
+            "y": 269,
+            "width": 123.40625,
+            "height": 23
+          },
+          "hostRect": null,
+          "cssBox": [
+            "123.406px",
+            "23px"
+          ],
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        }
+      ]
+    }
+  ]
+}

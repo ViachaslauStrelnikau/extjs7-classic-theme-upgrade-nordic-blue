@@ -1,0 +1,1012 @@
+{
+  "status": "FAIL",
+  "pairComparisons": 56,
+  "elementComparisons": 1710,
+  "paintChecks": [
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": false
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": false
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": false
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": false
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": false
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "states": [
+        "normal",
+        "hover"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "states": [
+        "normal",
+        "focus"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "states": [
+        "normal",
+        "disabled"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "states": [
+        "hover",
+        "pressed"
+      ],
+      "paintDistinct": true
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "states": [
+        "focus",
+        "focus-over"
+      ],
+      "paintDistinct": false
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "states": [
+        "pressed",
+        "focus-pressed"
+      ],
+      "paintDistinct": true
+    }
+  ],
+  "actions": [
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "button.menu mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "button.split mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "default button focus + Space toggles",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "toolbar overflow mouse + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 1,
+      "action": "panel collapse + expand mouse",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "button.menu mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "button.split mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "default button focus + Space toggles",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "toolbar overflow mouse + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 1,
+      "action": "panel collapse + expand mouse",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "button.menu mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "button.split mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "default button focus + Space toggles",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "toolbar overflow mouse + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "panel collapse + expand mouse",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "button.menu mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "button.split mouse arrow + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "default button focus + Space toggles",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "toolbar overflow mouse + focus menu item + Escape",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "panel collapse + expand mouse",
+      "passed": true
+    }
+  ],
+  "results": [
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "normal",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "hover",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "focus",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "focus-over",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "focus-pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.normal",
+      "state": "disabled",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "normal",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "hover",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "focus",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "focus-over",
+      "elements": 27,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "focus-pressed",
+      "elements": 27,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.menu",
+      "state": "disabled",
+      "elements": 27,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "normal",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "hover",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "focus",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "focus-over",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "focus-pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "button.split",
+      "state": "disabled",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "normal",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "hover",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "focus",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "pressed",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "focus-over",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "focus-pressed",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "target": "toolbar.first",
+      "state": "disabled",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "normal",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "hover",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "focus",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "focus-over",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "focus-pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.normal",
+      "state": "disabled",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "normal",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "hover",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "focus",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "focus-over",
+      "elements": 27,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "focus-pressed",
+      "elements": 27,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.menu",
+      "state": "disabled",
+      "elements": 27,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "normal",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "hover",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "focus",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "focus-over",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "focus-pressed",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "button.split",
+      "state": "disabled",
+      "elements": 22,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "normal",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "hover",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "focus",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "pressed",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "focus-over",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "focus-pressed",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "target": "toolbar.first",
+      "state": "disabled",
+      "elements": 54,
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "policy": "Same existing components/configs. Focus via component focus API, hover and pressed via genuine pointer input, disabled via component API. A pointer-pressed button uses its real x-btn-pressed class (pressed property alone only represents enableToggle buttons). Only color/gradient paint differs; metrics/typography/image offsets/data/focus/state match. Esc tested with focus on a real menu item after opening with mouse."
+}

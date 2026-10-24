@@ -1,0 +1,1 @@
+{"status": "PASS", "cases": 204, "metricElementComparisons": 11280, "rawRepeatComparisons": 408, "structureDiffPixels": 0, "threshold": {"channelDelta": 0, "allowedChangedPixels": 0, "dilation": 0}}

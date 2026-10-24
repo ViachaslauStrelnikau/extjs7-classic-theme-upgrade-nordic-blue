@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "sdk": "7.7.0.31",
+  "senchaCmd": "7.7.0.36",
+  "node": "v24.22.1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "browser": "155.0.4283.62",
+  "activeIcons": {
+    "manifestPath": "artifacts/nordic-blue/REV-001-folders-v3/approved-icon-manifest.json",
+    "approvalPath": "artifacts/nordic-blue/REV-001-folders-v3/approval.json"
+  },
+  "activeIconHashes": {
+    "manifestPath": "05c0e2901c84f6d26c6dc9dccc90024ac9962565da3fe1b78d3f88a502a9aa73",
+    "approvalPath": "0fc43cc52ed88d44bc3d96d2eda018b5b0c0a281e67365ae9f5928f5680c48cf"
+  },
+  "suiteSources": {
+    "adapters.cjs": "529f45fdbaa5d6f2046d7307198ace56623a2557bea5e6470575ccbdf4f778f8",
+    "capture.cjs": "09019ee86f73a366826d90b39bbd8ab49cd88722a3653273d46bd7726ebf7ee8",
+    "classic-frozen-resources.json": "87695eb6a049d406841cc0507b5ea78aa465048951179e0cdddcc9534880bb3a",
+    "core-review.cjs": "cb0e43d549b91920ce55a169655148637d93899e48e53d8f5097a967286f0308",
+    "extract.js": "2181aabbe74598768eac85e1ef05e30bb9a66eb4f944312dc7b709d668b4eab9",
+    "form-review.cjs": "0a6f17cdb11cfb779096e9521f830bbcf7403efbce9654320e060df31956839c",
+    "grid-review.cjs": "3e9fc4c30fbc70fd590c2153853ade62ace0f1c5ec22435cf8259f58a2d72f43",
+    "icon-contracts.py": "a765b04fed3d178b24a34a3212aa4188d0ad36674ddac15e4737a3e2aec8e4a2",
+    "metrics.py": "088008dbe4a289fbdd6e7aca93d969c622674a363b0386405c50f7fe733769ef",
+    "negative-controls.cjs": "c6fd96ed8092ecaa4756300dceb46ac0dbed103938e4d77783507cd25c38bfb5",
+    "nordic-frozen-resources.json": "8d26a7cb61640b214289bd2864a79efe6c02a88c274251ffc9a178c646c5e289",
+    "README.md": "66a8e7619dff6b29193ab7ee4fd4a82bb669cadb457b2cd99e3ca66d3082530a",
+    "report.py": "468124b2409f6d3959bba2c330450880fc44ca3efd8beaf9ab230a4833517a23",
+    "run.py": "b2a7fc7c963594b548b0ef857e1a7a9fa68aeff9bb22dd6d0cfa12e14d653833",
+    "secondary-review.cjs": "76bce9bf8e2bf7ce0f6eff9739070ea0be0df8b2c03396d089c8654e76920e5f",
+    "window-review.cjs": "4dbc2d8539261c79bd672c15cbb6e0821a7619455e7c62315ecea29dc223a632",
+    "frozen-gif-frame0\\images\\grid\\grid-loading.png": "61c2d58bb2cd55bc39a97c7a5fc0587193639f1793a959662565dcb2bb521c86",
+    "frozen-gif-frame0\\images\\grid\\loading.png": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7",
+    "frozen-gif-frame0\\images\\grid\\wait.png": "046e8c7218fe528e5d37222063abdd1446a670401bc61d953db0f8616db9aecf",
+    "frozen-gif-frame0\\images\\shared\\blue-loading.png": "b01479ce57bede4b5ef28e9a47fd62c50b66332e8151c656cf14be9daedaa567",
+    "frozen-gif-frame0\\images\\shared\\large-loading.png": "2280badac36f4fcbef615630a68de50de552744a7a068da9e80c438767aaa97b",
+    "frozen-gif-frame0\\images\\shared\\loading-balls.png": "1f1e6be46b2c7fc8f89610745e5d1716cba0db6a669bace9ab453798d4a6b875",
+    "frozen-gif-frame0\\images\\tree\\loading.png": "3ec63b306fe0110c834e60ca29837f5dd0be434676607485ba7a0c283f1c05b7",
+    "nordic-gif-frame0\\images\\grid\\loading.png": "4621cb39453b0ce09e55f43935c3a8ab23d31b47495ecee3583dc81802166454",
+    "nordic-gif-frame0\\images\\shared\\blue-loading.png": "fe7615919ce61cfb0291b5299b5450b51a56359d8ab02a7062ca4d586d187146",
+    "nordic-gif-frame0\\images\\tree\\loading.png": "4621cb39453b0ce09e55f43935c3a8ab23d31b47495ecee3583dc81802166454",
+    "nordic-gif-frame0\\images\\@2x\\grid\\loading.png": "3c3b919f9fe5aab159a3e37f21a599ddcb7a62a7de4310c10a7861d37c3478db",
+    "nordic-gif-frame0\\images\\@2x\\shared\\blue-loading.png": "ccb34402107afa8fa2934f0a5178f50f6ac25312845b3c0b1dcba1015c94ef2d",
+    "nordic-gif-frame0\\images\\@2x\\tree\\loading.png": "3c3b919f9fe5aab159a3e37f21a599ddcb7a62a7de4310c10a7861d37c3478db"
+  },
+  "baseline": "artifacts/nordic-blue/TASK-006/captures/pass-1",
+  "newBuildRequired": false,
+  "reason": "TASK-014 changes only regression tooling and documents; existing v3 testing/development/production builds remain unchanged."
+}

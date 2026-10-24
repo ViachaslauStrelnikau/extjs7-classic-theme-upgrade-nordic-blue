@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Classic icon inventory - TASK-003</title>
+<link rel="stylesheet" href="/ext-7.7.0.31/build/classic/theme-classic/resources/theme-classic-all-debug.css">
+<script src="/ext-7.7.0.31/build/ext-all-debug.js"></script>
+<style>body{margin:0;background:#fff;font:12px Tahoma}h1,h2,p{margin:14px 18px}.audit-section{padding:8px 18px 18px;width:1280px}.audit-grid{display:grid;grid-template-columns:repeat(4,300px);gap:8px}.audit-card{border:1px solid #d2dbea;padding:8px;overflow:hidden;background:#f5f7fb}.audit-label{height:28px;font:11px Tahoma;color:#304a68;word-break:break-all}.audit-widget{min-height:24px;position:relative}.audit-tools .audit-widget{height:22px}.audit-tools{grid-template-columns:repeat(6,198px)}.audit-editor{grid-template-columns:repeat(3,400px)}</style>
+</head><body class="x-keyboard-mode"><h1>Classic: standard icons and states</h1><p>SDK 7.7.0.31. Isolated audit fixture. No Nordic replacements. CSS state projection is distinguished from interaction testing.</p>
+<script>
+window.auditRows=[];window.auditErrors=[];
+Ext.onReady(function(){
+ function section(name,cls){let e=document.createElement('section');e.className='audit-section';e.dataset.group=name;let h=document.createElement('h2');h.textContent=name;e.appendChild(h);let g=document.createElement('div');g.className='audit-grid '+(cls||'');e.appendChild(g);document.body.appendChild(e);return g;}
+ function add(g,id,state,fn){let card=document.createElement('div');card.className='audit-card';card.dataset.semantic=id;card.dataset.state=state;let label=document.createElement('div');label.className='audit-label';label.textContent=id+' / '+state;let box=document.createElement('div');box.className='audit-widget';card.append(label,box);g.append(card);try{let c=fn(box,state);window.auditRows.push({id,state,method:'Ext component + CSS state projection',card,component:c});}catch(e){auditErrors.push({id,state,error:String(e)});}}
+ function project(c,state){
+  let e=c.el;if(!e)return c;
+  if(state==='disabled'){c.setDisabled(true);return c;}
+  let map={hover:['x-tool-over','x-btn-over','x-tab-over'],pressed:['x-tool-pressed','x-btn-pressed'],focus:['x-tool-focus','x-btn-focus','x-tab-focus']};
+  map['hover-focus']=[...map.hover,...map.focus];map['pressed-focus']=[...map.pressed,...map.focus];
+  (map[state]||[]).forEach(x=>e.addCls(x));
+  e.select('.x-btn').each(el=>{(map[state]||[]).filter(x=>x.startsWith('x-btn')).forEach(x=>el.addCls(x))});
+  e.select('.x-form-trigger').each(el=>{if(state.includes('hover'))el.addCls('x-form-trigger-over');if(state.includes('focus'))el.addCls('x-form-trigger-focus');if(state.includes('pressed'))el.addCls('x-form-trigger-click');});
+  e.select('.x-form-spinner').each(el=>{if(state.includes('hover'))el.addCls('x-form-spinner-over');if(state.includes('focus'))el.addCls('x-form-spinner-focus');if(state.includes('pressed'))el.addCls('x-form-spinner-click');});
+  if(state.includes('focus'))e.select('.x-form-cb').addCls('x-form-checkbox-focus');
+  e.select('.x-slider-thumb').each(el=>{if(state.includes('hover'))el.addCls('x-slider-thumb-over');if(state.includes('pressed'))el.addCls('x-slider-thumb-drag')});
+  if(state.includes('focus')){e.addCls('x-slider-focus');e.select('.x-slider').addCls('x-slider-focus');}return c;
+ }
+ const states=['normal','hover','pressed','focus','hover-focus','pressed-focus','disabled'];
+ let g=section('tools','audit-tools');
+ 'close minimize maximize restore toggle gear prev next pin unpin right left down up refresh plus minus search save help print expand collapse resize move expand-left expand-right expand-top expand-bottom collapse-left collapse-right collapse-top collapse-bottom'.split(' ').forEach(type=>states.forEach(state=>add(g,'tool.'+type,state,b=>project(Ext.create('Ext.panel.Tool',{type,renderTo:b}),state))));
+ states.forEach(state=>add(g,'tool.toggle-collapsed',state,b=>{b.classList.add('x-panel-collapsed');return project(Ext.create('Ext.panel.Tool',{type:'toggle',renderTo:b}),state)}));
+ g=section('fields');
+ const fields={combo:{xtype:'combo',store:['A','B']},date:{xtype:'datefield'},time:{xtype:'timefield'},number:{xtype:'numberfield',value:4},search:{xtype:'textfield',triggers:{search:{cls:'x-form-search-trigger'}}},clear:{xtype:'textfield',triggers:{clear:{cls:'x-form-clear-trigger'}}}};
+ Object.entries(fields).forEach(([id,cfg])=>states.forEach(state=>add(g,'field.'+id,state,b=>project(Ext.widget(Object.assign({width:230,renderTo:b},cfg)),state))));
+ g=section('checkbox-radio');
+ ['checkbox','radio'].forEach(xtype=>[false,true].forEach(value=>states.forEach(state=>add(g,xtype+'.'+(value?'checked':'unchecked'),state,b=>project(Ext.widget({xtype,checked:value,boxLabel:'Classic',renderTo:b}),state)))));
+ g=section('buttons-paging');
+ [{kind:'menu',xtype:'button',menu:[{text:'Item'}]},{kind:'split',xtype:'splitbutton',menu:[{text:'Item'}]},{kind:'bottom',xtype:'splitbutton',arrowAlign:'bottom',menu:[{text:'Item'}]}].forEach(cfg=>states.forEach(state=>add(g,'button.'+cfg.kind,state,b=>{let options=Object.assign({text:'Button',renderTo:b},cfg);delete options.kind;return project(Ext.widget(options),state)})));
+ states.forEach(state=>add(g,'paging',state,b=>{let s=Ext.create('Ext.data.Store',{fields:['name'],pageSize:2,data:[{name:'A'},{name:'B'}]});s.totalCount=8;return project(Ext.create('Ext.toolbar.Paging',{width:280,store:s,renderTo:b}),state)}));
+ g=section('grid');
+ ['normal','header-over','sort-asc','sort-desc','selected','disabled'].forEach(state=>add(g,'grid',state,b=>{let s=Ext.create('Ext.data.Store',{fields:['name'],data:[{name:'Alpha'},{name:'Beta'}]});let c=Ext.create('Ext.grid.Panel',{width:280,height:115,store:s,columns:[{text:'Name',dataIndex:'name',flex:1}],renderTo:b});if(state==='sort-asc'||state==='sort-desc')s.sort('name',state==='sort-asc'?'ASC':'DESC');if(state==='header-over')c.headerCt.items.first().el.addCls('x-column-header-over');if(state==='selected')c.getSelectionModel().select(0);return project(c,state)}));
+ ['normal','selected','disabled'].forEach(state=>add(g,'grid.checks',state,b=>{let c=Ext.create('Ext.grid.Panel',{width:280,height:115,store:{fields:['name','checked'],data:[{name:'Alpha',checked:true},{name:'Beta',checked:false}]},selModel:{type:'checkboxmodel'},columns:[{text:'Name',dataIndex:'name',flex:1},{xtype:'checkcolumn',dataIndex:'checked',width:30}],renderTo:b});if(state==='selected')c.getSelectionModel().select(0);return project(c,state)}));
+ ['expanded','collapsed'].forEach(state=>add(g,'grid.groups',state,b=>Ext.create('Ext.grid.Panel',{width:280,height:130,store:{fields:['name','team'],groupField:'team',data:[{name:'Alpha',team:'Group'}]},columns:[{text:'Name',dataIndex:'name',flex:1}],features:[{ftype:'grouping',startCollapsed:state==='collapsed'}],renderTo:b})));
+ g=section('tree');
+ [false,true].forEach(useArrows=>['closed','expanded','hover','selected','disabled'].forEach(state=>add(g,'tree.'+(useArrows?'arrows':'lines'),state,b=>{let store=Ext.create('Ext.data.TreeStore',{root:{expanded:true,children:[{text:'Folder',expanded:state!=='closed',children:[{text:'Leaf',leaf:true}]}]}});let c=Ext.create('Ext.tree.Panel',{width:280,height:110,useArrows,rootVisible:false,store,renderTo:b});if(state==='hover')c.el.select('.x-grid-tree-node-expanded').addCls('x-tree-expander-over');if(state==='selected')c.getSelectionModel().select(store.getRoot().firstChild);return project(c,state)})));
+ g=section('tabs-toolbars');
+ states.forEach(state=>add(g,'tabs',state,b=>{let c=Ext.create('Ext.tab.Panel',{width:280,height:95,items:Array.from({length:7},(_,i)=>({title:'Tab '+i,closable:true,html:'Content'})),renderTo:b});c.tabBar.items.each(t=>project(t,state));return c}));
+ ['menu','scroller'].forEach(overflowHandler=>states.forEach(state=>add(g,'toolbar.'+overflowHandler,state,b=>project(Ext.create('Ext.toolbar.Toolbar',{width:210,layout:{overflowHandler},items:Array.from({length:9},(_,i)=>({text:'Button '+i})),renderTo:b}),state))));
+ g=section('picker-slider-menu');
+ ['normal','disabled'].forEach(state=>add(g,'datepicker',state,b=>project(Ext.create('Ext.picker.Date',{value:new Date(2026,9,23),renderTo:b}),state)));
+ ['horizontal','vertical'].forEach(orientation=>states.forEach(state=>add(g,'slider.'+orientation,state,b=>project(Ext.create('Ext.slider.Single',{vertical:orientation==='vertical',width:orientation==='vertical'?24:230,height:orientation==='vertical'?100:24,value:42,renderTo:b}),state))));
+ states.forEach(state=>add(g,'menu',state,b=>{let c=Ext.create('Ext.menu.Menu',{floating:false,width:230,items:[{text:'Submenu',menu:[{text:'Child'}]},{xtype:'menucheckitem',text:'Checked',checked:true},{xtype:'menucheckitem',text:'Radio',checked:true,group:'g'+state},'-',{text:'Item'}],renderTo:b});if(state==='hover'||state==='focus')c.items.first().el.addCls('x-menu-item-active');return project(c,state)}));
+ g=section('editor','audit-editor');
+ g.style.gridTemplateColumns='1fr';
+ states.forEach(state=>add(g,'html-editor',state,b=>project(Ext.create('Ext.form.field.HtmlEditor',{width:1100,height:150,value:'Classic editor',renderTo:b}),state)));
+ g=section('mask');
+ add(g,'loadmask','normal',b=>{let p=Ext.create('Ext.panel.Panel',{width:260,height:80,html:'Panel',renderTo:b});p.setLoading('Loading…');return p;});
+ g=section('message-status-layout');
+ ['info','warning','question','error'].forEach(type=>add(g,'message.'+type,'normal',b=>Ext.create('Ext.Component',{width:32,height:32,cls:'x-message-box-icon x-message-box-'+type,renderTo:b})));
+ ['expanded','collapsed'].forEach(state=>add(g,'borderlayout',state,b=>Ext.create('Ext.panel.Panel',{width:280,height:145,layout:'border',items:[{region:'east',title:'East',width:80,collapsible:true,collapsed:state==='collapsed',split:true},{region:'center',html:'Center'}],renderTo:b})));
+ Ext.getBody().addCls('x-keyboard-mode');window.auditReady=true;
+});
+</script></body></html>

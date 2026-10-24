@@ -1,0 +1,81 @@
+Sencha Cmd v7.7.0.36
+[INF] Processing Build Descriptor : lab-nordic (testing environment)
+[INF] Loading compiler context
+[INF] Loading app json manifest...
+[INF] Processing data with ClosureCompressor
+[INF] JavaScript input level is NEXT and output level is ES5
+[INF] Writing concatenated output to file D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\nordic\testing\app.js
+[INF] merging 277 input resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\nordic\testing\resources
+[INF] merged 0 resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\nordic\testing\resources
+[INF] merging 0 input resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\nordic\testing
+[INF] merged 0 resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-lab\nordic\testing
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\testing\NordicThemeLab\slicer-temp\bootstrap.json
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\testing\NordicThemeLab\slicer-temp\bootstrap.js
+[INF] writing sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\testing\NordicThemeLab\slicer-temp\NordicThemeLab-example.scss.tmp
+[LOG] Fashion build starting for D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\testing\NordicThemeLab\slicer-temp\NordicThemeLab-example.scss
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss:7
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss:3
+[WRN] Reference to undeclared variable $nb-toolbar-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss:2
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss:4
+[WRN] Reference to undeclared variable $nb-text => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss:5
+[WRN] Reference to undeclared variable $nb-accent-soft => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss:2
+[WRN] Reference to undeclared variable $nb-accent => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss:3
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss:5
+[WRN] Reference to undeclared variable $nb-accent-hover => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss:7
+[WRN] Reference to undeclared variable $nb-control-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss:2
+[WRN] Reference to undeclared variable $nb-control-hover => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss:3
+[WRN] Reference to undeclared variable $nb-control-pressed => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss:4
+[WRN] Reference to undeclared variable $nb-text => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss:6
+[WRN] Reference to undeclared variable $nb-toolbar-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/toolbar/Toolbar.scss:2
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/toolbar/Toolbar.scss:3
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss:5
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss:6
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss:4
+[WRN] Reference to undeclared variable $nb-heading => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss:3
+[WRN] Reference to undeclared variable $nb-header-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss:2
+[WRN] Reference to undeclared variable $nb-heading => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/window/Window.scss:3
+[WRN] Reference to undeclared variable $nb-header-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/window/Window.scss:2
+[WRN] Reference to undeclared variable $nb-text => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss:3
+[WRN] Reference to undeclared variable $nb-muted => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss:7
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss:4
+[WRN] Reference to undeclared variable $nb-accent => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss:6
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss:2
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss:5
+[WRN] Reference to undeclared variable $nb-control-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Trigger.scss:2
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss:2
+[WRN] Reference to undeclared variable $nb-accent-soft => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss:4
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss:2
+[WRN] Reference to undeclared variable $nb-grid-line => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss:4
+[WRN] Reference to undeclared variable $nb-surface-alt => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss:3
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss:6
+[WRN] Reference to undeclared variable $nb-accent-soft => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss:3
+[WRN] Reference to undeclared variable $nb-accent-soft => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss:4
+[WRN] Reference to undeclared variable $nb-accent-soft => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss:5
+[WRN] Reference to undeclared variable $nb-text => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss:5
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss:2
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss:3
+[WRN] Reference to undeclared variable $nb-text => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss:6
+[WRN] Reference to undeclared variable $nb-accent-soft => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss:7
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss:4
+[WRN] Reference to undeclared variable $nb-header-bg => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss:2
+[WRN] Reference to undeclared variable $nb-surface => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss:3
+[WRN] Reference to undeclared variable $nb-heading => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss:5
+[WRN] Reference to undeclared variable $nb-border => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss:4
+[WRN] Reference to undeclared variable $nb-accent => D:/Projects/Extjs7ClassicThemeUpgradeNordicBlue/TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss:3
+[WRN] Sass compilation encountered 49 warning(s)
+[LOG] Build error for D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\testing\NordicThemeLab\slicer-temp\NordicThemeLab-example.scss
+[LOG] Fashion Error : Reference to undeclared variable : $nb_surface :
+[ERR] 
+[ERR] BUILD FAILED
+[ERR] com.sencha.exceptions.ExBuild: Fashion build exited with code : 1
+[ERR] 	at net.sf.antcontrib
+[ERR] .logic.IfTask.execute(IfTask.java:217)
+[ERR] 
+[ERR] Total time: 8 seconds
+
+[ERR] D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\plugin.xml:333: The following error occurred while executing this line:
+D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\ant\build\app\build-impl.xml:341: The following error occurred while executing this line:
+D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\ant\build\app\slice-impl.xml:378: The following error occurred while executing this line:
+D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\ant\build\app\slice-impl.xml:379: The following error occurred while executing this line:
+D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\node_modules\@sencha\cmd-windows\dist\ant\build\app\slice-impl.xml:107: com.sencha.exceptions.ExBuild: Fashion build exited with code : 1
+[ERR] A log is available in the file "D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-lab\sencha-error-20261023-1.log"

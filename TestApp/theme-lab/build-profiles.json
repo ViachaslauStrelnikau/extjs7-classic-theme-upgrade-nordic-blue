@@ -1,0 +1,19 @@
+{
+  "description": "Active lab build profiles mirrored from theme-lab/app.json (TASK-007). They belong to the lab descriptor in the existing TestApp workspace, not TestApp/app.json. Both testing builds succeeded; outputs validated.",
+  "builds": {
+    "lab-classic": {
+      "toolkit": "classic",
+      "theme": "ext-theme-classic",
+      "output": {
+        "base": "${workspace.dir}/build/theme-lab/classic/${build.environment}"
+      }
+    },
+    "lab-nordic": {
+      "toolkit": "classic",
+      "theme": "theme-nordic-blue",
+      "output": {
+        "base": "${workspace.dir}/build/theme-lab/nordic/${build.environment}"
+      }
+    }
+  }
+}

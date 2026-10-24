@@ -1,0 +1,13 @@
+// SDK color hooks and specifically reviewed flat gradients; metrics inherited.
+$panel-header-background-color: dynamic($nb-header-bg);
+$panel-header-color: dynamic($nb-heading);
+$panel-header-border-color: dynamic($nb-border);
+$panel-border-color: dynamic($nb-border);
+$panel-body-border-color: dynamic($nb-border);
+$panel-body-background-color: dynamic($nb-surface);
+$panel-body-color: dynamic($nb-text);
+$panel-frame-background-color: dynamic($nb-toolbar-bg);
+$panel-header-inner-border-color: dynamic($nb-surface);
+$panel-header-focus-outline-color: dynamic($nb-accent);
+$panel-tool-focus-outline-color: dynamic($nb-accent);
+$panel-header-background-gradient: dynamic('none');

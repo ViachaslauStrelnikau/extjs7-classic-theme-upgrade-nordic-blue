@@ -1,0 +1,16 @@
+{
+  "config/nordic-blue-policy.json": "cf02a8eb800e65e275576826c728a18352a0fa13f77e2eedfdaf400c4aad7467",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/LoadMask.scss": "fff28a091b622fb75c22a6b227948c4fe58ff831346e4c78759cf4c68230cb97",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/ProgressBar.scss": "ab50a60e05e6d2f10ce5be3ab280acfd709809b0380b7a3cd67100a0c33e3cd9",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/button/Button.scss": "7ae50dec848ca25e8c88fbb84cd93933083787f907d2d3057ec0f68fa6cfd869",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/menu/Menu.scss": "ccfbbbfa0295944d5e733cfd07c4e5bd63eb2477ca3b1a36c3cd3fc7af4a908a",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/panel/Panel.scss": "17da34cfefc830d93981f63f10b496ac2bb3f3c7a5a0e4526a6f29cc0c8803cd",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/picker/Date.scss": "880e86f34d93e6ca8144a199283b9773e0009a07c01886d9fc3eb215d2ac9d3c",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/tab/Tab.scss": "4c81f96d4b509f753988c818afd658cea8c8a2b577160f73911e9b59d0602ccf",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/toolbar/Toolbar.scss": "f99b9cd8c220d728634e524a7b1aae18c0c0195882f090a1683dee489fe47537",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/view/Table.scss": "8557cb720e649bff4bf0b26fcacfd2ed866265ba751b6c44ec9db05d3ae7b294",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/window/Window.scss": "7659f06a9a23b3abb4de45ad2c313c8e6bdfc99928b68d7b2316116df37c6b85",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Base.scss": "cdd6476385fae1b050ece8827802cc141ba235e8cc161ac436360cf2f7b33f8b",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/form/field/Trigger.scss": "4c898b9cbcfe722851da12b1034620f9f23116dfa4835523207a39f14602cb5a",
+  "TestApp/packages/local/theme-nordic-blue/sass/var/grid/header/Container.scss": "79e3ec4b5e64b7be1cda7927eb837eacf25492e60b800d112179e51e1b586cd6"
+}

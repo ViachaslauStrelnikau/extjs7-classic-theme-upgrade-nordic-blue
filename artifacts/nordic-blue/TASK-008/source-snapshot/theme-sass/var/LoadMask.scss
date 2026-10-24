@@ -1,0 +1,5 @@
+// Color assignments only. Geometry and typography are inherited from Classic.
+$loadmask-msg-background-color: dynamic($nb-toolbar-bg);
+$loadmask-msg-border-color: dynamic($nb-border);
+$loadmask-msg-inner-background-color: dynamic($nb-surface);
+$loadmask-msg-inner-color: dynamic($nb-text);

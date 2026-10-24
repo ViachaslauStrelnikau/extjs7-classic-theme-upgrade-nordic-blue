@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "browser": "155.0.4283.62",
+  "dpr": 1,
+  "records": [
+    {
+      "case": "all",
+      "state": "normal",
+      "stem": "all--normal",
+      "regions": 127
+    },
+    {
+      "case": "panel",
+      "state": "normal",
+      "stem": "panel--normal",
+      "regions": 2
+    },
+    {
+      "case": "window",
+      "state": "normal",
+      "stem": "window--normal",
+      "regions": 1
+    },
+    {
+      "case": "button",
+      "state": "normal",
+      "stem": "button--normal",
+      "regions": 2
+    },
+    {
+      "case": "toolbar",
+      "state": "normal",
+      "stem": "toolbar--normal",
+      "regions": 1
+    },
+    {
+      "case": "form",
+      "state": "normal",
+      "stem": "form--normal",
+      "regions": 6
+    },
+    {
+      "case": "triggers",
+      "state": "normal",
+      "stem": "triggers--normal",
+      "regions": 7
+    },
+    {
+      "case": "checks",
+      "state": "normal",
+      "stem": "checks--normal",
+      "regions": 5
+    },
+    {
+      "case": "fieldset",
+      "state": "normal",
+      "stem": "fieldset--normal",
+      "regions": 2
+    },
+    {
+      "case": "editor",
+      "state": "normal",
+      "stem": "editor--normal",
+      "regions": 17
+    },
+    {
+      "case": "grid",
+      "state": "normal",
+      "stem": "grid--normal",
+      "regions": 8
+    },
+    {
+      "case": "paging",
+      "state": "normal",
+      "stem": "paging--normal",
+      "regions": 8
+    },
+    {
+      "case": "border",
+      "state": "normal",
+      "stem": "border--normal",
+      "regions": 8
+    },
+    {
+      "case": "tabs",
+      "state": "normal",
+      "stem": "tabs--normal",
+      "regions": 9
+    },
+    {
+      "case": "tree",
+      "state": "normal",
+      "stem": "tree--normal",
+      "regions": 6
+    },
+    {
+      "case": "datepicker",
+      "state": "normal",
+      "stem": "datepicker--normal",
+      "regions": 3
+    },
+    {
+      "case": "progress",
+      "state": "normal",
+      "stem": "progress--normal",
+      "regions": 0
+    },
+    {
+      "case": "slider",
+      "state": "normal",
+      "stem": "slider--normal",
+      "regions": 2
+    },
+    {
+      "case": "menu",
+      "state": "normal",
+      "stem": "menu--normal",
+      "regions": 6
+    },
+    {
+      "case": "tool",
+      "state": "normal",
+      "stem": "tool--normal",
+      "regions": 33
+    },
+    {
+      "case": "mask",
+      "state": "normal",
+      "stem": "mask--normal",
+      "regions": 1
+    },
+    {
+      "case": "panel",
+      "state": "framed",
+      "stem": "panel--framed",
+      "regions": 2
+    },
+    {
+      "case": "form",
+      "state": "invalid",
+      "stem": "form--invalid",
+      "regions": 7
+    },
+    {
+      "case": "editor",
+      "state": "focus",
+      "stem": "editor--focus",
+      "regions": 17
+    },
+    {
+      "case": "grid",
+      "state": "menu",
+      "stem": "grid--menu",
+      "regions": 14
+    },
+    {
+      "case": "window",
+      "state": "modal",
+      "stem": "window--modal",
+      "regions": 1
+    },
+    {
+      "case": "triggers",
+      "state": "open",
+      "stem": "triggers--open",
+      "regions": 7
+    },
+    {
+      "case": "button",
+      "state": "pressed",
+      "stem": "button--pressed",
+      "regions": 2
+    },
+    {
+      "case": "tool",
+      "state": "hover",
+      "stem": "tool--hover",
+      "regions": 33
+    }
+  ]
+}

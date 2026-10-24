@@ -1,0 +1,160 @@
+[
+  {
+    "step": "run-3-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\capture.cjs",
+      "1"
+    ],
+    "exitCode": 0,
+    "log": "run-3/capture-dpr-1.log"
+  },
+  {
+    "step": "run-3-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\capture.cjs",
+      "2"
+    ],
+    "exitCode": 0,
+    "log": "run-3/capture-dpr-2.log"
+  },
+  {
+    "step": "calibration-final-dpr-1",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\calibration-final\\capture.cjs",
+      "1",
+      "all/normal",
+      "panel/normal",
+      "window/normal",
+      "button/normal",
+      "toolbar/normal",
+      "form/normal",
+      "triggers/normal",
+      "checks/normal",
+      "fieldset/normal",
+      "editor/normal",
+      "grid/normal",
+      "paging/normal",
+      "border/normal",
+      "tabs/normal",
+      "tree/normal",
+      "datepicker/normal",
+      "progress/normal",
+      "slider/normal",
+      "menu/normal",
+      "tool/normal",
+      "mask/normal",
+      "panel/framed",
+      "form/invalid",
+      "editor/focus",
+      "grid/menu",
+      "window/modal",
+      "triggers/open",
+      "button/pressed",
+      "tool/hover"
+    ],
+    "exitCode": 0,
+    "log": "calibration-final/capture-dpr-1.log"
+  },
+  {
+    "step": "calibration-final-dpr-2",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\calibration-final\\capture.cjs",
+      "2",
+      "all/normal",
+      "panel/normal",
+      "window/normal",
+      "button/normal",
+      "toolbar/normal",
+      "form/normal",
+      "triggers/normal",
+      "checks/normal",
+      "fieldset/normal",
+      "editor/normal",
+      "grid/normal",
+      "paging/normal",
+      "border/normal",
+      "tabs/normal",
+      "tree/normal",
+      "datepicker/normal",
+      "progress/normal",
+      "slider/normal",
+      "menu/normal",
+      "tool/normal",
+      "mask/normal",
+      "panel/framed",
+      "form/invalid",
+      "editor/focus",
+      "grid/menu",
+      "window/modal",
+      "triggers/open",
+      "button/pressed",
+      "tool/hover"
+    ],
+    "exitCode": 0,
+    "log": "calibration-final/capture-dpr-2.log"
+  },
+  {
+    "step": "structure",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\compare.py"
+    ],
+    "exitCode": 0,
+    "log": "run-3/compare.log"
+  },
+  {
+    "step": "controls",
+    "command": [
+      "C:/Users/Damned/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\controls.cjs"
+    ],
+    "exitCode": 0,
+    "log": "run-3/controls.log"
+  },
+  {
+    "step": "calibration",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\calibrate.py"
+    ],
+    "exitCode": 0,
+    "log": "run-3/calibrate.log"
+  },
+  {
+    "step": "lint",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\tools\\lint-nordic-blue.py",
+      "--check-icon-candidates"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "create-initial-golden",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\goldens.py"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "verify-golden",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\verify.py"
+    ],
+    "exitCode": 0
+  },
+  {
+    "step": "render",
+    "command": [
+      "C:\\Users\\Damned\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-015\\run-3\\render.py"
+    ],
+    "exitCode": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "oldStatus": "FAIL: GPU raster gradients differed by at most 1 RGB level in 5 DPR2 cases; recorded metrics identical",
+  "newArgs": [
+    "--disable-gpu",
+    "--force-color-profile=srgb"
+  ],
+  "probeStatus": "PASS",
+  "probes": [
+    {
+      "file": "datepicker--prev.png",
+      "firstSha256": "4f028c81b68124cdb4d8a85d8cf7ddd5fa5f4f43b48b41fbfc456eeaebe54583",
+      "secondSha256": "4f028c81b68124cdb4d8a85d8cf7ddd5fa5f4f43b48b41fbfc456eeaebe54583"
+    },
+    {
+      "file": "editor--focus.png",
+      "firstSha256": "2defc66c815b14ebae9b59fab40eb654725c26b7658fe01d3fe4d045dee39cff",
+      "secondSha256": "2defc66c815b14ebae9b59fab40eb654725c26b7658fe01d3fe4d045dee39cff"
+    },
+    {
+      "file": "grid--hover.png",
+      "firstSha256": "23cc478e439168f4e1f5a9c22e281be750784bcae8440e95bbc9eb91c6bd7e41",
+      "secondSha256": "23cc478e439168f4e1f5a9c22e281be750784bcae8440e95bbc9eb91c6bd7e41"
+    },
+    {
+      "file": "mask--loading.png",
+      "firstSha256": "cd7efd9ae7c2a77e091995b1e1c1560796373aa4725e9c33219a8c37fdbe5be7",
+      "secondSha256": "cd7efd9ae7c2a77e091995b1e1c1560796373aa4725e9c33219a8c37fdbe5be7"
+    },
+    {
+      "file": "paging--normal.png",
+      "firstSha256": "91ba357ceb8c7168292b08d5d23d2eece6fe834a0abd2055fa5b98479deaa8b4",
+      "secondSha256": "91ba357ceb8c7168292b08d5d23d2eece6fe834a0abd2055fa5b98479deaa8b4"
+    }
+  ]
+}

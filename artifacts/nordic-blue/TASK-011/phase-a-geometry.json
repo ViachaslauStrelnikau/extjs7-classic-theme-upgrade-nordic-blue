@@ -1,0 +1,393 @@
+{
+  "status": "PASS",
+  "policy": "Exact geometry, typography, box model, visibility/opacity, state/data/focus/scroll, image names/sizes/offsets and non-color computed values. Only explicit paint-color properties and RGB/hex colors inside background gradients/shadows are omitted; shadow structure is retained; in flat phase the reviewed gradient-only background layers are removed, image URLs remain compared through icon observations. Resource roots mapped explicitly. No pixel equality claim for this palette stage.",
+  "excludedColorProperties": [
+    "backgroundColor",
+    "borderBottomColor",
+    "borderLeftColor",
+    "borderRightColor",
+    "borderTopColor",
+    "color",
+    "outlineColor"
+  ],
+  "reports": [
+    {
+      "dpr": 1,
+      "scenarios": 20,
+      "elementComparisons": 1522,
+      "iconComparisons": 163,
+      "status": "PASS",
+      "results": [
+        {
+          "case": "grid",
+          "state": "normal",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "hover",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "selected",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 608,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "focus",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-asc",
+          "elements": 101,
+          "icons": 9,
+          "paintPropertyDifferences": 613,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-desc",
+          "elements": 101,
+          "icons": 9,
+          "paintPropertyDifferences": 613,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "menu",
+          "elements": 114,
+          "icons": 15,
+          "paintPropertyDifferences": 653,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "resized",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "disabled",
+          "elements": 104,
+          "icons": 9,
+          "paintPropertyDifferences": 621,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "normal",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 145,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "collapsed",
+          "elements": 19,
+          "icons": 4,
+          "paintPropertyDifferences": 97,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "expanded",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 145,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "selected",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 146,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "focus",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 145,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "disabled",
+          "elements": 33,
+          "icons": 7,
+          "paintPropertyDifferences": 159,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "normal",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 404,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "first",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 404,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "middle",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 396,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "last",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 404,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "disabled",
+          "elements": 90,
+          "icons": 10,
+          "paintPropertyDifferences": 430,
+          "status": "PASS",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenarios": 20,
+      "elementComparisons": 1522,
+      "iconComparisons": 163,
+      "status": "PASS",
+      "results": [
+        {
+          "case": "grid",
+          "state": "normal",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "hover",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "selected",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 608,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "focus",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-asc",
+          "elements": 101,
+          "icons": 9,
+          "paintPropertyDifferences": 613,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "sort-desc",
+          "elements": 101,
+          "icons": 9,
+          "paintPropertyDifferences": 613,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "menu",
+          "elements": 114,
+          "icons": 15,
+          "paintPropertyDifferences": 653,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "resized",
+          "elements": 100,
+          "icons": 8,
+          "paintPropertyDifferences": 607,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "grid",
+          "state": "disabled",
+          "elements": 104,
+          "icons": 9,
+          "paintPropertyDifferences": 621,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "normal",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 145,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "collapsed",
+          "elements": 19,
+          "icons": 4,
+          "paintPropertyDifferences": 97,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "expanded",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 145,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "selected",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 146,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "focus",
+          "elements": 29,
+          "icons": 6,
+          "paintPropertyDifferences": 145,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tree",
+          "state": "disabled",
+          "elements": 33,
+          "icons": 7,
+          "paintPropertyDifferences": 159,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "normal",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 404,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "first",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 404,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "middle",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 396,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "last",
+          "elements": 86,
+          "icons": 9,
+          "paintPropertyDifferences": 404,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "paging",
+          "state": "disabled",
+          "elements": 90,
+          "icons": 10,
+          "paintPropertyDifferences": 430,
+          "status": "PASS",
+          "issues": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "CORRECTED",
+  "initialDiagnostic": "Hex-only sentinel search incorrectly classified two mask colors emitted as rgba as unused. A built output identity check failed, correctly preventing acceptance of that conclusion.",
+  "evidence": [
+    "loadmask-background-color sentinel #51D75A => rgba(81,215,90,0.5)",
+    "loadmask-page-background-color sentinel #51D82D => rgba(81,216,45,0.5)"
+  ],
+  "action": "Restore both mask color hooks and extend compiler proof to equivalent RGB/RGBA values. No full byte identity claim across subsequent gradient changes.",
+  "remainingUnused": [
+    "tab-outline-color-focus",
+    "menu-scroller-border-color"
+  ]
+}

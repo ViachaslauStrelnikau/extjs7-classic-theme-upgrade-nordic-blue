@@ -1,0 +1,4 @@
+{
+  "status": "DIAGNOSTIC",
+  "reason": "All raw captures stable; normalization must explicitly hide designMode iframe caret. Pseudo bounding guard must use actual containing cell, not fabricate a pseudo DOMRect. Final run: run-3; no production changes."
+}

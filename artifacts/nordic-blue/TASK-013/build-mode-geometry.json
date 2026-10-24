@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "overviewComparisons": 18,
+  "elementComparisons": 15138,
+  "results": [
+    {
+      "mode": "testing",
+      "dpr": 1,
+      "fallback": false,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "testing",
+      "dpr": 1,
+      "fallback": false,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "testing",
+      "dpr": 2,
+      "fallback": false,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "testing",
+      "dpr": 2,
+      "fallback": false,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "testing",
+      "dpr": 2,
+      "fallback": true,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "testing",
+      "dpr": 2,
+      "fallback": true,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "development",
+      "dpr": 1,
+      "fallback": false,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "development",
+      "dpr": 1,
+      "fallback": false,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "development",
+      "dpr": 2,
+      "fallback": false,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "development",
+      "dpr": 2,
+      "fallback": false,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "development",
+      "dpr": 2,
+      "fallback": true,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "development",
+      "dpr": 2,
+      "fallback": true,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "production",
+      "dpr": 1,
+      "fallback": false,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "production",
+      "dpr": 1,
+      "fallback": false,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "production",
+      "dpr": 2,
+      "fallback": false,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "production",
+      "dpr": 2,
+      "fallback": false,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "production",
+      "dpr": 2,
+      "fallback": true,
+      "reload": 0,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    },
+    {
+      "mode": "production",
+      "dpr": 2,
+      "fallback": true,
+      "reload": 1,
+      "status": "PASS",
+      "issues": [],
+      "elements": 841,
+      "mappedImages": 254
+    }
+  ]
+}

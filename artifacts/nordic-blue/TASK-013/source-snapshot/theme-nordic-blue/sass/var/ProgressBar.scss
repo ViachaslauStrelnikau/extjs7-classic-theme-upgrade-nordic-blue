@@ -1,0 +1,8 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$progress-background-color: dynamic($nb-accent-soft);
+$progress-bar-background-color: dynamic($nb-accent);
+$progress-focus-border-color: dynamic($nb-accent);
+$progress-text-front-color: dynamic($nb-surface);
+$progress-text-back-color: dynamic($nb-text);
+
+$progress-bar-background-gradient: dynamic('none');

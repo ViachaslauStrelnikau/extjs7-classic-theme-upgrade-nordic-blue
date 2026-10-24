@@ -1,0 +1,537 @@
+{
+  "status": "PASS",
+  "policy": "Exact geometry, typography, box model, visibility/opacity, state/data/focus/scroll, image names/sizes/offsets and non-color computed values. Only explicit paint-color properties and RGB/hex colors inside background gradients/shadows are omitted; shadow structure is retained; in flat phase the reviewed gradient-only background layers are removed, image URLs remain compared through icon observations. Resource roots mapped explicitly. No pixel equality claim for this palette stage.",
+  "excludedColorProperties": [
+    "backgroundColor",
+    "borderBottomColor",
+    "borderLeftColor",
+    "borderRightColor",
+    "borderTopColor",
+    "color",
+    "outlineColor"
+  ],
+  "reports": [
+    {
+      "dpr": 1,
+      "scenarios": 28,
+      "elementComparisons": 1105,
+      "iconComparisons": 144,
+      "status": "PASS",
+      "results": [
+        {
+          "case": "tabs",
+          "state": "normal",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "hover",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "selected",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "focus",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "overflow",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "normal",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "open",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "checked",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "unchecked",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "focus",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 65,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "disabled",
+          "elements": 24,
+          "icons": 7,
+          "paintPropertyDifferences": 78,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "normal",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "selected",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 293,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "prev",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "next",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "focus",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "disabled",
+          "elements": 100,
+          "icons": 4,
+          "paintPropertyDifferences": 308,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "normal",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 9,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "partial",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 9,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "full",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 9,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "normal",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "hover",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "focus",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "selected",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "disabled",
+          "elements": 21,
+          "icons": 9,
+          "paintPropertyDifferences": 55,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "normal",
+          "elements": 8,
+          "icons": 1,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "loading",
+          "elements": 8,
+          "icons": 1,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "hidden",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 17,
+          "status": "PASS",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenarios": 28,
+      "elementComparisons": 1105,
+      "iconComparisons": 144,
+      "status": "PASS",
+      "results": [
+        {
+          "case": "tabs",
+          "state": "normal",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "hover",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "selected",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "focus",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "tabs",
+          "state": "overflow",
+          "elements": 56,
+          "icons": 9,
+          "paintPropertyDifferences": 178,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "normal",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "open",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "checked",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "unchecked",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 59,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "focus",
+          "elements": 20,
+          "icons": 6,
+          "paintPropertyDifferences": 65,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "menu",
+          "state": "disabled",
+          "elements": 24,
+          "icons": 7,
+          "paintPropertyDifferences": 78,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "normal",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "selected",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 293,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "prev",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "next",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "focus",
+          "elements": 96,
+          "icons": 3,
+          "paintPropertyDifferences": 289,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "datepicker",
+          "state": "disabled",
+          "elements": 100,
+          "icons": 4,
+          "paintPropertyDifferences": 308,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "normal",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 9,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "partial",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 9,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "progress",
+          "state": "full",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 9,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "normal",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "hover",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "focus",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "selected",
+          "elements": 17,
+          "icons": 8,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "slider",
+          "state": "disabled",
+          "elements": 21,
+          "icons": 9,
+          "paintPropertyDifferences": 55,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "normal",
+          "elements": 8,
+          "icons": 1,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "loading",
+          "elements": 8,
+          "icons": 1,
+          "paintPropertyDifferences": 36,
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "case": "mask",
+          "state": "hidden",
+          "elements": 4,
+          "icons": 0,
+          "paintPropertyDifferences": 17,
+          "status": "PASS",
+          "issues": []
+        }
+      ]
+    }
+  ]
+}

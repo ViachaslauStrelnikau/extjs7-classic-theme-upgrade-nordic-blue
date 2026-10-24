@@ -1,0 +1,4189 @@
+{
+  "status": "PASS",
+  "scenariosPerDpr": 29,
+  "imageComparisons": 464,
+  "changedPixels": 0,
+  "threshold": {
+    "maxChannelDelta": 0,
+    "maxChangedPixels": 0,
+    "maskDilation": 0
+  },
+  "results": [
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "all",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "toolbar",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "checks",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "fieldset",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "paging",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "border",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tabs",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tree",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "datepicker",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "progress",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "slider",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "menu",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "mask",
+      "state": "normal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "panel",
+      "state": "framed",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "form",
+      "state": "invalid",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "editor",
+      "state": "focus",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "grid",
+      "state": "menu",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "window",
+      "state": "modal",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "triggers",
+      "state": "open",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "button",
+      "state": "pressed",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "classic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "raw",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "normalized",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "support-white",
+      "pixels": 0,
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "case": "tool",
+      "state": "hover",
+      "theme": "nordic",
+      "kind": "support-black",
+      "pixels": 0,
+      "status": "PASS"
+    }
+  ]
+}

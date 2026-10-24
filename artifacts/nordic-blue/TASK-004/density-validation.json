@@ -1,0 +1,1682 @@
+{
+  "status": "PASS",
+  "browser": "155.0.4283.62",
+  "viewport": [
+    1320,
+    1600
+  ],
+  "dprs": [
+    1,
+    2
+  ],
+  "rowsPerRun": 415,
+  "elementComparisons": 25308,
+  "differences": [],
+  "documentedArtworkOffsetAdapters": [
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.resize",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 1,
+      "id": "tool.move",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.resize",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-resize ",
+      "from": "-360px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "normal",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "hover",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "pressed",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "hover-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "pressed-focus",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    },
+    {
+      "dpr": 2,
+      "id": "tool.move",
+      "state": "disabled",
+      "classes": "x-tool-tool-el x-tool-img x-tool-move ",
+      "from": "-375px",
+      "to": "0px",
+      "reason": "Explicit resize/move adapter; old out-of-canvas wrap replaced by y=0 same 15px CSS box"
+    }
+  ],
+  "runs": [
+    {
+      "mode": "classic",
+      "dpr": 1,
+      "rows": 415,
+      "elements": 6327,
+      "errors": [],
+      "constructionErrors": [],
+      "requests": []
+    },
+    {
+      "mode": "nordic",
+      "dpr": 1,
+      "rows": 415,
+      "elements": 6327,
+      "errors": [],
+      "constructionErrors": [],
+      "requests": [
+        {
+          "resource": "images/tools/tool-sprites.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tools/tool-sprites.png"
+        },
+        {
+          "resource": "images/form/trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/trigger.png"
+        },
+        {
+          "resource": "images/form/date-trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/date-trigger.png"
+        },
+        {
+          "resource": "images/form/spinner.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/spinner.png"
+        },
+        {
+          "resource": "images/form/search-trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/search-trigger.png"
+        },
+        {
+          "resource": "images/form/clear-trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/clear-trigger.png"
+        },
+        {
+          "resource": "images/form/checkbox.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/checkbox.png"
+        },
+        {
+          "resource": "images/form/radio.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/radio.png"
+        },
+        {
+          "resource": "images/button/arrow.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/arrow.png"
+        },
+        {
+          "resource": "images/button/s-arrow.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow.png"
+        },
+        {
+          "resource": "images/button/s-arrow-o.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow-o.png"
+        },
+        {
+          "resource": "images/button/s-arrow-b.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow-b.png"
+        },
+        {
+          "resource": "images/button/s-arrow-bo.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow-bo.png"
+        },
+        {
+          "resource": "images/grid/page-first-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-first-disabled.png"
+        },
+        {
+          "resource": "images/grid/page-prev-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-prev-disabled.png"
+        },
+        {
+          "resource": "images/grid/page-next.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-next.png"
+        },
+        {
+          "resource": "images/grid/page-last.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-last.png"
+        },
+        {
+          "resource": "images/grid/refresh.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/refresh.png"
+        },
+        {
+          "resource": "images/grid/page-next-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-next-disabled.png"
+        },
+        {
+          "resource": "images/grid/page-last-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-last-disabled.png"
+        },
+        {
+          "resource": "images/grid/refresh-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/refresh-disabled.png"
+        },
+        {
+          "resource": "images/grid/sort_asc.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/sort_asc.png"
+        },
+        {
+          "resource": "images/grid/sort_desc.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/sort_desc.png"
+        },
+        {
+          "resource": "images/grid/group-collapse.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/group-collapse.png"
+        },
+        {
+          "resource": "images/grid/group-expand.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/group-expand.png"
+        },
+        {
+          "resource": "images/tree/elbow-end-plus.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/elbow-end-plus.png"
+        },
+        {
+          "resource": "images/tree/folder.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/folder.png"
+        },
+        {
+          "resource": "images/tree/elbow-end-minus.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/elbow-end-minus.png"
+        },
+        {
+          "resource": "images/tree/folder-open.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/folder-open.png"
+        },
+        {
+          "resource": "images/tree/elbow-end.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/elbow-end.png"
+        },
+        {
+          "resource": "images/tree/leaf.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/leaf.png"
+        },
+        {
+          "resource": "images/tree/arrows.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/arrows.png"
+        },
+        {
+          "resource": "images/tab/tab-default-close.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tab/tab-default-close.png"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-left-top.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tab-bar/default-scroll-left-top.png"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-right-top.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tab-bar/default-scroll-right-top.png"
+        },
+        {
+          "resource": "images/toolbar/footer-more.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/toolbar/footer-more.png"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-left.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/toolbar/default-scroll-left.png"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-right.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/toolbar/default-scroll-right.png"
+        },
+        {
+          "resource": "images/shared/left-btn.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/left-btn.png"
+        },
+        {
+          "resource": "images/shared/right-btn.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/right-btn.png"
+        },
+        {
+          "resource": "images/slider/slider-thumb.png",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/slider/slider-thumb.png"
+        },
+        {
+          "resource": "images/slider/slider-v-thumb.png",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/slider/slider-v-thumb.png"
+        },
+        {
+          "resource": "images/menu/default-menu-parent.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/menu/default-menu-parent.png"
+        },
+        {
+          "resource": "images/menu/default-checked.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/menu/default-checked.png"
+        },
+        {
+          "resource": "images/menu/default-group-checked.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/menu/default-group-checked.png"
+        },
+        {
+          "resource": "images/editor/tb-sprite.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/editor/tb-sprite.png"
+        },
+        {
+          "resource": "images/grid/loading.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/loading.gif"
+        },
+        {
+          "resource": "images/shared/icon-info.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-info.png"
+        },
+        {
+          "resource": "images/shared/icon-warning.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-warning.png"
+        },
+        {
+          "resource": "images/shared/icon-question.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-question.png"
+        },
+        {
+          "resource": "images/shared/icon-error.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-error.png"
+        },
+        {
+          "resource": "images/util/splitter/mini-right.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/util/splitter/mini-right.png"
+        },
+        {
+          "resource": "images/util/splitter/mini-left.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/util/splitter/mini-left.png"
+        },
+        {
+          "resource": "images/tools/nordic-resize.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tools/nordic-resize.png"
+        },
+        {
+          "resource": "images/tools/nordic-move.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tools/nordic-move.png"
+        }
+      ]
+    },
+    {
+      "mode": "fallback",
+      "dpr": 1,
+      "rows": 415,
+      "elements": 6327,
+      "errors": [],
+      "constructionErrors": [],
+      "requests": [
+        {
+          "resource": "images/tools/tool-sprites.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tools/tool-sprites.gif"
+        },
+        {
+          "resource": "images/form/trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/trigger.gif"
+        },
+        {
+          "resource": "images/form/date-trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/date-trigger.gif"
+        },
+        {
+          "resource": "images/form/spinner.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/spinner.gif"
+        },
+        {
+          "resource": "images/form/search-trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/search-trigger.gif"
+        },
+        {
+          "resource": "images/form/clear-trigger.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/clear-trigger.gif"
+        },
+        {
+          "resource": "images/form/checkbox.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/checkbox.gif"
+        },
+        {
+          "resource": "images/form/radio.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/form/radio.gif"
+        },
+        {
+          "resource": "images/button/arrow.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/arrow.gif"
+        },
+        {
+          "resource": "images/button/s-arrow.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow.gif"
+        },
+        {
+          "resource": "images/button/s-arrow-o.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow-o.gif"
+        },
+        {
+          "resource": "images/button/s-arrow-b.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow-b.gif"
+        },
+        {
+          "resource": "images/button/s-arrow-bo.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/button/s-arrow-bo.gif"
+        },
+        {
+          "resource": "images/grid/page-first-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-first-disabled.gif"
+        },
+        {
+          "resource": "images/grid/page-prev-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-prev-disabled.gif"
+        },
+        {
+          "resource": "images/grid/page-next.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-next.gif"
+        },
+        {
+          "resource": "images/grid/page-last.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-last.gif"
+        },
+        {
+          "resource": "images/grid/refresh.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/refresh.gif"
+        },
+        {
+          "resource": "images/grid/page-next-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-next-disabled.gif"
+        },
+        {
+          "resource": "images/grid/page-last-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/page-last-disabled.gif"
+        },
+        {
+          "resource": "images/grid/refresh-disabled.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/refresh-disabled.gif"
+        },
+        {
+          "resource": "images/grid/sort_asc.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/sort_asc.gif"
+        },
+        {
+          "resource": "images/grid/sort_desc.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/sort_desc.gif"
+        },
+        {
+          "resource": "images/grid/group-collapse.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/group-collapse.gif"
+        },
+        {
+          "resource": "images/grid/group-expand.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/group-expand.gif"
+        },
+        {
+          "resource": "images/tree/elbow-end-plus.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/elbow-end-plus.gif"
+        },
+        {
+          "resource": "images/tree/folder.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/folder.gif"
+        },
+        {
+          "resource": "images/tree/elbow-end-minus.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/elbow-end-minus.gif"
+        },
+        {
+          "resource": "images/tree/folder-open.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/folder-open.gif"
+        },
+        {
+          "resource": "images/tree/elbow-end.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/elbow-end.gif"
+        },
+        {
+          "resource": "images/tree/leaf.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/leaf.gif"
+        },
+        {
+          "resource": "images/tree/arrows.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tree/arrows.gif"
+        },
+        {
+          "resource": "images/tab/tab-default-close.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tab/tab-default-close.gif"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-left-top.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tab-bar/default-scroll-left-top.gif"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-right-top.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tab-bar/default-scroll-right-top.gif"
+        },
+        {
+          "resource": "images/toolbar/footer-more.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/toolbar/footer-more.gif"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-left.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/toolbar/default-scroll-left.gif"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-right.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/toolbar/default-scroll-right.gif"
+        },
+        {
+          "resource": "images/shared/left-btn.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/left-btn.gif"
+        },
+        {
+          "resource": "images/shared/right-btn.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/right-btn.gif"
+        },
+        {
+          "resource": "images/slider/slider-thumb.png",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/slider/slider-thumb.png"
+        },
+        {
+          "resource": "images/slider/slider-v-thumb.png",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/slider/slider-v-thumb.png"
+        },
+        {
+          "resource": "images/menu/default-menu-parent.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/menu/default-menu-parent.gif"
+        },
+        {
+          "resource": "images/menu/default-checked.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/menu/default-checked.gif"
+        },
+        {
+          "resource": "images/menu/default-group-checked.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/menu/default-group-checked.gif"
+        },
+        {
+          "resource": "images/editor/tb-sprite.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/editor/tb-sprite.gif"
+        },
+        {
+          "resource": "images/grid/loading.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/grid/loading.gif"
+        },
+        {
+          "resource": "images/shared/icon-info.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-info.gif"
+        },
+        {
+          "resource": "images/shared/icon-warning.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-warning.gif"
+        },
+        {
+          "resource": "images/shared/icon-question.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-question.gif"
+        },
+        {
+          "resource": "images/shared/icon-error.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/shared/icon-error.gif"
+        },
+        {
+          "resource": "images/util/splitter/mini-right.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/util/splitter/mini-right.gif"
+        },
+        {
+          "resource": "images/util/splitter/mini-left.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/util/splitter/mini-left.gif"
+        },
+        {
+          "resource": "images/tools/nordic-resize.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tools/nordic-resize.gif"
+        },
+        {
+          "resource": "images/tools/nordic-move.gif",
+          "dpr": 1,
+          "preferred": "candidate/1x/images/tools/nordic-move.gif"
+        }
+      ]
+    },
+    {
+      "mode": "classic",
+      "dpr": 2,
+      "rows": 415,
+      "elements": 6327,
+      "errors": [],
+      "constructionErrors": [],
+      "requests": []
+    },
+    {
+      "mode": "nordic",
+      "dpr": 2,
+      "rows": 415,
+      "elements": 6327,
+      "errors": [],
+      "constructionErrors": [],
+      "requests": [
+        {
+          "resource": "images/tools/tool-sprites.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tools/tool-sprites.png"
+        },
+        {
+          "resource": "images/form/trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/trigger.png"
+        },
+        {
+          "resource": "images/form/date-trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/date-trigger.png"
+        },
+        {
+          "resource": "images/form/spinner.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/spinner.png"
+        },
+        {
+          "resource": "images/form/search-trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/search-trigger.png"
+        },
+        {
+          "resource": "images/form/clear-trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/clear-trigger.png"
+        },
+        {
+          "resource": "images/form/checkbox.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/checkbox.png"
+        },
+        {
+          "resource": "images/form/radio.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/form/radio.png"
+        },
+        {
+          "resource": "images/button/arrow.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/button/arrow.png"
+        },
+        {
+          "resource": "images/button/s-arrow.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/button/s-arrow.png"
+        },
+        {
+          "resource": "images/button/s-arrow-o.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/button/s-arrow-o.png"
+        },
+        {
+          "resource": "images/button/s-arrow-b.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/button/s-arrow-b.png"
+        },
+        {
+          "resource": "images/button/s-arrow-bo.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/button/s-arrow-bo.png"
+        },
+        {
+          "resource": "images/grid/page-first-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/page-first-disabled.png"
+        },
+        {
+          "resource": "images/grid/page-prev-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/page-prev-disabled.png"
+        },
+        {
+          "resource": "images/grid/page-next.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/page-next.png"
+        },
+        {
+          "resource": "images/grid/page-last.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/page-last.png"
+        },
+        {
+          "resource": "images/grid/refresh.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/refresh.png"
+        },
+        {
+          "resource": "images/grid/page-next-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/page-next-disabled.png"
+        },
+        {
+          "resource": "images/grid/page-last-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/page-last-disabled.png"
+        },
+        {
+          "resource": "images/grid/refresh-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/refresh-disabled.png"
+        },
+        {
+          "resource": "images/grid/sort_asc.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/sort_asc.png"
+        },
+        {
+          "resource": "images/grid/sort_desc.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/sort_desc.png"
+        },
+        {
+          "resource": "images/grid/group-collapse.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/group-collapse.png"
+        },
+        {
+          "resource": "images/grid/group-expand.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/group-expand.png"
+        },
+        {
+          "resource": "images/tree/elbow-end-plus.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/elbow-end-plus.png"
+        },
+        {
+          "resource": "images/tree/folder.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/folder.png"
+        },
+        {
+          "resource": "images/tree/elbow-end-minus.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/elbow-end-minus.png"
+        },
+        {
+          "resource": "images/tree/folder-open.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/folder-open.png"
+        },
+        {
+          "resource": "images/tree/elbow-end.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/elbow-end.png"
+        },
+        {
+          "resource": "images/tree/leaf.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/leaf.png"
+        },
+        {
+          "resource": "images/tree/arrows.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tree/arrows.png"
+        },
+        {
+          "resource": "images/tab/tab-default-close.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tab/tab-default-close.png"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-left-top.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tab-bar/default-scroll-left-top.png"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-right-top.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tab-bar/default-scroll-right-top.png"
+        },
+        {
+          "resource": "images/toolbar/footer-more.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/toolbar/footer-more.png"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-left.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/toolbar/default-scroll-left.png"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-right.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/toolbar/default-scroll-right.png"
+        },
+        {
+          "resource": "images/shared/left-btn.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/shared/left-btn.png"
+        },
+        {
+          "resource": "images/shared/right-btn.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/shared/right-btn.png"
+        },
+        {
+          "resource": "images/slider/slider-thumb.png",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/slider/slider-thumb.png"
+        },
+        {
+          "resource": "images/slider/slider-v-thumb.png",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/slider/slider-v-thumb.png"
+        },
+        {
+          "resource": "images/menu/default-menu-parent.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/menu/default-menu-parent.png"
+        },
+        {
+          "resource": "images/menu/default-checked.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/menu/default-checked.png"
+        },
+        {
+          "resource": "images/menu/default-group-checked.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/menu/default-group-checked.png"
+        },
+        {
+          "resource": "images/editor/tb-sprite.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/editor/tb-sprite.png"
+        },
+        {
+          "resource": "images/grid/loading.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/grid/loading.gif"
+        },
+        {
+          "resource": "images/shared/icon-info.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/shared/icon-info.png"
+        },
+        {
+          "resource": "images/shared/icon-warning.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/shared/icon-warning.png"
+        },
+        {
+          "resource": "images/shared/icon-question.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/shared/icon-question.png"
+        },
+        {
+          "resource": "images/shared/icon-error.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/shared/icon-error.png"
+        },
+        {
+          "resource": "images/util/splitter/mini-right.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/util/splitter/mini-right.png"
+        },
+        {
+          "resource": "images/util/splitter/mini-left.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/util/splitter/mini-left.png"
+        },
+        {
+          "resource": "images/tools/nordic-resize.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tools/nordic-resize.png"
+        },
+        {
+          "resource": "images/tools/nordic-move.gif",
+          "dpr": 2,
+          "preferred": "candidate/2x/images/tools/nordic-move.png"
+        }
+      ]
+    },
+    {
+      "mode": "fallback",
+      "dpr": 2,
+      "rows": 415,
+      "elements": 6327,
+      "errors": [],
+      "constructionErrors": [],
+      "requests": [
+        {
+          "resource": "images/tools/tool-sprites.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tools/tool-sprites.gif"
+        },
+        {
+          "resource": "images/form/trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/trigger.gif"
+        },
+        {
+          "resource": "images/form/date-trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/date-trigger.gif"
+        },
+        {
+          "resource": "images/form/spinner.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/spinner.gif"
+        },
+        {
+          "resource": "images/form/search-trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/search-trigger.gif"
+        },
+        {
+          "resource": "images/form/clear-trigger.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/clear-trigger.gif"
+        },
+        {
+          "resource": "images/form/checkbox.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/checkbox.gif"
+        },
+        {
+          "resource": "images/form/radio.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/form/radio.gif"
+        },
+        {
+          "resource": "images/button/arrow.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/button/arrow.gif"
+        },
+        {
+          "resource": "images/button/s-arrow.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/button/s-arrow.gif"
+        },
+        {
+          "resource": "images/button/s-arrow-o.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/button/s-arrow-o.gif"
+        },
+        {
+          "resource": "images/button/s-arrow-b.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/button/s-arrow-b.gif"
+        },
+        {
+          "resource": "images/button/s-arrow-bo.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/button/s-arrow-bo.gif"
+        },
+        {
+          "resource": "images/grid/page-first-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/page-first-disabled.gif"
+        },
+        {
+          "resource": "images/grid/page-prev-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/page-prev-disabled.gif"
+        },
+        {
+          "resource": "images/grid/page-next.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/page-next.gif"
+        },
+        {
+          "resource": "images/grid/page-last.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/page-last.gif"
+        },
+        {
+          "resource": "images/grid/refresh.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/refresh.gif"
+        },
+        {
+          "resource": "images/grid/page-next-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/page-next-disabled.gif"
+        },
+        {
+          "resource": "images/grid/page-last-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/page-last-disabled.gif"
+        },
+        {
+          "resource": "images/grid/refresh-disabled.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/refresh-disabled.gif"
+        },
+        {
+          "resource": "images/grid/sort_asc.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/sort_asc.gif"
+        },
+        {
+          "resource": "images/grid/sort_desc.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/sort_desc.gif"
+        },
+        {
+          "resource": "images/grid/group-collapse.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/group-collapse.gif"
+        },
+        {
+          "resource": "images/grid/group-expand.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/group-expand.gif"
+        },
+        {
+          "resource": "images/tree/elbow-end-plus.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/elbow-end-plus.gif"
+        },
+        {
+          "resource": "images/tree/folder.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/folder.gif"
+        },
+        {
+          "resource": "images/tree/elbow-end-minus.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/elbow-end-minus.gif"
+        },
+        {
+          "resource": "images/tree/folder-open.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/folder-open.gif"
+        },
+        {
+          "resource": "images/tree/elbow-end.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/elbow-end.gif"
+        },
+        {
+          "resource": "images/tree/leaf.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/leaf.gif"
+        },
+        {
+          "resource": "images/tree/arrows.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tree/arrows.gif"
+        },
+        {
+          "resource": "images/tab/tab-default-close.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tab/tab-default-close.gif"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-left-top.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tab-bar/default-scroll-left-top.gif"
+        },
+        {
+          "resource": "images/tab-bar/default-scroll-right-top.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tab-bar/default-scroll-right-top.gif"
+        },
+        {
+          "resource": "images/toolbar/footer-more.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/toolbar/footer-more.gif"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-left.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/toolbar/default-scroll-left.gif"
+        },
+        {
+          "resource": "images/toolbar/default-scroll-right.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/toolbar/default-scroll-right.gif"
+        },
+        {
+          "resource": "images/shared/left-btn.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/shared/left-btn.gif"
+        },
+        {
+          "resource": "images/shared/right-btn.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/shared/right-btn.gif"
+        },
+        {
+          "resource": "images/slider/slider-thumb.png",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/slider/slider-thumb.png"
+        },
+        {
+          "resource": "images/slider/slider-v-thumb.png",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/slider/slider-v-thumb.png"
+        },
+        {
+          "resource": "images/menu/default-menu-parent.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/menu/default-menu-parent.gif"
+        },
+        {
+          "resource": "images/menu/default-checked.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/menu/default-checked.gif"
+        },
+        {
+          "resource": "images/menu/default-group-checked.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/menu/default-group-checked.gif"
+        },
+        {
+          "resource": "images/editor/tb-sprite.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/editor/tb-sprite.gif"
+        },
+        {
+          "resource": "images/grid/loading.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/grid/loading.gif"
+        },
+        {
+          "resource": "images/shared/icon-info.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/shared/icon-info.gif"
+        },
+        {
+          "resource": "images/shared/icon-warning.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/shared/icon-warning.gif"
+        },
+        {
+          "resource": "images/shared/icon-question.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/shared/icon-question.gif"
+        },
+        {
+          "resource": "images/shared/icon-error.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/shared/icon-error.gif"
+        },
+        {
+          "resource": "images/util/splitter/mini-right.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/util/splitter/mini-right.gif"
+        },
+        {
+          "resource": "images/util/splitter/mini-left.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/util/splitter/mini-left.gif"
+        },
+        {
+          "resource": "images/tools/nordic-resize.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tools/nordic-resize.gif"
+        },
+        {
+          "resource": "images/tools/nordic-move.gif",
+          "dpr": 2,
+          "preferred": "candidate/1x/images/tools/nordic-move.gif"
+        }
+      ]
+    }
+  ],
+  "scope": "Technical isolated fixture, same Classic CSS and real Ext components. Hover/focus/pressed CSS states projected as TASK-003; not functional/theme release acceptance. 2x resources selected by route in preview only, integration not performed."
+}

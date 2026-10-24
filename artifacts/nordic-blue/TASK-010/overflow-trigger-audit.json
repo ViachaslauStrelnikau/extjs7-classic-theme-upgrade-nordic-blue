@@ -1,0 +1,5283 @@
+{
+  "status": "PASS",
+  "scenarios": 40,
+  "policy": "Visible element scroll/client excess lists match Classic exactly. Existing clipping/nowrap/ellipsis, trigger boxes, sprite offsets and font metrics are unchanged; no corrective positioning or global text clipping was introduced. Actual raw images form-invalid and fieldset-checked at DPR1 were visually inspected.",
+  "results": [
+    {
+      "dpr": 1,
+      "scenario": "form--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "form--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "form--invalid",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "50%",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "form--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "form--readonly",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "triggers--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "triggers--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-51px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "triggers--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/picker",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-17px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "triggers--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "triggers--open",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-51px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "triggers--pressed",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/picker",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-34px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "checks--checked",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "checks--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "checks--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "-13px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "checks--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "checks--unchecked",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "fieldset--checked",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 137,
+            "y": 234,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 218,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-60px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 137,
+            "y": 179,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "fieldset--collapsed",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 190,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-75px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "fieldset--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 218,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-60px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 137,
+            "y": 179,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 1,
+      "scenario": "fieldset--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 218,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-60px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 137,
+            "y": 179,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "form--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "form--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "form--invalid",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "50%",
+            "100%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "form--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 201,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 228,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 640,
+            "y": 293,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 640,
+            "y": 282,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 490,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 640,
+            "y": 255,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "form--readonly",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "form.combo/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 202,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 229,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.notes/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 310,
+            "width": 507,
+            "height": 78
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 283,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.number/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.text/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 175,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/inputEl",
+          "rect": {
+            "x": 149,
+            "y": 256,
+            "width": 507,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "form.time/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "triggers--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "triggers--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-51px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "triggers--hover",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/picker",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-17px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "triggers--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "triggers--open",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-51px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "triggers--pressed",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "triggers.clear/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 306,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.clear/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 305,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 162,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.combo/picker",
+          "rect": {
+            "x": 363,
+            "y": 161,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "-34px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 198,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.date/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 197,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 270,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.search/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 269,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/inputEl",
+          "rect": {
+            "x": 126,
+            "y": 234,
+            "width": 236,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/picker-trigger",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 22
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-down",
+          "rect": {
+            "x": 363,
+            "y": 244,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "-11px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "triggers.spinner/triggerWrap/part/spinner-up",
+          "rect": {
+            "x": 363,
+            "y": 233,
+            "width": 17,
+            "height": 11
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "checks--checked",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "checks--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "checks--focus",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "-13px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "checks--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "checks--unchecked",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "checks.checked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 193,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.disabled/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 220,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-a/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 247,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.radio-b/graphic/x-form-radio",
+          "rect": {
+            "x": 20,
+            "y": 274,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "checks.unchecked/graphic/x-form-checkbox",
+          "rect": {
+            "x": 20,
+            "y": 166,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "fieldset--checked",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 137,
+            "y": 234,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 218,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0px",
+            "-13px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-60px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 137,
+            "y": 179,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "fieldset--collapsed",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 190,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-75px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "fieldset--disabled",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 218,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-60px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.main/part/loadmask-text",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "50%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 137,
+            "y": 179,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "scenario": "fieldset--normal",
+      "status": "PASS",
+      "unchangedScrollExcess": [],
+      "inheritedIconBoxes": [
+        {
+          "id": "fieldset.checkbox/body/graphic/x-form-field.x-form-text.x-form-text-default",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.checkbox/graphic/x-form-checkbox",
+          "rect": {
+            "x": 34,
+            "y": 218,
+            "width": 13,
+            "height": 13
+          },
+          "offset": [
+            "0%",
+            "0%"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.collapsible/part/tool-image",
+          "rect": {
+            "x": 34,
+            "y": 162,
+            "width": 15,
+            "height": 15
+          },
+          "offset": [
+            "0px",
+            "-60px"
+          ],
+          "size": "auto"
+        },
+        {
+          "id": "fieldset.name/inputEl",
+          "rect": {
+            "x": 137,
+            "y": 179,
+            "width": 148,
+            "height": 20
+          },
+          "offset": [
+            "0px",
+            "0px"
+          ],
+          "size": "auto"
+        }
+      ]
+    }
+  ]
+}

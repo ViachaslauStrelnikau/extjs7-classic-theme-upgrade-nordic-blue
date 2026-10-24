@@ -1,0 +1,415 @@
+{
+  "status": "PASS",
+  "pairs": 58,
+  "actions": 116,
+  "elementComparisons": 2124,
+  "results": [
+    {
+      "dpr": 1,
+      "action": "tabs-mouse-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tabs-disabled-ignored",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tabs-keyboard-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tabs-close-active",
+      "elements": 50,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tabs-overflow-scroll",
+      "elements": 56,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "menu-checkbox-off",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "menu-checkbox-on",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "menu-mouse-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "menu-keyboard-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "menu-keyboard-return",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "menu-disabled-state",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "datepicker-next-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "datepicker-prev-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "datepicker-day-select",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "datepicker-keyboard-day",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "datepicker-today",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "progress-full",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "progress-empty",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "progress-partial",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-horizontal-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-horizontal-max",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-horizontal-min",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-vertical-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-horizontal-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-vertical-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "slider-disabled-ignored",
+      "elements": 21,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "mask-visible",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "mask-hide",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "mask-show",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tabs-mouse-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tabs-disabled-ignored",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tabs-keyboard-select",
+      "elements": 59,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tabs-close-active",
+      "elements": 50,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tabs-overflow-scroll",
+      "elements": 56,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "menu-checkbox-off",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "menu-checkbox-on",
+      "elements": 20,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "menu-mouse-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "menu-keyboard-submenu",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "menu-keyboard-return",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "menu-disabled-state",
+      "elements": 25,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "datepicker-next-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "datepicker-prev-month",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "datepicker-day-select",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "datepicker-keyboard-day",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "datepicker-today",
+      "elements": 96,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "progress-full",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "progress-empty",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "progress-partial",
+      "elements": 4,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-horizontal-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-horizontal-max",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-horizontal-min",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-vertical-keyboard",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-horizontal-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-vertical-drag",
+      "elements": 17,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "slider-disabled-ignored",
+      "elements": 21,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "mask-visible",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "mask-hide",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "mask-show",
+      "elements": 8,
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "policy": "Same unchanged fixture, genuine keyboard/mouse input, identical component state/value/validity and exact normalized metrics, fonts, image sizes/offsets, client/scroll. Only reviewed paint colors/gradient layers excluded as in full geometry comparison."
+}

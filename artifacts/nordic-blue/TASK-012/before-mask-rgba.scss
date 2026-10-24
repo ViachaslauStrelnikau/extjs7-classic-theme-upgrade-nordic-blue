@@ -1,0 +1,9 @@
+// Verified color hooks; only previously reviewed flat gradients. All metrics inherited.
+$loadmask-msg-background-color: dynamic($nb-toolbar-bg);
+$loadmask-msg-border-color: dynamic($nb-border);
+$loadmask-msg-inner-background-color: dynamic($nb-surface);
+$loadmask-msg-inner-color: dynamic($nb-text);
+$loadmask-border-color-focus: dynamic($nb-accent);
+$loadmask-msg-inner-border-color: dynamic($nb-border);
+
+$loadmask-msg-background-gradient: dynamic('none');

@@ -1,0 +1,331 @@
+{
+  "status": "PASS",
+  "pairs": 46,
+  "actions": 92,
+  "elementComparisons": 3572,
+  "results": [
+    {
+      "dpr": 1,
+      "action": "grid-sort-asc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-sort-desc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-row-select",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-keyboard-next-row",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-checkcolumn-toggle",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-header-menu-open",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-header-menu-escape",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-column-resize-drag",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-compact-viewport",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "grid-scroll-both-axes",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tree-mouse-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tree-mouse-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tree-leaf-selection",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tree-keyboard-next-leaf",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tree-keyboard-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "tree-keyboard-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-first-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-next",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-last-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-previous",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-first",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-input-enter",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 1,
+      "action": "paging-refresh",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-sort-asc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-sort-desc",
+      "elements": 101,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-row-select",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-keyboard-next-row",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-checkcolumn-toggle",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-header-menu-open",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-header-menu-escape",
+      "elements": 114,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-column-resize-drag",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-compact-viewport",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "grid-scroll-both-axes",
+      "elements": 100,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tree-mouse-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tree-mouse-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tree-leaf-selection",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tree-keyboard-next-leaf",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tree-keyboard-collapse",
+      "elements": 19,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "tree-keyboard-expand",
+      "elements": 29,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-first-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-next",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-last-boundary",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-previous",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-first",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-input-enter",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "dpr": 2,
+      "action": "paging-refresh",
+      "elements": 86,
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "policy": "Same unchanged fixture, genuine keyboard/mouse input, identical component state/value/validity and exact normalized metrics, fonts, image sizes/offsets, client/scroll. Only reviewed paint colors/gradient layers excluded as in full geometry comparison."
+}

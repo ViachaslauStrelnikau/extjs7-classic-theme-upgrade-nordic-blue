@@ -1,0 +1,13 @@
+{
+  "status": "APPROVED_AND_INTEGRATED",
+  "version": "nordic-icons-v3-folders",
+  "approvedOn": "2026-10-24",
+  "integrationValidatedOn": "2026-10-24",
+  "approval": "approval.json",
+  "manifest": "approved-icon-manifest.json",
+  "geometry": "validation/geometry-comparison.json",
+  "actions": "validation/native-action-comparison.json",
+  "buildModes": "validation/build-mode-validation.json",
+  "report": "integration-report.md",
+  "nextTask": "TASK-014"
+}

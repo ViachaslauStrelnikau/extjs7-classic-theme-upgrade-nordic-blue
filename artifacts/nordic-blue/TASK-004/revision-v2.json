@@ -1,0 +1,22 @@
+{
+  "version": "nordic-icons-v2",
+  "previousVersion": "nordic-icons-v1",
+  "reason": "User-marked weak icons: gear, clear grouping, sort desc, menu checkbox, loading; paired and shared variants revised consistently.",
+  "resourcesChanged": [
+    "images/form/checkbox.gif",
+    "images/grid/gear-small.gif",
+    "images/grid/group-clear.png",
+    "images/grid/loading.gif",
+    "images/grid/sort_asc.gif",
+    "images/grid/sort_desc.gif",
+    "images/menu/default-checked.gif",
+    "images/menu/default-menubar-checked.gif",
+    "images/menu/default-menubar-unchecked.gif",
+    "images/menu/default-unchecked.gif",
+    "images/shared/blue-loading.gif",
+    "images/tools/tool-sprites.gif",
+    "images/tree/loading.gif"
+  ],
+  "unchangedResourceCount": 169,
+  "approval": "WAITING_USER_APPROVAL"
+}

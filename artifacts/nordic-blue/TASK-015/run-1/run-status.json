@@ -1,0 +1,4 @@
+{
+  "status": "DIAGNOSTIC_ABORTED",
+  "reason": "Transparent alpha rounded tiny image contributions to zero. Replaced by exact white/black support measurement; no theme changes; final run is run-2."
+}
