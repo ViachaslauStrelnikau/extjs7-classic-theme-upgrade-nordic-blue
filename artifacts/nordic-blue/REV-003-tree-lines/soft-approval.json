@@ -1,0 +1,14 @@
+{
+  "status": "APPROVED",
+  "version": "nordic-soft-tree-lines-v1",
+  "manifestSha256": "b4fae2df02bbfe33eb1f9584a55512b3e3f21d49fa608534c5a8c837b4e7fa70",
+  "userStatement": "Одобряю исправление справа",
+  "approvedDate": "2026-10-25",
+  "context": "Explicit reply to actual tree.html before/after preview; removed horizontal segment only from passing ancestor line.",
+  "masters": {
+    "elbow-line.svg": "44a1f1fec2af0f89f588d1b1af82ffefcc5b1aa03cd78acd71e7fb6db71dffd6",
+    "elbow-line-rtl.svg": "bab313440d3db6c50cff67749cc2129fc90b49defc6a62042deee804e32b093f"
+  },
+  "baseApprovalPath": "artifacts/nordic-blue/TASK-021/artwork-approval.json",
+  "baseApprovalSha256": "7dcdf2521f0117ef50bf080a65ddff4b7f83e20f215b4f8f31c6e4d383d54342"
+}

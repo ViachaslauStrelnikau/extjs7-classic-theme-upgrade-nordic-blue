@@ -1,0 +1,37 @@
+{
+  "selection": [
+    {
+      "borderColor": "rgb(220, 229, 239)",
+      "borderStyle": "solid",
+      "cells": [
+        {
+          "outline": "none",
+          "shadow": "rgb(50, 117, 214) 3px 0px 0px 0px inset"
+        },
+        {
+          "outline": "none",
+          "shadow": "none"
+        }
+      ],
+      "height": 60,
+      "text": "7856825.09.202612:42Inbap UsersВагонная ведомость · комплект документов на перевозку по маршруту Брест — Малашевиче52925302ШушарыНа проверке"
+    },
+    {
+      "borderColor": "rgb(37, 55, 77)",
+      "borderStyle": "none",
+      "cells": [
+        {
+          "outline": "none",
+          "shadow": "rgb(50, 117, 214) 3px 0px 0px 0px inset"
+        }
+      ],
+      "height": 20,
+      "text": "Журнал СМГС"
+    }
+  ],
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/state-preview/sample-shell.css"
+  ]
+}

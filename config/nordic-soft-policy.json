@@ -34,8 +34,8 @@
     "images/@2x/tree/leaf.gif": "b5d421092374e2d1066c0d4e55bad530295649ba0792123997443dd14b699888",
     "images/@2x/tree/leaf.png": "3070ed42e8179c72ed147e39c37f76373ad8ec860372ac149005d262815851e2"
   },
-  "parentIconConfigSha256": "953c723c5a6f7d98b72a7b1bde7b30d32336b8c2034bac15132a58721d1e4f52",
-  "softIconConfigSha256": "0c703d65fa212b16746a1217011d5020c59f67807ca11297a802c17a0e708a8a",
+  "parentIconConfigSha256": "b3ba6a5bcd37e56b7e5f0c07024defee0f89096e06abb9478afea7edbd96ec21",
+  "softIconConfigSha256": "cf41eece43c7785728d4491d0e2a07c0bb648f64be501dce592eb4e6857623c7",
   "approvalPath": "artifacts/nordic-blue/TASK-021/artwork-approval.json",
   "approvalSha256": "7dcdf2521f0117ef50bf080a65ddff4b7f83e20f215b4f8f31c6e4d383d54342",
   "paintExceptions": {

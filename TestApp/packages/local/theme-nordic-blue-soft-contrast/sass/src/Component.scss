@@ -98,3 +98,14 @@
 
 /* One uninterrupted 1px separator across grouped and row-spanning headers. */
 :root .x-grid-header-ct::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }
+
+/* TASK-039: approved color selection with3px header-style left accent. */
+html:root .x-grid-item-selected .x-grid-cell,
+html:root .x-grid-item-focused .x-grid-cell { box-shadow:none; border-top-color:transparent; border-bottom-color:#e5ebf3; border-left-color:transparent; border-right-color:transparent; }
+/* Classic draws selection on both the row and the following row, independent of cell shadows. */
+html:root .x-grid-with-row-lines .x-grid-item-selected,
+html:root .x-grid-with-row-lines .x-grid-item-selected + .x-grid-item { border-color:#dce5ef; border-style:solid; }
+html:root .x-grid-cell-focused { outline:none; }
+/* Keyboard focus remains a separate, single-cell affordance; selection itself has no frame. */
+html:root .x-keyboard-mode .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }
+html:root .x-grid-item-selected .x-grid-cell-first { box-shadow:inset 3px 0 0 #3275d6; }

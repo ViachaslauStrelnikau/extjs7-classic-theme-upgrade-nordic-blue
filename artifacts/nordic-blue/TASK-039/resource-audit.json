@@ -1,0 +1,63 @@
+{
+  "outputs": [
+    {
+      "scope": "lab",
+      "mode": "testing",
+      "childVersion": "1.3.0",
+      "parentVersion": "1.0.2",
+      "approvedImageShaMatches": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "lab",
+      "mode": "development",
+      "childVersion": "1.3.0",
+      "parentVersion": "1.0.2",
+      "approvedImageShaMatches": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "lab",
+      "mode": "production",
+      "childVersion": "1.3.0",
+      "parentVersion": "1.0.2",
+      "approvedImageShaMatches": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "real",
+      "mode": "testing",
+      "childVersion": "1.3.0",
+      "parentVersion": "1.0.2",
+      "approvedImageShaMatches": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "real",
+      "mode": "development",
+      "childVersion": "1.3.0",
+      "parentVersion": "1.0.2",
+      "approvedImageShaMatches": 648,
+      "status": "PASS"
+    },
+    {
+      "scope": "real",
+      "mode": "production",
+      "childVersion": "1.3.0",
+      "parentVersion": "1.0.2",
+      "approvedImageShaMatches": 648,
+      "status": "PASS"
+    }
+  ],
+  "changedResources": [
+    "images/tree/elbow-line-rtl.gif",
+    "images/tree/elbow-line-rtl.png",
+    "images/@2x/tree/elbow-line-rtl.gif",
+    "images/@2x/tree/elbow-line-rtl.png",
+    "images/tree/elbow-line.gif",
+    "images/tree/elbow-line.png",
+    "images/@2x/tree/elbow-line.gif",
+    "images/@2x/tree/elbow-line.png"
+  ],
+  "unchangedImageCount": 640
+}

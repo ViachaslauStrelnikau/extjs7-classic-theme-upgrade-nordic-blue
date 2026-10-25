@@ -6814,7 +6814,7 @@
     }
   },
   "protectedPackageFiles": {
-    "package.json": "72f3d76e89aba31509e3b28c106ac54300c8a3d57f6a69fb12f76ebd13ce4a0d",
+    "package.json": "73d03909c528e27c9e1a9c505431c69d1ca9f3a680e45818c71081c7dca3998b",
     "build.xml": "7f4602de73579f7fcca99d97c0c03de52d0304afb6aa2c5a45ff9febe4601284",
     "sass/config.rb": "e340ab3c0fd3dd055a31e71f0f6275d88fe980867096759dbd45dbccce7d0b56"
   },

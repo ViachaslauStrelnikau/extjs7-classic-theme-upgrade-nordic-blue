@@ -1,0 +1,35 @@
+{
+  "lines": [
+    {
+      "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/elbow-line.png\")",
+      "height": "20px",
+      "size": "16px 20px",
+      "width": "16px"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/elbow-line.png\")",
+      "height": "20px",
+      "size": "16px 20px",
+      "width": "16px"
+    }
+  ],
+  "selected": [
+    {
+      "borderColor": "rgb(37, 55, 77)",
+      "borderStyle": "none",
+      "cells": [
+        {
+          "fill": "rgb(191, 215, 245)",
+          "outline": "none",
+          "shadow": "rgb(50, 117, 214) 3px 0px 0px 0px inset"
+        }
+      ],
+      "text": "СМГС"
+    }
+  ],
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/state-preview/sample-shell.css"
+  ]
+}

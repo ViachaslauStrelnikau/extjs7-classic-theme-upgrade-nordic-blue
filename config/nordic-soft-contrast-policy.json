@@ -2,13 +2,13 @@
   "theme": "theme-nordic-blue-soft-contrast",
   "parent": "theme-nordic-blue-soft",
   "sdk": "7.7.0.31",
-  "approval": "artifacts/nordic-blue/TASK-037/design-approval.json",
-  "approvalSha256": "cb187f90bb90bbcc1d5a7878e070e2ef471d5206347e86edf193816bc389cdce",
+  "approval": "artifacts/nordic-blue/TASK-039/design-approval.json",
+  "approvalSha256": "96a8805d13e98bc4c508f4ca2b32975b3b2630ac72872e5e25db38599fc68552",
   "reviewedFiles": {
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "54b76ee3279361b99ce31dea9b55acc6b7e66eff480639ca57cc3c9e820c32bb",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "e8b8c297adf007943a2129375782f48676c91c9a3d4928fa7751ae96823c7325",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/build.xml": "6598bf473e70d40a03a24f3733994a112136064666f7d1fd56dc37b764cb3df6",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/etc/all.scss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "8e23dc5d7939716dfb8b81888a407395a6a7355906a39d8c8b361a5b342fc389",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "f160d9e9aa1fa8a06580c9219ee6552298b34000ae8e559fa706cd9d1d55d7f7",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/all.scss": "3e079faea3b6f0b70330046d2d66dc1836a46a7f8f293beb2735ded6c8e3fe82",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/panel/Panel.scss": "3c0035038b1e6951f0f24b651f24ba50f376ecd70bed66869b58f049387192b8",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/toolbar/Toolbar.scss": "933ce61866664c80b3e569387baf5227f647f2a5177f7b7861916e62491c2d2b",
@@ -20,15 +20,17 @@
   "approvedPaintProperties": [
     "background-color",
     "background-image",
+    "border-bottom-color",
     "border-color",
-    "border-right-color",
-    "color",
-    "box-shadow",
     "border-left-color",
-    "border-bottom-color"
+    "border-right-color",
+    "border-style",
+    "border-top-color",
+    "box-shadow",
+    "color"
   ],
   "ownImages": 0,
   "runtimeOverrides": false,
-  "decorativeReview": "artifacts/nordic-blue/TASK-037/decorative-review.json",
-  "decorativeReviewSha256": "3b9fe6256248bd3f0ad29367de11c4f06b76f6b1769eefee505321157fee2ee8"
+  "decorativeReview": "artifacts/nordic-blue/TASK-039/decorative-review.json",
+  "decorativeReviewSha256": "6ec89ca3eedb2b0d45a98306352f4b3271c4a3308cd00e02600dfb47658c5f02"
 }

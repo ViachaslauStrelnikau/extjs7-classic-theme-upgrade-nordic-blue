@@ -1,0 +1,11 @@
+{
+  "rules": [
+    ":root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }",
+    ":root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-3px; }",
+    "/* One uninterrupted 1px separator across grouped and row-spanning headers. */\n:root .x-grid-header-ct::after { content:\"\"; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }",
+    "html:root .x-grid-cell-focused { outline:none; }",
+    "/* Keyboard focus remains a separate, single-cell affordance; selection itself has no frame. */\nhtml:root .x-keyboard-mode .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }"
+  ],
+  "componentSha256": "f160d9e9aa1fa8a06580c9219ee6552298b34000ae8e559fa706cd9d1d55d7f7",
+  "policy": "Exact outline/pointer-transparent stripe blocks only; native border widths unchanged, border-style is paint."
+}

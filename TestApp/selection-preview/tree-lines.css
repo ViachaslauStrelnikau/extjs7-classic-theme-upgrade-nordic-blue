@@ -1,0 +1,2 @@
+:root[data-tree-line-preview="after"] .x-tree-lines .x-tree-elbow-line { background-image:url("tree-lines/elbow-line.svg")!important; background-size:16px 20px!important; }
+:root[data-tree-line-preview="after"] .x-tree-lines .x-rtl.x-tree-elbow-line { background-image:url("tree-lines/elbow-line-rtl.svg")!important; background-size:16px 20px!important; }

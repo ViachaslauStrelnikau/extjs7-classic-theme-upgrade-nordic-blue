@@ -82,3 +82,5 @@
 [TASK-037](tasks/TASK-037.md) — DONE: одобренное оформление включено в child1.2.0,6builds/648resourcesx6, Classic geometry/actions Edge DPR1/2 и4реальных отрицательных контроля PASS. Source-only поставка; полная pixel/cross-browser/RTL/SDK7.9 приёмка не заявляется.
 
 [TASK-038](tasks/TASK-038.md) — DONE: два preview без рамки (цвет / цвет+левая полоса3px), tall/business строки просмотрены. Выбор ожидается; production1.2.0 не менялся.
+
+[TASK-039](tasks/TASK-039.md) — DONE: child1.3.0 color+3px stripe и одобренные линии дерева, parent1.0.2.6final builds/resource SHA PASS, compiled view; полная новая регрессия не запускалась.

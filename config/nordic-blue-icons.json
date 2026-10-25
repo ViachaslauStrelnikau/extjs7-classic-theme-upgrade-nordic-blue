@@ -1,10 +1,10 @@
 {
-  "approvalPath": "artifacts/nordic-blue/REV-001-folders-v3/approval.json",
-  "approvalSha256": "0fc43cc52ed88d44bc3d96d2eda018b5b0c0a281e67365ae9f5928f5680c48cf",
-  "manifestPath": "artifacts/nordic-blue/REV-001-folders-v3/approved-icon-manifest.json",
-  "manifestSha256": "05c0e2901c84f6d26c6dc9dccc90024ac9962565da3fe1b78d3f88a502a9aa73",
+  "approvalPath": "artifacts/nordic-blue/REV-003-tree-lines/base-approval.json",
+  "approvalSha256": "66fb2e268103a445519ae1ec5014278288a8001d2c9dc836302e344fff1fba80",
+  "manifestPath": "artifacts/nordic-blue/REV-003-tree-lines/base-manifest.json",
+  "manifestSha256": "8ce4a1852bd6bf1dae81b7fe52fda81ea6fb0564d965bfb354879a96094fdbc9",
   "integrationEnabled": true,
-  "integrationTask": "TASK-013",
+  "integrationTask": "TASK-039",
   "runtimeImages": {
     "images/breadcrumb/default-arrow-open-rtl.gif": {
       "id": "raster/breadcrumb/default-arrow-open-rtl.gif",
@@ -10382,8 +10382,8 @@
     },
     "images/tree/elbow-line-rtl.gif": {
       "id": "raster/tree/elbow-line-rtl.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/1x/images/tree/elbow-line-rtl.gif",
-      "sha256": "bc97700b26aa20628ab8ea40abccf71f6404544edf71fa9334fbead3996336a6",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/1x/images/tree/elbow-line-rtl.gif",
+      "sha256": "c81c5c8fad7f31c3e72f9ce2a2c983ba3e4b0f647a1ba79a7ef747f0ac5ebd6a",
       "density": 1,
       "bitmapDimensions": [
         16,
@@ -10401,8 +10401,8 @@
     },
     "images/tree/elbow-line-rtl.png": {
       "id": "raster/tree/elbow-line-rtl.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/1x/images/tree/elbow-line-rtl.png",
-      "sha256": "a894918ce49aa6576097a20c1912db9c9db0c3c5bddab6d2e502c722fd482748",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/1x/images/tree/elbow-line-rtl.png",
+      "sha256": "8362c6a11ed9078cd8fd938cf631d67be1cc9ab54fb09b30067db2f2ba53f67f",
       "density": 1,
       "bitmapDimensions": [
         16,
@@ -10420,8 +10420,8 @@
     },
     "images/@2x/tree/elbow-line-rtl.gif": {
       "id": "raster/tree/elbow-line-rtl.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/2x/images/tree/elbow-line-rtl.gif",
-      "sha256": "a39966c843976fc9f8863f6d61dbc67c3ea14f57f9e14e0bed3f84035242ef6b",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/2x/images/tree/elbow-line-rtl.gif",
+      "sha256": "e3de8bd7dc8b93f6ad887b86b777ac75b3f9465c4c4d4e1c18279ed09c790080",
       "density": 2,
       "bitmapDimensions": [
         32,
@@ -10439,8 +10439,8 @@
     },
     "images/@2x/tree/elbow-line-rtl.png": {
       "id": "raster/tree/elbow-line-rtl.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/2x/images/tree/elbow-line-rtl.png",
-      "sha256": "c445a3387454dd0e9bd565ddc7248b8a56a40470be8b04443096bf56d5ad9a86",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/2x/images/tree/elbow-line-rtl.png",
+      "sha256": "dc937cefcf91446b6fbcb32c4e5027def98f84e74b4437fb77f2e0bc84e0b505",
       "density": 2,
       "bitmapDimensions": [
         32,
@@ -10458,8 +10458,8 @@
     },
     "images/tree/elbow-line.gif": {
       "id": "raster/tree/elbow-line.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/1x/images/tree/elbow-line.gif",
-      "sha256": "8ca4f8dd9407d06d6af31c468506267bca014d1c7cd1f1241a52ec86c96d0dda",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/1x/images/tree/elbow-line.gif",
+      "sha256": "12420bfcb0217c3c12bfe4d501b750519db996abbe052ed0f34b10cfa22f4582",
       "density": 1,
       "bitmapDimensions": [
         16,
@@ -10477,8 +10477,8 @@
     },
     "images/tree/elbow-line.png": {
       "id": "raster/tree/elbow-line.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/1x/images/tree/elbow-line.png",
-      "sha256": "fcd60a204b2ac7af7a6ecd9e058c070cc0b735d8bb384ea09b995c52f8ff4b9e",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/1x/images/tree/elbow-line.png",
+      "sha256": "d752c4173faae7accbd57b91419f7be56b4d29ef72cc6679ce8f95642eb7d397",
       "density": 1,
       "bitmapDimensions": [
         16,
@@ -10496,8 +10496,8 @@
     },
     "images/@2x/tree/elbow-line.gif": {
       "id": "raster/tree/elbow-line.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/2x/images/tree/elbow-line.gif",
-      "sha256": "6885ae6fe73e631fcddfad51c93088f6ac52b2b0ba3c1c1f9f32ea41693257fd",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/2x/images/tree/elbow-line.gif",
+      "sha256": "bf17aa4ea14099c3059ff0ff0935b7b2d54f99812ae897f25368b97610eb406f",
       "density": 2,
       "bitmapDimensions": [
         32,
@@ -10515,8 +10515,8 @@
     },
     "images/@2x/tree/elbow-line.png": {
       "id": "raster/tree/elbow-line.gif",
-      "source": "artifacts/nordic-blue/TASK-004/candidate/2x/images/tree/elbow-line.png",
-      "sha256": "5f3e08975b16dadfcc7e7216966514be1ea2f2c593cd33ff9d68cbf429363c39",
+      "source": "artifacts/nordic-blue/REV-003-tree-lines/candidate/2x/images/tree/elbow-line.png",
+      "sha256": "e6546ce2c7921dd834a2eb26d4cc9960d85237c70dc681fbd68a7b620a52614f",
       "density": 2,
       "bitmapDimensions": [
         32,
