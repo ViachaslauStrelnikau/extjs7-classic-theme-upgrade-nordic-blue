@@ -1,0 +1,12 @@
+{
+  "status": "APPROVED",
+  "version": "1.4.0",
+  "date": "2026-10-25",
+  "userApproval": "Отлично. Мне нравится",
+  "implementationRequest": "включай",
+  "constraint": "Theme package changes only. Switching back to Classic and rebuilding must restore Classic. WGR read-only.",
+  "previewSource": "TestApp/chrome-preview/unified.css",
+  "previewSha256": "7753ebfa54922af27485b71d33d6f268197ca8c84d97ec616ab6aedfe832ded6",
+  "surface": "#edf2f8",
+  "scope": "Root border-layout body, top-level tabbar and direct active-tab-page top toolbar only; no dimensions/fonts/runtime overrides."
+}

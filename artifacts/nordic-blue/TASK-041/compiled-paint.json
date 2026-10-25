@@ -1,0 +1,20 @@
+{
+  "body": "rgb(237, 242, 248)",
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/chrome-preview/sample-shell.css"
+  ],
+  "surfaces": [
+    {
+      "background": "rgb(237, 242, 248)",
+      "classes": "x-tab-bar x-docked x-tab-bar-default x-horizontal x-tab-bar-horizontal x-tab-bar-default-horizontal x-top x-tab-bar-top x-tab-bar-default-top x-docked-top x-tab-bar-docked-top x-tab-bar-default-docked-top x-docked-noborder-top x-docked-noborder-right x-docked-noborder-left",
+      "height": 26
+    },
+    {
+      "background": "rgb(237, 242, 248)",
+      "classes": "x-toolbar x-docked x-toolbar-default x-docked-top x-toolbar-docked-top x-toolbar-default-docked-top x-box-layout-ct",
+      "height": 27
+    }
+  ]
+}

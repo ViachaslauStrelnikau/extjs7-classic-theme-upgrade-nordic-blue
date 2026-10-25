@@ -1,0 +1,7 @@
+/* Candidate paint: only root Border Viewport chrome, no WGR-specific selectors. */
+html[data-chrome-study="unified"] body.x-border-layout-ct{background-color:#edf2f8}
+html[data-chrome-study="unified"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+html[data-chrome-study="unified"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top{background-color:#edf2f8;background-image:none;border-color:#edf2f8}
+html[data-chrome-study="unified"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-bar-strip-default{background-color:#edf2f8;border-color:#edf2f8}
+html[data-chrome-study="unified"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active{background-color:#edf2f8}
+html[data-chrome-study="unified"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body{border-color:#edf2f8}

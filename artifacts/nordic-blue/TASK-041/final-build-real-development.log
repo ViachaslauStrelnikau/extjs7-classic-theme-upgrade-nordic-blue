@@ -1,0 +1,42 @@
+Sencha Cmd v7.7.0.36
+[INF] Processing Build Descriptor : default (development environment)
+[INF] Loading compiler context
+[INF] Loading app json manifest...
+[INF] Appending content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-acceptance\contrast\bootstrap.js
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-acceptance\contrast\bootstrap.json
+[INF] Processing data with ClosureCompressor
+[INF] JavaScript input level is NEXT and output level is ES5
+[INF] Writing concatenated output to file D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\app.js
+[INF] merging 746 input resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\resources
+[INF] merged 1 resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\resources
+[INF] merging 16 input resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development
+[INF] merged 1 resources into D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\slicer-temp\bootstrap.json
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\slicer-temp\bootstrap.js
+[INF] writing sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\sass\TestApp-all.scss.tmp
+[INF] appending sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\sass\TestApp-all.scss.tmp
+[INF] appending sass content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\sass\TestApp-all.scss.tmp
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\app.json
+[LOG] Fashion build starting for D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\sass\TestApp-all.scss
+[WRN] @theme-background-image: Theme image not found: images/tab/tab-navigation-close.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-more.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-more-left.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-top.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-top.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-left-bottom.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-right-bottom.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-left.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-left.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-top-right.gif
+[WRN] @theme-background-image: Theme image not found: images/tab-bar/navigation-scroll-bottom-right.gif
+[LOG] Fashion build complete for D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\temp\development\TestApp\sass\TestApp-all.scss
+[LOG] Fashion build completed in 1.752 sec.
+[INF] Appending content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-acceptance\contrast\bootstrap.js
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\theme-acceptance\contrast\bootstrap.json
+[INF] Copying page resources to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\app.json
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\microloader.js
+[INF] Appending content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\microloader.js
+[INF] Building output markup to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp/build/theme-acceptance/contrast/development/index.html
+[INF] Writing content to D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\TestApp\build\theme-acceptance\contrast\development\index.html
+

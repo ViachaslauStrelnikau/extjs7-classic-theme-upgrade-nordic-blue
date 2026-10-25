@@ -86,3 +86,5 @@
 [TASK-039](tasks/TASK-039.md) — DONE: child1.3.0 color+3px stripe и одобренные линии дерева, parent1.0.2.6final builds/resource SHA PASS, compiled view; полная новая регрессия не запускалась.
 
 [TASK-040](tasks/TASK-040.md) — DONE как native demo единого верхнего фона с Classic reference. Выбор ожидается, пакеты/WGR не менялись.
+
+[TASK-041](tasks/TASK-041.md) — DONE: одобренный единый верхний фон включён в child1.4.0;6builds/3lints/648SHAx6/manual compiled+Classic view. WGR/parents неизменны, полной новой регрессии нет.

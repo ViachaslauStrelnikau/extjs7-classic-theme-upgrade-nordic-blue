@@ -109,3 +109,11 @@ html:root .x-grid-cell-focused { outline:none; }
 /* Keyboard focus remains a separate, single-cell affordance; selection itself has no frame. */
 html:root .x-keyboard-mode .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }
 html:root .x-grid-item-selected .x-grid-cell-first { box-shadow:inset 3px 0 0 #3275d6; }
+
+/* TASK-041: approved unified root Viewport chrome; theme-only paint. */
+:root body.x-border-layout-ct{background-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top{background-color:#edf2f8;background-image:none;border-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-bar-strip-default{background-color:#edf2f8;border-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active{background-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body{border-color:#edf2f8}
