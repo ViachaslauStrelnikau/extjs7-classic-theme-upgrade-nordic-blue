@@ -84,3 +84,5 @@
 [TASK-038](tasks/TASK-038.md) — DONE: два preview без рамки (цвет / цвет+левая полоса3px), tall/business строки просмотрены. Выбор ожидается; production1.2.0 не менялся.
 
 [TASK-039](tasks/TASK-039.md) — DONE: child1.3.0 color+3px stripe и одобренные линии дерева, parent1.0.2.6final builds/resource SHA PASS, compiled view; полная новая регрессия не запускалась.
+
+[TASK-040](tasks/TASK-040.md) — DONE как native demo единого верхнего фона с Classic reference. Выбор ожидается, пакеты/WGR не менялись.

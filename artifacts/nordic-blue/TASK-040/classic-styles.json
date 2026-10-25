@@ -1,0 +1,9 @@
+{
+  "body": "rgb(223, 232, 246)",
+  "styles": [
+    "http://127.0.0.1:51754/theme-lab/sdk/build/classic/theme-classic/resources/theme-classic-all-debug.css",
+    "http://127.0.0.1:51754/chrome-preview/sample-shell.css"
+  ],
+  "tabCount": 1,
+  "toolbarCount": 1
+}
