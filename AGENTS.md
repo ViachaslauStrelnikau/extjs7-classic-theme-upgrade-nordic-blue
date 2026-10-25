@@ -183,3 +183,7 @@ User found TASK-022 too subtle and authorized a stronger preview. Current design
 ## Preview identity persistence fix (TASK-024)
 
 User reproduced candidate styles disappearing after initial display. reference.css stayed loaded but body.design-reference was lost because Ext maintains cached class maps and rewrites className. Design preview now scopes paint to owned html[data-nordic-preview="reference"], assigned before SDK load. Never reintroduce direct body classList writes for variant identity. No observers/polling/SDK overrides.5observed paint checkpoints across mouse/keyboard/window/reloads/motion-toggle retain actual differing colors/field texture/tab paint;253normal metric pairs equal. TASK-022/023 equal geometry alone did not establish stable candidate paint. See TASK-024 report for corrected scope; historical evidence unchanged. Package and motion API acceptance are not part of this fix.
+
+## Preview column headers (TASK-025)
+
+User requested stronger distinction between column headings and data rows. Preview reference.css now uses #deebfa header fill, #ccdef5 hover and a narrow inset lower separator with unchanged typography/boxes. Actual2column rect/font pairs equal current Soft; evidence TASK-025. Demo-only, not package integration; keep html attribute scope from TASK-024.

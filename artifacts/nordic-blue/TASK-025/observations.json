@@ -1,0 +1,60 @@
+[
+  {
+    "variant": "current",
+    "headers": [
+      {
+        "color": "rgb(48, 74, 104)",
+        "fill": "rgb(232, 239, 248)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "rect": [
+          17,
+          362,
+          275,
+          22
+        ],
+        "separator": "none"
+      },
+      {
+        "color": "rgb(48, 74, 104)",
+        "fill": "rgb(232, 239, 248)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "rect": [
+          292,
+          362,
+          108,
+          22
+        ],
+        "separator": "none"
+      }
+    ]
+  },
+  {
+    "variant": "reference",
+    "headers": [
+      {
+        "color": "rgb(36, 70, 109)",
+        "fill": "rgb(222, 235, 250)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "rect": [
+          17,
+          362,
+          275,
+          22
+        ],
+        "separator": "rgb(169, 193, 223) 0px -1px 0px 0px inset"
+      },
+      {
+        "color": "rgb(36, 70, 109)",
+        "fill": "rgb(222, 235, 250)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "rect": [
+          292,
+          362,
+          108,
+          22
+        ],
+        "separator": "rgb(169, 193, 223) 0px -1px 0px 0px inset"
+      }
+    ]
+  }
+]
