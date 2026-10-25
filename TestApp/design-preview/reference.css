@@ -26,8 +26,8 @@ html[data-nordic-preview="reference"] .x-form-trigger-wrap-focus { border-color:
 /* Error wins over focused paint; icon/trigger resources remain inherited. */
 html[data-nordic-preview="reference"] .x-form-trigger-wrap-invalid { border-color:#c55b67; box-shadow:inset 0 0 0 1px #c55b67; }
 html[data-nordic-preview="reference"] .x-grid-header-ct,
-html[data-nordic-preview="reference"] .x-column-header { background-color:#deebfa; background-image:none; border-color:#b3c9e6; color:#24466d; }
-html[data-nordic-preview="reference"] .x-column-header-over { background-color:#ccdef5; background-image:none; }
+html[data-nordic-preview="reference"] .x-column-header { background-color:#f4f6f9; background-image:none; border-color:#e1e7ef; color:#304a68; }
+html[data-nordic-preview="reference"] .x-column-header-over { background-color:#e8eff8; background-image:none; }
 html[data-nordic-preview="reference"] .x-grid-body { border-color:#d9e2ed; }
 html[data-nordic-preview="reference"] .x-grid-cell { border-color:#edf0f5; background-color:#fff; color:#25374d; }
 html[data-nordic-preview="reference"] .x-grid-item-alt .x-grid-cell { background-color:#fafbfd; }
@@ -51,7 +51,8 @@ html[data-nordic-preview="reference"] .x-boundlist-selected { background-color:#
 
 /* Remove only the inherited field background texture; retain invalid-state artwork. */
 html[data-nordic-preview="reference"] .x-form-text-default:not(.x-form-invalid-field):not(.x-form-invalid-field-default) { background-image:none; }
-html[data-nordic-preview="reference"] .x-column-header { border-right-color:#bfd1e8; box-shadow:inset 0 -1px 0 #a9c1df; }
+html[data-nordic-preview="reference"] .x-column-header { border-right-color:#d9e2ed; box-shadow:inset 0 -1px 0 #cbd6e3; }
+html[data-nordic-preview="reference"] .x-column-header-first { box-shadow:inset 3px 0 0 #3275d6,inset 0 -1px 0 #cbd6e3; }
 html[data-nordic-preview="reference"] .x-grid-item-selected .x-grid-cell:first-child { box-shadow:inset 3px 0 0 #3275d6; }
 html[data-nordic-preview="reference"] .x-grid-item-selected .x-grid-cell-focused:first-child { box-shadow:inset 3px 0 0 #3275d6,inset 0 0 0 1px #3275d6; }
 html[data-nordic-preview="reference"] .x-tab-bar-strip-default { background-color:#e1e7ef; border-color:#e1e7ef; }

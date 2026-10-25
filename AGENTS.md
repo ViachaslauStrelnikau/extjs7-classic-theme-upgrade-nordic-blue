@@ -187,3 +187,7 @@ User reproduced candidate styles disappearing after initial display. reference.c
 ## Preview column headers (TASK-025)
 
 User requested stronger distinction between column headings and data rows. Preview reference.css now uses #deebfa header fill, #ccdef5 hover and a narrow inset lower separator with unchanged typography/boxes. Actual2column rect/font pairs equal current Soft; evidence TASK-025. Demo-only, not package integration; keep html attribute scope from TASK-024.
+
+## Header design refinement (TASK-026)
+
+Latest user direction supersedes TASK-025 blue fill: column headings use tab-bar #f4f6f9 with a3px blue inset on actual .x-column-header-first, matching panel accent. Narrow preview-only change; no font/box changes. TASK-026 records actual matching computed fills and screenshot. Keep owned html scope and prior production gates.

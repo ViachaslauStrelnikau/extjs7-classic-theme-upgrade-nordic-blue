@@ -56,3 +56,5 @@
 [TASK-024](tasks/TASK-024.md) — DONE: исправлено исчезновение preview paint из-за body class cache Ext. Собственный html attribute,5paint checkpoints и253normal metric pairs; предыдущая геометрия не доказывала устойчивость оформления.
 
 [TASK-025](tasks/TASK-025.md) — DONE: в preview названия колонок выделены голубой заливкой и нижней линией; размеры/шрифт сохранены, пакет не менялся.
+
+[TASK-026](tasks/TASK-026.md) — DONE: по отзыву фон названий колонок согласован с вкладками (#f4f6f9), слева добавлен синий inset3px. Только preview.

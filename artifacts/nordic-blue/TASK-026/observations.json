@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "fill": "rgb(244, 246, 249)",
+      "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+      "height": 22,
+      "shadow": "rgb(50, 117, 214) 3px 0px 0px 0px inset, rgb(203, 214, 227) 0px -1px 0px 0px inset"
+    },
+    {
+      "fill": "rgb(244, 246, 249)",
+      "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+      "height": 22,
+      "shadow": "rgb(203, 214, 227) 0px -1px 0px 0px inset"
+    }
+  ],
+  "tabFill": "rgb(244, 246, 249)"
+}
