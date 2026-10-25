@@ -1,0 +1,112 @@
+[
+  {
+    "step": "after-reload",
+    "current": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(232, 239, 248)",
+      "input": "url(\"http://127.0.0.1:51754/build/theme-soft/testing/resources/images/form/text-bg.gif\")",
+      "primary": "rgba(0, 0, 0, 0)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(255, 255, 255) 0px 1px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset",
+      "variant": "current"
+    },
+    "reference": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(255, 255, 255)",
+      "input": "none",
+      "primary": "rgb(50, 117, 214)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "variant": "reference"
+    },
+    "different": true
+  },
+  {
+    "step": "after-mouse-tab-and-keyboard",
+    "current": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(232, 239, 248)",
+      "input": "url(\"http://127.0.0.1:51754/build/theme-soft/testing/resources/images/form/text-bg.gif\")",
+      "primary": "rgba(0, 0, 0, 0)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(255, 255, 255) 0px 1px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset",
+      "variant": "current"
+    },
+    "reference": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(255, 255, 255)",
+      "input": "none",
+      "primary": "rgb(50, 117, 214)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "variant": "reference"
+    },
+    "different": true
+  },
+  {
+    "step": "after-window-focus-cycle",
+    "current": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(232, 239, 248)",
+      "input": "url(\"http://127.0.0.1:51754/build/theme-soft/testing/resources/images/form/text-bg.gif\")",
+      "primary": "rgba(0, 0, 0, 0)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(255, 255, 255) 0px 1px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset",
+      "variant": "current"
+    },
+    "reference": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(255, 255, 255)",
+      "input": "none",
+      "primary": "rgb(50, 117, 214)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "variant": "reference"
+    },
+    "different": true
+  },
+  {
+    "step": "after-motion-enabled-reload",
+    "current": {
+      "bodyClass": "x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller nb-soft-motion",
+      "header": "rgb(232, 239, 248)",
+      "input": "url(\"http://127.0.0.1:51754/build/theme-soft/testing/resources/images/form/text-bg.gif\")",
+      "primary": "rgba(0, 0, 0, 0)",
+      "status": "Ext JS 7.7 · Интерактивный просмотр",
+      "tab": "rgb(255, 255, 255) 0px 1px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset",
+      "variant": "current"
+    },
+    "reference": {
+      "bodyClass": "x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(255, 255, 255)",
+      "input": "none",
+      "primary": "rgb(50, 117, 214)",
+      "status": "Ext JS 7.7 · Интерактивный просмотр",
+      "tab": "rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "variant": "reference"
+    },
+    "different": true
+  },
+  {
+    "step": "after-motion-disabled-reload",
+    "current": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(232, 239, 248)",
+      "input": "url(\"http://127.0.0.1:51754/build/theme-soft/testing/resources/images/form/text-bg.gif\")",
+      "primary": "rgba(0, 0, 0, 0)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(255, 255, 255) 0px 1px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset",
+      "variant": "current"
+    },
+    "reference": {
+      "bodyClass": "nb-motion-off x-webkit x-chrome x-windows x-desktop x-body x-keyboard-mode x-scroller",
+      "header": "rgb(255, 255, 255)",
+      "input": "none",
+      "primary": "rgb(50, 117, 214)",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "tab": "rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "variant": "reference"
+    },
+    "different": true
+  }
+]

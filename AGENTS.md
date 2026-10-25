@@ -179,3 +179,7 @@ User authorized preparation of a visual comparison, not final adoption of the re
 ## Expressive preview v2 (TASK-023)
 
 User found TASK-022 too subtle and authorized a stronger preview. Current design-preview/reference.css is v2: white headers/toolbars, neutral grid, flat decorative field texture, inset selection accents and underlined tabs. Shared sample and package unchanged; no new icons/build.579observed pairs in4states show equal recorded metrics; raw DOM observations in TASK-023, not Classic release acceptance. Keep TASK-022 historical evidence. Await review of the actual v2 before production integration; retain all prior compatibility and approval gates.
+
+## Preview identity persistence fix (TASK-024)
+
+User reproduced candidate styles disappearing after initial display. reference.css stayed loaded but body.design-reference was lost because Ext maintains cached class maps and rewrites className. Design preview now scopes paint to owned html[data-nordic-preview="reference"], assigned before SDK load. Never reintroduce direct body classList writes for variant identity. No observers/polling/SDK overrides.5observed paint checkpoints across mouse/keyboard/window/reloads/motion-toggle retain actual differing colors/field texture/tab paint;253normal metric pairs equal. TASK-022/023 equal geometry alone did not establish stable candidate paint. See TASK-024 report for corrected scope; historical evidence unchanged. Package and motion API acceptance are not part of this fix.

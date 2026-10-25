@@ -1,4 +1,4 @@
-Ext.onReady(function(){'use strict';const q=new URLSearchParams(location.search),modern=true,candidate=false,root=document.getElementById('sample');document.body.classList.toggle('design-reference',modernPreview.variant==='reference');Ext.tip.QuickTipManager.init();NordicSoftMotion.enable(q.get('motion')!=='off');
+Ext.onReady(function(){'use strict';const q=new URLSearchParams(location.search),modern=true,candidate=false,root=document.getElementById('sample');Ext.tip.QuickTipManager.init();NordicSoftMotion.enable(q.get('motion')!=='off');
 function section(title){const wrap=document.createElement('section');wrap.className='demo-host';const heading=document.createElement('h2');heading.className='demo-heading';heading.textContent=title;const host=document.createElement('div');wrap.append(heading,host);root.append(wrap);return host}
 function keep(id,c){modernPreview.components[id]=c;return c}
 const menu=keep('menu',Ext.create('Ext.menu.Menu',{cls:'nb-demo-float',listeners:{afterrender:function(c){NordicSoftMotion.attach(c,{elevation:true});}},shadow:!modern,items:[{text:'Открыть документ'},{text:'Сохранить копию'},'-',{text:'Показывать архив',checked:true}]}));
