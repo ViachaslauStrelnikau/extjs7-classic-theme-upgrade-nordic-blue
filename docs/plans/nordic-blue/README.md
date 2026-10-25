@@ -48,3 +48,5 @@
 [TASK-020](tasks/TASK-020.md) — DONE: пользователь выбрал Nordic Soft, папки сделаны более квадратными. Кандидат v2 ожидает одобрения; выбор стиля повторно не запрашивать. Производственная интеграция ещё не выполнялась.
 
 [TASK-021](tasks/TASK-021.md) — DONE: отдельный подключаемый пакет Nordic Soft с одобренными папкамиv2 и opt-in motion.3browser versions×DPR1/2 geometry/function,3build modes/actual pages, reduced/manual motion и source handoff проверены. Исходная тема и её golden сохранены. Новая полная pixel-golden Soft отдельно не фиксировалась; SDK7.9 не проверен.
+
+[TASK-022](tasks/TASK-022.md) — DONE: отдельное сравнение текущего Nordic Soft и направления WGR-прототипа. 579 пар элементов в четырёх состояниях без измеренного drift; это не полная Classic приёмка. Новый вариант ожидает просмотра; пакет не изменён.

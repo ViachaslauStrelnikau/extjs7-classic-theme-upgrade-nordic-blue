@@ -1,0 +1,17 @@
+{
+  "scope": "TASK-022 demo source and existing compiled inputs",
+  "sha256": {
+    "TestApp/design-preview/boot.js": "e3e62d4b73731f71a2d56890db8102f4ace22f2d7d53b60e2861e44f6e7c76ee",
+    "TestApp/design-preview/index.html": "b19512916c26f20d87d7b0135cfe6b7f219830183bc307efd94b047478f1ec4e",
+    "TestApp/design-preview/README.md": "6ff7d8e5b7db4bde9f49dc119d8dbcff9ad353acfcdbfbf5cce52b5b1732c206",
+    "TestApp/design-preview/reference.css": "57452fb74d702f559a2442c9929393051665b2c4d881f83c5ee5cb0641543c11",
+    "TestApp/design-preview/sample-shell.css": "d2513dddf4883266d9ecf8fa83c122b412e4e0b05f4ca9d60376cc1de3e03b69",
+    "TestApp/design-preview/sample.html": "29c4725a4602200f5682390bf9871341d09e06c3c645633b92343d6a5e4c10c1",
+    "TestApp/design-preview/sample.js": "80922c0b8d15e68656e37c7c1a16feb83783ac2b5d63e1dd4caa3f3f7df76a46",
+    "TestApp/design-preview/shell.css": "19c1cfb41bfaa55c0c434d7d445a3bd608b5289e489f5c71c26b8a5a8c2a287f",
+    "docs/plans/nordic-blue/tasks/TASK-022.md": "8bacf59d86b76057980454c6fce2c9c6af852fba645f8531c92ce62706bf0e94",
+    "TestApp/build/theme-soft/testing/app.json": "2f4f54c0024c3d8ff28ffb343fc379ad72c902351ef826a4c74ce830d6d4f554",
+    "TestApp/build/theme-soft/testing/resources/NordicThemeLab-all.css": "9f760611ec73f6968668dfd0a582b980084eae75f83ee7373a2261fb8239754f",
+    "TestApp/build/theme-soft/testing/resources/soft-motion.js": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce"
+  }
+}

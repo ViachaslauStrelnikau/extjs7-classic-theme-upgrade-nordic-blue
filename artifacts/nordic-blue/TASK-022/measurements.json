@@ -1,0 +1,33 @@
+{
+  "scope": "Prototype comparison only: current built Nordic Soft versus CSS candidate; not Classic acceptance",
+  "states": [
+    {
+      "state": "normal",
+      "selector": "#sample *",
+      "currentCount": 253,
+      "referenceCount": 253,
+      "diffs": []
+    },
+    {
+      "state": "selected-row-history-tab",
+      "selector": "#sample *",
+      "currentCount": 258,
+      "referenceCount": 258,
+      "diffs": []
+    },
+    {
+      "state": "window-open",
+      "selector": ".x-window, .x-window *",
+      "currentCount": 51,
+      "referenceCount": 51,
+      "diffs": []
+    },
+    {
+      "state": "menu-open",
+      "selector": ".x-menu, .x-menu *",
+      "currentCount": 17,
+      "referenceCount": 17,
+      "diffs": []
+    }
+  ]
+}
