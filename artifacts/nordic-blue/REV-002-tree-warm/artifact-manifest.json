@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "approval.json",
+      "bytes": 242,
+      "sha256": "c13026510448a88a7a249308de9e2e80e00d67bd5475c27c02e013547f6c69c8"
+    },
+    {
+      "path": "candidate-manifest.json",
+      "bytes": 6026,
+      "sha256": "d289fb94204b7cbdd39555b766232194b349fd3bd83a6070cb9f40e5d36b7def"
+    },
+    {
+      "path": "catalog-preview.png",
+      "bytes": 32905,
+      "sha256": "5a571eb6fc60de54ce80bb6d13da44f6fb39fca1aac79b17f866f3cd2f066fd0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1422,
+      "sha256": "a59091ac05bccc5dd375ecc2ab14c8f11dea06eefedbae3a74c47ac3cb7378ed"
+    },
+    {
+      "path": "runtime-preview.png",
+      "bytes": 6669,
+      "sha256": "00cc82ac7e1d4ddd9be4769a1c887ed0549a6ca8991855a0401d27268bbccf50"
+    },
+    {
+      "path": "user-reference.png",
+      "bytes": 13028,
+      "sha256": "77f44783da88575991c922ac06cd5615d58dd74230723ce53e7915f566d62c15"
+    }
+  ]
+}

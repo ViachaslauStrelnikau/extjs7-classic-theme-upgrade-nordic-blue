@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "prepare_modern_preview.py",
+      "bytes": 2569,
+      "sha256": "d1ce01f5c30fe471961c7f01b97cc4c9ae7b2065f43ee24f658c07d4b6b9a010"
+    },
+    {
+      "path": "preview-report.md",
+      "bytes": 2562,
+      "sha256": "b56b81e2748a9dd2499108df484c153b535d71c8af2dd9605592745f0d1c99ff"
+    },
+    {
+      "path": "protected-before.json",
+      "bytes": 109243,
+      "sha256": "774ce698c707e570ccdaddc044700561c0819604ef76c45cc371ffc0dbd51c71"
+    },
+    {
+      "path": "render-info.json",
+      "bytes": 458,
+      "sha256": "2fafdb653d23800f5c1cfd89a5b696652ca2ff63bf59710b8daa6511d5382935"
+    },
+    {
+      "path": "render-preview.cjs",
+      "bytes": 2622,
+      "sha256": "2c2d097e8f3706f0e7a05d51aed971d84660e21edeb175945497c75b53ad6b8b"
+    },
+    {
+      "path": "source-integrity.json",
+      "bytes": 201,
+      "sha256": "391fc53ed5ba024567c850586eab7023ef154f9c2a4214df94f1139045f0dd65"
+    },
+    {
+      "path": "tree-icons.png",
+      "bytes": 32905,
+      "sha256": "5a571eb6fc60de54ce80bb6d13da44f6fb39fca1aac79b17f866f3cd2f066fd0"
+    },
+    {
+      "path": "tree-runtime.png",
+      "bytes": 6669,
+      "sha256": "00cc82ac7e1d4ddd9be4769a1c887ed0549a6ca8991855a0401d27268bbccf50"
+    },
+    {
+      "path": "variants.png",
+      "bytes": 76200,
+      "sha256": "4c8a7b48c01c28c9f10c38bc31a5f53d5fc7a7dad997c8dbde6ed1247f25e860"
+    },
+    {
+      "path": "windows.png",
+      "bytes": 91141,
+      "sha256": "9e21440d9b3155c5949851dc69ba376d0e0589a2800f42e23e79fad01f830469"
+    }
+  ]
+}

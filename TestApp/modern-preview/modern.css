@@ -1,0 +1,16 @@
+/* Preview-only paint layer. No layout, font, image box, sprite offset or Ext override changes. */
+.nb-modern .nb-demo-float{box-shadow:0 5px 16px rgba(37,55,77,.16)}
+.nb-modern .x-panel-default{border-color:#b7c8dc}
+.nb-modern .x-panel-header-default{border-color:#b7c8dc}
+.nb-modern .x-grid-header-ct{border-color:#b7c8dc}
+.nb-modern .x-btn-focus,.nb-modern .x-form-focus,.nb-modern .x-tab-focus{outline-color:#3275d6}
+/* Existing Ext shadow is switched off only for preview-owned floating components. */
+.nb-motion .x-btn,.nb-motion .x-btn-inner,.nb-motion .x-form-field,.nb-motion .x-form-trigger,.nb-motion .x-grid-cell,.nb-motion .x-tab,.nb-motion .x-tab-inner{transition-property:background-color,border-color,color;transition-duration:120ms;transition-timing-function:ease-out}
+.nb-motion .x-btn-focus,.nb-motion .x-form-focus,.nb-motion .x-tab-focus{transition-duration:0ms}
+.nb-motion .nb-demo-float{animation:nb-appear 150ms ease-out both}
+@keyframes nb-appear{from{opacity:.35}to{opacity:1}}
+.nb-soft .x-btn,.nb-soft .x-form-text,.nb-soft .x-boundlist,.nb-soft .x-menu{border-radius:3px}
+.nb-soft .x-window{border-radius:4px}
+.nb-motion-off .x-btn,.nb-motion-off .x-btn-inner,.nb-motion-off .x-form-field,.nb-motion-off .x-form-trigger,.nb-motion-off .x-grid-cell,.nb-motion-off .x-tab,.nb-motion-off .x-tab-inner{transition-duration:0ms}
+.nb-motion-off .nb-demo-float{animation:none}
+@media(prefers-reduced-motion:reduce){.nb-motion .x-btn,.nb-motion .x-btn-inner,.nb-motion .x-form-field,.nb-motion .x-form-trigger,.nb-motion .x-grid-cell,.nb-motion .x-tab,.nb-motion .x-tab-inner{transition-duration:0ms}.nb-motion .nb-demo-float{animation:none}}

@@ -1,0 +1,8 @@
+{
+  "status": "WAITING_USER_APPROVAL",
+  "version": "nordic-tree-warm-v1",
+  "manifestSha256": "d289fb94204b7cbdd39555b766232194b349fd3bd83a6070cb9f40e5d36b7def",
+  "decision": null,
+  "approvedAt": null,
+  "runtimeIntegrated": false
+}

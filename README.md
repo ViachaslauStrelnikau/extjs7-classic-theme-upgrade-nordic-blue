@@ -67,3 +67,7 @@ TASK-016 passed actual development/testing/production pages in Edge155, Chromium
 ## Поставка и откат
 
 [Установка/возврат к Classic](docs/nordic-blue-installation.md), [release notes и ограничения](docs/nordic-blue-release-notes.md), [итоговый receipt/контрольные суммы](artifacts/nordic-blue/TASK-017/FINAL-RECEIPT.md). Source-архив включает принятый пакет, SVG masters, notices, manifest/approval, palette/config и report summaries; SDK/compiled apps/Classic reference assets не входят. Новая лицензия artwork владельцем ещё не назначена. Архивы локальные; recipe и manifest сохранены в Git. Для воспроизведения: `python tools/nordic-blue-release.py --output artifacts/nordic-blue/release-new-run` (новая папка).
+
+## Варианты модернизации (предварительный просмотр)
+
+Стенд Refined/Motion/Soft с текущей темой для сравнения: `node TestApp/modern-preview/serve.cjs`, затем http://127.0.0.1:51754/modern-preview/index.html . [Описание](TestApp/modern-preview/README.md), [TASK-019](artifacts/nordic-blue/TASK-019/preview-report.md). Предложены жёлтые папки и синие документы по начальному эскизу; новые artwork/вариант требуют выбора и одобрения. Это отдельный прототип, не замена принятого исходного пакета7.7.

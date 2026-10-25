@@ -1,0 +1,193 @@
+{
+  "version": "nordic-tree-warm-v1",
+  "status": "WAITING_USER_APPROVAL",
+  "integrationEnabled": false,
+  "currentApprovedConfig": "config/nordic-blue-icons.json",
+  "basis": "User 2026-10-25 prefers warm folder icons and blue leaf/document distinction in attached initial sketch. Newly drawn SVG contours; no copied SDK bitmap in candidates.",
+  "physicalSize": "16×16 CSS pixels at DPR1/2; SVG also renders at higher density without increasing CSS size.",
+  "entries": [
+    {
+      "name": "folder",
+      "master": "TestApp/modern-preview/icons/folder.svg",
+      "masterSha256": "562f168d1e3d42c3231b3aadd7515f292b2c4be7fa5861cdd19e02ca8f4f4ff2",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons/folder@1x.png",
+          "sha256": "036d589b14ef695b0f713ff09fa0008b1c5c657d02abf9bd48219a75a017e537",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons/folder@2x.png",
+          "sha256": "5f23d716817bf64f95b3bcb116e34e9522f1399fe9e1664c638001dd1c3ec429",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder.gif"
+      ]
+    },
+    {
+      "name": "folder-open",
+      "master": "TestApp/modern-preview/icons/folder-open.svg",
+      "masterSha256": "5322bebbb16a4186eb9f0e4ff51b2618cd181c3612aac61e63ce6c8268f893af",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons/folder-open@1x.png",
+          "sha256": "9635cc8b7ac9f0632bdaf61084b826e581f1fcdf5b00a1271065c9364646d0e4",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons/folder-open@2x.png",
+          "sha256": "8e1ce0414c931372671084e96bda071ed8d8977517a581cb551364500500ec17",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder-open.gif"
+      ]
+    },
+    {
+      "name": "folder-rtl",
+      "master": "TestApp/modern-preview/icons/folder-rtl.svg",
+      "masterSha256": "ad80df90ee1f0eac963828cbeb60c424f454f8727206761278b8fb92023b38a7",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons/folder-rtl@1x.png",
+          "sha256": "1651eda68f1ae1c571a81d42d96fb783ac83183bccef650bc72501ba733c4bd1",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons/folder-rtl@2x.png",
+          "sha256": "1d0187a22a39609fd9561ef9eaed19e8a20f126524904994f2eb433d84a7c18b",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder-rtl.gif"
+      ]
+    },
+    {
+      "name": "folder-open-rtl",
+      "master": "TestApp/modern-preview/icons/folder-open-rtl.svg",
+      "masterSha256": "45b200f0dc69b1b5eb93c6d05d1780d80b165949be48f29772675bb9c7dcbe2d",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons/folder-open-rtl@1x.png",
+          "sha256": "168cf7f44b50ad0b58efc120a578dc0d73e9ae1c5c66bb6d86d19581d06dd3a5",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons/folder-open-rtl@2x.png",
+          "sha256": "69a27ba557b6d6fefbe25b5fe268f1806d686e07857c5998748f5c24d5bf8f04",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder-open-rtl.gif"
+      ]
+    },
+    {
+      "name": "leaf",
+      "master": "TestApp/modern-preview/icons/leaf.svg",
+      "masterSha256": "01c286f772826b5e3e8d22b3dc466a746e62e1e9ea753626c35cf591797bb15d",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons/leaf@1x.png",
+          "sha256": "4fab5965e47c8c048ab2681a0ceb7de5e79ee98e72f45ad6a6d98dbbd13c4d12",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons/leaf@2x.png",
+          "sha256": "3070ed42e8179c72ed147e39c37f76373ad8ec860372ac149005d262815851e2",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/leaf.gif",
+        "images/tree/leaf-rtl.gif"
+      ]
+    }
+  ],
+  "scope": "Prototype only. Existing production GIF/PNG paths, metrics, images, approvals and goldens unchanged. Production GIF fallbacks and integration must be prepared after artwork approval. Both leaf and leaf-rtl are proposed to use the same upright document drawing.",
+  "approvalRequired": "Explicit user approval of this version/manifest SHA before production integration."
+}
