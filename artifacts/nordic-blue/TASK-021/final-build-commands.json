@@ -1,0 +1,74 @@
+[
+  {
+    "scope": "lab",
+    "mode": "testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "testing"
+    ],
+    "cwd": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\soft-lab",
+    "exitCode": 0
+  },
+  {
+    "scope": "lab",
+    "mode": "development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "development"
+    ],
+    "cwd": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\soft-lab",
+    "exitCode": 0
+  },
+  {
+    "scope": "lab",
+    "mode": "production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "production"
+    ],
+    "cwd": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\soft-lab",
+    "exitCode": 0
+  },
+  {
+    "scope": "real",
+    "mode": "testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "testing"
+    ],
+    "cwd": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\soft",
+    "exitCode": 0
+  },
+  {
+    "scope": "real",
+    "mode": "development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "development"
+    ],
+    "cwd": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\soft",
+    "exitCode": 0
+  },
+  {
+    "scope": "real",
+    "mode": "production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "production"
+    ],
+    "cwd": "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\TestApp\\theme-acceptance\\soft",
+    "exitCode": 0
+  }
+]

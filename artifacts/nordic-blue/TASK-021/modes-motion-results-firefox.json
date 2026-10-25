@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "browser": "152.0.4",
+  "results": [
+    {
+      "mode": "testing",
+      "dpr": 1,
+      "status": "PASS",
+      "resourceShaCount": 648,
+      "checks": [
+        "actual compiled index/manifest/SDK",
+        "cache reload",
+        "150ms opacity-only appearance",
+        "stable rect throughout animation",
+        "preserve authored opacity .6",
+        "Escape/hide",
+        "repeat show",
+        "system motion reduction cancels running animation",
+        "reduced show has no animation",
+        "manual off",
+        "detach/destroy"
+      ],
+      "errors": [],
+      "bad": []
+    },
+    {
+      "mode": "testing",
+      "dpr": 2,
+      "status": "PASS",
+      "resourceShaCount": 648,
+      "checks": [
+        "actual compiled index/manifest/SDK",
+        "cache reload",
+        "150ms opacity-only appearance",
+        "stable rect throughout animation",
+        "preserve authored opacity .6",
+        "Escape/hide",
+        "repeat show",
+        "system motion reduction cancels running animation",
+        "reduced show has no animation",
+        "manual off",
+        "detach/destroy"
+      ],
+      "errors": [],
+      "bad": []
+    },
+    {
+      "mode": "development",
+      "dpr": 1,
+      "status": "PASS",
+      "resourceShaCount": 648,
+      "checks": [
+        "actual compiled index/manifest/SDK",
+        "cache reload",
+        "150ms opacity-only appearance",
+        "stable rect throughout animation",
+        "preserve authored opacity .6",
+        "Escape/hide",
+        "repeat show",
+        "system motion reduction cancels running animation",
+        "reduced show has no animation",
+        "manual off",
+        "detach/destroy"
+      ],
+      "errors": [],
+      "bad": []
+    },
+    {
+      "mode": "development",
+      "dpr": 2,
+      "status": "PASS",
+      "resourceShaCount": 648,
+      "checks": [
+        "actual compiled index/manifest/SDK",
+        "cache reload",
+        "150ms opacity-only appearance",
+        "stable rect throughout animation",
+        "preserve authored opacity .6",
+        "Escape/hide",
+        "repeat show",
+        "system motion reduction cancels running animation",
+        "reduced show has no animation",
+        "manual off",
+        "detach/destroy"
+      ],
+      "errors": [],
+      "bad": []
+    },
+    {
+      "mode": "production",
+      "dpr": 1,
+      "status": "PASS",
+      "resourceShaCount": 648,
+      "checks": [
+        "actual compiled index/manifest/SDK",
+        "cache reload",
+        "150ms opacity-only appearance",
+        "stable rect throughout animation",
+        "preserve authored opacity .6",
+        "Escape/hide",
+        "repeat show",
+        "system motion reduction cancels running animation",
+        "reduced show has no animation",
+        "manual off",
+        "detach/destroy"
+      ],
+      "errors": [],
+      "bad": []
+    },
+    {
+      "mode": "production",
+      "dpr": 2,
+      "status": "PASS",
+      "resourceShaCount": 648,
+      "checks": [
+        "actual compiled index/manifest/SDK",
+        "cache reload",
+        "150ms opacity-only appearance",
+        "stable rect throughout animation",
+        "preserve authored opacity .6",
+        "Escape/hide",
+        "repeat show",
+        "system motion reduction cancels running animation",
+        "reduced show has no animation",
+        "manual off",
+        "detach/destroy"
+      ],
+      "errors": [],
+      "bad": []
+    }
+  ]
+}

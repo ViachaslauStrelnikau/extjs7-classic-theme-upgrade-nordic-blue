@@ -1,0 +1,35 @@
+[
+  {
+    "mode": "testing",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "testing"
+    ],
+    "cwd": "TestApp/soft-lab",
+    "exitCode": 0
+  },
+  {
+    "mode": "development",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "development"
+    ],
+    "cwd": "TestApp/soft-lab",
+    "exitCode": 0
+  },
+  {
+    "mode": "production",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "production"
+    ],
+    "cwd": "TestApp/soft-lab",
+    "exitCode": 0
+  }
+]

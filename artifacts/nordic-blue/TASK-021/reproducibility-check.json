@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "sha256": "f84da9fe88ac9bc5ccda9859c175758aa853f52f632ab156a151babfc7c8234b",
+  "bytes": 1328495,
+  "payloadFiles": 920,
+  "runs": [
+    "source-release",
+    "source-release-repeat"
+  ],
+  "verification": "Both ZIPs and every entry/CRC match exact current source bytes; fixed timestamps/order/permissions/compression. ZIPs are local/gitignored; recipe and input files are versioned."
+}

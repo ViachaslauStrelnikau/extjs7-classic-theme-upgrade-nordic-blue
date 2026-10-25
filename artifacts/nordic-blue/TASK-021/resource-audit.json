@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "builtOutputs": [
+    {
+      "scope": "theme-soft",
+      "mode": "testing",
+      "resourceShaCount": 648,
+      "optionalModuleSha256": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce",
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-soft",
+      "mode": "development",
+      "resourceShaCount": 648,
+      "optionalModuleSha256": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce",
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-soft",
+      "mode": "production",
+      "resourceShaCount": 648,
+      "optionalModuleSha256": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce",
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-acceptance/soft",
+      "mode": "testing",
+      "resourceShaCount": 648,
+      "optionalModuleSha256": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce",
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-acceptance/soft",
+      "mode": "development",
+      "resourceShaCount": 648,
+      "optionalModuleSha256": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce",
+      "status": "PASS"
+    },
+    {
+      "scope": "theme-acceptance/soft",
+      "mode": "production",
+      "resourceShaCount": 648,
+      "optionalModuleSha256": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce",
+      "status": "PASS"
+    }
+  ],
+  "gifFallbacks": [
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/tree/folder-open-rtl.gif",
+      "density": 1,
+      "bitmap": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "sha256": "3e9795842866b4763dd95e22f6d13f9fdb8d8ce53ed7874569992e9349f9e67c"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/tree/folder-open.gif",
+      "density": 1,
+      "bitmap": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "sha256": "04d12e57dbdc45c08d68138ab78921d658f316e806020191bb7e5447d5e54988"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/tree/folder-rtl.gif",
+      "density": 1,
+      "bitmap": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "sha256": "018bc1551df52599961f3149ce9b093ec77d5336d91ba07df515e3708c99aa9a"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/tree/folder.gif",
+      "density": 1,
+      "bitmap": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "sha256": "9bf5d6333f8184b4ea80f68d0d38307e5fa7a53a2edb265ccd7d2dc03350a933"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/tree/leaf-rtl.gif",
+      "density": 1,
+      "bitmap": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "sha256": "6327eb6158efa38ebe6bc0a05ee776355411e95045d7149c3016537a9783f59d"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/tree/leaf.gif",
+      "density": 1,
+      "bitmap": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "sha256": "6327eb6158efa38ebe6bc0a05ee776355411e95045d7149c3016537a9783f59d"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/@2x/tree/folder-open-rtl.gif",
+      "density": 2,
+      "bitmap": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "sha256": "f287812cc3dc2164f8225eae5e5d93179a420d0900dd5b28b54369915dc386c8"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/@2x/tree/folder-open.gif",
+      "density": 2,
+      "bitmap": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "sha256": "dff8a4b3202a80927f9e06bcfd078c27634699e92e1c73d2ab03a80756ed3545"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/@2x/tree/folder-rtl.gif",
+      "density": 2,
+      "bitmap": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "sha256": "387f1d393092e891af4278ffced9a6433705d912cfcfa650032dd94252eccd7b"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/@2x/tree/folder.gif",
+      "density": 2,
+      "bitmap": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "sha256": "2161cc0ad140d42d98fe8047e72bdd2aeaf1f395527741a73c271a95cfe6bf8c"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/@2x/tree/leaf-rtl.gif",
+      "density": 2,
+      "bitmap": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "sha256": "b5d421092374e2d1066c0d4e55bad530295649ba0792123997443dd14b699888"
+    },
+    {
+      "path": "TestApp/packages/local/theme-nordic-blue-soft/resources/images/@2x/tree/leaf.gif",
+      "density": 2,
+      "bitmap": [
+        32,
+        32
+      ],
+      "frames": 1,
+      "sha256": "b5d421092374e2d1066c0d4e55bad530295649ba0792123997443dd14b699888"
+    }
+  ]
+}

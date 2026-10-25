@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "dpr": 2,
+  "browser": "152.0.4",
+  "records": [
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "window-title-drag",
+      "path": "window-actions\\dpr-2\\classic\\window-title-drag.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "window-border-resize",
+      "path": "window-actions\\dpr-2\\classic\\window-border-resize.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "window-close-tool",
+      "path": "window-actions\\dpr-2\\classic\\window-close-tool.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "window-keyboard-escape",
+      "path": "window-actions\\dpr-2\\classic\\window-keyboard-escape.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-0",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-0.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-1",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-1.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-2",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-2.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-3",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-3.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-4",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-4.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-5",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-5.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-6",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-6.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-tab-7",
+      "path": "window-actions\\dpr-2\\classic\\modal-tab-7.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-reverse-tab",
+      "path": "window-actions\\dpr-2\\classic\\modal-reverse-tab.json",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "modal-escape",
+      "path": "window-actions\\dpr-2\\classic\\modal-escape.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "window-title-drag",
+      "path": "window-actions\\dpr-2\\nordic\\window-title-drag.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "window-border-resize",
+      "path": "window-actions\\dpr-2\\nordic\\window-border-resize.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "window-close-tool",
+      "path": "window-actions\\dpr-2\\nordic\\window-close-tool.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "window-keyboard-escape",
+      "path": "window-actions\\dpr-2\\nordic\\window-keyboard-escape.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-0",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-0.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-1",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-1.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-2",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-2.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-3",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-3.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-4",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-4.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-5",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-5.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-6",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-6.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-tab-7",
+      "path": "window-actions\\dpr-2\\nordic\\modal-tab-7.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-reverse-tab",
+      "path": "window-actions\\dpr-2\\nordic\\modal-reverse-tab.json",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "modal-escape",
+      "path": "window-actions\\dpr-2\\nordic\\modal-escape.json",
+      "passed": true
+    }
+  ]
+}

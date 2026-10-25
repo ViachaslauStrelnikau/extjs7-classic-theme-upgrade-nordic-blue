@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\artifacts\nordic-blue\TASK-021\regression\compare-browser.py", line 34, in <module>
+    result={'status':'PASS' if all(x['status']=='PASS' for x in rows) else 'FAIL','paintException':'Only declared3px control/menu and4px window corners, checked against actual selector ownership and exact compiled values. All other metric/state/offset/font checks unchanged.', 'baselinePolicy':'Fresh Classic/Nordic within the same actual browser and DPR; no cross-browser coordinate/font equivalence claim. Original Edge TASK-006 is immutable. Missing/count/state/duplicate checks remain exact.','browser':read(O/'browser-config.json'),'coveragePairs':204,'actionStatePairs':236,'additionalCoreFlows':20,'elementComparisons':sum(x['elements'] for x in rows),'results':rows}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\artifacts\nordic-blue\TASK-021\regression\compare-browser.py", line 4, in <lambda>
+    O=Path(__file__).parent;read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Damned\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Damned\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\artifacts\\nordic-blue\\TASK-021\\regression\\browser-config.json'

@@ -1,0 +1,21 @@
+{
+  "sdkVersion": "7.7.0.31",
+  "script": "../theme-lab/sdk/build/ext-all-debug.js",
+  "profiles": {
+    "classic": {
+      "manifest": "../theme-lab/classic-reference.json",
+      "allowedThemeNames": [
+        "ext-theme-classic",
+        "theme-classic"
+      ],
+      "requiredPackage": "theme-classic"
+    },
+    "nordic": {
+      "manifest": "../build/theme-soft/testing/app.json",
+      "allowedThemeNames": [
+        "theme-nordic-blue-soft"
+      ],
+      "requiredPackage": "theme-nordic-blue-soft"
+    }
+  }
+}

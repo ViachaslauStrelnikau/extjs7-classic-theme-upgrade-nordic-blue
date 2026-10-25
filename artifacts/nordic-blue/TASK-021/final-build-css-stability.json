@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "policy": "Final6Cmd builds include corrected optional opacity module. Compiled CSS bytes exactly match the earlier geometry capture inputs. All final module runtime checks occur after these builds.",
+  "css": {
+    "TestApp/build/theme-acceptance/soft/development/resources/TestApp-all.css": "ef7dd339c36de6ba6b9df18724b59af4ec1a8dab3e36cd1bb3619c02ac4a4f5d",
+    "TestApp/build/theme-acceptance/soft/development/resources/TestApp-all_1.css": "e19c6703e1e2c25d541cfc34933fa9bc6a072d95617196fae0fadfe301ac03df",
+    "TestApp/build/theme-acceptance/soft/development/resources/TestApp-all_2.css": "40eb90b09a35b37cb365a6d43dcd3528fe336ebdcdf689f288e040d64e0fbbad",
+    "TestApp/build/theme-acceptance/soft/production/resources/TestApp-all.css": "ef7dd339c36de6ba6b9df18724b59af4ec1a8dab3e36cd1bb3619c02ac4a4f5d",
+    "TestApp/build/theme-acceptance/soft/production/resources/TestApp-all_1.css": "be3e1c3216a248e98f2bbd8d7ed12180da82d87ba53b5d855d2b91861050784b",
+    "TestApp/build/theme-acceptance/soft/production/resources/TestApp-all_2.css": "92a5842848613b035f8464ebed6ad43ce56088c369c6c1f743f33790144e1bf7",
+    "TestApp/build/theme-acceptance/soft/testing/resources/TestApp-all.css": "ef7dd339c36de6ba6b9df18724b59af4ec1a8dab3e36cd1bb3619c02ac4a4f5d",
+    "TestApp/build/theme-acceptance/soft/testing/resources/TestApp-all_1.css": "2fb4f5474866ac83f52d77b280a70ec51d936712593bf5eb8c5de8ec1837203d",
+    "TestApp/build/theme-acceptance/soft/testing/resources/TestApp-all_2.css": "c308eb7cc012fb3977de099056f9a9c52586c41b31a6e00ddbd1dcf42cb8ce99",
+    "TestApp/build/theme-soft/development/resources/NordicThemeLab-all.css": "b322746d34f04ced9bdc686d43b75dc99d02cb65b6164c2a4d85abd6152d426c",
+    "TestApp/build/theme-soft/development/resources/NordicThemeLab-all_1.css": "e19c6703e1e2c25d541cfc34933fa9bc6a072d95617196fae0fadfe301ac03df",
+    "TestApp/build/theme-soft/development/resources/NordicThemeLab-all_2.css": "530de5700003a0a9ad2a79d1b4e1295eeaf9c8439d7f7f77afc9a4065725105b",
+    "TestApp/build/theme-soft/production/resources/NordicThemeLab-all.css": "fb29d690ee81741f2f6bf3be523f431cd955ece5b4e53a152ff2e2929cdd2736",
+    "TestApp/build/theme-soft/testing/resources/NordicThemeLab-all.css": "9f760611ec73f6968668dfd0a582b980084eae75f83ee7373a2261fb8239754f"
+  }
+}

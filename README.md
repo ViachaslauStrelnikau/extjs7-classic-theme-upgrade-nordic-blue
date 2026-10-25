@@ -71,3 +71,9 @@ TASK-016 passed actual development/testing/production pages in Edge155, Chromium
 ## Варианты модернизации (предварительный просмотр)
 
 Стенд Refined/Motion/Soft с текущей темой для сравнения: `node TestApp/modern-preview/serve.cjs`, затем http://127.0.0.1:51754/modern-preview/index.html . [Описание](TestApp/modern-preview/README.md), [TASK-019](artifacts/nordic-blue/TASK-019/preview-report.md). Предложены жёлтые папки и синие документы по начальному эскизу; новые artwork/вариант требуют выбора и одобрения. Это отдельный прототип, не замена принятого исходного пакета7.7.
+
+## Nordic Soft — подключаемая версия
+
+Выбранная Nordic Soft интегрирована отдельным пакетом `TestApp/packages/local/theme-nordic-blue-soft` поверх прежней темы: мягкие скругления, более квадратные жёлтые папки/синие документы, опциональные анимации. [Установка, API и откат](docs/nordic-soft-installation.md), [итоговый receipt/архив](artifacts/nordic-blue/TASK-021/FINAL-RECEIPT.md), [матрица](artifacts/nordic-blue/TASK-021/acceptance-matrix.json). Прежняя тема остаётся доступной.
+
+Просмотр собранной Soft: http://127.0.0.1:51754/soft-preview/index.html (тот же preview server). Actual TestApp: /build/theme-acceptance/soft/testing/index.html.3browser versions/DPR1/2 geometry/function и3build modes проверены; новая полная pixel-golden Soft отдельно не фиксировалась. Анимации включаются явным API, SDK/app prototypes не патчатся. Source-пакет включает обе зависимости; `python tools/nordic-soft-release.py --output artifacts/nordic-blue/soft-release-new-run` создаёт новый воспроизводимый архив.7.9непроверена.

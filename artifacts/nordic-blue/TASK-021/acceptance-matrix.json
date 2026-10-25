@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "sdk": "7.7.0.31",
+  "cmd": "7.7.0.36",
+  "browsers": [
+    {
+      "name": "edge",
+      "version": "156.0.4314.42",
+      "coveragePairs": 204,
+      "actionStatePairs": 236,
+      "additionalFlows": 20,
+      "elementComparisons": 21614,
+      "motionModeDprContexts": 6,
+      "status": "PASS"
+    },
+    {
+      "name": "chromium",
+      "version": "156.0.8078.4",
+      "coveragePairs": 204,
+      "actionStatePairs": 236,
+      "additionalFlows": 20,
+      "elementComparisons": 21614,
+      "motionModeDprContexts": 6,
+      "status": "PASS"
+    },
+    {
+      "name": "firefox",
+      "version": "152.0.4",
+      "coveragePairs": 204,
+      "actionStatePairs": 236,
+      "additionalFlows": 20,
+      "elementComparisons": 21614,
+      "motionModeDprContexts": 6,
+      "status": "PASS"
+    }
+  ],
+  "nativeOutputPairs": 144,
+  "nativeElementComparisons": 40230,
+  "motionContexts": 18,
+  "buildModes": [
+    "testing",
+    "development",
+    "production"
+  ],
+  "childResourceFiles": 24,
+  "inheritedResourceFiles": 624,
+  "catalogRuns": 9,
+  "catalogSheetsPerRun": 182,
+  "protectedSources": 700,
+  "visualGolden": "Existing parent golden unchanged; no automatic reuse or new full Soft pixel golden claimed. Soft radii are deliberate approved paint changes.",
+  "limits": [
+    "Windows/recorded browser versions only",
+    "SDK7.9 NOT_RUN",
+    "full RTL app-layout matrix NOT_RUN; RTL artwork/catalog checked",
+    "all third-party custom ui not claimed",
+    "inherited GIF smoothness not benchmarked",
+    "no precompiled standalone package promised",
+    "motion explicitly opted into; no global Ext override"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "status": "PASS",
+  "diagnostic": "Initial windowDPR2 Classic page accessed themeLab before asynchronous boot completed; copied driver now explicitly waits for fixture creation, then uses original strict readiness. Parent/old driver unchanged."
+}

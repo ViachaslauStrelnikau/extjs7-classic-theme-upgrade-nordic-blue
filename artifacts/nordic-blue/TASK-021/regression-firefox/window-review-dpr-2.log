@@ -1,0 +1,11 @@
+page.evaluate: themeLab is not defined
+@debugger eval code line 311 > eval:1:5
+evaluate@debugger eval code:313:16
+@debugger eval code:1:44
+@debugger eval code:1:62
+
+    at open (D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\artifacts\nordic-blue\TASK-021\regression-firefox\window-review.cjs:13:15)
+    at async D:\Projects\Extjs7ClassicThemeUpgradeNordicBlue\artifacts\nordic-blue\TASK-021\regression-firefox\window-review.cjs:24:3 {
+  log: [],
+  name: 'Error'
+}

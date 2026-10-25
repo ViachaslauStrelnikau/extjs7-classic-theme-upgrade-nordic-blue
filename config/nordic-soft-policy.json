@@ -1,0 +1,57 @@
+{
+  "version": "nordic-soft-policy-v1",
+  "parent": "theme-nordic-blue",
+  "sdk": "7.7.0.31",
+  "reviewedFiles": {
+    "TestApp/packages/local/theme-nordic-blue-soft/package.json": "360a4c356a8a09fea4fbdcdab60b90f79910b7deddee823b421b73bae8819a40",
+    "TestApp/packages/local/theme-nordic-blue-soft/build.xml": "1fdcfb4cfc826080409d6d0ec7a8238eac09c80c0717d397512c048ecbeedd0f",
+    "TestApp/packages/local/theme-nordic-blue-soft/sass/src/Component.scss": "36ca0b75ee706b04687b99e12464846775eebd2e94f7f236bd3cde9e48a3890d",
+    "TestApp/packages/local/theme-nordic-blue-soft/resources/soft-motion.js": "4772d5eabb63f0db2d0a74a4e88dafb9e746f7f5a3d2249deedc8906703af6ce"
+  },
+  "childImages": {
+    "images/tree/folder-open-rtl.gif": "3e9795842866b4763dd95e22f6d13f9fdb8d8ce53ed7874569992e9349f9e67c",
+    "images/tree/folder-open-rtl.png": "72681d033a399e6780bd7fa94e6d9fafc2cfe46b361e6bec123d861e3481cb35",
+    "images/@2x/tree/folder-open-rtl.gif": "f287812cc3dc2164f8225eae5e5d93179a420d0900dd5b28b54369915dc386c8",
+    "images/@2x/tree/folder-open-rtl.png": "ca114c29cc89c63d3dac1c867c2c378544e1627e7758ace662c944a144347ec2",
+    "images/tree/folder-open.gif": "04d12e57dbdc45c08d68138ab78921d658f316e806020191bb7e5447d5e54988",
+    "images/tree/folder-open.png": "2c7bc9e1d27428a3d0acd481561730774957aa86a9a01b8635cfc5e71b89e983",
+    "images/@2x/tree/folder-open.gif": "dff8a4b3202a80927f9e06bcfd078c27634699e92e1c73d2ab03a80756ed3545",
+    "images/@2x/tree/folder-open.png": "c225f3b48036371e7f1f7bc36ba0b2be9b8a2ab6daedca5fab69a1ca39e2cf1f",
+    "images/tree/folder-rtl.gif": "018bc1551df52599961f3149ce9b093ec77d5336d91ba07df515e3708c99aa9a",
+    "images/tree/folder-rtl.png": "4d8dd27ce712ee1783e7237b29c90f3906f0964486cac164bebdf10deef1eebd",
+    "images/@2x/tree/folder-rtl.gif": "387f1d393092e891af4278ffced9a6433705d912cfcfa650032dd94252eccd7b",
+    "images/@2x/tree/folder-rtl.png": "1dfcbc5bab93f0d20cb5f9376eb0d5e05da3015d0a20c595a3721acceaee057a",
+    "images/tree/folder.gif": "9bf5d6333f8184b4ea80f68d0d38307e5fa7a53a2edb265ccd7d2dc03350a933",
+    "images/tree/folder.png": "a0f83917b6be6454884ced8aeb97f424a4ef5bcea27cfdfd254e0bc97db7d624",
+    "images/@2x/tree/folder.gif": "2161cc0ad140d42d98fe8047e72bdd2aeaf1f395527741a73c271a95cfe6bf8c",
+    "images/@2x/tree/folder.png": "373d07cf32043df667e0534cf67a40ff25fe8f14fa59ba1fd4a7d026da2b2d91",
+    "images/tree/leaf-rtl.gif": "6327eb6158efa38ebe6bc0a05ee776355411e95045d7149c3016537a9783f59d",
+    "images/tree/leaf-rtl.png": "4fab5965e47c8c048ab2681a0ceb7de5e79ee98e72f45ad6a6d98dbbd13c4d12",
+    "images/@2x/tree/leaf-rtl.gif": "b5d421092374e2d1066c0d4e55bad530295649ba0792123997443dd14b699888",
+    "images/@2x/tree/leaf-rtl.png": "3070ed42e8179c72ed147e39c37f76373ad8ec860372ac149005d262815851e2",
+    "images/tree/leaf.gif": "6327eb6158efa38ebe6bc0a05ee776355411e95045d7149c3016537a9783f59d",
+    "images/tree/leaf.png": "4fab5965e47c8c048ab2681a0ceb7de5e79ee98e72f45ad6a6d98dbbd13c4d12",
+    "images/@2x/tree/leaf.gif": "b5d421092374e2d1066c0d4e55bad530295649ba0792123997443dd14b699888",
+    "images/@2x/tree/leaf.png": "3070ed42e8179c72ed147e39c37f76373ad8ec860372ac149005d262815851e2"
+  },
+  "parentIconConfigSha256": "953c723c5a6f7d98b72a7b1bde7b30d32336b8c2034bac15132a58721d1e4f52",
+  "softIconConfigSha256": "0c703d65fa212b16746a1217011d5020c59f67807ca11297a802c17a0e708a8a",
+  "approvalPath": "artifacts/nordic-blue/TASK-021/artwork-approval.json",
+  "approvalSha256": "7dcdf2521f0117ef50bf080a65ddff4b7f83e20f215b4f8f31c6e4d383d54342",
+  "paintExceptions": {
+    "radii": {
+      "selectors": [
+        ".x-btn",
+        ".x-form-text",
+        ".x-boundlist",
+        ".x-menu"
+      ],
+      "value": "3px",
+      "windowValue": "4px"
+    },
+    "optInFloatingShadow": "0 5px 16px rgba(37,55,77,.16)",
+    "transitions": "Only background-color/border-color/color;120ms ease-out; no dimensions/transform/font transition",
+    "appearance": "Optional public-component listeners;150ms opacity from35% of authored opacity to authored opacity; immediate hide; no Ext override; system/manual reduction"
+  },
+  "runtimeJsAutoIncluded": false
+}

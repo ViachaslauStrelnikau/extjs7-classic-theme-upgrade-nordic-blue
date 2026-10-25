@@ -1,0 +1,4420 @@
+{
+  "status": "PASS",
+  "paintException": "Only declared3px control/menu and4px window corners, checked against actual selector ownership and exact compiled values. All other metric/state/offset/font checks unchanged.",
+  "baselinePolicy": "Fresh Classic/Nordic within the same actual browser and DPR; no cross-browser coordinate/font equivalence claim. Original Edge TASK-006 is immutable. Missing/count/state/duplicate checks remain exact.",
+  "browser": {
+    "name": "firefox",
+    "status": "AVAILABLE",
+    "launchOptions": {
+      "headless": true,
+      "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/firefox-1534/firefox/firefox.exe"
+    },
+    "version": "152.0.4"
+  },
+  "coveragePairs": 204,
+  "actionStatePairs": 236,
+  "additionalCoreFlows": 20,
+  "elementComparisons": 21614,
+  "results": [
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "all/normal",
+      "elements": 841,
+      "icons": 147,
+      "mappedObservations": 254,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "panel/normal",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "panel/framed",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "panel/collapsed",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "panel/disabled",
+      "elements": 17,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "panel/hover",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "panel/focus",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "window/normal",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "window/focus",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "window/modal",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "window/moved",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "window/resized",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "button/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "button/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "button/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "button/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "button/disabled",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "button/open",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "toolbar/normal",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "toolbar/overflow",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "toolbar/open",
+      "elements": 67,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "toolbar/disabled",
+      "elements": 58,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "form/normal",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "form/invalid",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "form/readonly",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "form/disabled",
+      "elements": 55,
+      "icons": 13,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "form/focus",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "triggers/normal",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "triggers/hover",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "triggers/focus",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "triggers/pressed",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "triggers/disabled",
+      "elements": 47,
+      "icons": 13,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "triggers/open",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "checks/normal",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "checks/checked",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "checks/unchecked",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "checks/disabled",
+      "elements": 35,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "checks/focus",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "fieldset/normal",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "fieldset/collapsed",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "fieldset/checked",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "fieldset/disabled",
+      "elements": 23,
+      "icons": 5,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "editor/normal",
+      "elements": 76,
+      "icons": 17,
+      "mappedObservations": 34,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "editor/focus",
+      "elements": 76,
+      "icons": 17,
+      "mappedObservations": 34,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "editor/readonly",
+      "elements": 80,
+      "icons": 18,
+      "mappedObservations": 36,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "editor/disabled",
+      "elements": 80,
+      "icons": 18,
+      "mappedObservations": 36,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/normal",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/hover",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/selected",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/focus",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/sort-asc",
+      "elements": 101,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/sort-desc",
+      "elements": 101,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/menu",
+      "elements": 114,
+      "icons": 15,
+      "mappedObservations": 28,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/resized",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "grid/disabled",
+      "elements": 104,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "paging/normal",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "paging/first",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "paging/middle",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "paging/last",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "paging/disabled",
+      "elements": 90,
+      "icons": 10,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "border/normal",
+      "elements": 35,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "border/collapsed",
+      "elements": 36,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "border/expanded",
+      "elements": 35,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tabs/normal",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tabs/hover",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tabs/selected",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tabs/focus",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tabs/overflow",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tree/normal",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tree/collapsed",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tree/expanded",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tree/selected",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tree/focus",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tree/disabled",
+      "elements": 33,
+      "icons": 7,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "datepicker/normal",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "datepicker/selected",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "datepicker/prev",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "datepicker/next",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "datepicker/focus",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "datepicker/disabled",
+      "elements": 100,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "progress/normal",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "progress/partial",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "progress/full",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "slider/normal",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "slider/hover",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "slider/focus",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "slider/selected",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "slider/disabled",
+      "elements": 21,
+      "icons": 9,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "menu/normal",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "menu/open",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "menu/checked",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "menu/unchecked",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "menu/focus",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "menu/disabled",
+      "elements": 24,
+      "icons": 7,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tool/normal",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tool/hover",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tool/focus",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tool/pressed",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "tool/disabled",
+      "elements": 198,
+      "icons": 66,
+      "mappedObservations": 132,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "mask/normal",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "mask/loading",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "coverage",
+      "identity": "mask/hidden",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "text-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "textarea-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "date-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "time-picker-selection",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "number-keyboard-up",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "number-keyboard-down",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "number-max-bound",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "required-invalid",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "readonly-blocks-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "disabled-input-state",
+      "elements": 55,
+      "icons": 13,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "combo-open",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "combo-keyboard-selection",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "spinner-mouse-up",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "spinner-mouse-down",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "clear-trigger",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "date-picker-next-select",
+      "elements": 51,
+      "icons": 15,
+      "mappedObservations": 20,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "checkbox-space-on",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "checkbox-space-off",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "radio-arrow-selection",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "checkbox-disabled-state",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "fieldset-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "fieldset-expand",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "fieldset-checkbox-expand",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "form-actions",
+      "identity": "fieldset-checkbox-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-sort-asc",
+      "elements": 101,
+      "icons": 10,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-sort-desc",
+      "elements": 101,
+      "icons": 10,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-row-select",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-keyboard-next-row",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-checkcolumn-toggle",
+      "elements": 100,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-header-menu-open",
+      "elements": 114,
+      "icons": 16,
+      "mappedObservations": 30,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-header-menu-escape",
+      "elements": 114,
+      "icons": 16,
+      "mappedObservations": 30,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-column-resize-drag",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-compact-viewport",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "grid-scroll-both-axes",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "tree-mouse-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "tree-mouse-expand",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "tree-leaf-selection",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "tree-keyboard-next-leaf",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "tree-keyboard-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "tree-keyboard-expand",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-first-boundary",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-next",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-last-boundary",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-previous",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-first",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-input-enter",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "grid-actions",
+      "identity": "paging-refresh",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "tabs-mouse-select",
+      "elements": 59,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "tabs-disabled-ignored",
+      "elements": 59,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "tabs-keyboard-select",
+      "elements": 59,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "tabs-close-active",
+      "elements": 50,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "tabs-overflow-scroll",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "menu-checkbox-off",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "menu-checkbox-on",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "menu-mouse-submenu",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "menu-keyboard-submenu",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "menu-keyboard-return",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "menu-disabled-state",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "datepicker-next-month",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "datepicker-prev-month",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "datepicker-day-select",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "datepicker-keyboard-day",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "datepicker-today",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "progress-full",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "progress-empty",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "progress-partial",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-keyboard",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-max",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-min",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-vertical-keyboard",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-drag",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-vertical-drag",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "slider-disabled-ignored",
+      "elements": 21,
+      "icons": 9,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "mask-visible",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "mask-hide",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "secondary-actions",
+      "identity": "mask-show",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/focus-over",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/focus-pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.normal/disabled",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/focus-over",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/focus-pressed",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.menu/disabled",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/focus-over",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/focus-pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "button.split/disabled",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/normal",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/hover",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/focus",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/pressed",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/focus-over",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/focus-pressed",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/disabled",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "window-title-drag",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "window-border-resize",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "window-close-tool",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "window-keyboard-escape",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-0",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-1",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-2",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-3",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-4",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-5",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-6",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-tab-7",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-reverse-tab",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 1,
+      "scope": "window-actions",
+      "identity": "modal-escape",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "all/normal",
+      "elements": 841,
+      "icons": 147,
+      "mappedObservations": 254,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "panel/normal",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "panel/framed",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "panel/collapsed",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "panel/disabled",
+      "elements": 17,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "panel/hover",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "panel/focus",
+      "elements": 13,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "window/normal",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "window/focus",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "window/modal",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "window/moved",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "window/resized",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "button/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "button/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "button/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "button/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "button/disabled",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "button/open",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "toolbar/normal",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "toolbar/overflow",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "toolbar/open",
+      "elements": 67,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "toolbar/disabled",
+      "elements": 58,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "form/normal",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "form/invalid",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "form/readonly",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "form/disabled",
+      "elements": 55,
+      "icons": 13,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "form/focus",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "triggers/normal",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "triggers/hover",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "triggers/focus",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "triggers/pressed",
+      "elements": 43,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "triggers/disabled",
+      "elements": 47,
+      "icons": 13,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "triggers/open",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "checks/normal",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "checks/checked",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "checks/unchecked",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "checks/disabled",
+      "elements": 35,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "checks/focus",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "fieldset/normal",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "fieldset/collapsed",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "fieldset/checked",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "fieldset/disabled",
+      "elements": 23,
+      "icons": 5,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "editor/normal",
+      "elements": 76,
+      "icons": 17,
+      "mappedObservations": 34,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "editor/focus",
+      "elements": 76,
+      "icons": 17,
+      "mappedObservations": 34,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "editor/readonly",
+      "elements": 80,
+      "icons": 18,
+      "mappedObservations": 36,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "editor/disabled",
+      "elements": 80,
+      "icons": 18,
+      "mappedObservations": 36,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/normal",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/hover",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/selected",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/focus",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/sort-asc",
+      "elements": 101,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/sort-desc",
+      "elements": 101,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/menu",
+      "elements": 114,
+      "icons": 15,
+      "mappedObservations": 28,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/resized",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "grid/disabled",
+      "elements": 104,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "paging/normal",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "paging/first",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "paging/middle",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "paging/last",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "paging/disabled",
+      "elements": 90,
+      "icons": 10,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "border/normal",
+      "elements": 35,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "border/collapsed",
+      "elements": 36,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "border/expanded",
+      "elements": 35,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tabs/normal",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tabs/hover",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tabs/selected",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tabs/focus",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tabs/overflow",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tree/normal",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tree/collapsed",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tree/expanded",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tree/selected",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tree/focus",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tree/disabled",
+      "elements": 33,
+      "icons": 7,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "datepicker/normal",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "datepicker/selected",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "datepicker/prev",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "datepicker/next",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "datepicker/focus",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "datepicker/disabled",
+      "elements": 100,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "progress/normal",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "progress/partial",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "progress/full",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "slider/normal",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "slider/hover",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "slider/focus",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "slider/selected",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "slider/disabled",
+      "elements": 21,
+      "icons": 9,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "menu/normal",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "menu/open",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "menu/checked",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "menu/unchecked",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "menu/focus",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "menu/disabled",
+      "elements": 24,
+      "icons": 7,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tool/normal",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tool/hover",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tool/focus",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tool/pressed",
+      "elements": 66,
+      "icons": 33,
+      "mappedObservations": 66,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "tool/disabled",
+      "elements": 198,
+      "icons": 66,
+      "mappedObservations": 132,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "mask/normal",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "mask/loading",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "coverage",
+      "identity": "mask/hidden",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "text-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "textarea-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "date-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "time-picker-selection",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "number-keyboard-up",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "number-keyboard-down",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "number-max-bound",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "required-invalid",
+      "elements": 100,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "readonly-blocks-input",
+      "elements": 51,
+      "icons": 12,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "disabled-input-state",
+      "elements": 55,
+      "icons": 13,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "combo-open",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "combo-keyboard-selection",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "spinner-mouse-up",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "spinner-mouse-down",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "clear-trigger",
+      "elements": 47,
+      "icons": 12,
+      "mappedObservations": 14,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "date-picker-next-select",
+      "elements": 51,
+      "icons": 15,
+      "mappedObservations": 20,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "checkbox-space-on",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "checkbox-space-off",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "radio-arrow-selection",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "checkbox-disabled-state",
+      "elements": 31,
+      "icons": 5,
+      "mappedObservations": 10,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "fieldset-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "fieldset-expand",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "fieldset-checkbox-expand",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "form-actions",
+      "identity": "fieldset-checkbox-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-sort-asc",
+      "elements": 101,
+      "icons": 10,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-sort-desc",
+      "elements": 101,
+      "icons": 10,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-row-select",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-keyboard-next-row",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-checkcolumn-toggle",
+      "elements": 100,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-header-menu-open",
+      "elements": 114,
+      "icons": 16,
+      "mappedObservations": 30,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-header-menu-escape",
+      "elements": 114,
+      "icons": 16,
+      "mappedObservations": 30,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-column-resize-drag",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-compact-viewport",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "grid-scroll-both-axes",
+      "elements": 100,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "tree-mouse-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "tree-mouse-expand",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "tree-leaf-selection",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "tree-keyboard-next-leaf",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "tree-keyboard-collapse",
+      "elements": 19,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "tree-keyboard-expand",
+      "elements": 29,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-first-boundary",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-next",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-last-boundary",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-previous",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-first",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-input-enter",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "grid-actions",
+      "identity": "paging-refresh",
+      "elements": 86,
+      "icons": 9,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "tabs-mouse-select",
+      "elements": 59,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "tabs-disabled-ignored",
+      "elements": 59,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "tabs-keyboard-select",
+      "elements": 59,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "tabs-close-active",
+      "elements": 50,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "tabs-overflow-scroll",
+      "elements": 56,
+      "icons": 9,
+      "mappedObservations": 18,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "menu-checkbox-off",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "menu-checkbox-on",
+      "elements": 20,
+      "icons": 6,
+      "mappedObservations": 12,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "menu-mouse-submenu",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "menu-keyboard-submenu",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "menu-keyboard-return",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "menu-disabled-state",
+      "elements": 25,
+      "icons": 8,
+      "mappedObservations": 16,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "datepicker-next-month",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "datepicker-prev-month",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "datepicker-day-select",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "datepicker-keyboard-day",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "datepicker-today",
+      "elements": 96,
+      "icons": 3,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "progress-full",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "progress-empty",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "progress-partial",
+      "elements": 4,
+      "icons": 0,
+      "mappedObservations": 0,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-keyboard",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-max",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-min",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-vertical-keyboard",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-horizontal-drag",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-vertical-drag",
+      "elements": 17,
+      "icons": 8,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "slider-disabled-ignored",
+      "elements": 21,
+      "icons": 9,
+      "mappedObservations": 6,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "mask-visible",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "mask-hide",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "secondary-actions",
+      "identity": "mask-show",
+      "elements": 8,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/focus-over",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/focus-pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.normal/disabled",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/focus-over",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/focus-pressed",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.menu/disabled",
+      "elements": 27,
+      "icons": 4,
+      "mappedObservations": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/normal",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/hover",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/focus",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/focus-over",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/focus-pressed",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "button.split/disabled",
+      "elements": 22,
+      "icons": 2,
+      "mappedObservations": 4,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/normal",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/hover",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/focus",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/pressed",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/focus-over",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/focus-pressed",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "core-states-v3",
+      "identity": "toolbar.first/disabled",
+      "elements": 54,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "window-title-drag",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "window-border-resize",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "window-close-tool",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "window-keyboard-escape",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-0",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-1",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-2",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-3",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-4",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-5",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-6",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-tab-7",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-reverse-tab",
+      "elements": 16,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    },
+    {
+      "dpr": 2,
+      "scope": "window-actions",
+      "identity": "modal-escape",
+      "elements": 15,
+      "icons": 1,
+      "mappedObservations": 2,
+      "issues": [],
+      "status": "PASS"
+    }
+  ]
+}

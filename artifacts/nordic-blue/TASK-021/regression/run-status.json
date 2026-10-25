@@ -1,0 +1,4 @@
+{
+  "status": "PASS",
+  "diagnostic": "Initial comparison had missing browser-config metadata, not a captured geometry failure. Completed source-identical snapshots reused after adding captured browser provenance."
+}

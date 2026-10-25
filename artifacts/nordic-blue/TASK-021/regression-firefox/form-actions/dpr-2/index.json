@@ -1,0 +1,391 @@
+{
+  "status": "PASS",
+  "dpr": 2,
+  "browser": "152.0.4",
+  "records": [
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "text-input",
+      "path": "form-actions\\dpr-2\\classic\\text-input.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\text-input.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "textarea-input",
+      "path": "form-actions\\dpr-2\\classic\\textarea-input.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\textarea-input.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "date-input",
+      "path": "form-actions\\dpr-2\\classic\\date-input.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\date-input.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "time-picker-selection",
+      "path": "form-actions\\dpr-2\\classic\\time-picker-selection.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\time-picker-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "number-keyboard-up",
+      "path": "form-actions\\dpr-2\\classic\\number-keyboard-up.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\number-keyboard-up.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "number-keyboard-down",
+      "path": "form-actions\\dpr-2\\classic\\number-keyboard-down.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\number-keyboard-down.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "number-max-bound",
+      "path": "form-actions\\dpr-2\\classic\\number-max-bound.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\number-max-bound.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "required-invalid",
+      "path": "form-actions\\dpr-2\\classic\\required-invalid.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\required-invalid.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "readonly-blocks-input",
+      "path": "form-actions\\dpr-2\\classic\\readonly-blocks-input.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\readonly-blocks-input.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "disabled-input-state",
+      "path": "form-actions\\dpr-2\\classic\\disabled-input-state.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\disabled-input-state.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "combo-open",
+      "path": "form-actions\\dpr-2\\classic\\combo-open.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\combo-open.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "combo-keyboard-selection",
+      "path": "form-actions\\dpr-2\\classic\\combo-keyboard-selection.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\combo-keyboard-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "spinner-mouse-up",
+      "path": "form-actions\\dpr-2\\classic\\spinner-mouse-up.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\spinner-mouse-up.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "spinner-mouse-down",
+      "path": "form-actions\\dpr-2\\classic\\spinner-mouse-down.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\spinner-mouse-down.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "clear-trigger",
+      "path": "form-actions\\dpr-2\\classic\\clear-trigger.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\clear-trigger.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "date-picker-next-select",
+      "path": "form-actions\\dpr-2\\classic\\date-picker-next-select.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\date-picker-next-select.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "checkbox-space-on",
+      "path": "form-actions\\dpr-2\\classic\\checkbox-space-on.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\checkbox-space-on.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "checkbox-space-off",
+      "path": "form-actions\\dpr-2\\classic\\checkbox-space-off.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\checkbox-space-off.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "radio-arrow-selection",
+      "path": "form-actions\\dpr-2\\classic\\radio-arrow-selection.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\radio-arrow-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "checkbox-disabled-state",
+      "path": "form-actions\\dpr-2\\classic\\checkbox-disabled-state.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\checkbox-disabled-state.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "fieldset-collapse",
+      "path": "form-actions\\dpr-2\\classic\\fieldset-collapse.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\fieldset-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "fieldset-expand",
+      "path": "form-actions\\dpr-2\\classic\\fieldset-expand.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\fieldset-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "fieldset-checkbox-expand",
+      "path": "form-actions\\dpr-2\\classic\\fieldset-checkbox-expand.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\fieldset-checkbox-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "classic",
+      "dpr": 2,
+      "action": "fieldset-checkbox-collapse",
+      "path": "form-actions\\dpr-2\\classic\\fieldset-checkbox-collapse.json",
+      "screenshot": "form-actions\\dpr-2\\classic\\fieldset-checkbox-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "text-input",
+      "path": "form-actions\\dpr-2\\nordic\\text-input.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\text-input.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "textarea-input",
+      "path": "form-actions\\dpr-2\\nordic\\textarea-input.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\textarea-input.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "date-input",
+      "path": "form-actions\\dpr-2\\nordic\\date-input.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\date-input.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "time-picker-selection",
+      "path": "form-actions\\dpr-2\\nordic\\time-picker-selection.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\time-picker-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "number-keyboard-up",
+      "path": "form-actions\\dpr-2\\nordic\\number-keyboard-up.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\number-keyboard-up.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "number-keyboard-down",
+      "path": "form-actions\\dpr-2\\nordic\\number-keyboard-down.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\number-keyboard-down.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "number-max-bound",
+      "path": "form-actions\\dpr-2\\nordic\\number-max-bound.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\number-max-bound.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "required-invalid",
+      "path": "form-actions\\dpr-2\\nordic\\required-invalid.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\required-invalid.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "readonly-blocks-input",
+      "path": "form-actions\\dpr-2\\nordic\\readonly-blocks-input.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\readonly-blocks-input.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "disabled-input-state",
+      "path": "form-actions\\dpr-2\\nordic\\disabled-input-state.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\disabled-input-state.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "combo-open",
+      "path": "form-actions\\dpr-2\\nordic\\combo-open.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\combo-open.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "combo-keyboard-selection",
+      "path": "form-actions\\dpr-2\\nordic\\combo-keyboard-selection.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\combo-keyboard-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "spinner-mouse-up",
+      "path": "form-actions\\dpr-2\\nordic\\spinner-mouse-up.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\spinner-mouse-up.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "spinner-mouse-down",
+      "path": "form-actions\\dpr-2\\nordic\\spinner-mouse-down.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\spinner-mouse-down.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "clear-trigger",
+      "path": "form-actions\\dpr-2\\nordic\\clear-trigger.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\clear-trigger.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "date-picker-next-select",
+      "path": "form-actions\\dpr-2\\nordic\\date-picker-next-select.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\date-picker-next-select.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "checkbox-space-on",
+      "path": "form-actions\\dpr-2\\nordic\\checkbox-space-on.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\checkbox-space-on.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "checkbox-space-off",
+      "path": "form-actions\\dpr-2\\nordic\\checkbox-space-off.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\checkbox-space-off.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "radio-arrow-selection",
+      "path": "form-actions\\dpr-2\\nordic\\radio-arrow-selection.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\radio-arrow-selection.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "checkbox-disabled-state",
+      "path": "form-actions\\dpr-2\\nordic\\checkbox-disabled-state.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\checkbox-disabled-state.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "fieldset-collapse",
+      "path": "form-actions\\dpr-2\\nordic\\fieldset-collapse.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\fieldset-collapse.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "fieldset-expand",
+      "path": "form-actions\\dpr-2\\nordic\\fieldset-expand.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\fieldset-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "fieldset-checkbox-expand",
+      "path": "form-actions\\dpr-2\\nordic\\fieldset-checkbox-expand.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\fieldset-checkbox-expand.png",
+      "passed": true
+    },
+    {
+      "theme": "nordic",
+      "dpr": 2,
+      "action": "fieldset-checkbox-collapse",
+      "path": "form-actions\\dpr-2\\nordic\\fieldset-checkbox-collapse.json",
+      "screenshot": "form-actions\\dpr-2\\nordic\\fieldset-checkbox-collapse.png",
+      "passed": true
+    }
+  ]
+}

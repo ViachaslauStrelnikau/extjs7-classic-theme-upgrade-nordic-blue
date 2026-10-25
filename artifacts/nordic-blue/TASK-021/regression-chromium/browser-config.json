@@ -1,0 +1,13 @@
+{
+  "name": "chromium",
+  "status": "AVAILABLE",
+  "launchOptions": {
+    "headless": true,
+    "executablePath": "C:/Users/Damned/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe",
+    "args": [
+      "--disable-gpu",
+      "--force-color-profile=srgb"
+    ]
+  },
+  "version": "156.0.8078.4"
+}

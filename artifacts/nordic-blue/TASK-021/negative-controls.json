@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "control": "rect+1px",
+      "rejected": true
+    },
+    {
+      "control": "font+1px",
+      "rejected": true
+    },
+    {
+      "control": "radius5px",
+      "rejected": true
+    },
+    {
+      "control": "unapproved-image",
+      "rejected": true,
+      "log": "{\n  \"status\": \"FAIL\",\n  \"childImages\": 24,\n  \"reviewedFiles\": 4,\n  \"errors\": [\n    \"Unapproved image bytes: D:\\\\Projects\\\\Extjs7ClassicThemeUpgradeNordicBlue\\\\TestApp\\\\packages\\\\local\\\\theme-nordic-blue-soft\\\\resources\\\\images\\\\tree\\\\folder.png\"\n  ]\n}\n"
+    },
+    {
+      "control": "extra-transform",
+      "rejected": true,
+      "log": "{\n  \"status\": \"FAIL\",\n  \"childImages\": 24,\n  \"reviewedFiles\": 4,\n  \"errors\": [\n    \"Unreviewed child source: TestApp/packages/local/theme-nordic-blue-soft/sass/src/Component.scss\"\n  ]\n}\n"
+    }
+  ],
+  "restore": "Exact source bytes and unmodified metrics restored; final lint/pair PASS. Geometry/font mutations are captured-JSON controls; asset/Sass controls modify and restore actual child sources, not built output or parent."
+}

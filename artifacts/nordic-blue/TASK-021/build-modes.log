@@ -1,0 +1,9 @@
+{"label":"testing-dpr-1","status":"PASS","mode":"testing","dpr":1,"fallback":false,"density":1,"sheets":182,"nativeResponses":74}
+{"label":"testing-dpr-2","status":"PASS","mode":"testing","dpr":2,"fallback":false,"density":2,"sheets":182,"nativeResponses":74}
+{"label":"testing-dpr-2-fallback","status":"PASS","mode":"testing","dpr":2,"fallback":true,"density":1,"sheets":182,"nativeResponses":74}
+{"label":"development-dpr-1","status":"PASS","mode":"development","dpr":1,"fallback":false,"density":1,"sheets":182,"nativeResponses":74}
+{"label":"development-dpr-2","status":"PASS","mode":"development","dpr":2,"fallback":false,"density":2,"sheets":182,"nativeResponses":74}
+{"label":"development-dpr-2-fallback","status":"PASS","mode":"development","dpr":2,"fallback":true,"density":1,"sheets":182,"nativeResponses":74}
+{"label":"production-dpr-1","status":"PASS","mode":"production","dpr":1,"fallback":false,"density":1,"sheets":182,"nativeResponses":74}
+{"label":"production-dpr-2","status":"PASS","mode":"production","dpr":2,"fallback":false,"density":2,"sheets":182,"nativeResponses":74}
+{"label":"production-dpr-2-fallback","status":"PASS","mode":"production","dpr":2,"fallback":true,"density":1,"sheets":182,"nativeResponses":74}

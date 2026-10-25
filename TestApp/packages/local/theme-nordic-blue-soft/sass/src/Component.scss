@@ -1,0 +1,7 @@
+/* Soft paint only; geometry/typography inherited. No global runtime override. */
+.x-btn,.x-form-text,.x-boundlist,.x-menu { border-radius: 3px; }
+.x-window { border-radius: 4px; }
+body.nb-soft-motion .x-btn,body.nb-soft-motion .x-btn-inner,body.nb-soft-motion .x-form-field,body.nb-soft-motion .x-form-trigger,body.nb-soft-motion .x-grid-cell,body.nb-soft-motion .x-tab,body.nb-soft-motion .x-tab-inner { transition-property: background-color,border-color,color; transition-duration: 120ms; transition-timing-function: ease-out; }
+body.nb-soft-motion .x-btn-focus,body.nb-soft-motion .x-form-focus,body.nb-soft-motion .x-tab-focus { transition-duration: 0ms; }
+.nb-soft-float { box-shadow: 0 5px 16px rgba(37,55,77,.16); }
+@media (prefers-reduced-motion: reduce) { body.nb-soft-motion .x-btn,body.nb-soft-motion .x-btn-inner,body.nb-soft-motion .x-form-field,body.nb-soft-motion .x-form-trigger,body.nb-soft-motion .x-grid-cell,body.nb-soft-motion .x-tab,body.nb-soft-motion .x-tab-inner { transition-duration: 0ms; } }
