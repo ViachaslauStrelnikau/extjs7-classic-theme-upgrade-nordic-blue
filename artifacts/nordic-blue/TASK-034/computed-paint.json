@@ -1,0 +1,22 @@
+{
+  "cellRight": [
+    "rgba(0, 0, 0, 0)"
+  ],
+  "group": [
+    "rgb(215, 228, 243)"
+  ],
+  "header": [
+    "rgb(230, 238, 248)"
+  ],
+  "scope": "candidate",
+  "selected": [
+    {
+      "background": "rgb(191, 215, 245)",
+      "shadow": "rgb(40, 104, 196) 4px 0px 0px 0px inset, rgb(50, 117, 214) 0px 2px 0px 0px inset, rgb(50, 117, 214) 0px -2px 0px 0px inset"
+    },
+    {
+      "background": "rgb(191, 215, 245)",
+      "shadow": "rgb(50, 117, 214) 0px 2px 0px 0px inset, rgb(50, 117, 214) 0px -2px 0px 0px inset"
+    }
+  ]
+}

@@ -213,3 +213,7 @@ Six authoritative release-build-* lab/real×3mode builds exit0 with unchanged so
 ## Dense tables/state study (TASK-033)
 
 User authorized a separate comparison before integrating improvements. TestApp/state-preview compares current built Soft Contrast1.1.1 with candidate paint on the same fixture/data. Owned HTML attribute scopes candidate CSS; preserve identity outside Ext body class cache. Business-colored fixture rows intentionally use app !important fills, selection adds edges rather than erasing business color. No theme/SDK/WGR changes, no new artwork/motion/build. IAB actual two-table render and synchronized business selection observed; screenshot/AX in TASK-033. No automated tests/full metrics/functional/DPR/browser acceptance; do not claim geometry parity merely from intended paint-only CSS. Await user design choice before package integration. Existing approved packages/policies/goldens remain unchanged. Keep separate commit/push for completed tasks.
+
+## State study v2 (TASK-034)
+
+User found TASK-033 indistinguishable. Actual CSS loaded correctly, but selection fill matched current; do not attribute this to a load failure. Candidate v2 deliberately strengthens light header surfaces/blue inset selection, keeps app business fills, and adds Before/After/Split views. IAB actual paint/screenshot/mode switches observed; no metrics/full regression/build/automated tests performed. Package/SDK/WGR unchanged, historical TASK-033 retained. Await design choice before integration. See TASK-034/report.md.

@@ -1,0 +1,18 @@
+/* Demo only. Paint changes; no box, font, image, layout or runtime override. */
+html[data-nordic-study="candidate"] .x-grid-cell{border-right-color:transparent;border-bottom-color:#e6ecf3}
+html[data-nordic-study="candidate"] .x-grid-item-alt .x-grid-cell{background-color:#fafbfd}
+html[data-nordic-study="candidate"] .x-column-header{border-right-color:#e4eaf2;box-shadow:inset 0 -2px 0 #c8d7e9}
+html[data-nordic-study="candidate"] .x-column-header.x-group-header{background-color:#e8eef6;box-shadow:inset 0 -1px 0 #d4dfec}
+html[data-nordic-study="candidate"] .x-column-header-over,
+html[data-nordic-study="candidate"] .x-column-header-sort-ASC,
+html[data-nordic-study="candidate"] .x-column-header-sort-DESC{background-color:#e3edfc;box-shadow:inset 0 -2px 0 #3275d6}
+html[data-nordic-study="candidate"] .x-grid-item-over .x-grid-cell{background-color:#edf4ff;box-shadow:inset 0 1px 0 rgba(50,117,214,.10),inset 0 -1px 0 rgba(50,117,214,.10)}
+html[data-nordic-study="candidate"] .x-grid-item-selected .x-grid-cell{background-color:#d9e9ff;border-bottom-color:#b8d1f1;color:#153e70;box-shadow:inset 0 1px 0 #b8d1f1,inset 0 -1px 0 #b8d1f1}
+html[data-nordic-study="candidate"] .x-grid-item-selected .x-grid-cell:first-child{box-shadow:inset 3px 0 0 #3275d6,inset 0 1px 0 #b8d1f1,inset 0 -1px 0 #b8d1f1}
+html[data-nordic-study="candidate"] .x-grid-item-selected .x-grid-cell:last-child{box-shadow:inset -1px 0 0 #b8d1f1,inset 0 1px 0 #b8d1f1,inset 0 -1px 0 #b8d1f1}
+html[data-nordic-study="candidate"] .x-grid-item-selected.x-grid-item-over .x-grid-cell{background-color:#cddff7}
+html[data-nordic-study="candidate"] .x-grid-item-focused .x-grid-cell{border-color:#b8d1f1}
+html[data-nordic-study="candidate"] .x-grid-item .x-grid-cell-focused{outline:1px solid #3275d6;outline-offset:-2px}
+html[data-nordic-study="candidate"] .x-menu-item-active{background-color:#edf4ff;border-color:transparent;box-shadow:inset 3px 0 0 #3275d6}
+html[data-nordic-study="candidate"] .x-btn-focus{outline:1px solid #3275d6;outline-offset:-3px}
+html[data-nordic-study="candidate"] .x-tab.x-tab-focus{outline:1px solid #3275d6;outline-offset:-3px}
