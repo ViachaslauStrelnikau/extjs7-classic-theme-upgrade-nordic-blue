@@ -66,3 +66,5 @@
 [TASK-029](tasks/TASK-029.md) — SUPERSEDED: отдельный dark-вариант создан/собран, заменён пользователем светлой ревизией до итоговой приёмки.
 
 [TASK-030](tasks/TASK-030.md) — DONE для сборки/поставки отдельной светлой1.1.6builds/648resources×6 и просмотр подтверждены; новая полная Classic regression остаётся НЕ ВЫПОЛНЕНА.
+
+[TASK-031](tasks/TASK-031.md) — DONE: исправлен приоритет пользовательских tree icon/iconCls в наследуемом parent1.0.1; child1.1.1. Обновить все3пакета и пересобрать.6release builds/648resources×6, source lint и узкий compiled demo подтверждены; полная новая Classic regression не запускалась.

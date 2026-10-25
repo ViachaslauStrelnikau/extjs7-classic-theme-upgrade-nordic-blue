@@ -1,0 +1,8 @@
+{
+  "parentVersionBefore": "1.0.0",
+  "parentVersionAfter": "1.0.1",
+  "childVersion": "1.1.1",
+  "change": "Only parent version literal, preserving other package bytes",
+  "beforeSha256": "0fda631436901f92a3b2efce49d110047a4daa6128ce42076ba934b7a466115e",
+  "afterSha256": "72f3d76e89aba31509e3b28c106ac54300c8a3d57f6a69fb12f76ebd13ce4a0d"
+}

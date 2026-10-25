@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sha256": "a490ba6f5b1d9b5d4e73bcdd04dde431f5dee7d4b3dc0146558e34208e9cdef4",
+  "bytes": 1352017,
+  "payloadFiles": 948,
+  "archives": [
+    "source-delivery",
+    "source-delivery-repeat"
+  ]
+}

@@ -1,6 +1,6 @@
 # Nordic Soft 1.1 — светлая многоуровневая шапка
 
-Отдельный пакет: `theme-nordic-blue-soft-contrast`, версия1.1.0. Имя сохранено от первоначального контрастного варианта; по одобренному отзыву пользователя заголовки теперь светлые. Наследование: theme-nordic-blue-soft-contrast → theme-nordic-blue-soft → theme-nordic-blue → theme-classic. SDK7.7.0.31, Cmd7.7.0.36. SDK7.9 не проверена.
+Отдельный пакет: `theme-nordic-blue-soft-contrast`, версия1.1.1. Имя сохранено от первоначального контрастного варианта; по одобренному отзыву пользователя заголовки теперь светлые. Наследование: theme-nordic-blue-soft-contrast → theme-nordic-blue-soft → theme-nordic-blue → theme-classic. SDK7.7.0.31, Cmd7.7.0.36. SDK7.9 не проверена.
 
 ## Установка
 
@@ -36,3 +36,9 @@ http://127.0.0.1:51754/contrast-preview/index.html — существующий 
 Откат: вернуть app.json theme на theme-nordic-blue-soft либо ext-theme-classic и пересобрать приложение. Старые пакеты сохранены.
 
 Фактические build logs и наблюдения: artifacts/nordic-blue/TASK-030. Проверенные режимы и ограничения указаны в отчёте этой задачи. Старые Classic/Nordic goldens неизменны и не являются визуальной приёмкой этой ревизии. Произвольные custom UI/полная RTL/другие ОС/версии SDK отдельно не подтверждены.
+
+## Исправление пользовательских иконок1.1.1 (TASK-031)
+
+Обновить все3пакета из нового архива, особенно **theme-nordic-blue1.0.1**: причина была в наследуемых tree image rules с !important. Замена только theme-nordic-blue-soft-contrast недостаточна. После замены пересобрать приложение. Soft остаётся1.0.0, отдельная тема —1.1.1.
+
+Стандартные папки/листья сохраняют approved1x/2x и16pxCSSsize. У пользовательского `icon` URL имеет штатный inline приоритет; `iconCls` определяет рисунок своим CSS. Подключать CSS приложения после темы, как в Classic. Приложение задаёт background-size пользовательского artwork, если оно использует2x или sprites; тема больше не навязывает ему свои !important. Нативный glyph renderer не меняется. Исправление не добавляет JS overrides. Примеры URL/iconCls/renderer и custom folder находятся в contrast-preview.

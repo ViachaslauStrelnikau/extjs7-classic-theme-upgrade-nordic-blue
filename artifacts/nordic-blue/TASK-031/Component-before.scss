@@ -1,0 +1,595 @@
+// Exact approved icon paths/density only. No box, typography or interaction rules.
+.x-treelist-item-loading .x-treelist-item-icon { background-image: theme-background-image('tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-treelist-nav .x-treelist-item-loading .x-treelist-item-icon { background-image: theme-background-image('tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-mask-msg-text { background-image: theme-background-image('grid/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-btn-wrap-default-small.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-small.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-small.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-small.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-small.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-small.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-medium.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-medium.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-medium.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-medium.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-medium.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-medium.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-large.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-large.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-large.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-large.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-large.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-large.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-noline', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b-noline', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-small.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-small.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-noline', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b-noline', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-medium.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-medium.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-noline', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b-noline', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-large.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-large.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-tool-img { background-image: theme-background-image('tools/tool-sprites', 'png') !important; background-size: 30px 360px !important; }
+.x-layout-split-left { background-image: theme-background-image('util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-layout-split-right { background-image: theme-background-image('util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-layout-split-top { background-image: theme-background-image('util/splitter/mini-top', 'png') !important; background-size: 35px 5px !important; }
+.x-layout-split-bottom { background-image: theme-background-image('util/splitter/mini-bottom', 'png') !important; background-size: 35px 5px !important; }
+.x-splitter-collapsed .x-layout-split-left { background-image: theme-background-image('util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-layout-split-right { background-image: theme-background-image('util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-layout-split-top { background-image: theme-background-image('util/splitter/mini-bottom', 'png') !important; background-size: 35px 5px !important; }
+.x-splitter-collapsed .x-layout-split-bottom { background-image: theme-background-image('util/splitter/mini-top', 'png') !important; background-size: 35px 5px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-left { background-image: theme-background-image('toolbar/default-scroll-left', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-right { background-image: theme-background-image('toolbar/default-scroll-right', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-top { background-image: theme-background-image('toolbar/default-scroll-top', 'png') !important; background-size: 35px 10px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-bottom { background-image: theme-background-image('toolbar/default-scroll-bottom', 'png') !important; background-size: 35px 10px !important; }
+.x-toolbar-more-icon { background-image: theme-background-image('toolbar/default-more', 'png') !important; background-size: 12px 16px !important; }
+.x-box-scroller-toolbar-footer.x-box-scroller-left { background-image: theme-background-image('toolbar/footer-scroll-left', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-toolbar-footer.x-box-scroller-right { background-image: theme-background-image('toolbar/footer-scroll-right', 'png') !important; background-size: 28px 42px !important; }
+.x-toolbar-more-icon { background-image: theme-background-image('toolbar/footer-more', 'png') !important; background-size: 12px 16px !important; }
+.x-dd-drop-ok .x-dd-drop-icon { background-image: theme-background-image('dd/drop-yes', 'png') !important; background-size: 16px 16px !important; }
+.x-dd-drop-ok-add .x-dd-drop-icon { background-image: theme-background-image('dd/drop-add', 'png') !important; background-size: 16px 16px !important; }
+.x-dd-drop-nodrop div.x-dd-drop-icon { background-image: theme-background-image('dd/drop-no', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-icon-default { background-image: theme-background-image('form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-under-default { background-image: theme-background-image('form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-icon-toolbar { background-image: theme-background-image('form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-under-toolbar { background-image: theme-background-image('form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-field-default { background-image: theme-background-image('grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-trigger-default { background-image: theme-background-image('form/trigger', 'png') !important; background-size: 102px 240px !important; }
+.x-form-invalid-field-toolbar { background-image: theme-background-image('grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-trigger-toolbar { background-image: theme-background-image('form/trigger', 'png') !important; background-size: 102px 240px !important; }
+.x-form-clear-trigger { background-image: theme-background-image('form/clear-trigger', 'png') !important; background-size: 102px 24px !important; }
+.x-form-search-trigger { background-image: theme-background-image('form/search-trigger', 'png') !important; background-size: 102px 24px !important; }
+.x-message-box-info { background-image: theme-background-image('shared/icon-info', 'png') !important; background-size: 32px 32px !important; }
+.x-message-box-warning { background-image: theme-background-image('shared/icon-warning', 'png') !important; background-size: 31px 32px !important; }
+.x-message-box-question { background-image: theme-background-image('shared/icon-question', 'png') !important; background-size: 32px 32px !important; }
+.x-message-box-error { background-image: theme-background-image('shared/icon-error', 'png') !important; background-size: 32px 32px !important; }
+.x-form-radio-default { background-image: theme-background-image('form/radio', 'png') !important; background-size: 51px 26px !important; }
+.x-form-checkbox-default { background-image: theme-background-image('form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-form-radio-toolbar { background-image: theme-background-image('form/radio', 'png') !important; background-size: 51px 26px !important; }
+.x-form-checkbox-toolbar { background-image: theme-background-image('form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-form-invalid .x-form-item-body-default.x-form-checkboxgroup-body { background-image: theme-background-image('grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-spinner-default { background-image: theme-background-image('form/spinner', 'png') !important; background-size: 102px 22px !important; }
+.x-form-spinner-toolbar { background-image: theme-background-image('form/spinner-small', 'png') !important; background-size: 102px 20px !important; }
+.x-btn-icon-el.x-tbar-page-first { background-image: theme-background-image('grid/page-first', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-page-prev { background-image: theme-background-image('grid/page-prev', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-page-next { background-image: theme-background-image('grid/page-next', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-page-last { background-image: theme-background-image('grid/page-last', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-loading { background-image: theme-background-image('grid/refresh', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-first { background-image: theme-background-image('grid/page-first-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-prev { background-image: theme-background-image('grid/page-prev-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-next { background-image: theme-background-image('grid/page-next-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-last { background-image: theme-background-image('grid/page-last-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-loading { background-image: theme-background-image('grid/refresh-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-datepicker-next { background-image: theme-background-image('shared/right-btn', 'png') !important; background-size: 15px 15px !important; }
+.x-datepicker-prev { background-image: theme-background-image('shared/left-btn', 'png') !important; background-size: 15px 15px !important; }
+.x-datepicker-month .x-btn-split-right::after, .x-datepicker-month .x-btn-over .x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-light', 'png') !important; background-size: 14px 72px !important; }
+.x-monthpicker-yearnav-next { background-image: theme-background-image('tools/tool-sprites', 'png') !important; background-size: 30px 360px !important; }
+.x-monthpicker-yearnav-prev { background-image: theme-background-image('tools/tool-sprites', 'png') !important; background-size: 30px 360px !important; }
+.x-form-field-date .x-form-date-trigger { background-image: theme-background-image('form/date-trigger', 'png') !important; background-size: 102px 24px !important; }
+.x-tip-body-form-invalid { background-image: theme-background-image('form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-html-editor-tb .x-edit-bold, .x-menu-item div.x-edit-bold { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-italic, .x-menu-item div.x-edit-italic { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-underline, .x-menu-item div.x-edit-underline { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-forecolor, .x-menu-item div.x-edit-forecolor { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-backcolor, .x-menu-item div.x-edit-backcolor { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-justifyleft, .x-menu-item div.x-edit-justifyleft { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-justifycenter, .x-menu-item div.x-edit-justifycenter { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-justifyright, .x-menu-item div.x-edit-justifyright { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-insertorderedlist, .x-menu-item div.x-edit-insertorderedlist { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-insertunorderedlist, .x-menu-item div.x-edit-insertunorderedlist { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-increasefontsize, .x-menu-item div.x-edit-increasefontsize { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-decreasefontsize, .x-menu-item div.x-edit-decreasefontsize { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-sourceedit, .x-menu-item div.x-edit-sourceedit { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-createlink, .x-menu-item div.x-edit-createlink { background-image: theme-background-image('editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-form-text-default .x-tagfield-item-close { background-image: theme-background-image('form/tag-field-item-close', 'png') !important; background-size: 33px 22px !important; }
+.x-form-text-toolbar .x-tagfield-item-close { background-image: theme-background-image('form/tag-field-item-close', 'png') !important; background-size: 33px 22px !important; }
+.x-grid-dirty-cell { background-image: theme-background-image('grid/dirty', 'png') !important; background-size: 10px 10px !important; }
+.x-grid-drop-indicator .x-grid-drop-indicator-left { background-image: theme-background-image('grid/dd-insert-arrow-right', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-drop-indicator .x-grid-drop-indicator-right { background-image: theme-background-image('grid/dd-insert-arrow-left', 'png') !important; background-size: 16px 16px !important; }
+.x-col-move-top { background-image: theme-background-image('grid/col-move-top', 'png') !important; background-size: 9px 9px !important; }
+.x-col-move-bottom { background-image: theme-background-image('grid/col-move-bottom', 'png') !important; background-size: 9px 9px !important; }
+.x-hmenu-sort-asc { background-image: theme-background-image('grid/hmenu-asc', 'png') !important; background-size: 16px 16px !important; }
+.x-hmenu-sort-desc { background-image: theme-background-image('grid/hmenu-desc', 'png') !important; background-size: 16px 16px !important; }
+.x-cols-icon { background-image: theme-background-image('grid/columns', 'png') !important; background-size: 16px 16px !important; }
+.x-column-header-sort-ASC .x-column-header-text-inner { background-image: theme-background-image('grid/sort_asc', 'png') !important; background-size: 9px 5px !important; }
+.x-column-header-sort-DESC .x-column-header-text-inner { background-image: theme-background-image('grid/sort_desc', 'png') !important; background-size: 9px 5px !important; }
+.x-column-header-checkbox .x-column-header-checkbox::after, .x-grid-checkcolumn::after { background-image: theme-background-image('form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-form-invalid-field-grid-cell { background-image: theme-background-image('grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-trigger-grid-cell { background-image: theme-background-image('form/trigger', 'png') !important; background-size: 102px 240px !important; }
+.x-form-text-grid-cell .x-tagfield-item-close { background-image: theme-background-image('form/tag-field-item-close', 'png') !important; background-size: 33px 22px !important; }
+.x-form-spinner-grid-cell { background-image: theme-background-image('form/spinner-small', 'png') !important; background-size: 102px 20px !important; }
+.x-form-radio-grid-cell { background-image: theme-background-image('form/radio', 'png') !important; background-size: 51px 26px !important; }
+.x-form-checkbox-grid-cell { background-image: theme-background-image('form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-arrow-bottom::after { background-image: theme-background-image('button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-grid-cell-small.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-grid-cell-small.x-btn-split-bottom::after { background-image: theme-background-image('button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-grid-advanced-group-hd-collapsible .x-grid-advanced-group-title { background-image: theme-background-image('grid/group-collapse', 'png') !important; background-size: 9px 9px !important; }
+.x-grid-advanced-group-hd-collapsed .x-grid-advanced-group-title { background-image: theme-background-image('grid/group-expand', 'png') !important; background-size: 9px 9px !important; }
+.x-groups-icon { background-image: theme-background-image('grid/groups', 'png') !important; background-size: 16px 16px !important; }
+.x-group-by-icon { background-image: theme-background-image('grid/group-by', 'png') !important; background-size: 16px 16px !important; }
+.x-add-group-icon { background-image: theme-background-image('grid/add', 'png') !important; background-size: 16px 16px !important; }
+.x-remove-group-icon { background-image: theme-background-image('grid/remove', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-hd-collapsible .x-grid-group-title { background-image: theme-background-image('grid/group-collapse', 'png') !important; background-size: 9px 9px !important; }
+.x-grid-group-hd-collapsed .x-grid-group-title { background-image: theme-background-image('grid/group-expand', 'png') !important; background-size: 9px 9px !important; }
+.x-menu-item-checked .x-menu-item-icon-default.x-menu-item-checkbox { background-image: theme-background-image('menu/default-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox { background-image: theme-background-image('menu/default-unchecked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-checked .x-menu-item-icon-default.x-menu-group-icon { background-image: theme-background-image('menu/default-group-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-arrow-default { background-image: theme-background-image('menu/default-menu-parent', 'png') !important; background-size: 12px 9px !important; }
+.x-box-scroller-menu-default.x-box-scroller-top { background-image: theme-background-image('menu/default-scroll-top', 'png') !important; background-size: 35px 10px !important; }
+.x-box-scroller-menu-default.x-box-scroller-bottom { background-image: theme-background-image('menu/default-scroll-bottom', 'png') !important; background-size: 35px 10px !important; }
+.x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-item-checkbox { background-image: theme-background-image('menu/default-menubar-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-unchecked .x-menu-item-icon-default-menubar.x-menu-item-checkbox { background-image: theme-background-image('menu/default-menubar-unchecked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-group-icon { background-image: theme-background-image('menu/default-menubar-group-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-arrow-default-menubar { background-image: theme-background-image('menu/default-menubar-menu-parent', 'png') !important; background-size: 9px 6px !important; }
+.x-box-scroller-menu-default-menubar.x-box-scroller-top { background-image: theme-background-image('menu/default-menubar-scroll-top', 'png') !important; background-size: 10px 35px !important; }
+.x-box-scroller-menu-default-menubar.x-box-scroller-bottom { background-image: theme-background-image('menu/default-menubar-scroll-bottom', 'png') !important; background-size: 10px 35px !important; }
+.x-grid-filters-find { background-image: theme-background-image('grid/filters/find', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-filters-gt { background-image: theme-background-image('grid/filters/greater_than', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-filters-lt { background-image: theme-background-image('grid/filters/less_than', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-filters-eq { background-image: theme-background-image('grid/filters/equals', 'png') !important; background-size: 16px 16px !important; }
+.x-hmenu-lock { background-image: theme-background-image('grid/hmenu-lock', 'png') !important; background-size: 16px 16px !important; }
+.x-hmenu-unlock { background-image: theme-background-image('grid/hmenu-unlock', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-column-btn-customize { background-image: theme-background-image('grid/gear-small', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-column-btn-sort-asc { background-image: theme-background-image('grid/sort_asc', 'png') !important; background-size: 9px 5px !important; }
+.x-grid-group-column-sort-icon-asc { background-image: theme-background-image('grid/hmenu-asc', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-column-btn-sort-desc { background-image: theme-background-image('grid/sort_desc', 'png') !important; background-size: 9px 5px !important; }
+.x-grid-group-column-sort-icon-desc { background-image: theme-background-image('grid/hmenu-desc', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-panel-icon { background-image: theme-background-image('grid/group-by', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-panel-clear-icon { background-image: theme-background-image('grid/group-clear', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-row-expander { background-image: theme-background-image('grid/group-collapse', 'png') !important; background-size: 9px 9px !important; }
+.x-grid-row-collapsed .x-grid-row-expander { background-image: theme-background-image('grid/group-expand', 'png') !important; background-size: 9px 9px !important; }
+.x-summaries-icon { background-image: theme-background-image('grid/summary', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-like { background-image: theme-background-image('grid/op-like', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-nlike { background-image: theme-background-image('grid/op-nlike', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-eq { background-image: theme-background-image('grid/op-eq', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-neq { background-image: theme-background-image('grid/op-neq', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-gt { background-image: theme-background-image('grid/op-gt', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-gte { background-image: theme-background-image('grid/op-gte', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-lt { background-image: theme-background-image('grid/op-lt', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-lte { background-image: theme-background-image('grid/op-lte', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-in { background-image: theme-background-image('grid/op-in', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-nin { background-image: theme-background-image('grid/op-nin', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-identical { background-image: theme-background-image('grid/op-identical', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-nidentical { background-image: theme-background-image('grid/op-nidentical', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-empty { background-image: theme-background-image('grid/op-empty', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-exists { background-image: theme-background-image('grid/op-exists', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-fn { background-image: theme-background-image('grid/op-fn', 'png') !important; background-size: 16px 16px !important; }
+.x-slider-horz .x-slider-thumb { background-image: theme-background-image('slider/slider-thumb', 'png') !important; background-size: 84px 90px !important; }
+.x-slider-vert .x-slider-thumb { background-image: theme-background-image('slider/slider-v-thumb', 'png') !important; background-size: 90px 84px !important; }
+.x-tab-default .x-tab-close-btn { background-image: theme-background-image('tab/tab-default-close', 'png') !important; background-size: 11px 11px !important; }
+.x-tab-bar-more-icon { background-image: theme-background-image('tab-bar/default-more', 'png') !important; background-size: 12px 16px !important; }
+.x-tab-bar-default-top .x-box-scroller-left { background-image: theme-background-image('tab-bar/default-scroll-left-top', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-top .x-box-scroller-right { background-image: theme-background-image('tab-bar/default-scroll-right-top', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-bottom .x-box-scroller-left { background-image: theme-background-image('tab-bar/default-scroll-left-bottom', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-bottom .x-box-scroller-right { background-image: theme-background-image('tab-bar/default-scroll-right-bottom', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-left .x-box-scroller-top { background-image: theme-background-image('tab-bar/default-scroll-top-left', 'png') !important; background-size: 42px 36px !important; }
+.x-tab-bar-default-left .x-box-scroller-bottom { background-image: theme-background-image('tab-bar/default-scroll-bottom-left', 'png') !important; background-size: 42px 36px !important; }
+.x-tab-bar-default-right .x-box-scroller-top { background-image: theme-background-image('tab-bar/default-scroll-top-right', 'png') !important; background-size: 42px 36px !important; }
+.x-tab-bar-default-right .x-box-scroller-bottom { background-image: theme-background-image('tab-bar/default-scroll-bottom-right', 'png') !important; background-size: 42px 36px !important; }
+.x-breadcrumb-icon-folder-default { background-image: theme-background-image('tree/folder', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-menu-active .x-breadcrumb-icon-folder-default { background-image: theme-background-image('tree/folder-open', 'png') !important; background-size: 16px 16px !important; }
+.x-breadcrumb-icon-leaf-default { background-image: theme-background-image('tree/leaf', 'png') !important; background-size: 16px 16px !important; }
+.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('breadcrumb/default-arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('breadcrumb/default-arrow-open', 'png') !important; background-size: 10px 10px !important; }
+.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('breadcrumb/default-split-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('breadcrumb/default-split-arrow-open', 'png') !important; background-size: 14px 72px !important; }
+.x-box-scroller-breadcrumb-default.x-box-scroller-left { background-image: theme-background-image('breadcrumb/default-scroll-left', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-breadcrumb-default.x-box-scroller-right { background-image: theme-background-image('breadcrumb/default-scroll-right', 'png') !important; background-size: 28px 42px !important; }
+.x-tree-arrows .x-tree-expander { background-image: theme-background-image('tree/arrows', 'png') !important; background-size: 64px 20px !important; }
+.x-tree-lines .x-tree-elbow { background-image: theme-background-image('tree/elbow', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-end { background-image: theme-background-image('tree/elbow-end', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-plus { background-image: theme-background-image('tree/elbow-plus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-end-plus { background-image: theme-background-image('tree/elbow-end-plus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus { background-image: theme-background-image('tree/elbow-minus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus { background-image: theme-background-image('tree/elbow-end-minus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-line { background-image: theme-background-image('tree/elbow-line', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-tree-expander { background-image: theme-background-image('tree/elbow-plus-nl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-grid-tree-node-expanded .x-tree-expander { background-image: theme-background-image('tree/elbow-minus-nl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-icon-leaf { background-image: theme-background-image('tree/leaf', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent { background-image: theme-background-image('tree/folder', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent-expanded { background-image: theme-background-image('tree/folder-open', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-checkbox { background-image: theme-background-image('form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-grid-tree-loading .x-tree-icon { background-image: theme-background-image('tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-append .x-dd-drop-icon { background-image: theme-background-image('tree/drop-append', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-above .x-dd-drop-icon { background-image: theme-background-image('tree/drop-above', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-below .x-dd-drop-icon { background-image: theme-background-image('tree/drop-below', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-between .x-dd-drop-icon { background-image: theme-background-image('tree/drop-between', 'png') !important; background-size: 16px 16px !important; }
+.x-toast-icon-information { background-image: theme-background-image('window/toast/icon16_info', 'png') !important; background-size: 16px 16px !important; }
+.x-toast-icon-error { background-image: theme-background-image('window/toast/icon16_error', 'png') !important; background-size: 16px 16px !important; }
+.x-message-box .x-msg-box-wait { background-image: theme-background-image('shared/blue-loading', 'gif') !important; background-size: 32px 32px !important; }
+.x-btn-wrap-default-small.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-medium.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-large.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-small.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-noline-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-noline-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-large.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-noline-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-rtl.x-layout-split-left { background-image: theme-background-image('util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-rtl.x-layout-split-right { background-image: theme-background-image('util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-rtl.x-layout-split-left { background-image: theme-background-image('util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-rtl.x-layout-split-right { background-image: theme-background-image('util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-toolbar-more-icon.x-rtl { background-image: theme-background-image('toolbar/default-more-left', 'png') !important; background-size: 12px 16px !important; }
+.x-form-trigger-default.x-rtl { background-image: theme-background-image('form/trigger-rtl', 'png') !important; background-size: 102px 240px !important; }
+.x-form-trigger-toolbar.x-rtl { background-image: theme-background-image('form/trigger-rtl', 'png') !important; background-size: 102px 240px !important; }
+.x-form-clear-trigger.x-rtl { background-image: theme-background-image('form/clear-trigger-rtl', 'png') !important; background-size: 102px 24px !important; }
+.x-form-search-trigger.x-rtl { background-image: theme-background-image('form/search-trigger-rtl', 'png') !important; background-size: 102px 24px !important; }
+.x-form-spinner-default.x-rtl { background-image: theme-background-image('form/spinner-rtl', 'png') !important; background-size: 102px 22px !important; }
+.x-form-spinner-toolbar.x-rtl { background-image: theme-background-image('form/spinner-small-rtl', 'png') !important; background-size: 102px 20px !important; }
+.x-rtl.x-tbar-page-first { background-image: theme-background-image('grid/page-last', 'png') !important; background-size: 16px 16px !important; }
+.x-rtl.x-tbar-page-prev { background-image: theme-background-image('grid/page-next', 'png') !important; background-size: 16px 16px !important; }
+.x-rtl.x-tbar-page-next { background-image: theme-background-image('grid/page-prev', 'png') !important; background-size: 16px 16px !important; }
+.x-rtl.x-tbar-page-last { background-image: theme-background-image('grid/page-first', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-first { background-image: theme-background-image('grid/page-last-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-prev { background-image: theme-background-image('grid/page-next-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-next { background-image: theme-background-image('grid/page-prev-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-last { background-image: theme-background-image('grid/page-first-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-form-field-date .x-form-date-trigger.x-rtl { background-image: theme-background-image('form/date-trigger-rtl', 'png') !important; background-size: 102px 24px !important; }
+.x-rtl.x-grid-dirty-cell { background-image: theme-background-image('grid/dirty-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-form-trigger-grid-cell.x-rtl { background-image: theme-background-image('form/trigger-rtl', 'png') !important; background-size: 102px 240px !important; }
+.x-form-spinner-grid-cell.x-rtl { background-image: theme-background-image('form/spinner-small-rtl', 'png') !important; background-size: 102px 20px !important; }
+.x-btn-wrap-grid-cell-small.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-grid-cell-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-grid-cell-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-menu-item-arrow-default.x-rtl { background-image: theme-background-image('menu/default-menu-parent-left', 'png') !important; background-size: 12px 9px !important; }
+.x-tab-bar-more-icon.x-rtl { background-image: theme-background-image('tab-bar/default-more-left', 'png') !important; background-size: 12px 16px !important; }
+.x-rtl.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('breadcrumb/default-arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('breadcrumb/default-arrow-open-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-rtl.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('breadcrumb/default-split-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('breadcrumb/default-split-arrow-open-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-tree-arrows .x-rtl.x-tree-expander { background-image: theme-background-image('tree/arrows-rtl', 'png') !important; background-size: 64px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow { background-image: theme-background-image('tree/elbow-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-end { background-image: theme-background-image('tree/elbow-end-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-plus { background-image: theme-background-image('tree/elbow-plus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-end-plus { background-image: theme-background-image('tree/elbow-end-plus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-rtl.x-tree-elbow-plus { background-image: theme-background-image('tree/elbow-minus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-rtl.x-tree-elbow-end-plus { background-image: theme-background-image('tree/elbow-end-minus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-line { background-image: theme-background-image('tree/elbow-line-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-rtl.x-tree-expander { background-image: theme-background-image('tree/elbow-plus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-grid-tree-node-expanded .x-rtl.x-tree-expander { background-image: theme-background-image('tree/elbow-minus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-icon-leaf.x-rtl { background-image: theme-background-image('tree/leaf-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent.x-rtl { background-image: theme-background-image('tree/folder-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('tree/folder-open-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-tree-loading .x-rtl.x-tree-icon { background-image: theme-background-image('tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-tool-resize { background-image: theme-background-image('tools/nordic-resize', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
+.x-tool-move { background-image: theme-background-image('tools/nordic-move', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
+@media (min-resolution: 192dpi) {
+.x-treelist-item-loading .x-treelist-item-icon { background-image: theme-background-image('@2x/tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-treelist-nav .x-treelist-item-loading .x-treelist-item-icon { background-image: theme-background-image('@2x/tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-mask-msg-text { background-image: theme-background-image('@2x/grid/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-btn-wrap-default-small.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-small.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-small.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-small.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-small.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-small.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-medium.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-medium.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-medium.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-medium.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-medium.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-medium.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-large.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-large.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-large.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-large.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-large.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-large.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-noline', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-small.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b-noline', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-small.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-small.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-noline', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-medium.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b-noline', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-medium.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-medium.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-noline', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-large.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b-noline', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-large.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-large.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-tool-img { background-image: theme-background-image('@2x/tools/tool-sprites', 'png') !important; background-size: 30px 360px !important; }
+.x-layout-split-left { background-image: theme-background-image('@2x/util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-layout-split-right { background-image: theme-background-image('@2x/util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-layout-split-top { background-image: theme-background-image('@2x/util/splitter/mini-top', 'png') !important; background-size: 35px 5px !important; }
+.x-layout-split-bottom { background-image: theme-background-image('@2x/util/splitter/mini-bottom', 'png') !important; background-size: 35px 5px !important; }
+.x-splitter-collapsed .x-layout-split-left { background-image: theme-background-image('@2x/util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-layout-split-right { background-image: theme-background-image('@2x/util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-layout-split-top { background-image: theme-background-image('@2x/util/splitter/mini-bottom', 'png') !important; background-size: 35px 5px !important; }
+.x-splitter-collapsed .x-layout-split-bottom { background-image: theme-background-image('@2x/util/splitter/mini-top', 'png') !important; background-size: 35px 5px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-left { background-image: theme-background-image('@2x/toolbar/default-scroll-left', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-right { background-image: theme-background-image('@2x/toolbar/default-scroll-right', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-top { background-image: theme-background-image('@2x/toolbar/default-scroll-top', 'png') !important; background-size: 35px 10px !important; }
+.x-box-scroller-toolbar-default.x-box-scroller-bottom { background-image: theme-background-image('@2x/toolbar/default-scroll-bottom', 'png') !important; background-size: 35px 10px !important; }
+.x-toolbar-more-icon { background-image: theme-background-image('@2x/toolbar/default-more', 'png') !important; background-size: 12px 16px !important; }
+.x-box-scroller-toolbar-footer.x-box-scroller-left { background-image: theme-background-image('@2x/toolbar/footer-scroll-left', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-toolbar-footer.x-box-scroller-right { background-image: theme-background-image('@2x/toolbar/footer-scroll-right', 'png') !important; background-size: 28px 42px !important; }
+.x-toolbar-more-icon { background-image: theme-background-image('@2x/toolbar/footer-more', 'png') !important; background-size: 12px 16px !important; }
+.x-dd-drop-ok .x-dd-drop-icon { background-image: theme-background-image('@2x/dd/drop-yes', 'png') !important; background-size: 16px 16px !important; }
+.x-dd-drop-ok-add .x-dd-drop-icon { background-image: theme-background-image('@2x/dd/drop-add', 'png') !important; background-size: 16px 16px !important; }
+.x-dd-drop-nodrop div.x-dd-drop-icon { background-image: theme-background-image('@2x/dd/drop-no', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-icon-default { background-image: theme-background-image('@2x/form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-under-default { background-image: theme-background-image('@2x/form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-icon-toolbar { background-image: theme-background-image('@2x/form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-under-toolbar { background-image: theme-background-image('@2x/form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-form-invalid-field-default { background-image: theme-background-image('@2x/grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-trigger-default { background-image: theme-background-image('@2x/form/trigger', 'png') !important; background-size: 102px 240px !important; }
+.x-form-invalid-field-toolbar { background-image: theme-background-image('@2x/grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-trigger-toolbar { background-image: theme-background-image('@2x/form/trigger', 'png') !important; background-size: 102px 240px !important; }
+.x-form-clear-trigger { background-image: theme-background-image('@2x/form/clear-trigger', 'png') !important; background-size: 102px 24px !important; }
+.x-form-search-trigger { background-image: theme-background-image('@2x/form/search-trigger', 'png') !important; background-size: 102px 24px !important; }
+.x-message-box-info { background-image: theme-background-image('@2x/shared/icon-info', 'png') !important; background-size: 32px 32px !important; }
+.x-message-box-warning { background-image: theme-background-image('@2x/shared/icon-warning', 'png') !important; background-size: 31px 32px !important; }
+.x-message-box-question { background-image: theme-background-image('@2x/shared/icon-question', 'png') !important; background-size: 32px 32px !important; }
+.x-message-box-error { background-image: theme-background-image('@2x/shared/icon-error', 'png') !important; background-size: 32px 32px !important; }
+.x-form-radio-default { background-image: theme-background-image('@2x/form/radio', 'png') !important; background-size: 51px 26px !important; }
+.x-form-checkbox-default { background-image: theme-background-image('@2x/form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-form-radio-toolbar { background-image: theme-background-image('@2x/form/radio', 'png') !important; background-size: 51px 26px !important; }
+.x-form-checkbox-toolbar { background-image: theme-background-image('@2x/form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-form-invalid .x-form-item-body-default.x-form-checkboxgroup-body { background-image: theme-background-image('@2x/grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-spinner-default { background-image: theme-background-image('@2x/form/spinner', 'png') !important; background-size: 102px 22px !important; }
+.x-form-spinner-toolbar { background-image: theme-background-image('@2x/form/spinner-small', 'png') !important; background-size: 102px 20px !important; }
+.x-btn-icon-el.x-tbar-page-first { background-image: theme-background-image('@2x/grid/page-first', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-page-prev { background-image: theme-background-image('@2x/grid/page-prev', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-page-next { background-image: theme-background-image('@2x/grid/page-next', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-page-last { background-image: theme-background-image('@2x/grid/page-last', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-icon-el.x-tbar-loading { background-image: theme-background-image('@2x/grid/refresh', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-first { background-image: theme-background-image('@2x/grid/page-first-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-prev { background-image: theme-background-image('@2x/grid/page-prev-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-next { background-image: theme-background-image('@2x/grid/page-next-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-page-last { background-image: theme-background-image('@2x/grid/page-last-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-tbar-loading { background-image: theme-background-image('@2x/grid/refresh-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-datepicker-next { background-image: theme-background-image('@2x/shared/right-btn', 'png') !important; background-size: 15px 15px !important; }
+.x-datepicker-prev { background-image: theme-background-image('@2x/shared/left-btn', 'png') !important; background-size: 15px 15px !important; }
+.x-datepicker-month .x-btn-split-right::after, .x-datepicker-month .x-btn-over .x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-light', 'png') !important; background-size: 14px 72px !important; }
+.x-monthpicker-yearnav-next { background-image: theme-background-image('@2x/tools/tool-sprites', 'png') !important; background-size: 30px 360px !important; }
+.x-monthpicker-yearnav-prev { background-image: theme-background-image('@2x/tools/tool-sprites', 'png') !important; background-size: 30px 360px !important; }
+.x-form-field-date .x-form-date-trigger { background-image: theme-background-image('@2x/form/date-trigger', 'png') !important; background-size: 102px 24px !important; }
+.x-tip-body-form-invalid { background-image: theme-background-image('@2x/form/exclamation', 'png') !important; background-size: 16px 16px !important; }
+.x-html-editor-tb .x-edit-bold, .x-menu-item div.x-edit-bold { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-italic, .x-menu-item div.x-edit-italic { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-underline, .x-menu-item div.x-edit-underline { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-forecolor, .x-menu-item div.x-edit-forecolor { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-backcolor, .x-menu-item div.x-edit-backcolor { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-justifyleft, .x-menu-item div.x-edit-justifyleft { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-justifycenter, .x-menu-item div.x-edit-justifycenter { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-justifyright, .x-menu-item div.x-edit-justifyright { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-insertorderedlist, .x-menu-item div.x-edit-insertorderedlist { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-insertunorderedlist, .x-menu-item div.x-edit-insertunorderedlist { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-increasefontsize, .x-menu-item div.x-edit-increasefontsize { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-decreasefontsize, .x-menu-item div.x-edit-decreasefontsize { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-sourceedit, .x-menu-item div.x-edit-sourceedit { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-html-editor-tb .x-edit-createlink, .x-menu-item div.x-edit-createlink { background-image: theme-background-image('@2x/editor/tb-sprite', 'png') !important; background-size: 224px 16px !important; }
+.x-form-text-default .x-tagfield-item-close { background-image: theme-background-image('@2x/form/tag-field-item-close', 'png') !important; background-size: 33px 22px !important; }
+.x-form-text-toolbar .x-tagfield-item-close { background-image: theme-background-image('@2x/form/tag-field-item-close', 'png') !important; background-size: 33px 22px !important; }
+.x-grid-dirty-cell { background-image: theme-background-image('@2x/grid/dirty', 'png') !important; background-size: 10px 10px !important; }
+.x-grid-drop-indicator .x-grid-drop-indicator-left { background-image: theme-background-image('@2x/grid/dd-insert-arrow-right', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-drop-indicator .x-grid-drop-indicator-right { background-image: theme-background-image('@2x/grid/dd-insert-arrow-left', 'png') !important; background-size: 16px 16px !important; }
+.x-col-move-top { background-image: theme-background-image('@2x/grid/col-move-top', 'png') !important; background-size: 9px 9px !important; }
+.x-col-move-bottom { background-image: theme-background-image('@2x/grid/col-move-bottom', 'png') !important; background-size: 9px 9px !important; }
+.x-hmenu-sort-asc { background-image: theme-background-image('@2x/grid/hmenu-asc', 'png') !important; background-size: 16px 16px !important; }
+.x-hmenu-sort-desc { background-image: theme-background-image('@2x/grid/hmenu-desc', 'png') !important; background-size: 16px 16px !important; }
+.x-cols-icon { background-image: theme-background-image('@2x/grid/columns', 'png') !important; background-size: 16px 16px !important; }
+.x-column-header-sort-ASC .x-column-header-text-inner { background-image: theme-background-image('@2x/grid/sort_asc', 'png') !important; background-size: 9px 5px !important; }
+.x-column-header-sort-DESC .x-column-header-text-inner { background-image: theme-background-image('@2x/grid/sort_desc', 'png') !important; background-size: 9px 5px !important; }
+.x-column-header-checkbox .x-column-header-checkbox::after, .x-grid-checkcolumn::after { background-image: theme-background-image('@2x/form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-form-invalid-field-grid-cell { background-image: theme-background-image('@2x/grid/invalid_line', 'png') !important; background-size: 4px 3px !important; }
+.x-form-trigger-grid-cell { background-image: theme-background-image('@2x/form/trigger', 'png') !important; background-size: 102px 240px !important; }
+.x-form-text-grid-cell .x-tagfield-item-close { background-image: theme-background-image('@2x/form/tag-field-item-close', 'png') !important; background-size: 33px 22px !important; }
+.x-form-spinner-grid-cell { background-image: theme-background-image('@2x/form/spinner-small', 'png') !important; background-size: 102px 20px !important; }
+.x-form-radio-grid-cell { background-image: theme-background-image('@2x/form/radio', 'png') !important; background-size: 51px 26px !important; }
+.x-form-checkbox-grid-cell { background-image: theme-background-image('@2x/form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-arrow-bottom::after { background-image: theme-background-image('@2x/button/arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-grid-cell-small.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-b', 'png') !important; background-size: 200px 14px !important; }
+.x-btn-over > .x-btn-wrap-grid-cell-small.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-grid-cell-small.x-btn-split-bottom::after { background-image: theme-background-image('@2x/button/s-arrow-bo', 'png') !important; background-size: 200px 14px !important; }
+.x-grid-advanced-group-hd-collapsible .x-grid-advanced-group-title { background-image: theme-background-image('@2x/grid/group-collapse', 'png') !important; background-size: 9px 9px !important; }
+.x-grid-advanced-group-hd-collapsed .x-grid-advanced-group-title { background-image: theme-background-image('@2x/grid/group-expand', 'png') !important; background-size: 9px 9px !important; }
+.x-groups-icon { background-image: theme-background-image('@2x/grid/groups', 'png') !important; background-size: 16px 16px !important; }
+.x-group-by-icon { background-image: theme-background-image('@2x/grid/group-by', 'png') !important; background-size: 16px 16px !important; }
+.x-add-group-icon { background-image: theme-background-image('@2x/grid/add', 'png') !important; background-size: 16px 16px !important; }
+.x-remove-group-icon { background-image: theme-background-image('@2x/grid/remove', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-hd-collapsible .x-grid-group-title { background-image: theme-background-image('@2x/grid/group-collapse', 'png') !important; background-size: 9px 9px !important; }
+.x-grid-group-hd-collapsed .x-grid-group-title { background-image: theme-background-image('@2x/grid/group-expand', 'png') !important; background-size: 9px 9px !important; }
+.x-menu-item-checked .x-menu-item-icon-default.x-menu-item-checkbox { background-image: theme-background-image('@2x/menu/default-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox { background-image: theme-background-image('@2x/menu/default-unchecked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-checked .x-menu-item-icon-default.x-menu-group-icon { background-image: theme-background-image('@2x/menu/default-group-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-arrow-default { background-image: theme-background-image('@2x/menu/default-menu-parent', 'png') !important; background-size: 12px 9px !important; }
+.x-box-scroller-menu-default.x-box-scroller-top { background-image: theme-background-image('@2x/menu/default-scroll-top', 'png') !important; background-size: 35px 10px !important; }
+.x-box-scroller-menu-default.x-box-scroller-bottom { background-image: theme-background-image('@2x/menu/default-scroll-bottom', 'png') !important; background-size: 35px 10px !important; }
+.x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-item-checkbox { background-image: theme-background-image('@2x/menu/default-menubar-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-unchecked .x-menu-item-icon-default-menubar.x-menu-item-checkbox { background-image: theme-background-image('@2x/menu/default-menubar-unchecked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-checked .x-menu-item-icon-default-menubar.x-menu-group-icon { background-image: theme-background-image('@2x/menu/default-menubar-group-checked', 'png') !important; background-size: 16px 16px !important; }
+.x-menu-item-arrow-default-menubar { background-image: theme-background-image('@2x/menu/default-menubar-menu-parent', 'png') !important; background-size: 9px 6px !important; }
+.x-box-scroller-menu-default-menubar.x-box-scroller-top { background-image: theme-background-image('@2x/menu/default-menubar-scroll-top', 'png') !important; background-size: 10px 35px !important; }
+.x-box-scroller-menu-default-menubar.x-box-scroller-bottom { background-image: theme-background-image('@2x/menu/default-menubar-scroll-bottom', 'png') !important; background-size: 10px 35px !important; }
+.x-grid-filters-find { background-image: theme-background-image('@2x/grid/filters/find', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-filters-gt { background-image: theme-background-image('@2x/grid/filters/greater_than', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-filters-lt { background-image: theme-background-image('@2x/grid/filters/less_than', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-filters-eq { background-image: theme-background-image('@2x/grid/filters/equals', 'png') !important; background-size: 16px 16px !important; }
+.x-hmenu-lock { background-image: theme-background-image('@2x/grid/hmenu-lock', 'png') !important; background-size: 16px 16px !important; }
+.x-hmenu-unlock { background-image: theme-background-image('@2x/grid/hmenu-unlock', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-column-btn-customize { background-image: theme-background-image('@2x/grid/gear-small', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-column-btn-sort-asc { background-image: theme-background-image('@2x/grid/sort_asc', 'png') !important; background-size: 9px 5px !important; }
+.x-grid-group-column-sort-icon-asc { background-image: theme-background-image('@2x/grid/hmenu-asc', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-column-btn-sort-desc { background-image: theme-background-image('@2x/grid/sort_desc', 'png') !important; background-size: 9px 5px !important; }
+.x-grid-group-column-sort-icon-desc { background-image: theme-background-image('@2x/grid/hmenu-desc', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-panel-icon { background-image: theme-background-image('@2x/grid/group-by', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-group-panel-clear-icon { background-image: theme-background-image('@2x/grid/group-clear', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-row-expander { background-image: theme-background-image('@2x/grid/group-collapse', 'png') !important; background-size: 9px 9px !important; }
+.x-grid-row-collapsed .x-grid-row-expander { background-image: theme-background-image('@2x/grid/group-expand', 'png') !important; background-size: 9px 9px !important; }
+.x-summaries-icon { background-image: theme-background-image('@2x/grid/summary', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-like { background-image: theme-background-image('@2x/grid/op-like', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-nlike { background-image: theme-background-image('@2x/grid/op-nlike', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-eq { background-image: theme-background-image('@2x/grid/op-eq', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-neq { background-image: theme-background-image('@2x/grid/op-neq', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-gt { background-image: theme-background-image('@2x/grid/op-gt', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-gte { background-image: theme-background-image('@2x/grid/op-gte', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-lt { background-image: theme-background-image('@2x/grid/op-lt', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-lte { background-image: theme-background-image('@2x/grid/op-lte', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-in { background-image: theme-background-image('@2x/grid/op-in', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-nin { background-image: theme-background-image('@2x/grid/op-nin', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-identical { background-image: theme-background-image('@2x/grid/op-identical', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-nidentical { background-image: theme-background-image('@2x/grid/op-nidentical', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-empty { background-image: theme-background-image('@2x/grid/op-empty', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-exists { background-image: theme-background-image('@2x/grid/op-exists', 'png') !important; background-size: 16px 16px !important; }
+.x-operator-fn { background-image: theme-background-image('@2x/grid/op-fn', 'png') !important; background-size: 16px 16px !important; }
+.x-slider-horz .x-slider-thumb { background-image: theme-background-image('@2x/slider/slider-thumb', 'png') !important; background-size: 84px 90px !important; }
+.x-slider-vert .x-slider-thumb { background-image: theme-background-image('@2x/slider/slider-v-thumb', 'png') !important; background-size: 90px 84px !important; }
+.x-tab-default .x-tab-close-btn { background-image: theme-background-image('@2x/tab/tab-default-close', 'png') !important; background-size: 11px 11px !important; }
+.x-tab-bar-more-icon { background-image: theme-background-image('@2x/tab-bar/default-more', 'png') !important; background-size: 12px 16px !important; }
+.x-tab-bar-default-top .x-box-scroller-left { background-image: theme-background-image('@2x/tab-bar/default-scroll-left-top', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-top .x-box-scroller-right { background-image: theme-background-image('@2x/tab-bar/default-scroll-right-top', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-bottom .x-box-scroller-left { background-image: theme-background-image('@2x/tab-bar/default-scroll-left-bottom', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-bottom .x-box-scroller-right { background-image: theme-background-image('@2x/tab-bar/default-scroll-right-bottom', 'png') !important; background-size: 36px 42px !important; }
+.x-tab-bar-default-left .x-box-scroller-top { background-image: theme-background-image('@2x/tab-bar/default-scroll-top-left', 'png') !important; background-size: 42px 36px !important; }
+.x-tab-bar-default-left .x-box-scroller-bottom { background-image: theme-background-image('@2x/tab-bar/default-scroll-bottom-left', 'png') !important; background-size: 42px 36px !important; }
+.x-tab-bar-default-right .x-box-scroller-top { background-image: theme-background-image('@2x/tab-bar/default-scroll-top-right', 'png') !important; background-size: 42px 36px !important; }
+.x-tab-bar-default-right .x-box-scroller-bottom { background-image: theme-background-image('@2x/tab-bar/default-scroll-bottom-right', 'png') !important; background-size: 42px 36px !important; }
+.x-breadcrumb-icon-folder-default { background-image: theme-background-image('@2x/tree/folder', 'png') !important; background-size: 16px 16px !important; }
+.x-btn-menu-active .x-breadcrumb-icon-folder-default { background-image: theme-background-image('@2x/tree/folder-open', 'png') !important; background-size: 16px 16px !important; }
+.x-breadcrumb-icon-leaf-default { background-image: theme-background-image('@2x/tree/leaf', 'png') !important; background-size: 16px 16px !important; }
+.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('@2x/breadcrumb/default-arrow', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('@2x/breadcrumb/default-arrow-open', 'png') !important; background-size: 10px 10px !important; }
+.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('@2x/breadcrumb/default-split-arrow', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('@2x/breadcrumb/default-split-arrow-open', 'png') !important; background-size: 14px 72px !important; }
+.x-box-scroller-breadcrumb-default.x-box-scroller-left { background-image: theme-background-image('@2x/breadcrumb/default-scroll-left', 'png') !important; background-size: 28px 42px !important; }
+.x-box-scroller-breadcrumb-default.x-box-scroller-right { background-image: theme-background-image('@2x/breadcrumb/default-scroll-right', 'png') !important; background-size: 28px 42px !important; }
+.x-tree-arrows .x-tree-expander { background-image: theme-background-image('@2x/tree/arrows', 'png') !important; background-size: 64px 20px !important; }
+.x-tree-lines .x-tree-elbow { background-image: theme-background-image('@2x/tree/elbow', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-end { background-image: theme-background-image('@2x/tree/elbow-end', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-plus { background-image: theme-background-image('@2x/tree/elbow-plus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-end-plus { background-image: theme-background-image('@2x/tree/elbow-end-plus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus { background-image: theme-background-image('@2x/tree/elbow-minus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus { background-image: theme-background-image('@2x/tree/elbow-end-minus', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-tree-elbow-line { background-image: theme-background-image('@2x/tree/elbow-line', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-plus-nl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-grid-tree-node-expanded .x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-minus-nl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-icon-leaf { background-image: theme-background-image('@2x/tree/leaf', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent { background-image: theme-background-image('@2x/tree/folder', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent-expanded { background-image: theme-background-image('@2x/tree/folder-open', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-checkbox { background-image: theme-background-image('@2x/form/checkbox', 'png') !important; background-size: 52px 39px !important; }
+.x-grid-tree-loading .x-tree-icon { background-image: theme-background-image('@2x/tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-append .x-dd-drop-icon { background-image: theme-background-image('@2x/tree/drop-append', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-above .x-dd-drop-icon { background-image: theme-background-image('@2x/tree/drop-above', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-below .x-dd-drop-icon { background-image: theme-background-image('@2x/tree/drop-below', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-drop-ok-between .x-dd-drop-icon { background-image: theme-background-image('@2x/tree/drop-between', 'png') !important; background-size: 16px 16px !important; }
+.x-toast-icon-information { background-image: theme-background-image('@2x/window/toast/icon16_info', 'png') !important; background-size: 16px 16px !important; }
+.x-toast-icon-error { background-image: theme-background-image('@2x/window/toast/icon16_error', 'png') !important; background-size: 16px 16px !important; }
+.x-message-box .x-msg-box-wait { background-image: theme-background-image('@2x/shared/blue-loading', 'gif') !important; background-size: 32px 32px !important; }
+.x-btn-wrap-default-small.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-medium.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-large.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-small.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-noline-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-noline-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-medium.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-wrap-default-toolbar-large.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-default-toolbar-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-noline-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-default-toolbar-large.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-rtl.x-layout-split-left { background-image: theme-background-image('@2x/util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-rtl.x-layout-split-right { background-image: theme-background-image('@2x/util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-rtl.x-layout-split-left { background-image: theme-background-image('@2x/util/splitter/mini-left', 'png') !important; background-size: 5px 35px !important; }
+.x-splitter-collapsed .x-rtl.x-layout-split-right { background-image: theme-background-image('@2x/util/splitter/mini-right', 'png') !important; background-size: 5px 35px !important; }
+.x-toolbar-more-icon.x-rtl { background-image: theme-background-image('@2x/toolbar/default-more-left', 'png') !important; background-size: 12px 16px !important; }
+.x-form-trigger-default.x-rtl { background-image: theme-background-image('@2x/form/trigger-rtl', 'png') !important; background-size: 102px 240px !important; }
+.x-form-trigger-toolbar.x-rtl { background-image: theme-background-image('@2x/form/trigger-rtl', 'png') !important; background-size: 102px 240px !important; }
+.x-form-clear-trigger.x-rtl { background-image: theme-background-image('@2x/form/clear-trigger-rtl', 'png') !important; background-size: 102px 24px !important; }
+.x-form-search-trigger.x-rtl { background-image: theme-background-image('@2x/form/search-trigger-rtl', 'png') !important; background-size: 102px 24px !important; }
+.x-form-spinner-default.x-rtl { background-image: theme-background-image('@2x/form/spinner-rtl', 'png') !important; background-size: 102px 22px !important; }
+.x-form-spinner-toolbar.x-rtl { background-image: theme-background-image('@2x/form/spinner-small-rtl', 'png') !important; background-size: 102px 20px !important; }
+.x-rtl.x-tbar-page-first { background-image: theme-background-image('@2x/grid/page-last', 'png') !important; background-size: 16px 16px !important; }
+.x-rtl.x-tbar-page-prev { background-image: theme-background-image('@2x/grid/page-next', 'png') !important; background-size: 16px 16px !important; }
+.x-rtl.x-tbar-page-next { background-image: theme-background-image('@2x/grid/page-prev', 'png') !important; background-size: 16px 16px !important; }
+.x-rtl.x-tbar-page-last { background-image: theme-background-image('@2x/grid/page-first', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-first { background-image: theme-background-image('@2x/grid/page-last-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-prev { background-image: theme-background-image('@2x/grid/page-next-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-next { background-image: theme-background-image('@2x/grid/page-prev-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-item-disabled .x-rtl.x-tbar-page-last { background-image: theme-background-image('@2x/grid/page-first-disabled', 'png') !important; background-size: 16px 16px !important; }
+.x-form-field-date .x-form-date-trigger.x-rtl { background-image: theme-background-image('@2x/form/date-trigger-rtl', 'png') !important; background-size: 102px 24px !important; }
+.x-rtl.x-grid-dirty-cell { background-image: theme-background-image('@2x/grid/dirty-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-form-trigger-grid-cell.x-rtl { background-image: theme-background-image('@2x/form/trigger-rtl', 'png') !important; background-size: 102px 240px !important; }
+.x-form-spinner-grid-cell.x-rtl { background-image: theme-background-image('@2x/form/spinner-small-rtl', 'png') !important; background-size: 102px 20px !important; }
+.x-btn-wrap-grid-cell-small.x-rtl.x-btn-arrow-right::after { background-image: theme-background-image('@2x/button/arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-btn-wrap-grid-cell-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-btn-over > .x-btn-wrap-grid-cell-small.x-rtl.x-btn-split-right::after { background-image: theme-background-image('@2x/button/s-arrow-o-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-menu-item-arrow-default.x-rtl { background-image: theme-background-image('@2x/menu/default-menu-parent-left', 'png') !important; background-size: 12px 9px !important; }
+.x-tab-bar-more-icon.x-rtl { background-image: theme-background-image('@2x/tab-bar/default-more-left', 'png') !important; background-size: 12px 16px !important; }
+.x-rtl.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('@2x/breadcrumb/default-arrow-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-arrow::after { background-image: theme-background-image('@2x/breadcrumb/default-arrow-open-rtl', 'png') !important; background-size: 10px 10px !important; }
+.x-rtl.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('@2x/breadcrumb/default-split-arrow-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-default-toolbar-small.x-btn-split::after { background-image: theme-background-image('@2x/breadcrumb/default-split-arrow-open-rtl', 'png') !important; background-size: 14px 72px !important; }
+.x-tree-arrows .x-rtl.x-tree-expander { background-image: theme-background-image('@2x/tree/arrows-rtl', 'png') !important; background-size: 64px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow { background-image: theme-background-image('@2x/tree/elbow-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-end { background-image: theme-background-image('@2x/tree/elbow-end-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-plus { background-image: theme-background-image('@2x/tree/elbow-plus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-end-plus { background-image: theme-background-image('@2x/tree/elbow-end-plus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-rtl.x-tree-elbow-plus { background-image: theme-background-image('@2x/tree/elbow-minus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-grid-tree-node-expanded .x-rtl.x-tree-elbow-end-plus { background-image: theme-background-image('@2x/tree/elbow-end-minus-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-lines .x-rtl.x-tree-elbow-line { background-image: theme-background-image('@2x/tree/elbow-line-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-rtl.x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-plus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-no-lines .x-grid-tree-node-expanded .x-rtl.x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-minus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
+.x-tree-icon-leaf.x-rtl { background-image: theme-background-image('@2x/tree/leaf-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent.x-rtl { background-image: theme-background-image('@2x/tree/folder-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('@2x/tree/folder-open-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-grid-tree-loading .x-rtl.x-tree-icon { background-image: theme-background-image('@2x/tree/loading', 'gif') !important; background-size: 16px 16px !important; }
+.x-tool-resize { background-image: theme-background-image('@2x/tools/nordic-resize', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
+.x-tool-move { background-image: theme-background-image('@2x/tools/nordic-move', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
+}

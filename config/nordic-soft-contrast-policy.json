@@ -5,7 +5,7 @@
   "approval": "artifacts/nordic-blue/TASK-030/design-approval.json",
   "approvalSha256": "cbc832ab00ca5ae1f28334fc38efa4e98c1ea3ff4e63b4f7585881595bebbce6",
   "reviewedFiles": {
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "b064749d69e1286706647e2e8c2f96e0bc3868763905f6befd0bb5102f97ebd0",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "b99374f24f4ef13de00742a5c51342805ad696e7fea47ac45e63b800c3cbe0ce",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/build.xml": "6598bf473e70d40a03a24f3733994a112136064666f7d1fd56dc37b764cb3df6",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/etc/all.scss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "bb270791cf6d28d30e92c3c6a24795385491f5f87413eeb9e90cfd4bbd3293c2",

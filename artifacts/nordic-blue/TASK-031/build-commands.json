@@ -1,0 +1,74 @@
+[
+  {
+    "scope": "lab",
+    "mode": "testing",
+    "cwd": "TestApp/contrast-lab",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "testing"
+    ],
+    "exitCode": 0
+  },
+  {
+    "scope": "lab",
+    "mode": "development",
+    "cwd": "TestApp/contrast-lab",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "development"
+    ],
+    "exitCode": 0
+  },
+  {
+    "scope": "lab",
+    "mode": "production",
+    "cwd": "TestApp/contrast-lab",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "production"
+    ],
+    "exitCode": 0
+  },
+  {
+    "scope": "real",
+    "mode": "testing",
+    "cwd": "TestApp/theme-acceptance/contrast",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "testing"
+    ],
+    "exitCode": 0
+  },
+  {
+    "scope": "real",
+    "mode": "development",
+    "cwd": "TestApp/theme-acceptance/contrast",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "development"
+    ],
+    "exitCode": 0
+  },
+  {
+    "scope": "real",
+    "mode": "production",
+    "cwd": "TestApp/theme-acceptance/contrast",
+    "command": [
+      "D:\\Projects\\Extjs7ClassicThemeUpgradeNordicBlue\\node_modules\\@sencha\\cmd-windows\\dist\\sencha.exe",
+      "app",
+      "build",
+      "production"
+    ],
+    "exitCode": 0
+  }
+]

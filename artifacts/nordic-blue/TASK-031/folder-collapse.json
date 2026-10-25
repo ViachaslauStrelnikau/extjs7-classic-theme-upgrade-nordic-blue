@@ -1,0 +1,5 @@
+{
+  "background": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M8 1L15 8L8 15L1 8Z' fill='%238255c4'/%3E%3C/svg%3E\")",
+  "classes": " x-tree-icon x-tree-icon-custom x-tree-icon-parent demo-custom-tree-icon",
+  "size": "16px 16px"
+}

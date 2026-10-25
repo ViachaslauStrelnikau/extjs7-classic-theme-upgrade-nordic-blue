@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "lint-nordic-blue.py",
+    "result": {
+      "status": "PASS",
+      "sdk": "7.7.0.31",
+      "counts": {
+        "scssFiles": 19,
+        "tokens": 15,
+        "colorOverrides": 177,
+        "gradientOverrides": 31,
+        "images": 648,
+        "candidateImages": 648,
+        "sdkFiles": 300
+      },
+      "iconIntegrationEnabled": true,
+      "errors": []
+    }
+  },
+  {
+    "tool": "lint-nordic-soft.py",
+    "result": {
+      "status": "PASS",
+      "childImages": 24,
+      "reviewedFiles": 4,
+      "errors": []
+    }
+  },
+  {
+    "tool": "lint-nordic-soft-contrast.py",
+    "result": {
+      "status": "PASS",
+      "theme": "theme-nordic-blue-soft-contrast",
+      "reviewedFiles": 11,
+      "errors": []
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "scope": "Only remove !important from12standard tree mappings and restore SDK custom-marker reset LTR/RTL; app CSS retains control of custom background-size; other controls/loading/bitmap bytes unchanged",
+  "changes": [
+    {
+      "line": 220,
+      "before": ".x-tree-icon-leaf { background-image: theme-background-image('tree/leaf', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-leaf { background-image: theme-background-image('tree/leaf', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 221,
+      "before": ".x-tree-icon-parent { background-image: theme-background-image('tree/folder', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent { background-image: theme-background-image('tree/folder', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 222,
+      "before": ".x-tree-icon-parent-expanded { background-image: theme-background-image('tree/folder-open', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent-expanded { background-image: theme-background-image('tree/folder-open', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 292,
+      "before": ".x-tree-icon-leaf.x-rtl { background-image: theme-background-image('tree/leaf-rtl', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-leaf.x-rtl { background-image: theme-background-image('tree/leaf-rtl', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 293,
+      "before": ".x-tree-icon-parent.x-rtl { background-image: theme-background-image('tree/folder-rtl', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent.x-rtl { background-image: theme-background-image('tree/folder-rtl', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 294,
+      "before": ".x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('tree/folder-open-rtl', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('tree/folder-open-rtl', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 517,
+      "before": ".x-tree-icon-leaf { background-image: theme-background-image('@2x/tree/leaf', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-leaf { background-image: theme-background-image('@2x/tree/leaf', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 518,
+      "before": ".x-tree-icon-parent { background-image: theme-background-image('@2x/tree/folder', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent { background-image: theme-background-image('@2x/tree/folder', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 519,
+      "before": ".x-tree-icon-parent-expanded { background-image: theme-background-image('@2x/tree/folder-open', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent-expanded { background-image: theme-background-image('@2x/tree/folder-open', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 589,
+      "before": ".x-tree-icon-leaf.x-rtl { background-image: theme-background-image('@2x/tree/leaf-rtl', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-leaf.x-rtl { background-image: theme-background-image('@2x/tree/leaf-rtl', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 590,
+      "before": ".x-tree-icon-parent.x-rtl { background-image: theme-background-image('@2x/tree/folder-rtl', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent.x-rtl { background-image: theme-background-image('@2x/tree/folder-rtl', 'png'); background-size: 16px 16px; }"
+    },
+    {
+      "line": 591,
+      "before": ".x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('@2x/tree/folder-open-rtl', 'png') !important; background-size: 16px 16px !important; }",
+      "after": ".x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('@2x/tree/folder-open-rtl', 'png'); background-size: 16px 16px; }"
+    }
+  ],
+  "beforeNormalizedSha256": "0d30b177d7131d470949073f5bb02fef1d9e9ae0f0af32d1e2068768321b01e7",
+  "afterNormalizedSha256": "5d67335a615e638f6937106b1d010bc040789ff630917bbf48d6ffbcef8dbbee",
+  "customReset": ".x-tree-icon-custom { background-image: none; background-size: auto; }",
+  "sdkEvidence": [
+    "classic/classic/src/tree/Column.js: customIconCls and inline icon template",
+    "classic/theme-neutral/sass/src/tree/View.scss: tree-icon-custom reset"
+  ],
+  "noNewArtwork": true,
+  "customRtlReset": ".x-tree-icon-custom.x-rtl { background-image: none; background-size: auto; }"
+}

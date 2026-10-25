@@ -1,0 +1,114 @@
+[
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/folder-open.png\")",
+    "classes": " x-tree-icon  x-tree-icon-parent-expanded ",
+    "height": 20,
+    "label": "Проект",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/folder-open.png\")",
+    "classes": " x-tree-icon  x-tree-icon-parent-expanded ",
+    "height": 20,
+    "label": "Документы",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/leaf.png\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf ",
+    "height": 20,
+    "label": "Годовой отчёт",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/leaf.png\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf ",
+    "height": 20,
+    "label": "Техническое задание",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/folder.png\")",
+    "classes": " x-tree-icon  x-tree-icon-parent ",
+    "height": 20,
+    "label": "Изображения",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/leaf.png\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf ",
+    "height": 20,
+    "label": "Примечания",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/folder-open.png\")",
+    "classes": " x-tree-icon  x-tree-icon-parent-expanded ",
+    "height": 20,
+    "label": "Стандартная папка",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/leaf.png\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf ",
+    "height": 20,
+    "label": "Стандартный документ",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%226%22%20fill%3D%22%23d34d72%22%2F%3E%3C%2Fsvg%3E\")",
+    "classes": " x-tree-icon x-tree-icon-custom x-tree-icon-leaf ",
+    "height": 20,
+    "label": "URL в icon",
+    "size": "auto",
+    "width": 16
+  },
+  {
+    "background": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M8 1L15 8L8 15L1 8Z' fill='%238255c4'/%3E%3C/svg%3E\")",
+    "classes": " x-tree-icon x-tree-icon-custom x-tree-icon-leaf demo-custom-tree-icon",
+    "height": 20,
+    "label": "CSS в iconCls",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%226%22%20fill%3D%22%23d34d72%22%2F%3E%3C%2Fsvg%3E\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf ",
+    "height": 20,
+    "label": "URL из renderer",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M8 1L15 8L8 15L1 8Z' fill='%238255c4'/%3E%3C/svg%3E\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf demo-custom-tree-icon",
+    "height": 20,
+    "label": "CSS из renderer",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M8 1L15 8L8 15L1 8Z' fill='%238255c4'/%3E%3C/svg%3E\")",
+    "classes": " x-tree-icon x-tree-icon-custom x-tree-icon-parent-expanded demo-custom-tree-icon",
+    "height": 20,
+    "label": "Пользовательская папка",
+    "size": "16px 16px",
+    "width": 16
+  },
+  {
+    "background": "url(\"http://127.0.0.1:51754/build/theme-contrast/testing/resources/images/tree/leaf.png\")",
+    "classes": " x-tree-icon  x-tree-icon-leaf ",
+    "height": 20,
+    "label": "Вложенный стандартный документ",
+    "size": "16px 16px",
+    "width": 16
+  }
+]

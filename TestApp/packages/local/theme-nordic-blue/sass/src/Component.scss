@@ -217,9 +217,9 @@
 .x-tree-lines .x-tree-elbow-line { background-image: theme-background-image('tree/elbow-line', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-tree-expander { background-image: theme-background-image('tree/elbow-plus-nl', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-grid-tree-node-expanded .x-tree-expander { background-image: theme-background-image('tree/elbow-minus-nl', 'png') !important; background-size: 16px 20px !important; }
-.x-tree-icon-leaf { background-image: theme-background-image('tree/leaf', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent { background-image: theme-background-image('tree/folder', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent-expanded { background-image: theme-background-image('tree/folder-open', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-leaf { background-image: theme-background-image('tree/leaf', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent { background-image: theme-background-image('tree/folder', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent-expanded { background-image: theme-background-image('tree/folder-open', 'png'); background-size: 16px 16px; }
 .x-tree-checkbox { background-image: theme-background-image('form/checkbox', 'png') !important; background-size: 52px 39px !important; }
 .x-grid-tree-loading .x-tree-icon { background-image: theme-background-image('tree/loading', 'gif') !important; background-size: 16px 16px !important; }
 .x-tree-drop-ok-append .x-dd-drop-icon { background-image: theme-background-image('tree/drop-append', 'png') !important; background-size: 16px 16px !important; }
@@ -289,9 +289,9 @@
 .x-tree-lines .x-rtl.x-tree-elbow-line { background-image: theme-background-image('tree/elbow-line-rtl', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-rtl.x-tree-expander { background-image: theme-background-image('tree/elbow-plus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-grid-tree-node-expanded .x-rtl.x-tree-expander { background-image: theme-background-image('tree/elbow-minus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
-.x-tree-icon-leaf.x-rtl { background-image: theme-background-image('tree/leaf-rtl', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent.x-rtl { background-image: theme-background-image('tree/folder-rtl', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('tree/folder-open-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-leaf.x-rtl { background-image: theme-background-image('tree/leaf-rtl', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent.x-rtl { background-image: theme-background-image('tree/folder-rtl', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('tree/folder-open-rtl', 'png'); background-size: 16px 16px; }
 .x-grid-tree-loading .x-rtl.x-tree-icon { background-image: theme-background-image('tree/loading', 'gif') !important; background-size: 16px 16px !important; }
 .x-tool-resize { background-image: theme-background-image('tools/nordic-resize', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
 .x-tool-move { background-image: theme-background-image('tools/nordic-move', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
@@ -514,9 +514,9 @@
 .x-tree-lines .x-tree-elbow-line { background-image: theme-background-image('@2x/tree/elbow-line', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-plus-nl', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-grid-tree-node-expanded .x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-minus-nl', 'png') !important; background-size: 16px 20px !important; }
-.x-tree-icon-leaf { background-image: theme-background-image('@2x/tree/leaf', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent { background-image: theme-background-image('@2x/tree/folder', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent-expanded { background-image: theme-background-image('@2x/tree/folder-open', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-leaf { background-image: theme-background-image('@2x/tree/leaf', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent { background-image: theme-background-image('@2x/tree/folder', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent-expanded { background-image: theme-background-image('@2x/tree/folder-open', 'png'); background-size: 16px 16px; }
 .x-tree-checkbox { background-image: theme-background-image('@2x/form/checkbox', 'png') !important; background-size: 52px 39px !important; }
 .x-grid-tree-loading .x-tree-icon { background-image: theme-background-image('@2x/tree/loading', 'gif') !important; background-size: 16px 16px !important; }
 .x-tree-drop-ok-append .x-dd-drop-icon { background-image: theme-background-image('@2x/tree/drop-append', 'png') !important; background-size: 16px 16px !important; }
@@ -586,10 +586,15 @@
 .x-tree-lines .x-rtl.x-tree-elbow-line { background-image: theme-background-image('@2x/tree/elbow-line-rtl', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-rtl.x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-plus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
 .x-tree-no-lines .x-grid-tree-node-expanded .x-rtl.x-tree-expander { background-image: theme-background-image('@2x/tree/elbow-minus-nl-rtl', 'png') !important; background-size: 16px 20px !important; }
-.x-tree-icon-leaf.x-rtl { background-image: theme-background-image('@2x/tree/leaf-rtl', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent.x-rtl { background-image: theme-background-image('@2x/tree/folder-rtl', 'png') !important; background-size: 16px 16px !important; }
-.x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('@2x/tree/folder-open-rtl', 'png') !important; background-size: 16px 16px !important; }
+.x-tree-icon-leaf.x-rtl { background-image: theme-background-image('@2x/tree/leaf-rtl', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent.x-rtl { background-image: theme-background-image('@2x/tree/folder-rtl', 'png'); background-size: 16px 16px; }
+.x-tree-icon-parent-expanded.x-rtl { background-image: theme-background-image('@2x/tree/folder-open-rtl', 'png'); background-size: 16px 16px; }
 .x-grid-tree-loading .x-rtl.x-tree-icon { background-image: theme-background-image('@2x/tree/loading', 'gif') !important; background-size: 16px 16px !important; }
 .x-tool-resize { background-image: theme-background-image('@2x/tools/nordic-resize', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
 .x-tool-move { background-image: theme-background-image('@2x/tools/nordic-move', 'png') !important; background-size: 30px 15px !important; background-position-y: 0px !important; }
 }
+
+/* Preserve Classic custom icon semantics. App iconCls rules follow theme CSS; inline icon URLs win. */
+.x-tree-icon-custom { background-image: none; background-size: auto; }
+
+.x-tree-icon-custom.x-rtl { background-image: none; background-size: auto; }
