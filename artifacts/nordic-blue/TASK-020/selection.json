@@ -1,0 +1,12 @@
+{
+  "selectedVariant": "soft",
+  "basis": "User explicitly prefers Nordic Soft, requests squarer folders.",
+  "artworkStatus": "WAITING_USER_APPROVAL",
+  "runtimeIntegrated": false,
+  "activeProductionManifestSha256": "05c0e2901c84f6d26c6dc9dccc90024ac9962565da3fe1b78d3f88a502a9aa73",
+  "physicalSize": [
+    16,
+    16
+  ],
+  "proportions": "Closed folder silhouette narrowed from13 to11 units; top raised0.5 and bottom lowered0.5. Canvas and CSS box16\u00d716 unchanged. Open and mirrored folders adjusted consistently. Document bytes unchanged."
+}

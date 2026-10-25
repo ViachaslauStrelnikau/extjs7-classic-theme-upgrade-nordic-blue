@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "before-icons.html",
+      "bytes": 1911,
+      "sha256": "a884bd5c5771af3e6dd410801400444cf854c877ee37e5d733cf2577a40ea65c"
+    },
+    {
+      "path": "before-review.js",
+      "bytes": 1481,
+      "sha256": "2fc7f18f20893a5401aac5b4102dea699baae03e4335d5797985a1fdbbe870ba"
+    },
+    {
+      "path": "before-sample-shell.css",
+      "bytes": 831,
+      "sha256": "e0f92c1d7111ffe4b3abeeaab36fc5b0b7c6452a9752bfc34556ffac9aaadaca"
+    },
+    {
+      "path": "render-info.json",
+      "bytes": 458,
+      "sha256": "2fafdb653d23800f5c1cfd89a5b696652ca2ff63bf59710b8daa6511d5382935"
+    },
+    {
+      "path": "render_square_folders.cjs",
+      "bytes": 2630,
+      "sha256": "d9a9b1f3f87525602765cdb62d273f82a6e89aa7f9e81d27e10f8344bd2d0da5"
+    },
+    {
+      "path": "revise_square_folders.py",
+      "bytes": 2459,
+      "sha256": "e2818ce6d1f7a5cdfcde719b66bb2611743859491bf239eb6af1aeeae5572b4a"
+    },
+    {
+      "path": "revision-report.md",
+      "bytes": 1189,
+      "sha256": "2af802675e14efa489332c2675ed3cd3632fd5ef45247b87e2917492ae67cb3a"
+    },
+    {
+      "path": "selection.json",
+      "bytes": 562,
+      "sha256": "1a2c7a02e8879f62f6ad1975122de3c019fd63a5b10cbe7990ec23a288566eea"
+    },
+    {
+      "path": "tree-icons.png",
+      "bytes": 32652,
+      "sha256": "9c52e22b2e17bfba8ed70b8ea1a145d8f7aa7fe9806fe7888da7b5df0a72c069"
+    },
+    {
+      "path": "tree-runtime.png",
+      "bytes": 6587,
+      "sha256": "b8086ea3b17eff0f3357124e9da7586b1eddd8f002e27fc956eb2f6b4f6e8532"
+    },
+    {
+      "path": "variants.png",
+      "bytes": 78234,
+      "sha256": "fed78e9009162ca825b4a39945e6363477b3fdc474424ae35d3b5b7606541cb4"
+    },
+    {
+      "path": "windows.png",
+      "bytes": 93382,
+      "sha256": "bb67dbc7e039e317fa77f769adc8202d07cd75aa9c658b991d98d93a806263d7"
+    }
+  ]
+}

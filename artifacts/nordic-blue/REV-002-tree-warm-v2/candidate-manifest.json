@@ -1,0 +1,194 @@
+{
+  "version": "nordic-tree-warm-v2",
+  "status": "WAITING_USER_APPROVAL",
+  "integrationEnabled": false,
+  "currentApprovedConfig": "config/nordic-blue-icons.json",
+  "basis": "User selects Nordic Soft and requests squarer folders. Silhouette narrowed and made slightly taller within unchanged16x16 CSS canvas; leaf unchanged.",
+  "physicalSize": "16×16 CSS pixels at DPR1/2; SVG also renders at higher density without increasing CSS size.",
+  "entries": [
+    {
+      "name": "folder",
+      "master": "TestApp/modern-preview/icons-v2/folder.svg",
+      "masterSha256": "c40713694be56a66384a97d8cc75ee3700deded92f22397a2c84b0e80e14c434",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons-v2/folder@1x.png",
+          "sha256": "a0f83917b6be6454884ced8aeb97f424a4ef5bcea27cfdfd254e0bc97db7d624",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons-v2/folder@2x.png",
+          "sha256": "373d07cf32043df667e0534cf67a40ff25fe8f14fa59ba1fd4a7d026da2b2d91",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder.gif"
+      ]
+    },
+    {
+      "name": "folder-open",
+      "master": "TestApp/modern-preview/icons-v2/folder-open.svg",
+      "masterSha256": "37472ca98cfbb126c2c19a54c5426dc6e8a085cff56f56ea6356b34d111f8bf4",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons-v2/folder-open@1x.png",
+          "sha256": "2c7bc9e1d27428a3d0acd481561730774957aa86a9a01b8635cfc5e71b89e983",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons-v2/folder-open@2x.png",
+          "sha256": "c225f3b48036371e7f1f7bc36ba0b2be9b8a2ab6daedca5fab69a1ca39e2cf1f",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder-open.gif"
+      ]
+    },
+    {
+      "name": "folder-rtl",
+      "master": "TestApp/modern-preview/icons-v2/folder-rtl.svg",
+      "masterSha256": "f569b81307949fa00538fd648b777325f5775f23f0bb3e23039a94a4b70d46d1",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons-v2/folder-rtl@1x.png",
+          "sha256": "4d8dd27ce712ee1783e7237b29c90f3906f0964486cac164bebdf10deef1eebd",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons-v2/folder-rtl@2x.png",
+          "sha256": "1dfcbc5bab93f0d20cb5f9376eb0d5e05da3015d0a20c595a3721acceaee057a",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder-rtl.gif"
+      ]
+    },
+    {
+      "name": "folder-open-rtl",
+      "master": "TestApp/modern-preview/icons-v2/folder-open-rtl.svg",
+      "masterSha256": "d93fdbe3f2cf603219e126bdf7bb62a96922c78bd2e5da9454dad26e97f5c385",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons-v2/folder-open-rtl@1x.png",
+          "sha256": "72681d033a399e6780bd7fa94e6d9fafc2cfe46b361e6bec123d861e3481cb35",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons-v2/folder-open-rtl@2x.png",
+          "sha256": "ca114c29cc89c63d3dac1c867c2c378544e1627e7758ace662c944a144347ec2",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/folder-open-rtl.gif"
+      ]
+    },
+    {
+      "name": "leaf",
+      "master": "TestApp/modern-preview/icons-v2/leaf.svg",
+      "masterSha256": "01c286f772826b5e3e8d22b3dc466a746e62e1e9ea753626c35cf591797bb15d",
+      "exports": [
+        {
+          "density": 1,
+          "path": "TestApp/modern-preview/icons-v2/leaf@1x.png",
+          "sha256": "4fab5965e47c8c048ab2681a0ceb7de5e79ee98e72f45ad6a6d98dbbd13c4d12",
+          "bitmapDimensions": [
+            16,
+            16
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "density": 2,
+          "path": "TestApp/modern-preview/icons-v2/leaf@2x.png",
+          "sha256": "3070ed42e8179c72ed147e39c37f76373ad8ec860372ac149005d262815851e2",
+          "bitmapDimensions": [
+            32,
+            32
+          ],
+          "cssDimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "runtimeProposal": [
+        "images/tree/leaf.gif",
+        "images/tree/leaf-rtl.gif"
+      ]
+    }
+  ],
+  "scope": "Prototype only. Existing production GIF/PNG paths, metrics, images, approvals and goldens unchanged. Production GIF fallbacks and integration must be prepared after artwork approval. Both leaf and leaf-rtl are proposed to use the same upright document drawing.",
+  "approvalRequired": "Explicit user approval of this version/manifest SHA before production integration.",
+  "previousManifestSha256": "d289fb94204b7cbdd39555b766232194b349fd3bd83a6070cb9f40e5d36b7def"
+}

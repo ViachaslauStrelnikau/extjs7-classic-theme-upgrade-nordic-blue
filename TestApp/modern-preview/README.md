@@ -13,3 +13,7 @@ Start from project root: `node TestApp/modern-preview/serve.cjs` (Node runtime w
 Candidate artwork is newly drawn SVG plus browser-rendered PNG1x/2x, all16×16CSSpx. REV-002-tree-warm is WAITING_USER_APPROVAL; artwork is scoped to demo-tree-candidate, not installed in the theme. Production GIF fallback/export/selector integration remains future work. Do not change config/nordic-blue-icons.json or refresh goldens just to accept the preview.
 
 Visual rendering only: Edge156.0.4314.42, screenshots in TASK-019. No new Cmd theme build, geometry/function/reduced-motion suite or production release acceptance is claimed for this prototype. Existing TASK-014–017 remain historical evidence, not automatic acceptance of a new optional variant.
+
+## Revision v2
+
+User selected Soft. Preview now uses icons-v2: squarer warm folders within the same16×16CSS box, unchanged document. Historical icons/ and REV-002 v1 remain intact. Current candidate manifest/approval: artifacts/nordic-blue/REV-002-tree-warm-v2. Still requires artwork approval before production integration. TASK-020 records this revision.

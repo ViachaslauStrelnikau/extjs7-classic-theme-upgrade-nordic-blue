@@ -1,0 +1,22 @@
+{
+  "pageErrors": [],
+  "browser": "156.0.4314.42",
+  "scope": "Visual rendering and preview screenshots only; no geometry/functional regression suite or new Cmd package build performed.",
+  "frames": [
+    {
+      "status": "READY",
+      "variant": "refined",
+      "errors": []
+    },
+    {
+      "status": "READY",
+      "variant": "motion",
+      "errors": []
+    },
+    {
+      "status": "READY",
+      "variant": "soft",
+      "errors": []
+    }
+  ]
+}
