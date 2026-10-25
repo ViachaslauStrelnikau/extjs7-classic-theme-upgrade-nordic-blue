@@ -60,3 +60,5 @@
 [TASK-026](tasks/TASK-026.md) — DONE: по отзыву фон названий колонок согласован с вкладками (#f4f6f9), слева добавлен синий inset3px. Только preview.
 
 [TASK-027](tasks/TASK-027.md) — DONE:3изображения вариантов заголовка на реальной Ext-таблице, отдельный header-options; текущий preview сохранён. Выбор ожидается.
+
+[TASK-028](tasks/TASK-028.md) — DONE: общее интерактивное демо current/v2/v2+underline/v2+contrast, одинаковые компоненты; дополнительные слои меняют только column headers.

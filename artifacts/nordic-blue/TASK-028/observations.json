@@ -1,0 +1,70 @@
+{
+  "initial": [
+    {
+      "id": "current",
+      "columnAccent": "none",
+      "columnFill": "rgb(232, 239, 248)",
+      "formHeaderFill": "rgb(232, 239, 248)",
+      "headerOption": null,
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "variant": "current"
+    },
+    {
+      "id": "reference",
+      "columnAccent": "rgb(50, 117, 214) 3px 0px 0px 0px inset, rgb(203, 214, 227) 0px -1px 0px 0px inset",
+      "columnFill": "rgb(244, 246, 249)",
+      "formHeaderFill": "rgb(255, 255, 255)",
+      "headerOption": null,
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "variant": "reference"
+    },
+    {
+      "id": "underline",
+      "columnAccent": "rgb(50, 117, 214) 0px -2px 0px 0px inset",
+      "columnFill": "rgb(255, 255, 255)",
+      "formHeaderFill": "rgb(255, 255, 255)",
+      "headerOption": "1",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "variant": "reference"
+    },
+    {
+      "id": "contrast",
+      "columnAccent": "none",
+      "columnFill": "rgb(48, 74, 104)",
+      "formHeaderFill": "rgb(255, 255, 255)",
+      "headerOption": "3",
+      "status": "Ext JS 7.7 · Анимации отключены",
+      "variant": "reference"
+    }
+  ],
+  "afterMotionReload": [
+    {
+      "id": "current",
+      "columnAccent": "none",
+      "columnFill": "rgb(232, 239, 248)",
+      "headerOption": null,
+      "status": "Ext JS 7.7 · Анимации отключены"
+    },
+    {
+      "id": "reference",
+      "columnAccent": "rgb(50, 117, 214) 3px 0px 0px 0px inset, rgb(203, 214, 227) 0px -1px 0px 0px inset",
+      "columnFill": "rgb(244, 246, 249)",
+      "headerOption": null,
+      "status": "Ext JS 7.7 · Анимации отключены"
+    },
+    {
+      "id": "underline",
+      "columnAccent": "rgb(50, 117, 214) 0px -2px 0px 0px inset",
+      "columnFill": "rgb(255, 255, 255)",
+      "headerOption": "1",
+      "status": "Ext JS 7.7 · Анимации отключены"
+    },
+    {
+      "id": "contrast",
+      "columnAccent": "none",
+      "columnFill": "rgb(48, 74, 104)",
+      "headerOption": "3",
+      "status": "Ext JS 7.7 · Анимации отключены"
+    }
+  ]
+}

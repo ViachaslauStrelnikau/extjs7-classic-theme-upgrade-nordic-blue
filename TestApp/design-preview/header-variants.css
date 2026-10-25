@@ -1,0 +1,7 @@
+/* Header-only alternatives on top of the provisional v2. No metric rules. */
+html[data-nordic-preview="reference"][data-header-option="1"] .x-grid-header-ct,
+html[data-nordic-preview="reference"][data-header-option="1"] .x-column-header { background-color:#fff; border-color:#e1e7ef; color:#304a68; box-shadow:inset 0 -2px 0 #3275d6; }
+html[data-nordic-preview="reference"][data-header-option="1"] .x-column-header-over { background-color:#edf4ff; }
+html[data-nordic-preview="reference"][data-header-option="3"] .x-grid-header-ct,
+html[data-nordic-preview="reference"][data-header-option="3"] .x-column-header { background-color:#304a68; border-color:#425c79; color:#fff; box-shadow:none; }
+html[data-nordic-preview="reference"][data-header-option="3"] .x-column-header-over { background-color:#3b597c; }

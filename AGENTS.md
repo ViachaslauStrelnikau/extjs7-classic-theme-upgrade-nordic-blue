@@ -195,3 +195,7 @@ Latest user direction supersedes TASK-025 blue fill: column headings use tab-bar
 ## Three header design studies (TASK-027)
 
 User retained TASK-026 as provisional and requested three images. Independent TestApp/header-options renders underline/unified/contrast variants; screenshots TASK-027. Existing design-preview unchanged. No option selected yet, no package integration/build/acceptance implied.
+
+## Four-way demo (TASK-028)
+
+Design-preview now displays current, provisional v2, v2+underline and v2+contrast using identical sample.js and existing compiled Soft. reference.css remains provisional TASK-026. header-variants.css changes column/grid header paint only; other v2 panels/fields/tabs remain the same. boot accepts header1/3, owns html attributes; motion toggle preserves query. Responsive4/2columns and optional single row. Actual paint/reload observations and screenshot TASK-028, no production integration or full regression claim. No design option selected yet.
