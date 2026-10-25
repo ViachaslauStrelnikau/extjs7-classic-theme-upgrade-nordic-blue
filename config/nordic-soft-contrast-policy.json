@@ -1,0 +1,30 @@
+{
+  "theme": "theme-nordic-blue-soft-contrast",
+  "parent": "theme-nordic-blue-soft",
+  "sdk": "7.7.0.31",
+  "approval": "artifacts/nordic-blue/TASK-030/design-approval.json",
+  "approvalSha256": "cbc832ab00ca5ae1f28334fc38efa4e98c1ea3ff4e63b4f7585881595bebbce6",
+  "reviewedFiles": {
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "b064749d69e1286706647e2e8c2f96e0bc3868763905f6befd0bb5102f97ebd0",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/build.xml": "6598bf473e70d40a03a24f3733994a112136064666f7d1fd56dc37b764cb3df6",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/etc/all.scss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "bb270791cf6d28d30e92c3c6a24795385491f5f87413eeb9e90cfd4bbd3293c2",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/all.scss": "3e079faea3b6f0b70330046d2d66dc1836a46a7f8f293beb2735ded6c8e3fe82",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/panel/Panel.scss": "3c0035038b1e6951f0f24b651f24ba50f376ecd70bed66869b58f049387192b8",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/toolbar/Toolbar.scss": "933ce61866664c80b3e569387baf5227f647f2a5177f7b7861916e62491c2d2b",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/window/Window.scss": "53c32ae4ed39cb7ce18e071554826227942845af0de33b815c4c8c32c2c9f115",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/form/field/Base.scss": "845625f294b837a6306472f2b6715669ba72e91f9ee342b7d24053420e226058",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/grid/column/Column.scss": "7320812643c9aa3e3dcd72179988ed2af7312cb1376db78d2883523481804226",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/grid/header/Container.scss": "2152e0ef0970f001856b7d5a474ef1f02ebe40c09bb9b9367f571e53a055c5e5"
+  },
+  "approvedPaintProperties": [
+    "background-color",
+    "background-image",
+    "border-color",
+    "border-right-color",
+    "color",
+    "box-shadow"
+  ],
+  "ownImages": 0,
+  "runtimeOverrides": false
+}

@@ -1,0 +1,856 @@
+[
+  {
+    "variable": "panel-header-background-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/panel/Panel.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 278,
+        "expression": "dynamic($panel-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 15,
+        "expression": "dynamic(adjust-color($panel-base-color, $hue: 0deg, $saturation: 6.402%, $lightness: -4.51%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 713,
+        "text": "$ui-header-background-color: $panel-header-background-color,"
+      }
+    ]
+  },
+  {
+    "variable": "panel-header-border-color",
+    "value": "#E1E7EF",
+    "path": "sass/var/panel/Panel.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 254,
+        "expression": "dynamic($panel-border-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 6,
+        "expression": "dynamic($panel-border-color)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/layout/container/Accordion.scss",
+        "line": 39,
+        "text": "$accordion-header-border-color: dynamic($panel-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 704,
+        "text": "$ui-header-border-color: $panel-header-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+        "line": 35,
+        "text": "$tabbar-border-color: dynamic($panel-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss",
+        "line": 53,
+        "text": "$tabbar-strip-border-color: dynamic($panel-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/layout/container/Accordion.scss",
+        "line": 6,
+        "text": "$accordion-header-border-color: dynamic($panel-header-inner-border-color $panel-header-border-color $panel-header-border-color);"
+      }
+    ]
+  },
+  {
+    "variable": "panel-border-color",
+    "value": "#CEDAE8",
+    "path": "sass/var/panel/Panel.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 25,
+        "expression": "dynamic($panel-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 5,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/locking/Lockable.scss",
+        "line": 70,
+        "text": "border-right-color: $panel-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/locking/Lockable.scss",
+        "line": 22,
+        "text": "$grid-lockable-separator-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/RowEditing.scss",
+        "line": 15,
+        "text": "$grid-row-editor-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 66,
+        "text": "$panel-body-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 254,
+        "text": "$panel-header-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 369,
+        "text": "$panel-frame-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 448,
+        "text": "$panel-wrap-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 694,
+        "text": "$ui-border-color: $panel-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/tip/Tip.scss",
+        "line": 91,
+        "text": "$tip-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/menu/Menu.scss",
+        "line": 5,
+        "text": "$menu-border-color: dynamic($panel-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/panel/Panel.scss",
+        "line": 6,
+        "text": "$panel-header-border-color: dynamic($panel-border-color);"
+      }
+    ]
+  },
+  {
+    "variable": "panel-body-border-color",
+    "value": "#D9E2ED",
+    "path": "sass/var/panel/Panel.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 66,
+        "expression": "dynamic($panel-border-color)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/feature/Summary.scss",
+        "line": 3,
+        "text": "border-color: $panel-body-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 2,
+        "text": "border: $grid-header-border-width $grid-header-border-style $panel-body-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 741,
+        "text": "$ui-body-border-color: $panel-body-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/resizer/Resizer.scss",
+        "line": 20,
+        "text": "$resizer-handle-background-color: dynamic($panel-body-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 255,
+        "text": "$grid-body-border-color: dynamic($panel-body-border-color);"
+      }
+    ]
+  },
+  {
+    "variable": "panel-body-background-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/panel/Panel.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 54,
+        "expression": "dynamic(#fff)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss",
+        "line": 744,
+        "text": "$ui-body-background-color: $panel-body-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 273,
+        "text": "$grid-body-background-color: dynamic($panel-body-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/view/Table.scss",
+        "line": 292,
+        "text": "$grid-empty-background-color: dynamic($panel-body-background-color);"
+      }
+    ]
+  },
+  {
+    "variable": "window-header-background-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/window/Window.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 116,
+        "expression": "dynamic($window-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 12,
+        "expression": "dynamic($window-background-color)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 473,
+        "text": "$ui-header-background-color: $window-header-background-color,"
+      }
+    ]
+  },
+  {
+    "variable": "window-border-color",
+    "value": "#CEDAE8",
+    "path": "sass/var/window/Window.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 38,
+        "expression": "dynamic($window-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($window-base-color, $hue: 0.952deg, $saturation: -32.377%, $lightness: -13.725%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 257,
+        "text": "$window-wrap-border-color: dynamic($window-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 467,
+        "text": "$ui-border-color: $window-border-color,"
+      }
+    ]
+  },
+  {
+    "variable": "window-body-background-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/window/Window.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 80,
+        "expression": "dynamic(#fff)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 13,
+        "expression": "dynamic(adjust-color($window-base-color, $hue: 3.188deg, $saturation: 0.542%, $lightness: 7.843%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/MessageBox.scss",
+        "line": 9,
+        "text": "$messagebox-body-background-color: dynamic($window-body-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 500,
+        "text": "$ui-body-background-color: $window-body-background-color,"
+      }
+    ]
+  },
+  {
+    "variable": "window-body-border-color",
+    "value": "#D9E2ED",
+    "path": "sass/var/window/Window.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 74,
+        "expression": "dynamic($window-base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/window/Window.scss",
+        "line": 14,
+        "expression": "dynamic(adjust-color($window-base-color, $hue: 0.844deg, $saturation: 7.644%, $lightness: -8.627%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/MessageBox.scss",
+        "line": 21,
+        "text": "$messagebox-body-border-color: dynamic($window-body-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/window/Window.scss",
+        "line": 499,
+        "text": "$ui-body-border-color: $window-body-border-color,"
+      }
+    ]
+  },
+  {
+    "variable": "toolbar-background-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/toolbar/Toolbar.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 15,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($base-color, $hue: -1.333deg, $saturation: -3.831%, $lightness: 4.51%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 539,
+        "text": "$background-color: $toolbar-background-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+        "line": 7,
+        "text": "$toolbar-background-gradient: dynamic(color_stops(lighten($toolbar-background-color, 3), $toolbar-background-color));"
+      }
+    ]
+  },
+  {
+    "variable": "toolbar-border-color",
+    "value": "#E1E7EF",
+    "path": "sass/var/toolbar/Toolbar.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 64,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/toolbar/Toolbar.scss",
+        "line": 21,
+        "expression": "dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/toolbar/Toolbar.scss",
+        "line": 545,
+        "text": "$border-color: $toolbar-border-color,"
+      }
+    ]
+  },
+  {
+    "variable": "grid-header-background-color",
+    "value": "#304A68",
+    "path": "sass/var/grid/header/Container.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 9,
+        "expression": "dynamic(#ddd)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+        "line": 4,
+        "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 13,
+        "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 16,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss",
+        "line": 3,
+        "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/RowNumberer.scss",
+        "line": 6,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 5,
+        "text": "border-bottom-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 7,
+        "text": "background-color: $grid-header-background-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 9,
+        "text": "@include background-gradient($grid-header-background-color, $grid-header-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss",
+        "line": 73,
+        "text": "$grid-group-column-background-color: dynamic($grid-header-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss",
+        "line": 69,
+        "text": "$pivot-grid-config-column-background-color: dynamic($grid-header-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/src/grid/column/Column.scss",
+        "line": 2,
+        "text": "background-color: $grid-header-background-color;"
+      }
+    ]
+  },
+  {
+    "variable": "grid-header-over-background-color",
+    "value": "#3B597C",
+    "path": "sass/var/grid/header/Container.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 40,
+        "expression": "dynamic(#eee)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+        "line": 6,
+        "expression": "dynamic(adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 80,
+        "text": "@include background-gradient($grid-header-over-background-color, $grid-header-over-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss",
+        "line": 28,
+        "text": "@include background-gradient($grid-header-over-background-color, $grid-header-over-background-gradient);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 54,
+        "text": "$grid-header-sorted-background-color: dynamic($grid-header-over-background-color);"
+      }
+    ]
+  },
+  {
+    "variable": "grid-header-sorted-background-color",
+    "value": "#3B597C",
+    "path": "sass/var/grid/header/Container.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 54,
+        "expression": "dynamic($grid-header-over-background-color)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 85,
+        "text": "@include background-gradient($grid-header-sorted-background-color, $grid-header-sorted-background-gradient);"
+      }
+    ]
+  },
+  {
+    "variable": "grid-header-open-background-color",
+    "value": "#3B597C",
+    "path": "sass/var/grid/header/Container.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 68,
+        "expression": "dynamic(transparent)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 112,
+        "text": "background-color: $grid-header-open-background-color;"
+      }
+    ]
+  },
+  {
+    "variable": "grid-header-border-color",
+    "value": "#425C79",
+    "path": "sass/var/grid/header/Container.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/header/Container.scss",
+        "line": 22,
+        "expression": "dynamic(#333)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/grid/header/Container.scss",
+        "line": 5,
+        "expression": "dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: -16.078%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Check.scss",
+        "line": 21,
+        "text": "border-color: $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 2,
+        "text": "border-right: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 23,
+        "text": "border-left: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 29,
+        "text": "border-top: $grid-column-header-border-width $grid-column-header-border-style $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/header/Container.scss",
+        "line": 32,
+        "text": "border-top-color: $grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/filterbar/filters/Base.scss",
+        "line": 5,
+        "text": "$grid-filter-border-color: dynamic($grid-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/plugin/grouping/Column.scss",
+        "line": 25,
+        "text": "$grid-group-column-border-color: dynamic($grid-header-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/Grid.scss",
+        "line": 6,
+        "text": "$grid-header-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/pivot/plugin/configurator/Column.scss",
+        "line": 27,
+        "text": "$pivot-grid-config-column-border-color: dynamic($grid-header-border-color);"
+      }
+    ]
+  },
+  {
+    "variable": "grid-column-header-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/grid/column/Column.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Column.scss",
+        "line": 43,
+        "expression": "dynamic(#000)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 4,
+        "text": "@if not is-null($grid-column-header-color) {"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 5,
+        "text": "color: $grid-column-header-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Column.scss",
+        "line": 61,
+        "text": "$grid-column-header-focus-color: dynamic($grid-column-header-color);"
+      }
+    ]
+  },
+  {
+    "variable": "grid-column-header-focus-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/grid/column/Column.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Column.scss",
+        "line": 61,
+        "expression": "dynamic($grid-column-header-color)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 69,
+        "text": "@if not is-null($grid-column-header-focus-color) {"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 70,
+        "text": "color: $grid-column-header-focus-color;"
+      }
+    ]
+  },
+  {
+    "variable": "grid-column-header-focus-border-color",
+    "value": "#8CAEDB",
+    "path": "sass/var/grid/column/Column.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid/column/Column.scss",
+        "line": 91,
+        "expression": "dynamic(#333)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/column/Column.scss",
+        "line": 59,
+        "text": "border: $grid-column-header-focus-border-width $grid-column-header-focus-border-style $grid-column-header-focus-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/src/grid/plugin/grouping/Column.scss",
+        "line": 23,
+        "text": "border: $grid-column-header-focus-border-width $grid-column-header-focus-border-style $grid-column-header-focus-border-color;"
+      }
+    ]
+  },
+  {
+    "variable": "form-field-background-color",
+    "value": "#FFFFFF",
+    "path": "sass/var/form/field/Base.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 130,
+        "expression": "dynamic(#fff)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 465,
+        "text": "$form-text-field-background-color: dynamic($form-field-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 636,
+        "text": "$form-trigger-background-color: dynamic($form-field-background-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss",
+        "line": 21,
+        "text": "$html-editor-background-color: dynamic($form-field-background-color);"
+      }
+    ]
+  },
+  {
+    "variable": "form-field-border-color",
+    "value": "#BDCCDC",
+    "path": "sass/var/form/field/Base.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 82,
+        "expression": "dynamic($neutral-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+        "line": 6,
+        "expression": "dynamic(#B5B8C8)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 483,
+        "text": "$form-text-field-border-color: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 600,
+        "text": "$form-trigger-border-color: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 612,
+        "text": "$form-trigger-border-color-over: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1061,
+        "text": "$form-checkbox-glyph-color: dynamic($form-field-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/HtmlEditor.scss",
+        "line": 15,
+        "text": "$html-editor-border-color: dynamic($form-field-border-color);"
+      }
+    ]
+  },
+  {
+    "variable": "form-trigger-border-color",
+    "value": "#BDCCDC",
+    "path": "sass/var/form/field/Base.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 600,
+        "expression": "dynamic($form-field-border-color)"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 838,
+        "text": "$form-toolbar-trigger-border-color: dynamic($form-trigger-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 850,
+        "text": "$form-toolbar-trigger-border-color-over: dynamic($form-trigger-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Text.scss",
+        "line": 147,
+        "text": "$ui-trigger-border-color: $form-trigger-border-color,"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+        "line": 240,
+        "text": "$grid-cell-field-trigger-border-color: dynamic($form-trigger-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/grid-field.scss",
+        "line": 252,
+        "text": "$grid-cell-field-trigger-border-color-over: dynamic($form-trigger-border-color);"
+      }
+    ]
+  },
+  {
+    "variable": "form-field-focus-border-color",
+    "value": "#3275D6",
+    "path": "sass/var/form/field/Base.scss",
+    "declarations": [
+      {
+        "theme": "theme-neutral",
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 106,
+        "expression": "dynamic($base-color)"
+      },
+      {
+        "theme": "theme-classic",
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Base.scss",
+        "line": 7,
+        "expression": "dynamic(adjust-color($base-color, $hue: -4.322deg, $saturation: -1.065%, $lightness: -16.863%))"
+      }
+    ],
+    "consumers": [
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 489,
+        "text": "$form-text-field-focus-border-color: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 618,
+        "text": "$form-trigger-border-color-focus: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1067,
+        "text": "$form-checkbox-glyph-focus-color: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/field/Base.scss",
+        "line": 1242,
+        "text": "$form-display-field-focus-border-color: dynamic($form-field-focus-border-color);"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-neutral/sass/var/form/FieldSet.scss",
+        "line": 374,
+        "text": "outline: 1px solid $form-field-focus-border-color;"
+      },
+      {
+        "path": "TestApp/ext/classic/theme-classic/sass/var/form/field/Trigger.scss",
+        "line": 6,
+        "text": "$form-trigger-border-color-focus: dynamic($form-field-focus-border-color);"
+      }
+    ]
+  }
+]

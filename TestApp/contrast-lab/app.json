@@ -1,0 +1,57 @@
+{
+  "name": "NordicThemeLab",
+  "namespace": "NordicThemeLab",
+  "version": "1.0.0",
+  "framework": "ext",
+  "toolkit": "classic",
+  "theme": "theme-nordic-blue-soft-contrast",
+  "id": "72da0791-012f-49b9-9d11-d89bd7794077",
+  "classpath": [],
+  "overrides": [],
+  "requires": [],
+  "indexHtmlPath": "build-entry.html",
+  "js": [
+    {
+      "path": "build-requires.js",
+      "bundle": true
+    }
+  ],
+  "css": [
+    {
+      "path": "${build.out.css.path}",
+      "bundle": true,
+      "exclude": [
+        "fashion"
+      ]
+    }
+  ],
+  "sass": {
+    "namespace": "",
+    "etc": [],
+    "var": [],
+    "src": []
+  },
+  "fashion": {
+    "missingParameters": "error",
+    "inliner": {
+      "enable": false
+    }
+  },
+  "output": {
+    "base": "${workspace.dir}/build/theme-contrast/${build.environment}",
+    "manifest": {
+      "embed": false,
+      "enable": true
+    }
+  },
+  "bootstrap": {
+    "base": "${app.dir}/generated",
+    "manifest": "${build.id}.json",
+    "microloader": "${build.id}.js",
+    "css": "${build.id}.css"
+  },
+  "cache": {
+    "enable": false
+  },
+  "resources": []
+}

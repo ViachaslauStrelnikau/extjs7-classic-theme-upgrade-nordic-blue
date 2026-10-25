@@ -28,3 +28,6 @@
 *.p12
 .DS_Store
 Thumbs.db
+
+/TestApp/contrast-lab/generated/
+/TestApp/theme-acceptance/contrast/bootstrap*

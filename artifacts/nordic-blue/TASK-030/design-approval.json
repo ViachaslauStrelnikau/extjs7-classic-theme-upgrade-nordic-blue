@@ -1,0 +1,10 @@
+{
+  "status": "APPROVED",
+  "date": "2026-10-25",
+  "userReply": "одобряю",
+  "decision": "Replace the dark header in the separate new theme with light grouped headers: groups slightly darker than leaves, dark text, neutral separators, blue only for active states; panel title accent retained",
+  "supersedes": "TASK-029 dark header choice",
+  "packageNameRetained": "theme-nordic-blue-soft-contrast",
+  "version": "1.1.0",
+  "newArtwork": false
+}

@@ -1,0 +1,14 @@
+html,body{margin:0;background:white}
+.lab-shell{box-sizing:border-box;width:1280px;padding:14px 20px;background:#f4f7fc;border-bottom:1px solid #dce5ef;color:#25374d;font:13px Arial,sans-serif}
+.lab-shell h1{font-size:18px;margin:0 0 12px}
+.lab-shell label{margin-right:14px}.lab-shell select,.lab-shell button{font:13px Arial,sans-serif}
+.lab-shell p{margin:10px 0 0;min-height:18px}
+#lab-stage{width:1280px}
+.lab-section{box-sizing:border-box;width:1280px;padding:18px 20px 22px;border-bottom:1px solid #dce5ef}
+.lab-section>h2{margin:0 0 14px;color:#304a68;font:16px Arial,sans-serif}
+.lab-host{position:relative;width:1240px;min-height:80px}
+.lab-tool-grid{display:grid;grid-template-columns:repeat(8,140px);gap:14px}
+.lab-tool-cell{height:60px}.lab-tool-label{font:11px Arial,sans-serif;color:#43658b;margin-bottom:10px}
+.lab-error{color:#9d3146}
+/* Capture-only motion/caret neutralization; no component metric/font override. */
+.lab-capture *{animation:none!important;transition:none!important;caret-color:transparent!important}

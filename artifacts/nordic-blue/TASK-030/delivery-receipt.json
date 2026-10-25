@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sha256": "3ca9a8e3bdef55f9fce47408588cc69467678a5e492d384ddacfe9727b1f538e",
+  "bytes": 1347259,
+  "payloadFiles": 945,
+  "repeatIdentical": true,
+  "archive": "source-delivery/nordic-soft-light-extjs-classic-7.7-source.zip"
+}

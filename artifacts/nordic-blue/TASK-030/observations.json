@@ -1,0 +1,67 @@
+{
+  "initial": {
+    "groups": [
+      {
+        "color": "rgb(48, 74, 104)",
+        "fill": "rgb(232, 238, 246)",
+        "text": "Создание"
+      },
+      {
+        "color": "rgb(48, 74, 104)",
+        "fill": "rgb(232, 238, 246)",
+        "text": "Обмен"
+      }
+    ],
+    "leaves": [
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 22
+      },
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 22
+      },
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 45
+      },
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 22
+      },
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 22
+      },
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 45
+      },
+      {
+        "fill": "rgb(244, 246, 249)",
+        "font": "11px / 13px tahoma, arial, verdana, sans-serif",
+        "height": 22
+      }
+    ],
+    "status": "Ext JS 7.7 · Анимации отключены",
+    "styles": [
+      "sample-shell.css",
+      "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+      "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+      "sample-shell.css"
+    ]
+  },
+  "afterSort": [
+    {
+      "cls": "x-column-header x-column-header-align-left x-group-sub-header x-box-item x-column-header-default x-unselectable x-column-header-first x-focus x-column-header-focus x-column-header-default-focus x-column-header-sort-ASC",
+      "fill": "rgb(227, 237, 252)",
+      "text": "ДатаCell value has been edited"
+    }
+  ]
+}

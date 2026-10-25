@@ -1,0 +1,62 @@
+[
+  {
+    "scope": "lab",
+    "mode": "testing",
+    "theme": "theme-nordic-blue-soft-contrast",
+    "version": "1.1.0",
+    "sdk": "7.7.0.31",
+    "approvedImageFiles": 648,
+    "microloader": "embedded in index.html",
+    "status": "PASS"
+  },
+  {
+    "scope": "lab",
+    "mode": "development",
+    "theme": "theme-nordic-blue-soft-contrast",
+    "version": "1.1.0",
+    "sdk": "7.7.0.31",
+    "approvedImageFiles": 648,
+    "microloader": "embedded in index.html",
+    "status": "PASS"
+  },
+  {
+    "scope": "lab",
+    "mode": "production",
+    "theme": "theme-nordic-blue-soft-contrast",
+    "version": "1.1.0",
+    "sdk": "7.7.0.31",
+    "approvedImageFiles": 648,
+    "microloader": "embedded in index.html",
+    "status": "PASS"
+  },
+  {
+    "scope": "real",
+    "mode": "testing",
+    "theme": "theme-nordic-blue-soft-contrast",
+    "version": "1.1.0",
+    "sdk": "7.7.0.31",
+    "approvedImageFiles": 648,
+    "microloader": "embedded in index.html",
+    "status": "PASS"
+  },
+  {
+    "scope": "real",
+    "mode": "development",
+    "theme": "theme-nordic-blue-soft-contrast",
+    "version": "1.1.0",
+    "sdk": "7.7.0.31",
+    "approvedImageFiles": 648,
+    "microloader": "embedded in index.html",
+    "status": "PASS"
+  },
+  {
+    "scope": "real",
+    "mode": "production",
+    "theme": "theme-nordic-blue-soft-contrast",
+    "version": "1.1.0",
+    "sdk": "7.7.0.31",
+    "approvedImageFiles": 648,
+    "microloader": "embedded in index.html",
+    "status": "PASS"
+  }
+]
