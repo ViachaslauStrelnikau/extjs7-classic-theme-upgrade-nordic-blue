@@ -76,3 +76,25 @@
 .x-column-header.x-column-header-focus { background-color:#e3edfc; }
 .x-column-header.x-group-header.x-column-header-over,
 .x-column-header.x-group-header.x-column-header-focus { background-color:#dce8f8; }
+
+/* TASK-037 approved table/state paint; :root retains reviewed preview specificity. */
+:root .x-grid-with-col-lines .x-grid-cell,
+:root .x-grid-cell { border-right-color:transparent; border-left-color:transparent; border-bottom-color:#e5ebf3; }
+:root .x-grid-item-alt .x-grid-cell { background-color:#f8fafd; }
+:root .x-column-header { background-color:#e6eef8; background-image:none; color:#304a68; border-color:#c7d5e7; box-shadow:none; }
+:root .x-column-header.x-group-header { background-color:#d7e4f3; box-shadow:none; }
+:root .x-column-header-over,
+:root .x-column-header-sort-ASC,
+:root .x-column-header-sort-DESC { background-color:#ccdef5; box-shadow:none; }
+:root .x-grid-item-over .x-grid-cell { background-color:#e3eefc; box-shadow:inset 0 1px 0 #c5d9f3,inset 0 -1px 0 #c5d9f3; }
+:root .x-grid-item-selected .x-grid-cell { background-color:#bfd7f5; color:#153e70; border-bottom-color:#3275d6; box-shadow:inset 0 1px 0 #3275d6,inset 0 -1px 0 #3275d6; }
+:root .x-grid-item-selected .x-grid-cell-first { box-shadow:inset 2px 0 0 #2868c4,inset 0 1px 0 #3275d6,inset 0 -1px 0 #3275d6; }
+:root .x-grid-item-selected .x-grid-cell-last { box-shadow:inset -1px 0 0 #3275d6,inset 0 1px 0 #3275d6,inset 0 -1px 0 #3275d6; }
+:root .x-grid-item-selected.x-grid-item-over .x-grid-cell { background-color:#b0cdf1; }
+:root .x-grid-item-focused .x-grid-cell { border-bottom-color:#3275d6; }
+:root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }
+:root .x-menu-item-active { background-color:#e3eefc; border-color:transparent; box-shadow:inset 3px 0 0 #3275d6; }
+:root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-3px; }
+
+/* One uninterrupted 1px separator across grouped and row-spanning headers. */
+:root .x-grid-header-ct::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }

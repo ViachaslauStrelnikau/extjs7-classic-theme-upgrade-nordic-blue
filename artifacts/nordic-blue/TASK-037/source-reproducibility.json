@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sha256": "b32e2392eb90803c240c947a743af54cd9d2e3c104bb73b3ccd5a09a2583228d",
+  "bytes": 1356509,
+  "payloadFiles": 951,
+  "runs": [
+    "source-delivery",
+    "source-delivery-repeat"
+  ]
+}

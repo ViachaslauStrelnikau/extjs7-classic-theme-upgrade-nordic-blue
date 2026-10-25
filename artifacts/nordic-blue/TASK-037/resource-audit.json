@@ -1,0 +1,44 @@
+[
+  {
+    "scope": "lab",
+    "mode": "testing",
+    "version": "1.2.0",
+    "approvedImages": 648,
+    "status": "PASS"
+  },
+  {
+    "scope": "lab",
+    "mode": "development",
+    "version": "1.2.0",
+    "approvedImages": 648,
+    "status": "PASS"
+  },
+  {
+    "scope": "lab",
+    "mode": "production",
+    "version": "1.2.0",
+    "approvedImages": 648,
+    "status": "PASS"
+  },
+  {
+    "scope": "real",
+    "mode": "testing",
+    "version": "1.2.0",
+    "approvedImages": 648,
+    "status": "PASS"
+  },
+  {
+    "scope": "real",
+    "mode": "development",
+    "version": "1.2.0",
+    "approvedImages": 648,
+    "status": "PASS"
+  },
+  {
+    "scope": "real",
+    "mode": "production",
+    "version": "1.2.0",
+    "approvedImages": 648,
+    "status": "PASS"
+  }
+]

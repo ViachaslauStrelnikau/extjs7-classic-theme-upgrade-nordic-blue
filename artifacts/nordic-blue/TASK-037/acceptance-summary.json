@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "coveragePairs": 204,
+  "actionStatePairs": 236,
+  "additionalCoreFlows": 20,
+  "elementComparisons": 21614,
+  "browser": "Edge 156.0.4314.42",
+  "dpr": [
+    1,
+    2
+  ],
+  "actualNegativeControls": 4,
+  "builds": 6,
+  "resourceFilesPerBuild": 648,
+  "themeVersion": "1.2.0",
+  "paintPolicy": "Reviewed radii/shadows/outline/header stripe and exact native text-field decorative texture removal only. Exact native box/font/offset/state checks retained.",
+  "notRun": [
+    "full pixel-golden acceptance",
+    "Chrome/Firefox matrix for1.2.0",
+    "full RTL application matrix",
+    "SDK7.9",
+    "motion acceptance"
+  ]
+}

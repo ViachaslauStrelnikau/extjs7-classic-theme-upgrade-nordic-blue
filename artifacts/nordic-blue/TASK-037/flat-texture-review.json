@@ -1,0 +1,7 @@
+{
+  "cause": "Classic text-bg.gif texture makes an unregistered hidden input image-bearing only in Classic. Native input must be measured in both themes, never discarded.",
+  "extractorChange": "Stable unique-owned native-text-input role added before image catalog. DOM node and all box/font/state metrics retained in both themes.",
+  "paintException": "Only installed Classic images/form/text-bg.gif on validated native non-invalid .x-form-text-default INPUT/TEXTAREA, new backgroundImage exactly none and no replacement icon. Explicit flat texture removal already present in approved child1.1; no arbitrary URL masking.",
+  "diagnosticRun": "regression",
+  "freshFinalRun": "regression-2"
+}

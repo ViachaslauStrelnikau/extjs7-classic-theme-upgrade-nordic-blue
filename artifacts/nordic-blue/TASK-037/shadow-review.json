@@ -1,0 +1,125 @@
+{
+  "policy": "Only selector-owned, exact declared shadow geometry keys may be treated as approved decorative paint. Native box/font/offset/state still exact. Raw captures retained.",
+  "rules": [
+    {
+      "selector": ".nb-soft-float",
+      "key": "[[false,0.0,5.0,16.0,0.0]]"
+    },
+    {
+      "selector": ".x-panel-header-default,\n.x-panel-header-default-framed,\n.x-window-header-default",
+      "key": "[[true,3.0,0.0,0.0,0.0]]"
+    },
+    {
+      "selector": ".x-btn-default-small,\n.x-btn-default-toolbar-small",
+      "key": "none"
+    },
+    {
+      "selector": ".x-btn-default-small.x-btn-pressed,\n.x-btn-default-toolbar-small.x-btn-pressed",
+      "key": "[[true,0.0,1.0,2.0,0.0]]"
+    },
+    {
+      "selector": ".x-btn-default-small.x-btn-focus,\n.x-btn-default-toolbar-small.x-btn-focus",
+      "key": "[[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".nb-primary.x-btn-default-small.x-btn-focus,\n.nb-primary.x-btn-default-toolbar-small.x-btn-focus",
+      "key": "[[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-btn-default-small.x-btn-disabled,\n.x-btn-default-toolbar-small.x-btn-disabled",
+      "key": "none"
+    },
+    {
+      "selector": ".x-form-text-default",
+      "key": "none"
+    },
+    {
+      "selector": ".x-form-trigger-wrap-focus",
+      "key": "[[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-form-trigger-wrap-invalid",
+      "key": "[[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-grid-header-ct,\n.x-column-header",
+      "key": "[[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ".x-grid-cell-focused",
+      "key": "[[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-tab-default-top",
+      "key": "none"
+    },
+    {
+      "selector": ".x-tab-default.x-tab-active",
+      "key": "[[true,0.0,-3.0,0.0,0.0]]"
+    },
+    {
+      "selector": ".x-tab-default.x-tab-focus",
+      "key": "[[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-tab-default.x-tab-disabled",
+      "key": "none"
+    },
+    {
+      "selector": ".x-column-header",
+      "key": "[[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ".x-column-header-first",
+      "key": "[[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ".x-grid-item-selected .x-grid-cell:first-child",
+      "key": "[[true,3.0,0.0,0.0,0.0]]"
+    },
+    {
+      "selector": ".x-grid-item-selected .x-grid-cell-focused:first-child",
+      "key": "[[true,3.0,0.0,0.0,0.0],[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-tab-default.x-tab-active.x-tab-focus",
+      "key": "[[true,0.0,-3.0,0.0,0.0],[true,0.0,0.0,0.0,1.0]]"
+    },
+    {
+      "selector": ".x-window-default.nb-soft-float",
+      "key": "[[false,0.0,8.0,24.0,0.0]]"
+    },
+    {
+      "selector": ":root .x-column-header",
+      "key": "none"
+    },
+    {
+      "selector": ":root .x-column-header.x-group-header",
+      "key": "none"
+    },
+    {
+      "selector": ":root .x-column-header-over,\n:root .x-column-header-sort-ASC,\n:root .x-column-header-sort-DESC",
+      "key": "none"
+    },
+    {
+      "selector": ":root .x-grid-item-over .x-grid-cell",
+      "key": "[[true,0.0,1.0,0.0,0.0],[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ":root .x-grid-item-selected .x-grid-cell",
+      "key": "[[true,0.0,1.0,0.0,0.0],[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ":root .x-grid-item-selected .x-grid-cell-first",
+      "key": "[[true,2.0,0.0,0.0,0.0],[true,0.0,1.0,0.0,0.0],[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ":root .x-grid-item-selected .x-grid-cell-last",
+      "key": "[[true,-1.0,0.0,0.0,0.0],[true,0.0,1.0,0.0,0.0],[true,0.0,-1.0,0.0,0.0]]"
+    },
+    {
+      "selector": ":root .x-menu-item-active",
+      "key": "[[true,3.0,0.0,0.0,0.0]]"
+    }
+  ]
+}

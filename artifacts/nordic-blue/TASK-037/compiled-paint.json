@@ -1,0 +1,30 @@
+{
+  "headers": [
+    {
+      "fill": "rgb(230, 238, 248)"
+    }
+  ],
+  "rows": 22,
+  "selected": [
+    {
+      "fill": "rgb(191, 215, 245)",
+      "shadow": "rgb(40, 104, 196) 2px 0px 0px 0px inset, rgb(50, 117, 214) 0px 1px 0px 0px inset, rgb(50, 117, 214) 0px -1px 0px 0px inset"
+    },
+    {
+      "fill": "rgb(191, 215, 245)",
+      "shadow": "rgb(50, 117, 214) -1px 0px 0px 0px inset, rgb(50, 117, 214) 0px 1px 0px 0px inset, rgb(50, 117, 214) 0px -1px 0px 0px inset"
+    }
+  ],
+  "stripe": [
+    {
+      "height": "1px",
+      "pointerEvents": "none"
+    }
+  ],
+  "styles": [
+    "http://127.0.0.1:51754/state-preview/sample-shell.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/state-preview/sample-shell.css"
+  ]
+}

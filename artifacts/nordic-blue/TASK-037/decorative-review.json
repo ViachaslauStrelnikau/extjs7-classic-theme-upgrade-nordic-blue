@@ -1,0 +1,14 @@
+{
+  "sdkSources": [
+    "ext-7.7.0.31/classic/theme-base/sass/src/grid/header/Container.scss",
+    "ext-7.7.0.31/classic/theme-neutral/sass/src/grid/header/Container.scss",
+    "ext-7.7.0.31/classic/theme-neutral/sass/src/grid/column/Column.scss"
+  ],
+  "rules": [
+    ":root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }",
+    ":root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-3px; }",
+    "/* One uninterrupted 1px separator across grouped and row-spanning headers. */\n:root .x-grid-header-ct::after { content:\"\"; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }"
+  ],
+  "policy": "Exact blocks only: inset outline does not alter native box; absolute pointer-transparent 1px pseudo stripe adds no flow box. Preserve native header placement. No broad geometry permission.",
+  "componentSha256": "8e23dc5d7939716dfb8b81888a407395a6a7355906a39d8c8b361a5b342fc389"
+}

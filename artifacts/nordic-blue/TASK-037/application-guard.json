@@ -1,0 +1,20 @@
+{
+  "note": "Read-only application/fixture fingerprints; theme implementation only. Compare again at completion.",
+  "files": {
+    "TestApp/app.json": "dd1d995dc01c14609d66f8e3fd7f4b003697bcd17dc17865307a922180c9f4e3",
+    "TestApp/theme-lab/fixture.js": "6ff9cf0f0346379941c6a6adbe44b38723c09215717a9d0440a962ad85131142",
+    "TestApp/theme-lab/clock.js": "b832296ec0b72248b959848e642bc67e63a9da441c2423057c8d1fa92bb2db2e",
+    "TestApp/theme-lab/index.html": "931b9db8ce251bfcff9492c76611583e1b39cc76b3e62771ef765bd36a09d810",
+    "TestApp/contrast-lab/profiles.json": "eb243a1cccafe0c061ce0a3bcba2a9e4c760775291b95416a4d70e60317abdda",
+    "TestApp\\app\\Application.js": "8e6c9ef8d4828e7f28e4f59375c24686782d424909dd81b13753e097ff6802b0",
+    "TestApp\\app\\Application.scss": "07a9c8ae5d7f65d87309ec57ae16a402b50d3529612244b3fb3af1fdfeb65ef8",
+    "TestApp\\app\\model\\Base.js": "d5c978c8a9ac391fd69a0b1c0539cb902a94b8faf1f3118e4d6de09ee9dfb342",
+    "TestApp\\app\\model\\Personnel.js": "b015031fe025e8c16a620dbd426be0400a85c483e311f248b2932a19652e841c",
+    "TestApp\\app\\store\\Personnel.js": "7f2c64e1fda07ca453f17a39fd09f9d61a0e2281f6cdd7cd33c8a99f49dbb4f5",
+    "TestApp\\app\\view\\main\\List.js": "f44b54987bf37c3aa4e58536dd3cbb0a84f51c6c2a46ac2a959f7480fb865987",
+    "TestApp\\app\\view\\main\\Main.js": "dcc63001b13aaf8680ff6c74fc1863529a1d7b95e7c857b1bf669b9c8ef8b2a6",
+    "TestApp\\app\\view\\main\\Main.scss": "019b5d6a45c03df45f59f385024f056ff591f67628d56338d10eeda92402a077",
+    "TestApp\\app\\view\\main\\MainController.js": "16025eecfa1c0ce21b8fc083d526ad5568b349554cb364c354ec7e05a626becb",
+    "TestApp\\app\\view\\main\\MainModel.js": "971ce8e4518d5e8a18a546c11d61fb07322546bd06af9d01d52645e32721939a"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "actualBrowserMutations": [
+    {
+      "dpr": 1,
+      "control": "shift-1px",
+      "rejected": true,
+      "restore": "PASS",
+      "issues": [
+        "elements"
+      ]
+    },
+    {
+      "dpr": 1,
+      "control": "font-size",
+      "rejected": true,
+      "restore": "PASS",
+      "issues": [
+        "elements"
+      ]
+    },
+    {
+      "dpr": 2,
+      "control": "shift-1px",
+      "rejected": true,
+      "restore": "PASS",
+      "issues": [
+        "elements"
+      ]
+    },
+    {
+      "dpr": 2,
+      "control": "font-size",
+      "rejected": true,
+      "restore": "PASS",
+      "issues": [
+        "elements"
+      ]
+    }
+  ]
+}

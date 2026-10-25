@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-25",
+  "userApproval": "Отлично. мне нравится",
+  "implementationRequest": "сделай это",
+  "candidate": "TestApp/state-preview/candidate.css",
+  "candidateSha256": "5df8390cef07d8f51214eced1ee085d523750a0ee495442bb25b420bdd516312",
+  "headerSeparatorPx": 1,
+  "selectionEdgesPx": 1,
+  "selectionLeftAccentPx": 2,
+  "scope": "Integrate approved paint into existing separate theme; no new artwork, metrics or behavior changes approved."
+}
