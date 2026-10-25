@@ -18,7 +18,7 @@
 .x-btn-default-small.x-btn-pressed,
 .x-btn-default-toolbar-small.x-btn-pressed { background-color:#dbe9fb; border-color:#6998d2; box-shadow:inset 0 1px 2px rgba(37,55,77,.12); }
 .x-btn-default-small.x-btn-focus,
-.x-btn-default-toolbar-small.x-btn-focus { border-color:#3275d6; box-shadow:inset 0 0 0 1px #3275d6; }
+.x-btn-default-toolbar-small.x-btn-focus { border-color:#3275d6; box-shadow:none; }
 .nb-primary.x-btn-default-small,
 .nb-primary.x-btn-default-toolbar-small { background-color:#3275d6; border-color:#2868c4; }
 .nb-primary.x-btn-default-small .x-btn-inner,
@@ -94,7 +94,7 @@
 :root .x-grid-item-focused .x-grid-cell { border-bottom-color:#3275d6; }
 :root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }
 :root .x-menu-item-active { background-color:#e3eefc; border-color:transparent; box-shadow:inset 3px 0 0 #3275d6; }
-:root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-3px; }
+:root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-1px; }
 
 /* One uninterrupted 1px separator across grouped and row-spanning headers. */
 :root .x-grid-header-ct::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }

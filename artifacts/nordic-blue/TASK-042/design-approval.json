@@ -1,0 +1,5 @@
+{
+  "request": "Сделай выделение нажатой кнопки чуть тоньше, залазит на иконку",
+  "version": "1.4.1",
+  "scope": "Focus frame paint only. Existing native border remains; 1px outline overlays border rather than icon area. No artwork change; WGR untouched."
+}

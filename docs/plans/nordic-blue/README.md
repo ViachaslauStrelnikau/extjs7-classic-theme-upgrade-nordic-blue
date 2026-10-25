@@ -88,3 +88,5 @@
 [TASK-040](tasks/TASK-040.md) — DONE как native demo единого верхнего фона с Classic reference. Выбор ожидается, пакеты/WGR не менялись.
 
 [TASK-041](tasks/TASK-041.md) — DONE: одобренный единый верхний фон включён в child1.4.0;6builds/3lints/648SHAx6/manual compiled+Classic view. WGR/parents неизменны, полной новой регрессии нет.
+
+[TASK-042](tasks/TASK-042.md) — DONE: child1.4.1, одна тонкая рамка focus кнопки у внешнего края;6builds/3lints/648SHAx6/manual click. WGR/parents неизменны; без полной новой регрессии.

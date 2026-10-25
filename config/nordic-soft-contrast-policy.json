@@ -2,13 +2,13 @@
   "theme": "theme-nordic-blue-soft-contrast",
   "parent": "theme-nordic-blue-soft",
   "sdk": "7.7.0.31",
-  "approval": "artifacts/nordic-blue/TASK-041/design-approval.json",
-  "approvalSha256": "6834aa8090f18647cbf4e68bc2cfbb272fc37ac3c627dffeb0371e406907c7b4",
+  "approval": "artifacts/nordic-blue/TASK-042/design-approval.json",
+  "approvalSha256": "26cdf2e3687c393122e9ab68707fef35bf6d80026bfdaaf0ab2e1beec5459ce7",
   "reviewedFiles": {
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "5d483a055a64e711739b7ce62aa2a73cf627e445a31ad3bba1c1b86266fea39b",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "ea4f4cd18434ab89c8b221e8ee1625d5778bc5b053dbbd8f5f2b217d36e39e0a",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/build.xml": "6598bf473e70d40a03a24f3733994a112136064666f7d1fd56dc37b764cb3df6",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/etc/all.scss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "434086d75aa1127afb645f31ce79a71f757816045c6c307087a68fb8dc87b146",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "1900b6ec43cd14c4fbd06f820ff68e0386902185e8feeb16390bf21b87ea05c5",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/all.scss": "3e079faea3b6f0b70330046d2d66dc1836a46a7f8f293beb2735ded6c8e3fe82",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/panel/Panel.scss": "3c0035038b1e6951f0f24b651f24ba50f376ecd70bed66869b58f049387192b8",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/toolbar/Toolbar.scss": "933ce61866664c80b3e569387baf5227f647f2a5177f7b7861916e62491c2d2b",
@@ -31,6 +31,6 @@
   ],
   "ownImages": 0,
   "runtimeOverrides": false,
-  "decorativeReview": "artifacts/nordic-blue/TASK-041/decorative-review.json",
-  "decorativeReviewSha256": "38e1e93deadb10912a2dbd03a7d015c3200f16db4db67467d28eac7df596842c"
+  "decorativeReview": "artifacts/nordic-blue/TASK-042/decorative-review.json",
+  "decorativeReviewSha256": "543cf12f178fba03e55b3cc7fcb481529d117f889ef6d2edb770047dc7e2b566"
 }

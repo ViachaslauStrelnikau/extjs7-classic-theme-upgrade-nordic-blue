@@ -1,0 +1,47 @@
+[
+  {
+    "border": "1px",
+    "classes": "x-btn x-unselectable x-box-item x-toolbar-item x-btn-default-toolbar-small",
+    "height": 22,
+    "icon": {
+      "height": 0,
+      "left": -23,
+      "width": 0
+    },
+    "outline": "rgb(0, 0, 0) none 0px",
+    "outlineOffset": "0px",
+    "shadow": "none",
+    "text": "Обычная",
+    "width": 59.203125
+  },
+  {
+    "border": "1px",
+    "classes": "x-btn x-unselectable x-box-item x-toolbar-item x-btn-default-toolbar-small x-btn-over x-focus x-btn-focus x-btn-default-toolbar-small-focus x-btn-pressed",
+    "height": 22,
+    "icon": {
+      "height": 16,
+      "left": 3,
+      "width": 16
+    },
+    "outline": "rgb(33, 89, 166) solid 1px",
+    "outlineOffset": "-1px",
+    "shadow": "none",
+    "text": "Груз",
+    "width": 52.171875
+  },
+  {
+    "border": "1px",
+    "classes": "x-btn x-unselectable x-box-item x-toolbar-item x-btn-default-toolbar-small",
+    "height": 22,
+    "icon": {
+      "height": 16,
+      "left": 3,
+      "width": 16
+    },
+    "outline": "rgb(0, 0, 0) none 0px",
+    "outlineOffset": "0px",
+    "shadow": "none",
+    "text": "Нажатая",
+    "width": 73.734375
+  }
+]

@@ -9,3 +9,5 @@ Version1.2.0: approved light blue grid headers, uniform1px separator,1px selecti
 Version1.3.0: color+3px left stripe selection, no row frame. Corrected tree ancestor lines require parent Nordic Blue1.0.2. Update all3packages and rebuild.
 
 Version1.4.0: approved unified root viewport background, top tabs and docked grid toolbar surface #edf2f8. Native hierarchy only, no WGR classes or JavaScript changes. Parent packages unchanged from1.3.0.
+
+Version1.4.1: focused button has one1px outline on its native outer border (offset -1px), no additional inset focus shadow. Icon/box sizes unchanged.

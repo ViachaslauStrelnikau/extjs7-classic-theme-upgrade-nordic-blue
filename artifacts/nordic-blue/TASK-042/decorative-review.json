@@ -1,0 +1,12 @@
+{
+  "rules": [
+    ":root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }",
+    ":root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-1px; }",
+    "/* One uninterrupted 1px separator across grouped and row-spanning headers. */\n:root .x-grid-header-ct::after { content:\"\"; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }",
+    "html:root .x-grid-cell-focused { outline:none; }",
+    "/* Keyboard focus remains a separate, single-cell affordance; selection itself has no frame. */\nhtml:root .x-keyboard-mode .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }"
+  ],
+  "componentSha256": "1900b6ec43cd14c4fbd06f820ff68e0386902185e8feeb16390bf21b87ea05c5",
+  "policy": "Exact outline/pointer-transparent stripe blocks only; native border widths unchanged, border-style is paint.",
+  "newPaint": "TASK-042: remove extra focus inset shadow; move existing 1px focus outline onto native border (offset -1px). No border width, spacing, font, icon or behavior change."
+}
