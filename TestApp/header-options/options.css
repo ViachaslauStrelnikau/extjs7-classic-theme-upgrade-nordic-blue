@@ -1,0 +1,15 @@
+/* Independent design studies. Paint only; current design-preview is unchanged. */
+html[data-header-option] .x-column-header { box-shadow:none; }
+html[data-header-option="1"] .x-grid-header-ct,
+html[data-header-option="1"] .x-column-header { background-color:#fff; border-color:#e1e7ef; box-shadow:inset 0 -2px 0 #3275d6; }
+html[data-header-option="1"] .x-column-header { border-right-color:#edf0f5; }
+html[data-header-option="1"] .x-column-header-over { background-color:#edf4ff; }
+html[data-header-option="2"] .x-panel-header-default { background-color:#edf1f6; border-color:#d9e2ed; box-shadow:inset 3px 0 0 #3275d6; }
+html[data-header-option="2"] .x-grid-header-ct,
+html[data-header-option="2"] .x-column-header { background-color:#edf1f6; border-color:#d9e2ed; }
+html[data-header-option="2"] .x-column-header-first { box-shadow:inset 3px 0 0 #3275d6; }
+html[data-header-option="2"] .x-column-header-over { background-color:#e0e9f5; }
+html[data-header-option="3"] .x-grid-header-ct,
+html[data-header-option="3"] .x-column-header { background-color:#304a68; border-color:#425c79; color:#fff; }
+html[data-header-option="3"] .x-column-header-over { background-color:#3b597c; }
+html[data-header-option="3"] .x-panel-header-default { box-shadow:none; }

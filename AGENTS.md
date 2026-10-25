@@ -191,3 +191,7 @@ User requested stronger distinction between column headings and data rows. Previ
 ## Header design refinement (TASK-026)
 
 Latest user direction supersedes TASK-025 blue fill: column headings use tab-bar #f4f6f9 with a3px blue inset on actual .x-column-header-first, matching panel accent. Narrow preview-only change; no font/box changes. TASK-026 records actual matching computed fills and screenshot. Keep owned html scope and prior production gates.
+
+## Three header design studies (TASK-027)
+
+User retained TASK-026 as provisional and requested three images. Independent TestApp/header-options renders underline/unified/contrast variants; screenshots TASK-027. Existing design-preview unchanged. No option selected yet, no package integration/build/acceptance implied.
