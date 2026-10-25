@@ -1,15 +1,15 @@
-/* TASK-022 design candidate. Demo only; no package integration or metric rules. */
+/* TASK-023 design candidate v2. Demo only; no package integration or metric rules. */
 body.design-reference .x-panel-header-default,
 body.design-reference .x-panel-header-default-framed,
-body.design-reference .x-window-header-default { background-color:#f0f5fb; background-image:none; border-color:#cedae8; }
+body.design-reference .x-window-header-default { background-color:#fff; background-image:none; border-color:#e1e7ef; box-shadow:inset 3px 0 0 #3275d6; }
 body.design-reference .x-panel-body-default,
 body.design-reference .x-window-body-default { background-color:#fff; border-color:#d9e2ed; }
 body.design-reference .x-panel-default,
 body.design-reference .x-panel-default-framed,
 body.design-reference .x-window-default { border-color:#cedae8; }
 body.design-reference .x-toolbar-default,
-body.design-reference .x-toolbar-footer { background-color:#f8fafd; background-image:none; border-color:#d9e2ed; }
-body.design-reference :is(.x-btn-default-small,.x-btn-default-toolbar-small) { background-color:#fff; background-image:none; border-color:#cbd7e5; box-shadow:none; }
+body.design-reference .x-toolbar-footer { background-color:#fff; background-image:none; border-color:#e1e7ef; }
+body.design-reference :is(.x-btn-default-small,.x-btn-default-toolbar-small) { background-color:#f4f6f9; background-image:none; border-color:#dce3ec; box-shadow:none; }
 body.design-reference :is(.x-btn-default-small,.x-btn-default-toolbar-small) .x-btn-inner { color:#344d69; }
 body.design-reference :is(.x-btn-default-small,.x-btn-default-toolbar-small).x-btn-over { background-color:#edf4ff; border-color:#8caedb; }
 body.design-reference :is(.x-btn-default-small,.x-btn-default-toolbar-small).x-btn-pressed { background-color:#dbe9fb; border-color:#6998d2; box-shadow:inset 0 1px 2px rgba(37,55,77,.12); }
@@ -26,25 +26,34 @@ body.design-reference .x-form-trigger-wrap-focus { border-color:#3275d6; box-sha
 /* Error wins over focused paint; icon/trigger resources remain inherited. */
 body.design-reference .x-form-trigger-wrap-invalid { border-color:#c55b67; box-shadow:inset 0 0 0 1px #c55b67; }
 body.design-reference .x-grid-header-ct,
-body.design-reference .x-column-header { background-color:#edf3fa; background-image:none; border-color:#d6e0ed; }
+body.design-reference .x-column-header { background-color:#f4f6f9; background-image:none; border-color:#e1e7ef; }
 body.design-reference .x-column-header-over { background-color:#e2edfb; background-image:none; }
 body.design-reference .x-grid-body { border-color:#d9e2ed; }
-body.design-reference .x-grid-cell { border-color:#e8eef5; background-color:#fff; color:#25374d; }
-body.design-reference .x-grid-item-alt .x-grid-cell { background-color:#f7fafe; }
+body.design-reference .x-grid-cell { border-color:#edf0f5; background-color:#fff; color:#25374d; }
+body.design-reference .x-grid-item-alt .x-grid-cell { background-color:#fafbfd; }
 body.design-reference .x-grid-item-over .x-grid-cell { background-color:#edf4ff; }
-body.design-reference .x-grid-item-selected .x-grid-cell { background-color:#dceafa; color:#25374d; }
+body.design-reference .x-grid-item-selected .x-grid-cell { background-color:#d9e9ff; color:#153e70; }
 body.design-reference .x-grid-item-focused .x-grid-cell { border-color:#8caedb; }
 body.design-reference .x-grid-cell-focused { box-shadow:inset 0 0 0 1px #3275d6; }
-body.design-reference .x-tab-bar-default { background-color:#edf3fa; background-image:none; }
-body.design-reference .x-tab-default-top { background-color:#edf3fa; background-image:none; border-color:#d6e0ed; box-shadow:none; }
+body.design-reference .x-tab-bar-default { background-color:#f4f6f9; background-image:none; }
+body.design-reference .x-tab-default-top { background-color:transparent; background-image:none; border-color:transparent; box-shadow:none; }
 body.design-reference .x-tab-default .x-tab-inner { color:#687b92; }
 body.design-reference .x-tab-default.x-tab-over { background-color:#e2edfb; }
-body.design-reference .x-tab-default.x-tab-active { background-color:#fff; border-color:#c2d3e8; box-shadow:inset 0 2px 0 #3275d6; }
+body.design-reference .x-tab-default.x-tab-active { background-color:#fff; border-color:transparent; box-shadow:inset 0 -3px 0 #3275d6; }
 body.design-reference .x-tab-default.x-tab-active .x-tab-inner { color:#2868c4; }
 body.design-reference .x-tab-default.x-tab-focus { box-shadow:inset 0 0 0 1px #3275d6; }
-body.design-reference .x-tab-default.x-tab-disabled { background-color:#edf3fa; box-shadow:none; }
+body.design-reference .x-tab-default.x-tab-disabled { background-color:transparent; border-color:transparent; box-shadow:none; }
 body.design-reference .x-menu-body-default { background-color:#fff; }
 body.design-reference .x-menu-item-active { background-color:#edf4ff; background-image:none; border-color:#d6e6fa; }
 body.design-reference .x-boundlist { border-color:#bdccdc; background-color:#fff; }
 body.design-reference .x-boundlist-item-over { background-color:#edf4ff; border-color:#d6e6fa; }
 body.design-reference .x-boundlist-selected { background-color:#dceafa; border-color:#bdd2ed; }
+
+/* Remove only the inherited field background texture; retain invalid-state artwork. */
+body.design-reference .x-form-text-default:not(.x-form-invalid-field):not(.x-form-invalid-field-default) { background-image:none; }
+body.design-reference .x-column-header { border-right-color:transparent; }
+body.design-reference .x-grid-item-selected .x-grid-cell:first-child { box-shadow:inset 3px 0 0 #3275d6; }
+body.design-reference .x-grid-item-selected .x-grid-cell-focused:first-child { box-shadow:inset 3px 0 0 #3275d6,inset 0 0 0 1px #3275d6; }
+body.design-reference .x-tab-bar-strip-default { background-color:#e1e7ef; border-color:#e1e7ef; }
+body.design-reference .x-tab-default.x-tab-active.x-tab-focus { box-shadow:inset 0 -3px 0 #3275d6,inset 0 0 0 1px #3275d6; }
+body.design-reference .x-window-default.nb-soft-float { box-shadow:0 8px 24px rgba(37,55,77,.20); }

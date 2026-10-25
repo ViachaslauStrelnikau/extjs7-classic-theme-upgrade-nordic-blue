@@ -1,0 +1,1035 @@
+{
+  "result": {
+    "state": "menu",
+    "selector": ".x-menu, .x-menu *",
+    "currentCount": 17,
+    "referenceCount": 17,
+    "diffs": []
+  },
+  "frames": [
+    [
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          76,
+          94,
+          141,
+          84
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          77,
+          95,
+          139,
+          82
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "2px",
+          "2px",
+          "2px",
+          "2px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          77,
+          95,
+          139,
+          82
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          106,
+          95,
+          2,
+          82
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          97,
+          135,
+          78
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          97,
+          135,
+          1
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          97,
+          134.390625,
+          24
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          80,
+          98,
+          132.390625,
+          22
+        ],
+        "tag": "A"
+      },
+      {
+        "box": [
+          "1px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "4px",
+          "0px",
+          "35px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "11px",
+          "400",
+          "21px",
+          "normal"
+        ],
+        "rect": [
+          115,
+          98,
+          93.390625,
+          22
+        ],
+        "tag": "SPAN"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          121,
+          135,
+          24
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          80,
+          122,
+          133,
+          22
+        ],
+        "tag": "A"
+      },
+      {
+        "box": [
+          "1px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "4px",
+          "0px",
+          "35px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "11px",
+          "400",
+          "21px",
+          "normal"
+        ],
+        "rect": [
+          115,
+          122,
+          88.578125,
+          22
+        ],
+        "tag": "SPAN"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          147,
+          135,
+          2
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          151,
+          135,
+          24
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          80,
+          152,
+          133,
+          22
+        ],
+        "tag": "A"
+      },
+      {
+        "box": [
+          "1px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "4px",
+          "0px",
+          "35px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "11px",
+          "400",
+          "21px",
+          "normal"
+        ],
+        "rect": [
+          115,
+          152,
+          92.203125,
+          22
+        ],
+        "tag": "SPAN"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "16px",
+          "400",
+          "16px",
+          "normal"
+        ],
+        "rect": [
+          83,
+          156,
+          16,
+          16
+        ],
+        "tag": "DIV"
+      }
+    ],
+    [
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          76,
+          94,
+          141,
+          84
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          77,
+          95,
+          139,
+          82
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "2px",
+          "2px",
+          "2px",
+          "2px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          77,
+          95,
+          139,
+          82
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          106,
+          95,
+          2,
+          82
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          97,
+          135,
+          78
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          97,
+          135,
+          1
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          97,
+          134.390625,
+          24
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          80,
+          98,
+          132.390625,
+          22
+        ],
+        "tag": "A"
+      },
+      {
+        "box": [
+          "1px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "4px",
+          "0px",
+          "35px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "11px",
+          "400",
+          "21px",
+          "normal"
+        ],
+        "rect": [
+          115,
+          98,
+          93.390625,
+          22
+        ],
+        "tag": "SPAN"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          121,
+          135,
+          24
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          80,
+          122,
+          133,
+          22
+        ],
+        "tag": "A"
+      },
+      {
+        "box": [
+          "1px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "4px",
+          "0px",
+          "35px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "11px",
+          "400",
+          "21px",
+          "normal"
+        ],
+        "rect": [
+          115,
+          122,
+          88.578125,
+          22
+        ],
+        "tag": "SPAN"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          147,
+          135,
+          2
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          79,
+          151,
+          135,
+          24
+        ],
+        "tag": "DIV"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "12px",
+          "400",
+          "normal",
+          "normal"
+        ],
+        "rect": [
+          80,
+          152,
+          133,
+          22
+        ],
+        "tag": "A"
+      },
+      {
+        "box": [
+          "1px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "4px",
+          "0px",
+          "35px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "11px",
+          "400",
+          "21px",
+          "normal"
+        ],
+        "rect": [
+          115,
+          152,
+          92.203125,
+          22
+        ],
+        "tag": "SPAN"
+      },
+      {
+        "box": [
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "font": [
+          "tahoma, arial, verdana, sans-serif",
+          "16px",
+          "400",
+          "16px",
+          "normal"
+        ],
+        "rect": [
+          83,
+          156,
+          16,
+          16
+        ],
+        "tag": "DIV"
+      }
+    ]
+  ]
+}

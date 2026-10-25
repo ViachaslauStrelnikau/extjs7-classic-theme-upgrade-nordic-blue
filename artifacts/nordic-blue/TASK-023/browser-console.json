@@ -1,0 +1,13 @@
+[
+  {
+    "level": "error",
+    "message": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+    "timestamp": "2026-10-25T09:32:09.620Z",
+    "url": "http://127.0.0.1:51754/design-preview/index.html"
+  },
+  {
+    "level": "error",
+    "message": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+    "timestamp": "2026-10-25T09:33:06.024Z"
+  }
+]

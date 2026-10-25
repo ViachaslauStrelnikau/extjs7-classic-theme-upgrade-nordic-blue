@@ -1,0 +1,33 @@
+{
+  "scope": "Design preview v2: built Soft versus demo CSS, not full Classic acceptance",
+  "states": [
+    {
+      "state": "normal",
+      "selector": "#sample *",
+      "currentCount": 253,
+      "referenceCount": 253,
+      "diffs": []
+    },
+    {
+      "state": "selection",
+      "selector": "#sample *",
+      "currentCount": 258,
+      "referenceCount": 258,
+      "diffs": []
+    },
+    {
+      "state": "window",
+      "selector": ".x-window, .x-window *",
+      "currentCount": 51,
+      "referenceCount": 51,
+      "diffs": []
+    },
+    {
+      "state": "menu",
+      "selector": ".x-menu, .x-menu *",
+      "currentCount": 17,
+      "referenceCount": 17,
+      "diffs": []
+    }
+  ]
+}
