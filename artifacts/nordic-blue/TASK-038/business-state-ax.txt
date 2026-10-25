@@ -1,0 +1,760 @@
+Browser tab: 16, Title: "Nordic Soft · два варианта выделения", URL: "http://127.0.0.1:51754/selection-preview/index.html".
+0 AXWebArea Nordic Soft · два варианта выделения, URL: 127.0.0.1:51754/selection-preview/index.html
+	1 container
+		2 text NORDIC SOFT · ВЫДЕЛЕНИЕ БЕЗ РАМКИ
+		3 heading Цвет или цвет с полосой, Value: 1
+			4 text Цвет или цвет с полосой
+		5 text Одинаковая таблица и одна выбранная строка. Синяя рамка и штатный пунктир убраны в обоих вариантах.
+		6 text Выделение
+		7 pop up button (collapsed, settable) Выделение, Value: Строка с цветной заливкой, ID: state, Secondary Actions: Expand
+			8 menu
+				9 Многострочная строка
+				10 (selected) Строка с цветной заливкой
+				11 Без выделения
+		12 text Нажмите на строку, наведите курсор или используйте клавиши стрелок.
+	13 container
+		14 heading 1 · Только цвет, Value: 2
+			15 text 1 · Только цвет
+		16 text Мягкая голубая заливка без контура и боковых акцентов.
+		17 container Только цвет
+			18 AXWebArea Nordic Soft · выделение, URL: 127.0.0.1:51754/selection-preview/sample.html?variant=color
+				27 container ext-element-1
+					28 text Ext JS 7.7 · Только цвет
+					29 container sample
+						30 heading Действия и клавиатурный фокус, Value: 2
+							31 text Действия и клавиатурный фокус
+						32 container toolbar-1014
+							33 button Создать, ID: button-1015
+								34 text Создать
+							35 pop up button Действия, ID: button-1016
+								36 text Действия
+							37 button Обновить, ID: button-1017
+								38 text Обновить
+							39 button (disabled) Недоступно, ID: button-1018
+								40 text Недоступно
+							41 text field (settable) textfield-1020-inputEl
+						42 heading Журнал документов · многоуровневая шапка, Value: 2
+							43 text Журнал документов · многоуровневая шапка
+						44 table Журнал СМГС, ID: gridpanel-1021
+							45 text Журнал СМГС
+							46 row ID: headercontainer-1022-innerCt, ID Создание Создание Дата Создание Время Создание Пользователь Документ Перевозка Перевозка Вагон Перевозка Станция Статус
+								47 cell gridcolumn-1024
+									48 text ID
+								49 text Создание
+								50 cell Description: Создание Дата, ID: gridcolumn-1026
+									51 text Дата
+								52 cell Description: Создание Время, ID: gridcolumn-1027
+									53 text Время
+								54 cell Description: Создание Пользователь, ID: gridcolumn-1028
+									55 text Пользователь
+								56 cell gridcolumn-1029
+									57 text Документ
+								58 text Перевозка
+								59 cell Description: Перевозка Вагон, ID: gridcolumn-1031
+									60 text Вагон
+								61 cell Description: Перевозка Станция, ID: gridcolumn-1032
+									62 text Станция
+								63 cell gridcolumn-1033
+									64 text Статус
+							65 container tableview-1023
+								66 row 78570 25.09.2026 10:42 В. Стрельников Накладная СМГС 52925300 Брест На проверке
+									67 cell
+										68 text 78570
+									69 cell
+										70 text 25.09.2026
+									71 cell
+										72 text 10:42
+									73 cell
+										74 text В. Стрельников
+									75 cell
+										76 text Накладная СМГС
+									77 cell
+										78 text 52925300
+									79 cell
+										80 text Брест
+									81 cell
+										82 text На проверке
+								83 row 78569 25.09.2026 11:42 Оператор Инвойс 52925301 Малашевиче Черновик
+									84 cell
+										85 text 78569
+									86 cell
+										87 text 25.09.2026
+									88 cell
+										89 text 11:42
+									90 cell
+										91 text Оператор
+									92 cell
+										93 text Инвойс
+									94 cell
+										95 text 52925301
+									96 cell
+										97 text Малашевиче
+									98 cell
+										99 text Черновик
+								100 row 78568 25.09.2026 12:42 Inbap Users Вагонная ведомость · комплект документов на перевозку по маршруту Брест — Малашевиче 52925302 Шушары На проверке
+									101 cell
+										102 text 78568
+									103 cell
+										104 text 25.09.2026
+									105 cell
+										106 text 12:42
+									107 cell
+										108 text Inbap Users
+									109 cell
+										110 text Вагонная ведомость · комплект документов на перевозку по маршруту Брест — Малашевиче
+									111 cell
+										112 text 52925302
+									113 cell
+										114 text Шушары
+									115 cell
+										116 text На проверке
+								117 row 78567 25.09.2026 13:42 В. Стрельников Сопроводительный документ 52925303 Брест Черновик
+									118 cell
+										119 text 78567
+									120 cell
+										121 text 25.09.2026
+									122 cell
+										123 text 13:42
+									124 cell
+										125 text В. Стрельников
+									126 cell
+										127 text Сопроводительный документ
+									128 cell
+										129 text 52925303
+									130 cell
+										131 text Брест
+									132 cell
+										133 text Черновик
+								134 row 78566 25.09.2026 14:42 Оператор Накладная СМГС 52925304 Малашевиче На проверке
+									135 cell
+										136 text 78566
+									137 cell
+										138 text 25.09.2026
+									139 cell
+										140 text 14:42
+									141 cell
+										142 text Оператор
+									143 cell
+										144 text Накладная СМГС
+									145 cell
+										146 text 52925304
+									147 cell
+										148 text Малашевиче
+									149 cell
+										150 text На проверке
+								151 row (selected) 78565 25.09.2026 15:42 Inbap Users Инвойс 52925305 Шушары Готов к отправке
+									152 cell
+										153 text 78565
+									154 cell
+										155 text 25.09.2026
+									156 cell
+										157 text 15:42
+									158 cell
+										159 text Inbap Users
+									160 cell
+										161 text Инвойс
+									162 cell
+										163 text 52925305
+									164 cell
+										165 text Шушары
+									166 cell
+										167 text Готов к отправке
+								168 row 78564 25.09.2026 16:42 В. Стрельников Вагонная ведомость 52925306 Брест На проверке
+									169 cell
+										170 text 78564
+									171 cell
+										172 text 25.09.2026
+									173 cell
+										174 text 16:42
+									175 cell
+										176 text В. Стрельников
+									177 cell
+										178 text Вагонная ведомость
+									179 cell
+										180 text 52925306
+									181 cell
+										182 text Брест
+									183 cell
+										184 text На проверке
+								185 row 78563 25.09.2026 17:42 Оператор Сопроводительный документ 52925307 Малашевиче Черновик
+									186 cell
+										187 text 78563
+									188 cell
+										189 text 25.09.2026
+									190 cell
+										191 text 17:42
+									192 cell
+										193 text Оператор
+									194 cell
+										195 text Сопроводительный документ
+									196 cell
+										197 text 52925307
+									198 cell
+										199 text Малашевиче
+									200 cell
+										201 text Черновик
+								202 row 78562 25.09.2026 18:42 Inbap Users Накладная СМГС 52925308 Шушары Требует проверки
+									203 cell
+										204 text 78562
+									205 cell
+										206 text 25.09.2026
+									207 cell
+										208 text 18:42
+									209 cell
+										210 text Inbap Users
+									211 cell
+										212 text Накладная СМГС
+									213 cell
+										214 text 52925308
+									215 cell
+										216 text Шушары
+									217 cell
+										218 text Требует проверки
+								219 row 78561 25.09.2026 19:42 В. Стрельников Инвойс 52925309 Брест Черновик
+									220 cell
+										221 text 78561
+									222 cell
+										223 text 25.09.2026
+									224 cell
+										225 text 19:42
+									226 cell
+										227 text В. Стрельников
+									228 cell
+										229 text Инвойс
+									230 cell
+										231 text 52925309
+									232 cell
+										233 text Брест
+									234 cell
+										235 text Черновик
+								236 row 78560 25.09.2026 20:42 Оператор Вагонная ведомость 52925310 Малашевиче На проверке
+									237 cell
+										238 text 78560
+									239 cell
+										240 text 25.09.2026
+									241 cell
+										242 text 20:42
+									243 cell
+										244 text Оператор
+									245 cell
+										246 text Вагонная ведомость
+									247 cell
+										248 text 52925310
+									249 cell
+										250 text Малашевиче
+									251 cell
+										252 text На проверке
+								253 row 78559 25.09.2026 21:42 Inbap Users Сопроводительный документ 52925311 Шушары Архив
+									254 cell
+										255 text 78559
+									256 cell
+										257 text 25.09.2026
+									258 cell
+										259 text 21:42
+									260 cell
+										261 text Inbap Users
+									262 cell
+										263 text Сопроводительный документ
+									264 cell
+										265 text 52925311
+									266 cell
+										267 text Шушары
+									268 cell
+										269 text Архив
+								270 row 78558 25.09.2026 22:42 В. Стрельников Накладная СМГС 52925312 Брест На проверке
+									271 cell
+										272 text 78558
+									273 cell
+										274 text 25.09.2026
+									275 cell
+										276 text 22:42
+									277 cell
+										278 text В. Стрельников
+									279 cell
+										280 text Накладная СМГС
+									281 cell
+										282 text 52925312
+									283 cell
+										284 text Брест
+									285 cell
+										286 text На проверке
+								287 row 78557 25.09.2026 23:42 Оператор Инвойс 52925313 Малашевиче Черновик
+									288 cell
+										289 text 78557
+									290 cell
+										291 text 25.09.2026
+									292 cell
+										293 text 23:42
+									294 cell
+										295 text Оператор
+									296 cell
+										297 text Инвойс
+									298 cell
+										299 text 52925313
+									300 cell
+										301 text Малашевиче
+									302 cell
+										303 text Черновик
+								304 row 78556 25.09.2026 00:42 Inbap Users Вагонная ведомость 52925314 Шушары На проверке
+									305 cell
+										306 text 78556
+									307 cell
+										308 text 25.09.2026
+									309 cell
+										310 text 00:42
+									311 cell
+										312 text Inbap Users
+									313 cell
+										314 text Вагонная ведомость
+									315 cell
+										316 text 52925314
+									317 cell
+										318 text Шушары
+									319 cell
+										320 text На проверке
+								321 row 78555 25.09.2026 01:42 В. Стрельников Сопроводительный документ 52925315 Брест Черновик
+									322 cell
+										323 text 78555
+									324 cell
+										325 text 25.09.2026
+									326 cell
+										327 text 01:42
+									328 cell
+										329 text В. Стрельников
+									330 cell
+										331 text Сопроводительный документ
+									332 cell
+										333 text 52925315
+									334 cell
+										335 text Брест
+									336 cell
+										337 text Черновик
+								338 row 78554 25.09.2026 02:42 Оператор Накладная СМГС 52925316 Малашевиче На проверке
+									339 cell
+										340 text 78554
+									341 cell
+										342 text 25.09.2026
+									343 cell
+										344 text 02:42
+									345 cell
+										346 text Оператор
+									347 cell
+										348 text Накладная СМГС
+									349 cell
+										350 text 52925316
+									351 cell
+										352 text Малашевиче
+									353 cell
+										354 text На проверке
+								355 row 78553 25.09.2026 03:42 Inbap Users Инвойс 52925317 Шушары Черновик
+									356 cell
+										357 text 78553
+									358 cell
+										359 text 25.09.2026
+									360 cell
+										361 text 03:42
+									362 cell
+										363 text Inbap Users
+									364 cell
+										365 text Инвойс
+									366 cell
+										367 text 52925317
+									368 cell
+										369 text Шушары
+									370 cell
+										371 text Черновик
+						372 container
+							373 text Готов к отправке  Требует проверки  Архив · цвет задаётся приложением
+						374 heading Дерево · те же состояния выбора и наведения, Value: 2
+							375 text Дерево · те же состояния выбора и наведения
+						376 table Документы проекта, ID: treepanel-1034
+							377 text Документы проекта
+							378 row headercontainer-1035-innerCt
+								379 cell treecolumn-1037
+							380 container treeview-1036
+								381 row (expanded) Перевозки, Secondary Actions: Collapse
+									382 cell
+										383 text Перевозки
+								384 row (selected) Журнал СМГС
+									385 cell
+										386 text Журнал СМГС
+								387 row Инвойсы
+									388 cell
+										389 text Инвойсы
+								390 row (collapsed) Архив, Secondary Actions: Expand
+									391 cell
+										392 text Архив
+		20 heading 2 · Цвет и полоса слева, Value: 2
+			21 text 2 · Цвет и полоса слева
+		22 text Та же заливка и синяя полоса 3 px, как у заголовков темы.
+		23 container Цвет и полоса слева
+			24 AXWebArea Nordic Soft · выделение, URL: 127.0.0.1:51754/selection-preview/sample.html?variant=stripe
+				393 container ext-element-1
+					394 text Ext JS 7.7 · Цвет + полоса слева
+					395 container sample
+						396 heading Действия и клавиатурный фокус, Value: 2
+							397 text Действия и клавиатурный фокус
+						398 container toolbar-1014
+							399 button Создать, ID: button-1015
+								400 text Создать
+							401 pop up button Действия, ID: button-1016
+								402 text Действия
+							403 button Обновить, ID: button-1017
+								404 text Обновить
+							405 button (disabled) Недоступно, ID: button-1018
+								406 text Недоступно
+							407 text field (settable) textfield-1020-inputEl
+						408 heading Журнал документов · многоуровневая шапка, Value: 2
+							409 text Журнал документов · многоуровневая шапка
+						410 table Журнал СМГС, ID: gridpanel-1021
+							411 text Журнал СМГС
+							412 row ID: headercontainer-1022-innerCt, ID Создание Создание Дата Создание Время Создание Пользователь Документ Перевозка Перевозка Вагон Перевозка Станция Статус
+								413 cell gridcolumn-1024
+									414 text ID
+								415 text Создание
+								416 cell Description: Создание Дата, ID: gridcolumn-1026
+									417 text Дата
+								418 cell Description: Создание Время, ID: gridcolumn-1027
+									419 text Время
+								420 cell Description: Создание Пользователь, ID: gridcolumn-1028
+									421 text Пользователь
+								422 cell gridcolumn-1029
+									423 text Документ
+								424 text Перевозка
+								425 cell Description: Перевозка Вагон, ID: gridcolumn-1031
+									426 text Вагон
+								427 cell Description: Перевозка Станция, ID: gridcolumn-1032
+									428 text Станция
+								429 cell gridcolumn-1033
+									430 text Статус
+							431 container tableview-1023
+								432 row 78570 25.09.2026 10:42 В. Стрельников Накладная СМГС 52925300 Брест На проверке
+									433 cell
+										434 text 78570
+									435 cell
+										436 text 25.09.2026
+									437 cell
+										438 text 10:42
+									439 cell
+										440 text В. Стрельников
+									441 cell
+										442 text Накладная СМГС
+									443 cell
+										444 text 52925300
+									445 cell
+										446 text Брест
+									447 cell
+										448 text На проверке
+								449 row 78569 25.09.2026 11:42 Оператор Инвойс 52925301 Малашевиче Черновик
+									450 cell
+										451 text 78569
+									452 cell
+										453 text 25.09.2026
+									454 cell
+										455 text 11:42
+									456 cell
+										457 text Оператор
+									458 cell
+										459 text Инвойс
+									460 cell
+										461 text 52925301
+									462 cell
+										463 text Малашевиче
+									464 cell
+										465 text Черновик
+								466 row 78568 25.09.2026 12:42 Inbap Users Вагонная ведомость · комплект документов на перевозку по маршруту Брест — Малашевиче 52925302 Шушары На проверке
+									467 cell
+										468 text 78568
+									469 cell
+										470 text 25.09.2026
+									471 cell
+										472 text 12:42
+									473 cell
+										474 text Inbap Users
+									475 cell
+										476 text Вагонная ведомость · комплект документов на перевозку по маршруту Брест — Малашевиче
+									477 cell
+										478 text 52925302
+									479 cell
+										480 text Шушары
+									481 cell
+										482 text На проверке
+								483 row 78567 25.09.2026 13:42 В. Стрельников Сопроводительный документ 52925303 Брест Черновик
+									484 cell
+										485 text 78567
+									486 cell
+										487 text 25.09.2026
+									488 cell
+										489 text 13:42
+									490 cell
+										491 text В. Стрельников
+									492 cell
+										493 text Сопроводительный документ
+									494 cell
+										495 text 52925303
+									496 cell
+										497 text Брест
+									498 cell
+										499 text Черновик
+								500 row 78566 25.09.2026 14:42 Оператор Накладная СМГС 52925304 Малашевиче На проверке
+									501 cell
+										502 text 78566
+									503 cell
+										504 text 25.09.2026
+									505 cell
+										506 text 14:42
+									507 cell
+										508 text Оператор
+									509 cell
+										510 text Накладная СМГС
+									511 cell
+										512 text 52925304
+									513 cell
+										514 text Малашевиче
+									515 cell
+										516 text На проверке
+								517 row (selected) 78565 25.09.2026 15:42 Inbap Users Инвойс 52925305 Шушары Готов к отправке
+									518 cell
+										519 text 78565
+									520 cell
+										521 text 25.09.2026
+									522 cell
+										523 text 15:42
+									524 cell
+										525 text Inbap Users
+									526 cell
+										527 text Инвойс
+									528 cell
+										529 text 52925305
+									530 cell
+										531 text Шушары
+									532 cell
+										533 text Готов к отправке
+								534 row 78564 25.09.2026 16:42 В. Стрельников Вагонная ведомость 52925306 Брест На проверке
+									535 cell
+										536 text 78564
+									537 cell
+										538 text 25.09.2026
+									539 cell
+										540 text 16:42
+									541 cell
+										542 text В. Стрельников
+									543 cell
+										544 text Вагонная ведомость
+									545 cell
+										546 text 52925306
+									547 cell
+										548 text Брест
+									549 cell
+										550 text На проверке
+								551 row 78563 25.09.2026 17:42 Оператор Сопроводительный документ 52925307 Малашевиче Черновик
+									552 cell
+										553 text 78563
+									554 cell
+										555 text 25.09.2026
+									556 cell
+										557 text 17:42
+									558 cell
+										559 text Оператор
+									560 cell
+										561 text Сопроводительный документ
+									562 cell
+										563 text 52925307
+									564 cell
+										565 text Малашевиче
+									566 cell
+										567 text Черновик
+								568 row 78562 25.09.2026 18:42 Inbap Users Накладная СМГС 52925308 Шушары Требует проверки
+									569 cell
+										570 text 78562
+									571 cell
+										572 text 25.09.2026
+									573 cell
+										574 text 18:42
+									575 cell
+										576 text Inbap Users
+									577 cell
+										578 text Накладная СМГС
+									579 cell
+										580 text 52925308
+									581 cell
+										582 text Шушары
+									583 cell
+										584 text Требует проверки
+								585 row 78561 25.09.2026 19:42 В. Стрельников Инвойс 52925309 Брест Черновик
+									586 cell
+										587 text 78561
+									588 cell
+										589 text 25.09.2026
+									590 cell
+										591 text 19:42
+									592 cell
+										593 text В. Стрельников
+									594 cell
+										595 text Инвойс
+									596 cell
+										597 text 52925309
+									598 cell
+										599 text Брест
+									600 cell
+										601 text Черновик
+								602 row 78560 25.09.2026 20:42 Оператор Вагонная ведомость 52925310 Малашевиче На проверке
+									603 cell
+										604 text 78560
+									605 cell
+										606 text 25.09.2026
+									607 cell
+										608 text 20:42
+									609 cell
+										610 text Оператор
+									611 cell
+										612 text Вагонная ведомость
+									613 cell
+										614 text 52925310
+									615 cell
+										616 text Малашевиче
+									617 cell
+										618 text На проверке
+								619 row 78559 25.09.2026 21:42 Inbap Users Сопроводительный документ 52925311 Шушары Архив
+									620 cell
+										621 text 78559
+									622 cell
+										623 text 25.09.2026
+									624 cell
+										625 text 21:42
+									626 cell
+										627 text Inbap Users
+									628 cell
+										629 text Сопроводительный документ
+									630 cell
+										631 text 52925311
+									632 cell
+										633 text Шушары
+									634 cell
+										635 text Архив
+								636 row 78558 25.09.2026 22:42 В. Стрельников Накладная СМГС 52925312 Брест На проверке
+									637 cell
+										638 text 78558
+									639 cell
+										640 text 25.09.2026
+									641 cell
+										642 text 22:42
+									643 cell
+										644 text В. Стрельников
+									645 cell
+										646 text Накладная СМГС
+									647 cell
+										648 text 52925312
+									649 cell
+										650 text Брест
+									651 cell
+										652 text На проверке
+								653 row 78557 25.09.2026 23:42 Оператор Инвойс 52925313 Малашевиче Черновик
+									654 cell
+										655 text 78557
+									656 cell
+										657 text 25.09.2026
+									658 cell
+										659 text 23:42
+									660 cell
+										661 text Оператор
+									662 cell
+										663 text Инвойс
+									664 cell
+										665 text 52925313
+									666 cell
+										667 text Малашевиче
+									668 cell
+										669 text Черновик
+								670 row 78556 25.09.2026 00:42 Inbap Users Вагонная ведомость 52925314 Шушары На проверке
+									671 cell
+										672 text 78556
+									673 cell
+										674 text 25.09.2026
+									675 cell
+										676 text 00:42
+									677 cell
+										678 text Inbap Users
+									679 cell
+										680 text Вагонная ведомость
+									681 cell
+										682 text 52925314
+									683 cell
+										684 text Шушары
+									685 cell
+										686 text На проверке
+								687 row 78555 25.09.2026 01:42 В. Стрельников Сопроводительный документ 52925315 Брест Черновик
+									688 cell
+										689 text 78555
+									690 cell
+										691 text 25.09.2026
+									692 cell
+										693 text 01:42
+									694 cell
+										695 text В. Стрельников
+									696 cell
+										697 text Сопроводительный документ
+									698 cell
+										699 text 52925315
+									700 cell
+										701 text Брест
+									702 cell
+										703 text Черновик
+								704 row 78554 25.09.2026 02:42 Оператор Накладная СМГС 52925316 Малашевиче На проверке
+									705 cell
+										706 text 78554
+									707 cell
+										708 text 25.09.2026
+									709 cell
+										710 text 02:42
+									711 cell
+										712 text Оператор
+									713 cell
+										714 text Накладная СМГС
+									715 cell
+										716 text 52925316
+									717 cell
+										718 text Малашевиче
+									719 cell
+										720 text На проверке
+								721 row 78553 25.09.2026 03:42 Inbap Users Инвойс 52925317 Шушары Черновик
+									722 cell
+										723 text 78553
+									724 cell
+										725 text 25.09.2026
+									726 cell
+										727 text 03:42
+									728 cell
+										729 text Inbap Users
+									730 cell
+										731 text Инвойс
+									732 cell
+										733 text 52925317
+									734 cell
+										735 text Шушары
+									736 cell
+										737 text Черновик
+						738 container
+							739 text Готов к отправке  Требует проверки  Архив · цвет задаётся приложением
+						740 heading Дерево · те же состояния выбора и наведения, Value: 2
+							741 text Дерево · те же состояния выбора и наведения
+						742 table Документы проекта, ID: treepanel-1034
+							743 text Документы проекта
+							744 row headercontainer-1035-innerCt
+								745 cell treecolumn-1037
+							746 container treeview-1036
+								747 row (expanded) Перевозки, Secondary Actions: Collapse
+									748 cell
+										749 text Перевозки
+								750 row (selected) Журнал СМГС
+									751 cell
+										752 text Журнал СМГС
+								753 row Инвойсы
+									754 cell
+										755 text Инвойсы
+								756 row (collapsed) Архив, Secondary Actions: Expand
+									757 cell
+										758 text Архив
+	26 text Цветные строки сохраняют свою заливку; полоса помогает увидеть выбор. Это сравнение вариантов — пакет темы 1.2.0 пока не изменён.
+
+The focused UI element is 0 AXWebArea Nordic Soft · два варианта выделения, URL: 127.0.0.1:51754/selection-preview/index.html

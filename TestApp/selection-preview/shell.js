@@ -1,0 +1,1 @@
+const frames=Array.from(document.querySelectorAll('iframe')),state=document.getElementById('state');function send(){frames.forEach(f=>f.contentWindow.postMessage({type:'nordic-state',state:state.value},location.origin))}state.addEventListener('change',send);window.addEventListener('message',e=>{if(e.origin===location.origin&&e.data&&e.data.type==='selection-ready')send()});
