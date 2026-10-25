@@ -1,0 +1,44 @@
+[
+  {
+    "scope": "lab",
+    "mode": "testing",
+    "parentVersion": "1.0.1",
+    "childVersion": "1.1.1",
+    "manifestSha256": "c58dae946eefe4f3625abd194b7de49034e939237540086481699ee5b131075b"
+  },
+  {
+    "scope": "lab",
+    "mode": "development",
+    "parentVersion": "1.0.1",
+    "childVersion": "1.1.1",
+    "manifestSha256": "c58dae946eefe4f3625abd194b7de49034e939237540086481699ee5b131075b"
+  },
+  {
+    "scope": "lab",
+    "mode": "production",
+    "parentVersion": "1.0.1",
+    "childVersion": "1.1.1",
+    "manifestSha256": "c7add1ea49f17f607603378e9f4898903a0bc7222cdd2d71dc930d5afe491621"
+  },
+  {
+    "scope": "real",
+    "mode": "testing",
+    "parentVersion": "1.0.1",
+    "childVersion": "1.1.1",
+    "manifestSha256": "03960cb5d7957145ccd975c8e31f97be3203d2fb6c651017b25faab0ed2ccd04"
+  },
+  {
+    "scope": "real",
+    "mode": "development",
+    "parentVersion": "1.0.1",
+    "childVersion": "1.1.1",
+    "manifestSha256": "4dedd7d28b5dce3b12c868618156fa0dc887e03691eb05197b4767810c48713a"
+  },
+  {
+    "scope": "real",
+    "mode": "production",
+    "parentVersion": "1.0.1",
+    "childVersion": "1.1.1",
+    "manifestSha256": "963c29d10fb8c8af7a43e046d6649d7d46e889d2537c2894a5a0984a97bee9f7"
+  }
+]
