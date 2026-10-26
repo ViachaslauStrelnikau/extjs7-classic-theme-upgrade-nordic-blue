@@ -1,0 +1,20 @@
+{
+  "task": "TASK-054",
+  "theme": "theme-nordic-blue-soft-contrast",
+  "packageVersion": "1.6.3",
+  "approval": "User approved the animation set in the motion demo and asked to continue; tree opening and window appearance had previously been approved at twice the original speed; tab switching was requested and demonstrated.",
+  "scope": "Theme package only. No app descriptor, WGR source, parent theme, or SDK changes.",
+  "timingsMs": {
+    "treeExpand": 125,
+    "treeCollapse": 125,
+    "windowFade": 70,
+    "menuFade": 110,
+    "tooltipFade": 100,
+    "activeTabContentFade": 90,
+    "controlPaintTransition": 120
+  },
+  "accessibility": "prefers-reduced-motion disables CSS transitions/fades and native tree expand/collapse animation.",
+  "geometry": "Opacity and explicit paint transitions only; no dimensions, spacing, font metrics, hit-target, or layout changes.",
+  "previewSource": "C:/Users/Damned/.codex/.chatgpt-projects/g-p-6909aeed3f508191801b816a6bd2b338/theme-previews/readonly-footer/motion.css",
+  "previewSourceSha256": "fc9e4e9e5155e502ec29e278e29ebbab27f0a6a14ea5c749474349a9a02415bf"
+}

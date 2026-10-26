@@ -110,3 +110,5 @@
 [TASK-051](tasks/TASK-051.md) — DONE как preview: мягче button borders и inactive tabs в цвет кнопок, active фон сохранён. Packages1.6.0/WGR неизменны; оценка ожидается.
 
 [TASK-052](tasks/TASK-052.md) — DONE: одобренные мягкие контуры в1.6.1.6builds/3lints/648SHAx6/manual compiled view; parents/WGR неизменны, source-only ZIP. Без полной новой регрессии.
+
+[TASK-054](../../../artifacts/nordic-blue/TASK-054/task.md) — DONE для integration/build: одобренные theme-scoped motion 1.6.3, lints и Cmd testing build PASS; полная regression не запускалась.

@@ -1,0 +1,25 @@
+{
+  "task": "TASK-054",
+  "stylesheet": "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Motion.scss",
+  "stylesheetSha256": "95da6af0f792727cf5494929fd0592ea5e8108dd49bd8da504c2add88386a663",
+  "rules": [
+    "Fade active tab content using opacity only, 90ms ease-out.",
+    "Fade windows 70ms, menus 110ms, and tooltips 100ms on show.",
+    "Transition button, tab, and editable-field paint properties for 120ms ease-out.",
+    "Keep pressed and focus feedback immediate.",
+    "Honor prefers-reduced-motion for all CSS transitions and fades."
+  ],
+  "override": "TestApp/packages/local/theme-nordic-blue-soft-contrast/overrides/Ext/tree/View.js",
+  "overrideSha256": "7905804566ff3a7e27d7adfbfd92f0ae2ff91fb80760c7d5c4dfa8086f1055c2",
+  "overrideContract": {
+    "class": "Ext.tree.View",
+    "expandDuration": 125,
+    "collapseDuration": 125,
+    "reduceMotion": "Disable native tree animation when prefers-reduced-motion: reduce matches."
+  },
+  "designApproval": "artifacts/nordic-blue/TASK-054/design-approval.json",
+  "scope": "Exact hash-bound motion assets; no general runtime override or geometry permission.",
+  "packageVersion": "1.6.3",
+  "previewSource": "C:/Users/Damned/.codex/.chatgpt-projects/g-p-6909aeed3f508191801b816a6bd2b338/theme-previews/readonly-footer/motion.css",
+  "previewSourceSha256": "fc9e4e9e5155e502ec29e278e29ebbab27f0a6a14ea5c749474349a9a02415bf"
+}
