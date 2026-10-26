@@ -27,9 +27,9 @@ if sha(ROOT / POLICY["approval"]) != POLICY["approvalSha256"]:
 motion_review_path = ROOT / POLICY["motionReview"]
 motion_review = json.loads(motion_review_path.read_text(encoding="utf-8"))
 if sha(motion_review_path) != POLICY["motionReviewSha256"]:
-    errors.append("Changed TASK-054 motion review")
+    errors.append("Changed approved motion review")
 if sha(ROOT / motion_review["designApproval"]) != POLICY["motionApprovalSha256"]:
-    errors.append("Changed TASK-054 user approval record")
+    errors.append("Changed current user approval record")
 if POLICY.get("runtimeOverrides") is not True or POLICY.get("reviewedRuntimeOverrides") != {motion_review["override"]: motion_review["overrideSha256"]}:
     errors.append("Runtime override policy is not the exact TASK-054 exception")
 
@@ -44,24 +44,20 @@ if not entry_path.is_file() or entry_path.read_text(encoding="utf-8-sig").strip(
 
 css_path = ROOT / motion_review["stylesheet"]
 if not css_path.is_file() or sha(css_path) != motion_review["stylesheetSha256"]:
-    errors.append("Changed TASK-054 motion stylesheet")
+    errors.append("Changed approved motion stylesheet")
 else:
     css = css_path.read_text(encoding="utf-8-sig")
     # Hash-binding already fixes the exact selectors/values. These assertions make
     # the reviewed intent legible and reject a malformed/mis-targeted artifact.
-    required_css = [
-        "animation: nb-softcontrast-fade-in 90ms ease-out",
-        "animation: nb-softcontrast-float-in 70ms ease-out",
-        "animation: nb-softcontrast-float-in 110ms ease-out",
-        "animation: nb-softcontrast-float-in 100ms ease-out",
-        "transition-duration: 120ms",
-        "@media (prefers-reduced-motion: reduce)",
-        "transition: none !important",
-        "animation: none !important",
-    ]
+    required_css = motion_review.get("requiredCss", [])
+    if not required_css:
+        errors.append("Motion review has no CSS contracts")
     for rule in required_css:
         if css.count(rule) != 1:
             errors.append("Missing/duplicate reviewed motion rule: " + rule)
+    for rule in motion_review.get("forbiddenCss", []):
+        if rule in css:
+            errors.append("Superseded motion rule remains: " + rule)
 
 # The one exact Ext override is theme-scoped and immutable by SHA. All other
 # overrides/runtime JS remain prohibited.
@@ -74,7 +70,7 @@ if actual_overrides != allowed_overrides:
     errors.append("Unexpected or changed Ext override set")
 override_path = ROOT / motion_review["override"]
 if not override_path.is_file() or sha(override_path) != motion_review["overrideSha256"]:
-    errors.append("Changed TASK-054 tree override")
+    errors.append("Changed reviewed tree override")
 else:
     override_text = override_path.read_text(encoding="utf-8-sig")
     for expected in [

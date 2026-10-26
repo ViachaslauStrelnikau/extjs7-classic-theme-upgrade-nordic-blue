@@ -5,7 +5,7 @@
   "approval": "artifacts/nordic-blue/TASK-053/design-approval.json",
   "approvalSha256": "f4769360b65699350dbb2bb5b172b66a8c8bfb703b5dc05c77c65020e73cd9a2",
   "reviewedFiles": {
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "9a6f712997dd62de14a3f030d5f33a960f1d8e912db4d2b16b033cf43a87e307",
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/package.json": "8b2d91c7830c4c2af32b246cd23f35d7ce6bd4817bad1c7f116648dd2fb94074",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/build.xml": "6598bf473e70d40a03a24f3733994a112136064666f7d1fd56dc37b764cb3df6",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/etc/all.scss": "3133aaa1c67ed73106ac5ec080ea2ddd5ae2f764d990fda4b0637317edf2690d",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Component.scss": "03f38fbd7a64a506486c65db8d78509fcb129f5f804581d10d68d4f9f8b0f7a4",
@@ -16,7 +16,7 @@
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/form/field/Base.scss": "845625f294b837a6306472f2b6715669ba72e91f9ee342b7d24053420e226058",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/grid/column/Column.scss": "7320812643c9aa3e3dcd72179988ed2af7312cb1376db78d2883523481804226",
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/var/grid/header/Container.scss": "d5066add66362d3e3318c403e55c2c700c9ae9b2be628b7afcffef26c1313f3c",
-    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Motion.scss": "95da6af0f792727cf5494929fd0592ea5e8108dd49bd8da504c2add88386a663"
+    "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Motion.scss": "ed14a35d820ff7dcfe744629bbb8aacb5ff24684ce381383a14dd036aacd1239"
   },
   "approvedPaintProperties": [
     "background-color",
@@ -35,9 +35,9 @@
   "runtimeOverrides": true,
   "decorativeReview": "artifacts/nordic-blue/TASK-053/decorative-review.json",
   "decorativeReviewSha256": "7b5d8f1af33e84842e3d16cd12d2cdceb1b261c2a7b682376c8246efb3f4e7bd",
-  "motionReview": "artifacts/nordic-blue/TASK-054/motion-review.json",
-  "motionReviewSha256": "5e5010ad81631d42e0b8ad490f30404fae40c7008757a0aa40d5775d03ccd8d6",
-  "motionApprovalSha256": "416b0bcbe57d8967b0e15ba0f0d9c54b689e22497d3d40225be0cf8e74b59045",
+  "motionReview": "artifacts/nordic-blue/TASK-055/motion-review.json",
+  "motionReviewSha256": "192e7faf702019794ac19be1424bfd773cf83f8b0906faacc9a47ff2f110eb5a",
+  "motionApprovalSha256": "14d49cac53ee0f4a56d5890520f1b7144339786a37b6c2624440782c5e7c433d",
   "reviewedRuntimeOverrides": {
     "TestApp/packages/local/theme-nordic-blue-soft-contrast/overrides/Ext/tree/View.js": "7905804566ff3a7e27d7adfbfd92f0ae2ff91fb80760c7d5c4dfa8086f1055c2"
   }

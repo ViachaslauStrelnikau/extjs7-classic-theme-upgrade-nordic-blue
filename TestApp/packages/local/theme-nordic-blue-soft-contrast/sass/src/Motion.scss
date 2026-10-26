@@ -1,9 +1,4 @@
-/* TASK-054 approved motion. Paint/transitions only; no layout or typography properties. */
-@keyframes nb-softcontrast-fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
+/* TASK-055 approved motion. Paint/transitions only; no layout or typography properties. */
 @keyframes nb-softcontrast-float-in {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -11,11 +6,17 @@
 
 html:root .x-btn-default-small:not(.x-btn-disabled),
 html:root .x-btn-default-toolbar-small:not(.x-btn-disabled),
-html:root .x-tab-default-top,
 html:root .x-form-trigger-wrap-default:not(.x-form-trigger-wrap-focus):not(.x-form-trigger-wrap-invalid),
 html:root .x-form-text:not(.x-item-disabled):not([readonly]):not([disabled]) {
   transition-property: background-color, border-color, color;
   transition-duration: 120ms;
+  transition-timing-function: ease-out;
+}
+
+/* Animate the selected tab's existing blue inset accents and paint on tab switch. */
+html:root .x-tab-default-top {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 180ms;
   transition-timing-function: ease-out;
 }
 
@@ -24,10 +25,6 @@ html:root .x-btn-focus,
 html:root .x-tab-focus,
 html:root .x-form-trigger-wrap-focus {
   transition: none;
-}
-
-html:root .x-tabpanel-child:not(.x-hidden-offsets):not(.x-hidden-display) {
-  animation: nb-softcontrast-fade-in 90ms ease-out;
 }
 
 html:root .x-window:not(.x-hidden-offsets):not(.x-hidden-display):not(.x-hidden-visibility) {
@@ -51,7 +48,6 @@ html:root .x-tip:not(.x-hidden-offsets):not(.x-hidden-display):not(.x-hidden-vis
     transition: none !important;
   }
 
-  html:root .x-tabpanel-child,
   html:root .x-window,
   html:root .x-menu,
   html:root .x-tip {

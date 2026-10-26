@@ -112,3 +112,5 @@
 [TASK-052](tasks/TASK-052.md) — DONE: одобренные мягкие контуры в1.6.1.6builds/3lints/648SHAx6/manual compiled view; parents/WGR неизменны, source-only ZIP. Без полной новой регрессии.
 
 [TASK-054](../../../artifacts/nordic-blue/TASK-054/task.md) — DONE для integration/build: одобренные theme-scoped motion 1.6.3, lints и Cmd testing build PASS; полная regression не запускалась.
+
+[TASK-055](../../../artifacts/nordic-blue/TASK-055/task.md) — DONE для theme-package integration/testing build: panel fade удалён, активная вкладка плавно меняет paint за 180 ms; полная runtime regression не выполнена.

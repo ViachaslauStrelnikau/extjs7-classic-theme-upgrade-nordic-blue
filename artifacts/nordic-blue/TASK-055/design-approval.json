@@ -1,0 +1,16 @@
+{
+  "task": "TASK-055",
+  "theme": "theme-nordic-blue-soft-contrast",
+  "packageVersion": "1.6.4",
+  "request": "Remove the active tab panel entrance fade and replace it with animation on tab switching itself.",
+  "decisions": {
+    "tabSwitch": "Transition existing active-tab background, border, label color, and blue inset box-shadow accents over 180ms ease-out.",
+    "panelContent": "No entrance animation; newly selected panel content appears immediately as before.",
+    "otherMotion": "Retain the TASK-054 window/menu/tooltip and button/form transitions and native tree timings unchanged.",
+    "focusAndPressed": "Keep focus and pressed feedback immediate.",
+    "reducedMotion": "prefers-reduced-motion disables CSS transitions and fades; native tree override remains unchanged."
+  },
+  "scope": "Theme package only. No app descriptor, WGR source, parent theme, or SDK changes.",
+  "geometry": "The tab animation interpolates paint-only properties; it does not move or resize tabs, panels, or contents.",
+  "preview": "The user directly requested this change after reviewing the prior motion demo."
+}

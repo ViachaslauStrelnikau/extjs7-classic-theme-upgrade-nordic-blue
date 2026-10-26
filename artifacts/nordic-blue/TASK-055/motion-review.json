@@ -1,0 +1,31 @@
+{
+  "task": "TASK-055",
+  "stylesheet": "TestApp/packages/local/theme-nordic-blue-soft-contrast/sass/src/Motion.scss",
+  "stylesheetSha256": "ed14a35d820ff7dcfe744629bbb8aacb5ff24684ce381383a14dd036aacd1239",
+  "override": "TestApp/packages/local/theme-nordic-blue-soft-contrast/overrides/Ext/tree/View.js",
+  "overrideSha256": "7905804566ff3a7e27d7adfbfd92f0ae2ff91fb80760c7d5c4dfa8086f1055c2",
+  "overrideContract": {
+    "class": "Ext.tree.View",
+    "expandDuration": 125,
+    "collapseDuration": 125,
+    "reduceMotion": "Disable native tree animation when prefers-reduced-motion: reduce matches."
+  },
+  "designApproval": "artifacts/nordic-blue/TASK-055/design-approval.json",
+  "packageVersion": "1.6.4",
+  "requiredCss": [
+    "transition-duration: 120ms",
+    "transition-property: background-color, border-color, color, box-shadow",
+    "transition-duration: 180ms",
+    "animation: nb-softcontrast-float-in 70ms ease-out",
+    "animation: nb-softcontrast-float-in 110ms ease-out",
+    "animation: nb-softcontrast-float-in 100ms ease-out",
+    "@media (prefers-reduced-motion: reduce)",
+    "transition: none !important",
+    "animation: none !important"
+  ],
+  "forbiddenCss": [
+    ".x-tabpanel-child",
+    "nb-softcontrast-fade-in"
+  ],
+  "scope": "Exact hash-bound motion CSS and existing tree override; no general runtime or geometry permission."
+}
