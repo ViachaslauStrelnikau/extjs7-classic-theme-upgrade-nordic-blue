@@ -106,3 +106,5 @@
 [TASK-049](tasks/TASK-049.md) — DONE как preview3палитр: Чистый голубой/Насыщенный Nordic/Чёткие контуры. Active фон сохранён; packages/WGR неизменны, выбор ожидается.
 
 [TASK-050](tasks/TASK-050.md) — DONE: выбранная палитра3 включена в1.6.0.6builds/3lints/648SHAx6/manual compiled view; parents/WGR неизменны. Source-only поставка, без полной новой регрессии.
+
+[TASK-051](tasks/TASK-051.md) — DONE как preview: мягче button borders и inactive tabs в цвет кнопок, active фон сохранён. Packages1.6.0/WGR неизменны; оценка ожидается.

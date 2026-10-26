@@ -275,3 +275,7 @@ User asks for3more expressive variants. palette.html displays sky/nordic/outline
 ## Clear outlines palette integrated (TASK-050, authoritative1.6.0)
 
 User selected palette3 from TASK-049 and requested build. Child1.6.0 includes exact outline candidate color rules without preview attributes; active tab background stays#edf2f8, native thin focus/3px accents retained. Nonactive tabs/buttons/hover/pressed/header/ordinary field borders stronger; disabled/focused/invalid contracts retained. No metrics/fonts/runtimeJS/artwork/semantic primary changes. Parents1.0.2/Soft1.0.0 byte-identical; WGR untouched.6builds/3source lints/648SHAx6 and actual compiled native palette readback/screenshot PASS. palette=runtime loads no proposal CSS; original3previews frozen locally on ignored compiled1.5.0. Source-only all3packages then rebuild. No new full automated geometry/function/pixel/DPR/RTL/browser/motion acceptance; historical goldens immutable. See TASK-050/report.md. Commit/push completed tasks as authorized.
+
+## Softer contours preview (TASK-051)
+
+User finds1.6.0 button borders sharp and inactive tabs distracting. Separate softer-contours.html on compiled1.6.0 compares scoped paint: ordinary tabs/buttons share#eaf2ff/#a6bad4, gentler hover/pressed; active#edf2f8/focus#3275d6 and existing accents retained. No package/SDK/WGR/metrics/fonts/JS/artwork/semantic-role changes. Manual paint readback/screenshot TASK-051; no builds/automated/full acceptance. Await evaluation before package integration. Commit/push completed preview as authorized.

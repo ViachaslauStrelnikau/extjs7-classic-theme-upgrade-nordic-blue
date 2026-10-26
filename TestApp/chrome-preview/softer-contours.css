@@ -1,0 +1,13 @@
+/* TASK-051 preview: quieter borders; inactive tabs share ordinary button fill. */
+html:root[data-contours="soft"] .x-tab-default-top:not(.x-tab-active) { background-color:#eaf2ff; border-color:#a6bad4; }
+html:root[data-contours="soft"] .x-tab-default-top:not(.x-tab-active) .x-tab-inner { color:#48627f; }
+html:root[data-contours="soft"] .x-tab-default-top.x-tab-over:not(.x-tab-active) { background-color:#dce9fa; border-color:#7f9fc8; }
+html:root[data-contours="soft"] .x-tab-default-top.x-tab-focus { border-color:#3275d6; }
+html:root[data-contours="soft"] .x-btn-default-small:not(.x-btn-disabled),
+html:root[data-contours="soft"] .x-btn-default-toolbar-small:not(.x-btn-disabled) { border-color:#a6bad4; }
+html:root[data-contours="soft"] .x-btn-default-small.x-btn-over:not(.x-btn-disabled),
+html:root[data-contours="soft"] .x-btn-default-toolbar-small.x-btn-over:not(.x-btn-disabled) { background-color:#dce9fa; border-color:#7f9fc8; }
+html:root[data-contours="soft"] .x-btn-default-small.x-btn-pressed:not(.x-btn-disabled),
+html:root[data-contours="soft"] .x-btn-default-toolbar-small.x-btn-pressed:not(.x-btn-disabled) { background-color:#c4daf4; border-color:#668cbb; }
+html:root[data-contours="soft"] .x-btn-default-small.x-btn-focus:not(.x-btn-disabled),
+html:root[data-contours="soft"] .x-btn-default-toolbar-small.x-btn-focus:not(.x-btn-disabled) { border-color:#3275d6; }
