@@ -104,3 +104,5 @@
 [TASK-048](tasks/TASK-048.md) — DONE: active tab palette preview снова с прежним фоном#edf2f8, выделение синей рамкой. Пакеты/WGR неизменны.
 
 [TASK-049](tasks/TASK-049.md) — DONE как preview3палитр: Чистый голубой/Насыщенный Nordic/Чёткие контуры. Active фон сохранён; packages/WGR неизменны, выбор ожидается.
+
+[TASK-050](tasks/TASK-050.md) — DONE: выбранная палитра3 включена в1.6.0.6builds/3lints/648SHAx6/manual compiled view; parents/WGR неизменны. Source-only поставка, без полной новой регрессии.

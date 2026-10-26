@@ -1,0 +1,128 @@
+/* Approved v2 + light grouped headers paint; metrics inherited. */
+.x-panel-header-default,
+.x-panel-header-default-framed,
+.x-window-header-default { background-color:#fff; background-image:none; border-color:#e1e7ef; box-shadow:inset 3px 0 0 #3275d6; }
+.x-panel-body-default,
+.x-window-body-default { background-color:#fff; border-color:#d9e2ed; }
+.x-panel-default,
+.x-panel-default-framed,
+.x-window-default { border-color:#cedae8; }
+.x-toolbar-default,
+.x-toolbar-footer { background-color:#fff; background-image:none; border-color:#e1e7ef; }
+.x-btn-default-small,
+.x-btn-default-toolbar-small { background-color:#f4f6f9; background-image:none; border-color:#dce3ec; box-shadow:none; }
+.x-btn-default-small .x-btn-inner,
+.x-btn-default-toolbar-small .x-btn-inner { color:#344d69; }
+.x-btn-default-small.x-btn-over,
+.x-btn-default-toolbar-small.x-btn-over { background-color:#edf4ff; border-color:#8caedb; }
+.x-btn-default-small.x-btn-pressed,
+.x-btn-default-toolbar-small.x-btn-pressed { background-color:#dbe9fb; border-color:#6998d2; box-shadow:inset 0 1px 2px rgba(37,55,77,.12); }
+.x-btn-default-small.x-btn-focus,
+.x-btn-default-toolbar-small.x-btn-focus { border-color:#3275d6; box-shadow:none; }
+.nb-primary.x-btn-default-small,
+.nb-primary.x-btn-default-toolbar-small { background-color:#3275d6; border-color:#2868c4; }
+.nb-primary.x-btn-default-small .x-btn-inner,
+.nb-primary.x-btn-default-toolbar-small .x-btn-inner { color:#fff; }
+.nb-primary.x-btn-default-small.x-btn-over,
+.nb-primary.x-btn-default-toolbar-small.x-btn-over { background-color:#2868c4; }
+.nb-primary.x-btn-default-small.x-btn-pressed,
+.nb-primary.x-btn-default-toolbar-small.x-btn-pressed { background-color:#2159a6; }
+.nb-primary.x-btn-default-small.x-btn-focus,
+.nb-primary.x-btn-default-toolbar-small.x-btn-focus { box-shadow:inset 0 0 0 1px #fff; }
+.x-btn-default-small.x-btn-disabled,
+.x-btn-default-toolbar-small.x-btn-disabled { background-color:#f3f6fa; border-color:#d9e2ed; box-shadow:none; }
+.x-form-text-default { background-color:#fff; color:#25374d; box-shadow:none; }
+.x-form-trigger-wrap-default { border-color:#bdccdc; }
+.x-form-trigger-wrap-focus { border-color:#3275d6; box-shadow:inset 0 0 0 1px #3275d6; }
+.x-form-trigger-wrap-invalid { border-color:#c55b67; box-shadow:inset 0 0 0 1px #c55b67; }
+.x-grid-header-ct,
+.x-column-header { background-color:#f4f6f9; background-image:none; border-color:#d2ddeb; color:#304a68; box-shadow:inset 0 -1px 0 #cbd6e3; }
+.x-column-header-over { background-color:#e3edfc; background-image:none; }
+.x-grid-body { border-color:#d9e2ed; }
+.x-grid-cell { border-color:#edf0f5; background-color:#fff; color:#25374d; }
+.x-grid-item-alt .x-grid-cell { background-color:#fafbfd; }
+.x-grid-item-over .x-grid-cell { background-color:#edf4ff; }
+.x-grid-item-selected .x-grid-cell { background-color:#d9e9ff; color:#153e70; }
+.x-grid-item-focused .x-grid-cell { border-color:#8caedb; }
+.x-grid-cell-focused { box-shadow:inset 0 0 0 1px #3275d6; }
+.x-tab-bar-default { background-color:#f4f6f9; background-image:none; }
+.x-tab-default-top { background-color:transparent; background-image:none; border-color:transparent; box-shadow:none; }
+.x-tab-default .x-tab-inner { color:#687b92; }
+.x-tab-default.x-tab-over { background-color:#e2edfb; }
+.x-tab-default.x-tab-active { background-color:#fff; border-color:transparent; box-shadow:inset 0 -3px 0 #3275d6; }
+.x-tab-default.x-tab-active .x-tab-inner { color:#2868c4; }
+.x-tab-default.x-tab-focus { box-shadow:inset 0 0 0 1px #3275d6; }
+.x-tab-default.x-tab-disabled { background-color:transparent; border-color:transparent; box-shadow:none; }
+.x-menu-body-default { background-color:#fff; }
+.x-menu-item-active { background-color:#edf4ff; background-image:none; border-color:#d6e6fa; }
+.x-boundlist { border-color:#bdccdc; background-color:#fff; }
+.x-boundlist-item-over { background-color:#edf4ff; border-color:#d6e6fa; }
+.x-boundlist-selected { background-color:#dceafa; border-color:#bdd2ed; }
+.x-form-text-default:not(.x-form-invalid-field):not(.x-form-invalid-field-default) { background-image:none; }
+.x-column-header { background-color:#f4f6f9; background-image:none; border-color:#d2ddeb; color:#304a68; box-shadow:inset 0 -1px 0 #cbd6e3; }
+.x-column-header-first { background-color:#f4f6f9; background-image:none; border-color:#d2ddeb; color:#304a68; box-shadow:inset 0 -1px 0 #cbd6e3; }
+.x-grid-item-selected .x-grid-cell:first-child { box-shadow:inset 3px 0 0 #3275d6; }
+.x-grid-item-selected .x-grid-cell-focused:first-child { box-shadow:inset 3px 0 0 #3275d6,inset 0 0 0 1px #3275d6; }
+.x-tab-bar-strip-default { background-color:#e1e7ef; border-color:#e1e7ef; }
+.x-tab-default.x-tab-active.x-tab-focus { box-shadow:inset 0 -3px 0 #3275d6,inset 0 0 0 1px #3275d6; }
+.x-window-default.nb-soft-float { box-shadow:0 8px 24px rgba(37,55,77,.20); }
+
+/* Ext7.7 Column.groupHeaderCls; grouped/leaf paint only, no padding/font changes. */
+.x-column-header.x-group-header { background-color:#e8eef6; }
+.x-column-header-over,
+.x-column-header-sort-ASC,
+.x-column-header-sort-DESC,
+.x-column-header-open,
+.x-column-header.x-column-header-focus { background-color:#e3edfc; }
+.x-column-header.x-group-header.x-column-header-over,
+.x-column-header.x-group-header.x-column-header-focus { background-color:#dce8f8; }
+
+/* TASK-037 approved table/state paint; :root retains reviewed preview specificity. */
+:root .x-grid-with-col-lines .x-grid-cell,
+:root .x-grid-cell { border-right-color:transparent; border-left-color:transparent; border-bottom-color:#e5ebf3; }
+:root .x-grid-item-alt .x-grid-cell { background-color:#f8fafd; }
+:root .x-column-header { background-color:#e6eef8; background-image:none; color:#304a68; border-color:#c7d5e7; box-shadow:none; }
+:root .x-column-header.x-group-header { background-color:#d7e4f3; box-shadow:none; }
+:root .x-column-header-over,
+:root .x-column-header-sort-ASC,
+:root .x-column-header-sort-DESC { background-color:#ccdef5; box-shadow:none; }
+:root .x-grid-item-over .x-grid-cell { background-color:#e3eefc; box-shadow:inset 0 1px 0 #c5d9f3,inset 0 -1px 0 #c5d9f3; }
+:root .x-grid-item-selected .x-grid-cell { background-color:#bfd7f5; color:#153e70; border-bottom-color:#3275d6; box-shadow:inset 0 1px 0 #3275d6,inset 0 -1px 0 #3275d6; }
+:root .x-grid-item-selected .x-grid-cell-first { box-shadow:inset 2px 0 0 #2868c4,inset 0 1px 0 #3275d6,inset 0 -1px 0 #3275d6; }
+:root .x-grid-item-selected .x-grid-cell-last { box-shadow:inset -1px 0 0 #3275d6,inset 0 1px 0 #3275d6,inset 0 -1px 0 #3275d6; }
+:root .x-grid-item-selected.x-grid-item-over .x-grid-cell { background-color:#b0cdf1; }
+:root .x-grid-item-focused .x-grid-cell { border-bottom-color:#3275d6; }
+:root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }
+:root .x-menu-item-active { background-color:#e3eefc; border-color:transparent; box-shadow:inset 3px 0 0 #3275d6; }
+:root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-1px; }
+
+/* One uninterrupted 1px separator across grouped and row-spanning headers. */
+:root .x-grid-header-ct::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }
+
+/* TASK-039: approved color selection with3px header-style left accent. */
+html:root .x-grid-item-selected .x-grid-cell,
+html:root .x-grid-item-focused .x-grid-cell { box-shadow:none; border-top-color:transparent; border-bottom-color:#e5ebf3; border-left-color:transparent; border-right-color:transparent; }
+/* Classic draws selection on both the row and the following row, independent of cell shadows. */
+html:root .x-grid-with-row-lines .x-grid-item-selected,
+html:root .x-grid-with-row-lines .x-grid-item-selected + .x-grid-item { border-color:#dce5ef; border-style:solid; }
+html:root .x-grid-cell-focused { outline:none; }
+/* Keyboard focus remains a separate, single-cell affordance; selection itself has no frame. */
+html:root .x-keyboard-mode .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }
+html:root .x-grid-item-selected .x-grid-cell-first { box-shadow:inset 3px 0 0 #3275d6; }
+
+/* TASK-041: approved unified root Viewport chrome; theme-only paint. */
+:root body.x-border-layout-ct{background-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top{background-color:#edf2f8;background-image:none;border-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-bar-strip-default{background-color:#edf2f8;border-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active{background-color:#edf2f8}
+:root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body{border-color:#edf2f8}
+
+/* TASK-046 approved tab paint: same 3px #3275d6 accent as panel/window headers. */
+html:root .x-tab-default-top.x-tab-active { box-shadow:inset 3px 0 0 #3275d6,inset 0 -3px 0 #3275d6; }
+/* TASK-045: a single native 1px border indicates focus; no extra inner frame. */
+html:root .x-tab-default-top.x-tab-focus { border-color:#3275d6; box-shadow:none; }
+html:root .x-tab-default-top.x-tab-active.x-tab-focus { box-shadow:inset 3px 0 0 #3275d6,inset 0 -3px 0 #3275d6; }
+
+/* TASK-044: remove the native dotted label outline; outer blue focus affordance remains. */
+html:root .x-tab-default-top.x-tab-focus .x-tab-button::before { outline:none; }

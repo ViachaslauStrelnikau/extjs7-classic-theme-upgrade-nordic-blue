@@ -13,3 +13,7 @@ Approved proposal is now compiled into SoftContrast1.4.0. boot.js does not load 
 ## Compiled tabs1.5.0 (TASK-046)
 
 Tab-accent comparison loads locally retained ignored build/theme-contrast-1.4.1/testing for before, current compiled1.5.0 for after. No tab-accent.css is loaded in these samples after integration. Preview CSS remains historical source. Root header/tab fixture unchanged; no WGR edits.
+
+## Compiled palette3 integration1.6.0 (TASK-050)
+
+Open palette-release.html for compiled1.5.0 vs1.6.0. palette=runtime loads current compiled CSS and sample-shell only, no palette.css/variants. Existing palette previews now use locally retained ignored build/theme-contrast-1.5.0/testing so original proposals remain reproducible. No WGR edits.

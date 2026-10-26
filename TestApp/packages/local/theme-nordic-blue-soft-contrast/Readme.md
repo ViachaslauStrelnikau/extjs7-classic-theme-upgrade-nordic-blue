@@ -1,4 +1,4 @@
-# Nordic Soft 1.5
+# Nordic Soft 1.6
 
 Separate theme-nordic-blue-soft-contrast; light grouped headers, inherited approved Soft icons. See docs/nordic-soft-light-installation.md. Version1.1 replaces the earlier dark header choice; parent packages remain unchanged.
 
@@ -13,3 +13,5 @@ Version1.4.0: approved unified root viewport background, top tabs and docked gri
 Version1.4.1: focused button has one1px outline on its native outer border (offset -1px), no additional inset focus shadow. Icon/box sizes unchanged.
 
 Version1.5.0: approved active top-tab3px blue left/bottom accents; focused tab uses native thin border without extra inset frame, dotted label outline removed. No geometry/fonts/JS changes. Parent NordicBlue1.0.2/Soft1.0.0 retained.
+
+Version1.6.0: approved palette3 Clear outlines. Stronger inactive tabs/buttons/panel and field borders; active-tab fill remains#edf2f8. Existing dimensions, fonts, native behavior, icons and parents retained.

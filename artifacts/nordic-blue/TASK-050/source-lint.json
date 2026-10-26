@@ -1,0 +1,27 @@
+[
+  {
+    "args": [
+      "tools/lint-nordic-blue.py",
+      "--check-icon-candidates"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"sdk\": \"7.7.0.31\",\n  \"counts\": {\n    \"scssFiles\": 19,\n    \"tokens\": 15,\n    \"colorOverrides\": 177,\n    \"gradientOverrides\": 31,\n    \"images\": 648,\n    \"candidateImages\": 648,\n    \"sdkFiles\": 300\n  },\n  \"iconIntegrationEnabled\": true,\n  \"errors\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "tools/lint-nordic-soft.py"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"childImages\": 24,\n  \"reviewedFiles\": 4,\n  \"errors\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "tools/lint-nordic-soft-contrast.py"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"theme\": \"theme-nordic-blue-soft-contrast\",\n  \"reviewedFiles\": 11,\n  \"errors\": []\n}\n",
+    "stderr": ""
+  }
+]

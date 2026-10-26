@@ -1,6 +1,6 @@
-# Nordic Soft 1.5 — светлая многоуровневая шапка
+# Nordic Soft 1.6 — светлая многоуровневая шапка
 
-Отдельный пакет: `theme-nordic-blue-soft-contrast`, версия1.5.0. Имя сохранено от первоначального контрастного варианта; по одобренному отзыву пользователя заголовки теперь светлые. Наследование: theme-nordic-blue-soft-contrast → theme-nordic-blue-soft → theme-nordic-blue → theme-classic. SDK7.7.0.31, Cmd7.7.0.36. SDK7.9 не проверена.
+Отдельный пакет: `theme-nordic-blue-soft-contrast`, версия1.6.0. Имя сохранено от первоначального контрастного варианта; по одобренному отзыву пользователя заголовки теперь светлые. Наследование: theme-nordic-blue-soft-contrast → theme-nordic-blue-soft → theme-nordic-blue → theme-classic. SDK7.7.0.31, Cmd7.7.0.36. SDK7.9 не проверена.
 
 ## Установка
 
@@ -78,3 +78,9 @@ TASK-041:6сборок,3source lint,648SHA ресурсов в каждом вы
 Заменить все3пакета и пересобрать приложение. Версии: theme-nordic-blue1.0.2, theme-nordic-blue-soft1.0.0, theme-nordic-blue-soft-contrast1.5.0. WGR не менялся. При выборе theme-classic и пересборке эти правила не входят в оформление приложения.
 
 TASK-046:6сборок,3source lint,648approved resourceSHA в каждом выходе и ручной просмотр compiled вкладок. Полная новая geometry/function/pixel/DPR/RTL/browser/motion регрессия не запускалась.
+
+## Обновление1.6.0 · Чёткие контуры
+
+Выбран вариант3: inactive tabs#b7cfea/border#648bbb, кнопки#eaf2ff/border#507fb9, hover#c7dfff/#356eae, pressed#a7c9f0/#245e9f. Panel headers#e4edf9, обычные field borders#829fc5. Active tab сохраняет#edf2f8, синюю рамку и3px акценты, тонкий focus без пунктира. CSS меняет только цвета; disabled/focus/invalid обработка сохранена.
+
+Заменить все3пакета и пересобрать приложение: NordicBlue1.0.2, Soft1.0.0, SoftContrast1.6.0. WGR не менялся. Для возврата Classic выбрать theme-classic и пересобрать. SDK7.7.0.31/Cmd7.7.0.36;6сборок/3source lint/648resourceSHAx6 и ручной compiled просмотр. Полная новая geometry/function/pixel/DPR/RTL/browser/motion регрессия не запускалась; отчёт TASK-050/report.md.
