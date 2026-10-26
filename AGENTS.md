@@ -279,3 +279,7 @@ User selected palette3 from TASK-049 and requested build. Child1.6.0 includes ex
 ## Softer contours preview (TASK-051)
 
 User finds1.6.0 button borders sharp and inactive tabs distracting. Separate softer-contours.html on compiled1.6.0 compares scoped paint: ordinary tabs/buttons share#eaf2ff/#a6bad4, gentler hover/pressed; active#edf2f8/focus#3275d6 and existing accents retained. No package/SDK/WGR/metrics/fonts/JS/artwork/semantic-role changes. Manual paint readback/screenshot TASK-051; no builds/automated/full acceptance. Await evaluation before package integration. Commit/push completed preview as authorized.
+
+## Softer contours integrated (TASK-052, authoritative1.6.1)
+
+User approved TASK-051 and requested build. Child1.6.1 adds exact color-only softer border rules; buttons/inactive tabs share#eaf2ff/#a6bad4, hover/pressed gentler, active#edf2f8/3px accents/thin focus preserved. No native metrics/fonts/runtimeJS/assets changes. Parents1.0.2/Soft1.0.0 byte-identical; WGR untouched.6builds/3lints/648imageSHAx6 and actual compiled palette readback/screenshot PASS. softer-contours sample loads no prototype CSS; old1.6.0 reference local/ignored. Source-only all3packages then rebuild. No new full automated geometry/function/pixel/DPR/RTL/browser/motion acceptance; historical goldens immutable. See TASK-052/report.md. Commit/push completed tasks as authorized.

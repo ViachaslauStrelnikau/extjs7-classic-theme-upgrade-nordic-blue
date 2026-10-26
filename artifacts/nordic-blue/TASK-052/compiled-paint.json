@@ -1,0 +1,37 @@
+{
+  "active": [
+    "rgb(237, 242, 248)"
+  ],
+  "buttons": [
+    {
+      "border": "rgb(166, 186, 212)",
+      "fill": "rgb(234, 242, 255)",
+      "text": "Пользователь"
+    },
+    {
+      "border": "rgb(166, 186, 212)",
+      "fill": "rgb(234, 242, 255)",
+      "text": "Справка"
+    },
+    {
+      "border": "rgb(166, 186, 212)",
+      "fill": "rgb(234, 242, 255)",
+      "text": "Сохранить"
+    }
+  ],
+  "inactive": [
+    {
+      "border": "rgb(166, 186, 212)",
+      "fill": "rgb(234, 242, 255)"
+    },
+    {
+      "border": "rgb(166, 186, 212)",
+      "fill": "rgb(234, 242, 255)"
+    }
+  ],
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/chrome-preview/sample-shell.css"
+  ]
+}

@@ -15,3 +15,5 @@ Version1.4.1: focused button has one1px outline on its native outer border (offs
 Version1.5.0: approved active top-tab3px blue left/bottom accents; focused tab uses native thin border without extra inset frame, dotted label outline removed. No geometry/fonts/JS changes. Parent NordicBlue1.0.2/Soft1.0.0 retained.
 
 Version1.6.0: approved palette3 Clear outlines. Stronger inactive tabs/buttons/panel and field borders; active-tab fill remains#edf2f8. Existing dimensions, fonts, native behavior, icons and parents retained.
+
+Version1.6.1: softer button borders#a6bad4; inactive tabs share button fill#eaf2ff/border#a6bad4, gentler hover/pressed. Active tab fill#edf2f8 and existing focus/accents retained. No metrics/fonts/JS/assets or parent changes.

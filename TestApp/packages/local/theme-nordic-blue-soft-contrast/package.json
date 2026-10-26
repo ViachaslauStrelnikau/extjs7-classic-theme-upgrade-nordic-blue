@@ -72,7 +72,7 @@
          * Typically, changes to the package should come along with changes to the version.
          * This number should be in this format: d+(.d+)*
          */
-        "version": "1.6.0",
+        "version": "1.6.1",
 
         /**
          * The version that users can transparently update from without requiring code changes.

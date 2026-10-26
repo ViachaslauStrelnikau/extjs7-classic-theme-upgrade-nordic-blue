@@ -17,3 +17,7 @@ Tab-accent comparison loads locally retained ignored build/theme-contrast-1.4.1/
 ## Compiled palette3 integration1.6.0 (TASK-050)
 
 Open palette-release.html for compiled1.5.0 vs1.6.0. palette=runtime loads current compiled CSS and sample-shell only, no palette.css/variants. Existing palette previews now use locally retained ignored build/theme-contrast-1.5.0/testing so original proposals remain reproducible. No WGR edits.
+
+## Compiled soft contours1.6.1 (TASK-052)
+
+softer-contours.html now compares local ignored compiled1.6.0 with actual compiled1.6.1. No softer-contours.css is loaded by the sample boot after integration. Palette/header fixtures remain shared; no WGR edits.

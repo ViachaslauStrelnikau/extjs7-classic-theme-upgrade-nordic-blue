@@ -1,6 +1,6 @@
 # Nordic Soft 1.6 — светлая многоуровневая шапка
 
-Отдельный пакет: `theme-nordic-blue-soft-contrast`, версия1.6.0. Имя сохранено от первоначального контрастного варианта; по одобренному отзыву пользователя заголовки теперь светлые. Наследование: theme-nordic-blue-soft-contrast → theme-nordic-blue-soft → theme-nordic-blue → theme-classic. SDK7.7.0.31, Cmd7.7.0.36. SDK7.9 не проверена.
+Отдельный пакет: `theme-nordic-blue-soft-contrast`, версия1.6.1. Имя сохранено от первоначального контрастного варианта; по одобренному отзыву пользователя заголовки теперь светлые. Наследование: theme-nordic-blue-soft-contrast → theme-nordic-blue-soft → theme-nordic-blue → theme-classic. SDK7.7.0.31, Cmd7.7.0.36. SDK7.9 не проверена.
 
 ## Установка
 
@@ -84,3 +84,9 @@ TASK-046:6сборок,3source lint,648approved resourceSHA в каждом вы
 Выбран вариант3: inactive tabs#b7cfea/border#648bbb, кнопки#eaf2ff/border#507fb9, hover#c7dfff/#356eae, pressed#a7c9f0/#245e9f. Panel headers#e4edf9, обычные field borders#829fc5. Active tab сохраняет#edf2f8, синюю рамку и3px акценты, тонкий focus без пунктира. CSS меняет только цвета; disabled/focus/invalid обработка сохранена.
 
 Заменить все3пакета и пересобрать приложение: NordicBlue1.0.2, Soft1.0.0, SoftContrast1.6.0. WGR не менялся. Для возврата Classic выбрать theme-classic и пересобрать. SDK7.7.0.31/Cmd7.7.0.36;6сборок/3source lint/648resourceSHAx6 и ручной compiled просмотр. Полная новая geometry/function/pixel/DPR/RTL/browser/motion регрессия не запускалась; отчёт TASK-050/report.md.
+
+## Обновление1.6.1 · Мягкие контуры
+
+Одобренное уточнение: обычные кнопки и inactive tabs имеют одинаковый фон#eaf2ff и спокойную границу#a6bad4. Hover#dce9fa/#7f9fc8, button pressed#c4daf4/#668cbb; inactive tab text#48627f. Active tab#edf2f8 и акценты3px/тонкий focus сохранены. Размеры/шрифты/spacing/JS/assets не менялись.
+
+Заменить все3пакета и rebuild: NordicBlue1.0.2, Soft1.0.0, SoftContrast1.6.1. WGR не менялся.6builds/3source lint/648resourceSHAx6 и ручной compiled просмотр; полной новой автоматической geometry/function/pixel/DPR/RTL/browser/motion регрессии нет. См. TASK-052/report.md.
