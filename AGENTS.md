@@ -255,3 +255,7 @@ User requests removing dotted label frame after tab click. Scoped candidate CSS 
 ## Thinner tab focus preview (TASK-045)
 
 User requests thinner focus indicator. Candidate top tabs use existing native1px border color for focus, removing extra inset1px focus frame. Active3px left/bottom accents and no dotted label frame retained. Scoped preview only; package1.4.1/SDK/WGR unchanged. Manual click/readback/screenshot TASK-045; no builds/automated/full acceptance. Await evaluation before integration. Commit/push completed preview as authorized.
+
+## Tab accents integrated (TASK-046, authoritative1.5.0)
+
+User requested build after TASK-043/044/045 preview refinements. Child1.5.0 adds native active top-tab3px#3275d6 left/bottom accents, native border-only thin focus, no dotted label pseudo outline. Preview attribute is not required in package; no own JS/geometry/fonts/assets. Parents NordicBlue1.0.2/Soft1.0.0 unchanged, WGR untouched. Exact decorative outline:none/source/approval hashes bound, no broad policy relaxation.6builds/3source lints/648imageSHAx6 and compiled native tab click/readback/screenshot PASS. Comparison uses local ignored old1.4.1 and actual current1.5.0 with no tab-accent.css. Source-only all3packages then rebuild. No full new automated geometry/function/pixel/DPR/RTL/browser/motion acceptance. Historical goldens immutable. See TASK-046/report.md. Commit/push completed tasks as authorized.

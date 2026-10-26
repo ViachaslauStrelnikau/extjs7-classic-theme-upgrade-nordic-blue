@@ -117,3 +117,12 @@ html:root .x-grid-item-selected .x-grid-cell-first { box-shadow:inset 3px 0 0 #3
 :root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-bar-strip-default{background-color:#edf2f8;border-color:#edf2f8}
 :root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active{background-color:#edf2f8}
 :root body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body{border-color:#edf2f8}
+
+/* TASK-046 approved tab paint: same 3px #3275d6 accent as panel/window headers. */
+html:root .x-tab-default-top.x-tab-active { box-shadow:inset 3px 0 0 #3275d6,inset 0 -3px 0 #3275d6; }
+/* TASK-045: a single native 1px border indicates focus; no extra inner frame. */
+html:root .x-tab-default-top.x-tab-focus { border-color:#3275d6; box-shadow:none; }
+html:root .x-tab-default-top.x-tab-active.x-tab-focus { box-shadow:inset 3px 0 0 #3275d6,inset 0 -3px 0 #3275d6; }
+
+/* TASK-044: remove the native dotted label outline; outer blue focus affordance remains. */
+html:root .x-tab-default-top.x-tab-focus .x-tab-button::before { outline:none; }

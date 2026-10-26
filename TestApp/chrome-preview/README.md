@@ -9,3 +9,7 @@ Fixture uses HBox toolbar with native overflow menu to keep actions on one row i
 ## Integrated1.4.0 (TASK-041)
 
 Approved proposal is now compiled into SoftContrast1.4.0. boot.js does not load unified.css. Current comparison retains local ignored build/theme-contrast-1.3.0/testing; regenerate an old version separately if unavailable. New card loads actual current compiled1.4.0. Classic still loads SDK Classic only. No WGR files changed. The fixture remains a structural study with simplified HBox/synthetic data, not full WGR acceptance.
+
+## Compiled tabs1.5.0 (TASK-046)
+
+Tab-accent comparison loads locally retained ignored build/theme-contrast-1.4.1/testing for before, current compiled1.5.0 for after. No tab-accent.css is loaded in these samples after integration. Preview CSS remains historical source. Root header/tab fixture unchanged; no WGR edits.

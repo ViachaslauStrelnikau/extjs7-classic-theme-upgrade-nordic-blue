@@ -1,0 +1,23 @@
+{
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/chrome-preview/sample-shell.css"
+  ],
+  "tabs": [
+    {
+      "border": "1px 1px 0px",
+      "classes": "x-tab x-unselectable x-box-item x-tab-default x-top x-tab-top x-tab-default-top",
+      "labelOutline": "none",
+      "shadow": "none",
+      "text": "Журнал СМГС"
+    },
+    {
+      "border": "1px 1px 0px",
+      "classes": "x-tab x-unselectable x-box-item x-tab-default x-top x-tab-top x-tab-default-top x-tab-over x-focus x-tab-focus x-tab-default-focus x-tab-active",
+      "labelOutline": "none",
+      "shadow": "rgb(50, 117, 214) 3px 0px 0px 0px inset, rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "text": "Инвойсы"
+    }
+  ]
+}
