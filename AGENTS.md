@@ -243,3 +243,7 @@ User approved TASK-040 and explicitly requested integration. SoftContrast1.4.0 a
 ## Button frame patch (TASK-042, authoritative1.4.1)
 
 User requests thinner clicked-button frame away from icon. Child1.4.1 removes extra inset focus shadow and changes existing1px outline offset from-3px to-1px to overlay native border. Native border widths/metrics/assets/behavior unchanged. Parents1.0.2/Soft1.0.0 unchanged; no WGR edits. Exact decorative rule/source/approval hashes updated, no broad property relaxation.6builds/3lints/648resourceSHAx6 and compiled native icon toggle click/readback PASS. No new full automated geometry/function/pixel/DPR/RTL/browser/motion acceptance. See TASK-042/report.md, source-only all3package handoff then rebuild. Commit/push completed task as authorized.
+
+## Active tab left accent preview (TASK-043)
+
+User requests preview of same3px blue vertical accent as panel/window headers. TestApp/chrome-preview/tab-accent.html compares compiled1.4.1 with scoped preview paint. Active top tab gets inset3px#3275d6 left, existing bottom underline and focus ring retained. Same native sample/configs; manual switch/readback/screenshot recorded TASK-043. No package/SDK/WGR changes or builds/automated/full acceptance. User has not yet evaluated this preview; integration separately after direction. Commit/push completed preview as authorized.

@@ -1,0 +1,19 @@
+{
+  "active": [
+    {
+      "height": 23,
+      "shadow": "rgb(50, 117, 214) 3px 0px 0px 0px inset, rgb(50, 117, 214) 0px -3px 0px 0px inset",
+      "text": "Журнал СМГС",
+      "width": 99.625
+    }
+  ],
+  "panel": [
+    "rgb(50, 117, 214) 3px 0px 0px 0px inset"
+  ],
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/chrome-preview/sample-shell.css",
+    "http://127.0.0.1:51754/chrome-preview/tab-accent.css"
+  ]
+}
