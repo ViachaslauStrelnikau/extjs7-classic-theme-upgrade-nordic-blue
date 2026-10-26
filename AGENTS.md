@@ -247,3 +247,7 @@ User requests thinner clicked-button frame away from icon. Child1.4.1 removes ex
 ## Active tab left accent preview (TASK-043)
 
 User requests preview of same3px blue vertical accent as panel/window headers. TestApp/chrome-preview/tab-accent.html compares compiled1.4.1 with scoped preview paint. Active top tab gets inset3px#3275d6 left, existing bottom underline and focus ring retained. Same native sample/configs; manual switch/readback/screenshot recorded TASK-043. No package/SDK/WGR changes or builds/automated/full acceptance. User has not yet evaluated this preview; integration separately after direction. Commit/push completed preview as authorized.
+
+## Tab label outline preview refinement (TASK-044)
+
+User requests removing dotted label frame after tab click. Scoped candidate CSS suppresses .x-tab-default-top.x-tab-focus .x-tab-button::before outline; native outer blue1px focus remains visible alongside3px active accents. No JS/metrics/package/SDK/WGR changes;1.4.1 remains production. Manual click/readback/screenshot TASK-044; no new builds/automated/full acceptance. Updated preview awaits evaluation; integrate separately after direction. Commit/push completed preview work as authorized.
