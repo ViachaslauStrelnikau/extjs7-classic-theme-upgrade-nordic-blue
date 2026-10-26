@@ -1,0 +1,62 @@
+/* TASK-047: preview paint only; no component metrics or semantic button classes. */
+html:root[data-palette="sky"] body.x-border-layout-ct { background-color:#e4edf8; }
+html:root[data-palette="sky"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+html:root[data-palette="sky"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top { background-color:#e4edf8; border-color:#e4edf8; }
+html:root[data-palette="sky"] .x-tab-bar-strip-default { background-color:#e4edf8; border-color:#e4edf8; }
+html:root[data-palette="sky"] .x-tab-default-top:not(.x-tab-active) { background-color:#ccdef4; border-color:#8eafd7; }
+html:root[data-palette="sky"] .x-tab-default-top:not(.x-tab-active) .x-tab-inner { color:#294f7b; }
+html:root[data-palette="sky"] .x-tab-default-top.x-tab-over:not(.x-tab-active) { background-color:#b9d2f2; border-color:#4f87cc; }
+html:root[data-palette="sky"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active { border-color:#3275d6; }
+html:root[data-palette="sky"] .x-tab-default-top.x-tab-active .x-tab-inner { color:#174f91; }
+html:root[data-palette="sky"] .x-btn-default-small:not(.x-btn-disabled),
+html:root[data-palette="sky"] .x-btn-default-toolbar-small:not(.x-btn-disabled) { background-color:#e4efff; border-color:#7da4d5; }
+html:root[data-palette="sky"] .x-btn-default-small.x-btn-over:not(.x-btn-disabled),
+html:root[data-palette="sky"] .x-btn-default-toolbar-small.x-btn-over:not(.x-btn-disabled) { background-color:#c8dfff; border-color:#4f87cc; }
+html:root[data-palette="sky"] .x-btn-default-small.x-btn-pressed:not(.x-btn-disabled),
+html:root[data-palette="sky"] .x-btn-default-toolbar-small.x-btn-pressed:not(.x-btn-disabled) { background-color:#aacbf4; border-color:#2c69b3; }
+html:root[data-palette="sky"] .x-btn-default-small.x-btn-focus:not(.x-btn-disabled),
+html:root[data-palette="sky"] .x-btn-default-toolbar-small.x-btn-focus:not(.x-btn-disabled) { border-color:#3275d6; }
+
+/* TASK-047: preview paint only; no component metrics or semantic button classes. */
+html:root[data-palette="nordic"] body.x-border-layout-ct { background-color:#e0eaf7; }
+html:root[data-palette="nordic"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+html:root[data-palette="nordic"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top { background-color:#e0eaf7; border-color:#e0eaf7; }
+html:root[data-palette="nordic"] .x-tab-bar-strip-default { background-color:#e0eaf7; border-color:#e0eaf7; }
+html:root[data-palette="nordic"] .x-tab-default-top:not(.x-tab-active) { background-color:#bfd5f1; border-color:#749acb; }
+html:root[data-palette="nordic"] .x-tab-default-top:not(.x-tab-active) .x-tab-inner { color:#234a78; }
+html:root[data-palette="nordic"] .x-tab-default-top.x-tab-over:not(.x-tab-active) { background-color:#accbf1; border-color:#3f7bc7; }
+html:root[data-palette="nordic"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active { border-color:#3275d6; }
+html:root[data-palette="nordic"] .x-tab-default-top.x-tab-active .x-tab-inner { color:#124b90; }
+html:root[data-palette="nordic"] .x-btn-default-small:not(.x-btn-disabled),
+html:root[data-palette="nordic"] .x-btn-default-toolbar-small:not(.x-btn-disabled) { background-color:#d8e9ff; border-color:#6493cc; }
+html:root[data-palette="nordic"] .x-btn-default-small.x-btn-over:not(.x-btn-disabled),
+html:root[data-palette="nordic"] .x-btn-default-toolbar-small.x-btn-over:not(.x-btn-disabled) { background-color:#bcd8ff; border-color:#3f7bc7; }
+html:root[data-palette="nordic"] .x-btn-default-small.x-btn-pressed:not(.x-btn-disabled),
+html:root[data-palette="nordic"] .x-btn-default-toolbar-small.x-btn-pressed:not(.x-btn-disabled) { background-color:#94bbef; border-color:#255fa8; }
+html:root[data-palette="nordic"] .x-btn-default-small.x-btn-focus:not(.x-btn-disabled),
+html:root[data-palette="nordic"] .x-btn-default-toolbar-small.x-btn-focus:not(.x-btn-disabled) { border-color:#3275d6; }
+
+html:root[data-palette="nordic"] .x-panel-header-default { background-color:#edf4fc; border-color:#99b6da; }
+html:root[data-palette="nordic"] .x-form-trigger-wrap-default:not(.x-form-trigger-wrap-focus):not(.x-form-trigger-wrap-invalid) { border-color:#99b6da; }
+
+/* TASK-047: preview paint only; no component metrics or semantic button classes. */
+html:root[data-palette="outline"] body.x-border-layout-ct { background-color:#e2eaf5; }
+html:root[data-palette="outline"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+html:root[data-palette="outline"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top { background-color:#e2eaf5; border-color:#e2eaf5; }
+html:root[data-palette="outline"] .x-tab-bar-strip-default { background-color:#e2eaf5; border-color:#e2eaf5; }
+html:root[data-palette="outline"] .x-tab-default-top:not(.x-tab-active) { background-color:#b7cfea; border-color:#648bbb; }
+html:root[data-palette="outline"] .x-tab-default-top:not(.x-tab-active) .x-tab-inner { color:#19436f; }
+html:root[data-palette="outline"] .x-tab-default-top.x-tab-over:not(.x-tab-active) { background-color:#a8c8ed; border-color:#356eae; }
+html:root[data-palette="outline"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active { border-color:#3275d6; }
+html:root[data-palette="outline"] .x-tab-default-top.x-tab-active .x-tab-inner { color:#12477f; }
+html:root[data-palette="outline"] .x-btn-default-small:not(.x-btn-disabled),
+html:root[data-palette="outline"] .x-btn-default-toolbar-small:not(.x-btn-disabled) { background-color:#eaf2ff; border-color:#507fb9; }
+html:root[data-palette="outline"] .x-btn-default-small.x-btn-over:not(.x-btn-disabled),
+html:root[data-palette="outline"] .x-btn-default-toolbar-small.x-btn-over:not(.x-btn-disabled) { background-color:#c7dfff; border-color:#356eae; }
+html:root[data-palette="outline"] .x-btn-default-small.x-btn-pressed:not(.x-btn-disabled),
+html:root[data-palette="outline"] .x-btn-default-toolbar-small.x-btn-pressed:not(.x-btn-disabled) { background-color:#a7c9f0; border-color:#245e9f; }
+html:root[data-palette="outline"] .x-btn-default-small.x-btn-focus:not(.x-btn-disabled),
+html:root[data-palette="outline"] .x-btn-default-toolbar-small.x-btn-focus:not(.x-btn-disabled) { border-color:#3275d6; }
+
+html:root[data-palette="outline"] .x-panel-header-default { background-color:#e4edf9; border-color:#829fc5; }
+html:root[data-palette="outline"] .x-form-trigger-wrap-default:not(.x-form-trigger-wrap-focus):not(.x-form-trigger-wrap-invalid) { border-color:#829fc5; }

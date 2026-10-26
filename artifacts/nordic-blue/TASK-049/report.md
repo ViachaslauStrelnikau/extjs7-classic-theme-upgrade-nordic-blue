@@ -1,0 +1,7 @@
+# TASK-049 — три более выразительных палитры
+
+По запросу пользователя palette.html показывает3варианта на одинаковом palette-sample.js:1«Чистый голубой» (усиленные голубые tabs/buttons, белые панели),2«Насыщенный Nordic» (насыщеннее заливки, голубоватые panel headers/контуры полей),3«Чёткие контуры» (светлые кнопки с более контрастной границей, уверенные inactive tabs). Цвета записаны в palettes.json; CSS palette-variants.css меняет только background-color/border-color/color. Native metrics/fonts/spacing/behavior не переопределены, semantic primary classes не назначаются. Disabled и focused/invalid fields сохраняют прежнюю обработку.
+
+Во всех вариантах active top-tab наследует прежний#edf2f8, не белый; рамка и акценты3px сохранены. Новое цветовое оформление полей/панелей показано только в2/3. Более ранний bright вариант и current по query продолжают работать. Старое comparison HTML сохранено как page-before.html.
+
+Ручной browser просмотр всех3реальных Ext7.7форм и DOM computed readback каждого варианта recorded computed-palettes.json, включая active background rgb(237,242,248). comparison.png — crop полного screenshot без масштабирования; оригинал comparison-full.png. Никаких новых сборок/автоматических тестов/полной functional/geometry/pixel/DPR/RTL/browser приёмки не выполнялось. Пакеты1.5.0/SDK/WGR неизменны. Дизайн показан для выбора; интеграция отдельно после направления пользователя.

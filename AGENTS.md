@@ -267,3 +267,7 @@ User restricts changes to theme and requested separate preview. TestApp/chrome-p
 ## Palette active-tab background refinement (TASK-048)
 
 User rejects white active-tab fill in palette preview. Candidate now inherits existing compiled1.5.0 active background#edf2f8 and uses blue#3275d6 border; native widths and existing accents/focus retained. Other candidate colors unchanged. Manual paint/screenshot TASK-048, no builds/tests/full acceptance. Production1.5.0/SDK/WGR unchanged; integrate separately after direction. Commit/push completed preview work as authorized.
+
+## Three stronger palette previews (TASK-049)
+
+User asks for3more expressive variants. palette.html displays sky/nordic/outline on identical palette-sample.js. Scoped palette-variants.css changes only background/border/text colors; variants2/3 also tint panel headers and ordinary nonfocus/noninvalid field borders. Active tab keeps inherited#edf2f8, existing blue border/3px accents; no white active fill. No semantic primary-role inference or component metric/JS changes. Manual3variant readbacks/screenshot TASK-049, no builds/automated/full acceptance. Production1.5.0/SDK/WGR unchanged. Await user choice before package integration. Commit/push completed preview as authorized.

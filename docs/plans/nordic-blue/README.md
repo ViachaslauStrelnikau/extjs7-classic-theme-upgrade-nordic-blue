@@ -102,3 +102,5 @@
 [TASK-047](tasks/TASK-047.md) — DONE как palette preview: отчётливые inactive tabs/buttons, одинаковая плотная native форма. Production1.5.0/WGR неизменны; оценка пользователя ожидается.
 
 [TASK-048](tasks/TASK-048.md) — DONE: active tab palette preview снова с прежним фоном#edf2f8, выделение синей рамкой. Пакеты/WGR неизменны.
+
+[TASK-049](tasks/TASK-049.md) — DONE как preview3палитр: Чистый голубой/Насыщенный Nordic/Чёткие контуры. Active фон сохранён; packages/WGR неизменны, выбор ожидается.
