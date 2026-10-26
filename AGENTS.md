@@ -251,3 +251,7 @@ User requests preview of same3px blue vertical accent as panel/window headers. T
 ## Tab label outline preview refinement (TASK-044)
 
 User requests removing dotted label frame after tab click. Scoped candidate CSS suppresses .x-tab-default-top.x-tab-focus .x-tab-button::before outline; native outer blue1px focus remains visible alongside3px active accents. No JS/metrics/package/SDK/WGR changes;1.4.1 remains production. Manual click/readback/screenshot TASK-044; no new builds/automated/full acceptance. Updated preview awaits evaluation; integrate separately after direction. Commit/push completed preview work as authorized.
+
+## Thinner tab focus preview (TASK-045)
+
+User requests thinner focus indicator. Candidate top tabs use existing native1px border color for focus, removing extra inset1px focus frame. Active3px left/bottom accents and no dotted label frame retained. Scoped preview only; package1.4.1/SDK/WGR unchanged. Manual click/readback/screenshot TASK-045; no builds/automated/full acceptance. Await evaluation before integration. Commit/push completed preview as authorized.

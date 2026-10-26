@@ -1,0 +1,6 @@
+/* TASK-043 preview only: same 3px #3275d6 accent as panel/window headers. */
+:root[data-tab-accent="left"] .x-tab-default-top.x-tab-active { box-shadow:inset 3px 0 0 #3275d6,inset 0 -3px 0 #3275d6; }
+:root[data-tab-accent="left"] .x-tab-default-top.x-tab-active.x-tab-focus { box-shadow:inset 3px 0 0 #3275d6,inset 0 -3px 0 #3275d6,inset 0 0 0 1px #3275d6; }
+
+/* TASK-044: remove the native dotted label outline; outer blue focus affordance remains. */
+:root[data-tab-accent="left"] .x-tab-default-top.x-tab-focus .x-tab-button::before { outline:none; }
