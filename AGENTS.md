@@ -263,3 +263,7 @@ User requested build after TASK-043/044/045 preview refinements. Child1.5.0 adds
 ## More expressive palette preview (TASK-047)
 
 User restricts changes to theme and requested separate preview. TestApp/chrome-preview/palette.html compares compiled1.5.0 with scoped color-only CSS on identical native dense form/tree/tab/grid fixture. Inactive tabs blue fill/clear border, active white, buttons stronger borders and hover/pressed fills. No primary-role inference/app changes; all buttons ordinary. Dimensions/fonts/spacing not overridden. Manual render/toggle/color readback/screenshot TASK-047; no builds/automated/full acceptance. Production packages/SDK/WGR unchanged. User has not yet evaluated preview; integration separately after direction. Commit/push completed work as authorized.
+
+## Palette active-tab background refinement (TASK-048)
+
+User rejects white active-tab fill in palette preview. Candidate now inherits existing compiled1.5.0 active background#edf2f8 and uses blue#3275d6 border; native widths and existing accents/focus retained. Other candidate colors unchanged. Manual paint/screenshot TASK-048, no builds/tests/full acceptance. Production1.5.0/SDK/WGR unchanged; integrate separately after direction. Commit/push completed preview work as authorized.
