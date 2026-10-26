@@ -1,0 +1,18 @@
+/* TASK-047: preview paint only; no component metrics or semantic button classes. */
+html:root[data-palette="bright"] body.x-border-layout-ct { background-color:#e7eef7; }
+html:root[data-palette="bright"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top,
+html:root[data-palette="bright"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-panel-body > .x-tabpanel-child > .x-panel-bodyWrap > .x-toolbar-docked-top { background-color:#e7eef7; border-color:#e7eef7; }
+html:root[data-palette="bright"] .x-tab-bar-strip-default { background-color:#e7eef7; border-color:#e7eef7; }
+html:root[data-palette="bright"] .x-tab-default-top:not(.x-tab-active) { background-color:#d8e5f5; border-color:#adc3df; }
+html:root[data-palette="bright"] .x-tab-default-top:not(.x-tab-active) .x-tab-inner { color:#365779; }
+html:root[data-palette="bright"] .x-tab-default-top.x-tab-over:not(.x-tab-active) { background-color:#c8dcf4; border-color:#6397d6; }
+html:root[data-palette="bright"] body.x-border-layout-ct > .x-panel > .x-panel-bodyWrap > .x-tab-bar-default-top .x-tab-active { background-color:#fff; border-color:#adc3df; }
+html:root[data-palette="bright"] .x-tab-default-top.x-tab-active .x-tab-inner { color:#174f91; }
+html:root[data-palette="bright"] .x-btn-default-small:not(.x-btn-disabled),
+html:root[data-palette="bright"] .x-btn-default-toolbar-small:not(.x-btn-disabled) { background-color:#edf4fd; border-color:#9db9dc; }
+html:root[data-palette="bright"] .x-btn-default-small.x-btn-over:not(.x-btn-disabled),
+html:root[data-palette="bright"] .x-btn-default-toolbar-small.x-btn-over:not(.x-btn-disabled) { background-color:#d7e8ff; border-color:#6397d6; }
+html:root[data-palette="bright"] .x-btn-default-small.x-btn-pressed:not(.x-btn-disabled),
+html:root[data-palette="bright"] .x-btn-default-toolbar-small.x-btn-pressed:not(.x-btn-disabled) { background-color:#bdd7f7; border-color:#3979c5; }
+html:root[data-palette="bright"] .x-btn-default-small.x-btn-focus:not(.x-btn-disabled),
+html:root[data-palette="bright"] .x-btn-default-toolbar-small.x-btn-focus:not(.x-btn-disabled) { border-color:#3275d6; }

@@ -98,3 +98,5 @@
 [TASK-045](tasks/TASK-045.md) — DONE: preview фокуса вкладки только native1px border без дополнительной внутренней рамки. Акценты3px сохранены; пакеты/WGR не менялись.
 
 [TASK-046](tasks/TASK-046.md) — DONE: одобренные вкладки включены в child1.5.0;6builds/3lints/648SHAx6 и compiled click. Parents/WGR неизменны; source-only поставка, без полной новой регрессии.
+
+[TASK-047](tasks/TASK-047.md) — DONE как palette preview: отчётливые inactive tabs/buttons, одинаковая плотная native форма. Production1.5.0/WGR неизменны; оценка пользователя ожидается.

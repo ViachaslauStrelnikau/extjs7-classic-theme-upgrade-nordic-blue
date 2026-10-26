@@ -1,0 +1,74 @@
+{
+  "body": "rgb(231, 238, 247)",
+  "buttons": [
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Пользователь"
+    },
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Справка"
+    },
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Сохранить"
+    },
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Печать"
+    },
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Действия"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "rgb(217, 226, 237)",
+      "text": "Недоступно"
+    },
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Изменить"
+    },
+    {
+      "background": "rgb(237, 244, 253)",
+      "border": "rgb(157, 185, 220)",
+      "text": "Выбрать из справочника"
+    }
+  ],
+  "styles": [
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_1.css",
+    "http://127.0.0.1:51754/build/theme-contrast/testing/resources/NordicThemeLab-all_2.css",
+    "http://127.0.0.1:51754/chrome-preview/sample-shell.css",
+    "http://127.0.0.1:51754/chrome-preview/palette.css"
+  ],
+  "tabs": [
+    {
+      "active": true,
+      "background": "rgb(255, 255, 255)",
+      "border": "rgb(173, 195, 223)",
+      "text": "Накладная",
+      "textColor": "rgb(23, 79, 145)"
+    },
+    {
+      "active": false,
+      "background": "rgb(216, 229, 245)",
+      "border": "rgb(173, 195, 223)",
+      "text": "Инвойс",
+      "textColor": "rgb(54, 87, 121)"
+    },
+    {
+      "active": false,
+      "background": "rgb(216, 229, 245)",
+      "border": "rgb(173, 195, 223)",
+      "text": "Справочник",
+      "textColor": "rgb(54, 87, 121)"
+    }
+  ]
+}
