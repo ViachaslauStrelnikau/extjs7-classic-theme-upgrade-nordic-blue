@@ -162,3 +162,15 @@ html:root .x-btn-default-small.x-btn-pressed:not(.x-btn-disabled),
 html:root .x-btn-default-toolbar-small.x-btn-pressed:not(.x-btn-disabled) { background-color:#c4daf4; border-color:#668cbb; }
 html:root .x-btn-default-small.x-btn-focus:not(.x-btn-disabled),
 html:root .x-btn-default-toolbar-small.x-btn-focus:not(.x-btn-disabled) { border-color:#3275d6; }
+
+/* TASK-053: approved native-like field treatment and quiet bottom actions surface. */
+html:root .x-form-item-default.x-item-disabled { opacity:0.6; }
+html:root .x-panel:not(.x-grid) > .x-panel-bodyWrap > .x-toolbar-docked-bottom {
+  background-color:#e6eef8;
+  background-image:none;
+  box-shadow:inset 0 1px 0 #b9cbe0;
+}
+html:root .x-panel:not(.x-grid) > .x-panel-bodyWrap > .x-toolbar-docked-bottom .x-btn:not(.x-btn-disabled):not(.x-btn-over):not(.x-btn-pressed):not(.x-btn-focus) {
+  background-color:#e0ebfa;
+  border-color:#91accf;
+}

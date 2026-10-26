@@ -1,0 +1,16 @@
+{
+  "newPaint": "Disabled item opacity adjusted per user-approved preview; approved bottom toolbar paint retained.",
+  "policy": "Exact task-053 state visibility and bottom toolbar paint rules approved from candidate v6; no metrics, fonts, assets or runtime behavior changes.",
+  "rules": [
+    ":root .x-grid-item .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }",
+    ":root .x-btn-focus { outline:1px solid #2159a6; outline-offset:-1px; }",
+    "/* One uninterrupted 1px separator across grouped and row-spanning headers. */\n:root .x-grid-header-ct::after { content:\"\"; position:absolute; left:0; right:0; bottom:0; height:1px; background-color:#9db8d9; pointer-events:none; z-index:5; }",
+    "html:root .x-grid-cell-focused { outline:none; }",
+    "/* Keyboard focus remains a separate, single-cell affordance; selection itself has no frame. */\nhtml:root .x-keyboard-mode .x-grid-cell-focused { outline:1px solid #2159a6; outline-offset:-3px; }",
+    "html:root .x-tab-default-top.x-tab-focus .x-tab-button::before { outline:none; }",
+    "/* TASK-053: approved native-like field treatment and quiet bottom actions surface. */\nhtml:root .x-form-item-default.x-item-disabled { opacity:0.6; }",
+    "html:root .x-panel:not(.x-grid) > .x-panel-bodyWrap > .x-toolbar-docked-bottom {\n  background-color:#e6eef8;\n  background-image:none;\n  box-shadow:inset 0 1px 0 #b9cbe0;\n}",
+    "html:root .x-panel:not(.x-grid) > .x-panel-bodyWrap > .x-toolbar-docked-bottom .x-btn:not(.x-btn-disabled):not(.x-btn-over):not(.x-btn-pressed):not(.x-btn-focus) {\n  background-color:#e0ebfa;\n  border-color:#91accf;\n}"
+  ],
+  "componentSha256": "03f38fbd7a64a506486c65db8d78509fcb129f5f804581d10d68d4f9f8b0f7a4"
+}

@@ -1,0 +1,13 @@
+{
+  "previewSha256": "d82c8f6ed32451389e383fa1d897ff8f8b26dbc09924ce4d0152b343c1f4b531",
+  "decisions": [
+    "Restore field backgrounds and text to inherited Nordic Soft appearance.",
+    "Raise disabled form item opacity from inherited 0.3 to 0.6, as approved in the preview.",
+    "Retain approved pale bottom actions toolbar and its thin separator."
+  ],
+  "scope": "Contrast theme package only; original TestApp app.json, parent packages, SDK and WGR unchanged.",
+  "version": "1.6.2",
+  "theme": "theme-nordic-blue-soft-contrast",
+  "request": "Отлично. Собери тему",
+  "preview": "readonly-footer candidate v6"
+}

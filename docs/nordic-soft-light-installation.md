@@ -90,3 +90,7 @@ TASK-046:6сборок,3source lint,648approved resourceSHA в каждом вы
 Одобренное уточнение: обычные кнопки и inactive tabs имеют одинаковый фон#eaf2ff и спокойную границу#a6bad4. Hover#dce9fa/#7f9fc8, button pressed#c4daf4/#668cbb; inactive tab text#48627f. Active tab#edf2f8 и акценты3px/тонкий focus сохранены. Размеры/шрифты/spacing/JS/assets не менялись.
 
 Заменить все3пакета и rebuild: NordicBlue1.0.2, Soft1.0.0, SoftContrast1.6.1. WGR не менялся.6builds/3source lint/648resourceSHAx6 и ручной compiled просмотр; полной новой автоматической geometry/function/pixel/DPR/RTL/browser/motion регрессии нет. См. TASK-052/report.md.
+
+## Обновление1.6.2 · исходные поля и читаемость недоступного
+
+После одобрения v6 поля используют унаследованное оформление Nordic Soft; opacity disabled form item повышена с0.3 до0.6. Нижняя панель действий сохраняет одобренный спокойный фон и тонкий разделитель. Версия отдельного contrast-пакета1.6.2; родительские пакеты1.0.2/1.0.0, TestApp/app.json и WGR не менялись. SDK7.7.0.31/Cmd7.7.0.36. Contrast-lab testing build и оба линтера PASS; compiled CSS проверен на наличие правил. Полная новая приёмка не выполнялась. См. artifacts/nordic-blue/TASK-053/report.md.
